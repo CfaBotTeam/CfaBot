@@ -1,5 +1,25 @@
 <problems>
     <problem>
+        <question>Question block created by wizard You have 180 minutes to complete this session. Linda Chin, CFA, is a member of a political group advocating less governmental regulation in all aspects of life. She works in a country where local securities laws are minimal and insider trading is not prohibited. Chin ' s politics are reflected in her investment strategy, where she follows her country ' s mandatory legal and regulatory requirements. Which of the following actions by Chin would be most consistent with the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Continuing her current investment strategy</choice>
+            <choice>B. Following the CFA Institute Standards of Professional Conduct</choice>
+            <choice>C. Disclosing her political advocacy to clients</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>" Guidance for Standards I - VII, " CFA Institute Standard I ( A ): Knowledge of the Law, Standard II ( A ): Material Nonpublic Information Standard I ( A ): Knowledge of the Law requires members and candidates to comply with the more strict law, rules, or regulations and follow the highest requirement, which in this case would be the CFA Institute Standards of Professional Conduct. Standard II ( A ): Material Nonpublic Information would also apply because members and candidates who possess material nonpublic information that could affect the value of an investment must not act or cause others to act on the information. Disclosure that she meets local mandatory legal requirements — versus the more strict law, rules, or regulations mandate of the Standards of Professional Conduct — would not excuse the member from following the Standards of Professional Conduct.</comments>
+    </problem>
+    <problem>
+        <question>Colleen O ' Neil, CFA, manages a private investment fund with a balanced global investment mandate. Her clients insist that her personal investment portfolio replicate the investments within their portfolios to assure them she is willing to put her own money at risk. By undertaking which of the following simultaneous investment actions for her own portfolio would O ' Neil most likely be in violation of Standard VI ( B ): Priority of Transactions?</question>
+        <choices>
+            <choice>A. Sale of a listed US blue chip value stock</choice>
+            <choice>B. Purchase of a UK government bond in the primary market</choice>
+            <choice>C. Participation in a popular frontier market IPO</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>" Guidance for Standards I - VII, " CFA Institute Standard VI ( B ): Priority of Transactions Standard VI ( B ): Priority of Transactions dictates members and candidates give their clients and employer priority when making personal investment transactions. Even when clients allow or insist the manager invest alongside them, the manager ' s transactions must never adversely affect the interests of the clients. A popular or " hot " IPO in a frontier market is likely to be oversubscribed. In such cases, Standard VI ( B ) dictates that the manager should not participate in this event to better ensure clients will have a higher probability of getting their full subscription allotment, even though clients have allowed or dictated that she participate alongside them.</comments>
+    </problem>
+    <problem>
         <question>3. Millicent Plain has just finished taking Level II of the CFA examination. Upon leaving the examination site, she meets with four Level III candidates who also just sat for their exams. Curious about their examination experience, Plain asks the candidates how difficult the Level III exam was and how they did on it. The candidates say the essay portion of the examination was much harder than they had expected and that they were not able to complete all questions as a result. The candidates go on to tell Plain about broad topic areas that were tested and complain about specific formulas they had memorized that did not appear on the exam. The Level III candidates least likely violated the CFA Institute Standards of Professional Conduct by discussing:</question>
         <choices>
             <choice>A. specific formulas.</choice>
@@ -74,7 +94,17 @@
             <choice>C. Presenting himself to the public as a CFA charterholder</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments>" Code of Ethics and Standards of Professional Conduct, " CFA Institute Code of Ethics and Standards of Professional Conduct, CFA Institute Professional Conduct Program The Designated Officer may impose a summary suspension on a member or candidate that may be rejected or accepted by the member or candidate. If the member or candidate does not accept the proposed sanction, the matter is referred to a hearing panel composed of Disciplinary Review Committee ( DRC ) members and CFA Institute member volunteers affiliated with the DRC. In this case, the hearing panel also affirmed the suspension decision by the Designated Officer, and therefore, the member loses the right to use his designation for a one - year period. Upon expiration of the suspension period, the analyst would be able to use his CFA designation.</comments>
+        <comments> therefore, the member loses the right to use his designation for a one - year period. Upon expiration of the suspension period, the analyst would be able to use his CFA designation.</comments>
+    </problem>
+    <problem>
+        <question>10. Tamlorn Mager, CFA, is an analyst at Pyallup Portfolio Management. CFA Institute recently notified Mager that his CFA Institute membership was suspended for a year because he violated the CFA Institute Code of Ethics. A hearing panel also came to the same conclusion. Mager subsequently notified CFA Institute that he does not accept the sanction or the hearing panel ' s conclusion. Which of the following actions by Mager would be most consistent with the CFA Institute Professional Conduct Program?</question>
+        <choices>
+            <choice>A. Providing evidence for his position to an outside arbitration panel</choice>
+            <choice>B. Using his CFA designation upon expiration of the suspension period</choice>
+            <choice>C. Presenting himself to the public as a CFA charterholder</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments> therefore, the member loses the right to use his designation for a one - year period. Upon expiration of the suspension period, the analyst would be able to use his CFA designation.</comments>
     </problem>
     <problem>
         <question>11. Elbie Botha, CFA, an equity research analyst at an investment bank, disagrees with her research team ' s buy recommendation for a particular company ' s rights issue. She acknowledges the team ' s recommendation is based on a well - developed process and extensive research, but she feels the valuation is overpriced based on her assumptions. Despite her contrarian view, her name is included on the research report to be distributed to all of the investment bank ' s clients. To avoid violating any CFA Institute Standards of Professional Conduct, it would be least appropriate for Botha to undertake which of the following?</question>
@@ -94,17 +124,7 @@
             <choice>C. the analyst.</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>12. Thomas Turkman recently hired Georgia Viggen, CFA, as a portfolio manager for North South Bank. Although Viggen worked many years for a competitor, West Star Bank, the move was straightforward because she did not have a non - compete agreement with her previous employer. Once Viggen starts working for Turkman, the first thing she does is bring to her new employer a trading software package she developed and used at West Star. Using public information, Viggen contacts all of her former clients to convince them to move with her to North South. Viggen also convinces one of the analysts she worked with at West Star to join her at her new employer. Viggen most likely violated the CFA Institute Standards of Professional Conduct concerning her actions involving:</question>
-        <choices>
-            <choice>A. clients.</choice>
-            <choice>B. trading software.</choice>
-            <choice>C. the analyst.</choice>
-        </choices>
-        <answer>Answer = B</answer>
-        <comments />
+        <comments>" Guidance for Standards I - VII, " CFA Institute Standard IV ( A ): Loyalty The portfolio manager violated Standard IV ( A ): Loyalty by taking proprietary trading software from her former employer. Although the manager created the software, it was during a period of time when she was employed at West Star, so the software is not her property to take with her to her new employer. The member contacted clients using public information, so she did not violate Standard IV ( A ): Loyalty. Because Viggen was not obligated to abide by a non - compete agreement that would likely restrict recruitment of former colleagues, Viggen is most likely free to recruit the analyst from her former employer.</comments>
     </problem>
     <problem>
         <question>13. Lisa Hajak, CFA, specialized in research on real estate companies at Cornerstone Country Bank for 20 years. Hajak recently started her own investment research firm, Hajak Investment Advisory. One of her former clients at Cornerstone asks Hajak to update a research report she wrote on a real estate company when she was at Cornerstone. Hajak updates the report, which she had copied to her personal computer without the bank ' s knowledge, and replaces references to the bank with her new firm, Hajak Investment Advisory. Hajak also incorporates the conclusions of a real estate study conducted by the Realtors Association that appeared in the Wall Street Journal. She cites the Wall Street Journal as her source in her report. She provides the revised report free of charge along with a cover letter for the bank ' s client to become a client of her firm. Concerning the reissued research report, Hajak least likely violated the CFA Institute Standards of Professional Conduct because she:</question>
@@ -184,7 +204,17 @@
             <choice>C. 15 %</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments>“ Capital Budgeting, ” John D. Stowe and Jacques R. Gagné Sections 4. 1, 4. 7 The NPV at 15 % is $ 99. 93. The NPV at 10 % is - $ 0. 01. The NPV at 8 % is - $ 307. 59.</comments>
+        <comments />
+    </problem>
+    <problem>
+        <question>20. A project has the following annual cash flows: Year o Year 1 Year 2 Year 3 Year 4 - $ 4, 662, 005 $ 22, 610, 723 - $ 41, 072, 261 $ 33, 116, 550 - $ 10, 000, 000 Which of the following discount rates most likely produces the highest net present value ( NPV )?</question>
+        <choices>
+            <choice>A. 8 %</choice>
+            <choice>B. 10 %</choice>
+            <choice>C. 15 %</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments />
     </problem>
     <problem>
         <question>21. Which action is most likely considered a secondary source of liquidity?</question>
@@ -214,17 +244,7 @@
             <choice>C. Using statements made by the company ' s management regarding capital structure policy</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>23. Which of the following is the least appropriate method for an external analyst to use to estimate a company ' s target capital structure for determining the weighted average cost of capital ( WACC )?</question>
-        <choices>
-            <choice>A. Using averages of comparable companies ' capital structure</choice>
-            <choice>B. Using the company ' s current capital structure at book value weights</choice>
-            <choice>C. Using statements made by the company ' s management regarding capital structure policy</choice>
-        </choices>
-        <answer>Answer = B</answer>
-        <comments />
+        <comments>" Cost of Capital, ” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2. 2 An external analyst does not know a company ' s actual target capital structure. Consequently, the analyst should rely on market value ( not book value ) weights for the components of the company ' s current capital structure.</comments>
     </problem>
     <problem>
         <question>24. Based on best practices in corporate governance procedures, it is most appropriate for a company ' s compensation committee to:</question>
@@ -248,7 +268,17 @@
         <comments>" Financial Analysis Techniques, " Thomas R. Robinson, Jan Hendrik van Greuning, Elaine Henry, and Michael A. Broihahn Section 4. 3. 2 " Working Capital Management, " Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Section 2. 2 Payables are not part of the operating cycle calculation, which includes receivables and inventory.</comments>
     </problem>
     <problem>
-        <question>C. 24. 9. Answer = B “ Financial Analysis Techniques, " Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4. 2. 2 " Working Capital Management, " Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Section 7. 3 = The number of days of payables = Accounts payable Accounts payable ( Purchases / 365 ) [ ( Ainventory + COGS ) / 365 ] $ 600 - - = 23. 8 [ ( $ 1, 200 — $ 1, 000 + $ 9000 ) / 365 ] 27. Which of the following statements is the most appropriate treatment of flotation costs for capital budgeting purposes? Flotation costs should be:</question>
+        <question>26. Assume a 365 - day year and the following information for a company: Current Year Previous Year Sales $ 12, 000 $ 10, 000 Cost of goods sold $ 9, 000 $ 7, 500 Inventory $ 1, 200 $ 1, 000 Accounts payable $ 600 $ 600 The firm ' s days of payables for the current year is closest to:</question>
+        <choices>
+            <choice>A. 18. 3.</choice>
+            <choice>B. 23. 8.</choice>
+            <choice>C. 24. 9.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>“ Financial Analysis Techniques, " Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4. 2. 2 " Working Capital Management, " Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Section 7. 3 = The number of days of payables = Accounts payable Accounts payable ( Purchases / 365 ) [ ( Ainventory + COGS ) / 365 ] $ 600 - - = 23. 8</comments>
+    </problem>
+    <problem>
+        <question>[ ( $ 1, 200 — $ 1, 000 + $ 9000 ) / 365 ] 27. Which of the following statements is the most appropriate treatment of flotation costs for capital budgeting purposes? Flotation costs should be:</question>
         <choices>
             <choice>A. incorporated into the estimated cost of capital.</choice>
             <choice>B. expensed in the current period.</choice>
@@ -313,7 +343,17 @@
             <choice>C. an increase in capital gains tax rates.</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments>“ Monetary and Fiscal Policy, " Andrew Clare and Stephen Thomas Sections 3. 1. 1, 3. 1. 2, 3. 1. 3 Expansionary policy increases government borrowing, which may divert private sector investment from taking place, which results in an effect known ascrowding out. Increases in capital gains tax rates and increases in public spending are forms of contractionary fiscal policy; they serve as automatic stabilizers and thus do not coincide with discretionary fiscal expansion.</comments>
+        <comments />
+    </problem>
+    <problem>
+        <question>33. An expansionary fiscal policy is most likely associated with:</question>
+        <choices>
+            <choice>A. an increase in government spending on social insurance and benefits.</choice>
+            <choice>B. crowding out of private investments.</choice>
+            <choice>C. an increase in capital gains tax rates.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments />
     </problem>
     <problem>
         <question>34. Which of the following would be most useful as a leading indicator to signal the start of an economic recovery?</question>
@@ -405,24 +445,24 @@
         <comments>“ Income Taxes, " Elbie Antonites and Michael A. Broihahn Sections 2. 2, 7 The different treatment for tax purposes and financial reporting purposes is a temporary difference and would create a deferred tax liability. Deferred tax liabilities should be classified as debt if they are expected to reverse with subsequent tax payments. The long history of profitability implies the company will likely be paying taxes in the following years, and hence an analyst could reasonably expect the temporary difference to reverse. Under IFRS, all deferred tax liabilities are non - current.</comments>
     </problem>
     <problem>
-        <question>C. 2, 400. Answer = A " Non - Current ( Long - Term ) Liabilities, " Elizabeth A. Gordon and Elaine Henry Section 4 The pension expense would be the sum of the expense for the defined contribution plan and the defined benefit plan as follows: Plan Expense Components under US GAAP Thousands 1, 000 Defined contribution plan Contributions Defined benefit plan Employee service costs 1, 400 200 Interest expense accrued on beginning pension obligation Less expected ROA on plan assets ( 400 ) 2, 200 Total Expense 45. A company purchased equipment for $ 50, 000 on 1 January 2011. It is depreciating the equipment over a period of 10 years on a straight - line basis for accounting purposes, but for tax purposes it is using the declining balance method at a rate of 20 %. Given a tax rate of 30 %, the deferred tax liability at the end of 2013 is closest to:</question>
+        <question>44. The following information is available from a company ' s current financial data, prepared according to US GAAP: $ Thousands Defined Contribution Plan: Contributions to defined contribution plan 1, 000 Defined Benefit Plan: | Contributions to defined benefit plan 1, 500 Employees ' service cost for the period 1, 400 Interest expense accrued on the beginning pension obligation 200 Expected return on plan assets 400 Actuarial gains for the period 100 The pension expense ( in $ thousands ) reported in the current year is closest to:</question>
         <choices>
-            <choice>A. $ 6, 720.</choice>
-            <choice>B. $ 420.</choice>
-            <choice>C. $ 2, 820.</choice>
+            <choice>A. 2, 200.</choice>
+            <choice>B. 2, 500.</choice>
+            <choice>C. 2, 400.</choice>
         </choices>
-        <answer>Answer = C</answer>
-        <comments> The deferred tax liability is equal to the Tax rate x Temporary difference between the carrying amount of the asset and the tax base. Value for accounting purposes after three years 50, 000 – [ 3 x ( 50, 000 / 10 ) ] = $ 35, 00 0 50, 000 x 0. 8 x 0. 8 x 0. 8 = 25, 600 Value for tax purposes: Carrying amount = Start of year balance x ( 1 –</comments>
+        <answer>Answer = A</answer>
+        <comments>" Non - Current ( Long - Term ) Liabilities, " Elizabeth A. Gordon and Elaine Henry Section 4 The pension expense would be the sum of the expense for the defined contribution plan and the defined benefit plan as follows: Plan Expense Components under US GAAP Thousands 1, 000 Defined contribution plan Contributions Defined benefit plan Employee service costs 1, 400 200</comments>
     </problem>
     <problem>
-        <question>C. 2, 400. Answer = A " Non - Current ( Long - Term ) Liabilities, " Elizabeth A. Gordon and Elaine Henry Section 4 The pension expense would be the sum of the expense for the defined contribution plan and the defined benefit plan as follows: Plan Expense Components under US GAAP Thousands 1, 000 Defined contribution plan Contributions Defined benefit plan Employee service costs 1, 400 200 Interest expense accrued on beginning pension obligation Less expected ROA on plan assets ( 400 ) 2, 200 Total Expense 45. A company purchased equipment for $ 50, 000 on 1 January 2011. It is depreciating the equipment over a period of 10 years on a straight - line basis for accounting purposes, but for tax purposes it is using the declining balance method at a rate of 20 %. Given a tax rate of 30 %, the deferred tax liability at the end of 2013 is closest to:</question>
+        <question>Interest expense accrued on beginning pension obligation Less expected ROA on plan assets ( 400 ) 2, 200 Total Expense 45. A company purchased equipment for $ 50, 000 on 1 January 2011. It is depreciating the equipment over a period of 10 years on a straight - line basis for accounting purposes, but for tax purposes it is using the declining balance method at a rate of 20 %. Given a tax rate of 30 %, the deferred tax liability at the end of 2013 is closest to:</question>
         <choices>
             <choice>A. $ 6, 720.</choice>
             <choice>B. $ 420.</choice>
             <choice>C. $ 2, 820.</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments> The deferred tax liability is equal to the Tax rate x Temporary difference between the carrying amount of the asset and the tax base. Value for accounting purposes after three years 50, 000 – [ 3 x ( 50, 000 / 10 ) ] = $ 35, 00 0 50, 000 x 0. 8 x 0. 8 x 0. 8 = 25, 600 Value for tax purposes: Carrying amount = Start of year balance x ( 1 –</comments>
+        <comments>“ Income Taxes, " Elbie Antonites and Michael A. Broihahn Section 2. 2 The deferred tax liability is equal to the Tax rate x Temporary difference between the carrying amount of the asset and the tax base. Value for accounting purposes after three years 50, 000 – [ 3 x ( 50, 000 / 10 ) ] = $ 35, 00 0 50, 000 x 0. 8 x 0. 8 x 0. 8 = 25, 600 Value for tax purposes: Carrying amount = Start of year balance x ( 1 –</comments>
     </problem>
     <problem>
         <question>0. 20 ) After three years: Temporary difference Deferred tax liability at 30 %: 9, 400 $ 2, 820 30 % x 9, 400 = 46. Under the IFRS Framework for the Preparation and Presentation of Financial Statements, it is most appropriate to recognize a financial statement element in the financial statements if it:</question>
@@ -495,7 +535,17 @@
         <comments>“ Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Sections 5. 2, 5. 3 Under US GAAP, the earthquake would qualify as an extraordinary item because it is both unusual in nature and infrequent in occurrence. Extraordinary items are reported on the income statement net of tax.</comments>
     </problem>
     <problem>
-        <question>C. 70, 000. Answer = B " Long - lived Assets, " Elaine Henry and Elizabeth A. Gordon Section 5. 1 Under IFRS, an asset is considered to be impaired when its carrying amount exceeds its recoverable amount ( the higher of fair value less cost to sell or value in use ). Fair value less costs to sell: 480, 000 – 50, 000 = 430, 000 Value in use = 440, 000 Recoverable amount ( higher value of the above two amounts ) = 440, 000 Impairment loss under IFRS = Carrying value ( net book value ) – recoverable amount Impairment loss = 500, 000 – 440, 000 = C $ 60, 000 54. If a non - financial company securitizes its accounts receivable for less than their book value, the most likely effect on the financial statements is to increase:</question>
+        <question>53. A Canadian printing company that prepares its financial statements according to IFRS has experienced a decline in the demand for its products. The following information ( in Canadian dollars ) relates to the company ' s printing equipment as of the current fiscal year end: CS Carrying value of equipment ( net book value ) 500, 000 Undiscounted expected future cash flows 550, 000 Present value of expected future cash flows 450, 000 Fair value 480, 000 50, 000 Costs to sell Value in use 440, 000 The impairment loss ( in C $ ) is closest to:</question>
+        <choices>
+            <choice>A. 0.</choice>
+            <choice>B. 60, 000.</choice>
+            <choice>C. 70, 000.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>" Long - lived Assets, " Elaine Henry and Elizabeth A. Gordon Section 5. 1 Under IFRS, an asset is considered to be impaired when its carrying amount exceeds its recoverable amount ( the higher of fair value less cost to sell or value in use ). Fair value less costs to sell: 480, 000 – 50, 000 = 430, 000 Value in use = 440, 000 Recoverable amount ( higher value of the above two amounts ) = 440, 000 Impairment loss under IFRS = Carrying value ( net book value ) – recoverable amount Impairment loss = 500, 000 – 440, 000 = C $ 60, 000</comments>
+    </problem>
+    <problem>
+        <question>54. If a non - financial company securitizes its accounts receivable for less than their book value, the most likely effect on the financial statements is to increase:</question>
         <choices>
             <choice>A. cash from operations.</choice>
             <choice>B. net income.</choice>
@@ -512,17 +562,7 @@
             <choice>C. interim reports.</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>55. Updated information on a company ' s performance and financial position since the last annual report is most likely found in:</question>
-        <choices>
-            <choice>A. management discussion and analysis.</choice>
-            <choice>B. proxy statements.</choice>
-            <choice>C. interim reports.</choice>
-        </choices>
-        <answer>Answer = C</answer>
-        <comments />
+        <comments>“ Financial Statement Analysis: An Introduction, " Elaine Henry and Thomas R. Robinson Sections 3. 1. 6, 3. 2 Interim reports, either quarterly or semi - annual, contain updated information on a company ' s performance and financial position since the last annual report.</comments>
     </problem>
     <problem>
         <question>56. An analyst has calculated the following ratios for a company: Operating profit margin. 17. 5 % | Net profit margin 11. 7 % Total asset turnover 0. 89 times Return on assets ( ROA ) 10. 4 % Financial leverage 1. 46 | Debt to equity 0. 46 The company ' s return on equity ( ROE ) is closest to:</question>
@@ -590,17 +630,7 @@
             <choice>C. $ 800, 000.</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>62. A company has operated at full capacity throughout the year, and a review of its inventory records for that period indicate that the following costs were incurred: Fixed production overhead $ 500, 000 Direct material and direct labor $ 300, 000 Storage costs incurred during production $ 25, 000 | Abnormal waste costs $ 30, 000 The total capitalized costs to inventory during the year are closest to:</question>
-        <choices>
-            <choice>A. $ 855, 000.</choice>
-            <choice>B. $ 825, 000.</choice>
-            <choice>C. $ 800, 000.</choice>
-        </choices>
-        <answer>Answer = B</answer>
-        <comments />
+        <comments>“ Inventories, ” Michael A. Broihahn Section 2 The total capitalized costs include fixed production costs, the direct conversion costs of material and labor, and storage costs required as part of production. They do not, however, include abnormal waste costs. $ 500, 000 + $ 300, 000 + $ 25, 000 = $ 825, 000.</comments>
     </problem>
     <problem>
         <question>63. A company ' s balance sheet at the end of the year shows the following: Current Assets Cash and cash equivalents $ 2, 950 Marketable securities 730 Notes and accounts receivable, trade 5, 740 Less allowance for doubtful accounts and sales returns | ( 650 ) Inventories 1, 320 Other current assets 1, 850 Total current assets $ 11, 940 Current Liabilities Accounts payable and other accrued liabilities $ 5, 100 Current portion of borrowings 1, 820 Other current liabilities 2, 560 Total current liabilities $ 9, 480 The company ' s quick ratio is closest to:</question>
@@ -659,7 +689,17 @@
             <choice>C. 21.</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments>" Statistical Concepts and Market Returns, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 6. 1 The observations, when ranked from smallest to largest, are: - 11, - 5, 8, 9, 18, 20, 20, 21, 25, and 35. The fourth quintile ( 80th percentile ) is the eighth largest of these ordered numbers. The eighth largest number is 21.</comments>
+        <comments> The observations, when ranked from smallest to largest, are: - 11, - 5, 8, 9, 18, 20, 20, 21, 25, and 35. The fourth quintile ( 80th percentile ) is the eighth largest of these ordered numbers. The eighth largest number is 21.</comments>
+    </problem>
+    <problem>
+        <question>70. The following 10 observations are a sample drawn from a normal population: 25, 20, 18, - 5, 35, 21, - 11, 8, 20, and 9. The fourth quintile ( 80th percentile ) of the sample is closest to:</question>
+        <choices>
+            <choice>A. 8.</choice>
+            <choice>B. 24.</choice>
+            <choice>C. 21.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments> The observations, when ranked from smallest to largest, are: - 11, - 5, 8, 9, 18, 20, 20, 21, 25, and 35. The fourth quintile ( 80th percentile ) is the eighth largest of these ordered numbers. The eighth largest number is 21.</comments>
     </problem>
     <problem>
         <question>71. A fund manager would like to estimate the probability of a daily loss higher than 5 % on the fund he manages. He decides to use a method that uses the relative frequency of occurrence based on historical data. The resulting probability is best described as a ( n ):</question>
@@ -678,16 +718,7 @@
             <choice>A. efficiency. consistency. unbiasedness.</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>72. In generating an estimate of a population parameter, a larger sample size is most likely to improve the estimator ' s:</question>
-        <choices>
-            <choice>B.</choice>
-            <choice>A. efficiency. consistency. unbiasedness.</choice>
-        </choices>
-        <answer>Answer = B</answer>
-        <comments />
+        <comments>" Sampling and Estimation, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4. 1 A consistent estimator is one for which the probability of estimates close to the value of the population parameter increases as the sample size increases. Unbiasedness and efficiency are properties of an estimator ' s sampling distribution that hold for any size sample.</comments>
     </problem>
     <problem>
         <question>73. The following is an excerpt from the cumulative distribution function for the standard normal random variable table: Cumulative Probabilities for a Standard Normal Distribution P ( Z &lt; x ) = N ( x ) for x &gt; 0 or P ( Z &lt; z ) = N ( z ) for z2 0 x or z b. 01 0. 02 b. 03 b. 04 b. 05 b. 06 b. 07 0. 08 0. 10 b. 5398 b. 5438 b. 5478 b. 5517 6. 5557 b. 5596 b. 5636 b. 5675 b. 5714 | 0. 20 b. 5793 b. 5832 b. 5871. b. 5910 b. 5948 b. 5987 b. 6026 b. 6064 b. 6103 0. 30 b. 6179 b. 6217 b. 6255 b. 6293 b. 6331. b. 6368 b. 6406 b. 6443 b. 6480 0. 40 b. 6554 b. 6591 b. 6628 b. 6664 b. 6700 b. 6736 b. 6772 b. 6808 b. 6844 1. 10 b. 8643 b. 8665 b. 8686 b. 8708 b. 8729 b. 8749 b. 8770 b. 8790 b. 8810 1. 20 b. 8849 b. 8869 b. 8888 b. 8907 b. 8925 b. 8944 b. 8962 b. 8980 b. 8997 | 1. 30 b. 9032 b. 9049 b. 9066 b. 9082 b. 9099 b. 91 15 b. 9131 b. 9147 b. 9162 1. 40 b. 9192 b. 9207 b. 9222 b. 9236 b. 9251 b. 9265 b. 9279 b. 9292 b. 9306 1. 80 b. 9641 b. 9649 b. 9656 b. 9664 b. 9671. b. 9678 b. 9686 b. 9693 b. 9699 | 1. 90 b. 9713 b. 97 19 b. 9726 b. 9732 b. 9738 b. 9744 b. 9750 b. 9756 b. 9761 2. 00 b. 9772 b. 9778 b. 9783 b. 9788 b. 9793 b. 9798 b. 9803 b. 9808 b. 9812 2. 10 b. 9821 b. 9826 b. 9830 b. 9834 b. 9838 b. 9842 b. 9846 b. 9850 b. 9854 A variable is normally distributed with a mean of 2. 00 and a variance of 16. 00. Using the excerpt, the probability of observing a value of 7. 40 or less is closest to:</question>
@@ -773,7 +804,17 @@
             <choice>C. when its time value is zero.</choice>
         </choices>
         <answer />
-        <comments>C. = A " Option Markets and Contracts, " Don M. Chance Section 5. 1 An out - of - the - money option will have an intrinsic value of zero at all times.</comments>
+        <comments> " Option Markets and Contracts, " Don M. Chance Section 5. 1 An out - of - the - money option will have an intrinsic value of zero at all times.</comments>
+    </problem>
+    <problem>
+        <question>81. The intrinsic value of an option is always zero:</question>
+        <choices>
+            <choice>A. when it is out of the money.</choice>
+            <choice>B. at expiration.</choice>
+            <choice>C. when its time value is zero.</choice>
+        </choices>
+        <answer />
+        <comments> " Option Markets and Contracts, " Don M. Chance Section 5. 1 An out - of - the - money option will have an intrinsic value of zero at all times.</comments>
     </problem>
     <problem>
         <question>82. An investor has purchased a share of stock for $ 190. A call option on this stock, expiring in seven months and with an exercise price of $ 200, is priced at $ 11. 40. If the investor enters into a covered call now, the profit on this strategy if the stock price at expiration is $ 215 is closest to:</question>
@@ -802,17 +843,7 @@
             <choice>C. swap.</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments> A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three - month LIBOR, at least four payments will be made during the year.</comments>
-    </problem>
-    <problem>
-        <question>84. A corporation issues five - year fixed - rate bonds. Its treasurer expects interest rates to decline for all maturities for at least the next year. She enters into a one - year agreement with a bank to receive quarterly fixed - rate payments and to make payments based on floating rates benchmarked on three month LIBOR. This agreement is best described as a:</question>
-        <choices>
-            <choice>A. futures contract.</choice>
-            <choice>B. forward contract.</choice>
-            <choice>C. swap.</choice>
-        </choices>
-        <answer>Answer = C</answer>
-        <comments> A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three - month LIBOR, at least four payments will be made during the year.</comments>
+        <comments>“ Derivative Markets and Instruments, " Don M. Chance Section 4. 1 A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three - month LIBOR, at least four payments will be made during the year.</comments>
     </problem>
     <problem>
         <question>85. When purchasing a futures contract, the initial margin requirement is best described as the:</question>
@@ -853,7 +884,16 @@
         <comments>" Market Organization and Structure, " Larry Harris Sections 6. 1, 8. 2. 2. 1 The limit buy order will be filled first with the most aggressively priced limit sell order and will be followed by filling with the higher priced limit sell orders that are needed up to and including the limit buy price until the order is filled. Average price = [ ( 200 x $ 20. 20 ) + ( 300 x $ 20. 35 ) + ( 200 x $ 20. 50 ) ] / 700 = $ 20. 35.</comments>
     </problem>
     <problem>
-        <question>B. $ 34. 62. $ 37. 94. Answer = A “ Equity Valuation: Concepts and Basic Tools, " John J. Nagorniak and Stephen E. Wilcox Section 4. 2 V % = Do ( 1 + g ) / ( r - g ), where Sustainable growth rate = g = bx ROE; b = ( 1 - Payout ratio ) g = ( 1 – 0. 45 ) x 15 % = 8. 25 %; V % = ( $ 3 x 1. 0825 ) + ( 0. 16 – 0. 0825 ) = $ 41. 90. 90. The following information is available about a company: Next year ' s sales revenue $ 180 million Next year ' s net profit margin 15 % Dividend payout ratio 60 % Dividend growth rate expected during Years 2 and 3 25 % Dividend growth rate expected after Year 3 5 % Investors ' required rate of return 12 % Number of outstanding shares 8. 1 million The current value per share of the company ' s common stock according to the two - stage dividend discount model is closest to:</question>
+        <question>89. The following data pertain to a company that can be appropriately valued using the Gordon growth model. The dividend is expected to grow indefinitely at the existing sustainable growth rate. EPS growth rate ( three - year average ) 7. 50 % Current dividend per share $ 3. 00 Return on equity 15 % Dividend payout ratio 45 % Investors ' required rate of return 16 % The stock ' s intrinsic value is closest to:</question>
+        <choices>
+            <choice>A. $ 41. 90.</choice>
+            <choice>B. $ 34. 62. $ 37. 94.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>“ Equity Valuation: Concepts and Basic Tools, " John J. Nagorniak and Stephen E. Wilcox Section 4. 2 V % = Do ( 1 + g ) / ( r - g ), where Sustainable growth rate = g = bx ROE; b = ( 1 - Payout ratio ) g = ( 1 – 0. 45 ) x 15 % = 8. 25 %; V % = ( $ 3 x 1. 0825 ) + ( 0. 16 – 0. 0825 ) = $ 41. 90.</comments>
+    </problem>
+    <problem>
+        <question>90. The following information is available about a company: Next year ' s sales revenue $ 180 million Next year ' s net profit margin 15 % Dividend payout ratio 60 % Dividend growth rate expected during Years 2 and 3 25 % Dividend growth rate expected after Year 3 5 % Investors ' required rate of return 12 % Number of outstanding shares 8. 1 million The current value per share of the company ' s common stock according to the two - stage dividend discount model is closest to:</question>
         <choices>
             <choice>A. $ 52. 86.</choice>
             <choice>B. $ 49. 20.</choice>
@@ -870,7 +910,17 @@
             <choice>C. Do not invest in the stock.</choice>
         </choices>
         <answer>Answer = C</answer>
-        <comments>“ Cost of Capital, " Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 3. 3 " Overview of Equity Securities, " Ryan C. Fuhrmann and Asjeet S. Lamba Section 7 A company ' s cost of equity is often used as a proxy for the investor ' s minimum required rate of return because it is the minimum expected rate of return that a company must offer its investors to purchase its shares in the primary market and to maintain its share price in the secondary market. Using the CAPM, the company ' s cost of equity = 3. 50 % + 1. 80 ( 5. 25 % ) = 12. 95 %. Comparing this result with the fund manager ' s required rate of return of 13. 60 %, the fund manager should not invest in the stock.</comments>
+        <comments />
+    </problem>
+    <problem>
+        <question>91. A fund manager gathers the following data to assess a stock ' s potential for a possible addition to her portfolio: Company ' s net income $ 20 million Company ' s equity at the beginning of the year $ 140 million | Company ' s weighted average cost of capital ( WACC ). 10. 75 % Stock ' s beta 1. 80 Market risk premium 5. 25 % Risk - free rate 3. 50 % Fund manager ' s required rate of return 13. 60 % Which of the following is the most appropriate decision for the fund manager?</question>
+        <choices>
+            <choice>A. Invest in the stock because the required rate of return is greater than the company ' s WACC.</choice>
+            <choice>B. Invest in the stock because the company ' s ROE is greater than the required rate of return.</choice>
+            <choice>C. Do not invest in the stock.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments />
     </problem>
     <problem>
         <question>92. Returns from a depository receipt are least likely affected by which of the following factors?</question>
@@ -897,15 +947,7 @@
             <choice>A. an opportunity to receive additional dividends if the company ' s profits exceed a pre - specified level. less price volatility than the underlying common shares. preference dividends that are fixed contractual obligations of the company.</choice>
         </choices>
         <answer>Answer = B</answer>
-        <comments />
-    </problem>
-    <problem>
-        <question>94. The advantages to an investor owning convertible preference shares of a company most likely include:</question>
-        <choices>
-            <choice>A. an opportunity to receive additional dividends if the company ' s profits exceed a pre - specified level. less price volatility than the underlying common shares. preference dividends that are fixed contractual obligations of the company.</choice>
-        </choices>
-        <answer>Answer = B</answer>
-        <comments />
+        <comments>" Overview of Equity Securities, " Ryan C. Fuhrmann and Asjeet S. Lamba Section 3. 2 Convertible preference shares tend to exhibit less price volatility than the underlying common shares because the dividend payments are known and more stable.</comments>
     </problem>
     <problem>
         <question>95. An investor who wants to estimate the enterprise value multiple ( EV / EBITDA ) of a company has gathered the following data: Market value ( MV ) of debt $ 10 million Market capitalization $ 45 million Cash and short - term investments $ 2. 5 million EBITDA $ 15 million Firm ' s marginal tax rate 40 % The company ' s EV / EBITDA multiple is closest to:</question>
@@ -1004,7 +1046,17 @@
             <choice>C. callable bond.</choice>
         </choices>
         <answer>Answer = A</answer>
-        <comments>" Understanding Fixed - Income Risk and Return, " James F. Adams and Donald J. Smith Section 2 There are no interim cash flows for a zero - coupon bond until the maturity.</comments>
+        <comments />
+    </problem>
+    <problem>
+        <question>104. An investor is least likely exposed to reinvestment risk from owning a ( n ):</question>
+        <choices>
+            <choice>A. zero - coupon bond.</choice>
+            <choice>B. amortizing security.</choice>
+            <choice>C. callable bond.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
     </problem>
     <problem>
         <question>105. Which bonds most likely rank the highest with respect to priority of claims?</question>
@@ -1163,6 +1215,16 @@
             <choice>C. 6. 9 %.</choice>
         </choices>
         <answer />
-        <comments>C. 3 " Portfolio Risk and Return : Part II , " Vijay Singal Section 3 . 2 . 6 E ( RGBK ) = R + BGBK X [ E ( RMK1 ) – R ; ] = 0 . 03 + 0 . 65 X ( 0 . 09 – 0 . 03 ) = 0 . 069 or 6 . 9 % .</comments>
+        <comments> 3 " Portfolio Risk and Return : Part II , " Vijay Singal Section 3 . 2 . 6 E ( RGBK ) = R + BGBK X [ E ( RMK1 ) – R ; ] = 0 . 03 + 0 . 65 X ( 0 . 09 – 0 . 03 ) = 0 . 069 or 6 . 9 % .</comments>
+    </problem>
+    <problem>
+        <question>120. The stock of GBK Corporation has a beta of 0. 65. If the risk - free rate of return is 3 % and the expected market return is 9 %, the expected return for GBK is closest to:</question>
+        <choices>
+            <choice>A. 10. 8 %.</choice>
+            <choice>B. 3. 9 %.</choice>
+            <choice>C. 6. 9 %.</choice>
+        </choices>
+        <answer />
+        <comments> 3 " Portfolio Risk and Return : Part II , " Vijay Singal Section 3 . 2 . 6 E ( RGBK ) = R + BGBK X [ E ( RMK1 ) – R ; ] = 0 . 03 + 0 . 65 X ( 0 . 09 – 0 . 03 ) = 0 . 069 or 6 . 9 % .</comments>
     </problem>
 </problems>
