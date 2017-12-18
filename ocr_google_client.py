@@ -76,55 +76,65 @@ class ParsingContext:
         self.current_new_line_x = 0
         self.last_3_words_x_start_pos_ = LastWordsXPositions(3)
 
-    def end_problem(self):
+    def end_problem(self, nb_lookup=0, with_comments=True):
         if self.current_problem_ is None or \
            self.current_problem_.is_empty():
             return
-        self.end_comments()
+        if with_comments:
+            self.end_comments(nb_lookup)
+        else:
+            self.current_problem_.set_comments("")
         self.problems_.append(self.current_problem_)
 
-    def start_new_problem(self):
-        self.end_problem()
+    def start_new_problem(self, nb_lookup, end_previous_comments=True):
+        self.end_problem(nb_lookup, with_comments=end_previous_comments)
         self.current_problem_ = Problem()
         self.mode_ = ParsingMode.QUESTION
 
-    def strip_header(self, text):
-        return text.replace(self.header_, '')
-
-    def set_header(self, reference):
-        self.header_ = reference.strip()
+    def join_sentences(self, sentence1, sentence2):
+        sentence1 = sentence1.strip()
+        sentence2 = sentence2.strip()
+        if len(sentence2) == 0:
+            return sentence1
+        first_character = sentence2[0]
+        if first_character in self.SENTENCE_ENDINGS:
+            return sentence1 + sentence2
+        return sentence1 + " " + sentence2
 
     def start_new_choice(self):
         # We don't take the last 2 words because they have already been parsed but represent the words '[A-D]' and '.'
         # used to detect the beginning of the choices section
-        current_indicator = self.get_current_text(minus_at_the_end=3, use_minus_for_start=True).replace(' ', '')
-        current_text = self.pop_current_text(minus_at_the_end=3).strip()
+        current_indicator = self.get_current_text(minus_at_the_end=2, use_minus_for_start=True)
+        current_text = self.pop_current_text(minus_at_the_end=2).strip()
+        if self.mode_ < ParsingMode.QUESTION:
+            # Should not happen but sometimes the stupid OCR does not recognises question start
+            self.start_new_problem(nb_lookup=0, end_previous_comments=False)
         if self.mode_ == ParsingMode.QUESTION:
-            question = self.strip_header(current_text)
+            question = current_text
             if len(self.previous_indicator_) > 0:
-                question = self.previous_indicator_ + " " + question
+                question = self.join_sentences(self.previous_indicator_, question)
             self.current_problem_.set_question(question)
             self.mode_ = ParsingMode.CHOICES
         else:
-            self.current_problem_.add_choice(self.previous_indicator_ + ' ' + current_text)
+            self.current_problem_.add_choice(self.join_sentences(self.previous_indicator_, current_text))
         self.previous_indicator_ = current_indicator
 
     def end_choices(self):
         # We don't take the Answer keyword
         choice_text = self.pop_current_text(minus_at_the_end=1)
-        self.current_problem_.add_choice(self.previous_indicator_ + ' ' + choice_text)
+        self.current_problem_.add_choice(self.join_sentences(self.previous_indicator_, choice_text))
         self.mode_ = ParsingMode.ANSWER
 
     def end_answer(self):
         self.previous_indicator_ = self.get_current_text(minus_at_the_end=1, use_minus_for_start=True)
         answer = self.pop_current_text(minus_at_the_end=1)
-        self.current_problem_.set_answer("Answer " + answer.strip())
+        self.current_problem_.set_answer(self.join_sentences("Answer", answer.strip()))
         self.mode_ = ParsingMode.COMMENTS
 
-    def end_comments(self):
-        current_indicator = self.get_current_text(minus_at_the_end=3, use_minus_for_start=True).replace(' ', '')
-        comments = self.pop_current_text(minus_at_the_end=3)
-        self.current_problem_.set_comments(self.previous_indicator_ + comments.strip())
+    def end_comments(self, nb_lookup):
+        current_indicator = self.get_current_text(minus_at_the_end=nb_lookup, use_minus_for_start=True)
+        comments = self.pop_current_text(minus_at_the_end=nb_lookup)
+        self.current_problem_.set_comments(self.join_sentences(self.previous_indicator_, comments.strip()))
         self.mode_ = ParsingMode.NONE
         self.previous_indicator_ = current_indicator
 
@@ -190,6 +200,11 @@ class ParsingContext:
     def currently_ending_a_sentence(self):
         return self.last_character_ in self.SENTENCE_ENDINGS
 
+    def remove_previous_word_separator(self):
+        length = len(self.current_full_text_array_)
+        if length >= 2 and self.current_full_text_array_[length - 2] == ' ':
+            self.current_full_text_array_.pop(length - 2)
+
     def last_word_is_a_number(self):
         return re.match("^\d+$", self.last_full_word_) is not None
 
@@ -219,9 +234,12 @@ class ParsingContext:
     def current_word_equals(self, word):
         return self.current_full_word_ == word
 
+    def set_header(self, header):
+        self.header_ = header
+
     def header_set(self):
         current_text = self.get_current_text()
-        if self.header_ == current_text:
+        if current_text.replace(' ', '') == self.header_.replace(' ', ''):
             self.pop_current_text()
             self.restore_previous_text()
             return True
@@ -245,7 +263,7 @@ class CfaProblemsBuilder:
         with io.open(path, 'rb') as image_file:
             return image_file.read()
 
-    def build_problems(self, image_paths):
+    def build_problems(self, image_paths, last_call):
         requests = []
         for image_path in image_paths:
             requests.append({
@@ -253,15 +271,15 @@ class CfaProblemsBuilder:
                 'features': [{'type': vision.enums.Feature.Type.DOCUMENT_TEXT_DETECTION}]
             })
         response = self.client_.batch_annotate_images(requests)
-        self.parse_responses(zip(response.responses, image_paths))
-        self.context_.end_problem()
+        self.parse_responses(response.responses)
+        if last_call:
+            self.context_.end_problem()
         return self.context_.get_problems()
 
     def parse_responses(self, responses):
         for response in responses:
             self.context_.start_new_image()
-            if not self.parse_annotations(response[0].full_text_annotation):
-                print("Unable to parse page: " + response[1])
+            self.parse_annotations(response.full_text_annotation)
 
     def is_weird_case_of_question_number_not_ordered(self, page):
         # Sometimes, the question number is returned by the OCR as the first block
@@ -269,7 +287,7 @@ class CfaProblemsBuilder:
         # In such a case we ignore the first block
         first_block_y = page.blocks[0].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
         next_block_y = page.blocks[1].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
-        if first_block_y < next_block_y:
+        if first_block_y <= next_block_y:
             return False
         text = ''
         first_word = page.blocks[0].paragraphs[0].words[0]
@@ -290,9 +308,8 @@ class CfaProblemsBuilder:
             if self.context_.is_in_mode(ParsingMode.HEADER):
                 self.parse_header(blocks_iter)
             if should_start_problem:
-                self.context_.start_new_problem()
+                self.context_.start_new_problem(0)
             self.parse_words(blocks_iter)
-        return True
 
     def get_page_iterator(self, block_start, page):
         # we always skip the last block of the page which corresponds to the page number
@@ -326,22 +343,23 @@ class CfaProblemsBuilder:
     def check_comment_end(self):
         if self.context_.is_in_mode(ParsingMode.COMMENTS) and \
            self.context_.new_line_indented_backward():
-            self.context_.start_new_problem()
+            self.context_.start_new_problem(1)
 
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
+            if self.context_.currently_ending_a_sentence():
+                self.context_.remove_previous_word_separator()
             self.check_answer_end()
             self.check_choices_end()
             self.check_comment_end()
             if self.context_.current_word_is_dot() and \
                self.context_.last_word_was_on_a_new_line():
                 if self.context_.last_word_is_a_number():
-                    self.context_.start_new_problem()
+                    self.context_.start_new_problem(2)
                 elif self.context_.last_word_is_a_choice():
                     self.context_.start_new_choice()
-            elif not self.context_.currently_ending_a_sentence():
-                self.context_.add_word_separator()
+            self.context_.add_word_separator()
 
     def parse_word(self, word):
         for symbol in word.symbols:
@@ -397,12 +415,40 @@ class ProblemsWriter:
         vkb.xml(pretty_xml_text, to_path)
 
 
-resolver = FilePathResolver('2014', 'afternoon')
-jpeg_filepaths = resolver.resolve_sorted_paths()
+def build_problems_by_chunck(builder, filepaths):
+    start = 1
+    end = len(filepaths)
+    while start < end:
+        temp_end = start + 5
+        if temp_end > end:
+            temp_end = end
+        problems = builder.build_problems(filepaths[start:temp_end], temp_end < end)
+        start = temp_end
+    return problems
 
-builder = CfaProblemsBuilder()
-builder.set_header("7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388")
-problems = builder.build_problems([jpeg_filepaths[1]])
 
-writer = ProblemsWriter()
-writer.write_problems(resolver.get_xml_result_file(), problems)
+def handle_2014_afternoon():
+    resolver = FilePathResolver('2014', 'afternoon')
+    jpeg_filepaths = resolver.resolve_sorted_paths()
+
+    builder = CfaProblemsBuilder()
+    builder.set_header("7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388")
+    problems = build_problems_by_chunck(builder, jpeg_filepaths)
+
+    writer = ProblemsWriter()
+    writer.write_problems(resolver.get_xml_result_file(), problems)
+
+
+def handle_2014_morning():
+    resolver = FilePathResolver('2014', 'morning')
+    jpeg_filepaths = resolver.resolve_sorted_paths()
+
+    builder = CfaProblemsBuilder()
+    builder.set_header("| 3172168919041893 March Mock Exam - AM 399388")
+    problems = build_problems_by_chunck(builder, jpeg_filepaths)
+
+    writer = ProblemsWriter()
+    writer.write_problems(resolver.get_xml_result_file(), problems)
+
+#handle_2014_afternoon()
+handle_2014_morning()
