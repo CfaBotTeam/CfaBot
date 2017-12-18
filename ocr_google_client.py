@@ -6,6 +6,7 @@ from google.cloud import vision
 import pandas as pd
 from xml.etree import ElementTree as ET
 import vkbeautify as vkb
+import math
 
 
 class Problem:
@@ -69,7 +70,7 @@ class ParsingContext:
         self.current_full_word_ = ''
         self.last_full_word_ = ''
         self.previous_indicator_ = ''
-        self.headers_ = []
+        self.headers_ = None
         self.previous_page_text_array_ = []
         self.header_set_ = False
         self.last_new_line_x = 0
@@ -150,12 +151,19 @@ class ParsingContext:
             self.current_new_line_x = start_x
 
     def start_new_image(self):
+        if self.headers_ is None:
+            return
+        # When in header mode we need to:
+        # 1) save the current text
+        # 2) Remove the header
+        # 3) Restore the text
+        # Here we proceed step 1
         self.mode_ = ParsingMode.HEADER
         self.save_current_text()
         self.pop_current_text()
 
-    def new_line_indented_backward(self):
-        return self.last_new_line_x - self.current_new_line_x > 20
+    def new_line_indentation_has_changed(self):
+        return math.fabs(self.last_new_line_x - self.current_new_line_x) > 15
 
     def get_current_text(self, minus_at_the_end=0, use_minus_for_start=False):
         length = len(self.current_full_text_array_)
@@ -239,24 +247,21 @@ class ParsingContext:
 
     def header_set(self):
         current_text = self.get_current_text().replace(' ', '')
-        if current_text in self.headers_:
-            self.pop_current_text()
-            self.restore_previous_text()
-            return True
-        return False
+        return current_text in self.headers_
 
     def get_problems(self):
         return self.problems_
 
 
 class CfaProblemsBuilder:
-    def __init__(self):
+    def __init__(self, headers=None, nb_blocks_footer=1):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/abiarnes/Documents/Lessons/Fil_Rouge/CfaBot/Keys/CfaBot-ServiceKey-Adrien.json"
         self.client_ = vision.ImageAnnotatorClient()
         self.context_ = ParsingContext()
-
-    def set_headers(self, headers):
-        self.context_.set_headers(headers)
+        if headers is not None:
+            self.context_.set_headers(headers)
+        self.nb_blocks_footer_ = nb_blocks_footer
+        self.current_image_path_ = ''
 
     @staticmethod
     def load_image(path):
@@ -271,49 +276,51 @@ class CfaProblemsBuilder:
                 'features': [{'type': vision.enums.Feature.Type.DOCUMENT_TEXT_DETECTION}]
             })
         response = self.client_.batch_annotate_images(requests)
-        self.parse_responses(response.responses)
+        self.parse_responses(zip(response.responses, image_paths))
         if last_call:
             self.context_.end_problem()
         return self.context_.get_problems()
 
     def parse_responses(self, responses):
-        for response in responses:
+        for response, image_path in responses:
+            self.current_image_path_ = image_path
             self.context_.start_new_image()
             self.parse_annotations(response.full_text_annotation)
 
-    def is_weird_case_of_question_number_not_ordered(self, page):
-        # Sometimes, the question number is returned by the OCR as the first block
-        # where the first block should always be the header
-        # In such a case we ignore the first block
-        first_block_y = page.blocks[0].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
-        next_block_y = page.blocks[1].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
-        if first_block_y <= next_block_y:
-            return False
-        text = ''
-        first_word = page.blocks[0].paragraphs[0].words[0]
-        for symbol in first_word.symbols:
-            text += symbol.text
-        if re.match("^\d+$", text) is None:
-            raise Exception('Case not handled yet')
-        return True
+    # def is_weird_case_of_question_number_not_ordered(self, page):
+    #     # Sometimes, the question number is returned by the OCR as the first block
+    #     # where the first block should always be the header
+    #     # In such a case we ignore the first block
+    #     first_block_y = page.blocks[0].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
+    #     next_block_y = page.blocks[1].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
+    #     if first_block_y <= next_block_y:
+    #         return False
+    #     text = ''
+    #     first_word = page.blocks[0].paragraphs[0].words[0]
+    #     for symbol in first_word.symbols:
+    #         text += symbol.text
+    #     if re.match("^\d+$", text) is None:
+    #         raise Exception('Case not handled yet in ' + self.current_image_path_ + ", text = " + text)
+    #     return True
+
+    # def handle_special_question_case(self, page):
+    #     if not self.is_weird_case_of_question_number_not_ordered(page):
+    #         return 0, False
+    #     return 1, True
 
     def parse_annotations(self, annotations):
         for page in annotations.pages:
-            block_start = 0
-            should_start_problem = False
-            if self.is_weird_case_of_question_number_not_ordered(page):
-                block_start = 1
-                should_start_problem = True
-            blocks_iter = self.get_page_iterator(block_start, page)
+            # block_start, should_start_problem = self.handle_special_question_case(page)
+            blocks_iter = self.get_page_iterator(0, page)
             if self.context_.is_in_mode(ParsingMode.HEADER):
                 self.parse_header(blocks_iter)
-            if should_start_problem:
-                self.context_.start_new_problem(0)
+            # if should_start_problem:
+            #     self.context_.start_new_problem(0)
             self.parse_words(blocks_iter)
 
     def get_page_iterator(self, block_start, page):
-        # we always skip the last block of the page which corresponds to the page number
-        blocks = page.blocks[block_start:len(page.blocks) - 1]
+        # we always skip the last blocks of the page which corresponds to the footer
+        blocks = page.blocks[block_start:len(page.blocks) - self.nb_blocks_footer_]
         return iter(self.get_next_word_from_blocks(blocks))
 
     def get_next_word_from_blocks(self, blocks):
@@ -326,6 +333,8 @@ class CfaProblemsBuilder:
         for word in blocks_iter:
             self.parse_word(word)
             if self.context_.header_set():
+                self.context_.pop_current_text()
+                self.context_.restore_previous_text()
                 break
             self.context_.add_word_separator()
 
@@ -342,7 +351,7 @@ class CfaProblemsBuilder:
 
     def check_comment_end(self):
         if self.context_.is_in_mode(ParsingMode.COMMENTS) and \
-           self.context_.new_line_indented_backward():
+           self.context_.new_line_indentation_has_changed():
             self.context_.start_new_problem(1)
 
     def parse_words(self, blocks_iter):
@@ -422,17 +431,17 @@ def build_problems_by_chunck(builder, filepaths):
         temp_end = start + 5
         if temp_end > end:
             temp_end = end
-        problems = builder.build_problems(filepaths[start:temp_end], temp_end < end)
+        problems = builder.build_problems(filepaths[start:temp_end], temp_end <= end)
         start = temp_end
     return problems
 
 
-def resolve_build_and_write(year, day_part, headers):
+def resolve_build_and_write(year, day_part, headers=None, skip_nb_page=0, nb_blocks_footer=1):
     resolver = FilePathResolver(year, day_part)
     jpeg_filepaths = resolver.resolve_sorted_paths()
+    jpeg_filepaths = jpeg_filepaths[skip_nb_page:]
 
-    builder = CfaProblemsBuilder()
-    builder.set_headers(headers)
+    builder = CfaProblemsBuilder(headers=headers, nb_blocks_footer=nb_blocks_footer)
     problems = build_problems_by_chunck(builder, jpeg_filepaths)
 
     writer = ProblemsWriter()
@@ -453,5 +462,11 @@ def resolve_build_and_write(year, day_part, headers):
 # resolve_build_and_write('2015', 'afternoon', headers)
 
 # 2015 morning
-headers = ['2015 Level I Mock Exam AM Questions and Answers']
-resolve_build_and_write('2015', 'morning', headers)
+# headers = ['2015 Level I Mock Exam AM Questions and Answers']
+# resolve_build_and_write('2015', 'morning', headers)
+
+# 2017 afternoon
+# resolve_build_and_write('2017', 'morning', skip_nb_page=1, nb_blocks_footer=2)
+
+# 2017 afternoon
+resolve_build_and_write('2017', 'afternoon', skip_nb_page=1, nb_blocks_footer=2)

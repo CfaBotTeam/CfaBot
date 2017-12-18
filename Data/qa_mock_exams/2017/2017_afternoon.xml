@@ -31,8 +31,1238 @@
     </problem>
     <problem>
         <question>Who Benefits from Compliance? Monique Gretta, CFA, is a research analyst at East West Investment Bank. Previously, Gretta worked at a mutual fund management company and has a long - standing client relationship with the managers of the funds and their institutional investors. Gretta often provides fund managers, who work for Gretta ' s former employer, with draft copies of her research before disseminating the information to all of the bank ' s clients. This practice has helped Gretta avoid several errors in her reports, and she believes it is beneficial to the bank ' s clients, even though they are not aware of this practice. Regarding her research, Gretta least likely violated the CFA Institute Standards of Professional Conduct because:</question>
-        <choices />
+        <choices>
+            <choice>A. the long - standing client relationships are not disclosed.</choice>
+            <choice>B. this practice benefits all clients.</choice>
+            <choice>C. her report is a draft.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The analyst does not violate any of the Standards of Professional Conduct by having long - standing client relationships and generally is not required to disclose such relationships. However, the analyst is not treating all clients fairly as required by Standard II ( B ) - Fair Dealing when disseminating investment recommendations; disclosure of the relationship with long - standing clients is not the issue. The analyst has advantaged some clients over others by providing advance information, and all clients do not have a fair opportunity to act on the information within the draft report. Members and candidates may differentiate their services to clients, but different levels of service must not disadvantage or negatively affect clients. CFA Level I " Guidance for Standards I - VII " Standard III ( B ) - Fair Dealing</comments>
+    </problem>
+    <problem>
+        <question>5. Belen Zapata, CFA, is the owner of Kawah Investments. Kawah promises investors returns of up to 12 % per year and claims to achieve these returns by investing in non - investment - grade bonds and other fixed - income instruments. Over the next 12 months, bond market yields reach unprecedented lows and Zapata finds it impossible to achieve the returns she expected. No investments are ever made by Kawah, and clients are completely paid back all of their original investment. Zapata most likely violated the CFA Institute Standards of Professional Conduct because of the:</question>
+        <choices>
+            <choice>A. investment mandate.</choice>
+            <choice>B. return of capital.</choice>
+            <choice>C. promised returns.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The member misrepresented the returns she could realistically achieve for her clients, violating Standard I ( C ) - Misrepresentation, which prohibits members and candidates from guaranteeing clients any specific return on volatile investments. CFA Level " Guidance for Standards I - VII " Standard I ( C ) - Misrepresentation</comments>
+    </problem>
+    <problem>
+        <question>6. A central bank fines a commercial bank it supervises for not following statutory regulations regarding nonperforming loan provisions on three large loans as a result of the bank ' s loan provisioning policy. Louis Marie Buffet, CFA, sits on the board of directors of the commercial bank as a non - executive director, representing minority shareholders. He also chairs the bank ' s internal audit committee that determines the loan provisioning policy of the bank. Mercy Gatabaki, CFA, is the bank ' s external auditor and follows international auditing standards whereby she tests the loan portfolio by randomly selecting loans to check for compliance in all aspects of central bank regulations. Which charterholder is most likely in violation of the Code and Standards?</question>
+        <choices>
+            <choice>A. Gatabaki</choice>
+            <choice>B. Buffet</choice>
+            <choice>C. Both</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Buffet sat on the audit committee that determined the bank ' s provisioning policies that were contrary to the statutory regulations of the central bank. As a result, he most likely violated Standard l - Professionalism by not abiding by regulations of a regulatory body. Gatabaki did not violate Standardi - Professionalism because it is not apparent she knowingly facilitated the incorrect provisioning policy. CFA Level I. " Guidance for Standards I - VII, " CFA Institute Standard I ( A )</comments>
+    </problem>
+    <problem>
+        <question>7. Sergio Morales, CFA, believes he has found evidence that his supervisor is engaged in fraudulent activity involving a client ' s account. When Morales confronts his supervisor, he is told the client is fully aware of the issue. Later that day, Morales contacts the client and after disclosing the fraudulent activity, he is told by the client to mind his own business. Following the requirements of local law, Morales provides all of his evidence, along with copies of the client ' s most recent account statements, to a government whistleblower program. Has Morales most likely violated the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Yes, concerning Duties to Employers</choice>
+            <choice>B. Yes, concerning Preservation of Confidentiality</choice>
+            <choice>C. No</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Because Morales believes his supervisor and potentially the client are engaged in fraudulent activity and following the requirements of local law, he has not violated Standard III ( E ) — Preservation of Confidentiality or Standard ( V ) - Duties to Employers. CFA Level I " Guidance for Standards I - VII " Standard III ( E ) Preservation of Confidentiality, Standard ( IV ) Duties to Employers, Standard ( V ) Duties to Employers</comments>
+    </problem>
+    <problem>
+        <question>8. According the GIPS standards, for periods beginning on or after 1 January 2011, the aggregate fair value of total firm assets most likely includes all:</question>
+        <choices>
+            <choice>A. fee - and non - fee - paying discretionary and non - discretionary accounts.</choice>
+            <choice>B. fee - paying discretionary accounts.</choice>
+            <choice>C. fee - and non - fee - paying discretionary accounts.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>For periods beginning on or after 1 January 2011, total firm assets must include the aggregate fair value of all discretionary and non - discretionary assets managed by the firm. This includes both fee paying and non - fee - paying portfolios. CFA Level i " Global Investment Performance Standards ( GIPS ) " GIPS Requirement O. A. 13</comments>
+    </problem>
+    <problem>
+        <question>9. While at a bar in the financial district after work, Ellen Miffitt, CFA, overhears several employees of a competitor discuss how they will manipulate down the price of a thinly traded micro - cap stock ' s price over the next few days. Miffitt ' s clients have large positions of this stock, so when she arrives at work the next day, she immediately sells all of these holdings. Because she had determined the micro - cap stock was suitable for all of her accounts at its previously higher price, Miffitt buys back her client ' s original exposure at the end of the week at the new, lower price. Which CFA Institute Standards of Professional Conduct did Miffitt least likely violate?</question>
+        <choices>
+            <choice>A. Material Nonpublic Information</choice>
+            <choice>B. Preservation of Confidentiality</choice>
+            <choice>C. Market Manipulation</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Miffitt</comments>
+    </problem>
+    <problem>
+        <question>has not violated Standard III ( E ) - Preservation of Confidentiality, which involves information about former, current, and prospective clients. CFA Level I " Guidance for Standards I - VII " Standard II ( A ) – Material Nonpublic Information, Standard II ( B ) – Market Manipulation, Standard III ( E ) - Preservation of Confidentiality 10. Pia Nilsson is a sole proprietor investment adviser. An economic recession has reduced the number of clients she advises and caused revenues to decline. As a result, Nilsson has not paid her CFA Institute membership dues for the past two years. When a national financial publication recently interviewed Nilsson, she indicated that up until two years ago, she had been a CFA charterholder and a CFA Institute member in good standing. In addition, she stated the completion of the CFA Program enhanced her portfolio management skills and enabled her to achieve superior returns on behalf of her clients. Which of Nilsson ' s actions most likely violated the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Nonpayment of CFA Institute membership dues</choice>
+            <choice>B. Indicating that being a CFA charterholder has enhanced her portfolio management skills</choice>
+            <choice>C. Attributing her superior returns to participation in the CFA Program</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>It is a violation of Standard VII ( B ) — Reference to CFA Institute, the CFA Designation, and the CFA Program to claim that the CFA charter helped her to achieve superior returns. CFA Level I " Guidance for Standards I - VII " Standard VII ( B ) - Reference to CFA Institute, the CFA Designation, and the CFA Program</comments>
+    </problem>
+    <problem>
+        <question>11. Molly Burnett, CFA, is a portfolio manager for a fund that only invests in environmentally friendly companies. A multinational utility company recently acquired one of the fund ' s best - performing investments, a wind power company. The wind power company ' s shareholders received utility company shares as part of the merger agreement. The utility has one of the worst environmental records in the industry, but its shares have been one of the top performers over the past 12 months. Because the utility pays a high dividend every three months, Burnett holds the utility shares until the remaining two dividends are paid for the year then sells the shares. Burnett most likely violated the CFA Institute Standard of Professional Conduct concerning:</question>
+        <choices>
+            <choice>A. Independence and Objectivity.</choice>
+            <choice>B. Suitability.</choice>
+            <choice>C. Disclosure of Conflicts.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The utility is not a suitable investment for a fund that only invests in companies with good environmental records. Continuing to hold this investment, therefore, was a violation of Standard III ( C ) - Suitability. CFA Level I " Guidance for Standards I - VII " Standard I ( B ) – Independence and objectivity, Standard III ( C ) - Suitability, Standard VI ( A ) – Disclosure of Conflicts</comments>
+    </problem>
+    <problem>
+        <question>12. Gabrielle Gabbe, CFA has been accused of professional misconduct by one of her competitors. The allegations concern Gabbe ' s personal bankruptcy filing 10 years ago when she was a college student and had a large amount of medical bills she could not pay. By not disclosing the bankruptcy filing to her clients, did Gabbe most likely violate any CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. No</choice>
+            <choice>B. Yes, related to Misrepresentation</choice>
+            <choice>C. Yes, related to Misconduct</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>A personal bankruptcy does not necessarily constitute a violation of Standard I ( C ) -</comments>
+    </problem>
+    <problem>
+        <question>Misrepresentation or Standard I ( D ) – Misconduct. If the circumstances of the bankruptcy involved fraudulent or deceitful business conduct, then failing to disclose it may constitute a violation of the Standards of Professional Conduct. CFA Level I. " Guidance for Standards I - VII " Standard I ( C ) - Misrepresentation, Standard I ( D ) – Misconduct 13. Francesca Ndenda, CFA, and Grace Rutabingwa work in the same department for New Age Managers, with Rutabingwa reporting to Ndenda. Ndenda learns that Rutabingwa received a Notice of Enquiry from the Professional Conduct Program at CFA Institute regarding a potential cheating violation when she sat for the CFA exam in June. As Rutabingwa ' s supervisor, Ndenda is afraid that Rutabingwa ' s behavior will be seen as a violation of the Code and Standards. Does Ndenda most likely have cause for concern?</question>
+        <choices>
+            <choice>A. Yes</choice>
+            <choice>B. No, because her responsibilities do not apply</choice>
+            <choice>C. No, not until Rutabingwa is found guilty of cheating</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>A supervisor ' s responsibilities relate to detecting and preventing violations by anyone subject to their supervision or authority regarding activities they supervise. Ndenda had no way of detecting and / or preventing Rutabingwa from cheating during the CFA exam, if in fact that is what she did, because it was an event she did not attend. CFA Level I " Guidance for Standards I - VII, " CFA Institute Standard IV ( C ).</comments>
+    </problem>
+    <problem>
+        <question>14. Which of the following statements concerning why the Global Investment Performance Standards ( GIPS ) were created is least likely correct? The GIPS standards were created to:</question>
+        <choices>
+            <choice>A. establish a standardized, industry wide approach for investment firms to follow.</choice>
+            <choice>B. provide clients certainty in what is presented and allow them to make reasonable comparisons.</choice>
+            <choice>C. identify a set of ethical principles for firms to follow in calculating and presenting historical investment results.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The GIPS standards were created to ensure fair representation and full disclosure of investment performance, not to provide certainty in what is presented. CFA Level I " Introduction to the Global Investment Performance Standards ( GIPS ), ” CFA Institute Why Were the GIPS Standards Created?</comments>
+    </problem>
+    <problem>
+        <question>15. Chan Liu, CFA, is the new research manager at the Pacific MicroCap Fund. Liu observed the following activities after she published a research report on a thinly traded micro - cap stock that included a " buy " recommendation: • Pacific traders purchased the stock for Pacific ' s proprietary account and then purchased the same stock for all client accounts; and • Pacific marketing department employees disseminated positive, but false, information about the stock in widely read internet forums. Liu notes the stock ' s price increased more than 50 % within a period of two days and was then sold for Pacific ' s account. Which of the following steps is most appropriate for Liu to take to avoid violating the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Remove her name from the micro - cap stock research report.</choice>
+            <choice>B. Report the observed activities to her employer.</choice>
+            <choice>C. Publicly refute the false information posted on internet forums.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Certain staff at Liu ' s employer appear to be engaged in front running, a violation of Standard VI ( B ) - Priority of Transactions, and market manipulation, a violation of Standard II ( B ) – Market</comments>
+    </problem>
+    <problem>
+        <question>Manipulation. If Liu observes these violations without taking steps to notify her employer, she will be in violation of Standard I ( A ) – Knowledge of the Law. Liu should know that the conduct observed is likely a violation of applicable laws, rules, and regulations as well as a violation of the CFA Institute Standards of Professional Conduct. Her first step, therefore, should be to attempt to stop the behavior by bringing it to the attention of the employer through a supervisor or the firm ' s compliance department. Inaction may be construed as participation or assistance in the illegal or unethical conduct. CFA Level I. " Guidance for Standards I - VII " Standardi ( A ) – Knowledge of the Law, Standard II ( B ) – Market Manipulation, Standard VI ( B ) - Priority of Transactions 16. Mariam Musa, CFA, head of compliance at Dunfield Brokers, questions her colleague Omar Kassim, a CFA candidate and a research analyst, about his purchase of shares in a company for his own account immediately before he publishes a " buy " recommendation. He defends his actions by stating he has done nothing wrong because Dunfield does not have any personal trading policies in place. The CFA Institute Standards of Professional Conduct were most likely violated by:</question>
+        <choices>
+            <choice>A. only Musa.</choice>
+            <choice>B. only Kassim.</choice>
+            <choice>C. both Musa and Kassim.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Both Musa and Kassim violated the Standards of Professional Conduct. Musa violated Standard IV ( C ) - Responsibilities of Supervisors by not ensuring policies were in place to prevent violations of the Standards of Professional Conduct ( in this case, Standard VI ( B ) - Priority of Transactions ) by someone subject to her supervision. As the head of compliance, Musa supervised Kassim and must meet her supervisory responsibilities outlined in the Standards of Professional Conduct. Kassim violated Standard VI ( B ) - Priority of Transactions because he did not give sufficient priority to Dunfield ' s clients before trading on his recommendation. CFA Level I " Guidance for Standards I - VII " Standard IV ( C ) - Responsibilities of Supervisors, Standard VI ( B ) - Priority of Transactions</comments>
+    </problem>
+    <problem>
+        <question>17. James Simone, CFA, the chief financial officer of a publicly listed company, seeks to improve the quality of his company ' s communication with institutional fund managers. He holds an investor briefing with this group the evening before the company earnings are announced. The company ' s quarterly earnings are broadcast in a press release the next day before the market opens. The earnings information in the investor briefing is identical to that in the press release. Did Simone most likely violate the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Yes</choice>
+            <choice>B. No, because the company releases information while the market is closed</choice>
+            <choice>C. No, because investor briefing and press release information are identical</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Simone violated Standard II ( A ) – Material Nonpublic Information by giving institutional fund managers access to material nonpublic information prior to public dissemination ( i. e., the press</comments>
+    </problem>
+    <problem>
+        <question>release ). By releasing earnings results to a select group of institutional fund managers prior to a public press release, Simone allows the institutional fund managers a time advantage over other investors not invited to the investor briefing. CFA Level I. " Guidance for Standards I - VII " Standard II ( A ) – Material Nonpublic Information 18. Kirsten Kelso, CFA, is a research analyst at an independent research firm. Kelso is part of a team of analysts who focus on the automobile industry. Recently, Kelso disagreed with two research sell recommendations written by her team, even though she felt confident the research process was properly conducted. In a webcast open to all institutional but not retail clients, Kelso states, " Even though my name is on the sell reports, these stocks are a buy in part because sales and share prices for both auto companies will rise significantly because of strong demand for their vehicles. " Kelso ' s actions would least likely violate which of the following CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Communication with Clients</choice>
+            <choice>B. Diligence and Reasonable Basis</choice>
+            <choice>C. Fair Dealing</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments> CFA Level | " Guidance for Standards I - VII " Standard III ( B ) - Fair Dealing, Standard V ( A ) - Diligence and Reasonable Basis, Standard V ( B ) - Communication with Clients and Prospective Clients</comments>
+    </problem>
+    <problem>
+        <question>release ). By releasing earnings results to a select group of institutional fund managers prior to a public press release, Simone allows the institutional fund managers a time advantage over other investors not invited to the investor briefing. CFA Level I. " Guidance for Standards I - VII " Standard II ( A ) – Material Nonpublic Information 18. Kirsten Kelso, CFA, is a research analyst at an independent research firm. Kelso is part of a team of analysts who focus on the automobile industry. Recently, Kelso disagreed with two research sell recommendations written by her team, even though she felt confident the research process was properly conducted. In a webcast open to all institutional but not retail clients, Kelso states, " Even though my name is on the sell reports, these stocks are a buy in part because sales and share prices for both auto companies will rise significantly because of strong demand for their vehicles. " Kelso ' s actions would least likely violate which of the following CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Communication with Clients</choice>
+            <choice>B. Diligence and Reasonable Basis</choice>
+            <choice>C. Fair Dealing</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments> CFA Level | " Guidance for Standards I - VII " Standard III ( B ) - Fair Dealing, Standard V ( A ) - Diligence and Reasonable Basis, Standard V ( B ) - Communication with Clients and Prospective Clients</comments>
+    </problem>
+    <problem>
+        <question>19. Samples of size A are drawn respectively from two populations with associated sample means and standard deviations of ( X1, X2 ) and ( S1, S2 ) and associated population means and standard deviations of ( u1, u2 ) and ( O1, 02 ) where oq O2. In addition, d is the sample mean of XI – X2 with a standard error of są and a population mean of ud, and sz is a pooled estimator of the common variance. The most appropriate test statisic to determine the equality of the two population means assuming X1 and X2 are independent and normally distributed is: ܘ Answer = B The most appropriate test statistic for the difference between two population means ( unequal and ( u - 2 ) 0. 5 Neyl unknown population variances ) is CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3. 2 20. Using a two - tailed test of the hypothesis that the population mean is zero, the calculated test statistic is 2. 51. The sample has 23 observations. The population is normally distributed with an unknown variance. p = 0. 05 p = 0. 01 p = 0. 005 p = 0. 10 1. 323 p = 0. 025 2. 080 1. 721 2. 518 Degrees of freedom 21 22 23 24 2. 831 2. 819 1. 321 1. 717 2. 074 2. 508 1. 319 1. 714 2. 069 2. 500 2. 492 2. 807 2. 797 1. 318 1. 711 2. 064 An analyst will most likely reject the null hypothesis at significance levels of:</question>
+        <choices>
+            <choice>A. 0. 10, 0. 05, and 0. 01.</choice>
+            <choice>B. 0. 10 and 0. 05.</choice>
+            <choice>C. 0. 10 only.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>This is a two - tailed hypothesis testing because it concerns whether the population mean is zero. H.: p = Oversus H.: U + 0 With degrees of freedom ( df ) = n - 1 = 23 - 1 = 22, the rejection points are as follows:</comments>
+    </problem>
+    <problem>
+        <question>Significance level Rejection points for t - test | 0. 10 | t &lt; - 1. 717 and t &gt; 1. 717 0. 05 t &lt; - 2. 074 and t &gt; 2. 074 | 0. 01 t &lt; - 2. 819 and t &gt; 2. 819 Because the calculated test statistic is 2. 51, the null hypothesis is thus rejected at the 0. 05 and 0. 10 levels of significance but not at 0. 01. CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3 21. Independent samples drawn from normally distributed populations exhibit the following characteristics: Sample Size Sample Mean 200 Sample Standard Deviation 45 A 25 B 18 185 60 Assuming that the variances of the underlying populations are equal, the pooled estimate of the common variance is 2, 678. 05. The t - test statistic appropriate to test the hypothesis that the two population means are equal is closest to:</question>
+        <choices>
+            <choice>A. 0. 29.</choice>
+            <choice>B. 0. 94.</choice>
+            <choice>C. 1. 90.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The t - statistic for the given information ( normally distributed populations, population variances assumed equal ) is calculated as: Institute</comments>
+    </problem>
+    <problem>
+        <question>_ ( –, ) – ( us – 42 ) t In this case, we have: s?, = 2678. 05. t = ( 200 – 185 ) - ( 0 ) G = 0. 93768 - 0. 94 ( 2678. 05, 2678. 05, 0. 5 25 18 678. 05 + CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3. 2 22. Once an investor chooses a particular course of action, the value forgone from alternative actions is best described as a ( n ):</question>
+        <choices>
+            <choice>A. opportunity cost.</choice>
+            <choice>B. sunk cost.</choice>
+            <choice>C. required return.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>An opportunity cost is the value that investors forgo by choosing a particular course of action. CFA Level I " The Time Value of Money, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
+    </problem>
+    <problem>
+        <question>23. The central limit theorem is best described as stating that the sampling distribution of the sample mean will be approximately normal for large - size samples:</question>
+        <choices>
+            <choice>A. if the population distribution is symmetrical.</choice>
+            <choice>B. for populations described by any probability distribution.</choice>
+            <choice>C. if the population distribution is normal.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The central limit theorem holds without regard for the distribution of the underlying population. CFA Level I " Sampling and Estimation, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3. 1</comments>
+    </problem>
+    <problem>
+        <question>24. Survivorship bias is most likely an example of which bias?</question>
+        <choices>
+            <choice>A. Look - ahead</choice>
+            <choice>B. Data mining</choice>
+            <choice>C. Sample selection</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Sample selection bias often results when a lack of data availability leads to certain data being excluded from the analysis. Survivorship bias is an example of sample selection bias. CFA Level I. " Sampling and Estimation, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 5. 2</comments>
+    </problem>
+    <problem>
+        <question>25. If a stock ' s continuously compounded return is normally distributed, then the distribution of the future stock price is best described as being:</question>
+        <choices>
+            <choice>A. normal.</choice>
+            <choice>B. lognormal.</choice>
+            <choice>C. a Student ' s t.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>If a stock ' s continuously compounded return is normally distributed, then the future stock price is necessarily lognormally distributed. CFA Level I " Common Probability Distributions, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3. 4</comments>
+    </problem>
+    <problem>
+        <question>26. The distribution of all the distinct possible values for a statistic when calculated from samples of the same size randomly drawn from the same population is most accurately referred to as:</question>
+        <choices>
+            <choice>A. the sampling distribution of a statistic.</choice>
+            <choice>B. a discrete uniform distribution.</choice>
+            <choice>C. a multivariate normal distribution.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>26. The distribution of all the distinct possible values for a statistic when calculated from samples of the same size randomly drawn from the same population is most accurately referred to as:</question>
+        <choices>
+            <choice>A. the sampling distribution of a statistic.</choice>
+            <choice>B. a discrete uniform distribution.</choice>
+            <choice>C. a multivariate normal distribution.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>27. Compared with historical simulation, Monte Carlo simulation is most appropriate when:</question>
+        <choices>
+            <choice>A. " what if " analysis is required.</choice>
+            <choice>B. analytical methods are required.</choice>
+            <choice>C. probability distributions are unavailable.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Monte</comments>
+    </problem>
+    <problem>
+        <question>Carlo simulation lends itself to " what if " analysis and requires the user to provide a probability distribution or distributions. It can be a complement to analytical methods. CFA Level I " Common Probability Distributions, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4 28. Consider a two - tailed test of the hypothesis that the population mean is zero. The sample has 50 observations. The population is normally distributed with a known variance. | t - Distribution Degrees of freedom p = 0. 10 1. 299 p = 0. 05 p = 0. 025 2. 010 49 1. 677 50 1. 299 1. 676 2. 009 z - Distribution = 0. 10 C = 0. 05 = 0. 025 1. 645 1. 960 2. 330 At a 0. 05 significance level, the rejection points are most likely at:</question>
+        <choices>
+            <choice>A. - 2. 010 and 2. 010.</choice>
+            <choice>B. - 2. 009 and 2. 009.</choice>
+            <choice>C. - 1. 960 and 1. 960.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The appropriate test statistic is a z - statistic because the sample comes from a normal distributed population with known variance. A z - test does not use degrees of freedom. This test is two - sided at the 0. 05 significance level, and the rejection point conditions are z &gt; 1. 960 and z &lt; - 1. 960. CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3</comments>
+    </problem>
+    <problem>
+        <question>29. A hypothesis test fails to reject a false null hypothesis. This result is best described as a:</question>
+        <choices>
+            <choice>A. test with little power.</choice>
+            <choice>B. Type Il error.</choice>
+            <choice>C. Type I error.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Failure to reject a false null hypothesis is a Type Il error. CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
+    </problem>
+    <problem>
+        <question>30. A sample of 25 observations has a mean of 8 and a standard deviation of 15. The standard error of the sample mean is closest to: tute</question>
+        <choices>
+            <choice>A. 3. 00.</choice>
+            <choice>B. 1. 60.</choice>
+            <choice>C. 3. 06.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The standard error of the sample mean, when the sample standard deviation is known, is: sx =. In this case, są = = 3. 00. CFA Level I " Sampling and Estimation, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3. 1</comments>
+    </problem>
+    <problem>
+        <question>31. ©CFA Institute Table of the F - Distribution Panel A: Critical values for right - hand tail area equal to 0. 05 df1 ( read across ) 2 3 4 5 df2 ( read down ) 161 200 216 225 230 N 18. 5 19. 0 19. 2 19. 2 19. 3 10. 1 9. 55 9. 28 9. 12 9. 01 3 4 7. 71 6. 94 9. 59 6. 39 6. 26 UI 6. 61 5. 79 5. 41 5. 19 5. 05 Panel B: Critical values for right - hand tail area equal to 0. 025 df1 ( read across ) 1 | 5 5 df2 ( read down ) 648 799 864 900 922 N 38. 51 39. 00 39. 17 39. 25 39. 30 2 1285 220 2217 39. 25 23: 30 I 17. 44 16. 04 15. 44 15. 10 14. 38 3 17. 44 16. 04 15. 44 15. 10 14. 88 12. 22 10. 65 9. 98 9. 60 9. 36 Un 10. 01 8. 43 7. 76 7. 39 7. 15 Which of the following statements is most appropriate? The critical value is:</question>
+        <choices>
+            <choice>A. 9. 60 and do not reject the null.</choice>
+            <choice>B. 6. 39 and reject the null.</choice>
+            <choice>C. 7. 15 and do not reject the null.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The</comments>
+    </problem>
+    <problem>
+        <question>test statistic makes use of the F - distribution and is the ratio of the variances, with the larger F = variance in the numerator. The test statistic is. = 28 / 4 = 7. The degrees of freedom are 4 by 4. Because it is a two - tailed test, the correct critical value at a = 5 % is 9. 60 ( Panel B ). Because the test statistic is less than the critical value ( i. e., 7 &lt; 9. 60 ), the null hypothesis cannot be rejected. CFA Level I " Hypothesis Testing, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4. 2 32. The confidence interval is most likely to be:</question>
+        <choices>
+            <choice>A. wider as the sample size increases.</choice>
+            <choice>B. wider as the point estimate increases.</choice>
+            <choice>C. narrower as the reliability factor decreases.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>A confidence interval for a parameter = Point estimate + Reliability factor x Standard error. For example, the reliability factors for confidence intervals based on the standard normal distribution are 1. 65 for 90 % confidence intervals and 1. 96 for 95 % confidence intervals. For a given point estimate and standard error, the confidence interval will be narrower with a lower reliability factor. CFA Level I " Sampling and Estimation, " Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4. 2</comments>
+    </problem>
+    <problem>
+        <question>33. First - degree price discrimination is best described as pricing that allows producers to increase their economic profit while consumer surplus:</question>
+        <choices>
+            <choice>A. decreases.</choice>
+            <choice>B. is eliminated.</choice>
+            <choice>C. increases.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments> Section 6. 4</comments>
+    </problem>
+    <problem>
+        <question>33. First - degree price discrimination is best described as pricing that allows producers to increase their economic profit while consumer surplus:</question>
+        <choices>
+            <choice>A. decreases.</choice>
+            <choice>B. is eliminated.</choice>
+            <choice>C. increases.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments> Section 6. 4</comments>
+    </problem>
+    <problem>
+        <question>34. The following data apply to a country in its domestic currency units: 875, 060 Government spending on goods and services 305, 600 Consumer spending on goods and services Business gross fixed investment Change in inventories Transfer payments Exports Government gross fixed investment Capital consumption allowance 286, 400 - 68, 500 9, 300 219, 800 84, 120 8, 540 - 2, 850 250, 980 Statistical discrepancy Imports Using the expenditures approach, the country ' s GDP is closest to:</question>
+        <choices>
+            <choice>A. 1, 466, 490.</choice>
+            <choice>B. 1, 448, 650.</choice>
+            <choice>C. 1, 451, 500.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Using the expenditures approach: GDP = Consumer spending on goods and services + Business gross fixed investment + Change in inventories + Government spending on goods and services + Government gross fixed investment + Exports – Imports + Statistical discrepancy</comments>
+    </problem>
+    <problem>
+        <question>Consumer spending on goods and services Business gross fixed investment Change in inventories Government spending on goods and services Government gross fixed investment Exports Imports Statistical discrepancy = Gross domestic product ( GDP ) 875, 060 286, 400 ( 68, 500 ). 305, 600 84, 120 219, 800 ( 250, 980 ). ( 2, 850 ) 1, 448, 650 CFA Level I " Aggregate Output, Prices, and Economic Growth, ” Paul R. Kutasovic and Richard G. Fritz Sections 2. 2, 2. 3 35. For a given economy and a given period of time, GDP measures the: aggregate income earned by all households, all companies, and the government. total income earned by all of the country ' s citizens, firms, and the government. total market value produced of resalable and final goods and services. | | T. The most appropriate description of what is measured by GDP is given by:</question>
+        <choices>
+            <choice>A. I and III.</choice>
+            <choice>B. I only.</choice>
+            <choice>C. I and II.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Gross domestic product ( GDP ) can be defined in term of either output or income: · it is the market value of all final goods and services produced within the economy in a given period of time ( output definition ) or, equivalently, · it is the aggregate income earned by all households, all companies, and the government within the economy in a given period of time ( income definition ). CFA Level " Aggregate Output, Prices, and Economic Growth, " Paul R. Kutasovic, and Richard G. Fritz Section 2. 1</comments>
+    </problem>
+    <problem>
+        <question>36. In the short run, a firm operating in a perfectly competitive market will most likely avoid shutdown if it is able to earn sufficient revenue to cover which of the following costs?</question>
+        <choices>
+            <choice>A. Fixed</choice>
+            <choice>B. Variable</choice>
+            <choice>C. Marginal</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Shutdown is defined as a situation in which the firm stops production but still confronts the payment of fixed costs in the short run. In the short run, a business can operate at a loss as long as it covers its variable costs even though it is not earning sufficient revenue to cover fixed costs. If variable costs cannot be covered in the short run, the firm will shut down operations and simply absorb the unavoidable fixed costs. CFA Level I " Topics in Demand and Supply Analysis, " Richard V. Eastin and Gary L. Arbogast Section 3. 2. 7</comments>
+    </problem>
+    <problem>
+        <question>37. Assume that two firms in a duopoly enter into a collusive agreement in an attempt to form a cartel and restrict output, raise prices, and increase profits. According to the Nash equilibrium, a low price is most likely charged by:</question>
+        <choices>
+            <choice>A. neither firm.</choice>
+            <choice>B. only one firm.</choice>
+            <choice>C. both firms.</choice>
+        </choices>
+        <answer>Answer = A Exhibit 15 Nash Equilibrium in Duopoly Market</answer>
+        <comments>The</comments>
+    </problem>
+    <problem>
+        <question>market outcomes for two firms in a duopoly is shown in the diagram to the right. ArcCo - Low Price ArcCo - Low Price The lower left hand quadrant is the Nash solution when there is no collusion. 50 80 70 BatCo - Low Price BatCo - High Price ArcCo - High Price ArcCo - High Price 300 500 350 300 However, with collusion, if ArcCo shares at least enough of its profit in the bottom right quadrant to provide Batco more than it would receive in the lower left, it will be the optimal solution for the pair: the maximum joint profits will arise where both firms charge high prices for the product. BatCo - Low Price BatCo - High Price CFA Levell " The Firm and Market Structures, " Richard G. Fritz and Michele Gambera Section 5. 1 38. Expected Spot Rate in One Year Spot Rate 1. 3001 USD / EUR 1. 3456 USD / GBP 1. 5805 1. 5489 Based on the table, the appreciation of which of the following currencies is most likely to occur?</question>
+        <choices>
+            <choice>A. The British pound against the US dollar by 2. 00 %</choice>
+            <choice>B. The euro against the US dollar by 3. 50 %</choice>
+            <choice>C. The US dollar against the euro by 3. 38 %</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>In the exchange rate quotation USD / EUR, the US dollar is the price currency and the euro is the base currency. TheUSD / EUR is expected to increase from 1. 3001 to 1. 3456. This increase represents a</comments>
+    </problem>
+    <problem>
+        <question>3. 5 % appreciation of the euro against the dollar — that is, a percentage change of 1. 3456 - 1 = + 3. 50 % 1. 3001 CFA Level I " Currency Exchange Rates, " William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Section 3. 1 39. Given the inverse demand function Px = 13 - 3. 7Qx, where Py is the price per unit of good X and Qx is the quantity demanded of good X, in units, the maximum value for Qx is closest to:</question>
+        <choices>
+            <choice>A. 9. 3.</choice>
+            <choice>B. 3. 5.</choice>
+            <choice>C. 13. 0.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Because price cannot be negative, the maximum value for Qx is the value that makes Px = 0. Solving</comments>
+    </problem>
+    <problem>
+        <question>3. 7 Qx = 13, Qx = 3. 5. CFA Level i " Topics in Demand and Supply Analysis, " Richard V. Eastin and Gary L. Arbogast Section 2. 1 40. A country with which of the following characteristics is least likely to face long - term GDP growth challenges?</question>
+        <choices>
+            <choice>A. A country with innovations in production processes</choice>
+            <choice>B. A country with large natural resources</choice>
+            <choice>C. A country with high labor quality</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The most important factor affecting economic growth is technology because it allows an economy to overcome the limits imposed by diminishing marginal returns. A country with innovations in the production process is least likely to face long - term GDP growth challenges compared with a country that relies on input growth, such as labor or natural resources. CFA Level | " Aggregate Output, Prices, and Economic Growth, " Paul R. Kutasovic and Richard G. Fritz Section 4. 2</comments>
+    </problem>
+    <problem>
+        <question>41. Spot Rate 1. 2952 One - Year Forward Rate 1. 3001 USD / EUR Which of the following statements is most accurate based on the FX quotations in the table?</question>
+        <choices>
+            <choice>A. The euro is trading at a forward premium of 49 points.</choice>
+            <choice>B. The forward rate is trading at a discount to the spot rate by 0. 0049 points.</choice>
+            <choice>C. The US dollar is trading at a forward premium of 49 points.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>41. Spot Rate 1. 2952 One - Year Forward Rate 1. 3001 USD / EUR Which of the following statements is most accurate based on the FX quotations in the table?</question>
+        <choices>
+            <choice>A. The euro is trading at a forward premium of 49 points.</choice>
+            <choice>B. The forward rate is trading at a discount to the spot rate by 0. 0049 points.</choice>
+            <choice>C. The US dollar is trading at a forward premium of 49 points.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>42. In the demand function f = 4. 3 – 0. 7P +. 031 –. 05P where QË represents the quantity demanded of a good X, Px is the price per unit of good X, I is consumers ' income, and Py is the price per unit of good Y, X, and Yare best described as:</question>
+        <choices>
+            <choice>A. complements.</choice>
+            <choice>B. substitutes.</choice>
+            <choice>C. preferences.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The negative sign on Py indicates that X and Y have a negative cross - price elasticity of demand and are thus complements. CFA Level I " Topics in Demand and Supply Analysis, " Richard V. Eastin and Gary L. Arbogast Section 2. 4</comments>
+    </problem>
+    <problem>
+        <question>43. In a simple economy with no foreign sector, the following equations apply: Consumption function Investment function Government spending Tax function Y: aggregate income r: real interest rate in percent If the real interest rate is 3 % and government spending increases to 2, 000, the increase in aggregate income will be closest to:</question>
+        <choices>
+            <choice>A. 5, 000.</choice>
+            <choice>B. 7, 143.</choice>
+            <choice>C. 5, 845.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>|</comments>
+    </problem>
+    <problem>
+        <question>With no foreign sector, the GDP identity is: Y = C + | + G With substitution from the equations above: Y = 2, 500 + 0. 80x ( Y - T ) + 500 + 0. 30XY - 25xr + 1, 000 = 2, 500 + 0. 80X ( Y + 250 - 0. 30XY ) + 500 + 0. 30XY - 25xr + 1, 000 Y = 4, 200 + 0. 86 % Y – 25xr Y = 30. 000 - 178. 6xr At 3 per cent, T = 30, 000 – 178. 6x3 = 29, 464 Alternatively: Y - 0. 86Y = 4, 200 - 25xr 0. 14Y = 4, 200 – 25xr If government spending increased by 1, 000 to 2, 000, then Y = 5, 200 + 0. 86XY – 25xr Y = 37, 142 – 178. 6 xr, which at 3 per cent would be Y = 37. 142 - 178. 6x3 = 36, 607 Representing an increase of 36, 607 – 29, 464 = 7, 143 Alternatively, at 5, 200: Y - 0. 86Y = 5, 200 – 25xr: 0. 14Y = 5, 200 – 25xr The answer can also be calculated as: + G + ( 1 - c ) = 1, 000 / ( 1 - 0. 86 ) = 7, 143 where c is the change in consumption per unit change in Y ( in this problem 0. 80 ) minus the change in taxes per unit change in Y ( - 0. 24 ) plus the change in investment per unit change in Y ( 0. 30 ). CFA Level I " Aggregate Output, Prices, and Economic Growth, " Paul R. Kutasovic and Richard G. Fritz Section 3. 1. 1 44. Which of the following would be most useful as a leading indicator to signal the start of an economic recovery?</question>
+        <choices>
+            <choice>A. The narrowing of the spread between the 10 - year Treasury yield and the federal funds rate</choice>
+            <choice>B. An increase in aggregate real personal income ( less transfer payments )</choice>
+            <choice>C. A decrease in average weekly initial claims for unemployment insurance</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Average weekly initial claims for unemployment insurance is a leading indicator of economic activity. A decrease in these claims is an indicator of rehiring, which signals the start of an economic recovery. CFA Level I " Understanding Business Cycles, " Michele Gambera, Milton Ezrati, and Bolong Cao Section 5. 1</comments>
+    </problem>
+    <problem>
+        <question>45. A company values its ending inventory using the prices of its most recent purchases. The inventory valuation method that the company is most likely using is:</question>
+        <choices>
+            <choice>A. LIFO.</choice>
+            <choice>B. FIFO.</choice>
+            <choice>C. Weighted average cost.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>FIFO values ending inventory using the most recent costs of goods purchased. CFA Level | " Inventories, " Michael A. Broihahn Sections 3. 2, 3. 3, 3. 4</comments>
+    </problem>
+    <problem>
+        <question>46. If a company capitalizes an expenditure related to capital assets instead of expensing it, ignoring taxes, the company will most likely report:</question>
+        <choices>
+            <choice>A. the same free cash flow to the firm ( FCFF ) in that period.</choice>
+            <choice>B. a lower cash flow per share in that period.</choice>
+            <choice>C. a higher earnings per share in future periods.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The FCFF [ Cash flow from operations ( CFO ) + Interest x ( 1 - t ) – Capital expenditures ) would be the same. CFO and capital expenditures would both increase by the same amount ( ignoring taxes ). Therefore, net effect on FCFF would be zero.</comments>
+    </problem>
+    <problem>
+        <question>Example Capitalizing delivery cost as opposed to expensing it | Ignoring taxes FCFF CFO + Interest x ( 1 - t ) – Capital expenditures Capital expenditures If capitalized, the amount capitalized increases capital expenditures and is recorded as a cash outflow from investing activities CFO The CFO will be higher by amount capitalized ( i. e., the amount not expensed ) Because capital expenditures and CFO increase by the same amount, ignoring taxes, FCFF is unchanged. CFA Level I “ Understanding Cash Flow Statements, " Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Section 4. 3 “ Long - lived Assets, " Elaine Henry and Elizabeth A. Gordon Section 2. 1 47. To evaluate the potential effect of an innovative and unique type of business transaction on financial statements, an analyst ' s best approach is to:</question>
+        <choices>
+            <choice>A. gain an understanding of the transaction ' s economic purpose.</choice>
+            <choice>B. consider the approach taken for " new " transactions that arose in the past.</choice>
+            <choice>C. monitor the actions of standard setters and regulators.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>By understanding the economic purpose of a transaction and applying the conceptual framework, an analyst may be able to evaluate the potential effect on financial statements, even in the absence of specific standards. CFA Levell " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 8. 1</comments>
+    </problem>
+    <problem>
+        <question>48. Operating segments are most likely reportable if they constitute 10 % or more of the total for all operating segments of which financial metrics?</question>
+        <choices>
+            <choice>A. Capital expenditures, liabilities, or profit / loss</choice>
+            <choice>B. Amortization expense, assets, or revenue</choice>
+            <choice>C. Assets, profit / loss, or revenue</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>A company must disclose separate information about any operating segment that constitutes 10 % or more of the combined operating segments ' revenue, assets, or operating profit / loss. CFA Level | " Financial Analysis Techniques, " Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 7. 1</comments>
+    </problem>
+    <problem>
+        <question>49. Which of the following is least likely to be an acceptable approach for accounting standard setting bodies to use when developing accounting standards?</question>
+        <choices>
+            <choice>A. Objectives - oriented</choice>
+            <choice>B. Rules - based</choice>
+            <choice>C. Revenue / expense - based</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The revenue / expense - based approach is a measurement approach, not a standard setting approach. CFA Level " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Sections 2, 6. 2</comments>
+    </problem>
+    <problem>
+        <question>50. Net revenue most likely refers to revenue minus:</question>
+        <choices>
+            <choice>A. volume discounts and estimated returns.</choice>
+            <choice>B. revenues attributable to non - controlling interests.</choice>
+            <choice>C. estimates of warranty expense.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments> CFA Level I " Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Section 2</comments>
+    </problem>
+    <problem>
+        <question>50. Net revenue most likely refers to revenue minus:</question>
+        <choices>
+            <choice>A. volume discounts and estimated returns.</choice>
+            <choice>B. revenues attributable to non - controlling interests.</choice>
+            <choice>C. estimates of warranty expense.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments> CFA Level I " Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Section 2</comments>
+    </problem>
+    <problem>
+        <question>51. Analysts can best address the challenges of comparing financial statements prepared under US GAAP with those prepared under International Financial Reporting Standards ( IFRS ) by:</question>
+        <choices>
+            <choice>A. monitoring changes in both sets of standards and interpreting cautiously.</choice>
+            <choice>B. assuming differences are minor given US GAAP and IFRS convergence.</choice>
+            <choice>C. referring to the reconciliation from IFRS to US GAAP provided in the notes.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Significant differences still exist between IFRS and US GAAP, and in most cases, analysts will lack the information necessary to makes specific adjustments to address these differences. As such, comparisons must be interpreted cautiously. CFA Level I " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 7</comments>
+    </problem>
+    <problem>
+        <question>52. Compared with the management discussion and analysis ( MD &amp; A ), notes to the financial statements are the most appropriate source for:</question>
+        <choices>
+            <choice>A. aspects of accounting policy choices most important to understanding the financial statements.</choice>
+            <choice>B. information on capital expenditures and how they support the entity ' s strategic direction.</choice>
+            <choice>C. a comprehensive description of all of the entity ' s accounting policy choices.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The notes provide a comprehensive description of all of the entity ' s accounting policies, irrespective of whether judgment was required or whether the policies are important in understanding the financial statements. CFA Level I " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 8. 3. 1</comments>
+    </problem>
+    <problem>
+        <question>53. Under IFRS it is most appropriate to include which of the following pension costs of a defined benefit plan in other comprehensive income?</question>
+        <choices>
+            <choice>A. Actuarial gains or losses</choice>
+            <choice>B. Employees service cost</choice>
+            <choice>C. Net interest expense accrued on the beginning net pension liability</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Under IFRS only actuarial gains or losses can be recognized in other comprehensive income. CFA Level " Non - Current ( Long - Term ) Liabilities, " Elizabeth A. Gordon and Elaine Henry Sections 4</comments>
+    </problem>
+    <problem>
+        <question>54. The following relates to a company ' s common equity over the course of the year: | Outstanding shares, at start of the year Stock options outstanding, at start and end of the year ( Exercise price: $ 5 ) Shares issued on 1 April 2, 000, 000 100, 000 300, 000 100, 000 Shares repurchased ( treasury shares ) on 1 July Average market price of common shares for the year $ 20 / share If the company ' s net income for the year is $ 5, 000, 000, its diluted EPS is closest to:</question>
+        <choices>
+            <choice>A. $ 2. 22.</choice>
+            <choice>B. $ 2. 20.</choice>
+            <choice>C. $ 2. 17.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>First, determine the incremental shares issued from stock option exercise ( treasury stock method ):</comments>
+    </problem>
+    <problem>
+        <question>Shares issued at exercise price 100, 000 share x $ 5 = $ 500, 000 Minus shares purchased with cash received at average market price: $ 500, 000 / $ 20 Incremental shares issued 100, 000 shares - 25, 000 shares 75, 000 shares 2, 000, 000 75, 000 2, 000, 000 shares x ( 12 months / 12 months ) 75, 000 shares x ( 12 months / 12 months ) Weighted Average Shares Outstanding Original shares Incremental shares issued, assuming options were exercised Shares issued 1 April Shares repurchased 1 July Weighted average shares outstanding 225, 000 - 50, 000 2, 250, 000 300, 000 shares x ( 9 months / 12 months ) 100, 000 shares x ( 6 months / 12 months ) Diluted EPS Net income – Preferred dividends Weighted average number of shares $ 5, 000, 000 – 50 - $ 2. 22 / share. 2, 250, 000 shares CFA Level " Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Sections 6. 2, 6. 3. 3 55. ( £ millions ) 2014 2013 Accounts receivable, gross 4, 840 6, 620 92 Allowance for doubtful accounts 56 Write - offs during the year 84 42 Based on the presented information about a company ' s trade receivables, the bad debt expense ( in £ millions ) for 2014 is closest to:</question>
+        <choices>
+            <choice>A. 84.</choice>
+            <choice>B. 120.</choice>
+            <choice>C. 36.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The allowance for doubtful accounts increases by the bad debt expense recognized for the year and decreases by the amounts written off during the year.</comments>
+    </problem>
+    <problem>
+        <question>£56 million | Beginning balance allowance for doubtful accounts Plus bad debt expense Minus write - offs Ending balance allowance for doubtful accounts Solve for bad debt expense = £120 million. – £84 million £92 million CFA Level I “ Understanding Balance Sheets, " Elaine Henry and Thomas R. Robinson Section 3. 1. 3 56. For a company that prepares its financial statements under IFRS, for which of the following assets is it most likely that it could report using the fair value model?</question>
+        <choices>
+            <choice>A. A building owned by the company and leased out to tenants</choice>
+            <choice>B. Houses built by the company for sale to customers</choice>
+            <choice>C. A building the company owns and uses to house its administrative activities</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Under IFRS a building owned for the purpose of earning rentals or capital appreciation – in this case the one owned by the company and leased out to tenants - is an investment property and can be reported under either the cost model or fair value model. CFA Level I. “ Long - lived Assets, " Elaine Henry, and Elizabeth A. Gordon Section 8 " Inventories, " Michael A. Broihahn Section 6</comments>
+    </problem>
+    <problem>
+        <question>57. The following common - size income statement data and tax rates are available on a company. Financial Item Current Year ( % ) Revenues 100 Cost of goods sold 38. 6 3. 1 Interest expense Research expenses 4. 4 Selling and general expenses 32. 9 Income tax rate 22 % Prior Year ' s Profitability Ratios Gross profit margin 60. 5 % Operating profit margin 23. 3 % Net profit margin 15. 8 % The profitability ratio that had the largest absolute increase in value in the current year is the:</question>
+        <choices>
+            <choice>A. operating profit margin.</choice>
+            <choice>B. gross profit margin.</choice>
+            <choice>C. net profit margin.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The gross profit margin increased the most in the current year:</comments>
+    </problem>
+    <problem>
+        <question>Prior Year ( % ) Increase 60. 5 + 0. 9 Revenues Cost of goods sold Gross profit margin Research expenses Selling and general expenses | Operating margin Interest expense Earnings before tax Minus income tax expense Net profit margin Current Year ( % ) 100 38. 6 61. 4 4. 4 32. 9 24. 1 3. 1 21. 0 22 % x 21 = 4. 6 16. 4 23. 3 + 0. 8 15. 8 + 0. 6 CFA Level I “ Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Sections 5. 5, 7. 2 " Financial Analysis Techniques, " Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4. 5 58. Which of the following best describes a responsibility of the SEC?</question>
+        <choices>
+            <choice>A. Promoting the adoption of global financial reporting standards</choice>
+            <choice>B. Overseeing the Public Companies Accounting Oversight Board ( PCAOB )</choice>
+            <choice>C. Prosecuting analysts who disseminate conclusions based on non - material non - public information</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The SEC is responsible for overseeing the PCAOB under the Sarbanes - Oxley Act of 2002. CFA Level I " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson, Section 3. 2. 2</comments>
+    </problem>
+    <problem>
+        <question>ССЕ А 59. Selected information from a company ' s comparative income statement and balance sheet is presented below: Selected Income Statement Data for the Year Ended 31 August ( $ thousands ) 2013 2012 Sales revenue 100, 000 95, 000 Cost of goods sold 47, 000 47, 500 | Depreciation expense 4, 000 3, 500 Net Income 11, 122 4, 556 Selected Balance Sheet Data as of 31 August ( $ thousands ) 2013 2012 Current Assets Cash and investments 21, 122 25, 000 Accounts receivable 25, 000 13, 500 Inventories 13, 000 8, 500 Total current assets 59, 122 47, 000 stitute Current liabilities Accounts payable 15, 000 15, 000 Other current liabilities 9, 000 7, 000 22, 000 Total current liabilities 24, 000 The cash collected from customers in 2013 is closest to:</question>
+        <choices>
+            <choice>A. $ 111, 500.</choice>
+            <choice>B. $ 96, 100.</choice>
+            <choice>C. $ 88, 500.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Cash collected from customers = Revenues - Increase in accounts receivable = $ 100 – ( 25 – 13. 5 ) = $ 88. 5 thousand. CFA Level I " Understanding Cash Flow Statements, " Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Section 3. 2. 1. 1</comments>
+    </problem>
+    <problem>
+        <question>60. Along with relevance, the most critical qualitative characteristic of financial information is:</question>
+        <choices>
+            <choice>A. faithful representation.</choice>
+            <choice>B. comparability.</choice>
+            <choice>C. understandability.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>According to the conceptual frameworks adopted under both International Financial Reporting Standards and US GAAP, faithful representation and relevance are the two fundamental qualitative characteristics that make financial information useful. CFA Level I " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5. 2</comments>
+    </problem>
+    <problem>
+        <question>61. One of the notable differences between IFRS and US GAAP when dealing with income tax is best illustrated by the fundamental treatment of:</question>
+        <choices>
+            <choice>A. temporary differences between the carrying amount and tax base of assets and liabilities.</choice>
+            <choice>B. non - deductible goodwill.</choice>
+            <choice>C. the revaluation of property, plant and equipment.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>US GAAP prohibits the revaluation of PPE. Therefore, this is a source of an important difference between US GAAP and IFRS with respect to reporting of income taxes. CFA Level I " Income Taxes, " Elbie Antonites and Michael A. Broihahn Section 8</comments>
+    </problem>
+    <problem>
+        <question>62. The best description of a classified statement of financial position is one that:</question>
+        <choices>
+            <choice>A. distinguishes between current and non - current assets and liabilities.</choice>
+            <choice>B. is supported by note disclosures relevant to understanding its components.</choice>
+            <choice>C. has not been audited.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Classified statements of financial position distinguish between current and non - current assets and liabilities. Classified statements are required under International Financial Reporting Standards unless a liquidity - based presentation provides more relevant and reliable information. CFA Level " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5. 5. 3 " Understanding Balance Sheets, " Elaine Henry and Thomas R. Robinson Section 2. 2</comments>
+    </problem>
+    <problem>
+        <question>63. The objective of general purpose financial reporting is best described as:</question>
+        <choices>
+            <choice>A. facilitating resource allocation decisions by current and potential investors and creditors.</choice>
+            <choice>B. reporting an entity ' s economic resources and claims, and changes therein, to shareholders.</choice>
+            <choice>C. providing information about financial performance to a wide range of users.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>According to the Conceptual Framework for Financial Reporting 2010 within the International Financial Reporting Standards, as well as Concept Statement 8 under US GAAP, " the objective of general purpose financial reporting is to provide financial information about the reporting entity that is useful to existing and potential investors, lenders, and other creditors in making decisions about providing resources to the entity. " CFA Level | " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 2</comments>
+    </problem>
+    <problem>
+        <question>64. A company acquires some new depreciable assets. It uses straight - line deprecation for all of its assets. Which of the following combinations of estimated residual values and useful lives is most likely to produce the highest net profit margin? Estimated residual values should be:</question>
+        <choices>
+            <choice>A. high with long average lives.</choice>
+            <choice>B. high with short average lives.</choice>
+            <choice>C. low with long average lives.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>A high residual value estimate reduces the depreciable base and thus depreciation expense. Long average lives reduce the annual depreciation expense for any given depreciable base. The combination of the two would result in the lowest depreciation expense, which would lead to the highest net income and profit margins. CFA Level I " Long - lived Assets, " Elaine Henry and Elizabeth A. Gordon Section 3. 1</comments>
+    </problem>
+    <problem>
+        <question>65. Income statements for two companies ( A and B ) and the common - size income statement for the industry are provided in the following table: ( $ thousands ) Sales Company A $ 10, 500 6, 353 Company B $ 8, 250 5, 239 Industry 100. 0 % 62. 8 % | 2, 625A 2, 625 Cost of goods sold Selling, general, and administrative expenses Interest expense Pretax earnings 24. 8 % 2, 021 536 454 7. 0 % 5. 4 % 840 683 205 $ 478 Taxes 145 1. 7 % Net earnings $ 309 3. 7 % The best conclusion an analyst can make is that:</question>
+        <choices>
+            <choice>A. Company A earns a higher gross margin than both Company B and the industry.</choice>
+            <choice>B. both companies ' tax rates are higher than the industry average.</choice>
+            <choice>C. Company B ' s interest rate is lower than the industry average.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments> Company Company A B Company A Company B Industry Sales $ 10, 500 $ 8, 250 100. 0 % Cost of goods sold 6, 353 5, 239 62. 8 % Gross margin 37. 2 % Company A earns a higher gross margin than both Company B and the industry. 100 %</comments>
+    </problem>
+    <problem>
+        <question>65. Income statements for two companies ( A and B ) and the common - size income statement for the industry are provided in the following table: ( $ thousands ) Sales Company A $ 10, 500 6, 353 Company B $ 8, 250 5, 239 Industry 100. 0 % 62. 8 % | 2, 625A 2, 625 Cost of goods sold Selling, general, and administrative expenses Interest expense Pretax earnings 24. 8 % 2, 021 536 454 7. 0 % 5. 4 % 840 683 205 $ 478 Taxes 145 1. 7 % Net earnings $ 309 3. 7 % The best conclusion an analyst can make is that:</question>
+        <choices>
+            <choice>A. Company A earns a higher gross margin than both Company B and the industry.</choice>
+            <choice>B. both companies ' tax rates are higher than the industry average.</choice>
+            <choice>C. Company B ' s interest rate is lower than the industry average.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments> Company Company A B Company A Company B Industry Sales $ 10, 500 $ 8, 250 100. 0 % Cost of goods sold 6, 353 5, 239 62. 8 % Gross margin 37. 2 % Company A earns a higher gross margin than both Company B and the industry. 100 %</comments>
+    </problem>
+    <problem>
+        <question>60. 5 % 39. 5 % 100 % 63. 5 % 36. 5 % Pretax earnings $ 683 $ 454 Taxes 205 145 Tax rate = Taxes / Pretax earnings The tax rates for the companies are not higher than the industry. 5. 4 % 1. 7 % 32 % 6. 5 % 2. 0 % 30 % 5. 5 % 1. 8 % 32 % The tax rates for the companies are not higher than the industry. The interest rate is not a function of sales and cannot be analyzed on a common - size income statement. Tax rates are determined based on Taxes / Pretax earnings, not as a percentage of sales ( as shown in common - size analysis ). CFA Level I " Understanding Income Statements, " Elaine Henry and Thomas R. Robinson Section 7 " Financial Analysis Techniques, " Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Sections 3. 1, 3. 2. 2 66. The role of the International Organization of Securities Commissions ( IOSCO ) is best described as:</question>
+        <choices>
+            <choice>A. promoting the use of International Financial Reporting Standards and the convergence of national accounting standards.</choice>
+            <choice>B. enforcing financial reporting requirements for entities participating in capital markets.</choice>
+            <choice>C. promoting cross - border cooperation and uniformity in securities regulation.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Tosco provides a forum for regulators from different jurisdictions to work together toward fair, efficient, and transparent markets, promoting cross - border cooperation and uniformity in securities regulation. CFA Level i " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 3. 2. 1</comments>
+    </problem>
+    <problem>
+        <question>67. The SEC ' s approach to addressing the significant differences in financial reporting under International Financial Reporting Standards ( IFRS ) and US GAAP is best described as:</question>
+        <choices>
+            <choice>A. mandating that non - US issuers provide a reconciliation to US GAAP.</choice>
+            <choice>B. requiring issuers to provide disclosures describing key differences.</choice>
+            <choice>C. publicly advocating for global accounting standards and convergence.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The SEC now advocates for global accounting standards through public announcements, such as its " Statement in Support of Convergence and Global Accounting Standards " ( 2010 ). In the past, the SEC had required reconciliations between IFRS and US GAAP, but these requirements were withdrawn in 2008. The SEC now imposes no requirements on its issuers. CFA Level I " Financial Reporting Standards, " Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 4</comments>
+    </problem>
+    <problem>
+        <question>68. The method a high - end custom - built motorcycle manufacturer uses to value its inventory results in the matching of the physical flow of the particular items sold, and the items remaining in inventory, to their actual cost. Which of the following inventory valuation methods is the manufacturer most likely using?</question>
+        <choices>
+            <choice>A. FIFO</choice>
+            <choice>B. Specific identification</choice>
+            <choice>C. Weighted average cost</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Specific identification is the inventory method that results in the matching of the physical flow of the particular items sold and would be most suitable for high - end custom - built motorcycles that are not ordinarily considered interchangeable. CFA Level " Inventories, " Michael A. Broihahn Section 3. 1</comments>
+    </problem>
+    <problem>
+        <question>69. Which of the following dates in the dividend chronology can fall on a weekend? The</question>
+        <choices>
+            <choice>A. payment date.</choice>
+            <choice>B. ex - date.</choice>
+            <choice>C. record date.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The payment date can occur on a weekend or holiday unlike other pertinent dates, such as the ex date and record date which occur only on business days. CFA Level I " Dividends and Share Repurchases: Basics, " George H. Troughton, and Gregory Noronha Section 3 INNIN</comments>
+    </problem>
+    <problem>
+        <question>70. The following information is available for a firm: €85 €65 Sales price per unit Variable cost per unit Fixed operating costs | Fixed financial costs €50 million €30 million The firm ' s breakeven quantity of sales ( in million units ) is closest to:</question>
+        <choices>
+            <choice>A. 1. 0.</choice>
+            <choice>B. 2. 5.</choice>
+            <choice>C. 4. 0.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Breakeven quantity of sales,</comments>
+    </problem>
+    <problem>
+        <question>F + C QBE - P - V o _ F + C = ( €50 million + €30 million ) - ( €85 - €65 ) = 4. 0 million units. Section 3. 6 71. Financial risk is least likely affected by:</question>
+        <choices>
+            <choice>A. long - term leases.</choice>
+            <choice>B. dividends.</choice>
+            <choice>C. debentures.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>By taking on fixed obligations, such as debt ( including debentures ) and long - term leases, a company increases its financial risk. Dividends will not increase financial risk. CFA Level I “ Measures of Leverage, " Pamela Peterson Drake, Raj Aggarwal, Cynthia Harrington, and Adam Kobor Section 3. 4</comments>
+    </problem>
+    <problem>
+        <question>72. A company ' s optimal capital budget most likely occurs at the intersection of the:</question>
+        <choices>
+            <choice>A. marginal cost of capital and investment opportunity schedule.</choice>
+            <choice>B. marginal cost of capital and net present value profiles.</choice>
+            <choice>C. net present value and internal rate of return profiles.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The point at which the marginal cost of capital intersects the investment opportunity schedule is the optimal capital budget. CFA Level I " Capital Budgeting, " John D. Stowe and Jacques R. Gagné Section 4. 7 " Cost of Capital, " Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2. 3</comments>
+    </problem>
+    <problem>
+        <question>73. A company has decided to switch to using accelerated depreciation from straight - line depreciation. Holding other factors constant, the degree of total leverage ( DTL ) will most likely:</question>
+        <choices>
+            <choice>A. increase.</choice>
+            <choice>B. not change.</choice>
+            <choice>C. decrease.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Based on the following equation: DTL = Quantity x ( Price – Variable cost )</comments>
+    </problem>
+    <problem>
+        <question>[ Quantity x ( Price – Variable cost ) – Fixed costs – Financing costs ] ' the change to accelerated depreciation increases the fixed costs, thus making DTL increase ( i. e., the numerator does not change and the denominator decreases ). CFA Level | " Measures of Leverage, " Pamela Peterson Drake, Raj Aggarwal, Cynthia Harrington, and Adam Kobor Section 3. 5 74. The following information is available for a company ' s bank account: $ 16. 0 Total deposits ( millions ) Average daily float ( millions ) Number of days $ 2. 5 15 stitute The float factor for the company is closest to:</question>
+        <choices>
+            <choice>A. 6. 4.</choice>
+            <choice>B. 2. 3.</choice>
+            <choice>C. 0. 4.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Float factor = Average daily float / Average daily deposit = $ 2. 5 million / ( $ 16 million / 15 ) = 2. 3 CFA Level I " Working Capital Management, " Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Section 5. 2, Example 4</comments>
+    </problem>
+    <problem>
+        <question>75. Which method of calculating the firm ' s cost of equity is most likely to incorporate the long - run return relationship between the firm ' s stock and the market portfolio?</question>
+        <choices>
+            <choice>B. Dividend discount model</choice>
+            <choice>C. Bond yield plus risk premium approach</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The capital asset pricing model uses the firm ' s equity beta, which is computed from a market model regression of the company ' s stock returns against market returns. CFA Level I " Cost of Capital, " Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 3. 3</comments>
+    </problem>
+    <problem>
+        <question>76. A company decides to repurchase 5 million of its outstanding 20 million shares with debt funding. After the repurchase, the company ' s after - tax earnings decline by 20 %. The new earnings per share ( EPS ) is most likely:</question>
+        <choices>
+            <choice>A. less than the pre - repurchase EPS.</choice>
+            <choice>B. greater than the pre - repurchase EPS.</choice>
+            <choice>C. equal to the pre - repurchase EPS.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The pre - repurchase EPS is Net income ( NI ) / 20 million. The EPS after the repurchase is [ NI x ( 1 - 20 % ) / 15 million ). To connect the two values algebraically: ( NI / 20 million ) xX = [ NI x ( 1 - 20 % ) / 15 million ] X = ( 1 - 20 % ) x ( 20 million / 15 million ) = 1. 067 Because X is greater than 1, the EPS has increased after the repurchase. CFA Level I “ Dividends and Share Repurchases: Basics, ” George H. Troughton and Gregory Noronha Section 4. 2. 1</comments>
+    </problem>
+    <problem>
+        <question>77. The following data pertain to a company that can be appropriately valued using the Gordon growth model. The dividend is expected to grow indefinitely at the existing sustainable growth rate. 7. 50 % $ 3. 00 EPS growth rate ( three - year average ) Current dividend per share Return on equity Dividend payout ratio | Investors ' required rate of return 15 % 45 % 16 % The stock ' s intrinsic value is closest to:</question>
+        <choices>
+            <choice>A. $ 41. 90.</choice>
+            <choice>B. $ 37. 94.</choice>
+            <choice>C. $ 34. 62.</choice>
+        </choices>
+        <answer>Answer = A titute</answer>
+        <comments>V % = Do ( 1 + g ) / ( r - g ), where Sustainable growth rate = g = bx ROE; b = ( 1 - Payout ratio ) g = ( 1 - 0. 45 ) x 15 % = 8. 25 %; Vo = ( $ 3 x 1. 0825 ) + ( 0. 16 – 0. 0825 ) = $ 41. 90. CFA Level " Equity Valuation: Concepts and Basic Tools, " John J. Nagorniak and Stephen E. Wilcox Section 4. 2</comments>
+    </problem>
+    <problem>
+        <question>78. Which of the following statements about the forms of market efficiency is least accurate? If the form of market efficiency is:</question>
+        <choices>
+            <choice>A. semi - strong, then security prices fully reflect all past market data.</choice>
+            <choice>B. weak, then investment strategies based on fundamental analysis could achieve abnormal returns. strong, then prices reflect only private information.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>If markets are strong - form efficient, prices reflect not only private information but also past market data and public information. If markets are weak - form efficient, investment strategies based on fundamental analysis of public information and past market data could achieve abnormal returns. The semi - strong form of market efficiency also encompasses the weak form. Therefore, security prices reflect not only publicly known and available information but also all past market data. CFA Level I " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 3</comments>
+    </problem>
+    <problem>
+        <question>79. The following table shows information on three different investment strategies with equivalent systematic risk: Annualized Data Strategy Type of Strategy | Fees and Expenses | Net Return 0 % 15 % 1 Passive Passive 2 Exploits price patterns 1 % 14 % 3 Uses fundamental analysis 2 % The return, gross of fees and expenses that causes Strategy 3 to be most consistent with the strong form of market efficiency is:</question>
+        <choices>
+            <choice>A. 16 %.</choice>
+            <choice>B. 18 %.</choice>
+            <choice>C. 17 %.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>For a violation of the strong form of market efficiency to occur, the strategy based on fundamental analysis must achieve a net return higher than the net return of the passive strategy, on a risk adjusted basis. This threshold corresponds to 15 % because both strategies had the same systematic risk and the passive strategy has no fees or expenses. To find the gross return on the strategy that uses fundamental analysis, the fees and expenses must be added to the net return: Gross return = Net return + Fees and expenses = 15 % + 2 % = 17 %. Anything in excess of 17 % would violate the strong form of market efficiency for the fundamental analysis strategy. CFA Level i " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Sections 3. 4 and 2. 1</comments>
+    </problem>
+    <problem>
+        <question>80. The voting rights of an unsponsored depository receipt ( DR ) belong to the:</question>
+        <choices>
+            <choice>A. direct owners of the foreign common shares.</choice>
+            <choice>B. foreign company whose shares are held by the depository.</choice>
+            <choice>C. depository bank.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>In the case of unsponsored DRs, the depository bank, not the investors in the DR, retains the voting rights. CFA Level I " Overview of Equity Securities, " Ryan C. Fuhrmann, and Asjeet S. Lamba Section 5. 2</comments>
+    </problem>
+    <problem>
+        <question>81. A trader is able to obtain persistent abnormal returns by adopting an investment strategy that purchases stocks that have recently experienced high returns. This strategy exploits a market pricing anomaly best described as:</question>
+        <choices>
+            <choice>A. the overreaction effect.</choice>
+            <choice>B. data mining.</choice>
+            <choice>C. momentum.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>A momentum anomaly occurs when securities that have experienced high short - term returns continue to generate higher returns in subsequent periods. Therefore, if a trader can obtain persistent abnormal returns by adopting an investment strategy that purchases stocks that have recently experienced high returns, then he or she is exploiting a momentum anomaly. CFA Level I " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 4. 1</comments>
+    </problem>
+    <problem>
+        <question>82. Security market indices can be used to calculate alphas, which are best described as:</question>
+        <choices>
+            <choice>B.</choice>
+            <choice>A. the systematic risk of a security, using the index as a proxy for the entire market. the difference between the return of the actively managed portfolio and the return of the passive portfolio.</choice>
+            <choice>C. a measure of market sentiment.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Security market indices serve as market proxies when measuring risk - adjusted performance. Alpha, the difference between the return of the actively managed portfolio and the return of the passive portfolio, is a measure of risk - adjusted return. CFA Level I " Security Market Indices, " Paul D. Kaplan and Dorothy C. Kelly Section 4. 2</comments>
+    </problem>
+    <problem>
+        <question>83. If a test rejects the hypothesis that market prices reflect private information but does not reject the hypothesis that they reflect past market data and public information, then the form of market efficiency is best described as:</question>
+        <choices>
+            <choice>A. strong.</choice>
+            <choice>B. weak.</choice>
+            <choice>C. semi - strong.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The forms of market efficiency are as follows:</comments>
+    </problem>
+    <problem>
+        <question>Forms of Market Efficiency Market Prices Reflect: Past Market | Public | Private Data Information | Information Weak | Semi - strong | Strong If a test rejects the hypothesis that market prices reflect private information but does not reject the hypothesis that they reflect past market data and public information, then there is evidence that the form of market efficiency is semi - strong ( because only past market data and public information are reflected in market prices ). CFA Level I " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 3 84. A trader buys 500 shares of a stock on margin at $ 36 a share using an initial leverage ratio of 1. 66. The maintenance margin requirement for the position is 30 %. The stock price at which the margin call will occur is closest to:</question>
+        <choices>
+            <choice>A. $ 20. 57.</choice>
+            <choice>B. $ 25. 20.</choice>
+        </choices>
         <answer />
-        <comments>A. the long - standing client relationships are not disclosed.</comments>
+        <comments> Answer = A Initial equity ( % ) in the margin transaction = 1 / Leverage ratio = 1 / 1. 66 = 0. 60; Initial equity per share at the time of purchase = $ 36 x 0. 60 = $ 21. 60; Price ( P ) at which margin call occurs: Equity per share / Price per share = Maintenance margin ( % ) = ( $ 21. 60 + P - $ 36 ) / P = 0. 30;</comments>
+    </problem>
+    <problem>
+        <question>Forms of Market Efficiency Market Prices Reflect: Past Market | Public | Private Data Information | Information Weak | Semi - strong | Strong If a test rejects the hypothesis that market prices reflect private information but does not reject the hypothesis that they reflect past market data and public information, then there is evidence that the form of market efficiency is semi - strong ( because only past market data and public information are reflected in market prices ). CFA Level I " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 3 84. A trader buys 500 shares of a stock on margin at $ 36 a share using an initial leverage ratio of 1. 66. The maintenance margin requirement for the position is 30 %. The stock price at which the margin call will occur is closest to:</question>
+        <choices>
+            <choice>A. $ 20. 57.</choice>
+            <choice>B. $ 25. 20.</choice>
+        </choices>
+        <answer />
+        <comments> Answer = A Initial equity ( % ) in the margin transaction = 1 / Leverage ratio = 1 / 1. 66 = 0. 60; Initial equity per share at the time of purchase = $ 36 x 0. 60 = $ 21. 60; Price ( P ) at which margin call occurs: Equity per share / Price per share = Maintenance margin ( % ) = ( $ 21. 60 + P - $ 36 ) / P = 0. 30;</comments>
+    </problem>
+    <problem>
+        <question>0. 7P = $ 14. 40; P = $ 20. 57. CFA Level I “ Market Organization and Structure, " Larry Harris Section 5. 2 85. Compared with unregulated markets, regulated markets are best characterized by:</question>
+        <choices>
+            <choice>A. reduced arbitrage opportunities.</choice>
+            <choice>B. higher transaction costs.</choice>
+            <choice>C. lower trading volumes.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Because regulated markets are more informationally efficient, there are fewer arbitrage opportunities. CFA Level I " Market Organization and structure, " Larry Harris Section 10</comments>
+    </problem>
+    <problem>
+        <question>86. An investor gathers the following data to estimate the intrinsic value of a company ' s stock using the justified forward price - to - earnings ratio ( P / E ) approach. Next year ' s earnings per share $ 3. 00 12. 5 % Return on equity Dividend payout ratio Required return on shares 60 % 10 % The intrinsic value per share is closest to:</question>
+        <choices>
+            <choice>A. $ 72.</choice>
+            <choice>B. $ 48.</choice>
+            <choice>C. $ 36.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Given that the Intrinsic value is Po = Po / E1 x Eı and Justified forward P / E is Po / E1 = p / ( r - g ), where: p = payout ratio, Dividend growth rate = ( 1 - Payout ratio ) x ROE = ( 1 - 0. 6 ) x 12. 5 = 5 %, Justified forward P / E = Po / E1: 0. 60 / ( 0. 10 - 0. 05 ) = 12x, so Intrinsic value = 12 x $ 3 = $ 36. CFA Level I “ Equity Valuation: Concepts and Basic Tools, " John J. Nagorniak and Stephen E. Wilcox Section 5. 1</comments>
+    </problem>
+    <problem>
+        <question>87. An analyst will most likely put a " sell " recommendation on a stock when its:</question>
+        <choices>
+            <choice>A. market value is lower than fundamental value.</choice>
+            <choice>B. market value is higher than intrinsic value.</choice>
+            <choice>C. intrinsic value is positive.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Intrinsic value is the true value so an analyst will put a " sell " recommendation on a stock when its</comments>
+    </problem>
+    <problem>
+        <question>market value, the price at which a stock is traded, is higher than intrinsic value. CFA Level I. " Market Efficiency, " W. Sean Cleary, Howard J. Atkinson and Pamela Peterson Drake Section 2. 2 88. Compared with public equity markets, which of the following statements is most accurate about private equity markets? Operating in the private market:</question>
+        <choices>
+            <choice>A. offers stronger incentives to improve corporate governance.</choice>
+            <choice>B. allows management to better adopt a long - term focus.</choice>
+            <choice>C. allows more opportunities to raise capital.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The management of a public firm is under pressures to meet shorter - term demands, such as</comments>
+    </problem>
+    <problem>
+        <question>meeting quarterly sales and earnings projections from analysts. Private owners are thus better able to focus on longer - term value creation opportunities. CFA Level I " Overview of Equity Securities, " Ryan C. Fuhrmann, and Asjeet S. Lamba Section 4 89. Conceptually, a FRA most likely allows a company that wants to invest money in the future to lock in a rate by making a:</question>
+        <choices>
+            <choice>A. variable payment and receiving a fixed payment.</choice>
+            <choice>B. fixed payment and receiving a different fixed payment.</choice>
+            <choice>C. fixed payment and receiving a variable payment.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>FRAs are forward contracts that conceptually allow lenders to lock in a fixed payment on a future investment by receiving a known payment and making an unknown payment which offsets the unknown future interest payment. CFA Level I. " Basics of Derivative Pricing and Valuation, " Don M. Chance Section 3. 1. 4</comments>
+    </problem>
+    <problem>
+        <question>90. During its life, the value of a forward contract is most likely equal to the price of the underlying minus the price of the:</question>
+        <choices>
+            <choice>A. forward, discounted over the remaining term of the contract.</choice>
+            <choice>B. forward.</choice>
+            <choice>C. forward, discounted over the original term of the contract.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The value of a forward contract is the spot price of the underlying minus the present value of the forward contract. Calculating the present value requires adjusting the time period to account for the remaining term of the contract. CFA Level I " Basics of Derivative Pricing and Valuation, " Don M. Chance Section 3. 1. 3</comments>
+    </problem>
+    <problem>
+        <question>91. Forward rate agreements are most likely used to hedge an exposure in the:</question>
+        <choices>
+            <choice>A. foreign exchange market.</choice>
+            <choice>B. money market.</choice>
+            <choice>C. equity market.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Forward rate agreements are used to hedge interest rate exposure present in the money market. CFA Level I " Basics of Derivative Pricing and Valuation, " Don M. Chance Section 3. 1. 4</comments>
+    </problem>
+    <problem>
+        <question>92. A corporation issues five - year fixed - rate bonds. Its treasurer expects interest rates to decline for all maturities for at least the next year. She enters into a one - year agreement with a bank to receive quarterly fixed - rate payments and to make payments based on floating rates benchmarked on three - month LIBOR. This agreement is best described as a:</question>
+        <choices>
+            <choice>A. futures contract.</choice>
+            <choice>B. swap.</choice>
+            <choice>C. forward contract.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and</comments>
+    </problem>
+    <problem>
+        <question>makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three - month LIBOR, at least four payments will be made during the year. CFA Level I “ Derivative Markets and Instruments, " Don M. Chance Section 4. 1 93. Which of the following statements is least accurate concerning differences in the pricing of forwards and futures?</question>
+        <choices>
+            <choice>A. Interest rate volatility can explain pricing differences.</choice>
+            <choice>B. Pricing differences can arise if futures prices and interest rates are uncorrelated.</choice>
+            <choice>C. Differences in the pattern of cash flows of forwards and futures can explain pricing differences.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>If futures prices and interest rates are uncorrelated, the prices of forwards and futures will be identical. CFA Level. " Basics of Derivative Pricing and Valuation, " Don M. Chance Section 3. 2</comments>
+    </problem>
+    <problem>
+        <question>94. A forward rate agreement most likely differs from most other forward contracts, because:</question>
+        <choices>
+            <choice>A. its underlying is not an asset.</choice>
+            <choice>B. positions cannot be closed out prior to maturity.</choice>
+            <choice>C. it involves an option component.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Forward rate agreements, unlike most other forward contracts, do not have an asset as an underlying. Instead, the underlying is an interest rate. CFA Level I " Basics of Derivative Pricing and Valuation, " Don M. Chance Section 3. 1. 4</comments>
+    </problem>
+    <problem>
+        <question>95. Which of the following statements is least accurate regarding the factors that affect the interest rate risk characteristics of an option - free bond?</question>
+        <choices>
+            <choice>A. The longer the bond ' s maturity, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+            <choice>B. The lower the coupon rate, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+            <choice>C. The higher the yield, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+        </choices>
+        <answer />
+        <comments> Option - free bonds have positive convexity. The higher the yield to maturity, the lower the duration ( and thus the lower the interest rate risk ). CFA Level | " Understanding Fixed - Income Risk and Return, " by James F. Adams and Donald J. Smith Section 3. 3</comments>
+    </problem>
+    <problem>
+        <question>95. Which of the following statements is least accurate regarding the factors that affect the interest rate risk characteristics of an option - free bond?</question>
+        <choices>
+            <choice>A. The longer the bond ' s maturity, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+            <choice>B. The lower the coupon rate, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+            <choice>C. The higher the yield, the greater the bond ' s price sensitivity to changes in interest rates.</choice>
+        </choices>
+        <answer />
+        <comments> Option - free bonds have positive convexity. The higher the yield to maturity, the lower the duration ( and thus the lower the interest rate risk ). CFA Level | " Understanding Fixed - Income Risk and Return, " by James F. Adams and Donald J. Smith Section 3. 3</comments>
+    </problem>
+    <problem>
+        <question>96. Centro Corp. recently issued a floating - rate note ( FRN ) that includes a feature that prevents its coupon rate from falling below a prespecified minimum rate. This feature in an FRN is most likely referred to as a:</question>
+        <choices>
+            <choice>A. cap.</choice>
+            <choice>B. floor.</choice>
+            <choice>C. collar.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>An FRN with a floor on the coupon rate prevents the coupon rate from falling below a prespecified</comments>
+    </problem>
+    <problem>
+        <question>minimum rate. CFA Level I " Fixed - Income Securities: Defining Elements, " Moorad Choudhry and Stephen E. Wilcox Section 4. 2 97. If the yield - to - maturity on an annual - pay bond is 7. 75 %, the bond - equivalent yield is closest to:</question>
+        <choices>
+            <choice>A. 7. 90 %.</choice>
+            <choice>B. 8. 05 %.</choice>
+            <choice>C. 7. 61 %.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>The bond - equivalent yield = 2x ( 1. 07750. 5 - 1 ) = 0. 07605 or 7. 61 % CFA Level 1 " Introduction to Fixed - Income Valuation, ” James F. Adams and Donald J. Smith Section 3. 3</comments>
+    </problem>
+    <problem>
+        <question>98. A South Korean electronics company issued bonds denominated in US dollars in the United States and registered with the SEC. These bonds are most likely known as a:</question>
+        <choices>
+            <choice>A. foreign bond.</choice>
+            <choice>B. global bond.</choice>
+            <choice>C. eurobond.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Bonds issued by entities that are incorporated in another country are called foreign bonds. Therefore, the bonds issued by a South Korean company in the United States are known as foreign bonds. CFA Level 1 " Fixed - income Securities: Defining Elements, " Moorad Choudhry and Stephen E. Wilcox Section 3. 2</comments>
+    </problem>
+    <problem>
+        <question>99. Consider a $ 100 par value bond, with an 8 % coupon paid annually, maturing in 20 years. If the bond currently sells for $ 96. 47, the yield to maturity is closest to:</question>
+        <choices>
+            <choice>A. 8. 37 %.</choice>
+            <choice>B. 8. 29 %.</choice>
+            <choice>C. 7. 41 %.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>A security with a present value of 96. 47, 19 interest payments of 8, and a 20th payment of principal plus interest ( 108 ) has a yield to maturity of 8. 37 %. CFA Level 1 " Introduction to Fixed - income Valuation, " James F. Adams and Donald J. Smith Section 3</comments>
+    </problem>
+    <problem>
+        <question>100. Consider bonds that have the same yield to maturity and maturity. The bond with the greatest reinvestment risk is most likely the one selling at:</question>
+        <choices>
+            <choice>A. par.</choice>
+            <choice>B. a discount.</choice>
+            <choice>C. a premium.</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Yield to maturity is based on the assumption that a bond is held to maturity, does not default, and has its coupon payments reinvested at the yield to maturity. The bond selling at a premium has the highest coupon rate and is expected to earn the most reinvestment income from reinvesting those coupon payments at the yield to maturity. If the reinvestment rate falls, this bond will suffer the greatest loss. CFA Level 1 " Understanding Fixed - income Risk and Return, " James F. Adams and Donald J. Smith Section 2</comments>
+    </problem>
+    <problem>
+        <question>101. A 90 - day commercial paper issue is quoted at a discount rate of 4. 75 % for a 360 - day year. The bond equivalent yield for this instrument is closest to:</question>
+        <choices>
+            <choice>A. 4. 87 %.</choice>
+            <choice>B. 4. 75 %.</choice>
+            <choice>C. 4. 81 %.</choice>
+        </choices>
+        <answer>Answer = A Days</answer>
+        <comments>Year</comments>
+    </problem>
+    <problem>
+        <question>PV = F The price of the commercial paper per 100 of par value is: where PV and FV are the price and face value of the money market instrument, Days is the number of days between settlement and maturity, Year is number of days in the year, and DR is the discount rate stated as an annual percentage. PV = 100 x ( 1 - 0 x 0. 0475 ) = 98. 8125. The bond equivalent yield is, So, Year 365 100 - 98. 8125 AOR = bar X ( " so, AOR = * x ( 1090au 128 ) = 4. 8749 %. 9881 CFA Level 1 " Introduction to Fixed - Income Valuation, " James F. Adams and Donald J. Smith Section 3. 5 102. In a rising interest rate environment, the effective duration of a putable bond relative to an otherwise identical non - putable bond, will most likely be:</question>
+        <choices>
+            <choice>A. higher.</choice>
+            <choice>B. lower.</choice>
+            <choice>C. the same.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>When</comments>
+    </problem>
+    <problem>
+        <question>interest rates are rising, the put option becomes more valuable to the investor. The ability to sell the bond at par value limits the price depreciation as rates rise. So, the presence of an embedded put option reduces the sensitivity of the bond price to changes in interest rates, resulting in a lower effective duration. CFA Level 1 " Understanding Fixed - income Risk and Return, " James F. Adams and Donald J. Smith Section 3. 3 103. A credit analyst observes the following information for Zeta Corp. and its industry. Industry Median Zeta Corp. 19. 0 % Return on capital ( % ) Total debt / Total capital ( % ) 20. 0 % 15. 5 % 42. 0 % FFO / Total debt ( % ) 45. 3 % 40. 0 % 3. 5x 1. 2x Total debt / EBITDA ( x ) | EBITDA interest coverage ( x ) 4. 0x 7. 5x Based on this information, it is most likely that the credit risk of Zeta Corp. is:</question>
+        <choices>
+            <choice>A. below its industry peers.</choice>
+            <choice>B. above its industry peers.</choice>
+            <choice>C. similar to its industry peers.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>While</comments>
+    </problem>
+    <problem>
+        <question>the company has a similar return on capital it has significantly higher leverage as well as lower EBITDA interest coverage ratio than its industry peers. It is likely that the company ' s credit risk will be above its industry peers. CFA Level " Fundamentals of Credit Analysis ", Christopher L. Gootkind Section 5. 2. 1 104. Which of the following is least likely a component of yield spread?</question>
+        <choices>
+            <choice>A. Expected inflation rate</choice>
+            <choice>B. Taxation</choice>
+            <choice>C. Credit risk</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Building blocks of the yield curve are spread ( risk premium ) and a benchmark ( risk - free rate of return ). Expected inflation rate and expected real rate are components of the risk - free rate of return ( i. e., the benchmark ). CFA Level 1 " Introduction to Fixed - income Valuation, " James F. Adams and Donald J. Smith Section 5. 1</comments>
+    </problem>
+    <problem>
+        <question>105. Which of the following 90 - day money market instruments most likely offers the investor the highest rate of return? Money Market Instrument Quoted Rate Quotation Basis Day Convention Instrument A 5. 78 % 360 Discount rate Instrument B 5. 80 % 365 Discount rate Instrument C 5. 96 % 365 Add - on rate</question>
+        <choices>
+            <choice>A. Instrument C</choice>
+            <choice>B. Instrument A</choice>
+            <choice>C. Instrument B</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>105. Which of the following 90 - day money market instruments most likely offers the investor the highest rate of return? Money Market Instrument Quoted Rate Quotation Basis Day Convention Instrument A 5. 78 % 360 Discount rate Instrument B 5. 80 % 365 Discount rate Instrument C 5. 96 % 365 Add - on rate</question>
+        <choices>
+            <choice>A. Instrument C</choice>
+            <choice>B. Instrument A</choice>
+            <choice>C. Instrument B</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments />
+    </problem>
+    <problem>
+        <question>106. Using the following US Treasury forward rates, the value of a 22 - year $ 100 par value Treasury bond with a 5 % coupon rate is closest to: Period Years Forward Rate 0. 5 1. 20 % 1. 80 % 1. 5 2. 30 % 2. 70 % 3. 00 % 2. 5 Te</question>
+        <choices>
+            <choice>A. $ 104. 87.</choice>
+            <choice>B. $ 106. 83.</choice>
+            <choice>C. $ 101. 52.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The value of the bond is</comments>
+    </problem>
+    <problem>
+        <question>2. 5 2. 5 2. 5 ( 1 +. 012 / 2 ) " ( 1 +. 012 / 2 ) x ( 1 +. 018 / 2 ) " ( 1 +. 012 / 2 ) x ( 1 +. 0182 ) x ( 1 +. 023 / 2 ) 2. 5 2. 5 ( 1 +. 012 / 2 ) x ( 1 +. 018 / 2 ) x ( 1 +. 023 / 2 ) x ( 1 +. 027 / 2 ) 102. 5 ( 1 +. 012 / 2 ) X ( 1 +. 018 / 2 ) X ( 1 +. 023 / 2 ) X ( 1 +. 027 / 2 ) X ( 1 +. 030 / 2 ) X = $ 106. 83 CFA Level | " Introduction to Fixed - Income Valuation, " James F. Adams and Donald J. Smith Section 4 107. Illiquidity is most likely a major concern when investing in:</question>
+        <choices>
+            <choice>A. private equity.</choice>
+            <choice>B. real estate investment trusts.</choice>
+            <choice>C. commodities.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Once a commitment in a private equity fund has been made, the investor has very limited liquidity options. CFA Level " Introduction to Alternative Investments, " Terri Duhon, George Spentzos, and Scott D. Stewart Section 4. 5</comments>
+    </problem>
+    <problem>
+        <question>108. Do management fees most likely get paid to the manager of a hedge fund, regardless of the fund ' s performance?</question>
+        <choices>
+            <choice>A. No, only when the fund ' s net asset value exceeds the previous high - water mark</choice>
+            <choice>B. No, only when the fund ' s gross return is positive</choice>
+            <choice>C. Yes</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Regardless of performance, the management fee is always paid to the fund manager. CFA Level I. " Introduction to Alternative Investments, " Terri Duhon, George Spentzos, and Scott D. Stewart Section 3. 3. 1</comments>
+    </problem>
+    <problem>
+        <question>109. Concentrated portfolio strategies are attractive because of their:</question>
+        <choices>
+            <choice>A. potential to generate alpha.</choice>
+            <choice>B. ability to track market indices.</choice>
+            <choice>C. low risk.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Concentrated portfolio strategies focus on only a few securities, strategies, or managers. This focus reduces diversification but may enable investors to achieve alpha. CFA Level I " Introduction to Alternative Investments, " Terri Duhon, George Spentzos, and Scott D. Stewart Section 2. 2</comments>
+    </problem>
+    <problem>
+        <question>110. Compared with other investment asset classes, an investment in real estate is least likely to be characterized by:</question>
+        <choices>
+            <choice>A. basic indivisibility.</choice>
+            <choice>B. homogeneity.</choice>
+            <choice>C. fixed location.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Because no two properties are identical, homogeneity is not a feature of an investment in real estate. CFA Level | " Introduction to Alternative Investments, " Terri Duhon, George Spentzos, and Scott D. Stewart Section 5</comments>
+    </problem>
+    <problem>
+        <question>111. In the context of strategic asset allocation, adding asset classes with low correlation will most likely improve a portfolio ' s risk - return trade - off as long as the stand - alone risk of the added asset class:</question>
+        <choices>
+            <choice>A. does not exceed its diversification effect.</choice>
+            <choice>B. equals its diversification effect.</choice>
+            <choice>C. exceeds its diversification effect.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>In general, adding assets classes with low correlation improves the risk - return trade - off as long as the stand - alone risk of the added asset class does not exceed its diversification effect. CFA Level " Basics of Portfolio Planning and Construction, " Alistair Byrne and Frank E. Smuddle Section 3. 2</comments>
+    </problem>
+    <problem>
+        <question>112. You are preparing an investment policy statement for a client who manages her own successful marketing consultancy. Her annual income is approximately $ 500, 000. She describes herself as a finance novice. Most of her savings are invested in bank term deposits and short - term government securities. In her responses to the standard risk assessment questionnaire, she strongly agrees with the statements that she " feels more comfortable putting money in a bank account than in the stock market. " Also, she " thinks of the word ' risk ' as being a ' loss ". Based on this information, your client ' s ability and willingness to take risk can best be described as:</question>
+        <choices>
+            <choice>A. high ability and low willingness.</choice>
+            <choice>B. high ability and willingness.</choice>
+            <choice>C. low ability and high willingness.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Although the client owns a successful business and has a high income, she exhibits above - average risk aversion, indicating that her ability to take risk is high but her willingness to take risk is low. CFA Level I " Basics of Portfolio Planning and Construction, " Alistair Byrne and Frank E. Smuddle Section 2. 2</comments>
+    </problem>
+    <problem>
+        <question>113. A key difference between a wrap account and a mutual fund is that wrap accounts:</question>
+        <choices>
+            <choice>A. have assets that are owned directly by the individual.</choice>
+            <choice>B. cannot be tailored to the tax needs of a client.</choice>
+            <choice>C. have a lower required minimum investment.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>The key difference between a wrap account and a mutual fund is that in a wrap account, the assets are owned directly by the individual. CFA Level | " Portfolio Management: An Overview, " Robert M. Conroy and Alistair Byrne Section 5. 3. 2</comments>
+    </problem>
+    <problem>
+        <question>114. Which of the following is least likely an assumption of the capital asset pricing model ( CAPM )?</question>
+        <choices>
+            <choice>A. Investors are different only with respect to their unique holding periods.</choice>
+            <choice>B. An investor can invest as much as he or she desires in any asset.</choice>
+            <choice>C. Security prices are not affected by investor trades.</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>One of the assumptions of the CAPM is that investors plan for the same single holding period. CFA Leveli " Portfolio Risk and Return: Part II, " Vijay Singal Section 4. 1</comments>
+    </problem>
+    <problem>
+        <question>115. If Investor A has a lower risk aversion coefficient than Investor B, on the capital allocation line, will Investor B ' s optimal portfolio most likely have a higher expected return?</question>
+        <choices>
+            <choice>A. No, because Investor B has a higher risk tolerance</choice>
+            <choice>B. No, because Investor B has a lower risk tolerance</choice>
+            <choice>C. Yes</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Investor B has a higher risk aversion coefficient, thus a lower risk tolerance and a lower expected return on the capital allocation line. CFA Level I " Portfolio Risk and Return: Part I, " Vijay Singal Section 3. 3</comments>
+    </problem>
+    <problem>
+        <question>116. The return measure that best allows one to compare asset returns earned over different length time periods is the:</question>
+        <choices>
+            <choice>A. annualized return.</choice>
+            <choice>B. net portfolio return.</choice>
+            <choice>C. holding period return.</choice>
+        </choices>
+        <answer>Answer = A te</answer>
+        <comments>The annualized return is an average return measure that can be calculated using return data for a period that is shorter ( or longer ) than one year. In many cases, it is most convenient to annualize all available returns in order to compare returns when the time periods during which a return is earned or computed vary. It reflects the return that would be earned over a one - year period, assuming that money can be reinvested repeatedly while earning a similar return. CFA Level | " Portfolio Risk and Return: Part I, " Vijay Singal Section 2. 1</comments>
+    </problem>
+    <problem>
+        <question>117. Based on the following historical data, which is closest to the standard deviation for the two - asset portfolio shown in the table? Asset A Asset B | Asset A and B Standard deviation 4. 7 % 7. 7 % Portfolio weight 0. 4 0. 6 Correlation 0. 3</question>
+        <choices>
+            <choice>A. 6. 5 %</choice>
+            <choice>B. 5. 5 %</choice>
+            <choice>C. 5. 0 %</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>The standard deviation of a two asset portfolio is calculated as follows: op = wzo; + wžož + 2ww2P120402 CFA Level I " Portfolio Risk and Return: Part I, " Vijay Singal Section 2. 3. 3</comments>
+    </problem>
+    <problem>
+        <question>118. When considering a portfolio that is optimal for one investor, a second investor with a higher risk aversion would most likely:</question>
+        <choices>
+            <choice>A. expect a higher variance for the portfolio.</choice>
+            <choice>B. derive a lower utility from the portfolio.</choice>
+            <choice>C. have a lower return expectation for the portfolio.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Utility has two terms: the expected return and a negative term based on the portfolio risk weighted by risk aversion. For an identical portfolio, the investor with a higher risk aversion ( A ) would calculate a lower utility ( U ).</comments>
+    </problem>
+    <problem>
+        <question>U = E ( r ) – AG NIH CFA Level I " Portfolio Risk and Return: Part I, " Vijay Singal Section 3. 2 119. A portfolio has the following returns: Portfolio Returns 2006 2. 4 % 2007 9. 6 % 2008 - 4. 0 % 5. 6 % 2009 2010 2011 4. 8 % - 3. 2 % The sample variance of the portfolio is closest to:</question>
+        <choices>
+            <choice>A. 0. 23 %.</choice>
+            <choice>B. 0. 28 %.</choice>
+            <choice>C. 0. 36 %.</choice>
+        </choices>
+        <answer>Answer = B stitute</answer>
+        <comments>The sample variance is calculated as the sum of squared deviations from the arithmetic mean.</comments>
     </problem>
 </problems>
