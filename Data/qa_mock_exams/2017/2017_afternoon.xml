@@ -1,0 +1,38 @@
+<problems>
+    <problem>
+        <question>1. Richard Cardinal, CFA, is the founder of Volcano Capital Research, an investment management firm whose sole activity is short selling. Cardinal seeks out companies whose stocks have had large price increases. Cardinal also pays several lobbying firms to update him immediately on any legislative or regulatory changes that may impact his target companies. Cardinal sells short those target companies he estimates are near the peak of their sales and earnings and that his sources identify as facing legal or regulatory challenges. Immediately after he sells a stock, Cardinal conducts a public relations campaign to disclose all of the negative information he has gathered on the company, even if the information is not yet public. Which of Cardinal ' s actions is least likely to be in violation of the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Selling stock short</choice>
+            <choice>B. Trading on information from lobbyists</choice>
+            <choice>C. Disclosing information about target companies</choice>
+        </choices>
+        <answer>Answer = A</answer>
+        <comments>Selling stock short is a management strategy and does not necessarily violate any aspect of the Standards of Professional Conduct. CFA Level I " Guidance for Standards I - VII " Standard II ( B ) – Market Manipulation</comments>
+    </problem>
+    <problem>
+        <question>Beth Kozniak, a CFA candidate, is an independent licensed real estate broker and a well - known property investor. She is currently brokering the sale of a commercial property on behalf of a client in financial distress. If the client ' s building is not sold within 30 days, he will lose the building to the bank. A year earlier, another client of Kozniak ' s had expressed interest in purchasing this same property. However, she is unable to contact this client, and she has not discovered any other potential buyers. Given her distressed client ' s limited time frame, Kozniak purchases the property herself and forgoes any sales commission. Six months later, she sells the property for a nice profit to the client who had earlier expressed interest in the property. Has Kozniak most likely violated the CFA Institute Standards of Professional Conduct?</question>
+        <choices>
+            <choice>A. Yes, she did not disclose her potential conflicts of interest to either client</choice>
+            <choice>B. Yes, she profited on the real estate to the detriment of her financially stressed client</choice>
+            <choice>C. No</choice>
+        </choices>
+        <answer>Answer = C</answer>
+        <comments>Kozniak does not appear to have violated any CFA Institute Standards of Professional Conduct. Because she is known in the market for investing and brokering property and both parties have worked with Kozniak in the past, both parties would know of her interests. In addition, in both cases, she acts for her own account as a primary investor, not as a broker. She buys the property for her own portfolio and then sells the property from her own portfolio. Therefore, Kozniak did not violate Standard VI ( A ) - Disclosure of Conflicts. When she purchased the property for her portfolio, she saved her client from losing the building to the bank and did not charge a sales commission. Because the sale of the property to her other client did not take place until six months after her purchase, and she was unable to contact the client who had earlier expressed interest prior to her purchase, she cannot be accused of violating Standard III ( A ) - Loyalty, Prudence, and Care with either client. CFA Level I " Guidance for Standards I - VII " Standard III ( A ) - Loyalty, Prudence, and Care, Standard VI ( A ) – Disclosure of Conflicts</comments>
+    </problem>
+    <problem>
+        <question>3. Which of the following statements concerning the Global Investment Performance Standards ( GIPS ) is most likely correct?</question>
+        <choices>
+            <choice>A. The Standards eliminate the need for in - depth due diligence by investors.</choice>
+            <choice>B. Compliance with the Standards enhances the credibility of investment management firms.</choice>
+            <choice>C. Clients or prospective clients benefit from the Standards because the historical track record of compliant firms is accurate and precise.</choice>
+        </choices>
+        <answer>Answer = B</answer>
+        <comments>Compliance with the GIPS standards enhances the credibility of investment management firms. CFA Level I " Introduction to the Global Investment Performance Standards ( GIPS ), ” CFA Institute</comments>
+    </problem>
+    <problem>
+        <question>Who Benefits from Compliance? Monique Gretta, CFA, is a research analyst at East West Investment Bank. Previously, Gretta worked at a mutual fund management company and has a long - standing client relationship with the managers of the funds and their institutional investors. Gretta often provides fund managers, who work for Gretta ' s former employer, with draft copies of her research before disseminating the information to all of the bank ' s clients. This practice has helped Gretta avoid several errors in her reports, and she believes it is beneficial to the bank ' s clients, even though they are not aware of this practice. Regarding her research, Gretta least likely violated the CFA Institute Standards of Professional Conduct because:</question>
+        <choices />
+        <answer />
+        <comments>A. the long - standing client relationships are not disclosed.</comments>
+    </problem>
+</problems>
