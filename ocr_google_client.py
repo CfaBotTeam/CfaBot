@@ -69,7 +69,7 @@ class ParsingContext:
         self.current_full_word_ = ''
         self.last_full_word_ = ''
         self.previous_indicator_ = ''
-        self.header_ = ''
+        self.headers_ = []
         self.previous_page_text_array_ = []
         self.header_set_ = False
         self.last_new_line_x = 0
@@ -234,12 +234,12 @@ class ParsingContext:
     def current_word_equals(self, word):
         return self.current_full_word_ == word
 
-    def set_header(self, header):
-        self.header_ = header
+    def set_headers(self, headers):
+        self.headers_ = [h.replace(' ', '') for h in headers]
 
     def header_set(self):
-        current_text = self.get_current_text()
-        if current_text.replace(' ', '') == self.header_.replace(' ', ''):
+        current_text = self.get_current_text().replace(' ', '')
+        if current_text in self.headers_:
             self.pop_current_text()
             self.restore_previous_text()
             return True
@@ -255,8 +255,8 @@ class CfaProblemsBuilder:
         self.client_ = vision.ImageAnnotatorClient()
         self.context_ = ParsingContext()
 
-    def set_header(self, header):
-        self.context_.set_header(header)
+    def set_headers(self, headers):
+        self.context_.set_headers(headers)
 
     @staticmethod
     def load_image(path):
@@ -416,7 +416,7 @@ class ProblemsWriter:
 
 
 def build_problems_by_chunck(builder, filepaths):
-    start = 1
+    start = 0
     end = len(filepaths)
     while start < end:
         temp_end = start + 5
@@ -427,28 +427,21 @@ def build_problems_by_chunck(builder, filepaths):
     return problems
 
 
-def handle_2014_afternoon():
-    resolver = FilePathResolver('2014', 'afternoon')
+def resolve_build_and_write(year, day_part, headers):
+    resolver = FilePathResolver(year, day_part)
     jpeg_filepaths = resolver.resolve_sorted_paths()
 
     builder = CfaProblemsBuilder()
-    builder.set_header("7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388")
+    builder.set_headers(headers)
     problems = build_problems_by_chunck(builder, jpeg_filepaths)
 
     writer = ProblemsWriter()
     writer.write_problems(resolver.get_xml_result_file(), problems)
 
 
-def handle_2014_morning():
-    resolver = FilePathResolver('2014', 'morning')
-    jpeg_filepaths = resolver.resolve_sorted_paths()
+headers = ["7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388"]
+resolve_build_and_write('2014', 'afternoon', headers)
 
-    builder = CfaProblemsBuilder()
-    builder.set_header("| 3172168919041893 March Mock Exam - AM 399388")
-    problems = build_problems_by_chunck(builder, jpeg_filepaths)
-
-    writer = ProblemsWriter()
-    writer.write_problems(resolver.get_xml_result_file(), problems)
-
-#handle_2014_afternoon()
-handle_2014_morning()
+# base_header = '3172168919041893 March Mock Exam - AM 399388'
+# headers = ["|" + base_header, base_header]
+# resolve_build_and_write('2014', 'morning', headers)
