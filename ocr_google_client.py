@@ -439,9 +439,13 @@ def resolve_build_and_write(year, day_part, headers):
     writer.write_problems(resolver.get_xml_result_file(), problems)
 
 
+# 2014 afternoon
 headers = ["7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388"]
 resolve_build_and_write('2014', 'afternoon', headers)
 
+# 2014 morning
 # base_header = '3172168919041893 March Mock Exam - AM 399388'
 # headers = ["|" + base_header, base_header]
 # resolve_build_and_write('2014', 'morning', headers)
+
+# 2015 afternoon
