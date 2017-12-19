@@ -1,11 +1,7 @@
 import io
 import os.path
 import re
-from glob import glob
 from google.cloud import vision
-import pandas as pd
-from xml.etree import ElementTree as ET
-import vkbeautify as vkb
 import math
 import more_itertools as mit
 
@@ -66,6 +62,7 @@ class ParsingContext:
         self.current_problem_ = None
         self.current_full_text_array_ = []
         self.current_word_array_ = []
+        self.previous_mode_ = ParsingMode.NONE
         self.mode_ = ParsingMode.NONE
         self.last_character_ = ''
         self.current_full_word_ = ''
@@ -153,9 +150,9 @@ class ParsingContext:
         # 2) Remove the header
         # 3) Restore the text
         # Here we proceed step 1
-        self.mode_ = ParsingMode.HEADER
         self.save_current_text()
         self.pop_current_text()
+        self.mode_ = ParsingMode.HEADER
 
     def new_line_indentation_has_changed(self):
         return math.fabs(self.last_new_line_x - self.current_new_line_x) > 15
@@ -176,9 +173,11 @@ class ParsingContext:
         return text
 
     def save_current_text(self):
+        self.previous_mode_ = self.mode_
         self.previous_page_text_array_ = list(self.current_full_text_array_)
 
     def restore_previous_text(self):
+        self.mode_ = self.previous_mode_
         self.current_full_text_array_ = list(self.previous_page_text_array_)
 
     def add_word_separator(self):
@@ -265,7 +264,18 @@ class CfaProblemsBuilder:
         with io.open(path, 'rb') as image_file:
             return image_file.read()
 
-    def build_problems(self, image_paths, last_call):
+    def build_problems(self, filepaths):
+        start = 0
+        end = len(filepaths)
+        while start < end:
+            temp_end = start + 5
+            if temp_end > end:
+                temp_end = end
+            problems = self.build_problems_internal_(filepaths[start:temp_end], temp_end <= end)
+            start = temp_end
+        return problems
+
+    def build_problems_internal_(self, image_paths, last_call):
         requests = []
         for image_path in image_paths:
             requests.append({
@@ -350,7 +360,6 @@ class BaseParser:
         self.context_.end_word(word)
 
 
-
 class CommonParser(BaseParser):
     def __init__(self):
         super().__init__(ParsingContext())
@@ -387,167 +396,3 @@ class CommonParser(BaseParser):
                     self.context_.start_new_choice()
             self.context_.add_word_separator()
 
-
-class ParsingContextTwoThousandSixteen(ParsingContext):
-    def start_answer(self):
-        self.end_problem(2)
-        self.current_problem_ = Problem()
-        self.mode_ = ParsingMode.ANSWER
-
-    def end_answer(self):
-        self.previous_indicator_ = self.get_current_text(minus_at_the_end=1, use_minus_for_start=True)
-        answer = self.pop_current_text(minus_at_the_end=1)
-        self.current_problem_.set_answer(self.join_sentences("Answer", answer.strip()))
-        self.mode_ = ParsingMode.COMMENTS
-
-
-class ParserTwoThousandSixteen(BaseParser):
-    def __init__(self):
-        super().__init__(ParsingContextTwoThousandSixteen())
-
-    def check_answer_end(self):
-        if self.context_.is_in_mode(ParsingMode.ANSWER) and \
-           self.context_.current_word_was_on_a_new_line():
-            self.context_.end_answer()
-
-    def parse_words(self, blocks_iter):
-        for word in blocks_iter:
-            self.parse_word(word)
-            if self.context_.currently_ending_a_sentence():
-                self.context_.remove_previous_word_separator()
-            self.check_answer_end()
-            if self.context_.current_word_is_dot() and \
-               self.context_.last_word_was_on_a_new_line() and \
-               self.context_.last_word_is_a_number():
-                self.context_.start_answer()
-            self.context_.add_word_separator()
-
-
-class FilePathResolver:
-    def __init__(self, year, day_part, file_part):
-        self.year_ = year
-        self.day_part_ = day_part
-        self.file_part_ = file_part
-
-    def extract_page_number(self, path):
-        filename = os.path.basename(path)
-        pattern = self.year_ + "_" + self.day_part_
-        if self.file_part_ != '':
-            pattern = pattern + "_" + self.file_part_
-        pattern = pattern + " (\d+).jpeg"
-        match = re.match(pattern, filename)
-        return int(match.groups()[0])
-
-    def resolve_sorted_paths(self):
-        paths = glob(os.path.join('Data', 'qa_mock_exams', self.year_, self.year_ + '_' + self.day_part_, '*.jpeg'))
-        df = pd.DataFrame(paths, columns=['filepath'])
-        df['page_number'] = df['filepath'].map(self.extract_page_number)
-        df.sort_values(["page_number"], inplace=True)
-        return df['filepath'].values
-
-    def get_xml_result_file(self):
-        return os.path.join('Data', 'qa_mock_exams', self.year_, self.year_ + '_' + self.day_part_ + '.xml')
-
-
-class ProblemsWriter:
-    def __init__(self):
-        pass
-
-    def get_xml_document(self, problems):
-        document = ET.Element('problems')
-        for problem in problems:
-            problem_xml = ET.SubElement(document, 'problem')
-            question_xml = ET.SubElement(problem_xml, 'question')
-            question_xml.text = problem.question_
-            choices_xml = ET.SubElement(problem_xml, 'choices')
-            for choice in problem.choices_:
-                choice_xml = ET.SubElement(choices_xml, 'choice')
-                choice_xml.text = choice
-            answer_xml = ET.SubElement(problem_xml, 'answer')
-            answer_xml.text = problem.answer_
-            comments_xml = ET.SubElement(problem_xml, 'comments')
-            comments_xml.text = problem.comments_
-        return document
-
-    def write_problems(self, to_path, problems):
-        document = self.get_xml_document(problems)
-        xml_text = ET.tostring(document, encoding='unicode', method="xml")
-        pretty_xml_text = vkb.xml(xml_text)
-        vkb.xml(pretty_xml_text, to_path)
-
-
-def build_problems_by_chunck(builder, filepaths):
-    start = 0
-    end = len(filepaths)
-    while start < end:
-        temp_end = start + 5
-        if temp_end > end:
-            temp_end = end
-        problems = builder.build_problems(filepaths[start:temp_end], temp_end <= end)
-        start = temp_end
-    return problems
-
-
-def resolve_build_and_write(year, day_part, file_part, nb_blocks_footer=0, nb_words_footer=0, headers=None, skip_nb_page=0, parser=None):
-    resolver = FilePathResolver(year, day_part, file_part)
-    jpeg_filepaths = resolver.resolve_sorted_paths()
-    jpeg_filepaths = jpeg_filepaths[skip_nb_page:]
-
-    builder = CfaProblemsBuilder(parser=parser, headers=headers, nb_blocks_footer=nb_blocks_footer, nb_words_footer=nb_words_footer)
-    problems = build_problems_by_chunck(builder, jpeg_filepaths)
-#    problems = get_problems(jpeg_filepaths, headers, nb_blocks_footer)
-
-    writer = ProblemsWriter()
-    writer.write_problems(resolver.get_xml_result_file(), problems)
-
-
-# def get_problems(jpeg_filepaths, headers, nb_blocks_footer):
-#     builder = CfaProblemsBuilder(headers=headers, nb_blocks_footer=nb_blocks_footer),
-#     return build_problems_by_chunck(builder, jpeg_filepaths)
-#
-#
-# def resolve_build_and_write(year, day_part, headers=None, skip_nb_page=0, nb_blocks_footer=1):
-#     return resolve_build_and_write_(year, day_part, get_problems, headers, nb_blocks_footer, skip_nb_page)
-#
-#
-# def get_problems_2016(jpeg_filepaths, headers, nb_blocks_footer):
-#     builder = CfaProblemsBuilder(headers=headers, nb_blocks_footer=nb_blocks_footer),
-#     questions = build_problems_by_chunck(builder, jpeg_filepaths)
-#
-#
-# def resolve_build_and_write_2016(year, day_part, headers=None, skip_nb_page=0, nb_blocks_footer=1):
-#     return resolve_build_and_write_(year, day_part, get_problems_2016, headers, nb_blocks_footer, skip_nb_page)
-
-
-# 2014 afternoon
-# headers = ["7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388"]
-# resolve_build_and_write('2014', 'afternoon', 'answer', headers)
-
-# 2014 morning
-# base_header = '3172168919041893 March Mock Exam - AM 399388'
-# headers = ["|" + base_header, base_header]
-# resolve_build_and_write('2014', 'morning', 'answer', headers)
-
-# 2015 afternoon
-# headers = ['2015 Level I Mock Exam PM Questions and Answers']
-# resolve_build_and_write('2015', 'afternoon', 'answer', headers)
-
-# 2015 morning
-# headers = ['2015 Level I Mock Exam AM Questions and Answers']
-# resolve_build_and_write('2015', 'morning', 'answer', headers)
-
-# 2017 afternoon
-# resolve_build_and_write('2017', 'morning', 'answer', skip_nb_page=1, nb_blocks_footer=2)
-
-# 2017 afternoon
-# resolve_build_and_write('2017', 'afternoon', 'answer', skip_nb_page=1, nb_blocks_footer=2)
-
-# 2016 afternoon answer
-# headers = ['CFA level1-Mock-114']
-# parser = ParserTwoThousandSixteen()
-# resolve_build_and_write('2016', 'afternoon_answer', '', skip_nb_page=1, headers=headers, nb_words_footer=3, parser=parser)
-
-# 2016 morning answer
-headers = ['CFA level1-Mock-113']
-parser = ParserTwoThousandSixteen()
-resolve_build_and_write('2016', 'morning_answer', '', skip_nb_page=1, headers=headers, nb_words_footer=3, parser=parser)
