@@ -1,12 +1,9 @@
 import io
 import os.path
 import re
-from glob import glob
 from google.cloud import vision
-import pandas as pd
-from xml.etree import ElementTree as ET
-import vkbeautify as vkb
 import math
+import more_itertools as mit
 
 
 class Problem:
@@ -29,7 +26,7 @@ class Problem:
         self.comments_ = comments
 
     def is_empty(self):
-        return self.question_ == ''
+        return self.question_ == '' and self.answer_ == ''
 
 
 class ParsingMode(object):
@@ -65,6 +62,7 @@ class ParsingContext:
         self.current_problem_ = None
         self.current_full_text_array_ = []
         self.current_word_array_ = []
+        self.previous_mode_ = ParsingMode.NONE
         self.mode_ = ParsingMode.NONE
         self.last_character_ = ''
         self.current_full_word_ = ''
@@ -126,12 +124,6 @@ class ParsingContext:
         self.current_problem_.add_choice(self.join_sentences(self.previous_indicator_, choice_text))
         self.mode_ = ParsingMode.ANSWER
 
-    def end_answer(self):
-        self.previous_indicator_ = self.get_current_text(minus_at_the_end=1, use_minus_for_start=True)
-        answer = self.pop_current_text(minus_at_the_end=1)
-        self.current_problem_.set_answer(self.join_sentences("Answer", answer.strip()))
-        self.mode_ = ParsingMode.COMMENTS
-
     def end_comments(self, nb_lookup):
         current_indicator = self.get_current_text(minus_at_the_end=nb_lookup, use_minus_for_start=True)
         comments = self.pop_current_text(minus_at_the_end=nb_lookup)
@@ -158,9 +150,9 @@ class ParsingContext:
         # 2) Remove the header
         # 3) Restore the text
         # Here we proceed step 1
-        self.mode_ = ParsingMode.HEADER
         self.save_current_text()
         self.pop_current_text()
+        self.mode_ = ParsingMode.HEADER
 
     def new_line_indentation_has_changed(self):
         return math.fabs(self.last_new_line_x - self.current_new_line_x) > 15
@@ -181,9 +173,11 @@ class ParsingContext:
         return text
 
     def save_current_text(self):
+        self.previous_mode_ = self.mode_
         self.previous_page_text_array_ = list(self.current_full_text_array_)
 
     def restore_previous_text(self):
+        self.mode_ = self.previous_mode_
         self.current_full_text_array_ = list(self.previous_page_text_array_)
 
     def add_word_separator(self):
@@ -254,13 +248,15 @@ class ParsingContext:
 
 
 class CfaProblemsBuilder:
-    def __init__(self, headers=None, nb_blocks_footer=1):
+    def __init__(self, parser=None, headers=None, nb_blocks_footer=1, nb_words_footer=0):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/abiarnes/Documents/Lessons/Fil_Rouge/CfaBot/Keys/CfaBot-ServiceKey-Adrien.json"
+        self.parser_ = parser if parser is not None else CommonParser()
         self.client_ = vision.ImageAnnotatorClient()
-        self.context_ = ParsingContext()
+        self.context_ = self.parser_.get_context()
         if headers is not None:
             self.context_.set_headers(headers)
         self.nb_blocks_footer_ = nb_blocks_footer
+        self.nb_words_footer_ = nb_words_footer
         self.current_image_path_ = ''
 
     @staticmethod
@@ -268,7 +264,18 @@ class CfaProblemsBuilder:
         with io.open(path, 'rb') as image_file:
             return image_file.read()
 
-    def build_problems(self, image_paths, last_call):
+    def build_problems(self, filepaths):
+        start = 0
+        end = len(filepaths)
+        while start < end:
+            temp_end = start + 5
+            if temp_end > end:
+                temp_end = end
+            problems = self.build_problems_internal_(filepaths[start:temp_end], temp_end <= end)
+            start = temp_end
+        return problems
+
+    def build_problems_internal_(self, image_paths, last_call):
         requests = []
         for image_path in image_paths:
             requests.append({
@@ -313,21 +320,30 @@ class CfaProblemsBuilder:
             # block_start, should_start_problem = self.handle_special_question_case(page)
             blocks_iter = self.get_page_iterator(0, page)
             if self.context_.is_in_mode(ParsingMode.HEADER):
-                self.parse_header(blocks_iter)
+                self.parser_.parse_header(blocks_iter)
             # if should_start_problem:
             #     self.context_.start_new_problem(0)
-            self.parse_words(blocks_iter)
+            self.parser_.parse_words(blocks_iter)
 
     def get_page_iterator(self, block_start, page):
         # we always skip the last blocks of the page which corresponds to the footer
         blocks = page.blocks[block_start:len(page.blocks) - self.nb_blocks_footer_]
-        return iter(self.get_next_word_from_blocks(blocks))
+        iterator = iter(self.get_next_word_from_blocks(blocks))
+        return mit.islice_extended(iterator, None, -self.nb_words_footer_)
 
     def get_next_word_from_blocks(self, blocks):
-        for i_block, block in enumerate(blocks):
-            for i_para, paragraph in enumerate(block.paragraphs):
-                for i_word, word in enumerate(paragraph.words):
+        for block in blocks:
+            for paragraph in block.paragraphs:
+                for word in paragraph.words:
                     yield word
+
+
+class BaseParser:
+    def __init__(self, context):
+        self.context_ = context
+
+    def get_context(self):
+        return self.context_
 
     def parse_header(self, blocks_iter):
         for word in blocks_iter:
@@ -337,6 +353,16 @@ class CfaProblemsBuilder:
                 self.context_.restore_previous_text()
                 break
             self.context_.add_word_separator()
+
+    def parse_word(self, word):
+        for symbol in word.symbols:
+            self.context_.add_symbol(symbol)
+        self.context_.end_word(word)
+
+
+class CommonParser(BaseParser):
+    def __init__(self):
+        super().__init__(ParsingContext())
 
     def check_answer_end(self):
         if self.context_.is_in_mode(ParsingMode.ANSWER) and \
@@ -370,103 +396,3 @@ class CfaProblemsBuilder:
                     self.context_.start_new_choice()
             self.context_.add_word_separator()
 
-    def parse_word(self, word):
-        for symbol in word.symbols:
-            self.context_.add_symbol(symbol)
-        self.context_.end_word(word)
-
-
-class FilePathResolver:
-    def __init__(self, year, day_part):
-        self.year_ = year
-        self.day_part_ = day_part
-
-    def extract_page_number(self, path):
-        filename = os.path.basename(path)
-        match = re.match(self.year_ + "_" + self.day_part_ + "_answer (\d+).jpeg", filename)
-        return int(match.groups()[0])
-
-    def resolve_sorted_paths(self):
-        paths = glob(os.path.join('Data', 'qa_mock_exams', self.year_, self.year_ + '_' + self.day_part_, '*.jpeg'))
-        df = pd.DataFrame(paths, columns=['filepath'])
-        df['page_number'] = df['filepath'].map(self.extract_page_number)
-        df.sort_values(["page_number"], inplace=True)
-        return df['filepath'].values
-
-    def get_xml_result_file(self):
-        return os.path.join('Data', 'qa_mock_exams', self.year_, self.year_ + '_' + self.day_part_ + '.xml')
-
-
-class ProblemsWriter:
-    def __init__(self):
-        pass
-
-    def get_xml_document(self, problems):
-        document = ET.Element('problems')
-        for problem in problems:
-            problem_xml = ET.SubElement(document, 'problem')
-            question_xml = ET.SubElement(problem_xml, 'question')
-            question_xml.text = problem.question_
-            choices_xml = ET.SubElement(problem_xml, 'choices')
-            for choice in problem.choices_:
-                choice_xml = ET.SubElement(choices_xml, 'choice')
-                choice_xml.text = choice
-            answer_xml = ET.SubElement(problem_xml, 'answer')
-            answer_xml.text = problem.answer_
-            comments_xml = ET.SubElement(problem_xml, 'comments')
-            comments_xml.text = problem.comments_
-        return document
-
-    def write_problems(self, to_path, problems):
-        document = self.get_xml_document(problems)
-        xml_text = ET.tostring(document, encoding='unicode', method="xml")
-        pretty_xml_text = vkb.xml(xml_text)
-        vkb.xml(pretty_xml_text, to_path)
-
-
-def build_problems_by_chunck(builder, filepaths):
-    start = 0
-    end = len(filepaths)
-    while start < end:
-        temp_end = start + 5
-        if temp_end > end:
-            temp_end = end
-        problems = builder.build_problems(filepaths[start:temp_end], temp_end <= end)
-        start = temp_end
-    return problems
-
-
-def resolve_build_and_write(year, day_part, headers=None, skip_nb_page=0, nb_blocks_footer=1):
-    resolver = FilePathResolver(year, day_part)
-    jpeg_filepaths = resolver.resolve_sorted_paths()
-    jpeg_filepaths = jpeg_filepaths[skip_nb_page:]
-
-    builder = CfaProblemsBuilder(headers=headers, nb_blocks_footer=nb_blocks_footer)
-    problems = build_problems_by_chunck(builder, jpeg_filepaths)
-
-    writer = ProblemsWriter()
-    writer.write_problems(resolver.get_xml_result_file(), problems)
-
-
-# 2014 afternoon
-# headers = ["7476229133318632 March Mock Exam - PM March Mock Exam - PM 399388"]
-# resolve_build_and_write('2014', 'afternoon', headers)
-
-# 2014 morning
-# base_header = '3172168919041893 March Mock Exam - AM 399388'
-# headers = ["|" + base_header, base_header]
-# resolve_build_and_write('2014', 'morning', headers)
-
-# 2015 afternoon
-# headers = ['2015 Level I Mock Exam PM Questions and Answers']
-# resolve_build_and_write('2015', 'afternoon', headers)
-
-# 2015 morning
-# headers = ['2015 Level I Mock Exam AM Questions and Answers']
-# resolve_build_and_write('2015', 'morning', headers)
-
-# 2017 afternoon
-# resolve_build_and_write('2017', 'morning', skip_nb_page=1, nb_blocks_footer=2)
-
-# 2017 afternoon
-resolve_build_and_write('2017', 'afternoon', skip_nb_page=1, nb_blocks_footer=2)
