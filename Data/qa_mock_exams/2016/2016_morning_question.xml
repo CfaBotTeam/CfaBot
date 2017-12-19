@@ -1,6 +1,6 @@
 <problems>
     <problem>
-        <question>Last Name: First Name: MOCK EXAM 113 No: Date: Questions 1 - 18 Relate to Ethics 1. Alexander Newton, CFA, is the chief compliance officer for Mills Investment Limited. Newton institutes a new policy requiring the pro rata distribution of new security issues to all established discretionary accounts for which the new issues are appropriate. The policy also provides for the exclusion of newly established discretionary accounts from the distribution until they have reached their one - month anniversary date. This policy is disclosed to all existing and potential clients. Did Newton most likely violate any CFA Institute Standards of Professional Conduct?</question>
+        <question>1. Alexander Newton, CFA, is the chief compliance officer for Mills Investment Limited. Newton institutes a new policy requiring the pro rata distribution of new security issues to all established discretionary accounts for which the new issues are appropriate. The policy also provides for the exclusion of newly established discretionary accounts from the distribution until they have reached their one - month anniversary date. This policy is disclosed to all existing and potential clients. Did Newton most likely violate any CFA Institute Standards of Professional Conduct?</question>
         <choices>
             <choice>A. No, because the policy has been adequately disclosed to all existing and potential clients</choice>
             <choice>B. No, because the allocation policy is not inequitable under the standards</choice>
@@ -119,7 +119,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>13. Amanda Covington, CFA, works for McJan Investment Management. McJan employees must receive prior clearance of their personal investments in accordance with McJan ' s compliance procedures. To obtain prior clearance, McJan employees must provide a written request identifying the security, the quantity of the security to be purchased, and the name of the broker through which the transaction will be made. Precleared transactions are approved only for that trading day. As indicated below, Covington received prior clearance. Security Quantity Broker Prior Clearance 100 Easy Trade Yes 150 Easy Trade Yes Two days after she received prior clearance, the price of Stock B decreased, so Covington decided to purchase 250 shares of Stock B only. In her decision to purchase 250 shares of Stock B only, did Covington violate any CFA Institute Standards of Professional Conduct?</question>
         <choices>
             <choice>A. Yes, relating to diligence and reasonable basis</choice>
@@ -174,7 +174,7 @@
         <choices>
             <choice>A. Yes, both Davidson ' s part - time consulting business and his meetings with Integrity clients are violations of the Standards</choice>
             <choice>B. Yes, Davidson ' s part - time consulting business is a violation of the Standards</choice>
-            <choice>C. No Questions 19 – 32 Relate to Quantitative analysis</choice>
+            <choice>C. No</choice>
         </choices>
         <answer />
         <comments />
@@ -189,7 +189,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>20. Cumulative Probabilities for a Standard Normal Distribution P ( Z &lt; X ) = N ( x ) for x &gt; 0 or P ( Z &lt; z ) = N ( z ) for z &gt; 0 X or z 0. 01 0. 02 0. 03 0. 04 0. 05 0. 06 0. 07 0. 08 0. 09 1. 10 0. 8665 0. 8686 0. 8708 0. 8729 0. 8749 0. 8770 0. 8790 0. 8810 0. 8830 1. 20 | 0. 8643 0. 8849 0. 9032 0. 8869 0. 8888 0. 8907 0. 8925 | 0. 8944 0. 8962 0. 8980 | 0. 8997 0. 9015 1. 30 0. 9049 0. 9066 0. 9082 0. 9099 0. 9115 0. 9131 0. 9147 0. 9162 0. 9177 1. 90 0. 9713 0. 9719 0. 9726 0. 9732 0. 9738 0. 9744 0. 9750 | 0. 9756 0. 9761 0. 9767 2. 00 0. 9772 0. 9778 0. 9783 0. 9788 0. 9798 0. 9803 0. 9808 0. 9812 0. 9817 0. 9793 | 0. 9838 2. 10 0. 9821 0. 9826 0. 9830 0. 9834 0. 9842 0. 9846 0. 9850 0. 9854 0. 9857 2. 50 0. 9938 0. 9940 0. 9941 0. 9943 | 0. 9945 0. 9946 0. 9948 0. 9949 0. 9951 0. 9952 2. 60 0. 9953 0. 9955 0. 9956 0. 9957 0. 9959 0. 9960 0. 9961 0. 9962 0. 9963 0. 9964 2. 70 0. 9965 0. 9966 0. 9967 0. 9968 0. 9969 0. 9970 0. 9971 0. 9972 0. 9973 0. 9974 A variable is normally distributed with a mean of 5. 00 and a variance of 4. 00. Using the excerpt above from the cumulative distribution function for the standard normal random variable table, the probability of observing a value of - 0. 40 or less is closest to:</question>
         <choices>
             <choice>A. 8. 85 %.</choice>
@@ -199,7 +199,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>21. An analyst applies four valuation screens to a set of potential investments. The screens are independent of each other. Valuation Screen Probability of Passing 0. 65 0. 45 2 3 0. 40 0. 30 If there are 1, 200 potential investments, the number expected to simultaneously pass all four screens is closest to:</question>
         <choices>
             <choice>A. 360.</choice>
@@ -219,7 +219,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>23. Assume that a stock ' s price over the next two periods is as shown below. Time = 0 Time = 1 Time = 2 SO = 100 Su = 110 Suu = 121 Sd = 92 Sud, Sdu = 101. 20 Sdd = 84. 64 The initial value of the stock is $ 100. The probability of an up move in any given period is 40 %, and the probability of a down move in any given period is 60 %. Using the binomial model, the probability that the stock ' s price will be $ 101. 20 at the end of two periods is closest to:</question>
         <choices>
             <choice>A. 16 %.</choice>
@@ -269,7 +269,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>28. The following information applies to a portfolio composed of Fund A and Fund B: Fund A Fund B Portfolio weights ( % ) 70 30 16 Expected returns ( % ) Standard deviations ( % ) 13 Correlation between the returns of Fund A and Fund B 0. 80 The portfolio ' s standard deviation of return is closest to:</question>
         <choices>
             <choice>A. 8. 80 %.</choice>
@@ -289,7 +289,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>30. Use the following values from a student ' s t - distribution to establish a 95 % confidence interval for the population mean given a sample size of 10, a sample mean of 6. 25, and a sample standard deviation of 12. Assume that the population from which the sample is drawn is normally distributed and the population variance is not known. Degrees of Freedom p = 0. 10 | | p = 0. 05 | p = 0. 025 p = 0. 01 1. 383 1. 833 2. 262 2. 821 10 1. 372 1. 812 2. 228 2. 764 1. 363 1. 796 2. 201 2. 718 The 95 % confidence interval is closest to a:</question>
         <choices>
             <choice>A. lower bound of - 0. 71 and an upper bound of 13. 21.</choice>
@@ -314,12 +314,12 @@
         <choices>
             <choice>A. zero and positive one.</choice>
             <choice>B. minus one and positive one.</choice>
-            <choice>C. zero and positive infinity. Questions 33 — 44 Relate to Economics</choice>
+            <choice>C. zero and positive infinity.</choice>
         </choices>
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>33. The diagram to the right shows the Price Domestic Supply domestic demand and supply curves for a country which imports PI FI TH II G. -. -. -. - - + - I - II a commodity, where Pw is its world Domestic Demand price and PT is its domestic price - - - - - after the imposition of a tariff. 0 Qi Q. Q. Q. Quantity The reduction in the net national welfare of this country as a result of the tariff is best described by the area ( s ):</question>
         <choices>
             <choice>A. E.</choice>
@@ -389,7 +389,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>40. A college student ' s monthly demand for pizza is given by the following equation: QDPizza = 11 – 0. 70 * PPizza + 0. 009 * I - 0. 20 * Pcola QDPizza is the number of pizzas ordered per month where PPizza is the price of a pizza I is her monthly food budget Pcola is the price of cola per bottle where QDpizza is the number of pizzas ordered per month Ppizza is the price of a pizza I is her monthly food budget Pcola is the price of cola per bottle The student ' s current monthly food budget is $ 500, the price of a pizza is $ 5, and the price of a bottle of cola is $ 1. 25 per bottle. If the student ' s monthly food budget were to increase to $ 700, the slope of her demand curve for pizza would be closest to:</question>
         <choices>
             <choice>A. - 0. 70.</choice>
@@ -433,25 +433,13 @@
         <question>44. Which of the following is least likely to be a characteristic of a Giffen good? Its:</question>
         <choices>
             <choice>A. substitution effect is negative</choice>
-            <choice>.</choice>
             <choice>B. demand curve slopes upward.</choice>
-            <choice>C. income effect is negative. Questions 45 - 68 Relate to Financial Statement Analysis</choice>
+            <choice>C. income effect is negative.</choice>
         </choices>
         <answer />
         <comments />
     </problem>
-    <problem>
-        <question>44. Which of the following is least likely to be a characteristic of a Giffen good? Its:</question>
-        <choices>
-            <choice>A. substitution effect is negative</choice>
-            <choice>.</choice>
-            <choice>B. demand curve slopes upward.</choice>
-            <choice>C. income effect is negative. Questions 45 - 68 Relate to Financial Statement Analysis</choice>
-        </choices>
-        <answer />
-        <comments />
-    </problem>
-    <problem>
+    <problem has_table='true'>
         <question>45. The following data is available on two companies that operate in the same industry: Metric ( $ millions ) Company X Company Y Sales 11. 2 14. 5 Cost of goods sold 5. 7. 7. 7 Administration costs 1. 9 2. 2 Interest expense 0. 3 0. 7 Research &amp; development expenses 1. 5 1. 7 Which of the following statements is most appropriate? Better margin performance will be reported by:</question>
         <choices>
             <choice>A. X at the gross margin level and Y at the operating margin level.</choice>
@@ -461,7 +449,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>46. At the start of the year a company that uses U. S. GAAP entered a contract to design and build a bridge with the following terms: Contract length 3 years $ 40 million Fixed contract price Estimated contract cost Costs incurred in first year $ 32 million $ 12 million The company was initially quite certain about its cost estimates and intended to recognize revenue based on them. However, unexpected problems during the first year have caused engineers to suggest that a more expensive design may be required, costing up to $ 8 million more. If the appropriate design cannot be determined before the company ' s financial statements are issued, the difference in the amount of revenue the company would recognize is closest to:</question>
         <choices>
             <choice>A. $ 15 million.</choice>
@@ -491,7 +479,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>49. A company incurs the following costs related to its inventory during the year: Cost ¥ millions Purchase price 100, 000 Trade discounts 5, 000 Import duties 20, 000 Shipping of raw materials to manufacturing facility 10, 000 Manufacturing conversion costs 50, 000 Abnormal costs as a result of waste material 8, 000 Storage cost of finished goods prior to shipping to customers 2, 000 The amount charged to inventory cost ( in millions ) is closest to:</question>
         <choices>
             <choice>A. ¥175, 000.</choice>
@@ -501,7 +489,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>50. The following is selected balance sheet data for a company along with information about its financial and operating lease obligations. As of 31 December 2014 ( € millions ) Long - term debt 1, 347 Total shareholder ' s equity 11, 268 Total assets 20, 097 Note 18. Financial and Operating Leases</question>
         <choices>
             <choice>A. Financial Leases The implicit interest rate on finance leases for 2014 was 6. 0 %.</choice>
@@ -543,7 +531,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>54. The following data is available on a company for the current year: Metric ( £ ’ 000 ) Comprehensive income 246, 000 Dividends paid 60, 000 Ending retained earnings 821, 000 Opening retained earnings 580, 000 The company will most likely report other comprehensive income ( OCI ) ( in £ ' 000 ) as a:</question>
         <choices>
             <choice>A. gain of 186, 000.</choice>
@@ -553,7 +541,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>55. The following information is available on a company for the current year. Net income $ 1, 000, 000 Average number of common shares outstanding 100, 000 Details of convertible securities outstanding: Convertible preferred shares outstanding 2, 000 Dividend / share $ 10 Each preferred share is convertible into five shares of common stock Convertible bonds, $ 100 face value per bond $ 80, 000 8 % coupon Each bond is convertible into 25 shares of common stock Corporate tax rate 40 % The company ' s diluted EPS is closest to:</question>
         <choices>
             <choice>A. $ 7. 57.</choice>
@@ -634,9 +622,10 @@
         <comments />
     </problem>
     <problem>
-        <question>63. A company that prepares its financial statements using IFRS wrote down its inventory value by €20, 000 at the end of year 1. In year 2, prices increased and the same inventory at the end of the year was worth €30, 000 more than its value at the end of the prior year. Which of the following statements is most accurate? In year 2, the company ' s cost of sales: decreased by €30, 000.</question>
+        <question>63. A company that prepares its financial statements using IFRS wrote down its inventory value by €20, 000 at the end of year 1. In year 2, prices increased and the same inventory at the end of the year was worth €30, 000 more than its value at the end of the prior year. Which of the following statements is most accurate? In year 2, the company ' s cost of sales:</question>
         <choices>
-            <choice>B. decreased by €20, 000.</choice>
+          <choice>A. decreased by €30, 000.</choice>
+          <choice>B. decreased by €20, 000.</choice>
             <choice>C. was unaffected.</choice>
         </choices>
         <answer />
@@ -682,12 +671,12 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>68. The notes to the financial statements of a company reporting under US GAAP contains the following information for the year 2014: Note 11. Property and Equipment ( all figures in $ thousands ) Depreciation expense for 2014 is $ 362. This amount includes capitalized interest of $ 143. Interest is allocated and capitalized to construction in progress by applying the firm ' s cost of borrowing rate to qualifying assets. Interest capitalized in 2014 is $ 170. Ignoring the effects of income taxes, the expensing of previously capitalized interest most likely causes the company ' s cash flow from operations to be:</question>
         <choices>
             <choice>A. unaffected.</choice>
             <choice>B. higher.</choice>
-            <choice>C. lower. Questions 69 ^ 76 Relate to Corporate finance</choice>
+            <choice>C. lower.</choice>
         </choices>
         <answer />
         <comments />
@@ -706,7 +695,8 @@
         <question>70. The optimal capital budget for a firm is best described as occurring when the company ' s marginal cost of capital is:</question>
         <choices>
             <choice>A. less than the investment opportunity schedule.</choice>
-            <choice>B. equal to the investment opportunity schedule. greater than the investment opportunity schedule.</choice>
+            <choice>B. equal to the investment opportunity schedule.</choice>
+	    <choice>C. greater than the investment opportunity schedule.</choice>
         </choices>
         <answer />
         <comments />
@@ -721,24 +711,12 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>72. The following data apply to two comparable companies that are in direct competition. Company A Company B Times interest earned ratio 2. 50 2. 50 Return on equity ( ROE ) 10. 13 % 16. 88 % Return on assets ( ROA ) 6. 75 % 11. 25 % Asset turnover 1. 50 2. 50 Which of the following statements is most accurate?</question>
         <choices>
             <choice>A. Company A has a lower net profit margin.</choice>
             <choice>B. Company A has a higher degree of financial leverage than Company B.</choice>
             <choice>C. Both companies have the same amount of interest expense</choice>
-            <choice>.</choice>
-        </choices>
-        <answer />
-        <comments />
-    </problem>
-    <problem>
-        <question>72. The following data apply to two comparable companies that are in direct competition. Company A Company B Times interest earned ratio 2. 50 2. 50 Return on equity ( ROE ) 10. 13 % 16. 88 % Return on assets ( ROA ) 6. 75 % 11. 25 % Asset turnover 1. 50 2. 50 Which of the following statements is most accurate?</question>
-        <choices>
-            <choice>A. Company A has a lower net profit margin.</choice>
-            <choice>B. Company A has a higher degree of financial leverage than Company B.</choice>
-            <choice>C. Both companies have the same amount of interest expense</choice>
-            <choice>.</choice>
         </choices>
         <answer />
         <comments />
@@ -778,7 +756,7 @@
         <choices>
             <choice>A. 0. 03.</choice>
             <choice>B. 1. 42.</choice>
-            <choice>C. 1. 03. Questions 77 – 88 Relate to Equity investment</choice>
+            <choice>C. 1. 03.</choice>
         </choices>
         <answer />
         <comments />
@@ -797,7 +775,8 @@
         <question>78. The index weighting that results in portfolio weights shifting away from securities that have increased in relative value toward securities that have fallen in relative value whenever the portfolio is rebalanced is most accurately described as:</question>
         <choices>
             <choice>A. fundamental weighting.</choice>
-            <choice>B. float - adjusted market - capitalization weighting. equal weighting.</choice>
+            <choice>B. float - adjusted market - capitalization weighting.</choice>
+	    <choice>C. equal weighting.</choice>
         </choices>
         <answer />
         <comments />
@@ -882,7 +861,7 @@
         <answer />
         <comments />
     </problem>
-    <problem>
+    <problem has_table='true'>
         <question>87. If the following three stocks are held in a portfolio, the portfolio ' s total return on an equal - weighted basis is closest to: Stock Number of Beginning of Period End of Period Price Dividend per Share Shares Owned Price per Share ( $ ) per Share ( $ ) during the period ( $ ) 2. 00 500 40 37 320 50 52 1. 50 C 800 30 34 0. 00</question>
         <choices>
             <choice>A. 6. 37 %.</choice>
@@ -897,7 +876,7 @@
         <choices>
             <choice>A. mature stage.</choice>
             <choice>B. embryonic stage.</choice>
-            <choice>C. shakeout stage. Questions 89 - 94 Relate to Derivatives</choice>
+            <choice>C. shakeout stage.</choice>
         </choices>
         <answer />
         <comments />
@@ -948,18 +927,6 @@
             <choice>A. commodities.</choice>
             <choice>B. equities.</choice>
             <choice>C. bonds</choice>
-            <choice>.</choice>
-        </choices>
-        <answer />
-        <comments />
-    </problem>
-    <problem>
-        <question>93. A high convenience yield is most likely associated with holding:</question>
-        <choices>
-            <choice>A. commodities.</choice>
-            <choice>B. equities.</choice>
-            <choice>C. bonds</choice>
-            <choice>.</choice>
         </choices>
         <answer />
         <comments />
@@ -969,7 +936,7 @@
         <choices>
             <choice>A. is less than the price of contract 2.</choice>
             <choice>B. is equal to the price of contract 2.</choice>
-            <choice>C. exceeds the price of contract 2. Questions 95 - 106 Relate to Fixed - income Analysis</choice>
+            <choice>C. exceeds the price of contract 2.</choice>
         </choices>
         <answer />
         <comments />
@@ -1089,7 +1056,7 @@
         <choices>
             <choice>A. non - recourse loan.</choice>
             <choice>B. recourse loan.</choice>
-            <choice>C. bullet loan. Questions 107 – 110 Relate to Alternative Investments</choice>
+            <choice>C. bullet loan.</choice>
         </choices>
         <answer />
         <comments />
@@ -1130,18 +1097,6 @@
             <choice>A. private equity fund holding brownfield investments.</choice>
             <choice>B. master limited partnership holding greenfield investments.</choice>
             <choice>C. master limited partnership holding brownfield investments</choice>
-            <choice>. Questions 111 — 120 Relate to Portfolio Management</choice>
-        </choices>
-        <answer />
-        <comments />
-    </problem>
-    <problem>
-        <question>110. Which of the following infrastructure investments would most likely be easiest to value? A:</question>
-        <choices>
-            <choice>A. private equity fund holding brownfield investments.</choice>
-            <choice>B. master limited partnership holding greenfield investments.</choice>
-            <choice>C. master limited partnership holding brownfield investments</choice>
-            <choice>. Questions 111 — 120 Relate to Portfolio Management</choice>
         </choices>
         <answer />
         <comments />
