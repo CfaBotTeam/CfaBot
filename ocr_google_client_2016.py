@@ -26,14 +26,14 @@ class ParserTwoThousandSixteenAnswers(BaseParser):
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
-            if self.context_.currently_ending_a_sentence():
-                self.context_.remove_previous_word_separator()
+            # if self.context_.currently_ending_a_sentence():
+            #     self.context_.remove_previous_word_separator()
             self.check_answer_end()
             if self.context_.current_word_is_dot() and \
                self.context_.last_word_was_on_a_new_line() and \
                self.context_.last_word_is_a_number():
                 self.context_.start_answer()
-            self.context_.add_word_separator()
+            self.try_add_word_separator(word)
 
 
 class ParsingContextTwoThousandSixteenQuestions(ParsingContext):
@@ -78,12 +78,12 @@ class ParserTwoThousandSixteenQuestions(BaseParser):
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
-            if self.context_.currently_ending_a_sentence():
-                self.context_.remove_previous_word_separator()
+            # if self.context_.currently_ending_a_sentence():
+            #     self.context_.remove_previous_word_separator()
             if self.context_.current_word_is_dot() and \
                self.context_.last_word_was_on_a_new_line():
                 if self.context_.last_word_is_a_number():
                     self.context_.start_question()
                 elif self.context_.last_word_is_a_choice():
                     self.context_.start_new_choice()
-            self.context_.add_word_separator()
+            self.try_add_word_separator(word)

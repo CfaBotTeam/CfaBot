@@ -2,9 +2,9 @@ import io
 import os.path
 import re
 from google.cloud import vision
+from google.cloud.vision import enums
 import math
 import more_itertools as mit
-
 
 class Problem:
     def __init__(self):
@@ -248,7 +248,7 @@ class ParsingContext:
 
 
 class CfaProblemsBuilder:
-    def __init__(self, parser=None, headers=None, nb_blocks_footer=1, nb_words_footer=0):
+    def __init__(self, parser=None, headers=None, nb_blocks_footer=0, nb_words_footer=0):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/abiarnes/Documents/Lessons/Fil_Rouge/CfaBot/Keys/CfaBot-ServiceKey-Adrien.json"
         self.parser_ = parser if parser is not None else CommonParser()
         self.client_ = vision.ImageAnnotatorClient()
@@ -352,6 +352,11 @@ class BaseParser:
                 self.context_.pop_current_text()
                 self.context_.restore_previous_text()
                 break
+            self.try_add_word_separator(word)
+
+    def try_add_word_separator(self, word):
+        break_type = word.symbols[-1].property.detected_break.type
+        if break_type == enums.TextAnnotation.DetectedBreak.BreakType.SPACE:
             self.context_.add_word_separator()
 
     def parse_word(self, word):
@@ -383,8 +388,8 @@ class CommonParser(BaseParser):
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
-            if self.context_.currently_ending_a_sentence():
-                self.context_.remove_previous_word_separator()
+            # if self.context_.currently_ending_a_sentence():
+            #     self.context_.remove_previous_word_separator()
             self.check_answer_end()
             self.check_choices_end()
             self.check_comment_end()
@@ -394,5 +399,5 @@ class CommonParser(BaseParser):
                     self.context_.start_new_problem(2)
                 elif self.context_.last_word_is_a_choice():
                     self.context_.start_new_choice()
-            self.context_.add_word_separator()
+            self.try_add_word_separator(word)
 
