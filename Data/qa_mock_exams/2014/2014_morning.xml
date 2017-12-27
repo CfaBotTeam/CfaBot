@@ -1,91 +1,93 @@
 <problems>
     <problem>
-        <question>Questions and Answers. Carlos Cruz, CFA, is one of two founders of an equity hedge fund. Cruz manages the fund's assets, and the other co-founder, Brian Burkeman, CFA, is responsible for fund sales and marketing. Cruz notices the most recent sales material used by Burkeman indicates assets under management are listed at a higher value than the current market value. Burkeman justifies the discrepancy by stating recent market declines account for the difference. To comply with the CFA Institute Standards of Professional Conduct, Cruz should least likely take which of the following actions?</question>
+        <question>1. Carlos Cruz, CFA, is one of two founders of an equity hedge fund. Cruz manages the fund's assets, and the other co-founder, Brian Burkeman, CFA, is responsible for fund sales and marketing. Cruz notices the most recent sales material used by Burkeman indicates assets under management are listed at a higher value than the current market value. Burkeman justifies the discrepancy by stating recent market declines account for the difference. To comply with the CFA Institute Standards of Professional Conduct, Cruz should least likely take which of the following actions?</question>
         <choices>
             <choice>A. Provide a disclaimer in marketing materials indicating prices are as of a specific date.</choice>
-            <choice>B. Report the discrepancy to CFA Institute's Professional Conduct Program. Correct the asset information and provide updates to prospective clients.</choice>
+            <choice>B. Report the discrepancy to CFA Institute's Professional Conduct Program.</choice>
+	    <choice>C. Correct the asset information and provide updates to prospective clients.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law A violation of Standard I(A): Knowledge of the Law is likely to occur unless the asset base information is corrected. Cruz has yet to violate any CFA Institute standards, so he need not report a violation. If Cruz does not take action, however, he will be in violation of the standards and at that point would need to report this violation under Standard I(A). The member should know his conduct may contribute to a violation of applicable laws, rules, regulations, or the CFA Institute Standards of Professional Conduct related to the inaccurate sales materials. Cruz should seek to have the information corrected and accurate information provided to prospective clients. It may also be prudent to seek the advice of legal counsel</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law A violation of Standard I(A): Knowledge of the Law is likely to occur unless the asset base information is corrected. Cruz has yet to violate any CFA Institute standards, so he need not report a violation. If Cruz does not take action, however, he will be in violation of the standards and at that point would need to report this violation under Standard I(A). The member should know his conduct may contribute to a violation of applicable laws, rules, regulations, or the CFA Institute Standards of Professional Conduct related to the inaccurate sales materials. Cruz should seek to have the information corrected and accurate information provided to prospective clients. It may also be prudent to seek the advice of legal counsel</comments>
     </problem>
     <problem>
-        <question>2. Christina Ng, a Level I CFA candidate, defaulted on a bank loan she obtained to pay for her master's degree tuition when her wedding cost more than expected. A micro finance loan company lent her money to pay off the tuition loan in full, including penalties and interest. The micro finance loan company even extended further credit to pay for her parents' outstanding medical bills. Unfortunately, her parents' health problems escalated to the point that Ng had to take extensive time away from work to deal with the issues. She was subsequently fired and consequently defaulted on the second loan. Because she was no longer employed, Ng decided to file for personal bankruptcy. Do the loan defaults leading up to Ng's bankruptcy most likely violate Standard I(D): Misconduct? Α. Νο</question>
+        <question>2. Christina Ng, a Level I CFA candidate, defaulted on a bank loan she obtained to pay for her master's degree tuition when her wedding cost more than expected. A micro finance loan company lent her money to pay off the tuition loan in full, including penalties and interest. The micro finance loan company even extended further credit to pay for her parents' outstanding medical bills. Unfortunately, her parents' health problems escalated to the point that Ng had to take extensive time away from work to deal with the issues. She was subsequently fired and consequently defaulted on the second loan. Because she was no longer employed, Ng decided to file for personal bankruptcy. Do the loan defaults leading up to Ng's bankruptcy most likely violate Standard I(D): Misconduct?</question>
         <choices>
+	    <choice>Α. Νο</choice>
             <choice>B. Yes, with regard to the first loan default</choice>
             <choice>C. Yes, with regard to the second loan default</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(D): Misconduct Although Ng's first loan default, which played a part in the subsequent bankruptcy, is a result of poor financial choices (i.e., paying for higher wedding costs rather than her tuition loan), neither of the loan defaults or the bankruptcy involves fraudulent or deceitful business conduct but rather unfortunate personal circumstances. Therefore, she would most likely not be in violation of Standard D): Misconduct. Kim Klausner, CFA, monitors several hundred employees as head of compliance for a large</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(D): Misconduct Although Ng's first loan default, which played a part in the subsequent bankruptcy, is a result of poor financial choices (i.e., paying for higher wedding costs rather than her tuition loan), neither of the loan defaults or the bankruptcy involves fraudulent or deceitful business conduct but rather unfortunate personal circumstances. Therefore, she would most likely not be in violation of Standard D): Misconduct.</comments>
     </problem>
     <problem>
-        <question>investment advisory firm. Klausner has always ensured that his company's compliance program met or exceeded those of its competitors. Klausner, who is going on a long vacation, has delegated his supervisory responsibilities to Sue Chang. Klausner informs Chang that her responsibilities include detecting and preventing violations of any capital market rules and regulations and the CFA Institute Standards of Professional Conduct. Klausner least likely violated the CFA Institute Standards of Professional Conduct by failing to instruct Chang to also consider:</question>
+        <question>3. Kim Klausner, CFA, monitors several hundred employees as head of compliance for a large investment advisory firm. Klausner has always ensured that his company's compliance program met or exceeded those of its competitors. Klausner, who is going on a long vacation, has delegated his supervisory responsibilities to Sue Chang. Klausner informs Chang that her responsibilities include detecting and preventing violations of any capital market rules and regulations and the CFA Institute Standards of Professional Conduct. Klausner least likely violated the CFA Institute Standards of Professional Conduct by failing to instruct Chang to also consider:</question>
         <choices>
             <choice>A. industry standards.</choice>
             <choice>B. firm policies.</choice>
             <choice>C. legal restrictions.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard IV(C): Responsibilities of Supervisors The requirement under Standard IV(C): Responsibilities of Supervisors does not include any reference to industry standards. Standard IV(C) requires supervisors to instruct those subordinate to them to whom supervision is delegated about detection methods to prevent violations of laws, rules, regulations, firm policies, and the CFA Institute Code and Standards.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard IV(C): Responsibilities of Supervisors The requirement under Standard IV(C): Responsibilities of Supervisors does not include any reference to industry standards. Standard IV(C) requires supervisors to instruct those subordinate to them to whom supervision is delegated about detection methods to prevent violations of laws, rules, regulations, firm policies, and the CFA Institute Code and Standards.</comments>
     </problem>
     <problem>
-        <question>When a client asks her how she makes investment decisions, Petra Vogler, CFA, tells the client she uses mosaic theory. According to Vogler, the theory involves analyzing public and nonmaterial nonpublic information, including the evaluation of statements made to her by company insiders in one-on-one meetings in which management discusses new earnings projections not known to the public. Vogler also gathers general industry information from industry experts she has contacted. Vogler most likely violates the CFA Institute Standards of Professional Conduct because of her use of:</question>
+        <question>4. When a client asks her how she makes investment decisions, Petra Vogler, CFA, tells the client she uses mosaic theory. According to Vogler, the theory involves analyzing public and nonmaterial nonpublic information, including the evaluation of statements made to her by company insiders in one-on-one meetings in which management discusses new earnings projections not known to the public. Vogler also gathers general industry information from industry experts she has contacted. Vogler most likely violates the CFA Institute Standards of Professional Conduct because of her use of:</question>
         <choices>
             <choice>A. nonmaterial nonpublic information.</choice>
             <choice>B. one-on-one meeting information.</choice>
             <choice>C. industry expert information.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard II(A): Material Nonpublic Information A violation of Standard II(A): Material Nonpublic Information is likely to occur when using information that is selectively disclosed by corporations to a small group of investors, analysts, or other market participants. Earnings estimates given in a one-on-one meeting would likely be considered material and nonpublic information. Information made available to analysts remains nonpublic until it is made available to investors in general. Under the mosaic theory, it is acceptable to use information from industry contacts as long as the analyst uses appropriate methods to arrive at her conclusions. Additionally, it is acceptable to use nonmaterial nonpublic information in her analysis; this use is not a violation of Standard II(A): Material Nonpublic Information.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard II(A): Material Nonpublic Information A violation of Standard II(A): Material Nonpublic Information is likely to occur when using information that is selectively disclosed by corporations to a small group of investors, analysts, or other market participants. Earnings estimates given in a one-on-one meeting would likely be considered material and nonpublic information. Information made available to analysts remains nonpublic until it is made available to investors in general. Under the mosaic theory, it is acceptable to use information from industry contacts as long as the analyst uses appropriate methods to arrive at her conclusions. Additionally, it is acceptable to use nonmaterial nonpublic information in her analysis; this use is not a violation of Standard II(A): Material Nonpublic Information.</comments>
     </problem>
     <problem>
-        <question>Bailey Watson, CFA, manages 25 emerging market pension funds. He recently had the opportunity to buy 100,000 shares in a publicly listed company whose prospects are considered "above industry norm" by most analysts. The company's shares rarely trade because most managers use a buy-and hold strategy because of the company's small free float. Before placing the order with his dealer, Watson allocated the shares to be purchased according to the weighted value of each of his clients' portfolios. When it came time to execute the trades, the dealer was able to purchase only 50,000 shares. To prevent violating Standard II(B): Fair Dealing, it would be most appropriate for Watson to reallocate the 50,000 shares purchased by:</question>
+        <question>5. Bailey Watson, CFA, manages 25 emerging market pension funds. He recently had the opportunity to buy 100,000 shares in a publicly listed company whose prospects are considered "above industry norm" by most analysts. The company's shares rarely trade because most managers use a buy-and hold strategy because of the company's small free float. Before placing the order with his dealer, Watson allocated the shares to be purchased according to the weighted value of each of his clients' portfolios. When it came time to execute the trades, the dealer was able to purchase only 50,000 shares. To prevent violating Standard II(B): Fair Dealing, it would be most appropriate for Watson to reallocate the 50,000 shares purchased by:</question>
         <choices>
             <choice>A. reducing each pension fund's allocation proportionately.</choice>
             <choice>B. distributing them equally among all the pension fund portfolios.</choice>
             <choice>C. allocating randomly but giving funds left out priority on the next similar type trade.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard III(B): Fair Dealing Standard III(B): Fair Dealing requires members and candidates to deal fairly and objectively with all clients. Certain clients cannot be favored over other clients when their investment objectives and circumstances are similar. Therefore, the most appropriate way to handle the reallocation of an illiquid share is to reduce each client's proportion on a pro rata, or weighted, basis.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard III(B): Fair Dealing Standard III(B): Fair Dealing requires members and candidates to deal fairly and objectively with all clients. Certain clients cannot be favored over other clients when their investment objectives and circumstances are similar. Therefore, the most appropriate way to handle the reallocation of an illiquid share is to reduce each client's proportion on a pro rata, or weighted, basis.</comments>
     </problem>
     <problem>
-        <question>Lin Liang, CFA, is an investment manager and an auto industry expert. Last month, Liang sent securities regulators an anonymous letter outlining various accounting irregularities at Road Rubber Company. Shortly before he sent the letter to the regulators, Liang shorted Road stock for his clients. Once the regulators opened an investigation, which Liang learned about from his sources inside the company, Liang leaked this information to multiple sources in the media. When news of the investigation became public, the share price of Road immediately dropped 30%. Liang then covered the short positions and made $5 per share for his clients. Liang least likely violated which of the CFA Institute Standards of Professional Conduct?</question>
+        <question>6. Lin Liang, CFA, is an investment manager and an auto industry expert. Last month, Liang sent securities regulators an anonymous letter outlining various accounting irregularities at Road Rubber Company. Shortly before he sent the letter to the regulators, Liang shorted Road stock for his clients. Once the regulators opened an investigation, which Liang learned about from his sources inside the company, Liang leaked this information to multiple sources in the media. When news of the investigation became public, the share price of Road immediately dropped 30%. Liang then covered the short positions and made $5 per share for his clients. Liang least likely violated which of the CFA Institute Standards of Professional Conduct?</question>
         <choices>
             <choice>A. Priority of Transactions</choice>
             <choice>B. Misconduct</choice>
             <choice>C. Market Manipulation</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law, Standard I(D): Misconduct, Standard II(B): Market Manipulation, Standard VI(B): Priority of Transactions</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law, Standard I(D): Misconduct, Standard II(B): Market Manipulation, Standard VI(B): Priority of Transactions The member has not violated Standard VI(B): Priority of Transactions because this standard concerns client investment transactions having priority over member or candidate investment transactions and is not applicable here. The member has engaged in information-based manipulation of Road stock in violation of Standard II(B): Market Manipulation and Standard I(D): Misconduct. Members and candidates must refrain from "pumping up" (or down, in this case) the price of an investment by issuing misleading positive (or negative) information for their or their clients' benefit.</comments>
     </problem>
     <problem>
-        <question>The member has not violated Standard VI(B): Priority of Transactions because this standard concerns client investment transactions having priority over member or candidate investment transactions and is not applicable here. The member has engaged in information-based manipulation of Road stock in violation of Standard II(B): Market Manipulation and Standard I(D): Misconduct. Members and candidates must refrain from "pumping up" (or down, in this case) the price of an investment by issuing misleading positive (or negative) information for their or their clients' benefit. 7. Jennifer Ducumon, CFA, is a portfolio manager for high-net-worth individuals at Northeast Investment Bank. Northeast holds a large number of shares in Baby Skin Care Inc., a manufacturer of baby care products. Northeast obtained the Baby Skin Care shares when it underwrote the company's recent IPO. Ducumon has been asked by the investment banking department to recommend Baby Skin Care to her clients, who currently do not hold any shares of Baby Skin Care in their portfolios. Although Ducumon has a favorable opinion of Baby Skin Care, she does not consider the shares a buy at the IPO price or at current price levels. According to the CFA Institute Standards of Professional Conduct, the most appropriateaction for Ducumon is to:</question>
+        <question>7. Jennifer Ducumon, CFA, is a portfolio manager for high-net-worth individuals at Northeast Investment Bank. Northeast holds a large number of shares in Baby Skin Care Inc., a manufacturer of baby care products. Northeast obtained the Baby Skin Care shares when it underwrote the company's recent IPO. Ducumon has been asked by the investment banking department to recommend Baby Skin Care to her clients, who currently do not hold any shares of Baby Skin Care in their portfolios. Although Ducumon has a favorable opinion of Baby Skin Care, she does not consider the shares a buy at the IPO price or at current price levels. According to the CFA Institute Standards of Professional Conduct, the most appropriateaction for Ducumon is to:</question>
         <choices>
             <choice>A. recommend the shares after additional analysis.</choice>
             <choice>B. ignore the request.</choice>
             <choice>C. follow the request as soon as the share price declines.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(B): Independence and Objectivity Ducumon's opinion of the Baby Skin Care shares must not be affected by internal pressure. If Ducumon followed the request from the investment banking department at her company, she would be in violation of Standard I(B): Independence and Objectivity. Ducumon must refuse to recommend the Baby Skin Care shares until they are an attractive purchase based on fundamental analysis and market pricing.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(B): Independence and Objectivity Ducumon's opinion of the Baby Skin Care shares must not be affected by internal pressure. If Ducumon followed the request from the investment banking department at her company, she would be in violation of Standard I(B): Independence and Objectivity. Ducumon must refuse to recommend the Baby Skin Care shares until they are an attractive purchase based on fundamental analysis and market pricing.</comments>
     </problem>
     <problem>
-        <question>Rodney Rodrigues, CFA, is responsible for identifying professionals to manage specific asset classes for his firm. In selecting external advisers or subadvisers, Rodrigues reviews the adviser's investment process, established code of ethics, the quality of the published return information, and the compliance and integrated control framework of the organization. In completing his review, Rodrigues most likely violated the CFA Institute Standards of Professional Conduct with regard to his due diligence on:</question>
+        <question>8. Rodney Rodrigues, CFA, is responsible for identifying professionals to manage specific asset classes for his firm. In selecting external advisers or subadvisers, Rodrigues reviews the adviser's investment process, established code of ethics, the quality of the published return information, and the compliance and integrated control framework of the organization. In completing his review, Rodrigues most likely violated the CFA Institute Standards of Professional Conduct with regard to his due diligence on:</question>
         <choices>
             <choice>A. internal control procedures.</choice>
             <choice>B. adherence to strategy.</choice>
             <choice>C. performance measures.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard V(A): Diligence and Reasonable Basis Standard V(A): Diligence and Reasonable Basis applies to the level of review necessary to select an external adviser or subadviser and would at minimum include reviewing the adviser's adherence to its stated strategy. O) Solomon Sulzberg, CFA, is a research analyst at Blue Water Management. Sulzberg's</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard V(A): Diligence and Reasonable Basis Standard V(A): Diligence and Reasonable Basis applies to the level of review necessary to select an external adviser or subadviser and would at minimum include reviewing the adviser's adherence to its stated strategy.</comments>
     </problem>
     <problem>
-        <question>recommendations typically go through a number of internal reviews before they are published. In developing his recommendations, Sulzberg uses a model developed by a quantitative analyst within the firm. Sulzberg made some minor changes to the model but retained the primary framework. In his reports, Sulzberg attributes the model to both the quantitative analyst and himself. Before the internal reviews of his reports are completed, Sulzberg buys shares in one of the companies. After the internal review is complete, he fails to recommend the purchase of the stock to his clients and erases all of his research related to this company. Sulzberg least likely violated the CFA Institute Standards of Professional Conduct related to:</question>
+        <question>9. Solomon Sulzberg, CFA, is a research analyst at Blue Water Management. Sulzberg's recommendations typically go through a number of internal reviews before they are published. In developing his recommendations, Sulzberg uses a model developed by a quantitative analyst within the firm. Sulzberg made some minor changes to the model but retained the primary framework. In his reports, Sulzberg attributes the model to both the quantitative analyst and himself. Before the internal reviews of his reports are completed, Sulzberg buys shares in one of the companies. After the internal review is complete, he fails to recommend the purchase of the stock to his clients and erases all of his research related to this company. Sulzberg least likely violated the CFA Institute Standards of Professional Conduct related to:</question>
         <choices>
             <choice>A. Misrepresentation.</choice>
             <choice>B. Record Retention.</choice>
             <choice>C. Priority of Transactions.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(C): Misrepresentation, Standard V(C): Record Retention, Standard VI(A); Disclosure of Conflicts, Standard VI(B): Priority of Transactions The research analyst has not violated Standard I(C): Misrepresentation because he has not knowingly made any misrepresentations related to investment analysis, recommendations, actions, or other professional activities. The research analyst has correctly attributed the model to both the quantitative analyst and to himself because he has revised the original model. Research developed while employed by a firm is the property of the firm, and the analyst is in violation of Standard V(C): Record Retention because members and candidates must develop and maintain appropriate records to support their investment analysis, recommendations, actions, and other investment-related communications with clients and prospective clients. As a general matter, records created as part of a member's or candidate's professional activity on behalf of his or her employer are the property of the firm. The analyst also violated Standard VI(B): Priority of Transactions by taking advantage of his knowledge of the stock's value before allowing his employer to benefit from that information</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(C): Misrepresentation, Standard V(C): Record Retention, Standard VI(A); Disclosure of Conflicts, Standard VI(B): Priority of Transactions The research analyst has not violated Standard I(C): Misrepresentation because he has not knowingly made any misrepresentations related to investment analysis, recommendations, actions, or other professional activities. The research analyst has correctly attributed the model to both the quantitative analyst and to himself because he has revised the original model. Research developed while employed by a firm is the property of the firm, and the analyst is in violation of Standard V(C): Record Retention because members and candidates must develop and maintain appropriate records to support their investment analysis, recommendations, actions, and other investment-related communications with clients and prospective clients. As a general matter, records created as part of a member's or candidate's professional activity on behalf of his or her employer are the property of the firm. The analyst also violated Standard VI(B): Priority of Transactions by taking advantage of his knowledge of the stock's value before allowing his employer to benefit from that information</comments>
     </problem>
     <problem>
         <question>10. Jackson Barnes, CFA, works for an insurance company providing financial planning services to clients for a fee. Barnes has developed a network of specialists—including accountants, lawyers, and brokers—who contribute their expertise to the financial planning process. Each of the specialists is an independent contractor. Each contractor bills Barnes separately for the work he or she performs, providing a discount based on the number of clients Barnes has referred. What steps should Barnes take to be consistent with the CFA Institute Standards of Professional Conduct?</question>
@@ -95,15 +97,17 @@
             <choice>C. Have his independent contractors approved by the insurance company</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard VI(C): Referral Fees The referral arrangements should be disclosed to potential clients before entry into any formal agreement for services and not after the fact. This disclosure allows potential clients to consider whether the arrangement causes them any potential harm as a result of the arrangement (e.g., higher fees and potential conflicts of interest).</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard VI(C): Referral Fees The referral arrangements should be disclosed to potential clients before entry into any formal agreement for services and not after the fact. This disclosure allows potential clients to consider whether the arrangement causes them any potential harm as a result of the arrangement (e.g., higher fees and potential conflicts of interest).</comments>
     </problem>
     <problem>
         <question>11. On a flight to Europe, Romy Haas, CFA, strikes up a conversation with a fellow passenger, Vincent Trujillo. When Trujillo learns Haas is in the investment profession, he asks about the CFA designation. Haas tells him the following about the CFA designation: Statement 1: Individuals who have completed the CFA Program have the right to use the CFA designation. Statement 2: The CFA designation is globally recognized, which is why it can be used as part of a firm's name. Statement 3: CFA charterholders must satisfy membership requirements to continue using the designation.</question>
         <choices>
-            <choice>A. Statement 1 Statement 3 Statement 2</choice>
+            <choice>A. Statement 1</choice>
+	    <choice>B. Statement 3</choice>
+	    <choice>C. Statement 2</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard VII(B)": Reference to CFA Institute, the CFA Designation, and the CFA Program According to Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program, Statement 3 is an accurate statement concerning the CFA designation.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard VII(B)": Reference to CFA Institute, the CFA Designation, and the CFA Program According to Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program, Statement 3 is an accurate statement concerning the CFA designation.</comments>
     </problem>
     <problem>
         <question>12. Wouter Duyck, CFA, is the sole proprietor of an investment advisory firm serving several hundred middle-class retail clients. Duyck claims to be different from his competitors because he conducts research himself. He discloses that to simplify the management of all these accounts, he has created a recommended list of stocks from which he selects investments for all of his clients based on their suitability. Duyck's recommended list of stocks is obtained from his primary broker, who has completed due diligence on each stock. Duyck's recommended list least likely violates which of the following CFA Institute Standards of Professional Conduct?</question>
@@ -113,17 +117,17 @@
             <choice>C. Misrepresentation</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(C): Misrepresentation, Standard III(B): Fair Dealing, Standard V(A): Diligence and Reasonable Basis Standard III(B): Fair Dealing concerns the fair treatment of clients when making investment recommendations or taking investment action, and there is no indication the adviser has discriminated against any clients in regard to his recommendations because he invests all clients in the same universe of stocks. The adviser has violated Standard (C): Misrepresentation with</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(C): Misrepresentation, Standard III(B): Fair Dealing, Standard V(A): Diligence and Reasonable Basis Standard III(B): Fair Dealing concerns the fair treatment of clients when making investment recommendations or taking investment action, and there is no indication the adviser has discriminated against any clients in regard to his recommendations because he invests all clients in the same universe of stocks. The adviser has violated Standard (C): Misrepresentation with his research, however, because it is not independently created but actually information provided to him by his broker. In addition, the adviser has violated Standard V(A): Diligence and Reasonable Basis because he has not made reasonable and diligent efforts to determine whether the third party's research is sound.</comments>
     </problem>
     <problem>
-        <question>his research, however, because it is not independently created but actually information provided to him by his broker. In addition, the adviser has violated Standard V(A): Diligence and Reasonable Basis because he has not made reasonable and diligent efforts to determine whether the third party's research is sound. 13. Abdul Naib, CFA, was recently asked by his employer to submit an updated document providing the history of his employment and qualifications. The existing document on file was submitted when he was hired five years ago. His employer notices the updated version shows Naib obtained his MBA two years ago, whereas the earlier version indicated he had already obtained his MBA at the time of his hire. Because the position Naib was hired for had a minimum qualification of an MBA, Naib is asked to explain the discrepancy. He justifies his actions by stating: "I knew you would not hire me if I did not have an MBA, but I already had my CFA designation. Knowing you required an MBA, I went back to school on a part-time basis after I was hired to obtain it. I graduated at the top of my class, but this should not come as any surprise because you have seen evidence I passed all of my CFA exams on the first attempt." Did Naib most likely violate the CFA Institute Standards of Professional Conduct?</question>
+        <question>13. Abdul Naib, CFA, was recently asked by his employer to submit an updated document providing the history of his employment and qualifications. The existing document on file was submitted when he was hired five years ago. His employer notices the updated version shows Naib obtained his MBA two years ago, whereas the earlier version indicated he had already obtained his MBA at the time of his hire. Because the position Naib was hired for had a minimum qualification of an MBA, Naib is asked to explain the discrepancy. He justifies his actions by stating: "I knew you would not hire me if I did not have an MBA, but I already had my CFA designation. Knowing you required an MBA, I went back to school on a part-time basis after I was hired to obtain it. I graduated at the top of my class, but this should not come as any surprise because you have seen evidence I passed all of my CFA exams on the first attempt." Did Naib most likely violate the CFA Institute Standards of Professional Conduct?</question>
         <choices>
             <choice>A. Yes, with regard to Misconduct</choice>
             <choice>B. No</choice>
             <choice>C. Yes, with regard to Reference to the CFA Designation</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(D): Misconduct; Standard VII(B): Reference to CFA Institute, the CFA Designation and the CFA Program Naib knowingly misrepresented his qualifications at the time of his hire by stating he had obtained an MBA when in fact he had not. This action reflects adversely on his professional integrity, violating Standard I(D):Misconduct. Stating he passed his CFA exams in three consecutive years is not a violation of Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program if it is factual. There is no evidence given to indicate he did not pass as claimed.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(D): Misconduct; Standard VII(B): Reference to CFA Institute, the CFA Designation and the CFA Program Naib knowingly misrepresented his qualifications at the time of his hire by stating he had obtained an MBA when in fact he had not. This action reflects adversely on his professional integrity, violating Standard I(D):Misconduct. Stating he passed his CFA exams in three consecutive years is not a violation of Standard VII(B): Reference to CFA Institute, the CFA Designation, and the CFA Program if it is factual. There is no evidence given to indicate he did not pass as claimed.</comments>
     </problem>
     <problem>
         <question>14. Tonya Tucker, CFA, is a financial analyst at Bowron Consolidated. Bowron has numerous subsidiaries and is actively involved in mergers and acquisitions to expand its businesses. Tucker analyzes a number of companies, including Hanchin Corporation. When Tucker speaks with the CEO of Bowron, she indicates many of the companies she has looked at would be attractive acquisition targets for Bowron. After her discussion with the CEO, Tucker purchases 100,000 shares of Hanchin Corporation at $200 per share. Bowron does not have any pre-clearance procedures, so the next time she meets with the CEO, Tucker mentions she owns shares of Hanchin. The CEO thanks her for this information but does not ask for any details. Two weeks later, Tucker sees a companywide e-mail from the CEO announcing Bowron's acquisition of Hanchin for $250 a share. In regard to her purchase of Hanchin stock, Tucker least likely violated the CFA Institute Standards of Professional Conduct concerning:</question>
@@ -133,7 +137,7 @@
             <choice>C. Material Nonpublic Information.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard II(A): Material Nonpublic Information, Standard IV(A); Loyalty, Standard VI(B): Priority of Transactions There is no indication the analyst had access to material nonpublic information and was in violation of Standard II(A): Material Nonpublic Information. Specifically, Tucker did not have information concerning any decision by Bowron to acquire Hanchin stock because she is not a part of Bowron's decision-making team that determines the companies it plans to take over. The analyst had indicated numerous companies were viable options for take over, and she did not single out any one company in particular. However, trading the stock of a company the analyst recommended as an acquisition candidate does violate Standard IV(A): Loyalty because she did not give her employer the opportunity to take advantage of her skill/recommendation prior to buying the shares for her own portfolio. In addition, the analyst violated Standard VI(B): Priority of Transactions, which requires that investment transactions for clients and employers must have priority over investment transactions in which a member or candidate is the beneficial owner despite the fact that there are no stock pre-clearance procedures at Bowron.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard II(A): Material Nonpublic Information, Standard IV(A); Loyalty, Standard VI(B): Priority of Transactions There is no indication the analyst had access to material nonpublic information and was in violation of Standard II(A): Material Nonpublic Information. Specifically, Tucker did not have information concerning any decision by Bowron to acquire Hanchin stock because she is not a part of Bowron's decision-making team that determines the companies it plans to take over. The analyst had indicated numerous companies were viable options for take over, and she did not single out any one company in particular. However, trading the stock of a company the analyst recommended as an acquisition candidate does violate Standard IV(A): Loyalty because she did not give her employer the opportunity to take advantage of her skill/recommendation prior to buying the shares for her own portfolio. In addition, the analyst violated Standard VI(B): Priority of Transactions, which requires that investment transactions for clients and employers must have priority over investment transactions in which a member or candidate is the beneficial owner despite the fact that there are no stock pre-clearance procedures at Bowron.</comments>
     </problem>
     <problem>
         <question>15. Kelly Amadon, CFA, an investment adviser, has two clients: Ryan Randolf, 65 years old, and Keiko Kitagawa, 45 years old. Both clients earn the same amount in salary. Randolf, however, has a large amount of assets, whereas Kitagawa has few assets outside her investment portfolio. Randolf is single and willing to invest a portion of his assets very aggressively; Kitagawa wants to achieve a steady rate of return with low volatility so she can pay for her child's current college expenses. Amadon recommends investing 20% of both clients' portfolios in the stock of very low-yielding small cap companies. Amadon least likely violated the CFA Institute Standards of Professional Conduct in regard to his investment recommendations for:</question>
@@ -143,7 +147,7 @@
             <choice>C. both clients' portfolios.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard III(C): Suitability In Randolf's case, the investment may be appropriate given this client's financial circumstances and aggressive investment position. This investment would not be suitable for Kitagawa because of her need for a steady rate of return and her low-risk profile.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard III(C): Suitability In Randolf's case, the investment may be appropriate given this client's financial circumstances and aggressive investment position. This investment would not be suitable for Kitagawa because of her need for a steady rate of return and her low-risk profile.</comments>
     </problem>
     <problem>
         <question>16. Danielle Deschutes, CFA, is a portfolio manager who is part of a 10-person team that manages equity portfolios for institutional clients. A competing firm, South West Managers, asks Deschutes to interview for a position with its firm and to bring her performance history to the interview. Deschutes receives written permission from her current employer to bring the performance history of the stock portfolio with her. At the interview, she discloses that the performance numbers represent the work of her team and describes the role of each member. To bolster her credibility Deschutes also provides the names of institutional clients and related assets constituting the portfolio. During her interview, Deschutes most likely violated the CFA Institute Standards of Professional Conduct with regard to:</question>
@@ -153,7 +157,7 @@
             <choice>C. the stock portfolio's performance history.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard III(D): Presentations, Standard III(E): Preservation of Confidentiality Deschutes most likely violated Standard III(E): Preservation of Confidentiality by failing to preserve the confidentiality of client records when she disclosed specific details about clients in the equity portfolio.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard III(D): Presentations, Standard III(E): Preservation of Confidentiality Deschutes most likely violated Standard III(E): Preservation of Confidentiality by failing to preserve the confidentiality of client records when she disclosed specific details about clients in the equity portfolio.</comments>
     </problem>
     <problem>
         <question>17. Charles Mbuwanga, a Level III CFA candidate, is the business development manager for Sokoza Investment Group, an investment management firm with high-net-worth retail clients throughout Africa. Sokoza introduced listed Kenyan REITs (real estate investment trusts) to its line of investment products based on new regulations introduced in Kenya to diversify its product offering to clients. The product introduction comes after months of researching Kenyan property correlations with other property markets and asset classes in Africa. Sokoza assigns Mbuwanga as part of the sales team that will introduce this product to its clients across Africa. Mbuwanga subsequently determines most of Sokoza's clients' portfolios would benefit from having a small Kenyan property exposure to help diversify their investment portfolios. By promoting the Kenyan REITs for Sokoza's client portfolios as planned, Mbuwanga would least likely violate which of the following standards?</question>
@@ -163,17 +167,17 @@
             <choice>C. Knowledge of the Law</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law, Standard I(B): Independence and Objectivity, Standard III(C): Suitability There is no indication Mbuwanga's recommendation is based on any compensation package based on sales targets. If he had a sales target as part of his responsibility to promote the new product, it could be conceived that his independence and objectivity would be in question. Mbuwanga does, however, seem to be in violation of Standard III(C): Suitability because although</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard I(A): Knowledge of the Law, Standard I(B): Independence and Objectivity, Standard III(C): Suitability There is no indication Mbuwanga's recommendation is based on any compensation package based on sales targets. If he had a sales target as part of his responsibility to promote the new product, it could be conceived that his independence and objectivity would be in question. Mbuwanga does, however, seem to be in violation of Standard III(C): Suitability because although research with regard to correlation was undertaken, an analysis based on each individual client's return and risk objectives was not done. He may also be in violation of Standard I(A): Knowledge of the Law because he would need to determine whether the Kenyan REIT product is allowable in each of the countries where his clients reside.</comments>
     </problem>
     <problem>
-        <question>research with regard to correlation was undertaken, an analysis based on each individual client's return and risk objectives was not done. He may also be in violation of Standard I(A): Knowledge of the Law because he would need to determine whether the Kenyan REIT product is allowable in each of the countries where his clients reside. 18. Sheila Schleif, CFA, is an equity analyst at an investment banking division of Mokara Financial Group, a full service financial group. Schleif uses a multifactor computer model to make stock recommendations for all clients of Mokara. Schleif discovers the model contains an error. If the error were corrected, her most recent buy recommendation communicated to all clients would change to a sell. Schleif corrects the error, changing the buy to a sell recommendation, and then simultaneously distributes via e-mail the revision to all investment banking clients who received the initial recommendation. A week later, Schleif sells the same shares she held in her personal portfolio. Concerning her actions, Schleif most likely violated which of the following CFA Institute Standards of Professional Conduct?</question>
+        <question>18. Sheila Schleif, CFA, is an equity analyst at an investment banking division of Mokara Financial Group, a full service financial group. Schleif uses a multifactor computer model to make stock recommendations for all clients of Mokara. Schleif discovers the model contains an error. If the error were corrected, her most recent buy recommendation communicated to all clients would change to a sell. Schleif corrects the error, changing the buy to a sell recommendation, and then simultaneously distributes via e-mail the revision to all investment banking clients who received the initial recommendation. A week later, Schleif sells the same shares she held in her personal portfolio. Concerning her actions, Schleif most likely violated which of the following CFA Institute Standards of Professional Conduct?</question>
         <choices>
             <choice>A. Priority of Transactions</choice>
             <choice>B. Diligence and Reasonable Basis</choice>
             <choice>C. Fair Dealing</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Guidance for Standards I-VII," CFA Institute Standard III(B): Fair Dealing, Standard V(A): Diligence and Reasonable Basis, Standard VI(B): Priority of Transactions The analyst violated Standard III(B): Fair Dealing by selectively distributing the revised recommendation only to investment banking clients despite being responsible for making investment recommendations to all group clients. Schleif should distribute the change in recommendation to all clients who received the initial recommendation, not just those within the investment banking division of the group.</comments>
+        <comments>"Guidance for Standards I-VII," CFA Institute Standard III(B): Fair Dealing, Standard V(A): Diligence and Reasonable Basis, Standard VI(B): Priority of Transactions The analyst violated Standard III(B): Fair Dealing by selectively distributing the revised recommendation only to investment banking clients despite being responsible for making investment recommendations to all group clients. Schleif should distribute the change in recommendation to all clients who received the initial recommendation, not just those within the investment banking division of the group.</comments>
     </problem>
     <problem>
         <question>19. A firm's estimated costs of debt, preferred stock, and common stock are 12%, 17%, and 20%, respectively. Assuming equal funding from each source and a marginal tax rate of 40%, the weighted average cost of capital (WAAC) is closest to:</question>
@@ -183,26 +187,27 @@
             <choice>C. 14.7%.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Sections 2, 2.1 WACC = Ward (1 - t) + wprp + Were = [0.12 x (1 – 0.40) + 0.17 + 0.20]/3 = 14.73%.</comments>
+        <comments>"Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Sections 2, 2.1 WACC = Ward (1 - t) + wprp + Were = [0.12 x (1 – 0.40) + 0.17 + 0.20]/3 = 14.73%.</comments>
     </problem>
     <problem>
-        <question>20. The following information is available for a firm: Number of shares outstanding 4 million Tax rate 40% Cost of debt (pre-tax). 10% Current stock price $20.00 Net income $6 million A plan to repurchase $10 million worth of shares using debt will most likely cause the earnings per share to: A. increase.</question>
+        <question>20. The following information is available for a firm: Number of shares outstanding 4 million Tax rate 40% Cost of debt (pre-tax). 10% Current stock price $20.00 Net income $6 million A plan to repurchase $10 million worth of shares using debt will most likely cause the earnings per share to:</question>
         <choices>
-            <choice>B. remain unchanged.</choice>
+	    <choice>A. increase.</choice>
+	    <choice>B. remain unchanged.</choice>
             <choice>C. decrease.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Dividends and Share Repurchases: Basics," George Troughton and Gregory Noronha Section 4.2.1 "Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2.1</comments>
+        <comments>“Dividends and Share Repurchases: Basics," George Troughton and Gregory Noronha Section 4.2.1 "Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2.1</comments>
     </problem>
     <problem>
         <question>21. Which of the following is most likely a sign of a good corporate governance structure?</question>
         <choices>
             <choice>A. The chief executive position is separate from the chair position on the company's board.</choice>
-            <choice>B. Independent board members comprise a minority proportion of the company's board. Independent board members are allowed to meet shareholders only in the presence of the entire board.</choice>
-            <choice>" The Corporate Governance of Listed Companies: A Manual for Investors," Kurt Schacht, James</choice>
+            <choice>B. Independent board members comprise a minority proportion of the company's board.</choice>
+	    <choice>C. Independent board members are allowed to meet shareholders only in the presence of the entire board.</choice>
         </choices>
         <answer>A</answer>
-        <comments>C. Allen, and Matthew Orsagh Reading 41, Board Independence The CEO and board chair should be separate to prevent too much executive power.</comments>
+        <comments>"The Corporate Governance of Listed Companies: A Manual for Investors," Kurt Schacht, James C. Allen, and Matthew Orsagh Reading 41, Board Independence The CEO and board chair should be separate to prevent too much executive power.</comments>
     </problem>
     <problem>
         <question>22. A 20-year $1,000 fixed-rate non-callable bond with 8% annual coupons currently sells for $1,105.94. Assuming a 30% marginal tax rate and an additional risk premium for equity relative to debt of 5%, the cost of equity using the bond-yield-plus-risk-premium approach is closest to:</question>
@@ -212,7 +217,7 @@
             <choice>C. 9.9%</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Sections 3.1.1, 3.3.3 First, determine the yield to maturity, which is the discount rate that sets the bond price to $1,105.94 and is equal to 7%. This calculation can be done with a financial calculator: FV = -$1,000, PV = $1,105.94, N = 20, PMT = -$80, solve for i, which will equal 7%. The bond-yield-plus-risk-premium approach is calculated by adding a risk premium to the cost of debt (i.e., the yield to maturity for the debt), making the cost of equity 12.00% (= 7% +5%).</comments>
+        <comments>"Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Sections 3.1.1, 3.3.3 First, determine the yield to maturity, which is the discount rate that sets the bond price to $1,105.94 and is equal to 7%. This calculation can be done with a financial calculator: FV = -$1,000, PV = $1,105.94, N = 20, PMT = -$80, solve for i, which will equal 7%. The bond-yield-plus-risk-premium approach is calculated by adding a risk premium to the cost of debt (i.e., the yield to maturity for the debt), making the cost of equity 12.00% (= 7% +5%).</comments>
     </problem>
     <problem>
         <question>23. A company's optimal capital budget most likely occurs at the intersection of the:</question>
@@ -222,7 +227,7 @@
             <choice>C. marginal cost of capital and investment opportunity schedule.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Capital Budgeting," John D. Stowe and Jacques R. Gagné Section 4.7 "Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2.3 The point at which the marginal cost of capital intersects the investment opportunity schedule is the optimal capital budget.</comments>
+        <comments>"Capital Budgeting," John D. Stowe and Jacques R. Gagné Section 4.7 "Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 2.3 The point at which the marginal cost of capital intersects the investment opportunity schedule is the optimal capital budget.</comments>
     </problem>
     <problem>
         <question>24. When computing the weighted average cost of capital (WACC) and assuming a fixed-rate non callable bond is currently selling above par value, the before-tax cost of debt is closest to the:</question>
@@ -232,27 +237,27 @@
             <choice>C. yield to maturity.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 3.1</comments>
+        <comments>"Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela Peterson Drake Section 3.1 With a fixed-rate non-callable bond, the before-tax cost of debt is the bond's yield to maturity.</comments>
     </problem>
     <problem>
-        <question>With a fixed-rate non-callable bond, the before-tax cost of debt is the bond's yield to maturity. 25. A project has the following annual cash flows: Year o Year 1 Year 2 Year 3 Year 4 –$75,000 $21,600 800 I 92,saa suoas $23,328 $37,791 $40,815 With a discount rate of 8%, the discounted payback period (in years) is closest to:</question>
+        <question>25. A project has the following annual cash flows: Year o Year 1 Year 2 Year 3 Year 4 –$75,000 $21,600 800 I 92,saa suoas $23,328 $37,791 $40,815 With a discount rate of 8%, the discounted payback period (in years) is closest to:</question>
         <choices>
             <choice>A. 3.2.</choice>
             <choice>B. 2.8.</choice>
             <choice>C. 3.0.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Capital Budgeting," John D. Stowe and Jacques R. Gagné Section 4</comments>
+        <comments>"Capital Budgeting," John D. Stowe and Jacques R. Gagné Section 4 Year Amount to Pay Back Cash Flow Discounted CF @ 8% (CF, – Cumulative PV (CF) [CF/(1.08)"] cash flows) -$75,000 -$75,000 $75,000 21,600 20,000 55,000 23,328 20,000 35,000 37,791 30,000 5,000 40,815 30,000 The first three cash flows recover $70,000 (in present value terms) of the cost, making only $5,000 of the $30,000 in Year 4 necessary to completely recover the cost. Therefore, the discounted payback is three years plus | 5000/30,000, or 3.2 years.</comments>
     </problem>
     <problem>
-        <question>Year Amount to Pay Back Cash Flow Discounted CF @ 8% (CF, – Cumulative PV (CF) [CF/(1.08)"] cash flows) -$75,000 -$75,000 $75,000 21,600 20,000 55,000 23,328 20,000 35,000 37,791 30,000 5,000 40,815 30,000 The first three cash flows recover $70,000 (in present value terms) of the cost, making only $5,000 of the $30,000 in Year 4 necessary to completely recover the cost. Therefore, the discounted payback is three years plus | 5000/30,000, or 3.2 years. 26. Which date in the chronology of a dividend payment is most likely determined by a security exchange?</question>
+        <question>26. Which date in the chronology of a dividend payment is most likely determined by a security exchange?</question>
         <choices>
             <choice>A. Ex-dividend date</choice>
             <choice>B. Holder-of-record date</choice>
             <choice>C. Declaration date</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Dividends and Share Repurchases: Basics,” George H. Troughton and Gregory Noronha Sections 3.1, 3.2, 3.3 The ex-dividend date is normally determined by the security exchange on which the shares are listed. The corporation determines the holder-of-record date and declaration date.</comments>
+        <comments>“Dividends and Share Repurchases: Basics,” George H. Troughton and Gregory Noronha Sections 3.1, 3.2, 3.3 The ex-dividend date is normally determined by the security exchange on which the shares are listed. The corporation determines the holder-of-record date and declaration date.</comments>
     </problem>
     <problem>
         <question>27. When computing the cash flows for a capital project, which of the following is least likely to be included?</question>
@@ -262,7 +267,7 @@
             <choice>C. Tax effects</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Capital Budgeting,” John D. Stowe and Jacques R. Gagné Section 3 Financing costs are not included in a cash flow calculation but are considered in the calculation of the discount rate.</comments>
+        <comments>"Capital Budgeting,” John D. Stowe and Jacques R. Gagné Section 3 Financing costs are not included in a cash flow calculation but are considered in the calculation of the discount rate.</comments>
     </problem>
     <problem>
         <question>28. The annual cost of trade credit assumig a 365-day year for terms 3/10 net 40 is closest to:</question>
@@ -272,17 +277,17 @@
             <choice>C. 32.0%</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Working Capital Management," Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Section 7.1 | (365/ Number of days beyond discount period)</comments>
+        <comments>"Working Capital Management," Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamelax Peterson Drake Section 7.1 | (365/ Number of days beyond discount period) Discount Cost of trade credit = (1- Discount) |14 -1 Cost of trade credit = (1+ 3% ( 365130 ) -1 = 44.9%. (1+ 3 %))</comments>
     </problem>
     <problem>
-        <question>Discount Cost of trade credit = (1- Discount) |14 -1 Cost of trade credit = (1+ 3% ( 365130 ) -1 = 44.9%. (1+ 3 % ) ) 29. Which of the following measures of profit is most likely necessary for a firm to stay in business in the long run?</question>
+        <question>29. Which of the following measures of profit is most likely necessary for a firm to stay in business in the long run?</question>
         <choices>
             <choice>A. Economic</choice>
             <choice>B. Normal</choice>
             <choice>C. Accounting</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 2.2 Normal profit is the level of accounting profit needed to just cover the implicit opportunity costs ignored in accounting costs. This profit is all that a firm needs to earn in the long run to remain in business. Failing to earn normal profits over the long run has a debilitating impact on the firm's ability to access capital and to function properly as a business enterprise. Economic profit (also known as abnormal or supernormal profit) is accounting profits in excess of implicit opportunity costs.</comments>
+        <comments>"Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 2.2 Normal profit is the level of accounting profit needed to just cover the implicit opportunity costs ignored in accounting costs. This profit is all that a firm needs to earn in the long run to remain in business. Failing to earn normal profits over the long run has a debilitating impact on the firm's ability to access capital and to function properly as a business enterprise. Economic profit (also known as abnormal or supernormal profit) is accounting profits in excess of implicit opportunity costs.</comments>
     </problem>
     <problem>
         <question>30. A country's international transactions accounts data for last year are presented in its domestic currency: Transaction Amount Exports of goods and services 10,000 Import of goods and services 14,216 Investment income payments made to foreigners 2,519 Investment income received from foreigners 3,409 Net change in assets owned abroad 1,548 Net change in foreign-owned assets domestically 4,989 Unilateral current transfers received 346 Unilateral current transfers paid 1,107 Statistical discrepancy 646 The current account balance is closest to:</question>
@@ -292,27 +297,37 @@
             <choice>C. -4,345.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ International Trade and Capital Flows," Usha Nair-Reichert and Daniel Robert</comments>
+        <comments>“International Trade and Capital Flows," Usha Nair-Reichert and Daniel Robert Witschi Amount 399388 Totals 13,409 Transaction Export of goods and services and income receipts Export of goods and services Investment income received from foreigners 10,000 3,409 —16,735 Import of goods and services and income payments Import of goods and services Investment income payments made to foreigners —14,216 -2,519 -761 Net unilateral current transfers Unilateral current transfers received Unilateral current transfers paid 346 -1,107 | Current account balance –4,087</comments>
     </problem>
     <problem>
-        <question>Witschi 3172168919041893 March Mock Exam - AM Amount 399388 Totals 13,409 Transaction Export of goods and services and income receipts Export of goods and services Investment income received from foreigners 10,000 3,409 —16,735 Import of goods and services and income payments Import of goods and services Investment income payments made to foreigners —14,216 -2,519 -761 Net unilateral current transfers Unilateral current transfers received Unilateral current transfers paid 346 -1,107 | Current account balance –4,087 31. Which of the following will most likely cause the short-run aggregate supply (SRAS) curve to shift to the right? A. Increase in the supply of human capital B. Increase in nominal wages C. Increase in business taxes Answer = A "Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Sections 3.3.2, 3.3.3 An increase in the supply of human capital will increase the resource base and cause the SRAS to shift to the right. 32. The two dominant supermarket chains in the area are attempting to increase their market share by moving to 24-hour service instead of closing at 9 p.m. every night. The strategic outcomes and payoff matrix that arise from their actions are depicted in the diagram (with the shaded sections Chain 2 Close at 9 pm Open 24 hours 290 592 180 55 Close at 9 pm Chain 1 Open 24 hours 75 140 540 108 According to Nash equilibrium, the best strategy is for:</question>
+      <question>31. Which of the following will most likely cause the short-run aggregate supply (SRAS) curve to shift to the right?</question>
+      <choices>
+	  <choice>A. Increase in the supply of human capital</choice>
+	  <choice>B. Increase in nominal wages</choice>
+	  <choice>C. Increase in business taxes</choice>
+      </choices>
+      <answer>A</answer>
+      <comments>"Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Sections 3.3.2, 3.3.3 An increase in the supply of human capital will increase the resource base and cause the SRAS to shift to the right.</comments>
+    </problem>
+    <problem>
+        <question>32. The two dominant supermarket chains in the area are attempting to increase their market share by moving to 24-hour service instead of closing at 9 p.m. every night. The strategic outcomes and payoff matrix that arise from their actions are depicted in the diagram (with the shaded sections Chain 2 Close at 9 pm Open 24 hours 290 592 180 55 Close at 9 pm Chain 1 Open 24 hours 75 140 540 108 According to Nash equilibrium, the best strategy is for:</question>
         <choices>
             <choice>A. both chains to open for 24 hours.</choice>
             <choice>B. both chains to close at 9 p.m.</choice>
             <choice>C. only Chain 2 to open for 24 hours.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ The Firm and Market Structures," Richard G. Fritz and Michele Gambera Section 5.1 Each company will consider the other's reaction in selecting its strategy. Using the following summary, it is best for both chains to provide 24-hour service.</comments>
+        <comments>“The Firm and Market Structures," Richard G. Fritz and Michele Gambera Section 5.1 Each company will consider the other's reaction in selecting its strategy. Using the following summary, it is best for both chains to provide 24-hour service. Chain Consideration Best Decision If it opens for 24 hours, it will see a higher payoff regardless of what Chain 2 does. Chain 2 Chain 2 Opens for 24 hours Closes at 9 p.m. Open for 24 hours Chain 1 earns 540 Chain 1 earns 108 instead of 180 instead of 55 If it opens for 24 hours, it will see a higher payoff regardless of what Chain 1 does. Open for 24 hours Chain 1 Closes at 9 p.m. Chain 1 Opens for 24 hours Chain 2 earns 592 instead of 290 Chain 2 earns 140 instead of 75</comments>
     </problem>
     <problem>
-        <question>Chain Consideration Best Decision If it opens for 24 hours, it will see a higher payoff regardless of what Chain 2 does. Chain 2 Chain 2 Opens for 24 hours Closes at 9 p.m. Open for 24 hours Chain 1 earns 540 Chain 1 earns 108 instead of 180 instead of 55 If it opens for 24 hours, it will see a higher payoff regardless of what Chain 1 does. Open for 24 hours Chain 1 Closes at 9 p.m. Chain 1 Opens for 24 hours Chain 2 earns 592 instead of 290 Chain 2 earns 140 instead of 75 33. In order to reduce a trade deficit, the government of a country experiencing full employment moves to depreciate its currency. As a result, if the country's domestic spending declines relative to income, the most likely mechanism that causes this to occur is the:</question>
+        <question>33. In order to reduce a trade deficit, the government of a country experiencing full employment moves to depreciate its currency. As a result, if the country's domestic spending declines relative to income, the most likely mechanism that causes this to occur is the:</question>
         <choices>
             <choice>A. wealth effect.</choice>
             <choice>B. income effect.</choice>
             <choice>C. substitution effect.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Demand and Supply Analysis: Consumer Demand," Richard V. Eastin and Gary L. Arbogast Section 6.2 "Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Section 3.3.1 "Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Sections 5.1, 5.2 At full employment, a weaker currency reduces the purchasing power of all domestic currency denominated assets (including the present value of current and future income). Households respond by reducing general expenditures and increasing savings. This response is the wealth effect and reflects the proportion of one's income that is saved (or spent).</comments>
+        <comments>"Demand and Supply Analysis: Consumer Demand," Richard V. Eastin and Gary L. Arbogast Section 6.2 "Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Section 3.3.1 "Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Sections 5.1, 5.2 At full employment, a weaker currency reduces the purchasing power of all domestic currency denominated assets (including the present value of current and future income). Households respond by reducing general expenditures and increasing savings. This response is the wealth effect and reflects the proportion of one's income that is saved (or spent).</comments>
     </problem>
     <problem>
         <question>34. A New Zealand traveler returned from Singapore with SGD7,500 (Singapore dollars). A foreign exchange dealer provided the traveler with the following quotes: Ratio Spot Rates USD/SGD 1.2600 NZD/USD 0.7670 | USD: US dollar NZD: New Zealand dollar The amount of New Zealand dollars (NZD) that the traveler would receive for his Singapore dollars is closest to:</question>
@@ -322,7 +337,7 @@
             <choice>C. NZD4,565.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Section 3.2 The NZD/SGD cross-rate is NZD/USD x USD/SGD = 0.7670 x 1.2600 = 0.9664. The traveler will receive: NZDO.9664 per SGD; NZDO.9664 x SGD7,500 = NZD7,248.</comments>
+        <comments>"Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Section 3.2 The NZD/SGD cross-rate is NZD/USD x USD/SGD = 0.7670 x 1.2600 = 0.9664. The traveler will receive: NZDO.9664 per SGD; NZDO.9664 x SGD7,500 = NZD7,248.</comments>
     </problem>
     <problem>
         <question>35. Demand for a good is most likely to be more elastic when:</question>
@@ -332,7 +347,7 @@
             <choice>C. the good is a necessity.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast Section 4.2 The more time that has elapsed since a price change, the more elastic the demand. For example, if gas prices rise, consumers cannot quickly change their mode of transportation but will likely do so in the longer run.</comments>
+        <comments>"Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast Section 4.2 The more time that has elapsed since a price change, the more elastic the demand. For example, if gas prices rise, consumers cannot quickly change their mode of transportation but will likely do so in the longer run.</comments>
     </problem>
     <problem>
         <question>36. Which characteristic is a firm least likely to exhibit when it operates in a market with a downward sloping demand curve, many competitors, and zero economic profits in the long run?</question>
@@ -342,7 +357,7 @@
             <choice>C. No pricing power</choice>
         </choices>
         <answer>C</answer>
-        <comments>" The Firm and Market Structures," Richard G. Fritz and Michele Gambera Sections 2.1, 2.2, 4 The characteristics of monopolistic competition include a large number of competitors, low pricing power, and the production of differentiated products (through advertising and other non-price strategies), but these still result in some pricing power. The ease of entry results in zero economic profits in the long run.</comments>
+        <comments>"The Firm and Market Structures," Richard G. Fritz and Michele Gambera Sections 2.1, 2.2, 4 The characteristics of monopolistic competition include a large number of competitors, low pricing power, and the production of differentiated products (through advertising and other non-price strategies), but these still result in some pricing power. The ease of entry results in zero economic profits in the long run.</comments>
     </problem>
     <problem>
         <question>37. Which of the following is most likely to cause a shift to the right in the aggregate demand curve?</question>
@@ -352,7 +367,7 @@
             <choice>C. Boom in the stock market</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Section 3.3.1 A boom in the stock market increases the value of financial assets and household wealth. An increase in household wealth increases consumer spending and shifts the aggregate demand curve to the right.</comments>
+        <comments>"Aggregate Output, Prices, and Economic Growth," Paul R. Kutasovic and Richard G. Fritz Section 3.3.1 A boom in the stock market increases the value of financial assets and household wealth. An increase in household wealth increases consumer spending and shifts the aggregate demand curve to the right.</comments>
     </problem>
     <problem>
         <question>38. A local laundry and dry cleaner collects the following data on its workforce productivity. Workers always work in teams of two, and the laundry and dry cleaner earns $3.00 of revenue for each shirt laundered. Quantity of Labor (L) (workers) Total Product (TP) (shirts laundered per hour) 20 o v v o 36 50 62 The marginal revenue product (MRP, $ per worker) for hiring the fifth and sixth workers is closest to:</question>
@@ -362,27 +377,27 @@
             <choice>C. $42.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 3.2.1 Marginal Product (MP) is the amount of additional output resulting from using one more unit of</comments>
+        <comments>"Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 3.2.1 Marginal Product (MP) is the amount of additional output resulting from using one more unit of input: ATPIAL, where ATP is the change in total product and AL is the change in total labor. Marginal revenue product is the marginal product of an input times the price of the product: MPX Price = ATPIAL X Price. In this problem, the marginal product of hiring the fifth and sixth workers (AL = 2) is 14 shirts per hour/2 workers =7 shirts per hour/worker. With each shirt resulting in $3 of revenue, the MRP is 7 shirts per hour/worker x $3/shirt = $21 per worker.</comments>
     </problem>
     <problem>
-        <question>input: ATPIAL, where ATP is the change in total product and AL is the change in total labor. Marginal revenue product is the marginal product of an input times the price of the product: MPX Price = ATPIAL X Price. In this problem, the marginal product of hiring the fifth and sixth workers (AL = 2) is 14 shirts per hour/2 workers =7 shirts per hour/worker. With each shirt resulting in $3 of revenue, the MRP is 7 shirts per hour/worker x $3/shirt = $21 per worker. 39. Holding the working-age population constant, if the labor force participation rate declines while the number of people employed remains unchanged, the unemployment rate will most likely.</question>
+        <question>39. Holding the working-age population constant, if the labor force participation rate declines while the number of people employed remains unchanged, the unemployment rate will most likely.</question>
         <choices>
             <choice>A. remain unchanged.</choice>
             <choice>B. increase.</choice>
             <choice>C. decrease.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Understanding Business cycles,” Michele Gambera, Milton Ezrati, and Bolong Cao Section 4.1 For a given working-age population, a decline in the labor force participation rate (often caused by an increase in discouraged workers) reduces the labor force. If the number of people employed remains the same while the labor force becomes smaller, the number of workers defined to be unemployed must be smaller and thus the unemployment rate lower. 100</comments>
+        <comments>“Understanding Business cycles,” Michele Gambera, Milton Ezrati, and Bolong Cao Section 4.1 For a given working-age population, a decline in the labor force participation rate (often caused by an increase in discouraged workers) reduces the labor force. If the number of people employed remains the same while the labor force becomes smaller, the number of workers defined to be unemployed must be smaller and thus the unemployment rate lower. 100 The following example illustrates the direction of change: Initial Case Working-age population Labor force = Employed + Unemployed 60 + 20 = 80 Labor force participation rate 80% Unemployment rate 20/80 = 25% After Change 100 60 + 15 = 75 75% 15/75 = 20% Labor force participation rate = Labor forceWorking age population | Unemployment rate = Unemployed/Labor force</comments>
     </problem>
     <problem>
-        <question>The following example illustrates the direction of change: Initial Case Working-age population Labor force = Employed + Unemployed 60 + 20 = 80 Labor force participation rate 80% Unemployment rate 20/80 = 25% After Change 100 60 + 15 = 75 75% 15/75 = 20% Labor force participation rate = Labor forceWorking age population | Unemployment rate = Unemployed/Labor force 40. In the short run, a firm operating in a perfectly competitive market will most likely avoid shutdown if it is able to earn sufficient revenue to cover which of the following costs?</question>
+        <question>40. In the short run, a firm operating in a perfectly competitive market will most likely avoid shutdown if it is able to earn sufficient revenue to cover which of the following costs?</question>
         <choices>
             <choice>A. Variable</choice>
             <choice>B. Marginal</choice>
             <choice>C. Fixed</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 3.1 Shutdown is defined as a situation in which the firm stops production but still confronts the payment of fixed costs in the short run. In the short run, a business can operate at a loss as long as it covers its variable costs even though it is not earning sufficient revenue to cover fixed costs. If variable costs cannot be covered in the short run, the firm will shut down operations and simply absorb the unavoidable fixed costs.</comments>
+        <comments>"Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 3.1 Shutdown is defined as a situation in which the firm stops production but still confronts the payment of fixed costs in the short run. In the short run, a business can operate at a loss as long as it covers its variable costs even though it is not earning sufficient revenue to cover fixed costs. If variable costs cannot be covered in the short run, the firm will shut down operations and simply absorb the unavoidable fixed costs.</comments>
     </problem>
     <problem>
         <question>41. An analyst uses a stock screener and selects the following metrics from his equity universe: price-to-equity ratio lower than the median PIE price-to-book value ratio lower than the median P/BV The stocks selected would be most appropriate for portfolios for which type of investors?</question>
@@ -392,7 +407,7 @@
             <choice>C. Market-oriented investors</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Financial Statement Analysis: Applications," Thomas R. Robinson, Jan Hendrik van Greuning, Elaine Henry, and Michael A. Broihahn Section 5 "Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 5.4 Metrics such as low P/E and low P/BV are aimed at selecting value companies; therefore, the portfolio is most appropriate for value investors.</comments>
+        <comments>“Financial Statement Analysis: Applications," Thomas R. Robinson, Jan Hendrik van Greuning, Elaine Henry, and Michael A. Broihahn Section 5 "Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 5.4 Metrics such as low P/E and low P/BV are aimed at selecting value companies; therefore, the portfolio is most appropriate for value investors.</comments>
     </problem>
     <problem>
         <question>42. A company using IFRS reports its interest payments on long-term debt as a financing activity. If the company reported under US GAAP, the most likely effect would be a:</question>
@@ -402,7 +417,7 @@
             <choice>C. higher cash flow from financing activities.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Sections 2.1, 2.2 Interest payments can be reported either as operating or financing cash flow under IFRS, but they can be reported only as operating cash flow under US GAAP. The interest payment was originally reported as financing activity under IFRS, but under US GAAP it would be an operating activity. Therefore, under US GAAP, cash flow from financing activities would be higher and operating cash flows lower by the same amount.</comments>
+        <comments>"Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Sections 2.1, 2.2 Interest payments can be reported either as operating or financing cash flow under IFRS, but they can be reported only as operating cash flow under US GAAP. The interest payment was originally reported as financing activity under IFRS, but under US GAAP it would be an operating activity. Therefore, under US GAAP, cash flow from financing activities would be higher and operating cash flows lower by the same amount.</comments>
     </problem>
     <problem>
         <question>43. At the start of the year, a company's capital contributed by owners and retained earnings accounts had balances of $10,000 and $6,000, respectively. During the year, the following events took place: Net income earned $4,000 Interest paid on debt $500 Repayment of long-term debt $1,000 Proceeds from shares issued $1,000 Dividends paid $600 The end-of-year owners' equity is closest to:</question>
@@ -412,27 +427,27 @@
             <choice>C. $20,400.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 3.2 | Start-of-year capital contributed by owners $10,000</comments>
+        <comments>“Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 3.2 | Start-of-year capital contributed by owners $10,000 1,000 Additional shares issued Initial retained earnings 6,000 Net income $4,000 |(600) Less dividends paid Increase in retained earnings 3,400 $3,400 Ending owners' equity $20,400</comments>
     </problem>
     <problem>
-        <question>1,000 Additional shares issued Initial retained earnings 6,000 Net income $4,000 |(600) Less dividends paid Increase in retained earnings 3,400 $3,400 Ending owners' equity $20,400 44. A company uses the percentage-of-completion method to recognize revenue from its long-term construction contracts and estimates percent completion based on expenditures incurred as a percentage of total estimated expenditures. A three-year contract for €10 million was undertaken with a 30% gross profit margin anticipated. The project is now at the end of its second year, and the following end-of-year information is available: Year 1 Year 2 Costs incurred during year €3,117,500 €2,582,500 Estimated total costs €7,250,000 €7,600,000 The gross profit recognized in Year 2 is closest to:</question>
+        <question>44. A company uses the percentage-of-completion method to recognize revenue from its long-term construction contracts and estimates percent completion based on expenditures incurred as a percentage of total estimated expenditures. A three-year contract for €10 million was undertaken with a 30% gross profit margin anticipated. The project is now at the end of its second year, and the following end-of-year information is available: Year 1 Year 2 Costs incurred during year €3,117,500 €2,582,500 Estimated total costs €7,250,000 €7,600,000 The gross profit recognized in Year 2 is closest to:</question>
         <choices>
             <choice>A. €617,500.</choice>
             <choice>B. €960,000.</choice>
             <choice>C. €880,000.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 3.2.1 (Costs incurred/Total costs anticipated) x 100 Percent completed Gross profit in the year Percent Complete x Future anticipated profit – Profit already recognized</comments>
+        <comments>"Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 3.2.1 (Costs incurred/Total costs anticipated) x 100 Percent completed Gross profit in the year Percent Complete x Future anticipated profit – Profit already recognized Year 1 Year 2 Costs incurred €3,117,500 €3,117,500 + €2,582,500 = €5,700,000 €5,700,000/€7,600,000 = 75.0% Percent complete €3,117,500/€7,250,000 = 43.0% Gross profit 43.0% x (€10,000,000 – €7,250,000) = €1,182,500 75.0% x (€10,000,000 – €7,600,000) – €1,182,500 = €617,500</comments>
     </problem>
     <problem>
-        <question>Year 1 Year 2 Costs incurred €3,117,500 €3,117,500 + €2,582,500 = €5,700,000 €5,700,000/€7,600,000 = 75.0% Percent complete €3,117,500/€7,250,000 = 43.0% Gross profit 43.0% x (€10,000,000 – €7,250,000) = €1,182,500 75.0% x (€10,000,000 – €7,600,000) – €1,182,500 = €617,500 45. An increase in which of the following ratios would most likely result in an increase in operating cash flows?</question>
+        <question>45. An increase in which of the following ratios would most likely result in an increase in operating cash flows?</question>
         <choices>
             <choice>A. Days of sales outstanding</choice>
             <choice>B. Quick ratio</choice>
             <choice>C. Number of days of payables</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Sections 4.2, 4.3 “Accounting Shenanigans on the Cash Flow Statement,” Marc A. Siegel Section 3 An increase in number of days of payables would indicate a lengthening payables cycle, which indicates that the company is not paying its payables as quickly and would thus increase the cash flow from operations.</comments>
+        <comments>“Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Sections 4.2, 4.3 “Accounting Shenanigans on the Cash Flow Statement,” Marc A. Siegel Section 3 An increase in number of days of payables would indicate a lengthening payables cycle, which indicates that the company is not paying its payables as quickly and would thus increase the cash flow from operations.</comments>
     </problem>
     <problem>
         <question>46. The following information is from a company's accounting records: € Millions Revenues for the year 12,500 Total expenses for the year 10,000 Gains from available-for-sale securities 1,475 Loss on foreign currency translation adjustments on a foreign subsidiary 325 Dividends paid 500 The company's total comprehensive income (in € millions) is closest to:</question>
@@ -442,7 +457,7 @@
             <choice>C. 3,650.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 8 Total comprehensive income = Net income + Other comprehensive income. Net Income = Revenues – Expenses. Other comprehensive income includes gains or losses on available-for-sale (AFS) securities and translation adjustments on foreign subsidiaries. (Revenues – Expenses) + Gain on AFS securities – Loss on FX translation (12,500 – 10,000) + 1,475 – 325 = 3,650.</comments>
+        <comments>“Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 8 Total comprehensive income = Net income + Other comprehensive income. Net Income = Revenues – Expenses. Other comprehensive income includes gains or losses on available-for-sale (AFS) securities and translation adjustments on foreign subsidiaries. (Revenues – Expenses) + Gain on AFS securities – Loss on FX translation (12,500 – 10,000) + 1,475 – 325 = 3,650.</comments>
     </problem>
     <problem>
         <question>47. Which of the following statements most accurately describes a valuation allowance for deferred taxes? A valuation allowance is required under:</question>
@@ -452,7 +467,7 @@
             <choice>C. IFRS on revaluation of a deferred tax asset.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Income Taxes," Elbie Antonites and Michael A. Broihahn Section 6.1 A valuation allowance is required under US GAAP if there is doubt about whether a deferred tax asset will be recovered. Under IFRS, the deferred tax asset is written down directly.</comments>
+        <comments>“Income Taxes," Elbie Antonites and Michael A. Broihahn Section 6.1 A valuation allowance is required under US GAAP if there is doubt about whether a deferred tax asset will be recovered. Under IFRS, the deferred tax asset is written down directly.</comments>
     </problem>
     <problem>
         <question>48. A firm reported the following financial statement items: € millions Net income 2,100 Non-cash charges 400 Interest expense 300 Capital expenditures 210 Working capital expenditures Net borrowing 1,600 Tax rate 40% The free cash flow to the firm (FCFF) is closest to</question>
@@ -462,16 +477,37 @@
             <choice>C. €2,470.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ 3172168919041893 March Mock Exam - AM Cash Flow Item 399388 Amount (€ millions) NI NCC Int(1 - t) Net income Plus non-cash charges Plus interest expense (1 - tax rate) Less capital expenditures 2,100 400 180 300 (1 – 0.40) FCInv (210) WCinv Less working capital expenditures Free cash flow to the firm FCFF €2,470 49. The analytical tool that would be most appropriate for an analyst to use to identify the percentage of a company's assets that are liquid is the: A. current ratio. common-size balance sheet. C. cash ratio. Answer = B “Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Sections 7.1, 7.2 “Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 3.2.1 A common-size balance sheet expresses all balance sheet accounts as a percentage of total assets and would provide insight into what portion of a company's assets is liquid. On the other hand, cash and current ratios measure liquidity relative to current liabilities, not relative to total assets 50. A company has announced that it is going to distribute a group of long-lived assets to its owners in a spin-off. The most appropriate way to account for the assets until the distribution occurs is to classify them as: A. held for use until disposal with no deprecation taken. B. held for use until disposal with depreciation continuing to be taken. C. held for sale with no depreciation taken. Answer = B “Long-lived Assets," Elaine Henry and Elizabeth A. Gordon Section 6.2 Long-lived assets that will be disposed of other than by sale, such as in a spin-off, an exchange for other assets, or abandonment, are classified as held for use until disposal and continue to be depreciated until that time.</comments>
+        <comments>"Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Section 4.3 FCFF = NI + NCC + Int(1 - t) - FCInv - WCInv. “Cash Flow Item Amount (€ millions) NI NCC Int(1 - t) Net income Plus non-cash charges Plus interest expense (1 - tax rate) Less capital expenditures 2,100 400 180 300 (1 – 0.40) FCInv (210) WCinv Less working capital expenditures Free cash flow to the firm FCFF €2,470</comments>
+    </problem>
+    <problem>
+        <question>49. The analytical tool that would be most appropriate for an analyst to use to identify the percentage of a company's assets that are liquid is the:</question>
+        <choices>
+	    <choice>A. current ratio.</choice>
+	    <choice>B. common-size balance sheet.</choice>
+	    <choice>C. cash ratio.</choice>
+	</choices>
+	<answer>B</answer>
+	<comments>“Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Sections 7.1, 7.2 “Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 3.2.1 A common-size balance sheet expresses all balance sheet accounts as a percentage of total assets and would provide insight into what portion of a company's assets is liquid. On the other hand, cash and current ratios measure liquidity relative to current liabilities, not relative to total assets</comments>
+    </problem>
+    <problem>
+        <question>50. A company has announced that it is going to distribute a group of long-lived assets to its owners in a spin-off. The most appropriate way to account for the assets until the distribution occurs is to classify them as:</question>
+        <choices>
+	    <choice>A. held for use until disposal with no deprecation taken.</choice>
+	    <choice>B. held for use until disposal with depreciation continuing to be taken.</choice>
+	    <choice>C. held for sale with no depreciation taken.</choice>
+	</choices>
+	<answer>B</answer>
+	<comments>“Long-lived Assets," Elaine Henry and Elizabeth A. Gordon Section 6.2 Long-lived assets that will be disposed of other than by sale, such as in a spin-off, an exchange for other assets, or abandonment, are classified as held for use until disposal and continue to be depreciated until that time.</comments>
     </problem>
     <problem>
         <question>51. The financial statement that would be most useful to an analyst in understanding the changes that have occurred in a company's retained earnings over a year is the statement of:</question>
         <choices>
             <choice>A. financial position.</choice>
-            <choice>B. comprehensive income. changes in equity.</choice>
+            <choice>B. comprehensive income.</choice>
+	    <choice>C. changes in equity.</choice>
         </choices>
-        <answer />
-        <comments>C. Answer = C "Financial Statement Analysis: An Introduction," Elaine Henry and Thomas R. Robinson Section 3.1.3 The statement of changes in equity reports the changes in the components of shareholders' equity over the year, which would include the retained earnings account.</comments>
+        <answer>C</answer>
+        <comments>"Financial Statement Analysis: An Introduction," Elaine Henry and Thomas R. Robinson Section 3.1.3 The statement of changes in equity reports the changes in the components of shareholders' equity over the year, which would include the retained earnings account.</comments>
     </problem>
     <problem>
         <question>52. Under US GAAP, which of the following is least likely a disclosure concerning inventory?</question>
@@ -481,7 +517,7 @@
             <choice>C. The amount of inventories recognized as an expense during the period</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Inventories,” Michael A. Broihahn Section 5 US GAAP do not permit the reversal of prior-year write-downs; therefore, there are no disclosures related to reversals.</comments>
+        <comments>“Inventories,” Michael A. Broihahn Section 5 US GAAP do not permit the reversal of prior-year write-downs; therefore, there are no disclosures related to reversals.</comments>
     </problem>
     <problem>
         <question>53. Under the International Accounting Standards Board's (IASB's) Conceptual Framework, one of the qualitative characteristics of useful financial information is that different knowledgeable users would agree that the information is a faithful representation of the economic events that it is intended to represent. This characteristic is best described as:</question>
@@ -491,25 +527,27 @@
             <choice>C. understandability.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Financial Reporting Standards,” Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.2 Under the IASB's Conceptual Framework, verifiability means that different knowledgeable and independent users would agree that the information presented faithfully represents the economic events that it is intended to represent</comments>
+        <comments>“Financial Reporting Standards,” Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.2 Under the IASB's Conceptual Framework, verifiability means that different knowledgeable and independent users would agree that the information presented faithfully represents the economic events that it is intended to represent</comments>
     </problem>
     <problem>
         <question>54. In accrual accounting, if an adjusting entry results in the reduction of an asset and the recording of an expense, the originating entry recorded was most likely a(n):</question>
         <choices>
             <choice>A. accrued expense.</choice>
-            <choice>B. deferred revenue. prepaid expense.</choice>
+            <choice>B. deferred revenue.</choice>
+	    <choice>C. prepaid expense.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 5.1 The adjusting entry to record the expiry of a prepaid expense is the reduction of an asset (the prepaid) and the recognition of the expense.</comments>
+        <comments>“Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 5.1 The adjusting entry to record the expiry of a prepaid expense is the reduction of an asset (the prepaid) and the recognition of the expense.</comments>
     </problem>
     <problem>
         <question>55. Two pharmaceutical companies, Company A and Company B, internally develop drugs and drug analytics software. Company A reports in accordance with IFRS whereas Company B reports in accordance with US GAAP. Which of the following statements is most accurate regarding the development costs of the drug patents and software development?</question>
         <choices>
             <choice>A. Company B can capitalize the development costs related to drug development if it meets certain criteria.</choice>
-            <choice>B. Both companies must expense all development costs related to these intangible assets. Company A can capitalize the development costs related to software development if it meets certain criteria.</choice>
+            <choice>B. Both companies must expense all development costs related to these intangible assets.</choice>
+	    <choice>C. Company A can capitalize the development costs related to software development if it meets certain criteria.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Long-lived Assets," Elaine Henry and Elizabeth A. Gordon Sections 2.2.1, 2.2.2 IFRS allows development costs to be capitalized if certain criteria are met; unlike US GAAP, capitalization is not restricted to software development.</comments>
+        <comments>"Long-lived Assets," Elaine Henry and Elizabeth A. Gordon Sections 2.2.1, 2.2.2 IFRS allows development costs to be capitalized if certain criteria are met; unlike US GAAP, capitalization is not restricted to software development.</comments>
     </problem>
     <problem>
         <question>56. During a period of rising inventory costs, a company decides to change its inventory method from FIFO (first in, first out) to the weighted average cost method. Under the weighted average cost method, which of the following financial ratios will most likely be higher than under FIFO?</question>
@@ -519,7 +557,7 @@
             <choice>C. Number of days in inventory</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Inventories," Michael A Broihahn Sections 3.7, 6 If all else is held constant, in a period of rising costs the ending inventory will be lower under the weighted average cost method and the cost of goods sold will be higher (compared to FIFO), resulting in lower net income and retained earnings. There will be no impact on the debt level, current or long-term. Therefore, the debt-to-equity ratio (Total debt/Total shareholder's equity) will increase because of the decrease in retained earnings (and lower shareholders' equity).</comments>
+        <comments>"Inventories," Michael A Broihahn Sections 3.7, 6 If all else is held constant, in a period of rising costs the ending inventory will be lower under the weighted average cost method and the cost of goods sold will be higher (compared to FIFO), resulting in lower net income and retained earnings. There will be no impact on the debt level, current or long-term. Therefore, the debt-to-equity ratio (Total debt/Total shareholder's equity) will increase because of the decrease in retained earnings (and lower shareholders' equity).</comments>
     </problem>
     <problem>
         <question>57. Under US GAAP, interest paid is most likely included in which of the following cash flow activities?</question>
@@ -529,7 +567,7 @@
             <choice>C. Operating only</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Section 3.2.1.5 Interest paid must be categorized as an operating cash flow activity under US GAAP, although it can be categorized as either an operating or financing cash flow activity under IFRS.</comments>
+        <comments>“Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Section 3.2.1.5 Interest paid must be categorized as an operating cash flow activity under US GAAP, although it can be categorized as either an operating or financing cash flow activity under IFRS.</comments>
     </problem>
     <problem>
         <question>58. A retailer provides credit cards only to its most valued customers who pass a rigorous credit check. A credit card customer ordered an item from the retailer in May. The item was shipped and delivered in July. The item appeared on the customer's July credit card statement and was paid in full by the due date in August. The most appropriate month in which the retailer should recognize the revenue is:</question>
@@ -539,7 +577,7 @@
             <choice>C. August.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 3.1 The appropriate time to recognize revenue would be in the month of July because the risks and rewards have been transferred to the buyer (shipped and delivered), the revenue can be reliably measured, and it is probable that the economic benefits will flow to the seller (the rigorous credit check was completed). Neither the actual payment date nor the credit card statement date is relevant here</comments>
+        <comments>“Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 3.1 The appropriate time to recognize revenue would be in the month of July because the risks and rewards have been transferred to the buyer (shipped and delivered), the revenue can be reliably measured, and it is probable that the economic benefits will flow to the seller (the rigorous credit check was completed). Neither the actual payment date nor the credit card statement date is relevant here</comments>
     </problem>
     <problem>
         <question>59. The following table shows selected data from a company's operations: Net income $100,000 Increase in accounts receivable 12,000 Increase in accounts payable 9,000 Depreciation and amortization | 8,000 | The cash flow from operations is closest to:</question>
@@ -549,34 +587,37 @@
             <choice>C. $111,000.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Sections 3.2.4, 3.2.5 $100,000</comments>
+        <comments>"Understanding Cash Flow Statements," Elaine Henry, Thomas R. Robinson, Jan Hendrik van Greuning, and Michael A. Broihahn Sections 3.2.4, 3.2.5 $100,000 8,000 Net income Plus depreciation and amortization Less increase in accounts receivable Plus increase in accounts payable Cash flow from operations (12,000) 9,000 $105,000</comments>
     </problem>
     <problem>
-        <question>8,000 Net income Plus depreciation and amortization Less increase in accounts receivable Plus increase in accounts payable Cash flow from operations (12,000) 9,000 $105,000 60. A company operating in a highly fragmented and competitive industry reported an increase in return on equity (ROE) over the prior year. Which of the following reasons for the increase in ROE is least likely to be sustainable? The company:</question>
+        <question>60. A company operating in a highly fragmented and competitive industry reported an increase in return on equity (ROE) over the prior year. Which of the following reasons for the increase in ROE is least likely to be sustainable? The company:</question>
         <choices>
-            <choice>A. implemented a new IT system, allowing it to reduce working capital levels as a percentage of assets. decided to make greater use of long-term borrowing capacity.</choice>
+            <choice>A. implemented a new IT system, allowing it to reduce working capital levels as a percentage of assets.</choice>
+	    <choice>B. decided to make greater use of long-term borrowing capacity.</choice>
             <choice>C. increased the prices of its product significantly.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4.6.2 "Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1.2</comments>
+        <comments>“Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4.6.2 "Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1.2 ome X Net income Revenues Average total assets ROE = Revenues Average total assets Average shareholders equity An increase in price is not sustainable in a fragmented and competitive industry. Fragmented industries tend to be highly price competitive because of the need to increase market share and undercut prices in an attempt to steal share.</comments>
     </problem>
     <problem>
-        <question>ome X Net income Revenues Average total assets ROE = Revenues Average total assets Average shareholders equity An increase in price is not sustainable in a fragmented and competitive industry. Fragmented industries tend to be highly price competitive because of the need to increase market share and undercut prices in an attempt to steal share. 61. Compared with using the FIFO (first in, first out) method to account for inventory, during a period of rising prices, which of the following is most likely higher for a company using LIFO (last in, first out)?</question>
+        <question>61. Compared with using the FIFO (first in, first out) method to account for inventory, during a period of rising prices, which of the following is most likely higher for a company using LIFO (last in, first out)?</question>
         <choices>
             <choice>A. Current ratio</choice>
             <choice>B. Inventory turnover</choice>
             <choice>C. Gross margin</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Inventories," Michael A. Broihahn Sections 3.2, 3.4, 3.5, 3.7 During a period of rising prices, ending inventory under LIFO will be lower than that of FIFO and cost of goods sold higher; therefore, inventory turnover (Cost of goods sold/Average inventory)</comments>
+        <comments>"Inventories," Michael A. Broihahn Sections 3.2, 3.4, 3.5, 3.7 During a period of rising prices, ending inventory under LIFO will be lower than that of FIFO and cost of goods sold higher; therefore, inventory turnover (Cost of goods sold/Average inventory) will be higher.</comments>
     </problem>
     <problem>
-        <question>will be higher. 62. A company that provides cruise ship vacations uses term loans to finance the acquisition of new cruise ships. Which of the following is most likely a negative covenant for the loans? The company must:</question>
+        <question>62. A company that provides cruise ship vacations uses term loans to finance the acquisition of new cruise ships. Which of the following is most likely a negative covenant for the loans? The company must:</question>
         <choices>
-            <choice>A. seek lender approval to pay dividends. ensure the ships are insured. maintain a minimum level of working capital.</choice>
+            <choice>A. seek lender approval to pay dividends.</choice>
+	    <choice>B. ensure the ships are insured.</choice>
+	    <choice>C. maintain a minimum level of working capital.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Non-Current (Long-Term) Liabilities," Elizabeth A. Gordon and Elaine Henry Section 2.5 Negative covenants require that a borrower not take certain actions. The requirement to seek the lender's approval before paying dividends is an example of a negative covenant. The other two are affirmative covenants.</comments>
+        <comments>“Non-Current (Long-Term) Liabilities," Elizabeth A. Gordon and Elaine Henry Section 2.5 Negative covenants require that a borrower not take certain actions. The requirement to seek the lender's approval before paying dividends is an example of a negative covenant. The other two are affirmative covenants.</comments>
     </problem>
     <problem>
         <question>63. Which of the following statements about balance sheets is most accurate? For balance sheets prepared under:</question>
@@ -586,7 +627,7 @@
             <choice>C. IFRS, a commercial real estate company should use a liquidity based presentation.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Sections 2.2, 2.3, 4.3 Under US GAAP, intangibles must be valued at historical cost, whereas under IFRS they can be valued at cost or revaluation.</comments>
+        <comments>“Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Sections 2.2, 2.3, 4.3 Under US GAAP, intangibles must be valued at historical cost, whereas under IFRS they can be valued at cost or revaluation.</comments>
     </problem>
     <problem>
         <question>64. Selected information about a company is as follows: Current Year ($ thousands) Projection for Next Year ($ thousands) Sales 2,200 2,500 Variable operating costs L(% of sales) 28% 30% Fixed operating costs 1,400 1,400 Tax rate 25% 25% Dividends paid 55 60 Interest bearing debt at 5% 500 500 The forecasted net income (in $ thousands) for next year is closest to:</question>
@@ -596,17 +637,17 @@
             <choice>C. 244.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Financial Statement Analysis: Applications," Thomas R. Robinson, Jan Hendrik van Greuning, Elaine Henry, and Michael A. Broihahn Section 3.2 Sales Variable costs Fixed costs Interest expense Earnings before taxes (EBT) Taxes Net income 2,500 Given</comments>
+        <comments>“Financial Statement Analysis: Applications," Thomas R. Robinson, Jan Hendrik van Greuning, Elaine Henry, and Michael A. Broihahn Section 3.2 Sales Variable costs Fixed costs Interest expense Earnings before taxes (EBT) Taxes Net income 2,500 Given -750 30% of sales -1,400 Given -25 | 0.05 x Average debt of $500 325 -81.25 243.75 25% of EBT Rounded to $244</comments>
     </problem>
     <problem>
-        <question>- 750 30% of sales —1,400 Given -25 | 0.05 x Average debt of $500 325 -81.25 243.75 25% of EBT Rounded to $244 65. If the stated annual interest rate is 9% and the frequency of compounding is daily, the effective annual rate (EAR) is closest to:</question>
+        <question>65. If the stated annual interest rate is 9% and the frequency of compounding is daily, the effective annual rate (EAR) is closest to:</question>
         <choices>
             <choice>A. 9.42%.</choice>
             <choice>B. 9.00%.</choice>
             <choice>C. 9.86%.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Sections 3.2, 3.3 EAR = (1 + periodic interest rate)" – 1 = [1 + (0.09 / 365)]865 1 = 0.094162, rounded to 9.42%.</comments>
+        <comments>"The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Sections 3.2, 3.3 EAR = (1 + periodic interest rate)" – 1 = [1 + (0.09 / 365)]865 1 = 0.094162, rounded to 9.42%.</comments>
     </problem>
     <problem>
         <question>66. An analyst wants to estimate the return on the S&amp;P 500 Index for the current year using the following data and assumptions: Sample size = 50 stocks from the index. Mean return for those stocks in the sample for the previous year = 0.114. Variance = 0.0529. The reliability factor for a 95% confidence interval with unknown population variance and sample size greater than 30 is z.025 = 1.96. If he assumes that the S&amp;P 500 return this year will be the same as it was last year, which of the following is the best estimate of the 95% confidence interval for this year's S&amp;P 500 return?</question>
@@ -616,27 +657,27 @@
             <choice>C. -0.33680 to 0.56480</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Sampling and Estimation,” Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4.2 The reliability factor for a 95% confidence interval with unknown population variance and sample</comments>
+        <comments>"Sampling and Estimation,” Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4.2 The reliability factor for a 95% confidence interval with unknown population variance and sample x +7.025 h) size greater than 30 is Z.025 = 1.96. The confidence interval estimate is; With sample variance of 0.0529, s = V0.0529 = 0.23. The estimated interval is: 0.114 + 1.96 X (0.23/150) = 0.114 + 1.96 x (0.03253) = 0.114 + 0.06375=+0.05025 to +0.17775.</comments>
     </problem>
     <problem>
-        <question>x +7.025 h) size greater than 30 is Z.025 = 1.96. The confidence interval estimate is; With sample variance of 0.0529, s = V0.0529 = 0.23. The estimated interval is: 0.114 + 1.96 X (0.23/150) = 0.114 + 1.96 x (0.03253) = 0.114 + 0.06375=+0.05025 to +0.17775. 67. A stock's expected price movement over the next two periods is as follows: Time = 0 Time = 1 Time = 2 |so = 80 s, = 88 suu = 96.80 Sa = 72 Sud,du = 79.20 Sdd = 64.80 The initial value of the stock is $80. The probability of an up move in any given period is 75%, and the probability of a down move in any given period is 25%. Using the binomial model, the probability that the stock's price will be $79.20 at the end of two periods is closest to:</question>
+        <question>67. A stock's expected price movement over the next two periods is as follows: Time = 0 Time = 1 Time = 2 |so = 80 s, = 88 suu = 96.80 Sa = 72 Sud,du = 79.20 Sdd = 64.80 The initial value of the stock is $80. The probability of an up move in any given period is 75%, and the probability of a down move in any given period is 25%. Using the binomial model, the probability that the stock's price will be $79.20 at the end of two periods is closest to:</question>
         <choices>
             <choice>A. 56.25%.</choice>
             <choice>B. 18.75%.</choice>
             <choice>C. 37.50%.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Common Probability Distributions," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2.2 Across two periods, there are four possibilities:</comments>
+        <comments>"Common Probability Distributions," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2.2 Across two periods, there are four possibilities: t=0 1=1 1=2 p=75% 96.80 p=75% 80 p=25% p=75% 79.20 p=259% p=25% 64.80 U, Uend value: $96.80, U, D end value: $79.20, D, Uend value: $79.20, D, Dend value: $64.80, where U is an up move and D is a down move. The probability of an up move followed by a down move is 0.75 x 0.25 = 0.1875. The probability of a down move followed by an up move is 0.25 x 0.75 = 0.1875. Both of these sequences result in an end value of $79.20. Therefore, the probability of an end value of $79.20 is (0.1875 + 0.1875) = 0.375 = 37.5%. Alternatively, the following formula could be used: N -X N pla) = PAX ==(*a=p** Pallar (1p where n= 2 (number of periods) x= 1 (number of up moves: ud and du) p= 0.75 (probability of an up move) pll) = - 0.75' (1-0.75) 2-1- X 0.75' x 0.252-1 = 2 * 0.75 X 0,25 = 0.375. (2-1)!1!</comments>
     </problem>
     <problem>
-        <question>t =0 1=1 1=2 p=75% 96.80 p=75% 80 p=25% p=75% 79.20 p=259% p=25% 64.80 U, Uend value: $96.80, U, D end value: $79.20, D, Uend value: $79.20, D, Dend value: $64.80, where U is an up move and D is a down move. The probability of an up move followed by a down move is 0.75 x 0.25 = 0.1875. The probability of a down move followed by an up move is 0.25 x 0.75 = 0.1875. Both of these sequences result in an end value of $79.20. Therefore, the probability of an end value of $79.20 is (0.1875 + 0.1875) = 0.375 = 37.5%. Alternatively, the following formula could be used: N -X N pla) = PAX ==(*a=p** Pallar (1p where n= 2 (number of periods) x= 1 (number of up moves: ud and du) p= 0.75 (probability of an up move) pll) = - 0.75' (1-0.75) 2-1- X 0.75' x 0.252-1 = 2 * 0.75 X 0,25 = 0.375. (2-1)!1! 68. The variance of returns of Asset A is 625. The variance of returns of Asset B is 1,225. The covariance of returns between Asset A and Asset B is 600. The correlation of returns between Asset A and Asset B is closest to:</question>
+        <question>68. The variance of returns of Asset A is 625. The variance of returns of Asset B is 1,225. The covariance of returns between Asset A and Asset B is 600. The correlation of returns between Asset A and Asset B is closest to:</question>
         <choices>
             <choice>A. 0.47.</choice>
             <choice>B. 0.29.</choice>
             <choice>C. 0.69.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Probability Concepts," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3 Correlation of returns between Asset A and B P(RA, RB), is defined as: P(Ra, RB) = Cov(Ra, RB)/o(RA)o(RB), where Ra and Rg are the returns of Asset A and B Cov(RA, RB) is the covariance of returns between Asset A and B o(RA) and o(RB) are the standard deviations of returns of Asset A and B In this problem, the correlation is 600/(V625 X V1,225) = 0.6857 - 0.69.</comments>
+        <comments>"Probability Concepts," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3 Correlation of returns between Asset A and B P(RA, RB), is defined as: P(Ra, RB) = Cov(Ra, RB)/o(RA)o(RB), where Ra and Rg are the returns of Asset A and B Cov(RA, RB) is the covariance of returns between Asset A and B o(RA) and o(RB) are the standard deviations of returns of Asset A and B In this problem, the correlation is 600/(V625 X V1,225) = 0.6857 - 0.69.</comments>
     </problem>
     <problem>
         <question>69. The following information is available for a portfolio: Asset Allocation Asset Class Weight (%) Return (%) correlation with Equities Class Asset Class |(%) Equities 45 |100 25 12 al Mortgages Cash and equivalents 30 N The return on the portfolio is closest to:</question>
@@ -646,27 +687,27 @@
             <choice>C. 10.8%.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 5.4.1 The portfolio return is the weighted mean return and is calculated as follows: X = X" w; X = (0.45 X 16) + (0.25 X 12) + (0.30 X 2) = 10.8 %</comments>
+        <comments>"Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 5.4.1 The portfolio return is the weighted mean return and is calculated as follows: X = X" w; X = (0.45 X 16) + (0.25 X 12) + (0.30 X 2) = 10.8 % W i=1 </comments>
     </problem>
     <problem>
-        <question>W i=1 70. When an investigator wants to test whether a particular parameter is greater than a specific value, the null and alternative hypothesis are best defined as:</question>
+        <question>70. When an investigator wants to test whether a particular parameter is greater than a specific value, the null and alternative hypothesis are best defined as:</question>
         <choices>
             <choice>A. H%: 0 &lt; 0, versus Ha: Q &gt; 00.</choice>
             <choice>B. H%: 02 0, versus H: 0 &lt; 00.</choice>
             <choice>C. H%: 0 = 0, versus Ha: 0 # 0,.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 A positive "hoped for" condition means that the null will be rejected (and the alternative accepted) only if the evidence indicates that the population parameter is greater than 80. Thus, Ho: 0&lt;</comments>
+        <comments>"Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 A positive "hoped for" condition means that the null will be rejected (and the alternative accepted) only if the evidence indicates that the population parameter is greater than 80. Thus, Ho: 0&lt; versus Ha: &gt; 0, is the correct statement of the null and alternative hypotheses, respectively.</comments>
     </problem>
     <problem>
-        <question>versus Ha: &gt; 0, is the correct statement of the null and alternative hypotheses, respectively. 71. Using the following sample results drawn as 25 paired observations from their underlying distributions, test whether the mean returns of the two portfolios differ from each other at the 1% level of statistical significance. Assume the underlying distributions of returns for each portfolio are normal and that their population variances are not known. Portfolio 1 Portfolio 2 Difference Mean return 17.00 21.25 4.25 Standard deviation 15.50 15.75 6.25 |t-statistic for 24 degrees of freedom and at the 1% level of statistical significance = 2.807 Null hypothesis (H): Mean difference of returns = 0 Based on the paired comparisons test of the two portfolios, the most appropriate conclusion is that H% should be:</question>
+        <question>71. Using the following sample results drawn as 25 paired observations from their underlying distributions, test whether the mean returns of the two portfolios differ from each other at the 1% level of statistical significance. Assume the underlying distributions of returns for each portfolio are normal and that their population variances are not known. Portfolio 1 Portfolio 2 Difference Mean return 17.00 21.25 4.25 Standard deviation 15.50 15.75 6.25 |t-statistic for 24 degrees of freedom and at the 1% level of statistical significance = 2.807 Null hypothesis (H): Mean difference of returns = 0 Based on the paired comparisons test of the two portfolios, the most appropriate conclusion is that H% should be:</question>
         <choices>
             <choice>A. accepted because the computed test statistic exceeds 2.807.</choice>
             <choice>B. rejected because the computed test statistic exceeds 2.807.</choice>
             <choice>C. accepted because the computed test statistic is less than 2.807.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3.3 d — u do The test statistic is: S where d is the mean difference, vdo is the hypothesized difference in the means, Sa is the sample standard deviation of differences, and n is the sample size. In this case, the test statistic equals: (4.25 – 0)/(6.25/V25) = 3.40. Because 3.40 &gt; 2.807, the null hypothesis that the mean difference is zero is rejected.</comments>
+        <comments>“Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3.3 d — u do The test statistic is: S where d is the mean difference, vdo is the hypothesized difference in the means, Sa is the sample standard deviation of differences, and n is the sample size. In this case, the test statistic equals: (4.25 – 0)/(6.25/V25) = 3.40. Because 3.40 &gt; 2.807, the null hypothesis that the mean difference is zero is rejected.</comments>
     </problem>
     <problem>
         <question>72. Use the following values from a student's t-distribution to establish a 95% confidence interval for the population mean given a sample size of 10, a sample mean of 6.25, and a sample standard deviation of 12. Assume that the population from which the sample is drawn is normally distributed and the population variance is not known. Degrees of Freedom p= 0.10 p= 0.05 p= 0.025 p= 0.01 1.383 1.833 2.262 2.821 10 1.372 1.812 2.228 2.764 1.363 1.796 2.201 2.718 The 95% confidence interval is closest to a:</question>
@@ -676,16 +717,17 @@
             <choice>C. lower bound of 2.33 and an upper bound of 14.83.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Sampling and Estimation," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4.2</comments>
+        <comments>"Sampling and Estimation," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4.2 With a sample size of 10, there are 9 degrees of freedom. The confidence interval concept is based on a two-tailed approach. For a 95% confidence interval, 2.5% of the distribution will be in each tail. Thus, the correct t-statistic to use is 2.262. The confidence interval is calculated as: X + t 0.025 S/\n where X is the sample mean, s is the sample standard deviation, and n is the sample size. In this case: 6.25 + 2.262 x 12/V10 = 6.254 8.58369 or –2.33 to 14.83.</comments>
     </problem>
     <problem>
-        <question>With a sample size of 10, there are 9 degrees of freedom. The confidence interval concept is based on a two-tailed approach. For a 95% confidence interval, 2.5% of the distribution will be in each tail. Thus, the correct t-statistic to use is 2.262. The confidence interval is calculated as: X + t 0.025 S/\n where X is the sample mean, s is the sample standard deviation, and n is the sample size. In this case: 6.25 + 2.262 x 12/V10 = 6.254 8.58369 or –2.33 to 14.83. 73. A stock is declining in price and reaches a price range wherein buying activity is sufficient to stop the decline. This range is best described as the:</question>
+        <question>73. A stock is declining in price and reaches a price range wherein buying activity is sufficient to stop the decline. This range is best described as the:</question>
         <choices>
             <choice>A. change in polarity point.</choice>
-            <choice>B. support level. resistance level.</choice>
+            <choice>B. support level.</choice>
+	    <choice>C. resistance level.</choice>
         </choices>
-        <answer />
-        <comments>C. Answer = B "Technical Analysis," Barry M. Sine and Robert A. Strong Section 3.2 The support level is defined to be a low price range in which buying activity is sufficient to stop the decline in price.</comments>
+        <answer>B</answer>
+        <comments>"Technical Analysis," Barry M. Sine and Robert A. Strong Section 3.2 The support level is defined to be a low price range in which buying activity is sufficient to stop the decline in price.</comments>
     </problem>
     <problem>
         <question>74. Over the past four years, a portfolio experienced returns of -8%, 4%, 17%, and —12%. The geometric mean return of the portfolio over the four-year period is closest to:</question>
@@ -695,17 +737,17 @@
             <choice>C. 0.25%.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 5.4.2 Add one to each of the given returns, then multiply them together and take the fourth root of the resulting product. 0.92 x 1.04 x 1.17 x 0.88 = 0.985121; 0.985121 raised to the 0.25 power is</comments>
+        <comments>"Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 5.4.2 Add one to each of the given returns, then multiply them together and take the fourth root of the resulting product. 0.92 x 1.04 x 1.17 x 0.88 = 0.985121; 0.985121 raised to the 0.25 power is 0.996259. Subtracting one and multiplying by 100 gives the correct geometric mean return: [(0.92 x 1.04 x 1.17 x 0.88)0:25 – 1] x 100 = -0.37%.</comments>
     </problem>
     <problem>
-        <question>0. 996259. Subtracting one and multiplying by 100 gives the correct geometric mean return: [(0.92 x 1.04 x 1.17 x 0.88)0:25 – 1] x 100 = -0.37%. 75. When considering two mutually exclusive capital budgeting projects with conflicting rankings—one has a higher positive net present value (NPV), the other has a higher internal rate of return (IRR)— the most appropriate conclusion is to choose the project with the:</question>
+        <question>75. When considering two mutually exclusive capital budgeting projects with conflicting rankings—one has a higher positive net present value (NPV), the other has a higher internal rate of return (IRR)— the most appropriate conclusion is to choose the project with the:</question>
         <choices>
             <choice>A. higher NPV.</choice>
             <choice>B. shorter payback.</choice>
             <choice>C. higher IRR.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Discounted Cash Flow Applications," Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2.3 "Capital Budgeting," John D. Stowe and Jacques R. Gagné Sections 4.3, 4.8 The project with the higher NPV should be undertaken because NPV measures the increase in wealth as a result of taking the project. For mutually exclusive projects, IRR may give incorrect decisions as a result of scale and/or cash flow timing effects. Payback is not an economically sound method for evaluation of capital project.</comments>
+        <comments>"Discounted Cash Flow Applications," Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2.3 "Capital Budgeting," John D. Stowe and Jacques R. Gagné Sections 4.3, 4.8 The project with the higher NPV should be undertaken because NPV measures the increase in wealth as a result of taking the project. For mutually exclusive projects, IRR may give incorrect decisions as a result of scale and/or cash flow timing effects. Payback is not an economically sound method for evaluation of capital project.</comments>
     </problem>
     <problem>
         <question>76. The dollar discount on a US Treasury bill with 91 days until maturity is $2,100. The face value of the bill is $100,000. The bank discount yield of the bill is closest to:</question>
@@ -715,7 +757,7 @@
             <choice>C. 8.31%.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Discounted Cash Flow Applications," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4 Solve for bank discount yield, rød, using: rBD = (D/A) x (360/t); røD = (2,100/100,000)*(360/91) = 0.083077 - 8.31%.</comments>
+        <comments>"Discounted Cash Flow Applications," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4 Solve for bank discount yield, rød, using: rBD = (D/A) x (360/t); røD = (2,100/100,000)*(360/91) = 0.083077 - 8.31%.</comments>
     </problem>
     <problem>
         <question>77. Once an investor chooses a particular course of action, the value forgone from alternative actions is best described as a(n):</question>
@@ -725,7 +767,7 @@
             <choice>C. opportunity cost.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 An opportunity cost is the value that investors forgo by choosing a particular course of action.</comments>
+        <comments>"The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 An opportunity cost is the value that investors forgo by choosing a particular course of action.</comments>
     </problem>
     <problem>
         <question>78. The belief that trends and patterns tend to repeat themselves and are, therefore, somewhat predictable best describes:</question>
@@ -735,7 +777,7 @@
             <choice>C. technical analysis.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Technical Analysis," Barry M. Sine and Robert A. Strong Section 2.1 Technical analysts believe that trends and patterns tend to repeat themselves and are, therefore, somewhat predictable.</comments>
+        <comments>"Technical Analysis," Barry M. Sine and Robert A. Strong Section 2.1 Technical analysts believe that trends and patterns tend to repeat themselves and are, therefore, somewhat predictable.</comments>
     </problem>
     <problem>
         <question>79. The null hypothesis is most likely to be rejected when the p-value of the test statistic:</question>
@@ -745,17 +787,17 @@
             <choice>C. exceeds a specified level of significance.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 If the p-value is less than the specified level of significance, the null hypothesis is rejected.</comments>
+        <comments>"Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2 If the p-value is less than the specified level of significance, the null hypothesis is rejected.</comments>
     </problem>
     <problem>
         <question>80. Which of the following is most likely a private equity strategy?</question>
         <choices>
-            <choice>E.</choice>
             <choice>A. Venture capital</choice>
-            <choice>B. Merger arbitrage Quantitative directional</choice>
+            <choice>B. Merger arbitrage</choice>
+	    <choice>C. Quantitative directional</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 4.2.2 Venture capital is a private equity strategy in which private equity companies invest and get actively involved in the management of portfolio companies.</comments>
+        <comments>"Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 4.2.2 Venture capital is a private equity strategy in which private equity companies invest and get actively involved in the management of portfolio companies.</comments>
     </problem>
     <problem>
         <question>81. If the price of a commodity futures contract is below the spot price, it is most likely that the:</question>
@@ -765,7 +807,7 @@
             <choice>C. roll yield is negative.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 6.4.1 The convenience yield must exceed the cost of carry to arrive at a futures price below the spot price because the futures price is approximately equal to the spot price [(1 + r) + Storage cost - Convenience yield] and the cost of carry is defined as interest cost plus storage cost. Given that interest cost is always positive, the convenience yield must also exceed storage costs to arrive at a futures price below the spot price.</comments>
+        <comments>"Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 6.4.1 The convenience yield must exceed the cost of carry to arrive at a futures price below the spot price because the futures price is approximately equal to the spot price [(1 + r) + Storage cost - Convenience yield] and the cost of carry is defined as interest cost plus storage cost. Given that interest cost is always positive, the convenience yield must also exceed storage costs to arrive at a futures price below the spot price.</comments>
     </problem>
     <problem>
         <question>82. High Plains Capital is a hedge fund with a portfolio valued at $475,000,000 at the beginning of the year. One year later, the value of assets under management is $541,500,000. The hedge fund charges a 1.5% management fee based on the end-of-year portfolio value as well as a 10% incentive fee. If the incentive fee and management fee are calculated independently, the effective return for a hedge fund investor is closest to:</question>
@@ -775,7 +817,7 @@
             <choice>C. 12.29%.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3.1. The management fee = $541,500,000 x 0.015 = $8,122,500. The incentive fee = ($541,500,000 – $475,000,000) * 0.10 = $6,650,000. Total fees = $14,772,500. Return = ($541,500,000 – $475,000,000 – $14,772,500)/$475,000,000 = 0.1089 or 10.89%.</comments>
+        <comments>"Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3.1. The management fee = $541,500,000 x 0.015 = $8,122,500. The incentive fee = ($541,500,000 – $475,000,000) * 0.10 = $6,650,000. Total fees = $14,772,500. Return = ($541,500,000 – $475,000,000 – $14,772,500)/$475,000,000 = 0.1089 or 10.89%.</comments>
     </problem>
     <problem>
         <question>83. A hedge fund begins the year with $120 million and earns a 25% return for the year. The fund charges a 1.5% management fee on end-of-year fund value and a 15% incentive fee on the return, net of the management fees, that is in excess of a 6% fixed hurdle rate. The fund's investors' return for the year, net of fees, is closest to:</question>
@@ -785,26 +827,27 @@
             <choice>C. 21.25%.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3.1 The $120 million grows by 25% to $150 million [= $120 million X (1 + 0.25)]. The management fee is $2.25 million (= $150 million x 0.015), leaving $147.75 million, net of the management fee, or an increase of $27.75 million over the beginning value of $120 million. The 6% hurdle rate requires an increase of $7.2 million (= $120 million x 0.06), so the fund has earned $20.55 million (= $27.75 million – $7.2 million) over the hurdle rate, net of the management fee. The incentive fee is 15% of this, or $3.0825 million (= $20.55 million x 0.015), leaving an increase in fund assets, net of management and incentive fees, of $24.6675 million (= $27.75 million – $3.0825 million). The investor's return, net of fees, is $24.6675/$120 million = 20.56%.</comments>
+        <comments>"Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3.1 The $120 million grows by 25% to $150 million [= $120 million X (1 + 0.25)]. The management fee is $2.25 million (= $150 million x 0.015), leaving $147.75 million, net of the management fee, or an increase of $27.75 million over the beginning value of $120 million. The 6% hurdle rate requires an increase of $7.2 million (= $120 million x 0.06), so the fund has earned $20.55 million (= $27.75 million – $7.2 million) over the hurdle rate, net of the management fee. The incentive fee is 15% of this, or $3.0825 million (= $20.55 million x 0.015), leaving an increase in fund assets, net of management and incentive fees, of $24.6675 million (= $27.75 million – $3.0825 million). The investor's return, net of fees, is $24.6675/$120 million = 20.56%.</comments>
     </problem>
     <problem>
         <question>84. A futures trader takes a long position of 10 contracts. The initial margin requirement is $10 per contract, and the maintenance margin requirement is $7 per contract. She deposits the required initial margin on the trade date. On Day 3, her margin account balance is $40. On Day 4, variation margin is closest to:</question>
         <choices>
             <choice>A. $30.</choice>
-            <choice>B. $60. $70.</choice>
+            <choice>B. $60.</choice>
+	    <choice>C. $70.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Futures Markets and Contracts," Don M. Chance Section 3 On any day when the balance in the margin account falls below the maintenance margin, the trader must deposit sufficient funds to bring the balance back up to the initial margin requirement. This additional amount is called the “variation margin." Therefore, $100 – $40 = $60 variation</comments>
+        <comments>“Futures Markets and Contracts," Don M. Chance Section 3 On any day when the balance in the margin account falls below the maintenance margin, the trader must deposit sufficient funds to bring the balance back up to the initial margin requirement. This additional amount is called the “variation margin." Therefore, $100 – $40 = $60 variation margin.</comments>
     </problem>
     <problem>
-        <question>margin. 85. Based on put-call parity for European options, a synthetic put is most likely equivalent to a:</question>
+        <question>85. Based on put-call parity for European options, a synthetic put is most likely equivalent to a:</question>
         <choices>
             <choice>A. short call, long underlying asset, short bond.</choice>
             <choice>B. long call, short underlying asset, long bond.</choice>
             <choice>C. long call, long underlying asset, short bond.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Option Markets and Contracts," Don M. Chance Section 5.5.2 A synthetic put is equivalent to a Long call + Short underlying + Long bond.</comments>
+        <comments>"Option Markets and Contracts," Don M. Chance Section 5.5.2 A synthetic put is equivalent to a Long call + Short underlying + Long bond.</comments>
     </problem>
     <problem>
         <question>86. If the implied volatility for options on a broad-based equity market index goes up, then it is most likely that:</question>
@@ -814,7 +857,7 @@
             <choice>C. the general level of market uncertainty has gone up.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Derivative Markets and Instruments," Don M. Chance Section 5.2 One benefit of derivatives markets is information discovery. Implied volatility reveals information about the risk of the underlying. Increases in implied volatility are an implication of increased market uncertainty.</comments>
+        <comments>“Derivative Markets and Instruments," Don M. Chance Section 5.2 One benefit of derivatives markets is information discovery. Implied volatility reveals information about the risk of the underlying. Increases in implied volatility are an implication of increased market uncertainty.</comments>
     </problem>
     <problem>
         <question>87. Which statement best describes option price sensitivities? The value of a:</question>
@@ -824,26 +867,27 @@
             <choice>C. put option increases as volatility decreases.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Option Markets and Contracts," Don M. Chance Section 5.8 Call options increase in value as interest rates rise.</comments>
+        <comments>"Option Markets and Contracts," Don M. Chance Section 5.8 Call options increase in value as interest rates rise.</comments>
     </problem>
     <problem>
         <question>88. A European company issues a five-year euro-denominated bond with a face value of EUR50,000,000. The company then enters into a five-year currency swap with a bank to convert the EUR exposure into USD exposure. The notional principals of the swap are EUR50,000,000 and USD70,000,000. The European company pays a fixed rate of 5%, and the bank pays a fixed rate of 4.5%. Payments are made semiannually on a basis of 30 days per month and 360 days per year. The payment from the bank to the company at the end of Year 4 is closest to:</question>
         <choices>
             <choice>A. EUR1,250,000.</choice>
-            <choice>B. USD1,750,000. EUR1,125,000.</choice>
+            <choice>B. USD1,750,000.</choice>
+	    <choice>C. EUR1,125,000.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Swap Markets and Contracts," Don M. Chance Section 3.1 The bank's payments are based on a notional principal of EUR50,000,000 and an interest rate of</comments>
+        <comments>"Swap Markets and Contracts," Don M. Chance Section 3.1 The bank's payments are based on a notional principal of EUR50,000,000 and an interest rate of 4.5%. The payment is: EUR50,000,000 x (.045) x (180/360) = EUR1,125,000.</comments>
     </problem>
     <problem>
-        <question>4. 5%. The payment is: EUR50,000,000 x (.045) x (180/360) = EUR1,125,000. 89. A portfolio manager enters into an equity swap with a swap dealer. The portfolio manager agrees to pay the return on the Value Index and receive the return on the Growth Index. The swap's notional principal is $50 million, and the payments will be made semi-annually. The levels of the equity indices are as follows: Index Level at Start of Swap Level Six Months later Value Index $5,460 $5,350 Growth Index $1,190 $1,200 The net amount owed to the portfolio manager after six months is closest to:</question>
+        <question>89. A portfolio manager enters into an equity swap with a swap dealer. The portfolio manager agrees to pay the return on the Value Index and receive the return on the Growth Index. The swap's notional principal is $50 million, and the payments will be made semi-annually. The levels of the equity indices are as follows: Index Level at Start of Swap Level Six Months later Value Index $5,460 $5,350 Growth Index $1,190 $1,200 The net amount owed to the portfolio manager after six months is closest to:</question>
         <choices>
             <choice>A. $1,427,494.</choice>
             <choice>B. $1,007,326.</choice>
             <choice>C. $587,158.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Swap Markets and Contracts," Don M. Chance Section 3.3 The portfolio manager pays the Value Index return, which had a loss, and receives the Growth Index, which had a gain during the period. Therefore, the portfolio manager will receive a cash flow from the swap dealer. Value Index payment = [(5,350/5,460) – 1] &lt; $50,000,000 = -$1,007,326. Growth Index payment = [(1,200/1,190) – 1] &lt; $50,000,000 = $420,168. Net payment to portfolio manager = $420,168 – (-$1,007,326) = $1,427,494.</comments>
+        <comments>"Swap Markets and Contracts," Don M. Chance Section 3.3 The portfolio manager pays the Value Index return, which had a loss, and receives the Growth Index, which had a gain during the period. Therefore, the portfolio manager will receive a cash flow from the swap dealer. Value Index payment = [(5,350/5,460) – 1] &lt; $50,000,000 = -$1,007,326. Growth Index payment = [(1,200/1,190) – 1] &lt; $50,000,000 = $420,168. Net payment to portfolio manager = $420,168 – (-$1,007,326) = $1,427,494.</comments>
     </problem>
     <problem>
         <question>90. An industry experiencing slow growth, high prices, and volumes insufficient to achieve economies of scale is most likely in the:</question>
@@ -853,16 +897,17 @@
             <choice>C. mature stage.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1.5.1 An embryonic industry is one that is just beginning to develop and is characterized by slow growth, high prices, volumes not yet sufficient to achieve meaningful economies of scale, developing distribution channels, and low brand loyalty because there is low customer awareness of the industry's product.</comments>
+        <comments>“Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1.5.1 An embryonic industry is one that is just beginning to develop and is characterized by slow growth, high prices, volumes not yet sufficient to achieve meaningful economies of scale, developing distribution channels, and low brand loyalty because there is low customer awareness of the industry's product.</comments>
     </problem>
     <problem>
         <question>91. Which of the following statements concerning different valuation approaches is most accurate?</question>
         <choices>
             <choice>A. The justified forward price-to-earnings ratio (PIE) approach offers the advantage of incorporating fundamentals and presenting intrinsic value estimations.</choice>
-            <choice>B. One advantage of the three-stage dividend discount model (DDM) model is that it is equally appropriate to young companies entering the growth phase and those entering the maturity phase. It is advantageous to use asset-based valuation approaches rather than forward-looking cash flow models in the case of companies that have significant intangibles.</choice>
+            <choice>B. One advantage of the three-stage dividend discount model (DDM) model is that it is equally appropriate to young companies entering the growth phase and those entering the maturity phase.</choice>
+	    <choice>It is advantageous to use asset-based valuation approaches rather than forward-looking cash flow models in the case of companies that have significant intangibles.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Sections 4.3, 5.1, 6 The justified forward P/E approach offers the advantage of incorporating fundamentals and presenting intrinsic value estimations.</comments>
+        <comments>“Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Sections 4.3, 5.1, 6 The justified forward P/E approach offers the advantage of incorporating fundamentals and presenting intrinsic value estimations.</comments>
     </problem>
     <problem>
         <question>92. According to behavioral finance, observed overreaction in securities markets most likely occurs because of:</question>
@@ -872,7 +917,7 @@
             <choice>C. loss aversion.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Market Efficiency," W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 5.1 According to loss aversion-related arguments in behavioral theories, investors dislike losses more than they like comparable gains. Thus, such a behavioral bias can explain observed overreaction in markets.</comments>
+        <comments>"Market Efficiency," W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 5.1 According to loss aversion-related arguments in behavioral theories, investors dislike losses more than they like comparable gains. Thus, such a behavioral bias can explain observed overreaction in markets.</comments>
     </problem>
     <problem>
         <question>93. A corporate manager pursuing a low-cost strategy will most likely.</question>
@@ -882,26 +927,27 @@
             <choice>C. engage in offering products of unique quality or type.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 6 A corporate manager pursuing a cost leadership strategy must be able to invest in productivity improving capital equipment for achieving cost controls and being able to offer products and services at lower prices than the competition.</comments>
+        <comments>“Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 6 A corporate manager pursuing a cost leadership strategy must be able to invest in productivity improving capital equipment for achieving cost controls and being able to offer products and services at lower prices than the competition.</comments>
     </problem>
     <problem>
         <question>94. A trader buys 500 shares of a stock on margin at $36 a share using an initial leverage ratio of 1.66. The maintenance margin requirement for the position is 30%. The stock price at which the margin call will occur is closest to:</question>
         <choices>
             <choice>A. $25.20.</choice>
-            <choice>B. $30.86. $20.57.</choice>
+            <choice>B. $30.86.</choice>
+	    <choice>C. $20.57.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Market Organization and Structure," Larry Harris Section 5.2 Initial equity (%) in the margin transaction = 1/Leverage ratio = 1/1.66 = 0.60; Initial equity per share at the time of purchase = $36 x 0.60 = $21.60; Price (P) at which margin call occurs: Equity per share/Price per share = Maintenance margin (%) = ($21.60 + P – $36)/P = 0.30;</comments>
+        <comments>“Market Organization and Structure," Larry Harris Section 5.2 Initial equity (%) in the margin transaction = 1/Leverage ratio = 1/1.66 = 0.60; Initial equity per share at the time of purchase = $36 x 0.60 = $21.60; Price (P) at which margin call occurs: Equity per share/Price per share = Maintenance margin (%) = ($21.60 + P – $36)/P = 0.30; 0. 7P = $14.40; P = $20.57.</comments>
     </problem>
     <problem>
-        <question>0. 7P = $14.40; P = $20.57. 95. An equity analyst follows two industries with the following characteristics: Industry 1: A few companies with proprietary technologies, products with unique features, high switching costs, and minimal regulatory influences. Industry 2: A few companies producing relatively similar products, sales varying with disposable income and employment levels, high capital costs and investment in physical plants, rapid shifts in market shares of competing firms, and minimal regulatory influences. Based on the above information, the analyst will most appropriately conclude that, compared with the firms in Industry 2, those in Industry 1 would potentially have:</question>
+        <question>95. An equity analyst follows two industries with the following characteristics: Industry 1: A few companies with proprietary technologies, products with unique features, high switching costs, and minimal regulatory influences. Industry 2: A few companies producing relatively similar products, sales varying with disposable income and employment levels, high capital costs and investment in physical plants, rapid shifts in market shares of competing firms, and minimal regulatory influences. Based on the above information, the analyst will most appropriately conclude that, compared with the firms in Industry 2, those in Industry 1 would potentially have:</question>
         <choices>
             <choice>A. over-capacity problems.</choice>
             <choice>B. high bargaining power of customers.</choice>
             <choice>C. larger economic profits.</choice>
         </choices>
         <answer>C</answer>
-        <comments>“ Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1 The economic profit (the spread between the return on invested capital and the cost of capital) tends to be larger in industries with differentiated products, greater pricing power, and high switching costs to customers. Industry 1 has these features. In contrast, firms in Industry 2 have little pricing power (undifferentiated products and rapid shifts in market shares, indicating intense rivalry), which is indicative of potentially smaller economic profits.</comments>
+        <comments>“Introduction to Industry and Company Analysis," Patrick W. Dorsey, Anthony M. Fiore, and lan Rossa O'Reilly Section 5.1 The economic profit (the spread between the return on invested capital and the cost of capital) tends to be larger in industries with differentiated products, greater pricing power, and high switching costs to customers. Industry 1 has these features. In contrast, firms in Industry 2 have little pricing power (undifferentiated products and rapid shifts in market shares, indicating intense rivalry), which is indicative of potentially smaller economic profits.</comments>
     </problem>
     <problem>
         <question>96. A trader seeking to sell a very large block of stock for her client will most likely execute the trade in a(n):</question>
@@ -911,7 +957,7 @@
             <choice>C. order-driven market.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Market Organization and Structure," Larry Harris Section 8.2 Instruments that are infrequently traded and expensive to carry as inventory (e.g., very large blocks of stock, real estate properties, fine art masterpieces, and liquor licenses) are executed in brokered markets. Organizing order-driven markets for such instruments is not sensible because too few traders would submit orders to them.</comments>
+        <comments>"Market Organization and Structure," Larry Harris Section 8.2 Instruments that are infrequently traded and expensive to carry as inventory (e.g., very large blocks of stock, real estate properties, fine art masterpieces, and liquor licenses) are executed in brokered markets. Organizing order-driven markets for such instruments is not sensible because too few traders would submit orders to them.</comments>
     </problem>
     <problem>
         <question>97. The Gordon growth model is most appropriate for valuing the common stock of a dividend paying company that is:</question>
@@ -921,7 +967,7 @@
             <choice>C. young and just entering the growth phase.</choice>
         </choices>
         <answer>B</answer>
-        <comments>“ Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Section 4.2 The Gordon growth model is most appropriate for valuing common stock of a dividend paying company that is mature and relatively insensitive to the business cycle or economic fluctuations.</comments>
+        <comments>“Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Section 4.2 The Gordon growth model is most appropriate for valuing common stock of a dividend paying company that is mature and relatively insensitive to the business cycle or economic fluctuations.</comments>
     </problem>
     <problem>
         <question>98. Which of the following statements is least accurate? A firm's free cash flow to equity (FCFE):</question>
@@ -931,7 +977,7 @@
             <choice>C. is a measure of the firm's dividend-paying capacity.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Equity Valuation: Concepts and Basic Tools,” John J. Nagorniak and Stephen E. Wilcox Section 4 Dividends, a discretionary cash flow from financing activities, have no bearing on a firm's free cash flow to equity, as can be seen from the formula: FCFE = CFO - FCInv + Net borrowing.</comments>
+        <comments>"Equity Valuation: Concepts and Basic Tools,” John J. Nagorniak and Stephen E. Wilcox Section 4 Dividends, a discretionary cash flow from financing activities, have no bearing on a firm's free cash flow to equity, as can be seen from the formula: FCFE = CFO - FCInv + Net borrowing.</comments>
     </problem>
     <problem>
         <question>99. An observation that stocks with above average price-to-earnings ratios have consistently underperformed those with below average price-to-earnings ratios least likely contradicts which form of market efficiency?</question>
@@ -941,25 +987,27 @@
             <choice>C. Strong form</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Market Efficiency,” W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 4.2 The observation that stocks with high above average price-to-earnings ratios have consistently underperformed those with below average price-to-earnings ratios is a cross-sectional anomaly. It is a contradiction to the semi-strong form of market efficiency and strong form market efficiency because all the information used to categorize stocks by their price-to-earnings ratios is publicly available. It is not a contradiction to weak form market efficiency.</comments>
+        <comments>"Market Efficiency,” W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 4.2 The observation that stocks with high above average price-to-earnings ratios have consistently underperformed those with below average price-to-earnings ratios is a cross-sectional anomaly. It is a contradiction to the semi-strong form of market efficiency and strong form market efficiency because all the information used to categorize stocks by their price-to-earnings ratios is publicly available. It is not a contradiction to weak form market efficiency.</comments>
     </problem>
     <problem>
         <question>100. A market index contains the following two securities: Stock Shares in Index Start-of-Period Price ($) End-of-Period Price ($) Dividend per Share ($) 600 40 37 2.00 500 50 52 1.50 The total return on an equal-weighted basis is closest to:</question>
         <choices>
             <choice>A. -1.75%.</choice>
+	    <choice>B. 2.25%.</choice>
+	    <choice>C. 2.78%.</choice>
         </choices>
-        <answer />
-        <comments>B. 2.25%.</comments>
+        <answer>B</answer>
+        <comments>"Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 3.2 Stock Shares in Index Price Return Start-of Period Price (%) End-of Period Price |($) Total Return (%) Dividend per Share ($) (4) (2) (3) (1) 600 500 40 2 37 52 = (3)/(2) — 1 -7.50% 4.00% 50 1.5 = [(3) + (4)V(2) - 1 -2.50% 7.00% 2.25% Total return = ((-2.5 + 7)/2]</comments>
     </problem>
     <problem>
-        <question>2. 78%. Answer = B "Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 3.2 Stock Shares in Index Price Return Start-of Period Price (%) End-of Period Price |($) Total Return (%) Dividend per Share ($) (4) (2) (3) (1) 600 500 40 2 37 52 = (3)/(2) — 1 -7.50% 4.00% 50 1.5 = [(3) + (4)V(2) - 1 -2.50% 7.00% 2.25% Total return = ((-2.5 + 7)/2] 101. An investor gathers the following data to estimate the intrinsic value of a company's stock using the justified forward price-to-earnings ratio (PIE) approach. Next year's earnings per share $3.00 Return on equity 12.5% Dividend payout ratio 60% Required return on shares 10% The intrinsic value per share is closest to:</question>
+        <question>101. An investor gathers the following data to estimate the intrinsic value of a company's stock using the justified forward price-to-earnings ratio (PIE) approach. Next year's earnings per share $3.00 Return on equity 12.5% Dividend payout ratio 60% Required return on shares 10% The intrinsic value per share is closest to:</question>
         <choices>
             <choice>A. $36.</choice>
             <choice>B. $72.</choice>
             <choice>C. $48.</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Section 5.1 Given that the Intrinsic value is Po = P/E X Eand Justified forward P/E is Po/E1 = pl(r - g), where: p= payout ratio, Dividend growth rate = (1 - Payout ratio) * ROE = (1 – 0.6) x 12.5 = 5%, Justified forward P/E = Po/E1:0.60 / (0.10 - 0.05) = 12x, so Intrinsic value = 12 * $3 = $36.</comments>
+        <comments>“Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Section 5.1 Given that the Intrinsic value is Po = P/E X Eand Justified forward P/E is Po/E1 = pl(r - g), where: p= payout ratio, Dividend growth rate = (1 - Payout ratio) * ROE = (1 – 0.6) x 12.5 = 5%, Justified forward P/E = Po/E1:0.60 / (0.10 - 0.05) = 12x, so Intrinsic value = 12 * $3 = $36.</comments>
     </problem>
     <problem>
         <question>102. Which of the following is most likely a limitation of the yield to maturity measure?</question>
@@ -969,7 +1017,7 @@
             <choice>C. It does not consider the capital gain or loss the investor will realize by holding the bond to maturity.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 2.2 Yield to maturity does consider reinvestment income; however, it assumes that the coupon payments can be reinvested at an interest rate equal to the yield to maturity. This is one of the limitations for the yield to maturity measure because the investor is facing reinvestment risk (future interest rates will be less than the yield to maturity at the time the bond is purchased).</comments>
+        <comments>"Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 2.2 Yield to maturity does consider reinvestment income; however, it assumes that the coupon payments can be reinvested at an interest rate equal to the yield to maturity. This is one of the limitations for the yield to maturity measure because the investor is facing reinvestment risk (future interest rates will be less than the yield to maturity at the time the bond is purchased).</comments>
     </problem>
     <problem>
         <question>103. Assume the following annual forward rates were calculated from the yield curve. Time Period Forward Rate Oyly 0.50% 1yly 0.70% 2yly 1.00% 3yly 1.50% 4yly 2.20% The four-year spot rate is closest to:</question>
@@ -979,7 +1027,7 @@
             <choice>C. 1.178%.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The four-year spot rate can be computed as: Z4=[(1.005)x(1.007)X(1.01)x(1.015)]1/4-1= 0.924%</comments>
+        <comments>"Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The four-year spot rate can be computed as: Z4=[(1.005)x(1.007)X(1.01)x(1.015)]1/4-1= 0.924%</comments>
     </problem>
     <problem>
         <question>104. Centro Corp. recently issued a floating-rate note (FRN) that includes a feature that prevents its coupon rate from falling below a prespecified minimum rate. This feature in an FRN is most likely referred to as a:</question>
@@ -989,7 +1037,7 @@
             <choice>C. cap.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Fixed-Income Securities: Defining Elements," Moorad Choudhry and Stephen E. Wilcox Section 4.2 An FRN with a floor on the coupon rate prevents the coupon rate from falling below a prespecified minimum rate.</comments>
+        <comments>"Fixed-Income Securities: Defining Elements," Moorad Choudhry and Stephen E. Wilcox Section 4.2 An FRN with a floor on the coupon rate prevents the coupon rate from falling below a prespecified minimum rate.</comments>
     </problem>
     <problem>
         <question>105. A portfolio manager holds the following three bonds, which are option free and have the indicated durations. Bond Par Value Owned Market Value Owned Duration $8,000,000 $12,000,000 $6,000,000 $8,000,000 7 $4,000,000 $6,000,000 The portfolio's duration is closest to:</question>
@@ -999,7 +1047,7 @@
             <choice>C. 4.75.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.4 The portfolio's duration is a weighted average of the durations of the individual holdings, computed as: (12/24) * (3.0) + (6/24) * (7.0) + (6/24) * (6.0) = 4.75.</comments>
+        <comments>"Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.4 The portfolio's duration is a weighted average of the durations of the individual holdings, computed as: (12/24) * (3.0) + (6/24) * (7.0) + (6/24) * (6.0) = 4.75.</comments>
     </problem>
     <problem>
         <question>106. For bonds that are otherwise identical, the one exhibiting the highest level of positive convexity is most likely the one that is:</question>
@@ -1009,17 +1057,17 @@
             <choice>C. option-free.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.3 When interest rates rise, a putable bond is more likely to be put back to the issuer by the investor,</comments>
+        <comments>"Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.3 When interest rates rise, a putable bond is more likely to be put back to the issuer by the investor, limiting the loss of value and giving the bond more positive convexity than an option-free bond. In contrast, a callable bond is likely to be called from the investor when interest rates fall, limiting the gain in value and giving the bond negative convexity</comments>
     </problem>
     <problem>
-        <question>limiting the loss of value and giving the bond more positive convexity than an option-free bond. In contrast, a callable bond is likely to be called from the investor when interest rates fall, limiting the gain in value and giving the bond negative convexity 107. A BBB rated corporation wishes to issue debt to finance its operations at the lowest cost possible. If it decides to sell a pool of receivables into a special purpose vehicle (SPV), its primary motivation is most likely to:</question>
+        <question>107. A BBB rated corporation wishes to issue debt to finance its operations at the lowest cost possible. If it decides to sell a pool of receivables into a special purpose vehicle (SPV), its primary motivation is most likely to:</question>
         <choices>
             <choice>A. receive a guaranty from the SPV to improve the corporation's credit rating.</choice>
             <choice>B. allow the corporation to retain a first lien on the assets of the SPV.</choice>
             <choice>C. segregate the assets into a bankruptcy-remote entity for bondholders.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Fixed-Income Securities: Defining Elements," Moorad Choudhry and Stephen E. Wilcox Section 3.1 A key motivation for a corporation to establish a SPV is to separate it as a legal entity. In the case of bankruptcy for the corporation, the SPV is unaffected because it is not a subsidiary of the corporation. Given this arrangement, the SPV can achieve a rating as high as AAA and borrow at lower rates than the corporation.</comments>
+        <comments>"Fixed-Income Securities: Defining Elements," Moorad Choudhry and Stephen E. Wilcox Section 3.1 A key motivation for a corporation to establish a SPV is to separate it as a legal entity. In the case of bankruptcy for the corporation, the SPV is unaffected because it is not a subsidiary of the corporation. Given this arrangement, the SPV can achieve a rating as high as AAA and borrow at lower rates than the corporation.</comments>
     </problem>
     <problem>
         <question>108. The following table provides information about a portfolio of three bonds. Bond Maturity Price Par Amount Duration 17-year $109.2461 $16 million 8.56 20-year $100.4732 $4 million 9.19 25-year $84.6427 $8 million 11.48 || 11.48 Based on this information, the duration of the portfolio is closest to:</question>
@@ -1029,17 +1077,17 @@
             <choice>C. 9.74.</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.4 The market values of the bonds (Price x Par amount) are $17,479,376, $4,018,928, and $6,771,416, respectively, for a portfolio value of $28,269,720. Therefore, the duration of the portfolio is</comments>
+        <comments>"Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.4 The market values of the bonds (Price x Par amount) are $17,479,376, $4,018,928, and $6,771,416, respectively, for a portfolio value of $28,269,720. Therefore, the duration of the portfolio is 17,479,376 28,269,720 *** 4,018,928 x9.19)+(28 269,720 x8.56)+( 6,771,416 +28 269 720 x9.19)+(28 269 720 *11.48) = 9.35.</comments>
     </problem>
     <problem>
-        <question>17,479,376 28,269,720 *** 4,018,928 x9.19)+(28 269,720 x8.56)+( 6,771,416 +28 269 720 x9.19)+(28 269 720 *11.48) = 9.35. 109. Holding all other characteristics the same, the bond exposed to the greatest level of reinvestment risk is most likely the one selling at:</question>
+        <question>109. Holding all other characteristics the same, the bond exposed to the greatest level of reinvestment risk is most likely the one selling at:</question>
         <choices>
             <choice>A. a discount.</choice>
             <choice>B. a premium.</choice>
             <choice>C. par.</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 2 A bond selling at a premium has a higher coupon rate and, all else being equal, bonds with higher coupon rates face higher reinvestment risk. The reason is that the higher the coupon rate, the more dependent the bond's total dollar return will be on the reinvestment of the coupon payments in order to produce the yield to maturity at the time of purchase.</comments>
+        <comments>"Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 2 A bond selling at a premium has a higher coupon rate and, all else being equal, bonds with higher coupon rates face higher reinvestment risk. The reason is that the higher the coupon rate, the more dependent the bond's total dollar return will be on the reinvestment of the coupon payments in order to produce the yield to maturity at the time of purchase.</comments>
     </problem>
     <problem>
         <question>110. What type of risk most likely affects an investor's ability to buy and sell bonds in the desired amounts and at the desired time?</question>
@@ -1049,7 +1097,7 @@
             <choice>C. Market liquidity</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Fundamentals of Credit Analysis," Christopher L. Gootkind Section 2 The size of the spread between the bid price and the ask price is the primary measure of market liquidity of the issue. Market liquidity risk is the risk that the investor will have to sell a bond below its indicated value. The wider the bid-ask spread, the greater the market liquidity risk.</comments>
+        <comments>"Fundamentals of Credit Analysis," Christopher L. Gootkind Section 2 The size of the spread between the bid price and the ask price is the primary measure of market liquidity of the issue. Market liquidity risk is the risk that the investor will have to sell a bond below its indicated value. The wider the bid-ask spread, the greater the market liquidity risk.</comments>
     </problem>
     <problem>
         <question>111. A bond is currently trading for $109.246 per $100 of par value. If the bond's yield to maturity falls by 25 bps, the bond's full price is expected to rise to $110.481. If the bond's yield to maturity rises by 25 bps, the bond's full price is expected to fall to $108.029. The bond's approximate convexity is closest to:</question>
@@ -1059,26 +1107,27 @@
             <choice>C. 26.363.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.6 The bond's approximate convexity can be calculated as: Approxcon- (PV-)+(PV4)-(2xPV)</comments>
+        <comments>"Understanding Fixed-Income Risk and Return," James F. Adams and Donald J. Smith Section 3.6 The bond's approximate convexity can be calculated as: Approxcon- (PV-)+(PV4)-(2xPV) (AYield)? x(PVO) where PV., PV6, and PV4 are the values of the bond when the yield falls, under the current yield, and when the yield rises, respectively, and Ayield is the size of the yield change. So, ApproxCon = |110.481+ 108.029-2x109.246 40 =26.363. (0.0025)2x109.246</comments>
     </problem>
     <problem>
-        <question>( AYield)? x(PVO) where PV., PV6, and PV4 are the values of the bond when the yield falls, under the current yield, and when the yield rises, respectively, and Ayield is the size of the yield change. So, ApproxCon = |110.481+ 108.029-2x109.246 40 =26.363. (0.0025)2x109.246 112. Using the following US Treasury forward rates, the value of a 2/2-year $100 par value Treasury bond with a 5% coupon rate is closest to: Period Years Forward Rate 0.5 1.20% 1.80% 1.5 2.30% 2.70% 5 2.5 3.00%</question>
+        <question>112. Using the following US Treasury forward rates, the value of a 2/2-year $100 par value Treasury bond with a 5% coupon rate is closest to: Period Years Forward Rate 0.5 1.20% 1.80% 1.5 2.30% 2.70% 5 2.5 3.00%</question>
         <choices>
             <choice>A. $101.52.</choice>
             <choice>B. $104.87.</choice>
             <choice>C. $106.83.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The value of the bond is</comments>
+        <comments>"Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The value of the bond is 2.5 + 2.5 2.5 (1 +.012/2)*(1 +.012/2)x(1+.018/2)(1+.012/2)x(1+.018/2)X(1+.023/2) 2.5 2.5 +- 2.5 (1 +.012/2)X(1+.018/2)x(1+.023/2)X(1+.027/2) 102.5 -= $106.83 (1+.012/2) X (1+.018/2) X (1+.023/2) X (1+.027/2) X (1+.030/2) X</comments>
     </problem>
     <problem>
-        <question>2.5 + 2.5 2.5 (1 +.012/2)*(1 +.012/2)x(1+.018/2)(1+.012/2)x(1+.018/2)X(1+.023/2) 2.5 2.5 +- 2.5 (1 +.012/2)X(1+.018/2)x(1+.023/2)X(1+.027/2) 102.5 -= $106.83 (1+.012/2) X (1+.018/2) X (1+.023/2) X (1+.027/2) X (1+.030/2) X 113. Which of the following is least likely a component of the "Four Cs of Credit Analysis" framework?</question>
+        <question>113. Which of the following is least likely a component of the "Four Cs of Credit Analysis" framework?</question>
         <choices>
-            <choice>A. Collateral Covenants</choice>
+            <choice>A. Collateral</choice>
+	    <choice>B. Covenants</choice>
             <choice>C. Competition</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Fundamentals of Credit Analysis," Christopher L. Gootkind Section 5.2 The "Four Cs of Credit Analysis" framework includes capacity, collateral, covenants, and character. Competition is not one of the components.</comments>
+        <comments>"Fundamentals of Credit Analysis," Christopher L. Gootkind Section 5.2 The "Four Cs of Credit Analysis" framework includes capacity, collateral, covenants, and character. Competition is not one of the components.</comments>
     </problem>
     <problem>
         <question>114. Consider a $100 par value bond with a 7% coupon paid annually and 5 years to maturity. At a discount rate of 6.5%, the value of the bond today is $102.08. One day later, the discount rate increases to 7.5%. Assuming the discount rate remains at 7.5% over the remaining life of the bond, what is most likely to occur to the price of the bond between today and maturity?</question>
@@ -1088,26 +1137,27 @@
             <choice>C. Decreases then remains unchanged</choice>
         </choices>
         <answer>A</answer>
-        <comments>" Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 2.3 If the discount rate increases to 7.5% from 6.5%, the price of a bond decreases. At a discount rate of 7.5%, the bond sells at a discount to face value. As a discount bond approaches maturity, it will increase in price over time until it reaches par at maturity.</comments>
+        <comments>"Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 2.3 If the discount rate increases to 7.5% from 6.5%, the price of a bond decreases. At a discount rate of 7.5%, the bond sells at a discount to face value. As a discount bond approaches maturity, it will increase in price over time until it reaches par at maturity.</comments>
     </problem>
     <problem>
         <question>115. Using the following US Treasury spot rates, the arbitrage-free value of a two-year $100 par value Treasury bond with a 6% coupon rate is closest to: Period Years Spot Rate 0.5 1.60% 1.0 2.20% W N 1.5 2.70% 4 2.0 3.10%</question>
         <choices>
             <choice>A. $99.75.</choice>
-            <choice>B. $107.03. $105.65.</choice>
+            <choice>B. $107.03.</choice>
+	    <choice>C. $105.65.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The value of the bond is 103</comments>
+        <comments>"Introduction to Fixed-Income Valuation," James F. Adams and Donald J. Smith Section 4 The value of the bond is 103 | 34 3 103 (1 + 0.0160/2)* (1 + 0.0220/2)? *(1 + 0.0270/213 * (1 + 0.0310/2)+ = 105.65</comments>
     </problem>
     <problem>
-        <question>| 34 3 103 (1 + 0.0160/2)* (1 + 0.0220/2)? *(1 + 0.0270/213 * (1 + 0.0310/2)+ = 105.65 116. Which of the following is least likely a part of the execution step of the portfolio management process?</question>
+        <question>116. Which of the following is least likely a part of the execution step of the portfolio management process?</question>
         <choices>
             <choice>A. Security analysis</choice>
             <choice>B. Performance measurement</choice>
             <choice>C. Portfolio construction</choice>
         </choices>
         <answer>B</answer>
-        <comments>" Portfolio Management: An Overview," Robert M. Conroy and Alistair Byrne Section 4 Performance measurement is a part of the feedback step of the portfolio management process. The execution step includes asset allocation, security analysis, and portfolio construction.</comments>
+        <comments>"Portfolio Management: An Overview," Robert M. Conroy and Alistair Byrne Section 4 Performance measurement is a part of the feedback step of the portfolio management process. The execution step includes asset allocation, security analysis, and portfolio construction.</comments>
     </problem>
     <problem>
         <question>117. If Investor A has a lower risk aversion coefficient than Investor B, will Investor B's optimal portfolio most likely have a higher expected return on the capital allocation line?</question>
@@ -1117,7 +1167,7 @@
             <choice>C. No, because Investor B has a higher risk tolerance</choice>
         </choices>
         <answer>A</answer>
-        <comments>“ Portfolio Risk and Return: Part I,” Vijay Singal Section 3.3 Investor B has a higher risk aversion coefficient, which means a lower risk tolerance and a lower expected return on the capital allocation line.</comments>
+        <comments>“Portfolio Risk and Return: Part I,” Vijay Singal Section 3.3 Investor B has a higher risk aversion coefficient, which means a lower risk tolerance and a lower expected return on the capital allocation line.</comments>
     </problem>
     <problem>
         <question>118. A portfolio contains equal weights of two securities having the same standard deviation. If the correlation between the returns of the two securities was to decrease, the portfolio risk would most likely:</question>
@@ -1127,24 +1177,26 @@
             <choice>C. decrease.</choice>
         </choices>
         <answer>C</answer>
-        <comments>" Portfolio Risk and Return: Part I," Vijay Singal Section 4.1.3 The formula for the return standard deviation (risk) of a two asset portfolio is</comments>
+        <comments>"Portfolio Risk and Return: Part I," Vijay Singal Section 4.1.3 The formula for the return standard deviation (risk) of a two asset portfolio is WYW20402COV (R1,R2) The formula for portfolio risk shows that portfolio risk decreases as the correlation decreases.</comments>
     </problem>
     <problem>
-        <question>WYW20402COV (R1,R2) The formula for portfolio risk shows that portfolio risk decreases as the correlation decreases. 119. In general, which of the following institutions will most likely have a high need for liquidity and a short investment time horizon?</question>
+        <question>119. In general, which of the following institutions will most likely have a high need for liquidity and a short investment time horizon?</question>
         <choices>
             <choice>A. Banks</choice>
             <choice>B. Defined benefit pension plans</choice>
+	    <choice>C. Endowments</choice>
         </choices>
-        <answer />
-        <comments>C. Endowments Answer = A "Portfolio Management: An Overview," Robert M. Conroy and Alistair Byrne Section 3 Banks have a short time horizon and high liquidity needs.</comments>
+        <answer>A</answer>
+        <comments>"Portfolio Management: An Overview," Robert M. Conroy and Alistair Byrne Section 3 Banks have a short time horizon and high liquidity needs.</comments>
     </problem>
     <problem>
         <question>120. The following table shows data for the stock of JKU and a market index. Expected return of JKU 15% Expected return of market index 12% Risk-free rate 5% Standard deviation of JKU returns 20% Standard deviation of market index returns 15% Correlation of JKU and market index returns 0.75 Based on the capital asset pricing model (CAPM), JKU is most likely.</question>
         <choices>
             <choice>A. overvalued.</choice>
-            <choice>B. fairly valued. undervalued.</choice>
+            <choice>B. fairly valued.</choice>
+	    <choice>C. undervalued.</choice>
         </choices>
-        <answer />
-        <comments>C. Answer = C "Portfolio Risk and Return: Part II," Vijay Singal Section 4 JKU = PJKU,M X O JKU/SM = 0.75 x 0.2/0.15 = 1.0 and E(RJKu) = RFR + M JKU X (Rm - RFR) = 0.05 +1 x (0.12 - 0.05) = 0.12. The required rate of return of JKU is 12%, and the expected return of JKU is 15%. Therefore, JKU is undervalued relative to the security market line (SML); the risk return relationship lies above the SML.</comments>
+        <answer>C</answer>
+        <comments>"Portfolio Risk and Return: Part II," Vijay Singal Section 4 JKU = PJKU,M X O JKU/SM = 0.75 x 0.2/0.15 = 1.0 and E(RJKu) = RFR + M JKU X (Rm - RFR) = 0.05 +1 x (0.12 - 0.05) = 0.12. The required rate of return of JKU is 12%, and the expected return of JKU is 15%. Therefore, JKU is undervalued relative to the security market line (SML); the risk return relationship lies above the SML.</comments>
     </problem>
 </problems>
