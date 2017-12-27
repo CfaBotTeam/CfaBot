@@ -6,6 +6,7 @@ from google.cloud.vision import enums
 import math
 import more_itertools as mit
 
+
 class Problem:
     def __init__(self):
         self.question_ = ""
@@ -57,7 +58,7 @@ class ParsingContext:
     SENTENCE_ENDINGS = ['?', ',', '.', ';', ':', '!']
     CHOICES = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
-    def __init__(self):
+    def __init__(self, indentation_threshold):
         self.problems_ = []
         self.current_problem_ = None
         self.current_full_text_array_ = []
@@ -74,6 +75,10 @@ class ParsingContext:
         self.last_new_line_x = 0
         self.current_new_line_x = 0
         self.last_3_words_x_start_pos_ = LastWordsXPositions(3)
+        self.indentation_threshold_ = indentation_threshold
+        self.previous_word_image_index_ = -1
+        self.current_word_image_index_ = -1
+        self.current_image_index_ = -1
 
     def end_problem(self, nb_lookup=0, with_comments=True):
         if self.current_problem_ is None or \
@@ -124,6 +129,12 @@ class ParsingContext:
         self.current_problem_.add_choice(self.join_sentences(self.previous_indicator_, choice_text))
         self.mode_ = ParsingMode.ANSWER
 
+    def end_answer(self):
+        self.previous_indicator_ = self.get_current_text(minus_at_the_end=1, use_minus_for_start=True)
+        answer = self.pop_current_text(minus_at_the_end=1).lstrip('= ')
+        self.current_problem_.set_answer(answer.strip())
+        self.mode_ = ParsingMode.COMMENTS
+
     def end_comments(self, nb_lookup):
         current_indicator = self.get_current_text(minus_at_the_end=nb_lookup, use_minus_for_start=True)
         comments = self.pop_current_text(minus_at_the_end=nb_lookup)
@@ -141,8 +152,13 @@ class ParsingContext:
         if self.current_word_was_on_a_new_line():
             self.last_new_line_x = self.current_new_line_x
             self.current_new_line_x = start_x
+        if self.mode_ != ParsingMode.HEADER:
+            # when in header mode we don't want to save the word image index
+            self.previous_word_image_index_ = self.current_word_image_index_
+            self.current_word_image_index_ = self.current_image_index_
 
     def start_new_image(self):
+        self.current_image_index_ += 1
         if self.headers_ is None:
             return
         # When in header mode we need to:
@@ -155,7 +171,11 @@ class ParsingContext:
         self.mode_ = ParsingMode.HEADER
 
     def new_line_indentation_has_changed(self):
-        return math.fabs(self.last_new_line_x - self.current_new_line_x) > 15
+        if not self.current_word_was_on_a_new_line():
+            return False
+        if self.current_word_image_index_ != self.previous_word_image_index_:
+            return False
+        return math.fabs(self.last_new_line_x - self.current_new_line_x) > self.indentation_threshold_
 
     def get_current_text(self, minus_at_the_end=0, use_minus_for_start=False):
         length = len(self.current_full_text_array_)
@@ -248,9 +268,9 @@ class ParsingContext:
 
 
 class CfaProblemsBuilder:
-    def __init__(self, parser=None, headers=None, nb_blocks_footer=0, nb_words_footer=0):
+    def __init__(self, parser=None, headers=None, nb_blocks_footer=0, nb_words_footer=0, indentation_threshold=15):
         os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/abiarnes/Documents/Lessons/Fil_Rouge/CfaBot/Keys/CfaBot-ServiceKey-Adrien.json"
-        self.parser_ = parser if parser is not None else CommonParser()
+        self.parser_ = parser if parser is not None else CommonParser(indentation_threshold)
         self.client_ = vision.ImageAnnotatorClient()
         self.context_ = self.parser_.get_context()
         if headers is not None:
@@ -271,7 +291,7 @@ class CfaProblemsBuilder:
             temp_end = start + 5
             if temp_end > end:
                 temp_end = end
-            problems = self.build_problems_internal_(filepaths[start:temp_end], temp_end <= end)
+            problems = self.build_problems_internal_(filepaths[start:temp_end], temp_end == end)
             start = temp_end
         return problems
 
@@ -294,42 +314,44 @@ class CfaProblemsBuilder:
             self.context_.start_new_image()
             self.parse_annotations(response.full_text_annotation)
 
-    # def is_weird_case_of_question_number_not_ordered(self, page):
-    #     # Sometimes, the question number is returned by the OCR as the first block
-    #     # where the first block should always be the header
-    #     # In such a case we ignore the first block
-    #     first_block_y = page.blocks[0].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
-    #     next_block_y = page.blocks[1].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
-    #     if first_block_y <= next_block_y:
-    #         return False
-    #     text = ''
-    #     first_word = page.blocks[0].paragraphs[0].words[0]
-    #     for symbol in first_word.symbols:
-    #         text += symbol.text
-    #     if re.match("^\d+$", text) is None:
-    #         raise Exception('Case not handled yet in ' + self.current_image_path_ + ", text = " + text)
-    #     return True
+    def is_weird_case_of_question_number_not_ordered(self, page):
+        # Sometimes, the question number is returned by the OCR as the first block
+        # where the first block should always be the header
+        # In such a case we ignore the first block
+        first_block_y = page.blocks[0].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
+        next_block_y = page.blocks[1].paragraphs[0].words[0].symbols[0].bounding_box.vertices[0].y
+        if first_block_y <= next_block_y:
+            return False
+        text = ''
+        first_word = page.blocks[0].paragraphs[0].words[0]
+        for symbol in first_word.symbols:
+            text += symbol.text
+        if re.match("^\d+$", text) is None:
+            raise Exception('Case not handled yet in ' + self.current_image_path_ + ", text = " + text)
+        return True
 
-    # def handle_special_question_case(self, page):
-    #     if not self.is_weird_case_of_question_number_not_ordered(page):
-    #         return 0, False
-    #     return 1, True
+    def handle_special_question_case(self, page):
+        if not self.is_weird_case_of_question_number_not_ordered(page):
+            return 0, False
+        return 1, True
 
     def parse_annotations(self, annotations):
         for page in annotations.pages:
-            # block_start, should_start_problem = self.handle_special_question_case(page)
-            blocks_iter = self.get_page_iterator(0, page)
+            block_start, should_start_problem = self.handle_special_question_case(page)
+            blocks_iter = self.get_page_iterator(block_start, page)
             if self.context_.is_in_mode(ParsingMode.HEADER):
                 self.parser_.parse_header(blocks_iter)
-            # if should_start_problem:
-            #     self.context_.start_new_problem(0)
+            if should_start_problem:
+                self.context_.start_new_problem(0)
             self.parser_.parse_words(blocks_iter)
 
     def get_page_iterator(self, block_start, page):
         # we always skip the last blocks of the page which corresponds to the footer
         blocks = page.blocks[block_start:len(page.blocks) - self.nb_blocks_footer_]
         iterator = iter(self.get_next_word_from_blocks(blocks))
-        return mit.islice_extended(iterator, None, -self.nb_words_footer_)
+        if self.nb_words_footer_ != 0:
+            return mit.islice_extended(iterator, None, -self.nb_words_footer_)
+        return iterator
 
     def get_next_word_from_blocks(self, blocks):
         for block in blocks:
@@ -356,7 +378,8 @@ class BaseParser:
 
     def try_add_word_separator(self, word):
         break_type = word.symbols[-1].property.detected_break.type
-        if break_type == enums.TextAnnotation.DetectedBreak.BreakType.SPACE:
+        if break_type == enums.TextAnnotation.DetectedBreak.BreakType.SPACE or \
+           break_type == enums.TextAnnotation.DetectedBreak.BreakType.LINE_BREAK:
             self.context_.add_word_separator()
 
     def parse_word(self, word):
@@ -366,8 +389,8 @@ class BaseParser:
 
 
 class CommonParser(BaseParser):
-    def __init__(self):
-        super().__init__(ParsingContext())
+    def __init__(self, indentation_threshold):
+        super().__init__(ParsingContext(indentation_threshold))
 
     def check_answer_end(self):
         if self.context_.is_in_mode(ParsingMode.ANSWER) and \
@@ -388,14 +411,13 @@ class CommonParser(BaseParser):
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
-            # if self.context_.currently_ending_a_sentence():
-            #     self.context_.remove_previous_word_separator()
             self.check_answer_end()
             self.check_choices_end()
             self.check_comment_end()
             if self.context_.current_word_is_dot() and \
                self.context_.last_word_was_on_a_new_line():
-                if self.context_.last_word_is_a_number():
+                if not self.context_.is_in_mode(ParsingMode.QUESTION) and \
+                   self.context_.last_word_is_a_number():
                     self.context_.start_new_problem(2)
                 elif self.context_.last_word_is_a_choice():
                     self.context_.start_new_choice()

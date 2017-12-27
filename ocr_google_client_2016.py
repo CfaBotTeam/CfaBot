@@ -15,8 +15,8 @@ class ParsingContextTwoThousandSixteenAnswers(ParsingContext):
 
 
 class ParserTwoThousandSixteenAnswers(BaseParser):
-    def __init__(self):
-        super().__init__(ParsingContextTwoThousandSixteenAnswers())
+    def __init__(self, indentation_threshold):
+        super().__init__(ParsingContextTwoThousandSixteenAnswers(indentation_threshold))
 
     def check_answer_end(self):
         if self.context_.is_in_mode(ParsingMode.ANSWER) and \
@@ -26,8 +26,6 @@ class ParserTwoThousandSixteenAnswers(BaseParser):
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
             self.parse_word(word)
-            # if self.context_.currently_ending_a_sentence():
-            #     self.context_.remove_previous_word_separator()
             self.check_answer_end()
             if self.context_.current_word_is_dot() and \
                self.context_.last_word_was_on_a_new_line() and \
