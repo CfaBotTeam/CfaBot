@@ -1,4 +1,45 @@
-
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. Gabrielle Gabbe, CFA has been accused of professional misconduct by one of her competitors. The allegations concern Gabbe&apos;s personal bankruptcy filing ten years ago when she was a college student and had a large amount of medical bills she could not pay. By not disclosing the bankruptcy filing to her clients, did Gabbe most likely violate any CFA Institute Standards of Professional Conduct?	</question>

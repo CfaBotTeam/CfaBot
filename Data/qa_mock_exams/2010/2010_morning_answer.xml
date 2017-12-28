@@ -1,3 +1,46 @@
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. According to the CFA Institute Code of Ethics and Standards of Professional Conduct, trading on material nonpublic information is least likely to be prevented by establishing:	</question>
@@ -1662,3 +1705,4 @@
 	<answer>A</answer>
 	<comments>“An Introduction to Portfolio Management,” Frank K. Reilly and Keith C. Brown 20109 Modular Level I, Vol. 4, pp. 250-257 Study Session 12-50-c Compute and interpret the expected return, variance, and standard deviation for an By accessing this mock exam, you agree to the following terms of use: This mock exam is provided to currently-registered CFA candidates. Candidates may view and print the exam for personal exam preparation only. The following activities are strictly prohibited and may result in disciplinary and/or legal action: accessing or permitting access by anyone other than currently-registered CFA candidates; copying, posting to any website, emailing, distributing and/or reprinting the mock exam for any purpose. individual investment and the expected return and standard deviation for a portfolio. A is correct. The standard deviation of portfolio returns is: v&apos; (Q.352) (0.14Z) - (0.652) (0.12 -) - 2 (0.35) (0.65) (0.25) (0.14) (0.12) 10.2%</comments>
 </problem>
+</problems>

@@ -1,4 +1,46 @@
 <problems>
+  <dispatch>
+    <topic id="Ethical and Professional Standards">
+      <start>1</start>
+      <end>18</end>
+    </topic>
+    <topic id="Quantitative Methods">
+      <start>19</start>
+      <end>32</end>
+    </topic>
+    <topic id="Economics">
+      <start>33</start>
+      <end>44</end>
+    </topic>
+    <topic id="Financial Statement Analysis">
+      <start>45</start>
+      <end>68</end>
+    </topic>
+    <topic id="Corporate Finance">
+      <start>69</start>
+      <end>76</end>
+    </topic>
+    <topic id="Equity Investments">
+      <start>77</start>
+      <end>88</end>
+    </topic>
+    <topic id="Derivative Investments">
+      <start>89</start>
+      <end>94</end>
+    </topic>
+    <topic id="Fixed Income Investments">
+      <start>95</start>
+      <end>106</end>
+    </topic>
+    <topic id="Alternative Investments">
+      <start>107</start>
+      <end>110</end>
+    </topic>
+    <topic id="Portfolio Management">
+      <start>111</start>
+      <end>120</end>
+    </topic>
+  </dispatch>
     <problem>
         <question>1. In cases where applicable local laws governing calculation and presentation of investment performance conflict with the GIPS standards, firms are:</question>
         <choices>

@@ -1,4 +1,46 @@
 <problems>
+  <dispatch>
+    <topic id="Ethical and Professional Standards">
+      <start>1</start>
+      <end>18</end>
+    </topic>
+    <topic id="Quantitative Methods">
+      <start>19</start>
+      <end>32</end>
+    </topic>
+    <topic id="Economics">
+      <start>33</start>
+      <end>44</end>
+    </topic>
+    <topic id="Financial Statement Analysis">
+      <start>45</start>
+      <end>68</end>
+    </topic>
+    <topic id="Corporate Finance">
+      <start>69</start>
+      <end>76</end>
+    </topic>
+    <topic id="Equity Investments">
+      <start>77</start>
+      <end>88</end>
+    </topic>
+    <topic id="Derivative Investments">
+      <start>89</start>
+      <end>94</end>
+    </topic>
+    <topic id="Fixed Income Investments">
+      <start>95</start>
+      <end>106</end>
+    </topic>
+    <topic id="Alternative Investments">
+      <start>107</start>
+      <end>110</end>
+    </topic>
+    <topic id="Portfolio Management">
+      <start>111</start>
+      <end>120</end>
+    </topic>
+  </dispatch>
     <problem>
         <question>1. Carolina Ochoa, CFA, is the chief financial officer at Pantagonia Computing. Ochoa is currently the subject of an inquiry by Pantagonia's corporate investigations department. The inquiry is the result of an anonymous complaint accusing Ochoa of falsifying travel expenses for senior management related to a government contract. According to the CFA Institute Code of Ethics and Standards of Professional Conduct, it is most appropriate for Ochoa to disclose the allegations:</question>
         <choices>

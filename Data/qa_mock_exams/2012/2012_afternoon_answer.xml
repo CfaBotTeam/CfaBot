@@ -1,4 +1,46 @@
-
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. As a condition of his employment with an investment bank, Abasi Hasina, CFA, was required to sign an employment contract, including a non-compete clause restricting him from working for a competitor for three years after leaving the employer. After one year, Hasina quits his job for a comparable position with an investment bank in a country where non-compete clauses are illegal. Lawyers with whom he consulted prior to taking the new position determined the non¬ compete clause was a violation of human rights and thus illegal. Did Hasina most likely violate the CFA Institute Code of Ethics?	</question>
@@ -1689,3 +1731,4 @@
 	<answer>A</answer>
 	<comments>&quot;Basics of Portfolio Management and Construction,&quot; Alistair Byrne and Frank E. Smuddle 2012 Modular Level I, Vol. 4, p. 474 Study Session 12-46-f Explain the specification of asset classes in relation to asset allocation. A is correct. In a strategic asset allocation, assets within a specific asset class will have high paired correlations and low correlations with assets in other asset classes.</comments>
 </problem>
+</problems>

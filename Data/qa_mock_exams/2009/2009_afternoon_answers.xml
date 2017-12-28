@@ -1,3 +1,47 @@
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
+
 <problem>
 	<question>1. According to the Standards of Practice Handbook, which of the following statements about fair dealing is least accurate? The Standard related to fair dealing:	</question>
 	<choices>
@@ -1689,3 +1733,4 @@
 	<answer>B</answer>
 	<comments>“Managing Investment Portfolio: A Dynamic Process” John Maginn, Donald Tuttle, Denis McLeavy, Jerald Pinto 2009 Modular Level I, Volume 4, pp. 268-269 Study Session 12-51-d The candidate should be able to explain the capital asset pricing model, including the security market line (SML) and beta, and describe the effects of relaxing its underlying assumptions. Compared to the traditional CAPM, where lending and borrowing takes place at the risk-free rate, a zero beta CAPM will result in a SML that has a higher intercept and a flatter slope.</comments>
 </problem>
+</problems>

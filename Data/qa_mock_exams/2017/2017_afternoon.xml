@@ -1,4 +1,46 @@
 <problems>
+  <dispatch>
+    <topic id="Ethical and Professional Standards">
+      <start>1</start>
+      <end>18</end>
+    </topic>
+    <topic id="Quantitative Methods">
+      <start>19</start>
+      <end>32</end>
+    </topic>
+    <topic id="Economics">
+      <start>33</start>
+      <end>44</end>
+    </topic>
+    <topic id="Financial Statement Analysis">
+      <start>45</start>
+      <end>68</end>
+    </topic>
+    <topic id="Corporate Finance">
+      <start>69</start>
+      <end>76</end>
+    </topic>
+    <topic id="Equity Investments">
+      <start>77</start>
+      <end>88</end>
+    </topic>
+    <topic id="Derivative Investments">
+      <start>89</start>
+      <end>94</end>
+    </topic>
+    <topic id="Fixed Income Investments">
+      <start>95</start>
+      <end>106</end>
+    </topic>
+    <topic id="Alternative Investments">
+      <start>107</start>
+      <end>110</end>
+    </topic>
+    <topic id="Portfolio Management">
+      <start>111</start>
+      <end>120</end>
+    </topic>
+  </dispatch>
     <problem>
         <question>1. Richard Cardinal, CFA, is the founder of Volcano Capital Research, an investment management firm whose sole activity is short selling. Cardinal seeks out companies whose stocks have had large price increases. Cardinal also pays several lobbying firms to update him immediately on any legislative or regulatory changes that may impact his target companies. Cardinal sells short those target companies he estimates are near the peak of their sales and earnings and that his sources identify as facing legal or regulatory challenges. Immediately after he sells a stock, Cardinal conducts a public relations campaign to disclose all of the negative information he has gathered on the company, even if the information is not yet public. Which of Cardinal's actions is least likely to be in violation of the CFA Institute Standards of Professional Conduct?</question>
         <choices>

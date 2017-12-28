@@ -1,4 +1,46 @@
-
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. Tibor Figeczky, CFA, is an equity trader at Global Investment Bank (GB). Figeczky traded the bank&apos;s investment portfolio profitably for the past three years and earned significant bonuses for his efforts. Subsequently, internal auditors of GB formally accused Figeczky of exceeding his trading authority and engaging in unauthorized trades. According to the CFA Institute Code of Ethics and Standards of Professional Conduct, Figeczky should most likely:	</question>
@@ -1635,3 +1677,4 @@ distributing and/or reprinting the mock exam for any purpose.
 	<answer>B</answer>
 	<comments>Basics of Portfolio Planning and Construction,&quot; Alistair Byrne, CFA, and Frank E. Smudde, CFA 2011 Modular Level I, Vol. 4, pp. 450, 467, 477 Study Session 12-54-g By accessing this mock exam, you agree to the following terms of use: This mock exam is provided to currently- registered CFA candidates. Candidates may view and print the exam for personal exam preparation only. The following activities are strictly prohibited and may result in disciplinary and/or legal action: accessing or permitting access by anyone other than currently-registered CFA candidates; copying, posting to any website, emailing, distributing and/or reprinting the mock exam for any purpose. Discuss the principles of portfolio construction and the role of asset allocation in relation to the IPS. B is correct. Tactical asset allocation is the decision to deliberately deviate from the policy exposures to systematic risk factors with the intent to add value based on forecasts of the near¬ term returns of those asset classes.</comments>
 </problem>
+</problems>

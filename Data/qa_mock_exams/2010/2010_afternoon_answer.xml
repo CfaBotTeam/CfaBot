@@ -1,3 +1,46 @@
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. Alexander Newton, CFA, is the chief compliance officer for Mills Investment Limited. Newton institutes a new policy requiring the pro rata distribution of new security issues to all established discretionary accounts for which the new issues are appropriate. The policy also provides for the distribution of new issues to newly established discretionary accounts where appropriate after their one-month anniversary date. This policy is disclosed to all existing and potential clients. Did Newton violate any CFA Institute Standards of Professional Conduct?	</question>
@@ -1676,4 +1719,4 @@
 	<answer>A</answer>
 	<comments>“The Asset Allocation Decision”, Frank K. Reilly and Keith C. Brown. 2010 Modular Level I, Vol. 4, p. 222 Study Session 12-49-c, d Describe the return objectives of capital preservation, capital appreciation, current income, and total return. Describe the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique needs and preferences. A is correct. A moderately risk tolerant retired 65-year-old can structure his or her portfolio so that it provides income and some principal growth. The principal growth is needed because the time horizon is still fairly long. Such a portfolio could have an allocation of 55-65% in bonds and 35-45% in stocks.</comments>
 </problem>
-
+</problems>

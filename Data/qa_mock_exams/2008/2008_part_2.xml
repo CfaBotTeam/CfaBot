@@ -1,3 +1,4 @@
+<problems>
 <problem>
 	<question>1. According to the Standards of Practice Handbook, members must keep information about clients confidential unless the  client:  Select exactly 1 answer(s) from the following:  	</question>
 	<choices>
@@ -1454,3 +1455,4 @@ D CD2 $ 83. 287  Select exactly 1 answer(s) from the following: </question>
 	<answer>C</answer>
 	<comments>“An Introduction to Portfolio Management,” Frank K. Reilly and KeithC. Brown  2008   Modular Level I, Vol. 4, pp. 230-245  Study Session 12-50-c  compute and interpret the expected return, variance, and standard deviation for an individual   investment and the expected return and standard deviation for a portfolio  The expected return of the portfolio is the weighted average return of the two   assets = 0.60 x 11 + 0.40 x 7 = 9.4%.  The expected standard deviation of the portfolio is calculated as:      = [(0.602 x 0.052) + (0.402 x 0.042) + (2 x 0.60 x 0.40 x 0.75 x 0.05 x 0.04)]0.5  = [0.0009 + 0.000256 + 0.00072]0.5  = [0.001876]0.5 = 0.0433 ? 4.3%     </comments>
 </problem>
+</problems>

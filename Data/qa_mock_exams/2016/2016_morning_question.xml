@@ -1,4 +1,46 @@
 <problems>
+  <dispatch>
+    <topic id="Ethical and Professional Standards">
+      <start>1</start>
+      <end>18</end>
+    </topic>
+    <topic id="Quantitative Methods">
+      <start>19</start>
+      <end>32</end>
+    </topic>
+    <topic id="Economics">
+      <start>33</start>
+      <end>44</end>
+    </topic>
+    <topic id="Financial Statement Analysis">
+      <start>45</start>
+      <end>68</end>
+    </topic>
+    <topic id="Corporate Finance">
+      <start>69</start>
+      <end>76</end>
+    </topic>
+    <topic id="Equity Investments">
+      <start>77</start>
+      <end>88</end>
+    </topic>
+    <topic id="Derivative Investments">
+      <start>89</start>
+      <end>94</end>
+    </topic>
+    <topic id="Fixed Income Investments">
+      <start>95</start>
+      <end>106</end>
+    </topic>
+    <topic id="Alternative Investments">
+      <start>107</start>
+      <end>110</end>
+    </topic>
+    <topic id="Portfolio Management">
+      <start>111</start>
+      <end>120</end>
+    </topic>
+  </dispatch>
     <problem>
         <question>1. Alexander Newton, CFA, is the chief compliance officer for Mills Investment Limited. Newton institutes a new policy requiring the pro rata distribution of new security issues to all established discretionary accounts for which the new issues are appropriate. The policy also provides for the exclusion of newly established discretionary accounts from the distribution until they have reached their one-month anniversary date. This policy is disclosed to all existing and potential clients. Did Newton most likely violate any CFA Institute Standards of Professional Conduct?</question>
         <choices>

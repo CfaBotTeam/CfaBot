@@ -1,4 +1,46 @@
-
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. Carlos Cruz, CFA, is one of two founders of an equity hedge fund. Cruz manages the fund&apos;s assets, and the other co-founder, Brian Burkeman, CFA, is responsible for fund sales and marketing. Cruz notices the most recent sales material used by Burkeman indicates assets under management are listed at a higher value than the current market value. Burkeman justifies the discrepancy by stating recent market declines account for the difference. In order to comply with the CFA Institute Standards of Professional Conduct, Cruz should least likely take which of the following actions?	</question>
@@ -1673,3 +1715,4 @@ equals 1.
 	<answer>A</answer>
 	<comments>&quot;Portfolio Risk and Return Part II&quot;, Vijay Singal, CFA 2013 Modular Level I, Vol. 4, Reading 44, Section 4.3.2 Study Session 12-44-h Describe and demonstrate applications of the CAPM and the SML. A is correct. Jensen&apos;s alpha = Rp - [Rf + Pp(Rm - Rf)] = 0.155 - [0.025 + 1.2 x (0.118 - 0.025)] = 0.0184.</comments>
 </problem>
+</problems>

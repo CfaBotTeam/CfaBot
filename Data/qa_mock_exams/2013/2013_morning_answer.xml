@@ -1,4 +1,46 @@
-
+<problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 
 <problem>
 	<question>1. Bailey Watson, CFA manages 25 emerging market pension funds. He recently had the opportunity to buy 100,000 shares in a publicly listed company whose prospects are considered &quot;above industry norm&quot; by most analysts. The company&apos;s shares rarely trade because most managers take a &quot;buy and hold&quot; strategy because of the company&apos;s small free float. Before placing the order with his dealer, Watson allocated the shares to be purchased according to the weighted value of each of his clients&apos; portfolios. When it came time to execute the trades, the dealer was only able to purchase 50,000 shares. To prevent violating Standard III (B) Fair Dealing, it would be most appropriate for Watson to reallocate the 50,000 shares purchased by:	</question>
@@ -1648,3 +1690,4 @@
 	<answer>C</answer>
 	<comments>&quot;Basics of Portfolio Planning and Construction&quot; by Alistair Byrne, CFA and Frank E. Smudde, CFA Modular Level I, Vol. 4, Reading 45, Section 2.2.1 Study Session 12-45-d, e Distinguish between the willingness and the ability (capacity) to take risk in analyzing an investor&apos;s financial risk tolerance. Describe the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique circumstances and their implications for the choice of portfolio assets. C is correct. The client is in a strong financial situation (stable job, no debt), has a reasonably long time horizon before needing any liquidity (10 years), and reasonable retirement spending needs relative to total assets. These factors indicate a high ability to take risk. In addition, the client&apos;s knowledge of financial markets, experience, and focus on the long term also indicates a high willingness to take risk.</comments>
 </problem>
+</problems>

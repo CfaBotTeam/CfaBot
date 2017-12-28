@@ -1,3 +1,4 @@
+<problems>
 <problem>
 	<question>1. Which of the following is a key characteristic of the Global Investment Performance Standards (GIPS)? The GIPS  standards:  Select exactly 1 answer(s) from the following:  	</question>
 	<choices>
@@ -1441,3 +1442,4 @@
 	<answer>A</answer>
 	<comments>"An Introduction to Portfolio Management," Frank K. Reilly and Keith C. Brown  2008 Modular Level I, Vol. 4, pp. 230-232  Study Session 12-50-c  compute and interpret the expected return, variance, and standard deviation for an individual investment and the expected  return and standard deviation for a portfolio  The expected return of an asset is the weighted average of the possible returns = (0.35 x 8) + (0.30 x 10) + (0.25 x 16) +  (0.10 x 20) = 11.8%.  The expected standard deviation is calculated as follows:  ?2 = 0.35 x (8 - 11.8)2 + 0.30 x (10 - 11.8)2 + 0.25 x (15 - 11.8)2 + 0.10 x (20 - 11.8)2  = 15.31  s = (15.31)0.5 = 3.91%   </comments>
 </problem>
+</problems>
