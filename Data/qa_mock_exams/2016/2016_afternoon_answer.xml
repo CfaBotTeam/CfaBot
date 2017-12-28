@@ -457,7 +457,7 @@ Section 5.1</comments>
     <problem>
         <question />
         <choices />
-        <answer>75. Correct answer: C. 3.6</answer>
+        <answer>75. Correct answer: C.</answer>
         <comments>EBIT DFL = EBIT – Interest 3.6-1.2 =1.5 CFA Level I “Measures of leverage”</comments>
     </problem>
     <problem>
@@ -722,7 +722,7 @@ Section 5.1</comments>
         <question />
         <choices />
         <answer>119. Correct answer: C.</answer>
-        <comments>BJKU CFA levell-Mock-114 and E(RJKU) = RER + B JKU (Ry – Rep) = 0. 05 + 1 x (o. 12 – 0. 05) = 0. 12 The required rate of return of JKU is 12%, and the expected return of JKU is 15%. Therefore, JKU is undervalued relative to the security market line (SML); the risk-return relationship lies above the SML. CFA Level I "Portfolio Risk and Return: Part II," Vijay Singal Section 4</comments>
+        <comments>BJKU and E(RJKU) = RER + B JKU (Ry – Rep) = 0. 05 + 1 x (o. 12 – 0. 05) = 0. 12 The required rate of return of JKU is 12%, and the expected return of JKU is 15%. Therefore, JKU is undervalued relative to the security market line (SML); the risk-return relationship lies above the SML. CFA Level I "Portfolio Risk and Return: Part II," Vijay Singal Section 4</comments>
     </problem>
     <problem>
         <question />
