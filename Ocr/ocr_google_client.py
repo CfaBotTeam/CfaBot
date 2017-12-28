@@ -331,9 +331,9 @@ class CfaProblemsBuilder:
         return True
 
     def handle_special_question_case(self, page):
-        if not self.is_weird_case_of_question_number_not_ordered(page):
-            return 0, False
-        return 1, True
+        #if not self.is_weird_case_of_question_number_not_ordered(page):
+        return 0, False
+        #return 1, True
 
     def parse_annotations(self, annotations):
         for page in annotations.pages:
@@ -378,8 +378,7 @@ class BaseParser:
 
     def try_add_word_separator(self, word):
         break_type = word.symbols[-1].property.detected_break.type
-        if break_type == enums.TextAnnotation.DetectedBreak.BreakType.SPACE or \
-           break_type == enums.TextAnnotation.DetectedBreak.BreakType.LINE_BREAK:
+        if break_type != enums.TextAnnotation.DetectedBreak.BreakType.UNKNOWN:
             self.context_.add_word_separator()
 
     def parse_word(self, word):

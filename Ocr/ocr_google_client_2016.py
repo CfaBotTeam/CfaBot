@@ -70,8 +70,8 @@ class ParsingContextTwoThousandSixteenQuestions(ParsingContext):
 
 
 class ParserTwoThousandSixteenQuestions(BaseParser):
-    def __init__(self):
-        super().__init__(ParsingContextTwoThousandSixteenQuestions())
+    def __init__(self, indentation_threshold):
+        super().__init__(ParsingContextTwoThousandSixteenQuestions(indentation_threshold))
 
     def parse_words(self, blocks_iter):
         for word in blocks_iter:
