@@ -22,7 +22,7 @@
     <problem>
         <question>3. Beth Kozniak, a CFA candidate, is an independent licensed real estate broker and a well-known property investor. She is currently brokering the sale of a commercial property on behalf of a client in financial distress. If the client's building is not sold within 30 days, he will lose the building to the bank. A year earlier, another client of Kozniak's had expressed interest in purchasing this same property. However, she is unable to contact this client, and she has not discovered any other potential buyers. Given her distressed client's limited time frame, Kozniak purchases the property herself and forgoes any sales commission. Six months later, she sells the property for a nice profit to the client who had earlier expressed interest in the property. Has Kozniak most likely violated the CFA Institute Standards of Professional Conduct?</question>
         <choices>
-	    <choice>Α. Νο</choice>
+	    <choice>A. No</choice>
             <choice>B. Yes, she did not disclose her potential conflicts of interest to either client</choice>
             <choice>C. Yes, she profited on the real estate to the detriment of her financially stressed client</choice>
         </choices>
@@ -112,7 +112,7 @@
     <problem>
         <question>12. Gabrielle Gabbe, CFA has been accused of professional misconduct by one of her competitors. The allegations concern Gabbe's personal bankruptcy filing 10 years ago when she was a college student and had a large amount of medical bills she could not pay. By not disclosing the bankruptcy filing to her clients, did Gabbe most likely violate any CFA Institute Standards of Professional Conduct?</question>
         <choices>
-	    <choice>Α. Νο</choice>
+	    <choice>A. No</choice>
 	    <choice>B. Yes, related to Misconduct</choice>
             <choice>C. Yes, related to Misrepresentation</choice>
         </choices>
@@ -822,7 +822,7 @@
         <question>83. Which of the following statements regarding a commodity index is most accurate?</question>
         <choices>
             <choice>A. Commodity index returns differ from the changes in the prices of their underlying commodities.</choice>
-	    <choice>Commodity indices commonly use an equal weighting method.</choice>
+	    <choice>B. Commodity indices commonly use an equal weighting method.</choice>
 	    <choice>C. Commodity indices in the same markets will share similar risk and return profiles.</choice>
         </choices>
         <answer>A</answer>

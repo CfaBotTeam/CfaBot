@@ -63,8 +63,8 @@
         <question>7. Nicholas Bennett, CFA, is a trader at a stock exchange. Another trader approached Bennett on the floor of the exchange and verbally harassed him about a poorly executed trade. In response, Bennett pushed the trader and knocked him to the ground. After investigating the incident, the exchange cleared Bennett from any wrongdoing. Which of the following best describes Bennett's conduct in relation to the CFA Institute Code of Ethics or Standards of Professional Conduct? Bennett:</question>
         <choices>
             <choice>A. violated the standard relating to professionalism.</choice>
-            <choice>B. did not violate any of the Code of Ethics or Standards of Professional Conduct. violated both the standard relating to professionalism and integrity of capital markets.</choice>
-            <choice>C.</choice>
+            <choice>B. did not violate any of the Code of Ethics or Standards of Professional Conduct.</choice>
+            <choice>C. violated both the standard relating to professionalism and integrity of capital markets.</choice>
         </choices>
         <answer>A</answer>
         <comments>The CFA Institute Code of Ethics requires members to act with integrity, competence, diligence, respect, and in an ethical and professional manner. The Standards of Professional Conduct relating to professional misconduct state members and candidates must not commit any act reflecting adversely on their professional reputation, integrity, or competence. Bennett's actions violated the Code of Ethics and Standardl(D)-Professionalism, but not Standard II–Integrity of Capital Markets. CFA Level | "Guidance for Standards I-VII," CFA Institute Standard I(D), Standard II</comments>
@@ -410,7 +410,7 @@
         <question>43. Three firms operate under perfect competition, producing 900 units of the same product but using different production technologies. Each company's cost structure is indicated in the table: Company Total Variable Costs $2,700 $3,600 $4,500 | Total Fixed Costs 2,700 1,800 900 Total Costs $5,400 || $5,400 |$5,400 Which of the following statements is most accurate? If the unit selling price is:</question>
         <choices>
             <choice>A. $4.50, all firms should continue to operate in the short run, but exit the market in the long run if these conditions are expected to persist.</choice>
-	    <choice>$3.00, Firm X should continue to operate in the short run, but Firms Y and Z should shut down production.</choice>
+	    <choice>B. $3.00, Firm X should continue to operate in the short run, but Firms Y and Z should shut down production.</choice>
             <choice>C. $6.00, all firms should exit the market in the long run.</choice>
         </choices>
         <answer>B</answer>
@@ -1064,7 +1064,7 @@
         <comments>The soft hurdle rate is surpassed, because the return of the fund is 10%. For that reason, the full fee, based on the full performance, is due. Management fee: 2% of $110 million = $2.2 million.</comments>
     </problem>
     <problem>
-        <question>Incentive fee: 20% of $10 million = $2 million. Total fees: $4.2 million. Therefore, the fund assets at the end of the period after fees are $105.8 million. The return for the investor is 5.8%. CFA Level I. "Introduction to Alternative Investments," by Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3 109. The real estate index most likely to suffer from sample selection bias is a(n):</question>
+        <question>109. Incentive fee: 20% of $10 million = $2 million. Total fees: $4.2 million. Therefore, the fund assets at the end of the period after fees are $105.8 million. The return for the investor is 5.8%. CFA Level I. "Introduction to Alternative Investments," by Terri Duhon, George Spentzos, and Scott D. Stewart Section 3.3 109. The real estate index most likely to suffer from sample selection bias is a(n):</question>
         <choices>
             <choice>A. REIT index.</choice>
             <choice>B. repeat sales index.</choice>

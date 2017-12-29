@@ -12,7 +12,7 @@
     <problem>
         <question>2. Christina Ng, a Level I CFA candidate, defaulted on a bank loan she obtained to pay for her master's degree tuition when her wedding cost more than expected. A micro finance loan company lent her money to pay off the tuition loan in full, including penalties and interest. The micro finance loan company even extended further credit to pay for her parents' outstanding medical bills. Unfortunately, her parents' health problems escalated to the point that Ng had to take extensive time away from work to deal with the issues. She was subsequently fired and consequently defaulted on the second loan. Because she was no longer employed, Ng decided to file for personal bankruptcy. Do the loan defaults leading up to Ng's bankruptcy most likely violate Standard I(D): Misconduct?</question>
         <choices>
-	    <choice>Α. Νο</choice>
+	    <choice>A. No</choice>
             <choice>B. Yes, with regard to the first loan default</choice>
             <choice>C. Yes, with regard to the second loan default</choice>
         </choices>
@@ -904,7 +904,7 @@
         <choices>
             <choice>A. The justified forward price-to-earnings ratio (PIE) approach offers the advantage of incorporating fundamentals and presenting intrinsic value estimations.</choice>
             <choice>B. One advantage of the three-stage dividend discount model (DDM) model is that it is equally appropriate to young companies entering the growth phase and those entering the maturity phase.</choice>
-	    <choice>It is advantageous to use asset-based valuation approaches rather than forward-looking cash flow models in the case of companies that have significant intangibles.</choice>
+	    <choice>C. It is advantageous to use asset-based valuation approaches rather than forward-looking cash flow models in the case of companies that have significant intangibles.</choice>
         </choices>
         <answer>A</answer>
         <comments>“Equity Valuation: Concepts and Basic Tools," John J. Nagorniak and Stephen E. Wilcox Sections 4.3, 5.1, 6 The justified forward P/E approach offers the advantage of incorporating fundamentals and presenting intrinsic value estimations.</comments>
