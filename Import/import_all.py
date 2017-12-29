@@ -144,6 +144,8 @@ class ProblemsWriter:
         topic = df.loc[i_row, 'topic']
         if topic != '':
             problem.attrib['topic'] = topic
+        problem.attrib['year'] = str(df.loc[i_row, 'year'])
+        problem.attrib['filename'] = df.loc[i_row, 'filename']
         return problem
 
     def add_question(self, df, i_row, problem):
