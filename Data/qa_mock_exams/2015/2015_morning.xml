@@ -1,4 +1,46 @@
 <problems>
+    <dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>45</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>46</start>
+		<end>69</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>70</start>
+		<end>77</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>78</start>
+		<end>89</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>90</start>
+		<end>101</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>102</start>
+		<end>107</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>108</start>
+		<end>111</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>112</start>
+		<end>120</end>
+	</topic>
+    </dispatch>
     <problem>
         <question>1. Vishal Chandarana, an unemployed research analyst, recently registered for the CFA Level I exam. After two months of intense interviewing, he accepts a job with a stock brokerage company in a different region of the country. Chandarana posts on a blog how being a CFA candidate really helped him get a job. He also notes how relieved he was when his new employer did not ask him about being fired from his former employer. Which CFA Institute Standards of Professional Conduct did Chandarana least likely violate?</question>
         <choices>
