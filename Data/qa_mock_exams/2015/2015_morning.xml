@@ -1143,10 +1143,10 @@
             <choice>C. 6.9%.</choice>
         </choices>
         <answer>C</answer>
-        <comments>E (RGBK) = Rp + BGBK X [E(RMK1) – Ry]=</comments>
+        <comments>E (RGBK) = Rp + BGBK X [E(RMK1) – Ry]=0. 03 + 0.65 X (0.09 – 0.03) = 0.069 or 6.9 % . CFA Level I "Portfolio Risk and Return: Part II," Vijay Singal Section 3.2.6</comments>
     </problem>
     <problem>
-        <question>0. 03 + 0.65 X (0.09 – 0.03) = 0.069 or 6.9 % . CFA Level I "Portfolio Risk and Return: Part II," Vijay Singal Section 3.2.6 113. The point of tangency between the capital allocation line (CAL) and the efficient frontier of risky assets most likely identifies the:</question>
+        <question>113. The point of tangency between the capital allocation line (CAL) and the efficient frontier of risky assets most likely identifies the:</question>
         <choices>
             <choice>A. global minimum-variance portfolio.</choice>
             <choice>B. optimal risky portfolio.</choice>
