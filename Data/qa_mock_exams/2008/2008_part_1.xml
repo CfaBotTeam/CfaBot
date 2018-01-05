@@ -1,4 +1,46 @@
 <problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 <problem>
 	<question>1. Which of the following is a key characteristic of the Global Investment Performance Standards (GIPS)? The GIPS  standards:  Select exactly 1 answer(s) from the following:  	</question>
 	<choices>
@@ -77,7 +119,7 @@
 		<choice id="A">No No </choice>
 		<choice id="B">No Yes </choice>
 		<choice id="C">Yes No </choice>
-		<choice id="D">Yes Yes  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Yes Yes</choice>
 	</choices>
 	<answer>A</answer>
 	<comments>Guidance for Standards I-VII, Standards of Practice Handbook  2008 Modular Level I, Vol. 1, pp. 36-39  Study Sessions 1-1-c, 1-2-b   explain the ethical responsibilities required by the Code and Standards, including the multiple subsections  of each Standard;  distinguish between conduct that conforms to the Code and Standards and conduct that violates the Code  and the Standards  A member in possession of material nonpublic information that could affect the value of an investment  may not act or cause others to act on the information.    </comments>
@@ -89,7 +131,7 @@
 		<choice id="A">No No </choice>
 		<choice id="B">No Yes </choice>
 		<choice id="C">Yes No </choice>
-		<choice id="D">Yes Yes  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Yes Yes</choice>
 	</choices>
 	<answer>D</answer>
 	<comments>Guidance for Standards I-VII, Standards of Practice Handbook  2008 Modular Level I, Vol. 1, p. 101  Study Sessions 1-1-c, 1-2-b  explain the ethical responsibilities required by the Code and Standards, including the multiple subsections  of each Standard;  distinguish between conduct that conforms to the Code and Standards and conduct that violates the Code  and the Standards  Conduct covered and prohibited under Standard VII (A) includes cheating on the CFA examination or any  other examination.    </comments>
@@ -295,7 +337,7 @@
 		<choice id="A">6.83% 77.5 </choice>
 		<choice id="B">6.83% 96.8 </choice>
 		<choice id="C">7.68% 77.5 </choice>
-		<choice id="D">7.68% 96.8                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">7.68% 96.8</choice>
 	</choices>
 	<answer>A</answer>
 	<comments>"Statistical Concepts and Market Returns," Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E.  Runkel  2008 Modular Level I, Vol. 1, pp. 279-284  Study Session 2-7-f  define, calculate, and interpret 1) a range and a mean absolute deviation, and 2 ) the variance and standard deviation of a  population and of a sample  First, compute the mean portfolio return = (8.6 + 11.2 + 12.9 + 15.1 - 9.4) / 5 = 7.68%  Mean absolute deviation = (|8.6 - 7.68| + |11.2 - 7.68| + |12.9 - 7.68| + |15.1 - 7.68| + |-9.4 - 7.68|) / 5 = 6.83%  Variance = [(8.6 - 7.68)2 + (11.2 - 7.68)2 + (12.9 - 7.68)2 + (15.1 - 7.68)2 + (-9.4 - 7.68)2 / 5 = 77.4536 ? 77.5  The population variance calculation is appropriate because the analyst is analyzing all the annual returns on the portfolio  since its inception. </comments>
@@ -307,7 +349,7 @@
 		<choice id="A">1.36 0.52 </choice>
 		<choice id="B">1.36 7.44 </choice>
 		<choice id="C">1.53 0.52 </choice>
-		<choice id="D">1.53 7.44                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">1.53 7.44</choice>
 	</choices>
 	<answer>A</answer>
 	<comments>"Statistical Concepts and Market Returns," Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E.  Runkel  2008 Modular Level I, Vol. 1, pp. 291-297  Study Session 2-7-h  define, calculate, and interpret the coefficient of variation and the Sharpe ratio   </comments>
@@ -391,7 +433,7 @@
 		<choice id="A">oligopoly both prisoners deny </choice>
 		<choice id="B">oligopoly both prisoners confess </choice>
 		<choice id="C">monopolistic competition both prisoners deny </choice>
-		<choice id="D">monopolistic competition both prisoners confess                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">monopolistic competition both prisoners confess </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Monopolistic Competition and Oligopoly," Michael Parkin  2008 Modular Level I, Vol. 2, pp. 225-228  Study Session 5-20-a, d  describe the characteristics of monopolistic competition and oligopoly;  explain the kinked demand curve model and the dominant firm model, and describe oligopoly games  including the Prisoners' Dilemma  The game of Prisoners' Dilemma applies to oligopoly and the solution from Nash equilibrium is that both  prisoners would confess to the crime.  </comments>
@@ -403,7 +445,7 @@
 		<choice id="A">buyers pay the entire tax. buyers pay the entire tax. </choice>
 		<choice id="B">buyers pay the entire tax. sellers pay the entire tax. </choice>
 		<choice id="C">sellers pay the entire tax. buyers pay the entire tax. </choice>
-		<choice id="D">sellers pay the entire tax. sellers pay the entire tax.                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">sellers pay the entire tax. sellers pay the entire tax. </choice>
 	</choices>
 	<answer>C</answer>
 	<comments>"Markets in Action," Michael Parkin  2008 Modular Level I, Vol. 2, pp. 74-75  Study Session 4-15-c  explain the impact of taxes on supply, demand, and market equilibrium, and describe tax incidence and its  relation to demand and supply elasticity  In the extreme cases of products with perfectly elastic and perfectly inelastic demand, the sellers and  buyers, respectively, pay the entire tax. </comments>
@@ -427,7 +469,7 @@
 		<choice id="A">Tax rate and tax revenues Monetarists </choice>
 		<choice id="B">Tax rate and tax revenues Supply-siders </choice>
 		<choice id="C">Inflation and unemployment Monetarists </choice>
-		<choice id="D">Inflation and unemployment Supply-siders                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Inflation and unemployment Supply-siders </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Fiscal Policy," Michael Parkin  2008 Modular Level I, Vol. 2, pp. 439-440  Study Session 6-27-a  explain supply-side effects on employment, potential GDP, and aggregate supply, including the income tax and taxes on  expenditure, and describe the Laffer curve and its relation to supply-side economics  The relationship between the tax rate and the amount of tax revenue collected is called the Laffer curve, named after  Arthur B. Laffer, a supply-side economist and a member of President Reagan's economic policy advisory board. They  argued that tax cuts would increase tax revenues and decrease the budget deficit. </comments>
@@ -451,7 +493,7 @@
 		<choice id="A">Price falls Marginal benefit exceeds marginal cost </choice>
 		<choice id="B">Price falls Marginal cost exceeds marginal benefit </choice>
 		<choice id="C">Price increases Marginal benefit exceeds marginal cost </choice>
-		<choice id="D">Price increases Marginal cost exceeds marginal benefit                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Price increases Marginal cost exceeds marginal benefit </choice>
 	</choices>
 	<answer>is</answer>
 	<comments>"Markets in Action," Michael Parkin  2008 Modular Level I, Vol. 2, pp. 79-80  Study Session 4-15-d  discuss the impact of subsidies, quotas, and markets for illegal goods on demand, supply, and market equilibrium  Upon introduction of a subsidy, the equilibrium level of supply increases and the price falls. In the new equilibrium,  marginal cost (on the supply curve) exceeds marginal benefit (on the demand curve) and a deadweight loss arises due to  overproduction (Figure 13 on p. 79). </comments>
@@ -463,7 +505,7 @@
 		<choice id="A">Below full-employment equilibrium Below full-employment equilibrium </choice>
 		<choice id="B">Below full-employment equilibrium Above full-employment equilibrium </choice>
 		<choice id="C">Above full-employment equilibrium Below full-employment equilibrium </choice>
-		<choice id="D">Above full-employment equilibrium Above full-employment equilibrium                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Above full-employment equilibrium Above full-employment equilibrium </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Aggregate Demand and Aggregate Supply," Michael Parkin  2008 Modular Level I, Vol. 2, pp. 327-328  Study Session 5-23-c  differentiate between short-run and long-run macroeconomic equilibrium, and explain how economic growth, inflation,  and changes in aggregate demand and supply influence the macroeconomic equilibrium and the business cycle  A below full-employment equilibrium is a macro-economic equilibrium in which potential GDP exceeds real GDP. The  amount by which potential GDP exceeds real GDP is called the Okun gap. An above full-employment equilibrium is a  macro-economic equilibrium in which real GDP exceeds potential GDP. The amount by which real GDP exceeds  potential GDP is called an inflationary gap.    </comments>
@@ -643,14 +685,14 @@
 		<choice id="A">operating item operating item </choice>
 		<choice id="B">operating item nonoperating item </choice>
 		<choice id="C">nonoperating item operating item </choice>
-		<choice id="D">nonoperating item nonoperating item    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">nonoperating item nonoperating item </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Understanding the Income Statement," Thomas R. Robinson, Jan Hennie van Greuning, Elaine Henry, and Michael A.  Broihahn  2008 Modular Level I, Vol. 3, pp. 169-171  Study Session 8-32-f  distinguish between the operating and nonoperating components of the income statement  The loss on the disposal of fixed assets is an unusual or infrequent item but it is still part of normal operating activities.  The interest expense is the result of financing activities and would be classified as a nonoperating expense by  nonfinancial service companies. </comments>
 </problem> 
 
 <problem>
-	<question>55. Assume U.S. GAAP (generally accepted accounting principles) applies unless otherwise noted.  The following information was available from the accounting records of a company as at December 31, 2007:  Accounts payable $20,000 Accounts receivable 82,000 Bank loan, due on demand 44,000 Cash 12,500 Income taxes payable 5,000 Inventory 47,400 Investments accounted for by the equity method 112,000 Loan payable, due June 30, 2009 50,000 Deposits from customers for deliveries in 2008 8,000                         The working capital for the company is closest to:  Select exactly 1 answer(s) from the following:  	</question>
+	<question>55. Assume U.S. GAAP (generally accepted accounting principles) applies unless otherwise noted.  The following information was available from the accounting records of a company as at December 31, 2007:  Accounts payable $20,000 Accounts receivable 82,000 Bank loan, due on demand 44,000 Cash 12,500 Income taxes payable 5,000 Inventory 47,400 Investments accounted for by the equity method 112,000 Loan payable, due June 30, 2009 50,000 Deposits from customers for deliveries in 2008 8,000                         The working capital for the company is closest to: </question>
 	<choices>
 		<choice id="A">$14,900. </choice>
 		<choice id="B">$64,900. </choice>
@@ -679,7 +721,7 @@
 		<choice id="A">$150,000 Increase </choice>
 		<choice id="B">$150,000 Decrease </choice>
 		<choice id="C">$230,583 Increase </choice>
-		<choice id="D">$230,583 Decrease  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">$230,583 Decrease </choice>
 	</choices>
 	<answer>C</answer>
 	<comments>"Understanding the Income Statement," Thomas R. Robinson, Jan Hennie van Greuning, Elaine Henry, and Michael A.  Broihahn   2008 Modular Level I, Vol. 3, p. 169  "Analysis of Long-Lived Assets: Part II - Analysis of Depreciation and Impairment,"   Gerald I. White, Ashwinpaul C. Sondhi, and Dov Fried  2008 Modular Level I, Vol. 3, pp. 403-404   Study Session 9-37-d  explain and illustrate the use of impairment charges on long-lived assets, and analyze the effects of taking such  impairment charges on a company's financial statements and ratios  The equipment is impaired. NBV = $550,000, which is greater than the sum of the undiscounted cash flows 5 years x  $80,000 = $400,000. The amount of the impairment is 550,000 - PV of the cash flows = 550,000 - 319,417 (PMT =  80,000, N = 5, i = 8%) = 230,583. The company's ROA will increase. There will be lower depreciation charges in the  future, which will increase net income, and a lower carrying value of assets, which decreases total assets. Both factors  would increase any future ROA. </comments>
@@ -921,7 +963,7 @@
 		<choice id="A">14.85% 2.75 </choice>
 		<choice id="B">14.85% 3.78 </choice>
 		<choice id="C">19.25% 2.75 </choice>
-		<choice id="D">19.25% 3.78                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D.  </choice>
+		<choice id="D">19.25% 3.78 </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"Capital Budgeting," John D. Stowe and Jacques R. Gagne  2008 Modular Level I, Vol. 4, pp. 12-19  Study Session 11-44-d  calculate and interpret the results using each of the following methods to evaluate a single capital project: net present  value (NPV), internal rate of return (IRR), payback period, discounted payback period, average accounting rate of return  (AAR), and profitability index (PI)  Using a calculator, the IRR is 19.25%.  The discounted payback period is the number of years (and fractional part of a year) that it takes to recover the initial  investment in terms of discounted future cash flows discounted at the project's required rate of return. The discounted  cash flows for the first four years are: EUR26.55, EUR31.33, EUR27.72, and EUR18.40. The cumulative sum through year three is  EUR85.60. The portion of year four required to recover the initial investment is EUR14.40 / EUR18.40 = 0.7828 ? 0.78. Therefore,  the discounted payback period is 3.78 years.   </comments>
@@ -945,7 +987,7 @@
 		<choice id="A">Arithmetic mean Arithmetic mean </choice>
 		<choice id="B">Arithmetic mean Geometric mean </choice>
 		<choice id="C">Geometric mean Arithmetic mean </choice>
-		<choice id="D">Geometric mean Geometric mean                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Geometric mean Geometric mean </choice>
 	</choices>
 	<answer>C</answer>
 	<comments>"Security-Market Indexes," Frank K. Reilly and Keith C. Brown  2008 Modular Level I, Vol. 5, pp. 42-46  Study Session 13-53-a  compare and contrast the characteristics of, and discuss the source and direction of bias exhibited by, each of the three  predominant weighting schemes used in constructing stock market indexes, and compute a price-weighted,  value-weighted, and un-weighted index series for three stocks;  The Value Line Index, an un-weighted index, uses the geometric mean return approach where as the Nikkei-Dow Jones  Average, a price-weighted index, uses the arithmetic mean approach.   </comments>
@@ -957,7 +999,7 @@
 		<choice id="A">0.345 4.00 </choice>
 		<choice id="B">0.345 2.90 </choice>
 		<choice id="C">0.478 2.09 </choice>
-		<choice id="D">0.478 4.00                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">0.478 4.00 </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Equity: Concepts and Techniques," Bruno Solnik and Dennis McLeavey  2008 Modular Level I, Vol. 5, pp. 138-139  Study Session 14-58-d, e  discuss the specific advantages of both the concentration ratio and the Herfindahl index;  discuss, with respect to global industry analysis, the elements related to risk, and describe the basic forces that determine  industry competition  Herfindahl Index = 0.52 + 0.252 + 0.152 + 0.12 = 0.25 + 0.0625 + 0.0225 + 0.01 = 0.345  "Equivalent Number" of firms = 1 / 0.345 = 2.8986 ? 2.90    </comments>
@@ -993,7 +1035,7 @@
 		<choice id="A"> operating cash flow before interest  payments on debt  cost of equity </choice>
 		<choice id="B"> operating cash flow before interest  payments on debt  weighted average  cost of capital </choice>
 		<choice id="C"> operating cash flow before interest payments on  debt but after deducting base capital  expenditures  cost of equity </choice>
-		<choice id="D"> operating cash flow before interest payments on  debt but after deducting base capital  expenditures  weighted average  cost of capital                              Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D"> operating cash flow before interest payments on  debt but after deducting base capital  expenditures  weighted average  cost of capital </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"An Introduction to Security Valuation: Part II," Frank K. Reilly and Keith C. Brown  2008 Modular Level I, Vol. 5, pp. 184-185  Study Session 14-60-f  describe a process for developing estimated inputs to be used in the DDM, including the required rate of return and  expected growth rate of dividends  In estimating the value of total firm, the free cash flow available to both stockholders and bondholders should be used.  Therefore, operating cash flow before debt related costs and after subtracting the required capital expenditures is the  appropriate measure of free cash flow. As the value of the total firm includes the value of equity and the value of debt, the  weighted average cost of capital is the relevant discount rate.   </comments>
@@ -1005,7 +1047,7 @@
 		<choice id="A">18.29 pesos Over-valued </choice>
 		<choice id="B">18.29 pesos Under-valued </choice>
 		<choice id="C">19.57 pesos Over-valued </choice>
-		<choice id="D">19.57 pesos Under-valued                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">19.57 pesos Under-valued </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavy, Jerald E. Pinto, and David E. Runkle  2008 Modular Level I, Vol. 1, pp. 199-200  "Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela p. Peterson  2008 Modular Level I, Vol. 4, p. 50  "An Introduction to Security Valuation: Part II," Frank K. Reilly and Keith C. Brown  2008 Modular Level I, Vol. 5, p. 176-181, 198  Study Sessions 2-5-d; 4-45-h; 14-60-b, e  Calculate and interpret the future value (FV) and present value (PV) of a single sum of money, an ordinary annuity, an  annuity due, a perpetuity (PV only) and a series of unequal cash flows;  calculate and interpret the cost of equity capital using the capital asset pricing model approach, the dividend discount  model approach, and the bond-yield-plus risk-premium approach;   calculate and interpret the value both of a preferred stock and a common stock using the dividend discount model (DDM);  estimate the implied dividend growth rate, given the components of the required return on equity and incorporating the  earnings retention rate and current stock price  g = growth rate of dividends = 7% [(3 / 2)1 / 6]; k = 9 + 1.8 (17 - 9) = 23.4%  V = 3(1.07) / (0.234 - 0.07) = 19.57 pesos;  The stock's intrinsic value > price, so it is undervalued.   </comments>
@@ -1017,7 +1059,7 @@
 		<choice id="A">overstated overstated </choice>
 		<choice id="B">overstated understated </choice>
 		<choice id="C">understated overstated </choice>
-		<choice id="D">understated understated                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">understated understated </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"Introduction to Price Multiples," John D. Stowe, Thomas R. Robinson, Jerald E. Pinto, and Dennis W. McLeavey  2008 Modular Level I, Vol. 5, pp. 208-209, 216-217  Study Session 14-61-b  calculate and interpret P/E, P/BV, P/S, and P/CF  In a rising costs environment, FIFO would result in higher earnings, higher ending inventory, as well as higher book  value of equity. Thus, both P/E and P/BV tend to be understated relative to a comparable firm that uses LIFO method.   </comments>
@@ -1041,7 +1083,7 @@
 		<choice id="A">5% 50% </choice>
 		<choice id="B">5% 58% </choice>
 		<choice id="C">7% 30% </choice>
-		<choice id="D">7% 42%  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">7% 42% </choice>
 	</choices>
 	<answer>C</answer>
 	<comments>"Cost of Capital," Yves Courtois, Gene C. Lai, and Pamela p. Peterson  2008 Modular Level I, Vol. 4, pp. 54-55  "An Introduction to Security Valuation: Part II," Frank K. Reilly and Keith C. Brown  2008 Modular Level I, Vol. 5, pp. 196-197   Study Sessions 11-45-h, 14-60-e   calculate and interpret the cost of equity capital using the capital asset pricing model approach, the dividend discount  model approach, and the bond-yield-plus risk-premium approach;  estimate the implied dividend growth rate, given the components of the required return on equity and incorporating the  earnings retention rate and current stock price   V0 = D1 / (k - g); $40 = $2 / (0.12 - g); g = 7%; g = ROE x RR; RR = 7 / 10 = 0.70;  Payout Ratio = 1 - RR = 1 - 0.70 = 0.30 = 30%.   </comments>
@@ -1065,10 +1107,10 @@
 		<choice id="A">Persistent Behavioral bias </choice>
 		<choice id="B">Persistent Survivorship bias </choice>
 		<choice id="C">Momentary Behavioral bias </choice>
-		<choice id="D"></choice>
+		<choice id="D">Momentary Survivorship bias</choice>
 	</choices>
 	<answer>B</answer>
-	<comments>  Nature of abnormal returns  Source of unreliability of  an anomaly  A. Persistent Behavioral bias  B. Persistent Survivorship bias  C. Momentary Behavioral bias  D. Momentary Survivorship bias  "Market Efficiency and Anomalies," Vijay Singal  2008 Modular Level I, Vol. 5, pp. 100-107   Study Session 13-55-d  explain why a mispricing may persist and why valid anomalies may not be profitable  The persistent realization of abnormal returns is referred to as an anomaly and survivorship bias is a  source of unreliability of an anomaly. </comments>
+	<comments>"Market Efficiency and Anomalies," Vijay Singal  2008 Modular Level I, Vol. 5, pp. 100-107   Study Session 13-55-d  explain why a mispricing may persist and why valid anomalies may not be profitable  The persistent realization of abnormal returns is referred to as an anomaly and survivorship bias is a  source of unreliability of an anomaly. </comments>
 </problem> 
 
 <problem>
@@ -1173,7 +1215,7 @@
 		<choice id="A">No No </choice>
 		<choice id="B">No Yes </choice>
 		<choice id="C">Yes No </choice>
-		<choice id="D">Yes Yes                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Yes Yes </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"Understanding Yield Spreads," Frank J. Fabozzi  2008 Modular Level I, Vol. 5, p. 350  Study Session 15-65-c  explain the basic theories of the term structure of interest rates and describe the implications of each theory for the shape  of the yield curve  The Liquidity Preference Theory asserts that market participants want to be compensated for the interest rate risk  associated with holding long-term bonds. The longer the maturity, the greater the price volatility when interest rates  change and investors want to be compensated for this risk. According to the Liquidity Preference Theory, the term  structure of interest rates is determined by expectations about future rates and a yield premium for interest rate risk.  Because interest rate risk increases with maturity, The Liquidity Preference Theory asserts that the yield premium  increases with maturity.   </comments>
@@ -1269,7 +1311,7 @@
 		<choice id="A">0.95 5.78 </choice>
 		<choice id="B">0.95 11.57 </choice>
 		<choice id="C">1.89 5.78 </choice>
-		<choice id="D">1.89 11.57                        Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">1.89 11.57 </choice>
 	</choices>
 	<answer>D</answer>
 	<comments>"Introduction to the Measurement of the Interest Rate Risk," Frank J. Fabozzi  2008 Modular Level I, Vol. 5, pp. 488-489  Study Session 16-69-d  compute and interpret the effective duration of a bond, given information about how the bond's price will increase and  decrease for given changes in interest rates, and compute the approximate percentage price change for a bond, given the  bond's effective duration and a specified change in yield  Effective duration = (V_ - V+ ) / (2 x Vo x ?y)  Duration for Bond A = (102.97 - 101.04) / (2 x 102.00 x 0.005) = 1.89Duration for Bond B = (94.07 - 83.81) / (2 x 88.69  x 0.005) = 11.57   </comments>
@@ -1281,7 +1323,7 @@
 		<choice id="A">2.62 0.79 </choice>
 		<choice id="B">2.62 1.26 </choice>
 		<choice id="C">5.68 0.79 </choice>
-		<choice id="D">5.68 1.26                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">5.68 1.26 </choice>
 	</choices>
 	<answer>C</answer>
 	<comments>"Understanding Yield Spread," Frank J. Fabozzi  2008 Modular Level I, Vol. 5, pp. 352-355, 359-361  Study Session 16-65-e, i  compute, compare, and contrast the various yield spread measures;  compute the after-tax yield of a taxable security and the tax-equivalent yield   of a tax-exempt security  Taxable equivalent yield = (tax-exempt yield) / (1 - marginal tax rate) =       3.86 / (1 - 0.32) = 5.68%    Yield ratio = (yield on tax-exempt bond) / (yield of US Treasury) =       3.86 / (3.86 + 100bp) = 3.86 / 4.86 = 0.79   </comments>
@@ -1341,7 +1383,7 @@
 		<choice id="A">No No </choice>
 		<choice id="B">No Yes </choice>
 		<choice id="C">Yes No </choice>
-		<choice id="D">Yes Yes                  Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Yes Yes </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Alternative Investments," Bruno Solnik and Dennis McLeavey  2008 Modular Level I, Vol. 6, pp. 209-210  Study Session 18-76-i  discuss the descriptive accuracy of the term "hedge fund," define hedge fund in terms of objectives, legal structure, and  fee structure, and describe the various classifications of hedge funds   Hedge funds focus on absolute returns and place specific bets in the search for positive alphas. Because the fee structure  includes a small base fee plus an incentive fee proportional to profits, hedge funds have an option-like fee structure.   </comments>
@@ -1353,7 +1395,7 @@
 		<choice id="A">Overstated Overstated </choice>
 		<choice id="B">Overstated Understated </choice>
 		<choice id="C">Understated Overstated </choice>
-		<choice id="D">Understated Understated                    Select exactly 1 answer(s) from the following:   A. Answer A.  B. Answer B.  C. Answer C.  D. Answer D. </choice>
+		<choice id="D">Understated Understated </choice>
 	</choices>
 	<answer>B</answer>
 	<comments>"Alternative Investments," Bruno Solnik and Dennis McLeavey  2008 Modular Level I, Vol. 6, pp. 220-222  Study Session 18-76-l  discuss the performance of hedge funds, the biases present in hedge fund performance measurement, and explain the  effect of survivorship bias on the reported return and risk measures for a hedge fund database  Survivorship bias affects both the returns and the risk (standard deviation) reported for the hedge funds. Hedge funds with  low or negative returns will be excluded from the index as will funds with high volatility; those funds will not survive for  eight years. If only the successful funds remain in the index, the returns are overstated and the risk is understated.  Overstated returns and understated risk will tend to overstate the Sharpe ratio.   </comments>

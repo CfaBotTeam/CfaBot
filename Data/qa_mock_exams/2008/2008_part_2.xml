@@ -1,4 +1,46 @@
 <problems>
+<dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>19</start>
+		<end>32</end>
+	</topic>
+	<topic id="Economics">
+		<start>33</start>
+		<end>44</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>45</start>
+		<end>68</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>69</start>
+		<end>78</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>79</start>
+		<end>90</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>91</start>
+		<end>96</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>97</start>
+		<end>108</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>109</start>
+		<end>114</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>115</start>
+		<end>120</end>
+	</topic>
+</dispatch>
 <problem>
 	<question>1. According to the Standards of Practice Handbook, members must keep information about clients confidential unless the  client:  Select exactly 1 answer(s) from the following:  	</question>
 	<choices>
@@ -147,8 +189,8 @@
 	<question>13. Romar Brockman, CFA, is a sell-side analyst. Approximately half of Brockman's compensation comes from his firm's  investment-banking division. Brockman is asked to write a report about Anacortes Concrete (AC), an investment-banking  client. Despite concerns about the slowdown in concrete demand, Brockman issues a very positive report on AC. When  issuing his report, Brockman least likely violates the CFA Institute Standard relating to:  Select exactly 1 answer(s) from the following:  	</question>
 	<choices>
 		<choice id="A">Loyalty to Employer. </choice>
-		<choice id="B"></choice>
-		<choice id="C">ent. Despite concerns about the slowdown in concrete demand, Brockman issues a very positive report on AC. When  issuing his report, Brockman least likely violates the CFA Institute Standard relating to:  Select exactly 1 answer(s) from the following:   A. Loyalty to Employer.  B. Disclosure of Conflicts.  C. Loyalty, Prudence, and Care. </choice>
+		<choice id="B">Disclosure of Conflicts.</choice>
+		<choice id="C">Loyalty, Prudence, and Care.</choice>
 		<choice id="D">Independence and Objectivity. </choice>
 	</choices>
 	<answer>A</answer>
