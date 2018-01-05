@@ -30,8 +30,8 @@ class ProblemsWriter:
             self.add_question(df, i_row, problem)
             choices = ET.SubElement(problem, 'choices')
             self.add_choice(df, i_row, choices, 'A')
-            self.add_choice(df, i_row, choices, 'A')
-            self.add_choice(df, i_row, choices, 'A')
+            self.add_choice(df, i_row, choices, 'B')
+            self.add_choice(df, i_row, choices, 'C')
             if 'choice_D' in df:
                 self.add_choice(df, i_row, choices, 'D')
             self.add_answers(df, i_row, problem)
@@ -49,6 +49,7 @@ class ProblemsWriter:
     def add_question(self, df, i_row, problem):
         question_node = ET.SubElement(problem, 'question')
         question_node.text = df.loc[i_row, 'question']
+        question_node.attrib['id'] = str(df.loc[i_row, 'question_nb'])
 
     def add_choice(self, df, i_row, choices_node, id):
         choice_text = df.loc[i_row, 'choice_' + id]
