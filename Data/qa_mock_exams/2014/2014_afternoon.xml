@@ -1,4 +1,46 @@
 <problems>
+    <dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>19</start>
+		<end>27</end>
+	</topic>
+	<topic id="Economics">
+		<start>28</start>
+		<end>39</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>40</start>
+		<end>63</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>64</start>
+		<end>77</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>78</start>
+		<end>82</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>83</start>
+		<end>86</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>87</start>
+		<end>98</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>99</start>
+		<end>113</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>114</start>
+		<end>120</end>
+	</topic>
+    </dispatch>
     <problem>
         <question>1. Linda Chin, CFA, is a member of a political group advocating less governmental regulation in all aspects of life. She works in a country where local securities laws are minimal and insider trading is not prohibited. Chin's politics are reflected in her investment strategy, where she follows her country's mandatory legal and regulatory requirements. Which of the following actions by Chin would be most consistent with the CFA Institute Standards of Professional Conduct?</question>
         <choices>

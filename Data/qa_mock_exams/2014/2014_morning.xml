@@ -1,4 +1,46 @@
 <problems>
+    <dispatch>
+	<topic id="Ethical and Professional Standards">
+		<start>1</start>
+		<end>18</end>
+	</topic>
+	<topic id="Corporate Finance">
+		<start>19</start>
+		<end>28</end>
+	</topic>
+	<topic id="Economics">
+		<start>29</start>
+		<end>40</end>
+	</topic>
+	<topic id="Financial Statement Analysis">
+		<start>41</start>
+		<end>64</end>
+	</topic>
+	<topic id="Quantitative Methods">
+		<start>65</start>
+		<end>79</end>
+	</topic>
+	<topic id="Alternative Investments">
+		<start>80</start>
+		<end>83</end>
+	</topic>
+	<topic id="Derivative Investments">
+		<start>84</start>
+		<end>89</end>
+	</topic>
+	<topic id="Equity Investments">
+		<start>90</start>
+		<end>101</end>
+	</topic>
+	<topic id="Fixed Income Investments">
+		<start>102</start>
+		<end>115</end>
+	</topic>
+	<topic id="Portfolio Management">
+		<start>116</start>
+		<end>120</end>
+	</topic>
+    </dispatch>
     <problem>
         <question>1. Carlos Cruz, CFA, is one of two founders of an equity hedge fund. Cruz manages the fund's assets, and the other co-founder, Brian Burkeman, CFA, is responsible for fund sales and marketing. Cruz notices the most recent sales material used by Burkeman indicates assets under management are listed at a higher value than the current market value. Burkeman justifies the discrepancy by stating recent market declines account for the difference. To comply with the CFA Institute Standards of Professional Conduct, Cruz should least likely take which of the following actions?</question>
         <choices>
