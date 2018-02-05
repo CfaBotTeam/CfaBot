@@ -1,1 +1,0 @@
-{"id": 1881, "text": "Under IFRS, the permissible methods are:\n\u2022 Specific identification.\nFirst-in, first-out.\n\u2022 Weighted average cost.\nU.S. GAAP permits these same cost flow methods, as well as the last-in, first-out (LIFO)\nmethod. LIFO is not allowed under IFRS.\n"}

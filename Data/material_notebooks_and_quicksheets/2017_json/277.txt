@@ -1,1 +1,0 @@
-{"id": 277, "text": "Bayes' formula is used to update a given set of prior probabilities for a given event in\nresponse to the arrival of new information. The rule for updating prior probability of an\nevent is:\nupdated probability =\nprobability of new information for a given event\nunconditional probability of new information\n\u201cx prior probability of event\n"}

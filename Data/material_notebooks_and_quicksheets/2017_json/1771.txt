@@ -1,1 +1,0 @@
-{"id": 1771, "text": "The inverse of the inventory turnover times 365 is the average inventory processing\nperiod, number of days of inventory, or days of inventory on hand:\n365\ndays of inventory on hand =\ninventory turnover\n"}

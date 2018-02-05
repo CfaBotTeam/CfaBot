@@ -1,1 +1,0 @@
-{"id": 2339, "text": "The CAPM is one of the most fundamental concepts in investment theory. The CAPM\nis an equilibrium model that predicts the expected return on a stock, given the expected\nreturn on the market, the stock's beta coefficient, and the risk-free rate.\n"}

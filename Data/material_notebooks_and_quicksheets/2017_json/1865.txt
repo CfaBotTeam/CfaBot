@@ -1,1 +1,0 @@
-{"id": 1865, "text": "17. B g = (retention rate) (ROE)\nROE = net profit margin x asset turnover x equity multiplier = (0.1)(0.9)(1.2) = 0.108\ng = (1 - 0.4)(0.108) = 6.5%\n18. B An earnings forecast model would typically estimate expenses as a percentage of sales.\n"}

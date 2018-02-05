@@ -1,1 +1,0 @@
-{"id": 1137, "text": "LOS 18.m\nThe real trend rate is the long-term sustainable real growth rate of an economy. The\nneutral interest rate is the sum of the real trend rate and the target inflation rate.\nMonetary policy is said to be contractionary when the policy rate is above the neutral\nrate and expansionary when the policy rate is below the neutral rate.\n"}

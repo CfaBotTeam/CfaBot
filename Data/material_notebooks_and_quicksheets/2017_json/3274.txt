@@ -1,1 +1,0 @@
-{"id": 3274, "text": "Example: Credit analysis with financial ratios (Part 2)\n2. Coyote Media is also a multimedia company and is a rival of Saxor. Given the\nfollowing ratios for Coyote over the same period, calculate the 3-year averages for both\nSaxor and Coyote and comment on which multimedia company is expected to have a\nbetter credit rating.\n"}

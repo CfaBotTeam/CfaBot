@@ -1,1 +1,0 @@
-{"id": 3756, "text": "Answer:\nStep 1: Take the average YTM of the 6-year bonds, (5.232 + 5.284) / 2 = 5.258%.\nStep 2: Average the YTM of the 4-year bond with the average 6-year bond yield,\n(4.738 + 5.258) / 2 = 4.998%.\nStep 3: Price the nontraded bond with a YTM of 4.998%.\n"}

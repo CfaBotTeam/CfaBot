@@ -1,1 +1,0 @@
-{"id": 1121, "text": "Monetary policy and fiscal policy may each be either expansionary or contractionary, so\nthere are four possible scenarios:\n1. Expansionary fiscal and monetary policy: In this case, the impact will be highly\nexpansionary taken together. Interest rates will usually be lower (due to monetary\npolicy), and the private and public sectors will both expand.\n"}

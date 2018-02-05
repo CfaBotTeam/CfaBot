@@ -1,1 +1,0 @@
-{"id": 976, "text": "Example: Additivity principle\nA security will make the following payments at the end of the next four years: $100,\n$100, $400, and $100. Calculate the present value of these cash flows using the\nconcept of the present value of an annuity when the appropriate discount rate is 10%.\n"}

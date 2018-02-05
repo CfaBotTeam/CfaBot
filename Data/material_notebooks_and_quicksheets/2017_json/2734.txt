@@ -1,1 +1,0 @@
-{"id": 2734, "text": "\u2022 Confirm that comparable firms have similar sources of sales and earnings, have\nsimilar sources of demand, and are in similar geographic markets.\n\u2022 Adjust financial statements of non-financial companies for any financing subsidiary\ndata they include.\n"}

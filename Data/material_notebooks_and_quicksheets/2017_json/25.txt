@@ -1,1 +1,0 @@
-{"id": 25, "text": "The following is a review of the Quantitative Methods: Basic Concepts principles designed to address\nthe learning outcome statements set forth by CFA Institute. Cross-Reference to CFA Institute Assigned\nReading #7.\n"}

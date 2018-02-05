@@ -1,1 +1,0 @@
-{"id": 2282, "text": "Flatter indifference curves (less risk aversion) result in an optimal portfolio with higher\nrisk and higher expected return. An investor who is less risk averse will optimally choose\na portfolio with more invested in the risky asset portfolio and less invested in the riskfree asset.\n"}

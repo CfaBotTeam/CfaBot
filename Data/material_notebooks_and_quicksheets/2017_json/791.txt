@@ -1,1 +1,0 @@
-{"id": 791, "text": "Members must distinguish between opinions and facts and always include the basic\ncharacteristics of the security being analyzed in a research report. Expectations based on\nstatistical modeling and analysis are not facts.\n"}

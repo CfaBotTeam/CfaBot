@@ -1,1 +1,0 @@
-{"id": 1448, "text": "Example: Calculating and using the GDP deflator\n1. GDP in 20x2 is $1.80 billion at 20x2 prices and $1.65 billion when calculated\nusing 20X1 prices. Calculate the GDP deflator using 20X1 as the base period.\n"}

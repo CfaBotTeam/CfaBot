@@ -1,1 +1,0 @@
-{"id": 2241, "text": "The covariance of the returns of two securities can be standardized by dividing by the\nproduct of the standard deviations of the two securities. This standardized measure of\nco-movement is called correlation and is computed as:\n"}

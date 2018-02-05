@@ -1,1 +1,0 @@
-{"id": 3250, "text": "4. Credit ratings lag market pricing. Market prices and credit spreads change much\nfaster than credit ratings. Additionally, two bonds with same rating can trade at\ndifferent yields. Market prices reflect expected losses, while credit ratings only assess\ndefault risk.\n"}

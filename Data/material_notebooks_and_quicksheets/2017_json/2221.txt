@@ -1,1 +1,0 @@
-{"id": 2221, "text": "The geometric mean return is a compound annual rate. When periodic rates of return\nvary from period to period, the geometric mean return will have a value less than the\narithmetic mean return:\ngeometric mean return = /(1+R)x(1+R2)x(1+R3)x...x(1+R)-1\n"}

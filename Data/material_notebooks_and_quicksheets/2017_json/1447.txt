@@ -1,1 +1,0 @@
-{"id": 1447, "text": "The GDP deflator is a price index that can be used to convert nominal GDP into real\nGDP, taking out the effects of changes in the overall price level. The GDP deflator is\nbased on the current mix of goods and services, using prices at the beginning and end of\nthe period. The GDP deflator is calculated as:\n"}

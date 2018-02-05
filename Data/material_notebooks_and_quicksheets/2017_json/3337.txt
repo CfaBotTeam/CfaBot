@@ -1,1 +1,0 @@
-{"id": 3337, "text": "A futures contract is a forward contract that is standardized and exchange-traded. The\nprimary ways in which forwards and futures differ are that futures are traded in an active\nsecondary market, subject to greater regulation, backed by a clearinghouse, and require a\ndaily cash settlement of gains and losses.\n"}

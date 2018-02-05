@@ -1,1 +1,0 @@
-{"id": 3182, "text": "Example: Money duration\n1. Calculate the money duration on a coupon date of a $2 million par value bond\nthat has a modified duration of 7.42 and a full price of 101.32, expressed for the\nwhole bond and per $100 of face value.\n"}

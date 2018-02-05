@@ -1,1 +1,0 @@
-{"id": 637, "text": "Which of the following statements about hypothesis testing is least accurate?\nA. The power of test = 1- P(Type II error).\nB. If the computed z-statistic = -2 and the critical z-value = -1.96, the null\nhypothesis is rejected.\nC. The calculated z-statistic for a test of a sample mean when the population\nvariance is known is: z=\n"}

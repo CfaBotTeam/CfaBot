@@ -1,1 +1,0 @@
-{"id": 3435, "text": "which is put-call forward parity at time 0, the initiation of the forward contract, based\non the principle of no arbitrage. By rearranging the terms, put-call forward parity can\nalso be expressed as:\n"}

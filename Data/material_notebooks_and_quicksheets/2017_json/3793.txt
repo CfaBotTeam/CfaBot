@@ -1,1 +1,0 @@
-{"id": 3793, "text": "This can be interpreted to mean that a dollar compounded at 2.997% for three years\nwould produce the same ending value as a dollar that earns compound interest of 2%\nthe first year, 3% the next year, and 4% for the third year.\n"}

@@ -1,1 +1,0 @@
-{"id": 2613, "text": "In markets that are highly efficient, investors can typically expect market values to reflect\nintrinsic values. If markets are not completely efficient, active managers will buy assets\nfor which they think intrinsic values are greater than market values and sell assets for\nwhich they think intrinsic values are less than market values.\n"}

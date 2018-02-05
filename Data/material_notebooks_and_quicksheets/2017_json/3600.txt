@@ -1,1 +1,0 @@
-{"id": 3600, "text": "LOS 60.0\nThe primary motivation for adding alternative investments to a portfolio is to reduce\nportfolio risk based on the less-than-perfect correlation between alternative asset returns\nand traditional asset returns. For many alternative investments, the expertise of the\nmanager can be an important determinant of returns.\n"}

@@ -1,1 +1,0 @@
-{"id": 1919, "text": "Big 4 reports inventory under LIFO. Due to a strike, no units were produced during\n20x8. During 20X8, Big 4 sold 440 units. In the absence of the strike, Big 4 would\nhave had a cost of $14 for each unit produced. Compute the extra profit that resulted\nfrom the inventory liquidation.\n"}

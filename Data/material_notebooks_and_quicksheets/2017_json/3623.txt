@@ -1,1 +1,0 @@
-{"id": 3623, "text": "Note that increasing compounding frequency increases the effective annual yield for\nany given stated rate. In the limit, as compounding periods get shorter (more frequent),\ncompounding is continuous. A stated rate of r%, with continuous compounding, results\nin an effective annual return of e' - 1.\n"}

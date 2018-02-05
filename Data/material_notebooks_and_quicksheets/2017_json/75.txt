@@ -1,1 +1,0 @@
-{"id": 75, "text": "LOS 7.6\nFor mutually exclusive projects, IRR rankings and NPV rankings may differ due to\ndifferences in project size or in the timing of the cash flows. Choose the project with the\nhigher NPV as long as it is positive.\nA project may have multiple IRRs or no IRR.\n"}

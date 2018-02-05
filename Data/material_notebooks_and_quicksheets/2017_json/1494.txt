@@ -1,1 +1,0 @@
-{"id": 1494, "text": "Having explained the factors that cause shifts in the aggregate demand and aggregate\nsupply curves, we now turn our attention to the effects of fluctuations in aggregate\nsupply and demand on real GDP and the business cycle. Our starting point is an\neconomy that is in long-run full-employment equilibrium, as illustrated in Figure 10.\n"}

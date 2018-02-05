@@ -1,1 +1,0 @@
-{"id": 2447, "text": "Futures contracts are similar to forward contracts except that they are standardized as\nto amount, asset characteristics, and delivery time and are traded on an exchange (in a\nsecondary market) so that they are liquid investments.\n"}

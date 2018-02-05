@@ -1,1 +1,0 @@
-{"id": 3892, "text": "As an example, Figure 5 shows the average life for a hypothetical structure that includes\na PAC I tranche and a support tranche at various PSA speeds, assuming the PSA speed\nstays at that level for the entire life of the PAC tranche.\n"}

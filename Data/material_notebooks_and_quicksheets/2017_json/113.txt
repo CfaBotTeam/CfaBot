@@ -1,1 +1,0 @@
-{"id": 113, "text": "Example: Weighted mean as a portfolio return\nA portfolio consists of 50% common stocks, 40% bonds, and 10% cash. If the return\non common stocks is 12%, the return on bonds is 7%, and the return on cash is 3%,\nwhat is the portfolio return?\n"}

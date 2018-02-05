@@ -1,1 +1,0 @@
-{"id": 3805, "text": "Example: Computing a bond value using forward rates\nThe current 1-year rate, S, is 4%, the 1-year forward rate for lending from time = 1\nto time = 2 is lyly = 5%, and the 1-year forward rate for lending from time = 2 to\ntime = 3 is 2yly = 6%. Value a 3-year annual-pay bond with a 5% coupon and a par\nvalue of $1,000.\n"}

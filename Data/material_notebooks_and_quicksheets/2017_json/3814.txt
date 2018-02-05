@@ -1,1 +1,0 @@
-{"id": 3814, "text": "Example: Zero-volatility spread\n1-, 2-, and 3-year spot rates on Treasuries are 4%, 8.167%, and 12.377%, respectively.\nConsider a 3-year, 9% annual coupon corporate bond trading at 89.464. The YTM\nis 13.50%, and the YTM of a 3-year Treasury is 12%. Compute the G-spread and the\nZ-spread of the corporate bond.\n"}

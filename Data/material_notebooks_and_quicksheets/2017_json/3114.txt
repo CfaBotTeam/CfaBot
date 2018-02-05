@@ -1,1 +1,0 @@
-{"id": 3114, "text": "Key characteristics of RMBS include:\n\u2022 Pass-through rate, the coupon rate on the RMBS.\n\u2022 Weighted average maturity (WAM) and weighted average coupon (WAC) of the\nunderlying pool of mortgages.\nConditional prepayment rate (CPR), which may be compared to the Public\nSecurities Administration (PSA) benchmark for expected prepayment rates.\n"}

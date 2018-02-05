@@ -1,1 +1,0 @@
-{"id": 301, "text": "The probability of an independent event is unaffected by the occurrence of other events,\nbut the probability of a dependent event is changed by the occurrence of another event.\nEvents A and B are independent if and only if:\nP(A|B) = P(A), or equivalently, P(B | A) = P(B)\n"}

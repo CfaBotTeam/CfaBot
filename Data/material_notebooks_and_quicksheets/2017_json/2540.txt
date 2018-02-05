@@ -1,1 +1,0 @@
-{"id": 2540, "text": "The return on a margin transaction is the increase in the value of the position after\ndeducting selling commissions and interest charges, divided by the amount of funds\ninitially invested, including purchase commissions.\n"}

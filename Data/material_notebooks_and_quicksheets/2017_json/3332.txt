@@ -1,1 +1,0 @@
-{"id": 3332, "text": "A forward commitment is a legally binding promise to perform some action in the\nfuture. Forward commitments include forward contracts, futures contracts, and swaps.\nForward contracts and futures contracts can be written on equities, indexes, bonds,\nforeign currencies, physical assets, or interest rates.\n"}

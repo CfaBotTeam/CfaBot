@@ -1,1 +1,0 @@
-{"id": 562, "text": "To conduct a t-test, the t-statistic is compared to a critical t-value at the desired level of\nsignificance with the appropriate degrees of freedom.\nIn the real world, the underlying variance of the population is rarely known, so the t-test\nenjoys widespread application.\n"}

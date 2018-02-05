@@ -1,1 +1,0 @@
-{"id": 3465, "text": "LOS 58.n\nTo determine the value of an option using a one-period binomial model, we calculate\nits payoff following an up-move and following a down-move, estimate risk-neutral\nprobabilities of an up-move and a down-move, calculate the probability-weighted\naverage of its up-move and down-move payoffs, and discount this value by one period.\n"}

@@ -1,1 +1,0 @@
-{"id": 291, "text": "This is similar to the preceding labeling example. Since order does not matter, we take\nthe total number of possible ways to select three of the eight stocks and divide by the\nnumber of possible redundant selections. Thus, the answer is:\n"}

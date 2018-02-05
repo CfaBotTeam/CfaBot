@@ -1,1 +1,0 @@
-{"id": 609, "text": "State the decision rule regarding the hypothesis. With a 24-month sample, there are\n23 degrees of freedom. Using the table of chi-square values at the back of this book,\nfor 23 degrees of freedom and probabilities of 0.975 and 0.025, we find two critical\nvalues, 11.689 and 38.076. Thus, the decision rule is:\n"}

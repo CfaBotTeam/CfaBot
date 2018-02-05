@@ -1,1 +1,0 @@
-{"id": 1764, "text": "Regression Analysis\nRegression analysis can be used to identify relationships between variables. The results\nare often used for forecasting. For example, an analyst might use the relationship\nbetween GDP and sales to prepare a sales forecast.\n"}

@@ -1,1 +1,0 @@
-{"id": 244, "text": "Once we have expected EPS we can use that to calculate the variance of EPS from the\nprobability model in the previous example. The variance is calculated as the probabilityweighted sum of the squared differences between each possible outcome and expected\nEPS.\n"}

@@ -1,1 +1,0 @@
-{"id": 3826, "text": "A spot rate for a maturity of N periods is the geometric mean of forward rates over the\nN periods. The same relation can be used to solve for a forward rate given spot rates for\ntwo different periods.\n"}

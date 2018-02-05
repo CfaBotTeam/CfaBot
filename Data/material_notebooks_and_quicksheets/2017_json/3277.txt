@@ -1,1 +1,0 @@
-{"id": 3277, "text": "Example: Credit ratings based on ratios (Part 1)\nA credit rating agency publishes the following benchmark ratios for bond issues\nof multimedia companies in each of the investment grade ratings, based on 3-year\naverages over the period 20X1 to 20x3:\n"}

@@ -1,1 +1,0 @@
-{"id": 3203, "text": "Macaulay duration has an interesting application in matching a bond to an investor's\ninvestment horizon. When the investment horizon and the bond's Macaulay duration are\nmatched, a parallel shift in the yield curve prior to the first coupon payment will not (or\nwill minimally) affect the investor's horizon return.\n"}

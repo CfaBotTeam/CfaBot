@@ -1,1 +1,0 @@
-{"id": 272, "text": "Using the weights wa = 0.40 and wp = 0.60, the expected return and variance of the\nportfolio are computed as:\nE(R) = w,E(RA) + wgE(R) = (0.4)(0.13) + (0.6)(0.18) = 0.16\nVar(R) = (0.40)?(0.003) + (0.60)?(0.0156) + 2(0.4)(0.60) (0.0066)\n= 0.009264\n"}

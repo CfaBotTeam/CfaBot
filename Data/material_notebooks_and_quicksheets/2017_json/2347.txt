@@ -1,1 +1,0 @@
-{"id": 2347, "text": "The appropriate trading strategy is:\n\u2022 Short sell Stock A.\n\u2022 Buy Stock B.\n\u2022 Buy, sell, or ignore Stock C.\nWe can do this same analysis graphically. The expected return/beta combinations of\nall three stocks are graphed in the following figure relative to the SML.\n"}

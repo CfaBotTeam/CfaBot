@@ -1,1 +1,0 @@
-{"id": 558, "text": "The t-Test\nThe t-test is a widely used hypothesis test that employs a test statistic that is distributed\naccording to a t-distribution. Following are the rules for when it is appropriate to use the\nt-test for hypothesis tests of the population mean.\n"}

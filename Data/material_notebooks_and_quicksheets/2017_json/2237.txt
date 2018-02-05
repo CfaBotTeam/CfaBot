@@ -1,1 +1,0 @@
-{"id": 2237, "text": "We can calculate the population variance, o?, when we know the return R, for each period,\nthe total number periods (T), and the mean or expected value of the population's\ndistribution (p), as follows:\n"}

@@ -1,1 +1,0 @@
-{"id": 2001, "text": "Conversely, if a firm expenses an expenditure in the current period, net income is\nreduced by the after-tax amount of the expenditure. In subsequent periods, no allocation\nof cost is necessary. Thus, net income in future periods is higher than if the expenditure\nhad been capitalized.\n"}

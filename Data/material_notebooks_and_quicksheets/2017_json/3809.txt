@@ -1,1 +1,0 @@
-{"id": 3809, "text": "An alternative to using government bond yields as benchmarks is to use rates for interest\nrate swaps in the same currency and with the same tenor as a bond. Yield spreads relative\nto swap rates are known as interpolated spreads or I-spreads. I-spreads are frequently\nstated for bonds denominated in euros.\n"}

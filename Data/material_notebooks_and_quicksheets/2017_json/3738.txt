@@ -1,1 +1,0 @@
-{"id": 3738, "text": "By convention, the YTM on a semiannual coupon bond is expressed as two times\nthe semiannual discount rate. For a 5-year, semiannual pay 7% coupon bond, we can\ncalculate the semiannual discount rate as YTM/2 and then double it to get the YTM\nexpressed as an annual yield.\n35\n35\n= +...+\n"}

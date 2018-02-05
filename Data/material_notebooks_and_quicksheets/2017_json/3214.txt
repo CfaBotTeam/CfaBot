@@ -1,1 +1,0 @@
-{"id": 3214, "text": "Changes in yield to maturity produce market price risk (uncertainty about a bond's\nprice) and reinvestment risk (uncertainty about income from reinvesting coupon\npayments). An increase (a decrease) in YTM decreases (increases) a bond's price but\nincreases (decreases) its reinvestment income.\n"}

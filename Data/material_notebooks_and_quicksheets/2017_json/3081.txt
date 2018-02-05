@@ -1,1 +1,0 @@
-{"id": 3081, "text": "LOS 37.e\nThe operating breakeven quantity of sales is the amount of sales necessary to produce\nan operating income of zero (total revenue just covers total operating costs) and can be\ncalculated as:\nfixed operating costs\nprice \u2013 variable cost per unit\n\u00a92016 Kaplan, Inc.\n"}

@@ -1,1 +1,0 @@
-{"id": 2930, "text": "The main drawbacks of the payback period are that it does not take into account\neither the time value of money or cash flows beyond the payback period, which means\nterminal or salvage value wouldn't be considered. These drawbacks mean that the\npayback period is useless as a measure of profitability.\n"}

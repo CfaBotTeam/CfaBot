@@ -1,1 +1,0 @@
-{"id": 2629, "text": "Professor's Note: Markets can be weak-form efficient without being semi-strong\nor strong-form efficient. If markets are semi-strong form efficient, they must be\nweak-form efficient because public information includes market information,\nbut semi-strong form efficient markets need not be strong-form efficient.\n"}

@@ -1,1 +1,0 @@
-{"id": 2895, "text": "float-adjusted market capitalization-weighted\nindex 228\nflotation costs 54\nforward contract 200\nfoundation 113\nfree cash flow to equity (FCFE) 293\nfree float 227\nfundamental analysis 247\nfundamental value 245, 290\nfundamental weighting 228\nfutures contract 200\n"}

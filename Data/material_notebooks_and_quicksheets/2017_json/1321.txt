@@ -1,1 +1,0 @@
-{"id": 1321, "text": "The previously described relations hold for both price-taker and price-searcher firms.\nWe illustrate these relations in Figure 6 for a price-taker firm (TR increases at a constant\nrate with quantity). Total cost equals total revenue at the breakeven quantities QBei and\n(Bez. The quantity for which economic profit is maximized is shown as Qamax\n"}

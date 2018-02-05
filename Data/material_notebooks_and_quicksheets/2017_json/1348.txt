@@ -1,1 +1,0 @@
-{"id": 1348, "text": "Panel (a) of Figure 4 illustrates that in the short run, economic profit is maximized\nat the quantity for which marginal revenue = marginal cost. As shown in Panel (6),\nprofit maximization also occurs when total revenue exceeds total cost by the maximum\n"}

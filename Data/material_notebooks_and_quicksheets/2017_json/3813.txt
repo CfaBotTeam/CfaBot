@@ -1,1 +1,0 @@
-{"id": 3813, "text": "A method for deriving a bond's yield spread to a benchmark spot yield curve that\naccounts for the shape of the yield curve is to add an equal amount to each benchmark\nspot rate and value the bond with those rates. When we find an amount which, when\nadded to the benchmark spot rates, produces a value equal to the market price of the\n"}

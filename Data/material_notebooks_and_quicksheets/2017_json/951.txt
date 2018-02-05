@@ -1,1 +1,0 @@
-{"id": 951, "text": "The principal and interest component of the second payment can be determined\nusing the following process:\nPayment 1:\nInterest = ($10,000)(0.05) = $500\nPrincipal = $802.43 \u2013 $500 = $302.43\nPayment 2:\nInterest = ($10,000 \u2013 $302.43)(0.05) = $484.88\nPrincipal = $802.43 \u2013 $484.88 = $317.55\n"}

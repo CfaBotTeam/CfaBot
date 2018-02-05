@@ -1,1 +1,0 @@
-{"id": 3310, "text": "Issue credit ratings, or corporate credit ratings, reflect the credit risk of a specific debt\nissue. Notching refers to the practice of adjusting an issue credit rating upward or\ndownward from the issuer credit rating to reflect the seniority and other provisions of a\ndebt issue.\n"}

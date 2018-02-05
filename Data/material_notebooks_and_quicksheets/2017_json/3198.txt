@@ -1,1 +1,0 @@
-{"id": 3198, "text": "Yield\nNegative Convexity y Positive Convexity\nA putable bond has greater convexity than an otherwise identical option-free bond. In\nFigure 4 we illustrate the price-yield relation for a putable bond. At higher yields, the\nput becomes more valuable so that the value of the putable bond falls less than that of an\noption-free bond as yield increases.\n"}

@@ -1,1 +1,0 @@
-{"id": 602, "text": "LOS 12.j: Identify the appropriate test statistic and interpret the results\nfor a hypothesis test concerning 1) the variance of a normally distributed\npopulation, and 2) the equality of the variances of two normally distributed\npopulations based on two independent random samples.\n"}

@@ -1,1 +1,0 @@
-{"id": 3459, "text": "LOS 58.\nAt expiration, the value of a call option is the greater of zero or the underlying asset\nprice minus the exercise price.\nAt expiration, the value of a put option is the greater of zero or the exercise price minus\nthe underlying asset price.\n"}

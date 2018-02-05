@@ -1,1 +1,0 @@
-{"id": 2920, "text": "Internal Rate of Return (IRR)\nFor a normal project, the internal rate of return (IRR) is the discount rate that makes\nthe present value of the expected incremental after-tax cash inflows just equal to the\ninitial cost of the project. More generally, the IRR is the discount rate that makes the\n"}

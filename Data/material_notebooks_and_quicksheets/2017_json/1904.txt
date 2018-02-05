@@ -1,1 +1,0 @@
-{"id": 1904, "text": "LOS 28.e: Explain LIFO reserve and LIFO liquidation and their effects on\nfinancial statements and ratios.\nLOS 28.f: Convert a company's reported financial statements from LIFO to\nFIFO for purposes of comparison.\n"}

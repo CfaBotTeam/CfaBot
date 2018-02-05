@@ -1,1 +1,0 @@
-{"id": 996, "text": "Economists often use the capacity utilization rate of industry to indicate the potential\nfor demand-pull inflation. High rates of capacity utilization suggest the economy is\nproducing at or above potential GDP and may experience inflationary pressure.\n"}

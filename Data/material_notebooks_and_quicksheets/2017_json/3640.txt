@@ -1,1 +1,0 @@
-{"id": 3640, "text": "derivative position \u2013 risk-free asset = - risky asset\nno-arbitrage forward price: F,(T) = S, (1 + Rf)T\npayoff to long forward at expiration = ST- F(T)\nvalue of forward at time t: V(T)= S+PV, (cost) \u2013 PV, (benefit) \u2013\nintrinsic value of a call = Max[0, S - X]\nintrinsic value of a put = Max[0, X-S]\n"}

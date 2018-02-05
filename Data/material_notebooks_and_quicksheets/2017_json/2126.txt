@@ -1,1 +1,0 @@
-{"id": 2126, "text": "LOS 39.\nCommonly used annualized yields for short-term pure discount securities are based on\nthe days to maturity (days) of the securities and include:\n\u2022 Discount-basis yields = % discount from face value x (360/days).\n\u2022 Money market yields = HPY X (360/days).\n\u2022 Bond-equivalent yields = HPY * (365/days).\n"}

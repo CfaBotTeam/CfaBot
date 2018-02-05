@@ -1,1 +1,0 @@
-{"id": 2484, "text": "The leverage ratio of a margin investment is the value of the asset divided by the value of\nthe equity position. For example, an investor who satisfies an initial margin requirement\nof 50% equity has a 2-to-1 leverage ratio so that a 10% increase (decrease) in the price of\nthe asset results in a 20% increase (decrease) in the investor's equity amount.\n"}

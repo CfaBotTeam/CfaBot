@@ -1,1 +1,0 @@
-{"id": 3135, "text": "With these examples, we have demonstrated our first result: that for a fixed-rate bond\nthat does not default and has a reinvestment rate equal to the YTM, an investor who\nholds the bond until maturity will earn a rate of return equal to the YTM at purchase,\nregardless of whether the bond is purchased at a discount or a premium.\n"}

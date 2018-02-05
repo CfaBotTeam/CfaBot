@@ -1,1 +1,0 @@
-{"id": 2404, "text": "Once the universe of asset classes has been specified, the investment manager will collect\ndata on the returns, standard deviation of returns, and correlations of returns with those\nof other asset classes for each asset class.\n"}

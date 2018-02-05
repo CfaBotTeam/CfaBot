@@ -1,1 +1,0 @@
-{"id": 1451, "text": "GDP = C + I + G + (X - M)\nwhere:\nC = consumption spending\nI = business investment (capital equipment, inventories)\nG = government purchases\nX = exports\nM = imports\nUnder the income approach, we have the following equation for GDP:\n"}

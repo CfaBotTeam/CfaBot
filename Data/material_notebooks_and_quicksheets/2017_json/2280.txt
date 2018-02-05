@@ -1,1 +1,0 @@
-{"id": 2280, "text": "Those portfolios that have the greatest expected return for each level of risk make up the\nefficient frontier. The efficient frontier coincides with the top portion of the minimum\nvariance frontier. Risk-averse investors would only choose a portfolio that lies on the\nefficient frontier.\n"}

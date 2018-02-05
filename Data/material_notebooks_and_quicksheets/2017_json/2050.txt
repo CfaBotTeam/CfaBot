@@ -1,1 +1,0 @@
-{"id": 2050, "text": "Intangible Assets with Indefinite Lives\nIntangible assets with indefinite lives are not amortized; rather, they are tested for\nimpairment at least annually. An impairment loss is recognized when the carrying\namount exceeds fair value.\n"}

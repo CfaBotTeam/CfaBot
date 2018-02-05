@@ -1,1 +1,0 @@
-{"id": 342, "text": "Consider the probability function defined earlier for X = {1, 2, 3, 4}, p(x) = x / 10. For\nthis distribution, F(3) = 0.6 = 0.1 + 0.2 + 0.3, and F(4) = 1 = 0.1 + 0.2 + 0.3 + 0.4. This\nmeans that F(3) is the cumulative probability that outcomes 1, 2, or 3 occur, and F(4) is\nthe cumulative probability that one of the possible outcomes occurs.\n"}

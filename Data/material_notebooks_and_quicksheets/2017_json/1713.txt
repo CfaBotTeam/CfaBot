@@ -1,1 +1,0 @@
-{"id": 1713, "text": "LOS 26.a\nCash flow from operating activities (CFO) consists of the inflows and outflows of cash\nresulting from transactions that affect a firm's net income.\nCash flow from investing activities (CFI) consists of the inflows and outflows of cash\nresulting from the acquisition or disposal of long-term assets and certain investments.\n"}

@@ -1,1 +1,0 @@
-{"id": 2305, "text": "The intuition of this relation is straightforward. An investor who chooses to take on no\nrisk (op = 0) will earn the risk-free rate, Rp The difference between the expected return\non the market and the risk-free rate is termed the market risk premium. If we rewrite\nthe CML equation as\nE(Rp)=R\u00a2 + (E(RM)-re) or\n"}

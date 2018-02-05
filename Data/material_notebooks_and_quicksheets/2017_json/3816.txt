@@ -1,1 +1,0 @@
-{"id": 3816, "text": "An option-adjusted spread (OAS) is used for bonds with embedded options. Loosely\nspeaking, the option-adjusted spread takes the option yield component out of the\nZ-spread measure; the OAS is the spread to the government spot rate curve that the\nbond would have if it were option-free.\n"}

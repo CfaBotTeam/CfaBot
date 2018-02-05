@@ -1,1 +1,0 @@
-{"id": 3035, "text": "LOS 36.!\nThe correct method to account for flotation costs of raising new equity capital is to\nincrease a project's initial cash outflow by the flotation cost attributable to the project\nwhen calculating the project's NPV.\n"}

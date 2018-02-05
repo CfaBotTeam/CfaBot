@@ -1,1 +1,0 @@
-{"id": 2055, "text": "If a long-lived asset is abandoned, the treatment is similar to a sale, except there are no\nproceeds. In this case, the carrying value of the asset is removed from the balance sheet\nand a loss of that amount is recognized in the income statement.\n"}

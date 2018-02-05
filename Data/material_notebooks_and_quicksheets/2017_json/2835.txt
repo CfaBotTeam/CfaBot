@@ -1,1 +1,0 @@
-{"id": 2835, "text": "Because we started with the equation for the constant growth DDM, the P/E ratio\ncalculated in this way is the P/E ratio consistent with the constant growth DDM. We\ncan see from the formula that, other things equal, the P/E ratio we have defined here will\n"}

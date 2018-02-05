@@ -1,1 +1,0 @@
-{"id": 1512, "text": "is closely related to technological advances. Generally, total factor productivity cannot be\nobserved directly and must be inferred based on the other factors.\nThe production function can be stated on a per-worker basis by dividing by L:\n%= Axf (%)\n"}

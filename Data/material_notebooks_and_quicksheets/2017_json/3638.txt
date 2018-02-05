@@ -1,1 +1,0 @@
-{"id": 3638, "text": "24. Given a three-year spot rate expressed as a compound annual rate (S3) of 2%, a\nthree-year bond that makes a single payment of $1,000 in three years has a current\nvalue of 1,000 / (1 + 0.02)3= $942.32.\nAn N-year spot rate is the geometric mean of the individual annual forward rates:\n"}

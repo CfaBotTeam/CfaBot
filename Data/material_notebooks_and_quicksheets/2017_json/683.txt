@@ -1,1 +1,0 @@
-{"id": 683, "text": "Analysts use moving average lines to make changes in the trend easier to see. The longer\nthe period used to calculate the moving average, the more short-term fluctuations are\nremoved from the line. Overly long periods may, in fact, obscure changes in a price\ntrend.\n"}

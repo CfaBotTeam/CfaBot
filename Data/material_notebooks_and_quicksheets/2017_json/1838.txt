@@ -1,1 +1,0 @@
-{"id": 1838, "text": "Banks are subject to minimum reserve requirements. Their ratios of various liabilities to\ntheir central bank reserves must be above the minimums. The ratio of a bank's liquid\nassets to certain liabilities is called the liquid asset requirement.\n"}

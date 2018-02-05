@@ -1,1 +1,0 @@
-{"id": 3316, "text": "Credit risk of sovereign debt includes the issuing country's ability and willingness to\npay. Ability to pay is greater for debt issued in the country's own currency than for debt\nissued in a foreign currency. Willingness refers to the possibility that a country refuses to\nrepay its debts.\n"}

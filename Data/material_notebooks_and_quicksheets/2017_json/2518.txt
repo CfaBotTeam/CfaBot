@@ -1,1 +1,0 @@
-{"id": 2518, "text": "There are three main categories of securities markets: quote-driven markets where\ninvestors trade with dealers, order-driven markets where rules are used to match buyers\nand sellers, and brokered markets where investors use brokers to locate a counterparty to\na trade.\n"}

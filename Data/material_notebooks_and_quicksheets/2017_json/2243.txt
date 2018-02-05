@@ -1,1 +1,0 @@
-{"id": 2243, "text": "Example: Calculating mean return, returns variance, returns covariance,\nand correlation\nGiven the six years of percentage returns for Stocks 1 and 2 in the following table,\ncalculate the mean return, sample variance, sample covariance, and correlation for the\ntwo returns series.\n"}

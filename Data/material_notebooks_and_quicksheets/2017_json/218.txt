@@ -1,1 +1,0 @@
-{"id": 218, "text": "probability of B). This calculation is sometimes referred to as the multiplication rule of\nprobability. Using the notation for conditional and unconditional probabilities we can\nexpress this rule as:\n"}

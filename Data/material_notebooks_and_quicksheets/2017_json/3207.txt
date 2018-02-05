@@ -1,1 +1,0 @@
-{"id": 3207, "text": "Example: Investment horizon yields\nConsider an eight-year, 8.5% bond priced at 89.52 to yield 10.5% to maturity. The\nMacaulay duration of the bond is 6. We can calculate the horizon yield for horizons of\n3 years, 6 years, and 8 years, assuming the YTM falls to 9.5% prior to the first coupon\ndate.\n"}

@@ -1,1 +1,0 @@
-{"id": 1896, "text": "Notice the relationship of higher COGS under LIFO and lower ending inventory\nunder LIFO (assuming inflation) still holds whether the firm uses a periodic or\nperpetual inventory system. The point of this example is that under a perpetual system,\nLIFO COGS and ending inventory will differ from those calculated under a periodic\nsystem.\n"}

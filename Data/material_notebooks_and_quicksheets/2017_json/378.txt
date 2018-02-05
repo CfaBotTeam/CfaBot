@@ -1,1 +1,0 @@
-{"id": 378, "text": "Example: Standardizing a random variable (calculating z-values)\nAssume that the annual earnings per share (EPS) for a population of firms are\nnormally distributed with a mean of $6 and a standard deviation of $2.\n"}

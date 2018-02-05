@@ -1,1 +1,0 @@
-{"id": 3689, "text": "Non-sovereign bonds are typically of high credit quality, but sovereign bonds typically\ntrade with lower yields (higher prices) because their credit risk is perceived to be less\nthan that of non-sovereign bonds.\n"}

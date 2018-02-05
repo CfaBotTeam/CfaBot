@@ -1,1 +1,0 @@
-{"id": 3323, "text": "The most common type of securitized bond is a mortgage-backed security (MBS). The\nunderlying assets are a pool of mortgages, and the interest and principal payments from\nthe mortgages are used to pay the interest and principal on the MBS.\n"}

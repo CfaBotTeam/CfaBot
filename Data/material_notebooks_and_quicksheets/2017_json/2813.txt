@@ -1,1 +1,0 @@
-{"id": 2813, "text": "Example: A firm with no current dividend\nA firm currently pays no dividend but is expected to pay a dividend at the end of Year\n4. Year 4 earnings are expected to be $1.64, and the firm will maintain a payout ratio\nof 50%. Assuming a constant growth rate of 5% and a required rate of return of 10%,\nestimate the current value of this stock.\n"}

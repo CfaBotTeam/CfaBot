@@ -1,1 +1,0 @@
-{"id": 2440, "text": "LOS 45.c: Describe the major types of securities, currencies, contracts,\ncommodities, and real assets that trade in organized markets, including their\ndistinguishing characteristics and major subtypes.\n"}

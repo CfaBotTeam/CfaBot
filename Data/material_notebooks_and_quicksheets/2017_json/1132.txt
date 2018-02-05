@@ -1,1 +1,0 @@
-{"id": 1132, "text": "LOS 18.\nThe transmission mechanism for changes in the central bank's policy rate through to\nprices and inflation includes one or more of the following:\n\u2022 Short-term bank lending rates.\n\u2022 Asset prices.\nExpectations for economic activity and future policy rate changes.\nExchange rates with foreign currencies.\n"}

@@ -1,1 +1,0 @@
-{"id": 2127, "text": "The overall objective of short-term cash management is to earn a reasonable return while\ntaking on only very limited credit and liquidity risk. Returns on the firm's short-term\nsecurities investments should be stated as bond equivalent yields. The return on the\nportfolio should be expressed as a weighted average of these yields.\n"}

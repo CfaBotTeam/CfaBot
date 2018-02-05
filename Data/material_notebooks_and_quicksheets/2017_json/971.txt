@@ -1,1 +1,0 @@
-{"id": 971, "text": "The $100 cash flow (deposit) comes at t = 1, so it will earn interest of 10% compounded\nfor two periods (until t = 3). The $200 cash flow (deposit) will earn 10% between t = 2\nand t = 3, and the final cash flow (deposit) of $300 is made at t = 3, so $300 is the future\n(t = 3) value of that cash flow.\n"}

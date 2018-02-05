@@ -1,1 +1,0 @@
-{"id": 2281, "text": "LOS 42.h\nAn indifference curve plots combinations of risk and expected return that an investor\nfinds equally acceptable. Indifference curves generally slope upward because risk-averse\ninvestors will only take on more risk if they are compensated with greater expected\nreturns. A more risk-averse investor will have steeper indifference curves.\n"}

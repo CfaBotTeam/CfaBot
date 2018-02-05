@@ -1,1 +1,0 @@
-{"id": 2973, "text": "Using a financial calculator:\nYear 1:1 = 10%; FV = 3,000; N = 1; PMT = 0; CPT + PV = -2,727\nYear 2: N = 2; FV = 2,000; CPT + PV = -1,653\nYear 3: N = 3; CPT + PV = -1,503\n5,000 - (2,727 + 1,653) = 620, 620 / 1,503 = 0.413, so discounted payback = 2 + 0.4\n= 2.4.\n"}

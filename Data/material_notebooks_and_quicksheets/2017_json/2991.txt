@@ -1,1 +1,0 @@
-{"id": 2991, "text": "The after-tax cost of debt, k (1 - t), is used in computing the WACC. It is the\ninterest rate at which firms can issue new debt (kg) net of the tax savings from the tax\ndeductibility of interest, ky(t):\n"}

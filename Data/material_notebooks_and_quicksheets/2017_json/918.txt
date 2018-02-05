@@ -1,1 +1,0 @@
-{"id": 918, "text": "Alternatively, this problem can be solved by leaving your calculator in the END mode.\nFirst, compute the PV of an ordinary 3-year annuity. Then multiply this PV by\n(1 + I/Y). To use this approach, enter the relevant inputs and compute PV.\nN = 3; I/Y = 10; PMT = -100; CPT \u2013 PVAo = $248.69\n"}

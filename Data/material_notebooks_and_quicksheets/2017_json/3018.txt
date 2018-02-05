@@ -1,1 +1,0 @@
-{"id": 3018, "text": "The following figure is a graph of the marginal cost of capital schedule given in the\nprevious figure. Notice the upward slope of the line due to the increased financing\ncosts as more financing is needed.\nMarginal Cost of Capital Schedule for Omni Corporation\nWACC (%)\n"}

@@ -1,1 +1,0 @@
-{"id": 720, "text": "Z(X; -p)?\npopulation variance =o? = i=1\nN\nwhere p = population mean and N= number of possible outcomes\n\u017bx; -)?\nsample variance = s2 = i=1\n-, where X = sample mean and n= sample size\nn-1\ncoefficient of variation:\nstandard deviation of x\naverage value of x\n"}

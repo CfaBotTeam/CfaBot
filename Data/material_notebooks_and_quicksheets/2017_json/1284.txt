@@ -1,1 +1,0 @@
-{"id": 1284, "text": "The annual interest rates in the United States (USD) and Sweden (SEK) are 4%\nand 7% per year, respectively. If the current spot rate is SEK/USD 9.5238, then\nthe 1-year forward rate in SEK/USD is:\nA. 9.2568.\nB. 9.7985.\nC. 10.2884.\n"}

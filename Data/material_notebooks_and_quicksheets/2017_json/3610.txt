@@ -1,1 +1,0 @@
-{"id": 3610, "text": "LOS 60.e\nThe total fee for a hedge fund consists of a management fee and an incentive fee. Other\nfee structure specifications include hurdle rates and high water marks. Funds of funds\nincur an additional level of management fees. Fee calculations for both management fees\nand incentive fees can differ by the schedule and method of fee determination.\n"}

@@ -1,1 +1,0 @@
-{"id": 1479, "text": "Note that if the economy is operating at potential GDP (LRAS) when the monetary\nexpansion takes place, the increase in real output will be only for the short run. In\nthe long run, subsequent increases in input prices decrease SRAS and return output\nto potential GDP.\n"}

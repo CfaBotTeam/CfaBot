@@ -1,1 +1,0 @@
-{"id": 131, "text": "The population variance is defined as the average of the squared deviations from the\nmean. The population variance (o?) uses the values for all members of a population\nand is calculated using the following formula:\n"}
