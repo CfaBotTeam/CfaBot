@@ -1,0 +1,1 @@
+{"id": "3827", "text": "To value a bond using forward rates, discount the cash flows at times 1 through N by the\nproduct of one plus each forward rate for periods 1 to N, and sum them.\nFor a 3-year annual-pay bond:\ncoupon\ncoupon + principal\n(1+SI)\" (1+SI)(1+lyly) (1+si)(1+ lyly)(1+ 2yly)\n"}

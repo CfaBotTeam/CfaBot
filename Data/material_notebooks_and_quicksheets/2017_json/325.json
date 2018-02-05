@@ -1,0 +1,1 @@
+{"id": "325", "text": "1,032\n-1= 0.075 so price would need to be 1,052 = $960.\nprice\n1.075\n5. A. First, calculate the variances on each of the three stocks:\nVar(A) = (0.24)2 = 0.0576\nVar(B) = (0.18)2 = 0.0324\nVar(C) = (0.15)2 = 0.0225\nThese will be the diagonal entries in the covariance matrix:\nCovariance Matrix of Returns for Stocks A, B, and C\n"}

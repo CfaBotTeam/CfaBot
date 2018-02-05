@@ -1,0 +1,1 @@
+{"id": "1245", "text": "Example: Calculating the arbitrage-free forward exchange rate\nConsider two currencies, the ABE and the DUB. The spot ABE/DUB exchange rate\nis 4.5671, the 1-year riskless ABE rate is 5%, and the 1-year riskless DUB rate is 3%.\nWhat is the 1-year forward exchange rate that will prevent arbitrage profits?\n"}

@@ -1,0 +1,1 @@
+{"id": "612", "text": "where:\nsi = variance of the sample of n, observations drawn from Population 1\ns\u1eaf = variance of the sample of n, observations drawn from Population 2\nNote that n - 1 and n, - 1 are the degrees of freedom used to identify the\nappropriate critical value from the F-table (provided in the Appendix).\n"}

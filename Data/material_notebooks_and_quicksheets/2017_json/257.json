@@ -1,0 +1,1 @@
+{"id": "257", "text": "Joint Probability Table\nJoint Probabilities Rg = 0.30 Rg = 0.10 Rg = 0.00\nR = 0.20\n0.30\nR = 0.12 00.50 0\n0.50\nRA = 0.05 0 0 0.20\nIn more complex applications, there would likely be positive values where the zeros\nappear in the previous table. In any case, the sum of all the probabilities in the cells\non the table must equal 1.\n"}

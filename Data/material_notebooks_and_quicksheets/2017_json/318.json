@@ -1,0 +1,1 @@
+{"id": "318", "text": "9. C There is no intersection of events when events are mutually exclusive. P(A|B) = P(A) x\nP(B) is only true for independent events. Note that since A and B are mutually exclusive\n(cannot both happen), P(A|B) and P(AB) must both be equal to zero.\n10. B P(name 1 or name 2 or name 3 or name 4) = 1/800 + 1/800 + 1/800 + 1/800 = 4/800\n= 0.005\n"}

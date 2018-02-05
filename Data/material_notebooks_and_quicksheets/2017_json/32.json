@@ -1,0 +1,1 @@
+{"id": "32", "text": "Figure 2: Calculating NPV with the HP120\u00ae\nKey Strokes\nExplanation\n[f] (FIN) [f] (REG)\nClear Memory Registers\n5 (CHS) (g) (CF.)\nInitial Cash Outlay\n1.6 g) (CF)\nPeriod i Cash flow\n2.4 [g] [CF)\nPeriod 2 Cash flow\n2.8 [g] [CF)\nPeriod 3 Cash flow\n12 [i]\n12% discount rate\n[f] (NPVI\nCalculate NPV\n"}

@@ -1,0 +1,1 @@
+{"id": "476", "text": "Example: Confidence intervals\nLet's return to the McCreary, Inc. example. Recall that we took a sample of the past\n30 monthly stock returns for McCreary, Inc. and determined that the mean return\nwas 2% and the sample standard deviation was 20%. Since the population variance is\nunknown, the standard error of the sample was estimated to be:\n"}

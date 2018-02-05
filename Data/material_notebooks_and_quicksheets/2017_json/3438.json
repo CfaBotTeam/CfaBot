@@ -1,0 +1,1 @@
+{"id": "3438", "text": "Note that the down-move factor is the reciprocal of the up-move factor, and the\nprobability of an up-move is one minus the probability of a down-move. The one-period\nbinomial tree for the stock is shown in Figure 2. The beginning stock value of $30 is\nto the left, and to the right are the two possible end-of-period stock values, $40.00 and\n$22.50.\n"}
