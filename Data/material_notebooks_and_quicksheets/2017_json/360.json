@@ -1,1 +1,0 @@
-{"id": 360, "text": "One of the important applications of a binomial stock price model is in pricing options.\nWe can make a binomial tree for asset prices more realistic by shortening the length of\nthe periods and increasing the number of periods and possible outcomes.\n"}

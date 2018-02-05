@@ -1,1 +1,0 @@
-{"id": 960, "text": "Alternatively, you can leave your calculator in the END mode, compute the PV of a\n5-year ordinary annuity, and multiply by 1.10.\nN = 5; I/Y = 10; PMT = -1,000;\nCPT + PV = 3,790.79 x 1.1 = PV; = $4,169.87\n"}

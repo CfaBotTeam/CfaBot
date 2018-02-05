@@ -1,1 +1,0 @@
-{"id": 650, "text": "16. A The chi-square test is used to test hypotheses concerning a single population variance.\nSince this is a one-tailed test, the decision rule is to reject H, if x? > the critical\nchi-square value at a = 0.05 with df = 24.\n_(n-1)s^2_(24)(25)\n2= 25.0. The right-tail critical chi-square value is 36.415.\no 24\n"}

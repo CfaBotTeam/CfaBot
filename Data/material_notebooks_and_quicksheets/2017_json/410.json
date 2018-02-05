@@ -1,1 +1,0 @@
-{"id": 410, "text": "The probability that a normally distributed random variable X will be within A standard\ndeviations of its mean, p, [i.e., P( p \u2013 Ao <X<p+ Ao)], may be calculated as F(A) \u2013\nF(-A), where F(A) is the cumulative standard normal probability of A, or as 1 - 2[F(-A)].\n"}

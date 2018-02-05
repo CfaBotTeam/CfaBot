@@ -1,1 +1,0 @@
-{"id": 549, "text": "Given a sample size of 250 with a standard deviation of 0.25%, the standard error can\nbe computed as sy = = 0.25/ V250 = 0.0158%.\nAt the 5% level of significance, the critical z-values for the confidence interval are\n20.025 = 1.96 and -20.025 = -1.96. Thus, given a sample mean equal to 0.1%, the 95%\nconfidence interval for the population mean is:\n"}

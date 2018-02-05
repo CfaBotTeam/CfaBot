@@ -1,1 +1,0 @@
-{"id": 651, "text": "Since x = 25 < 36.415, H, cannot be rejected.\n17. B A one-tailed t-test is appropriate. The decision rule is to reject H, if the computed\nt-statistic > t-critical at a = 0.05 with df = 24. The computed value of the t-statistic\n_-Ho_50 \u2013 48\ns/Va 51 25\n= 2.0, and t-critical = t24 = 1.711. Since t> t-critical, H, should\nbe rejected.\n"}

@@ -1,1 +1,0 @@
-{"id": 281, "text": "Application of Bayes' formula allows us to compute P(I | 0), the probability that\nprices will increase given that Electcomp announces that it will expand overseas (the\nnew information). Using the multiplication rule, we can express the joint probability\nof I and O:\nP(O | I) = P(IO) / P(I), and P(IO) = P(I | 0) * P(O)\n"}

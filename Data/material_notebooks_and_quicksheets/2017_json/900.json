@@ -1,1 +1,0 @@
-{"id": 900, "text": "To find the PV of an ordinary annuity, we use the future cash flow stream, PMT, that\nwe used with FV annuity problems, but we discount the cash flows back to the present\n(time = 0) rather than compounding them forward to the terminal date of the annuity.\n"}
