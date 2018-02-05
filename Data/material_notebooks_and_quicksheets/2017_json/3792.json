@@ -1,0 +1,1 @@
+{"id": 3792, "text": "Example: Computing spot rates from forward rates\nIf the current 1-year spot rate is 2%, the 1-year forward rate one year from today\n(1yly) is 3%, and the 1-year forward rate two years from today (2yly) is 4%, what is\nthe 3-year spot rate?\n"}

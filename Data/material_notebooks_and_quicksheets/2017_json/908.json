@@ -1,0 +1,1 @@
+{"id": 908, "text": "Another way to compute the FV of an annuity due is to calculate the FV of an ordinary\nannuity, and simply multiply the resulting FV by [1 + periodic compounding rate\n(I/Y)]. Symbolically, this can be expressed as:\n"}

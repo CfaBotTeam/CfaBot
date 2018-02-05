@@ -1,0 +1,1 @@
+{"id": 3441, "text": "We can calculate the value of an option on the stock by:\nCalculating the payoff of the option at maturity in both the up-move and downmove states.\nCalculating the expected value of the option in one year as the probability-weighted\naverage of the payoffs in each state.\nDiscounting this expected value back to today at the risk-free rate.\n"}

@@ -1,0 +1,1 @@
+{"id": 3464, "text": "LOS 58.m\nBased on the fact that the present value of an asset\u2019s forward price is equal to its spot\nprice, we can substitute the present value of the forward price into the put-call parity\nrelationship at the initiation of a forward contract to establish put-call-forward parity as:\no + X1 (1 + Rf)T = F(T) / (1 + Rf)\" + Po\n"}

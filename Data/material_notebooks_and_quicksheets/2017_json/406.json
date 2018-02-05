@@ -1,0 +1,1 @@
+{"id": 406, "text": "LOS 10.f\nFor a discrete uniform distribution with n possible outcomes, the probability for each\noutcome equals 1/n.\nFor a binomial distribution, if the probability of success is p, the probability of x\nsuccesses in n trials is:\np(x) = P(X = x) = 7\np* (1-p)\"* = nC, xp* (1-p)=*\n"}

@@ -1,0 +1,1 @@
+{"id": 3199, "text": "By taking account of both a bond's duration (first-order effects) and convexity (secondorder effects), we can improve an estimate of the effects of a change in yield on a bond's\nvalue, especially for larger changes in yield.\nchange in full bond price = -annual modified duration (AYTM)\n+ }, annual convexity (AYTM)2\n"}

@@ -1,0 +1,1 @@
+{"id": 3800, "text": "(1 + S,)2 = (1 + S,)(1 + lyly)\nWe can use it to solve for the 1-year forward rate one year from now:\n(1.08)2\n(1.08)? = (1.04)(1+lyly), so lyly =\n-1= 12.154%\n(1.04)\nWe also know that the relations:\n(1 + S3)3 = (1 + S,)(1 + lyly) (1 + 2yly)\nand, equivalently (1 + S3)3 = (1 + S2)2(1 + 2yly) must hold.\n"}

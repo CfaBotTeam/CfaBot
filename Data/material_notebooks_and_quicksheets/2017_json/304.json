@@ -1,0 +1,1 @@
+{"id": 304, "text": "LOS 9.0\nThe number of ways to order n objects is n factorial, n! = nx (n-1) x (n - 2) x ... x 1.\nN!\nThere are -\nways to assign k different labels to n items, where n;\nni! X ng! X ... X nk!\nis the number of items with the label i.\n"}

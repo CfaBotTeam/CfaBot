@@ -1,0 +1,1 @@
+{"id": 3777, "text": "Example: Pricing a floating-rate note on a reset date\nA semiannual $1,000 par value FRN has two years to maturity, the reference rate\nis 180-day Libor, and the quoted margin is 60 basis points. 180-day Libor today (a\ncoupon payment and reset date) is 3% and the required (discount) margin is 86 basis\npoints. Calculate the value of the FRN.\n"}
