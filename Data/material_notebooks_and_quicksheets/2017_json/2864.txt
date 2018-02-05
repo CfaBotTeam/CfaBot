@@ -1,0 +1,1 @@
+{"id": 2864, "text": "LOS 50.g\nThe P/E ratio based on fundamentals is calculated as:\nPo _DI / EL\nEk-g\nIf the subject firm has a higher dividend payout ratio, higher growth rate, and lower\nrequired return than its peers, it may be justified in having a higher P/E ratio.\n"}

@@ -1,0 +1,1 @@
+{"id": 2363, "text": "LOS 43.d\nA return generating model is an equation that estimates the expected return of an\ninvestment, based on a security's exposure to one or more macroeconomic, fundamental,\nor statistical factors.\n"}

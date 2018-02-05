@@ -1,0 +1,1 @@
+{"id": 610, "text": "Make a decision based on the results of the test. It can be concluded that the recently\nmeasured standard deviation is close enough to the advertised standard deviation that we\ncannot say that it is different from 4%, at a 5% level of significance.\n"}

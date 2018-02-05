@@ -1,0 +1,1 @@
+{"id": 2458, "text": "Alternative trading systems (ATS), which serve the same trading function as exchanges\nbut have no regulatory function, are also known as electronic communication networks\n(ECNs) or multilateral trading facilities (MTFs). ATS that do not reveal current client\norders are known as dark pools.\n"}

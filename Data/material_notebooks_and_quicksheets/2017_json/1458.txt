@@ -1,0 +1,1 @@
+{"id": 1458, "text": "Professor's Note: In the topic review of International Trade and Capital Flows,\nwe will see that a trade deficit (current account deficit) must be associated with\nan inflow of foreign investment (capital account surplus). So we can interpret this\nequation as saying a fiscal deficit must be financed by a combination of domestic\nand foreign capital.\n"}

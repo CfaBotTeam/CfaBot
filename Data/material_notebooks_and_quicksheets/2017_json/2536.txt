@@ -1,0 +1,1 @@
+{"id": 2536, "text": "Securities include fixed income (e.g., bonds, notes, commercial paper), equity (common\nstock, preferred stock, warrants), and pooled investment vehicles (mutual funds,\nexchange-traded funds, hedge funds, asset-backed securities).\n"}

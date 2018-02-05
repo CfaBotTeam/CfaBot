@@ -1,0 +1,1 @@
+{"id": 1018, "text": "LOS 17 i\nLeading indicators have turning points that tend to precede those of the business cycle.\nCoincident indicators have turning points that tend to coincide with those of the\nbusiness cycle.\nLagging indicators have turning points that tend to occur after those of the business\ncycle.\n"}

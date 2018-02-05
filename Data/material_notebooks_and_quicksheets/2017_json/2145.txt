@@ -1,0 +1,1 @@
+{"id": 2145, "text": "Insurance companies invest customer premiums with the objective of funding customer\nclaims as they occur. Life insurance companies have a relatively long-term investment\nhorizon, while property and casualty (P&C) insurers have a shorter investment horizon\nbecause claims are expected to arise sooner than for life insurers.\n"}

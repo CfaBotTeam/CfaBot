@@ -1,0 +1,1 @@
+{"id": 550, "text": "Notice the similarity of this analysis with our test of whether p = 0. We rejected the\nhypothesis p = 0 because the sample mean of 0.1% is more than 1.96 standard errors\nfrom zero. Based on the 95% confidence interval, we reject p = 0 because zero is more\nthan 1.96 standard errors from the sample mean of 0.1%.\n"}

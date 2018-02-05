@@ -1,0 +1,1 @@
+{"id": 242, "text": "model. However, with a probability model, the probabilities of the possible\noutcomes need not be equal, and the simple mean is not necessarily the expected\noutcome, as the following example illustrates.\n"}

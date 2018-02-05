@@ -1,0 +1,1 @@
+{"id": 1921, "text": "Under IFRS, inventory is reported on the balance sheet at the lower of cost or net\nrealizable value. Net realizable value is equal to the expected sales price less the\nestimated selling costs and completion costs. If net realizable value is less than the\n"}

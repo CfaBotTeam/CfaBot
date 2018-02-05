@@ -1,0 +1,1 @@
+{"id": 1701, "text": "The cash flow statement can be converted to common-size format by expressing each\nline item as a percentage of revenue. Alternatively, each inflow of cash can be expressed\nas a percentage of total cash inflows, and each outflow of cash can be expressed as a\npercentage of total cash outflows.\n"}

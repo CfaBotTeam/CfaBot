@@ -1,0 +1,1 @@
+{"id": 3092, "text": "Answer:\nImpact of 20% Stock Dividend on Shareholders\nBefore Stock Dividend\nShares outstanding 1,000,000\nEarnings per share $1.50\nStock price\n$30.00\nTotal market value 1,000,000 x $30 = $30,000,000\nShares owned\n100\nOwnership value 100 x $30 = $3,000\nOwnership stake 100 / 1,000,000 = 0.01%\n"}

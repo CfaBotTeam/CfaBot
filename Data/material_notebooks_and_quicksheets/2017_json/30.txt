@@ -1,0 +1,1 @@
+{"id": 30, "text": "The NPV for this project is the sum of the PVs of the project's individual cash flows\nand is determined as follows:\nNPV --$5.0 - $1.6, $2.4 $2.8\n\"1.12 \" (1.12)? \" (1.12)3\n=-$5.0 + $1.42857 + $1.91327 + $1.99299\n= $0.3348 million, or $334,800\n"}

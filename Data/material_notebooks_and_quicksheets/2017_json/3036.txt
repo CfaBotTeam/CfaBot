@@ -1,0 +1,1 @@
+{"id": 3036, "text": "A company has $5 million in debt outstanding with a coupon rate of 12%.\nCurrently, the yield to maturity (YTM) on these bonds is 14%. If the firm's tax\nrate is 40%, what is the company's after-tax cost of debt?\nA. 5.6%.\nB. 8.4%.\nC. 14.0%.\n"}

@@ -1,0 +1,1 @@
+{"id": 2187, "text": "Risk budgeting is the process of allocating firm resources to assets (or investments)\nby considering their various risk characteristics and how they combine to meet the\norganization's risk tolerance. The goal is to allocate the overall amount of acceptable risk\nto the mix of assets or investments that have the greatest expected returns over time.\n"}

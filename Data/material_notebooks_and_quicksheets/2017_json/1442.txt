@@ -1,0 +1,1 @@
+{"id": 1442, "text": "For the whole economy, total expenditures and total income must be equal, so the two\napproaches should produce the same result. In practice, measurement issues result in\ndifferent values under the two methods.\n"}

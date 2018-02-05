@@ -1,0 +1,1 @@
+{"id": 1720, "text": "CFI is calculated by determining the changes in asset accounts that result from investing\nactivities. The cash flow from selling an asset is its book value plus any gain on the sale\n(or minus any loss on the sale).\n"}

@@ -1,0 +1,1 @@
+{"id": 3783, "text": "Because the periodicity of the money market security, 365 / 100, is greater than\nthe periodicity of 2 for a semiannual-pay bond, the simple annual rate for the\nmoney market security, 1.5%, is less than the yield on a semiannual bond basis,\nwhich has a periodicity of 2.\n"}

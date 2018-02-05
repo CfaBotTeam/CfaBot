@@ -1,0 +1,1 @@
+{"id": 47, "text": "As an example, consider a Treasury bill purchased for $980 and sold three months later\nfor $992. The holding period return can be calculated as:\nending value \u2013 beginning value ending value\nHPR =\nbeginning value\nbeginning value\n"}

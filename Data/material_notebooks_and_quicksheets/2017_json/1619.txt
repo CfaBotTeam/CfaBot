@@ -1,0 +1,1 @@
+{"id": 1619, "text": "LOS 25.d\nCurrent (noncurrent) assets are those expected to be used up or converted to cash in less\nthan (more than) one year or the firm's operating cycle, whichever is greater.\nCurrent (noncurrent) liabilities are those the firm expects to satisfy in less than (more\nthan) one year or the firm's operating cycle, whichever is greater.\n"}

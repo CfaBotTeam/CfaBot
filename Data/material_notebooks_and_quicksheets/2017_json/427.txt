@@ -1,0 +1,1 @@
+{"id": 427, "text": "12. C Success = passing the exam. Then, E(success) = np = 15 x 0.4 = 6.\n13. B This is true by the formula for z.\n14. C By the symmetry of the 2-distribution and F(0) = 0.5. Half the distribution lies on each\nside of the mean.\n"}

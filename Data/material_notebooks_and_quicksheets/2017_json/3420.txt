@@ -1,0 +1,1 @@
+{"id": 3420, "text": "3. The risk-free rate of interest. An increase in the risk-free rate will increase call\noption values, and a decrease in the risk-free rate will decrease call option values.\nAn increase in the risk-free rate will decrease put option values, and a decrease in the\nrisk-free rate will increase put option values.\n"}

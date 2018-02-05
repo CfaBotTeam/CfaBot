@@ -1,0 +1,1 @@
+{"id": 1016, "text": "LOS 17.g\nA Laspeyres price index is based on the cost of a specific basket of goods and services\nthat represents actual consumption in a base period. New goods, quality improvements,\nand consumers' substitution of lower-priced goods for higher-priced goods over time\ncause a Laspeyres index to be biased upward.\n"}

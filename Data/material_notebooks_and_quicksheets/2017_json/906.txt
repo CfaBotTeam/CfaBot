@@ -1,0 +1,1 @@
+{"id": 906, "text": "The five annual coupon payments of 70 euros each can be viewed as an ordinary\nannuity. The maturity value of 1,000 euros is the future value of the bond at the time\nthe last coupon payment is made. On a time line, the promised payment stream is as\nshown below.\n"}

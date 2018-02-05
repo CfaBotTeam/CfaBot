@@ -1,0 +1,1 @@
+{"id": 3439, "text": "The probabilities of an up-move and a down-move are calculated based on the size of the\nmoves and the risk-free rate:\n1+RF - D\nmu = risk-neutral probability of an up-move =\nU-D\nTo = risk-neutral probability of a down-move =1- TU\n"}

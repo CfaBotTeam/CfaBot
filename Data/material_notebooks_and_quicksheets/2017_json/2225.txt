@@ -1,0 +1,1 @@
+{"id": 2225, "text": "t = 2: dividend from two shares = -$3.00\nproceeds from selling shares = -$170.00\nSubtotal, t= 2\n-$173.00 outflow from account\nStep 2: Net the cash flows for each time period and set the PV of cash inflows equal\nto the present value of cash outflows.\n"}

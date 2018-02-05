@@ -1,0 +1,1 @@
+{"id": 392, "text": "(1+0,101-1=10.47%. Daily or even hourly compounding will produce still larger\neffective yields. The limit of this exercise, as the compounding periods get shorter\nand shorter, is called continuous compounding. The effective annual rate, based on\n"}

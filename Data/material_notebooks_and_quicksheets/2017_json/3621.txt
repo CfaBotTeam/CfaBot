@@ -1,0 +1,1 @@
+{"id": 3621, "text": "7. A bank CD has a stated annual rate of 6% with semiannual compounding\n(periodicity of 2); the effective annual rate is (1 + 0.06 / 2)2 = 1.032 - 1 = 6.09%\nand a $1,000 investment will return $1,000 (1.0609) = $1,060.90 at the end of one\nyear.\n"}

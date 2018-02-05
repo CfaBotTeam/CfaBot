@@ -1,0 +1,1 @@
+{"id": 1557, "text": "Currency effects can differ in direction from GDP growth effects and change in response\nto a complex set of variables. The effects of changes in GDP levels and growth rates are\nmore direct and immediate.\n"}

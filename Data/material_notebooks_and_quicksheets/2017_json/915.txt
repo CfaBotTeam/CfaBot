@@ -1,0 +1,1 @@
+{"id": 915, "text": "The advantage of this second method is that you leave your calculator in the END mode\nand won't run the risk of forgetting to reset it. Regardless of the procedure used, the\ncomputed PV is given as of the beginning of the first period, t = 0.\n"}

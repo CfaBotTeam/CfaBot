@@ -1,0 +1,1 @@
+{"id": 2931, "text": "The main benefit of the payback period is that it is a good measure of project\nliquidity. Firms with limited access to additional liquidity often impose a maximum\npayback period and then use a measure of profitability, such as NPV or IRR, to\nevaluate projects that satisfy this maximum payback period constraint.\n"}

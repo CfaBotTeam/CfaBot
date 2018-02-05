@@ -1,0 +1,1 @@
+{"id": 309, "text": "Consider a universe of ten bonds from which an investor will ultimately\npurchase six bonds for his portfolio. If the order in which he buys these bonds is\nnot important, how many potential 6-bond combinations are there?\nA. 7.\nB. 210.\nC. 5,040.\n"}

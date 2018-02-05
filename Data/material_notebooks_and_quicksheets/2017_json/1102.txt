@@ -1,0 +1,1 @@
+{"id": 1102, "text": "The fiscal multiplier is inversely related to the tax rate (higher tax rate decreases the\nmultiplier) and directly related to the marginal propensity to consume (higher MPC\nincreases the multiplier).\n"}

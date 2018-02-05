@@ -1,0 +1,1 @@
+{"id": 2299, "text": "Because a risk-free asset has zero standard deviation and zero correlation of returns with\na risky portfolio, allowing Asset B to be the risk-free asset and Asset A to be the risky\nasset portfolio results in the following reduced equation:\nOp = /w\u1eaeo\u017e = WAOA\n"}

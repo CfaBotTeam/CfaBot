@@ -1,0 +1,1 @@
+{"id": 3110, "text": "Final Review Options:\n> Live 3-Day Review Workshop\n(held in select cities)\n> Live Online 3-Day Review Workshop\n> NYC 5-Day Review Workshop\n> DFW 5-Day Review Workshop*\n> WindsorWeek\"*\n> Live Schweser Mock Exam\n(offered in select cities worldwide)\n> Live Online Schweser Mock Exam\n*Only offered for June exam\n"}

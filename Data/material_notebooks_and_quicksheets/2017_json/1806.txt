@@ -1,0 +1,1 @@
+{"id": 1806, "text": "Current ratio\nQuick ratio\nDays of sales outstanding\nInventory turnover\nTotal asset turnover\nWorking capital turnover\nGross profit margin\nNet profit margin\nReturn on total capital\nReturn on common equity\nDebt-to-equity\nInterest coverage\n"}

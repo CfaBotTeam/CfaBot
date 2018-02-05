@@ -1,0 +1,1 @@
+{"id": 588, "text": "Make a decision regarding the hypothesis. Since the test statistic, \u20135.474, falls to the\nleft of the lower critical t-value, we reject the null hypothesis and conclude that the\nannouncement period mean abnormal returns are different for horizontal and vertical\nmergers.\n"}

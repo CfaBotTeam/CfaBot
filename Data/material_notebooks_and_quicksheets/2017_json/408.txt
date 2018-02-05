@@ -1,0 +1,1 @@
+{"id": 408, "text": "uus = 1.012 x 50 = 51.01 with probability (0.6)? = 0.36\nuds =1.01(4.01) x 50 = 50 with probability (0.6)(0.4) = 0.24\ndus = (%.01)(1.01)x50 = 50 with probability (0.4)(0.6) = 0.24\ndds = (.01x50 = 49.01 with probability (0.4)? = 0.16\n"}

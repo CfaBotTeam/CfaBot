@@ -1,0 +1,1 @@
+{"id": 3245, "text": "Bonds in default are rated D by Standard & Poor's and Fitch and are included in\nMoody's lowest rating category, C. When a company defaults on one of its several\noutstanding bonds, provisions in bond indentures may trigger default on the remaining\nissues as well. Such a provision is called a cross default provision.\n"}

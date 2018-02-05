@@ -1,0 +1,1 @@
+{"id": 76, "text": "LOS 7.d\nThe money-weighted rate of return is the IRR calculated using periodic cash flows into\nand out of an account and is the discount rate that makes the PV of cash inflows equal\nto the PV of cash outflows.\n"}

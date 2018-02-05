@@ -1,0 +1,1 @@
+{"id": 2491, "text": "Securities dealers provide prices at which they will buy and sell shares. The bid price is\nthe price at which a dealer will buy a security. The ask or offer price is the price at which\na dealer will sell a security. The difference between the bid and ask prices is referred to\n"}

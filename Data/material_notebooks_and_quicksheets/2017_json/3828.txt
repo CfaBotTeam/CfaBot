@@ -1,0 +1,1 @@
+{"id": 3828, "text": "LOS 53.i\nA yield spread is the difference between a bond's yield and a benchmark yield or\nyield curve. If the benchmark is a government bond yield, the spread is known as a\ngovernment spread or G-spread. If the benchmark is a swap rate, the spread is known as\nan interpolated spread or 1-spread.\n"}

@@ -1,0 +1,1 @@
+{"id": 3015, "text": "Break points occur any time the cost of one of the components of the company's WACC\nchanges. A break point is calculated as:\nbreak point =\namount of capital at which the component's cost of capital changes\nweight of the component in the capital structure\n\u00a92016 Kaplan, Inc.\n"}

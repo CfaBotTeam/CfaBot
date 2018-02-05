@@ -1,0 +1,1 @@
+{"id": 298, "text": "LOS 9.\nUnconditional probability (marginal probability) is the probability of an event\noccurring.\nConditional probability, P(A|B), is the probability of an event A occurring given that\nevent B has occurred.\n"}

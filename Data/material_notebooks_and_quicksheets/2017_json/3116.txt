@@ -1,0 +1,1 @@
+{"id": 3116, "text": "In a sequential-pay CMO, all scheduled principal payments and prepayments are paid\nto each tranche in sequence until that tranche is paid off. The first tranche to be paid\nprincipal has the most contraction risk and the last tranche to be paid principal has the\nmost extension risk.\n"}

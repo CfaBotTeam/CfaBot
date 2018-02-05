@@ -1,0 +1,1 @@
+{"id": 1079, "text": "When the policy rate is above (below) the neutral rate, the monetary policy is said to\nbe contractionary (expansionary). In general, contractionary policy is associated with\na decrease in the growth rate of money supply, while expansionary policy increases its\ngrowth rate.\n"}

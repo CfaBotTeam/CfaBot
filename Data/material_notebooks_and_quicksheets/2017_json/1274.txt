@@ -1,0 +1,1 @@
+{"id": 1274, "text": "LOS 20.\nPoints in a foreign currency quotation are in units of the last digit of the quotation. For\nexample, a forward quote of +25.3 when the USD/EUR spot exchange rate is 1.4158\nmeans that the forward exchange rate is 1.4158 + 0.00253 = 1.41833 USD/EUR.\n"}

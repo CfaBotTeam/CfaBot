@@ -1,0 +1,1 @@
+{"id": 324, "text": "B. The expected payoff on the bond at maturity is:\nP(default) x bond value if it defaults + P(no default) x bond value if it does not\ndefault = 0.1 (600) + 0.9(1,080) = 60 + 972 = $1,032\nC. The expected return is 1,032 / 950 \u2013 1 = 0.0863, or 8.63%.\n"}

@@ -1,0 +1,1 @@
+{"id": 1277, "text": "If the spot exchange rate for the euro is 1.25 USD/EUR, the euro interest rate is 4% per\nyear, and the dollar interest rate is 3% per year, the no-arbitrage one-year forward rate\ncan be calculated as:\n1.25 x (1.03 / 1.04) = 1.238 USD/EUR.\n"}

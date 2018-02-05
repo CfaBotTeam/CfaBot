@@ -1,0 +1,1 @@
+{"id": 146, "text": "Example: Chebyshev's inequality\nWhat is the minimum percentage of any distribution that will lie within 42 standard\ndeviations of the mean?\nAnswer:\nApplying Chebyshev's inequality, we have:\n1- 1/k2 = 1 - 1/22 = 1- 1/4 = 0.75 or 75%\n"}

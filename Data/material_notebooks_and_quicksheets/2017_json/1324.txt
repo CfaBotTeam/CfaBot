@@ -1,0 +1,1 @@
+{"id": 1324, "text": "The firm should shut down. Total revenue of $700,000 is less than total costs of\n$1,200,000 and also less than total variable costs of $800,000. By shutting down, the\nfirm will lose an amount equal to fixed costs of $400,000. This is less than the loss of\noperating, which is TR \u2013 TC = $500,000.\n"}

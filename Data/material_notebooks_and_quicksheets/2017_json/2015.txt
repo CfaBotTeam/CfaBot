@@ -1,0 +1,1 @@
+{"id": 2015, "text": "Example: Component depreciation\nGlobal Airlines purchased a new airplane with an all-inclusive cost of $50 million. The\nestimated life of the airplane is 30 years and the estimated salvage value is $5 million.\nGlobal expects to replace the interior of the aircraft after 15 years. The component cost\nof the interior is estimated at $3 million.\n"}

@@ -1,0 +1,1 @@
+{"id": 3063, "text": "Example 2: Beta Company financed with 50% equity and 50% debt\nContinuing the previous example, assume that Beta Company is financed with 50%\nequity and 50% debt. The interest rate on the debt is 6%. Calculate Beta's net income\nand return on equity if its EBIT increases or decreases by 10%. Beta's tax rate is 40%.\n"}

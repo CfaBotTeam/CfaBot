@@ -1,0 +1,1 @@
+{"id": 415, "text": "LOS 10.q\nMonte Carlo simulation uses randomly generated values for risk factors, based on\ntheir assumed distributions, to produce a distribution of possible security values. Its\nlimitations are that it is fairly complex and will provide answers that are no better than\nthe assumptions used.\n"}

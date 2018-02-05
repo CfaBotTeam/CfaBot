@@ -1,0 +1,1 @@
+{"id": 1782, "text": "SOLVENCY RATIOS\nSolvency ratios measure a firm's financial leverage and ability to meet its long-term\nobligations. Solvency ratios include various debt ratios that are based on the balance\nsheet and coverage ratios that are based on the income statement.\n\u2022 A measure of the firm's use of fixed-cost financing sources is the debt-to-equity ratio:\n"}

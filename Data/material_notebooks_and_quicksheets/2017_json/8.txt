@@ -1,0 +1,1 @@
+{"id": 8, "text": "LOS 6.f\nConstructing a time line showing future cash flows will help in solving many types of\nTVM problems. Cash flows occur at the end of the period depicted on the time line.\nThe end of one period is the same as the beginning of the next period. For example, a\ncash flow at the beginning of Year 3 appears at time t = 2 on the time line.\n"}

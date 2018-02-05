@@ -1,0 +1,1 @@
+{"id": 234, "text": "Assume that P(R | I) = 0.70, P(R|1), the probability of recession if interest rates\ndo not rise, is 10% and that P(I) = 0.40 so that P(I) = 0.60. The unconditional\nprobability of a recession can be calculated as follows:\nP(R) = P(R| 1) x P(I) + P(R|19) x P(1)\n= (0.70)(0.40) + (0.10)(0.60)\n= 0.28 + 0.06 = 0.34\n"}

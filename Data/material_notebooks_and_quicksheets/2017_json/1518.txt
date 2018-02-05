@@ -1,0 +1,1 @@
+{"id": 1518, "text": "LOS 16.e\nPrivate saving and investment are related to the fiscal balance and the trade balance. A\nfiscal deficit must be financed by some combination of a trade deficit or an excess of\nprivate saving over private investment. (G - T) = (S \u2013 I) \u2013 (X - M).\n"}

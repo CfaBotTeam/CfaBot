@@ -1,0 +1,1 @@
+{"id": 2614, "text": "Intrinsic values cannot be known with certainty and are estimated by investors who\nwill have differing estimates of an asset\u2019s intrinsic value. The more complex an asset,\nthe more difficult it is to estimate its intrinsic value. Furthermore, intrinsic value is\nconstantly changing as new (unexpected) information becomes available.\n"}

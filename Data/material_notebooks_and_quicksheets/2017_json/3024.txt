@@ -1,0 +1,1 @@
+{"id": 3024, "text": "The two methods result in significantly different estimates for the project NPV.\nAdjusting the initial outflow for the dollar amount of the flotation costs is the correct\napproach because it provides the most accurate assessment of the project\u2019s value once\nall costs are considered.\n"}

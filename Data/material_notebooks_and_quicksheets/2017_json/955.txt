@@ -1,0 +1,1 @@
+{"id": 955, "text": "The five years of sales represent four years of growth. Mathematically, the compound\nannual growth rate of sales is (7.1/4.5)4 -1 = 12.1%. The interim sales figures do\nnot enter into the 4-year compound growth rate.\n"}

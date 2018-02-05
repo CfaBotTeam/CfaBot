@@ -1,0 +1,1 @@
+{"id": 711, "text": "LOS 13.d\nTechnical analysts look for recurring patterns in price charts. Head-and-shoulders\npatterns, double tops, and triple tops are thought to be reversal patterns at the ends of\nuptrends. Inverse head-and-shoulders patterns, double bottoms, and triple bottoms are\nthought to be reversal patterns at the ends of downtrends.\n"}

@@ -1,0 +1,1 @@
+{"id": 384, "text": "excess return over the threshold return, Ri> where the Sharpe ratio uses the\nexcess return over the risk-free rate, Ry. When the threshold level is the risk-free\nrate of return, the SFRatio is also the Sharpe ratio.\n"}

@@ -1,0 +1,1 @@
+{"id": 1743, "text": "Various tools and techniques are used to convert financial statement data into formats\nthat facilitate analysis. These include ratio analysis, common-size analysis, graphical\nanalysis, and regression analysis.\n"}

@@ -1,0 +1,1 @@
+{"id": 3632, "text": "18. For the YTM of a semiannual-pay bond on a coupon date with N years remaining\nuntil maturity, we calculate the IRR that satisfies:\n-bond price 4 coupon 1. coupon 2\ncoupon 2N + face value\n1+\n2 |1+2\n"}

@@ -1,0 +1,1 @@
+{"id": 978, "text": "The sum of these two (present) values is identical (except for rounding) to the sum of\nthe present values of the payments of the original series:\n100, 100, 400 100 $542.38\n1.11.12 * 1.131.14\nC+++= $542.38\n"}

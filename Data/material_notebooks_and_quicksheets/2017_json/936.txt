@@ -1,0 +1,1 @@
+{"id": 936, "text": "There are two ways to use your financial calculator to compute PVs and FVs under\ndifferent compounding frequencies:\n1. Adjust the number of periods per year (P/Y) mode on your calculator to correspond\nto the compounding frequency (e.g., for quarterly, P/Y = 4). WE DO NOT\nRECOMMEND THIS APPROACH!\n"}

@@ -1,0 +1,1 @@
+{"id": 493, "text": "Degrees of freedom for the t-distribution are equal to n - 1. Student's t-distribution\nis closer to the normal distribution when df is greater, and confidence intervals are\nnarrower when df is greater.\n"}

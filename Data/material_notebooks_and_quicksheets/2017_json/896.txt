@@ -1,0 +1,1 @@
+{"id": 896, "text": "The PV computed here implies that at a rate of 9%, an investor will be indifferent\nbetween $1,000 in five years and $649.93 today. Put another way, $649.93 is the\namount that must be invested today at a 9% rate of return in order to generate a cash\nflow of $1,000 at the end of five years.\n"}

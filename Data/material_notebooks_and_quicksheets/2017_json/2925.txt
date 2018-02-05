@@ -1,0 +1,1 @@
+{"id": 2925, "text": "Note that the cumulative net cash flow (NCF) is just the running total of the cash\nflows at the end of each time period. Payback will occur when the cumulative NCF\nequals zero. To find the payback periods, construct Table 4.\n"}

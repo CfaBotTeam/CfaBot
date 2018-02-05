@@ -1,0 +1,1 @@
+{"id": 2497, "text": "immediately. If the limit price is between the best bid and the best ask, a limit order is\nsaid to be making a new market or inside the market. Limit orders waiting to execute are\ncalled standing limit orders.\n"}

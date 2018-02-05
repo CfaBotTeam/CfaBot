@@ -1,0 +1,1 @@
+{"id": 1323, "text": "Example: Short-run shutdown decision\nFor the last fiscal year, Legion Gaming reported total revenue of $700,000, total\nvariable costs of $800,000, and total fixed costs of $400,000. Should the firm continue\nto operate in the short run?\n"}

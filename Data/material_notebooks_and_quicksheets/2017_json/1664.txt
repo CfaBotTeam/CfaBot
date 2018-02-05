@@ -1,0 +1,1 @@
+{"id": 1664, "text": "Investing cash flows (CFI) are calculated by examining the change in the gross asset\naccounts that result from investing activities, such as property, plant, and equipment,\nintangible assets, and investment securities. Related accumulated depreciation or\namortization accounts are ignored since they do not represent cash expenses.\n"}

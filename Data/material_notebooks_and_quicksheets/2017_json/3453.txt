@@ -1,0 +1,1 @@
+{"id": 3453, "text": "LOS 58.a\nValuation of derivatives is based on a no-arbitrage condition with risk-neutral pricing.\nBecause the risk of a derivative is entirely based on the risk of the underlying asset, we\ncan construct a fully hedged portfolio and discount its future cash flows at the risk-free\n"}

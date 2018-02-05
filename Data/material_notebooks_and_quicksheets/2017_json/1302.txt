@@ -1,0 +1,1 @@
+{"id": 1302, "text": "foreign-owned assets 146\nformal dollarization 161\nforward currency contract 156\nforward discount 159\nforward exchange rate 156\nforward premium 159\nfractional reserve banking 106\nfree trade 134\nfrictional unemployment 88\nfull-employment GDP 62\n"}

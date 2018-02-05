@@ -1,0 +1,1 @@
+{"id": 68, "text": "IMM =\n360 \u2013 (tx TBD)\nProfessor's Note: I couldn't remember this formula with a gun to my head, but I\n(and you) can easily convert a BDY to an HPY and the HPY to a money market\nyield using the previous formulas.\n"}

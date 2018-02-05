@@ -1,0 +1,1 @@
+{"id": 3419, "text": "2. The exercise price. A higher exercise price decreases the values of call options and a\nlower exercise price increases the values of call options.\nA higher exercise price increases the values of put options and a lower exercise price\ndecreases the values of put options.\n"}

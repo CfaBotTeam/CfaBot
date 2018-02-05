@@ -1,0 +1,1 @@
+{"id": 3735, "text": "Professor's Note: It's worth noting here that a 2% decrease in yield-to-maturity\nincreases the bond's value by more than a 2% increase in yield decreases the bond's\nvalue. This illustrates that the bond's price-yield relationship is convex, as we will\nexplain in more detail in a later topic review.\n"}

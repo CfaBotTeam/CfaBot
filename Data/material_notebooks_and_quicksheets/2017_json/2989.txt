@@ -1,0 +1,1 @@
+{"id": 2989, "text": "An additional issue to consider when using a firm's WACC (marginal cost of capital) to\nevaluate a specific project is that there is an implicit assumption that the capital structure\nof the firm will remain at the target capital structure over the life of the project.\n"}

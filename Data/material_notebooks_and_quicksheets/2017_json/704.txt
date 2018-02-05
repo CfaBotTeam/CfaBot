@@ -1,0 +1,1 @@
+{"id": 704, "text": "The sizes of these waves are thought to correspond with Fibonacci ratios. Fibonacci\nnumbers are found by starting with 0 and 1, then adding each of the previous two\nnumbers to produce the next (0, 1, 1, 2, 3, 5, 8, 13, 21, and so on). Elliott wave\n"}

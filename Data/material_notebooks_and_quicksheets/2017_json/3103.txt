@@ -1,0 +1,1 @@
+{"id": 3103, "text": "Stocks are traded ex-dividend on and after the ex-dividend date, so stock prices should\nfall by the amount of the dividend on the ex-dividend date. Because of taxes, however,\nthe drop in price may be closer to the after-tax value of dividends.\n"}

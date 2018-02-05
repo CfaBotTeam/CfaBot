@@ -1,0 +1,1 @@
+{"id": 3580, "text": "Market/comparables approach: Market or private transaction values of similar\ncompanies may be used to estimate multiples of EBITDA, net income, or revenue to use\nin estimating the portfolio company's value.\n"}

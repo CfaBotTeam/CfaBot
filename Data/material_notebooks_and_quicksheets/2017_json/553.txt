@@ -1,0 +1,1 @@
+{"id": 553, "text": "Any of these factors could make committing funds to a strategy unattractive, even\nthough the statistical evidence of positive returns is highly significant. By the nature\nof statistical tests, a very large sample size can result in highly (statistically) significant\nresults that are quite small in absolute terms.\n"}

@@ -1,0 +1,1 @@
+{"id": 1719, "text": "The indirect method of calculating CFO begins with net income and adjusts it for gains\nor losses related to investing or financing cash flows, noncash charges to income, and\nchanges in balance sheet operating items.\n"}

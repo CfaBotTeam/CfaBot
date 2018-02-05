@@ -1,0 +1,1 @@
+{"id": 2692, "text": "Example: ROE, market, and book value of equity calculations\nGiven the figures below for O'Grady Industries, calculate the return on average equity\nfor 20X9 and the total market value of equity, the book value per share, and the priceto-book ratio at the end of 20X9.\n"}

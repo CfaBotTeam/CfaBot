@@ -1,0 +1,1 @@
+{"id": 1601, "text": "Accumulated other comprehensive income includes all changes in stockholders\nequity except for transactions recognized in the income statement (net income) and\ntransactions with shareholders, such as issuing stock, reacquiring stock, and paying\ndividends.\n"}

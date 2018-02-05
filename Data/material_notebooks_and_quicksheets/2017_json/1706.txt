@@ -1,0 +1,1 @@
+{"id": 1706, "text": "Free Cash Flow to the Firm\nFree cash flow to the firm (FCFF) is the cash available to all investors, both equity\nowners and debt holders. FCFF can be calculated by starting with either net income or\noperating cash flow.\n"}

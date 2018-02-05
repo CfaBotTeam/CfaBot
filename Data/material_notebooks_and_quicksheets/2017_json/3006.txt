@@ -1,0 +1,1 @@
+{"id": 3006, "text": "To get the weights of debt and equity, use the D/E ratio and give equity a value of 1.\nHere, D/E = 2, so if E = 1, D = 2. The weight for debt, DI(D + E), is 2/(2 + 1) = 2/3,\nand the weight for equity, E/(D+ E), is 1/(2 + 1) = 1/3. The appropriate WACC for\nthe project is therefore:\n"}

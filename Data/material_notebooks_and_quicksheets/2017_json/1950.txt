@@ -1,0 +1,1 @@
+{"id": 1950, "text": "To convert to FIFO, the 20X6 LIFO reserve, net of tax, is added to stockholders equity.\nThe adjustment to stockholders' equity is necessary to make the accounting equation\nbalance. The 20X6 LIFO reserve of $100 was added to inventory and $20 of income taxes\nwas subtracted from cash, so the difference of $80 is added to stockholders' equity.\n"}

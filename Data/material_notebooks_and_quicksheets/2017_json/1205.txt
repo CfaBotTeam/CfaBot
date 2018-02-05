@@ -1,0 +1,1 @@
+{"id": 1205, "text": "LOS 19.d\nThe Ricardian model of trade has only one factor of production\u2014labor. The source\nof differences in production costs and comparative advantage in Ricardo's model is\ndifferences in labor productivity due to differences in technology.\n"}

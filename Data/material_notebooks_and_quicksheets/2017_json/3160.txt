@@ -1,0 +1,1 @@
+{"id": 3160, "text": "For a semiannual-pay bond with a YTM quoted on a semiannual bond basis:\nModDursEMI = MacDursEMI / (1 + YTM / 2)\nThis modified duration can be annualized (from semiannual periods to annual periods)\nby dividing by two, and then used as the approximate change in price for a 1% change\nin a bond's YTM.\n"}

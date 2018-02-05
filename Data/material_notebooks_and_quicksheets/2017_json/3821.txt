@@ -1,0 +1,1 @@
+{"id": 3821, "text": "Bond yields that follow street convention use the stated coupon payment dates. A true\nyield accounts for coupon payments that are delayed by weekends or holidays and may\nbe slightly lower than a street convention yield.\n"}

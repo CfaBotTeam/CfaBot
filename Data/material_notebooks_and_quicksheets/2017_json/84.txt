@@ -1,0 +1,1 @@
+{"id": 84, "text": "Which of the following is least accurate regarding a bank discount yield?\nA. It ignores the opportunity to earn compound interest.\nB. It is based on the face value of the bond, not its purchase price.\nC. It reflects the nonannualized return an investor will earn over a security's\nlife.\n"}

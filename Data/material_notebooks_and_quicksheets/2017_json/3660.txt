@@ -1,0 +1,1 @@
+{"id": 3660, "text": "\u2022 Bonds are secured if they are backed by specific collateral or unsecured if they\nrepresent an overall claim against the issuer's cash flows and assets.\nCredit enhancement may be internal (overcollateralization, excess spread, tranches\nwith different priority of claims) or external (surety bonds, bank guarantees, letters\nof credit).\n"}

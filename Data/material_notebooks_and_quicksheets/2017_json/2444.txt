@@ -1,0 +1,1 @@
+{"id": 2444, "text": "Currencies are issued by a government's central bank. Some are referred to as reserve\ncurrencies, which are those held by governments and central banks worldwide. These\ninclude the dollar and euro and, secondarily, the British pound, Japanese yen, and Swiss\nfranc. In spot currency markets, currencies are traded for immediate delivery.\n"}

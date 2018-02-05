@@ -1,0 +1,1 @@
+{"id": 3256, "text": "Covenants are the terms and conditions the borrowers and lenders have agreed to as\npart of a bond issue. Covenants protect lenders while leaving some operating flexibility\nto the borrowers to run the company. There are two types of covenants: (1) affirmative\ncovenants and (2) negative covenants.\n"}

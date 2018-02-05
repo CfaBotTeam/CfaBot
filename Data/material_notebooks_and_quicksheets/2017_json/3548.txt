@@ -1,0 +1,1 @@
+{"id": 3548, "text": "To avoid the higher interest rates required on callable bonds but still preserve the option\nto redeem bonds early when corporate or operating events require it, issuers introduced\nbonds with make-whole call provisions. With a make-whole bond, the call price is not\n"}

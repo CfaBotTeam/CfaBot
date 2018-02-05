@@ -1,0 +1,1 @@
+{"id": 2489, "text": "Example: Margin call price\nIf an investor purchases a stock for $40 per share with an initial margin requirement\nof 50% and the maintenance margin requirement is 25%, at what price will the\ninvestor get a margin call?\n"}

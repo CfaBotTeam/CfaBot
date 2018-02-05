@@ -1,0 +1,1 @@
+{"id": 1675, "text": "Answer:\nOperating Cash Flow:\nStep 1: Start with net income of $37,500.\nStep 2: Subtract gain from sale of land of $10,000.\nStep 3: Add back noncash charges of depreciation of $7,000.\nStep 4: Subtract increases in receivables and inventories and add increases of payables\nand deferred taxes.\n"}

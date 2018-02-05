@@ -1,0 +1,1 @@
+{"id": 44, "text": "Answer:\nInvesting in Project A increases shareholder wealth by $2,272.72, while investing in\nProject B increases shareholder wealth by $6,363.64. Since the overall goal of the firm\nis to maximize shareholder wealth, Project B should be selected because it adds the\nmost value to the firm.\n"}

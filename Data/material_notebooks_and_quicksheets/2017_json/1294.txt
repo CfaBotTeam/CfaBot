@@ -1,0 +1,1 @@
+{"id": 1294, "text": "the interest rate is higher in the United States, it should take fewer USD to buy CHF in\nthe spot market. In other words, the forward USD must be depreciating relative to the\nspot.\n11. B Interest rates are higher in the United States than in New Zealand. It takes fewer NZD\nto buy one USD in the forward market than in the spot market.\n"}

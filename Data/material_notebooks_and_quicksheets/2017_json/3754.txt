@@ -1,0 +1,1 @@
+{"id": 3754, "text": "Matrix pricing is a method of estimating the required yield-to-maturity (or price) of\nbonds that are currently not traded or infrequently traded. The procedure is to use\nthe YTMs of traded bonds that have credit quality very close to that of a nontraded\nor infrequently traded bond and are similar in maturity and coupon, to estimate the\nrequired YTM.\n"}
