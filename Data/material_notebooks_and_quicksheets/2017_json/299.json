@@ -1,1 +1,1 @@
-{"id": 299, "text": "The total probability rule is used to determine the unconditional probability of an event,\ngiven conditional probabilities:\nP(A) = P(A|B)P(B) + P(A|B)P(B)) +...+ P(A|B)P(BN)\nwhere B., B2,...BN is a mutually exclusive and exhaustive set of outcomes.\n"}
+{"id": "299", "text": "The total probability rule is used to determine the unconditional probability of an event,\ngiven conditional probabilities:\nP(A) = P(A|B)P(B) + P(A|B)P(B)) +...+ P(A|B)P(BN)\nwhere B., B2,...BN is a mutually exclusive and exhaustive set of outcomes.\n"}

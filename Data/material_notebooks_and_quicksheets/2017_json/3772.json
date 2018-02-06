@@ -1,1 +1,1 @@
-{"id": 3772, "text": "To calculate the yield-to-first par call (second call date), we calculate the yield-tomaturity using the number of semiannual periods until the first par call date (16) for\nN and the call price (1,000) for FV:\n"}
+{"id": "3772", "text": "To calculate the yield-to-first par call (second call date), we calculate the yield-tomaturity using the number of semiannual periods until the first par call date (16) for\nN and the call price (1,000) for FV:\n"}

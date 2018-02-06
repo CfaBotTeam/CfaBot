@@ -1,1 +1,1 @@
-{"id": 117, "text": "Example: The median using an even number of observations\nSuppose we add a sixth manager to the previous example with a return of 28%. What\nis the median return?\nAnswer:\nArranging the returns in descending order gives us:\n30%, 28%, 25%, 23%, 21%, 15%\n"}
+{"id": "117", "text": "Example: The median using an even number of observations\nSuppose we add a sixth manager to the previous example with a return of 28%. What\nis the median return?\nAnswer:\nArranging the returns in descending order gives us:\n30%, 28%, 25%, 23%, 21%, 15%\n"}

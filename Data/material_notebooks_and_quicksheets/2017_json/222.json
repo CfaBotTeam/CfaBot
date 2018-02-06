@@ -1,1 +1,1 @@
-{"id": 222, "text": "For mutually exclusive events, where the joint probability, P(AB), is zero, the probability\nthat either A or B will occur is simply the sum of the unconditional probabilities for\neach event, P(A or B) = P(A) + P(B).\n"}
+{"id": "222", "text": "For mutually exclusive events, where the joint probability, P(AB), is zero, the probability\nthat either A or B will occur is simply the sum of the unconditional probabilities for\neach event, P(A or B) = P(A) + P(B).\n"}

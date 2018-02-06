@@ -1,1 +1,1 @@
-{"id": 3417, "text": "When an option reaches expiration, there is no time remaining and the time value is\nzero. This means the value at expiration is either zero, if the option is at or out of the\nmoney, or its intrinsic value, if it is in the money.\n"}
+{"id": "3417", "text": "When an option reaches expiration, there is no time remaining and the time value is\nzero. This means the value at expiration is either zero, if the option is at or out of the\nmoney, or its intrinsic value, if it is in the money.\n"}

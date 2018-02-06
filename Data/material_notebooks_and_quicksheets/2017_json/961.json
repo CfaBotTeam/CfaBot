@@ -1,1 +1,1 @@
-{"id": 961, "text": "A third alternative, with the calculator in END mode, is to calculate the t = 3 value of\nthe last four annuity payments and then add $1,000.\nN = 4; I/Y = 10; PMT = -1,000;\nCPT + PV = 3,169.87 + 1,000 = $4,169.87 = PV;\n"}
+{"id": "961", "text": "A third alternative, with the calculator in END mode, is to calculate the t = 3 value of\nthe last four annuity payments and then add $1,000.\nN = 4; I/Y = 10; PMT = -1,000;\nCPT + PV = 3,169.87 + 1,000 = $4,169.87 = PV;\n"}
