@@ -1,1 +1,1 @@
-{"id": "411", "text": "The z-table is used to find the probability that X will be less than or equal to a given\nvalue.\n\u2022 P(X<x) = F(x) = FX-P= F(2), which is found in the standard normal\nprobability table.\n\u2022 P(X > x) = 1- P(X < x) = 1- F(2).\n"}
+{"id": 411, "text": "The z-table is used to find the probability that X will be less than or equal to a given\nvalue.\n\u2022 P(X<x) = F(x) = FX-P= F(2), which is found in the standard normal\nprobability table.\n\u2022 P(X > x) = 1- P(X < x) = 1- F(2).\n"}

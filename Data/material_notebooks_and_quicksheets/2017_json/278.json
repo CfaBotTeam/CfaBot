@@ -1,1 +1,1 @@
-{"id": "278", "text": "Note in the following example of the application of Bayes' formula that we can\nessentially reverse a given set of conditional probabilities. This means that given P(B),\nP(A|B), and P(A | BC), it is possible to use Bayes' formula to compute P(B | A).\n"}
+{"id": 278, "text": "Note in the following example of the application of Bayes' formula that we can\nessentially reverse a given set of conditional probabilities. This means that given P(B),\nP(A|B), and P(A | BC), it is possible to use Bayes' formula to compute P(B | A).\n"}
