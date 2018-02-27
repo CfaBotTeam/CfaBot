@@ -20489,7 +20489,9 @@ Section 5.1</comments>
 	<problem filename="2015_morning.xml" topic="Ethical and Professional Standards" year="2015">
 		<question id="10">According to the Global Investment Performance Standards (GIPS), firms must do all of the following except:</question>
 		<choices>
-			<choice id="A">adhere to certain calculation methodologies and make specific disclosures along with their performance. provide investors with a comprehensive view of their performance only in terms of returns. comply with all requirements of the GIPS standards, such as updates, guidance statements, and clarifications.</choice>
+		        <choice id="A">adhere to certain calculation methodologies and make specific disclosures along with their performance.</choice>
+			<choice id="B">provide investors with a comprehensive view of their performance only in terms of returns.</choice>
+			<choice id="C">comply with all requirements of the GIPS standards, such as updates, guidance statements, and clarifications.</choice>
 		</choices>
 		<answer>B</answer>
 		<comments>Firms must provide investors with a comprehensive view of their performance in terms of risk and returns, not just returns. CFA Level I. &quot;The GIPS Standards,” CFA Institute Section: Overview</comments>
@@ -20687,8 +20689,9 @@ Section 5.1</comments>
 	<problem filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
 		<question id="30">Which of the following most accurately describes how to standardize a random variable X?</question>
 		<choices>
-			<choice id="A">Subtract the mean of X from X, and then divide that result by the standard deviation of X. Subtract the mean of X from X, and then divide that result by the standard deviation of the standard normal distribution.</choice>
-			<choice id="C">Divide Xby the difference between the standard deviation of X and the standard deviation of the standard normal distribution.</choice>
+		        <choice id="A">Subtract the mean of X from X, and then divide that result by the standard deviation of X.</choice>
+			<choice id="B">Subtract the mean of X from X, and then divide that result by the standard deviation of the standard normal distribution.</choice>
+			<choice id="C">Divide X by the difference between the standard deviation of X and the standard deviation of the standard normal distribution.</choice>
 		</choices>
 		<answer>A</answer>
 		<comments>There are two steps in standardizing a random variable X: Subtract the mean of X from X, and then divide that result by the standard deviation of X. This is represented by the following formula: Z= (X- p)/o. CFA Level I &quot;Common Probability Distributions,&quot; Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3.2</comments>
