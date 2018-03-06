@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "xenon-tracer-189813",
+  "private_key_id": "425beeecfba76d92e59bb002a71b4c671d87424f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC063R7Zcv2b7vb\nb4yWGZN7QaaUq3ur6ONAFFQh277qMV/0wl9Ke53FjwL2pvBst3GDyf0NdVUTo6q4\n7rL/DzJ2ANUXFtrrn9UFeUOeK/Ieor5rMTgH6f8Fti30RhXOgCe8mO4/2CHVq9ev\n16LQTJafov600AxCn8cATYKBzZsaqMXUa18j4rFD3kmpoVlyfldeIJIsuopX1Gq+\n32ogweKdKpji/476JPtSniRINHZrEmzPZwxH+whk+MzUEgC8HK2lwMnGVLG4UK+D\n+myUhjPwxHQ4ioVQWRIWMPSGGAPeBPmfX9JjCw+HrW8HSj6SrF6kykS9yeaMGAqt\nbF7wpWDzAgMBAAECggEADmkUwZsMCHVbTr3o9XzuPBD9UXYC2noPcJq0UTzjs466\npTaLbyJyhvpk34jQUxbqtUPnYphYB8G8RveuwG8q80hBfatsRS+/2kXchqKnqek6\nzQBbuKtBDQKD6lZf+HwWIWKpbRXSxOZOC0UPRGBdVppqh4EGZ1+62TTTTAu4kRwB\n/bH3flFzt5P729qRpXylVSyccFlJWj5i3Dpuj0UK4XDCNQ93zgntTqxTxw7Yw/t2\nn/xG/ntRLWOJ32N0dZSRNAnFt6r+UqoD0IBpphATY47OO37yzfOFt82B9VCVphsa\nXx5lh/KSGunIWhQ0Tk/i0HDqi2ZRBJhwRHisoi0JeQKBgQDznZJexUxIY4RhCOMK\nuroZMkvqAL0hIMs69g72i1bM9jTL+eTd9hvyR08uQWjm4b4w2L5iB1EX2OwYijrC\nH1CL/E/TK8WdikNQ2bXoyL2uP7Wkb6ERrKLilGaEVooa4znHOi+PcxQl0NmHtTTd\nHfN1ldhSz4GIhvg45/KoINSfCwKBgQC+HfTXutJvM4KlOo4LyJ4VOwqHLcsZfLn4\nXz+g5c037YxTPkj/dPN7/ytGszaJu8L4C0BKqdoNEvTQMkt1yDjaC/dbpXINQeH0\nZFpoxUd7g5FIB2Qv519cEInloilaVX9waWXXaY/k97/E3HwfbRKAojRcvKKhs4HU\ngKOf3iqWuQKBgG+YPcWF8YSzeZ+Nl5uBn+AM5zOBNSHoyM/wiTgs6g0nt1W82jdH\nFtQsEDxrICerPxlXIBb9rQsUhkpTf8kO2THW2aYtRe/9twphQHArDKC2dHmn3Qug\nnljWjAORNOBOOFhn8gNvPsp32j3NJzMnFjBF/PsqLPcihLBkqAaWS2+zAoGAFoIX\nbb8JkO7JReST0qNSy/KsgWqThBX3MoecUeFDFZ8DIQvbuprPBNwl9H3dNBtNru4u\nE2jejvOylj+OHYix6mbGR0xkH1uwc6254nOQzfe6qItvehhresved5hmSvKaXuWr\nkABIb/RA+P6dl17jdOU/S8dtfbVx5oXAWXoFEskCgYEA6X3WrN6swZ/24GXvUDXf\n2L48kQEhEK1QWKSok3oG43GYsMuN7nTCgpXoQ+hbhn55dqkwPye2sn221G/apNh1\nIUirtg/pNDtpZfqrbjkNU0oYBC1s3NGwujDMafDeb95hHvKrN5iBz7nJ2Dq3bTaG\n4m5WeThYa6Rwz9Hq9WAyu8s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "api-cfa-telecom@xenon-tracer-189813.iam.gserviceaccount.com",
+  "client_id": "106209423785450668674",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/api-cfa-telecom%40xenon-tracer-189813.iam.gserviceaccount.com"
+}
