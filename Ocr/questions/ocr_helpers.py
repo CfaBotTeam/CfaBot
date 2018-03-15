@@ -5,6 +5,7 @@ import vkbeautify as vkb
 from glob import glob
 import pandas as pd
 
+
 class FilePathResolver:
     def __init__(self, year, day_part, file_part):
         self.year_ = year

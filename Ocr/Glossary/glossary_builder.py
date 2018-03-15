@@ -1,9 +1,7 @@
 import io
 import os.path
 from google.cloud import vision
-import more_itertools as mit
-from glossary_parser import GlossaryParser
-
+from Ocr.Glossary.glossary_parser import GlossaryParser
 
 
 class GlossaryBuilder:
@@ -24,11 +22,11 @@ class GlossaryBuilder:
             temp_end = start + 5
             if temp_end > end:
                 temp_end = end
-            problems = self.build_problems_internal_(filepaths[start:temp_end], temp_end == end)
+            self.build_problems_internal_(filepaths[start:temp_end])
             start = temp_end
         return self.parser_.get_glossary()
 
-    def build_problems_internal_(self, image_paths, last_call):
+    def build_problems_internal_(self, image_paths):
         requests = []
         for image_path in image_paths:
             requests.append({

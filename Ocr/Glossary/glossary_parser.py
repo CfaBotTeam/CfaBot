@@ -1,5 +1,5 @@
-from glossary_parsing_context import ParsingMode
-from glossary_parsing_context import GlossaryParsingContext
+from Ocr.Glossary.glossary_parsing_context import ParsingMode
+from Ocr.Glossary.glossary_parsing_context import GlossaryParsingContext
 from google.cloud.vision import enums
 
 

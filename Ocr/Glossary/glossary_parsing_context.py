@@ -1,5 +1,3 @@
-import math
-
 
 class ParsingMode(object):
     KEYWORD = 1
