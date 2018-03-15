@@ -10,8 +10,12 @@ class ImageCropper:
     def get_cropped_path(self, path):
         base = os.path.basename(path)
         dir = os.path.dirname(path)
-        filename = 'cropped_{}.jpg'.format(base)
-        return os.path.join(dir, filename)
+        return os.path.join(dir, 'cropped_' + base)
+
+    def get_path(self, path):
+        if self.test_mode_:
+            return self.get_cropped_path(path)
+        return path
 
     def crop_images(self):
         paths = self.resolver_.resolve_sorted_paths()
@@ -20,4 +24,4 @@ class ImageCropper:
             crop_height = 260 if i == 0 else 120
             img = Image.open(path)
             img = img.crop((0, crop_height, img.width, img.height))
-            img.save(path)
+            img.save(self.get_path(path))
