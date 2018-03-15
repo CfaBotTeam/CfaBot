@@ -166,9 +166,9 @@ class ParsingContext:
         # 2) Remove the header
         # 3) Restore the text
         # Here we proceed step 1
-        self.save_current_text()
-        self.pop_current_text()
-        self.mode_ = ParsingMode.HEADER
+        # self.save_current_text()
+        # self.pop_current_text()
+        # self.mode_ = ParsingMode.HEADER
 
     def new_line_indentation_has_changed(self):
         if not self.current_word_was_on_a_new_line():
