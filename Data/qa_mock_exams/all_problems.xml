@@ -4120,7 +4120,7 @@ D CD2 $ 83. 287   </question>
 		<choices>
 			<choice id="A">variances.</choice>
 			<choice id="B">standard deviations.</choice>
-			<choice id="C">coeffi ci ents of vari ati on.</choice>
+			<choice id="C">coefficients of variation.</choice>
 		</choices>
 		<answer>B</answer>
 		<comments>&#8220;Probability Concepts,&#8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2009 Modular Level I, Volume 1, pp. 344-349 Study Session 2-8-j Calculate and interpret covariance and correlation. The correlation between two random variables is equal to the covariance between the variables divided by the product of the variables&#8217; standard deviations.</comments>
