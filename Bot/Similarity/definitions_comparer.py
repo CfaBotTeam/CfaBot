@@ -1,4 +1,4 @@
-from Core.Similarity.similarity_scorer import SimilarityScorer
+from Bot.Similarity import SimilarityScorer
 
 
 class DefinitionsComparer:

@@ -1,5 +1,5 @@
 import unittest
-from Core.Similarity.definitions_comparer import DefinitionsComparer
+from Bot.Similarity.definitions_comparer import DefinitionsComparer
 
 
 class TestDefinitionsComparer(unittest.TestCase):
