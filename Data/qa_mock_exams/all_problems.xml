@@ -2779,8 +2779,9 @@ D CD2 $ 83. 287   </question>
 	<problem filename="2009_afternoon_answers.xml" topic="Ethical and Professional Standards" year="2009">
 		<question id="13">Romar Brockman, CFA, is a sell-side analyst. Approximately half of Brockman&#8217;s compensation comes from his firm&#8217;s investment-banking division. Brockman is asked to write a report about Anacortes Concrete (AC), an investment-banking client. Despite his concerns about a slowdown in concrete demand, Brockman issues a very positive report on AC. When issuing his report, Brockman least likely violates the CFA Institute Standard relating to:	</question>
 		<choices>
-			<choice id="A">Loyalty to Employer.</choice>
-			<choice id="C">itive report on AC. When issuing his report, Brockman least likely violates the CFA Institute Standard relating to: A. Loyalty to Employer. B. Disclosure of Conflicts. C. Loyalty, Prudence, and Care.</choice>
+		        <choice id="A">Loyalty to Employer.</choice>
+			<choice id="B">Disclosure of Conflicts</choice>
+			<choice id="C">Loyalty, Prudence, and Care.</choice>
 		</choices>
 		<answer>A</answer>
 		<comments>&#8220;Guidance for Standards I-VII,&#8221; CFA Institute 2009 Modular Level I, Volume 1, pp. 48-50, 89-91 Study Session 1-2-a  Demonstrate a thorough knowledge of the Code of Ethics and Standards of Professional Conduct by applying the Code and Standards to situations involving issues of professional integrity. The Standards require members to put client interests ahead of member and employer interests. Because Brockman&#8217;s compensation is dependent upon investment banking revenues, Brockman may not be objective. When issuing the report, he is in jeopardy of violating Standards relating to Independence and Objectivity; Loyalty, Prudence, and Care; and Disclosure of Conflicts.</comments>
@@ -4403,13 +4404,14 @@ D CD2 $ 83. 287   </question>
 			<choice id="C">176.</choice>
 		</choices>
 		<answer>A</answer>
-		<comments>&#8220;Understanding the Balance Sheet,&#8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2009 Modular Level I, Volume 3, pp.195-201 Study Session 8-33-a, d Illustrate and interpret the components of the assets, liabilities, and equity sections of the balance sheet, and discuss the uses of the balance sheet in financial analysis. Compare and contrast current and noncurrent assets and liabilities. Current Assets: Cash 12 Accounts receivable 82 Inventory 47 141 Current Liabilities Bank loan, due on demand 44 Accounts payable 20 Income taxes payable 5 Deposits from customers for deliveries in 2009 8 77 Working capital (CA - CL) 64.0 The Investments accounted for by the equity method and the  Loan payable due June 2010 are non-current assets and liabilities respectively._</comments>
+		<comments>&#8220;Understanding the Balance Sheet,&#8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2009 Modular Level I, Volume 3, pp.195-201 Study Session 8-33-a, d Illustrate and interpret the components of the assets, liabilities, and equity sections of the balance sheet, and discuss the uses of the balance sheet in financial analysis. Compare and contrast current and noncurrent assets and liabilities. Current Assets: Cash 12 Accounts receivable 82 Inventory 47 141 Current Liabilities Bank loan, due on demand 44 Accounts payable 20 Income taxes payable 5 Deposits from customers for deliveries in 2009 8 77 Working capital (CA - CL) 64.0 The Investments accounted for by the equity method and the  Loan payable due June 2010 are non-current assets and liabilities respectively.</comments>
 	</problem>
 	<problem filename="2009_morning_answers.xml" topic="Financial Statement Analysis" year="2009">
 		<question id="56">Assume U.S. GAAP (generally accepted accounting principles) applies unless otherwise noted. During late December 2008 Company A acquires a small competitor, Company B. During the evaluation of the acquisition it is determined that the customer lists of Company B have a fair value of $50,000. Company A has spent $15,000 during the year updating and maintaining its own customer lists. What will be the value of the customer list intangible asset on Company A&#8217;s 31 December 2008 consolidated financial statements?	</question>
 		<choices>
-			<choice id="B">During the evaluation of the acquisition it is determined that the customer lists of Company B have a fair value of $50,000. Company A has spent $15,000 during the year updating and maintaining its own customer lists. What will be the value of the customer list intangible asset on Company A&#8217;s 31 December 2008 consolidated financial statements? A. $15,000. B. $50,000.</choice>
-			<choice id="C">$65,000.</choice>
+		        <choice id="A">$15,000</choice>
+			<choice id="B">$50,000</choice>
+			<choice id="C">$65,000</choice>
 		</choices>
 		<answer>B</answer>
 		<comments>&#8220;Understanding the Balance Sheet,&#8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2009 Modular Level 1, Vol.3, pp.212-214 &#8220;Long-Lived Assets,&#8221; R. Elaine Henry, CFA and Elizabeth Gordon 2009 Modular Level I, Volume 3, pp.340-341 Study Session 8-33-e, 9-36-a Explain the measurement bases (e.g., historical cost and fair value) of assets and liabilities, including current assets, current liabilities, tangible assets, and intangible assets. Explain the accounting standards related to the capitalization of expenditures as part of long-lived assets, including interest costs. The purchased customer list is an identifiable intangible because it can be sold separately from the company and it would be recorded at its fair market value, the amount paid for it in the acquisition, $50,000. The amount spent by Company A on its own lists, $15,000, would have to be expensed because internally generated intangibles are not capitalized. </comments>
@@ -8365,12 +8367,6 @@ D CD2 $ 83. 287   </question>
 		<comments>"Derivative Markets and Instruments," Don M. Chance. 2011 Modular Level I, Vol. 6, pp. 8-12. Study Session 17-68-a, c Define a derivative and differentiate between exchange-traded and over-the-counter derivatives. Differentiate among the basic characteristics of forward contracts, futures contracts, options (calls and puts), and swaps.  A is correct. Over-the counter options are exposed to default risk but futures contracts are standardized transactions that take place on futures exchanges and are not exposed to default risk.</comments>
 	</problem>
 	<problem filename="2011_afternoon_answer.xml" topic="Derivative Investments" year="2011">
-		<question id="92">An investor purchases 10 futures contracts priced at $100 each. The initial margin is $20 per contract and the maintenance margin requirement is $10 per contract. The investor will most likely be required to post variation margin if the end-of-day prices over the next three days are:	</question>
-		<choices />
-		<answer>B</answer>
-		<comments>"Derivative Markets and Instruments," Don M. Chance 2011 Modular Level I, Vol. 6, pp 55-59 Study Session 17-70-d Describe price limits and the process of marking to market, and calculate and interpret the margin balance, given the previous day's balance and the change in the futures price. B is correct. $110 of variation margin is required since the $90 margin balance after Day 3 is below the $100 maintenance margin. The $110 variation margin will re-establish the $200 initial margin. The calculation is below: Day 1 activity: $260 closing margin balance results from $200 initial margin plus $60 gain ($6 increase X 10 contracts) Day 2 activity: $180 closing margin balance results from $260 opening margin balance minus $80 loss ($8 decline X 10 contracts) Day 3 activity: $90 closing margin balance results from $180 opening margin balance minus $90 loss ($9 decline X 10 contracts)</comments>
-	</problem>
-	<problem filename="2011_afternoon_answer.xml" topic="Derivative Investments" year="2011">
 		<question id="93">Based on put-call parity for European options, a synthetic put is most likely equivalent to a:	</question>
 		<choices>
 			<choice id="A">long call, short underlying asset, long bond.</choice>
@@ -11003,8 +10999,9 @@ D CD2 $ 83. 287   </question>
 	<problem filename="2012_afternoon_answer.xml" topic="Portfolio Management" year="2012">
 		<question id="116">A correlation matrix of the returns for securities A, B, and C is reported below: Security A B C A 1.0 B 0.5 1.0 C 0.0 -0.5 1.0 Assuming that the expected return and the standard deviation of each security are the same, a portfolio consisting of an equal allocation of which two securities will be most effective for portfolio diversification? Securities:	</question>
 		<choices>
-			<choice id="B">A and B.</choice>
-			<choice id="C">A and C. C. B and C.</choice>
+			<choice id="A">A and B</choice>
+			<choice id="B">A and C</choice>
+			<choice id="C">B and C</choice>
 		</choices>
 		<answer>C</answer>
 		<comments>"Portfolio Risk and Return Part I," Vijay Singal 2012 Modular Level I, Vol. 4, pp. 364-365 Study Session 12-44-f Describe the effect on a portfolio's risk of investing in assets that are less than perfectly correlated. C is correct. The negative correlation of -0.5 between investment instruments B and C is lowest and therefore is most effective for portfolio diversification.</comments>
@@ -11322,8 +11319,9 @@ D CD2 $ 83. 287   </question>
 	<problem filename="2012_morning_answer.xml" topic="Quantitative Methods" year="2012">
 		<question id="28">An analyst collects the following data related to paired observations for Sample A and Sample B. Assume that both samples are drawn from normally distributed populations and that the population variances are not known. Paired Observation Sample A Value Sample B Value 1 25 18 2 12 9 3 -5 -8 4 6 3 5 -8 1 The t-statistic to test the hypothesis that the mean difference is equal to zero is closest to:	</question>
 		<choices>
-			<choice id="B"> An analyst collects the following data related to paired observations for Sample A and Sample B. Assume that both samples are drawn from normally distributed populations and that the population variances are not known. Paired Observation Sample A Value Sample B Value 1 25 18 2 12 9 3 -5 -8 4 6 3 5 -8 1 The t-statistic to test the hypothesis that the mean difference is equal to zero is closest to: A. 0.23. B. 0.27.</choice>
-			<choice id="C">0.52.</choice>
+		        <choice id="A">0.23</choice>
+			<choice id="B">0.27</choice>
+			<choice id="C">0.52</choice>
 		</choices>
 		<answer>C</answer>
 		<comments>"Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle 2012 Modular Level I, Vol. 1, pp. 612-616 Study Session 3-11-h Identify the appropriate test statistic and interpret the results for a hypothesis test concerning the mean difference of two normally distributed populations. C is correct. First, calculate the mean difference: Then, calculate the sample variance and the standard error of the mean difference: 2 Z(di-d)2 Sd = &#8212;-i- n &#8212; 1 sd Sd Then, calculate the t-statistic: t d M-dO^d In this case, the mean difference is 1.4. The sample variance is 36.8. The standard error of the mean difference is 2.712932. The t-statistic is 0.51605. . Paired Observation Sample A Value Sample B Value Differences Differences Minus the Mean Difference, Then Squared 1 25 18 7 (7 - 1.4)2 = 31.36 2 12 9 3 (3 - 1.4)2 = 2.56 3 -5 -8 3 (3 - 1.4)2 = 2.56 4 6 3 3 (3 - 1.4)2 = 2.56 5 -8 1 -9 (-9 - 1.4)2 = 108.16 Sum = 7 7 4 5 = Mean of 1.4 Sum of squared differences = 147.2 Sample variance: 147.2 4 4 = 36.8 Standard error: 2.712932 = V36.8 ^ 5 t-Statistic: 0.51605 = (1.4 - 0) 4 2.712932</comments>
@@ -12101,8 +12099,9 @@ D CD2 $ 83. 287   </question>
 	<problem filename="2012_morning_answer.xml" topic="Fixed Income Investments" year="2012">
 		<question id="106">Given two otherwise identical bonds, when interest rates rise, the price of Bond A declines more than the price of Bond B. Compared to Bond B, Bond A most likely:	</question>
 		<choices>
-			<choice id="B">n the price of Bond B. Compared to Bond B, Bond A most likely: A. is callable. B. has a lower coupon.</choice>
-			<choice id="C">has a shorter maturity.</choice>
+		        <choice id="A">is callable</choice>
+			<choice id="B">has a lower coupon</choice>
+			<choice id="C">has a shorter maturity</choice>
 		</choices>
 		<answer>B</answer>
 		<comments>"Risks Associated with Investing in Bonds," Frank J. Fabozzi 2012 Modular Level I, Vol. 5, pp. 354-355 Study Session 15-54-c Explain how a bond's maturity, coupon, embedded options, and yield level affect its interest rate risk. B is correct because the lower the coupon rate, the greater the bond's price sensitivity to changes in interest rates. .</comments>
@@ -14400,8 +14399,9 @@ D CD2 $ 83. 287   </question>
 	<problem filename="2013_morning_answer.xml" topic="Derivative Investments" year="2013">
 		<question id="96">An investor with $5000 to invest believes that the price of ABC Corp. stock will appreciate by $7 to $95 in two months. The two-month at-the-money put on one share of ABC stock costs $1.76, while the two-month at-the-money call costs $1.56. In order to profit from his view on ABC stock, he will most likely:	</question>
 		<choices>
-			<choice id="A">sell calls on shares of ABC.</choice>
-			<choice id="C">sell calls on shares of ABC. B. sell puts on shares of ABC. C. buy calls on shares of ABC.</choice>
+			<choice id="A">sell calls on shares of ABC</choice>
+			<choice id="B">sell puts on shares of ABC</choice>
+			<choice id="C">buy calls on shares of ABC</choice>
 		</choices>
 		<answer>C</answer>
 		<comments>"Risk Management Applications of Option Strategies," Don M. Chance, CFA 2013 Modular Level I, Vol. 6, Reading 65, Section 2.1 Study Session 17-65-a Determine the value at expiration, profit, maximum profit, maximum loss, breakeven underlying price at expiration, and payoff graph of the strategies of buying and selling calls and puts, and determine the potential outcomes for investors using these strategies. C is correct because buying a call gives the owner the right to buy the stock at the exercise price. The investor predicts that the stock will increase to $95 at the end of two months. He will likely be able to sell his calls for at least $7 and realize a profit. Questions 97 through 108 relate to Fixed Income Investments.</comments>
@@ -17133,7 +17133,8 @@ Section 5.1</comments>
 		<question id="8">Chris Rodriguez, CFA, is a portfolio manager at Nisqually Asset Management, which specializes in trading highly illiquid shares. Rodriguez has been using Hon Securities Brokers almost exclusively when making transactions for Nisqually clients, as well as for his own relatively small account. Hon always executes Rodriguez's personal trades at a more preferential price than for Rodriguez's clients' accounts. This special pricing occurs regardless of whether or not Rodriguez personally trades before or after clients. Rodriguez should least likely do which of the following in order to comply with the CFA Institute Standards of Professional Conduct?</question>
 		<choices>
 			<choice id="A">Trade client accounts before his own account.</choice>
-			<choice id="B">Eliminate the exclusive trading arrangement. Average trade prices across all trading accounts.</choice>
+			<choice id="B">Eliminate the exclusive trading arrangement.</choice>
+			<choice id="C">Average trade prices across all trading accounts.</choice>
 		</choices>
 		<answer>C</answer>
 		<comments>"Guidance for Standards I-VII," CFA Institute Standard III(A): Loyalty, Prudence, and Care; Standard IV(A): Loyalty; Standard VI(B): Priority of Transactions Rodriguez is in violation of Standard IV(A): Loyalty, which requires that, in matters related to their employment, members and candidates must act for the benefit of their employer and not deprive their employer of the advantage of their skills and abilities, divulge confidential information, or otherwise cause harm to their employer. Rodriguez should not accept the special treatment from Hon; instead, he should ask Hon to lower costs for the transactions of his Nisqually clients. Rodriguez should not average transaction costs because his clients should be given the lower preferential prices according to Standard II(A): Loyalty, Prudence, and Care.</comments>
@@ -20111,8 +20112,9 @@ Section 5.1</comments>
 	<problem filename="2015_afternoon.xml" topic="Financial Statement Analysis" year="2015">
 		<question id="66">The following data are available on a company: Metric Current Year (&#165; millions) Cash 114 Inventory 462 | Marketable securities (at fair value). 23 Property, plant, and equipment (net) 677. Receivables 231 Current liabilities 390 Liquidity ratios in prior year Cash ratio 0.37 Current ratio 2.19 Quick ratio 0.97 The value of the company's liquidity ratio that decreased the most in the current year, compared with the prior year, is the:</question>
 		<choices>
-			<choice id="A">cash ratio. quick ratio.</choice>
-			<choice id="C">current ratio.</choice>
+		        <choice id="A">cash ratio</choice>
+			<choice id="B">quick ratio</choice>
+			<choice id="C">current ratio</choice>
 		</choices>
 		<answer>C</answer>
 		<comments>Numerator Current Ratio Current assets = Cash + Marketable securities + Receivables + Inventory Current liabilities Cash Ratio Cash + Marketable securities Quick Ratio Cash + Marketable securities + Receivables Current liabilities Current liabilities Denominator Current year Numerator Denominator 114 + 23 = 137 114 + 23 + 231 + 462 = 830 390 114 + 23 + 231 = 368 390 390 Ratio: Current year Ratio: Prior year Change in ratio 2.13 2.19 &#8211;0.06 0.35 0.37 -0.02 0.94 0.97 &#8211;0.03 CFA Level || &#8220;Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Section 7.2 &#8220;Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4.3</comments>
@@ -20320,7 +20322,8 @@ Section 5.1</comments>
 	<problem filename="2015_afternoon.xml" topic="Equity Investments" year="2015">
 		<question id="87">Which of the following statements concerning companies in different industry environments is most accurate?</question>
 		<choices>
-			<choice id="A">industry's experience curve declines with a decrease in the utilization of capital equipment and spreading overhead over a fewer number of units.</choice>
+		        <choice id="A">Companies in mature industries tend to focus on efficiency gains and gain market share through superior products.</choice>
+			<choice id="B">An industry's experience curve declines with a decrease in the utilization of capital equipment and spreading overhead over a fewer number of units.</choice>
 			<choice id="C">Companies in fragmented industries would not be highly price competitive because they tend to think individualistically, making coordination difficult.</choice>
 		</choices>
 		<answer>A</answer>
@@ -21077,9 +21080,11 @@ Section 5.1</comments>
 		<comments>Revenue -Cost Relationship Short-Run Decision Long-Term Decision TR&gt; TC Stay in market Stay in market TR&gt; TVC but TR&lt;TFC+TVG Stay in market Exit market TR&lt; TVC Shut down production to zero Exit market where TR = Total Revenue; and TC = Total Costs; TVC = Total Variable Costs; TFC = Total Fixed Costs Hence, if the selling price is $3.00, total revenue for all firms will be $3.00/unit x 900 units = $2,700. Only firm X's variable costs are covered and it should continue operating, while firms Y | and Z should immediately shutdown production. CFA Level I "Demand and Supply Analysis: The Firm," Gary L. Arbogast and Richard V. Eastin Section 3.1.3</comments>
 	</problem>
 	<problem filename="2015_morning.xml" topic="Economics" year="2015">
-		<question id="44">The following international trade information is available for a hypothetical economy: Exports Imports Initial Value (DCU) 4,800 6,500 Demand elasticity 0.70 0.55 DCU: domestic currency units Following a 12% depreciation in the DCU, the trade balance will be closest to: | -1,674. | -1,648.</question>
+		<question id="44">The following international trade information is available for a hypothetical economy: Exports Imports Initial Value (DCU) 4,800 6,500 Demand elasticity 0.70 0.55 DCU: domestic currency units Following a 12% depreciation in the DCU, the trade balance will be closest to:</question>
 		<choices>
-			<choice id="C">&#8211;1,726.</choice>
+		        <choice id="A">-1,674</choice>
+			<choice id="B">-1,648</choice>
+			<choice id="C">-1,726</choice>
 		</choices>
 		<answer>B</answer>
 		<comments>Impact on Trade Balance Total Trade = Exports + Imports = 4,800 + 6,500 = 11,300 Wx = share of exports Wm = share of imports = 4,800 + 11,300 = 0.425 EML = Marshall-Lerner trade = 6,500 +11,300 = 0.575 EML = Wx Ex + Wm (Em &#8212; 1) weighted elasticity = (0.425 x 0.70) + 0.575 x (0.55 &#8211; 1) = 0.039 Change in Trade Balance using Marshall-Lerner trade weighted elasticity: EML X Trade Balance x Depreciation = 0.039 x 11,300 x 0.12 = 52.5 New trade balance = 4,800 &#8211; 6,500 + 52.5 = -1,647.5 = -1,648 Since the Marshall-Lerner condition &gt;0, depreciation will reduce the trade deficit. Alternatively, the change in the trade balance can be calculated from % changes in imports and exports: Decrease in imports: - (12% x (1 &#8211; 0.55) x 6,500) = -351.0 Increase in exports: 12% x 0.70 x 4,800 = 403.2 Difference 52.2 Change in trade balance 4,800 &#8211; 6,500 + 52.2 = -1,648 (rounded) CFA Level I "Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast Section 4.2 "The Firm and Market Structures," Richard G. Fritz and Michele Gambera Section 3.1.1 "Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Section 5.1</comments>
@@ -21267,7 +21272,8 @@ Section 5.1</comments>
 	<problem filename="2015_morning.xml" topic="Financial Statement Analysis" year="2015">
 		<question id="63">Which of the following statements is most accurate with respect to the jurisdiction underlying financial reporting?</question>
 		<choices>
-			<choice id="A">The requirement to prepare financial reports in accordance with specified accounting standards is the responsibility of standard-setting bodies. Standard-setting bodies have authority because they are recognized by regulatory authorities.</choice>
+		        <choice id="A">The requirement to prepare financial reports in accordance with specified accounting standards is the responsibility of standard-setting bodies.</choice>
+			<choice id="B">Standard-setting bodies have authority because they are recognized by regulatory authorities.</choice>
 			<choice id="C">Regulatory authorities are typically private sector, self-regulated organizations.</choice>
 		</choices>
 		<answer>B</answer>
