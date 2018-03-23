@@ -1,4 +1,5 @@
 from random import randint
+import numpy as np
 
 
 class DefinitionKeywordResolver:
@@ -12,31 +13,45 @@ class DefinitionKeywordResolver:
             max = 3
         return randint(0, max)
 
-    def find_prediction(self, problem):
-        nb_keywords = 0
+    def add_debug_info(self, problem, max_index, choices_results, debug):
+        filename = problem['filename']
+        year = problem['year']
+        debug[filename + '_' + year] = {
+            'question': problem['question'],
+            'answer': problem['answer'],
+            'max_index': max_index,
+            'choices_results': choices_results
+        }
+
+    def find_prediction(self, problem, debug):
         max_score = 0
         max_index = -1
         question = problem['question']
+        choices_results = []
         for i_choice, choice_key in enumerate(['choice_A', 'choice_B', 'choice_C', 'choice_D']):
             choice = problem[choice_key]
-            if not self.glossary_.has_keyword(choice):
-                if (choice_key == 'choice_A' and problem["choice_A_in_glossary"]) or \
-                   (choice_key == 'choice_B' and problem["choice_B_in_glossary"]) or \
-                   (choice_key == 'choice_C' and problem["choice_C_in_glossary"]) or \
-                   (choice_key == 'choice_D' and problem["choice_D_in_glossary"]):
-                    continue
+            scores = {}
+            choice_scores = {'choice': choice, 'scores': scores}
+            if choice is np.NaN or not self.glossary_.has_keyword(choice):
                 continue
-            print('keyword in glossary')
             definitions = self.glossary_.get_definitions(choice)
             for definition in definitions:
                 score = self.scorer_.score(definition, question)
+                scores[definition] = score
                 if score > max_score:
                     max_score = score
                     max_index = i_choice
+            choices_results.append(choice_scores)
+
+        self.add_debug_info(problem, max_index, choices_results, debug)
+
+        res = chr(max_index + 65)
         if max_index == -1:
             max_index = self.random_choice(problem)
 
-        return chr(max_index + 65)
+        return res
 
     def resolve(self, problems):
-        problems['prediction'] = problems.apply(self.find_prediction, axis=1)
+        debug = {}
+        problems['prediction'] = problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
+        return debug
