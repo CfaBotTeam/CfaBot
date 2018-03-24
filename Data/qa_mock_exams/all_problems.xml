@@ -6776,7 +6776,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Understanding the Balance Sheet,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2010 Modular Level 1, Vol. 3, pp. 201-203 Study Session 8-33-b Describe the various formats of balance sheet presentation. Under IAS No. 1 liquidity-based presentation is recommended when it provides information that is more relevant and reliable than the current/noncurrent format, such as in the case of banks and financial institutions.</comments>
     </problem>
-    <problem category="0" filename="2010_morning_answer.xml" topic="Financial Statement Analysis" year="2010">
+    <problem category="9" filename="2010_morning_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="53">A company issued shares to acquire a large tract of undeveloped land for future development. The most likely recording of this transaction in the cash flow statement is as a(n):</question>
         <choices>
             <choice id="A">disclosure in a note or supplementary schedule</choice>
@@ -7286,7 +7286,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>“Understanding Yield Spreads,” Frank J. Fabozzi 2010 Modular Level I, Vol. 5, pp. 375-377 Study Session 15-63-i Compute the after-tax yield of a taxable security and the tax-equivalent yield of a tax-exempt security. The indifference point would be the tax rate that satisfies the equation: 6.0%*(1 - T) = 4.5%. Solving for T, the marginal tax rate = 25%.</comments>
     </problem>
-    <problem category="0" filename="2010_morning_answer.xml" topic="Fixed Income Investments" year="2010">
+    <problem category="3" filename="2010_morning_answer.xml" topic="Fixed Income Investments" year="2010">
         <question id="104">An investor is evaluating a diverse set of bonds from which he will select two issues. The investor’s objective is to find bonds with cash flows that will precisely match a known stream of future cash outflows. The pair of bonds most likely to meet the investor’s objective is a:</question>
         <choices>
             <choice id="A">putable bond and a callable bond</choice>
