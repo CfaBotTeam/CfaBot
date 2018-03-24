@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf8'?>
 <problems>
     <problem category="666" filename="2008_part_1.xml" topic="Ethical and Professional Standards" year="2008">
         <question id="1">Which of the following is a key characteristic of the Global Investment Performance Standards (GIPS)? The GIPS  standards:</question>
@@ -12567,7 +12566,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Probability Concepts", Richard A. DeFusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2013 Modular Level I, Vol. 1, Reading 8, Section 2 Study Session 2-8-b State the two defining properties of probability and distinguish among empirical, subjective, and a priori probabilities. B is correct. An empirical probability is "a probability estimated from data as a relative frequency of occurrence." Questions 33 through 44 relate to Economics</comments>
     </problem>
-    <problem category="0" filename="2013_afternoon_answer.xml" topic="Economics" year="2013">
+    <problem category="7" filename="2013_afternoon_answer.xml" topic="Economics" year="2013">
         <question id="33">The market demand function for item X is a function of its price, household income, and the price of item Y. Own-price elasticity of demand for X -0.8 Income elasticity of demand for X 1.5 Cross-price elasticity of demand for X with respect to the price of Y 0.4 Given the above elasticity coefficients for the two items, which of the following statements is most accurate?</question>
         <choices>
             <choice id="A">X and Y are substitutes</choice>
