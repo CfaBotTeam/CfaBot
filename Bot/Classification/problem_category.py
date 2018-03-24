@@ -3,6 +3,7 @@ class ProblemCategory(object):
     DEF_KEYWORD = 0
     KEYWORD_DEF = 1
     KEYWORD_DEF_START_END = 2
+
     CHAR_KEYWORD = 3
     KEYWORD_CHAR = 4
     SITUATION_KEYWORD = 5

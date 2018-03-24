@@ -15,8 +15,8 @@ class DefinitionKeywordResolver:
 
     def add_debug_info(self, problem, max_index, choices_results, debug):
         filename = problem['filename']
-        year = problem['year']
-        debug[filename + '_' + year] = {
+        nb = problem['question_nb']
+        debug[filename + '_' + nb] = {
             'question': problem['question'],
             'answer': problem['answer'],
             'max_index': max_index,
@@ -45,9 +45,9 @@ class DefinitionKeywordResolver:
 
         self.add_debug_info(problem, max_index, choices_results, debug)
 
-        res = chr(max_index + 65)
         if max_index == -1:
             max_index = self.random_choice(problem)
+        res = chr(max_index + 65)
 
         return res
 
