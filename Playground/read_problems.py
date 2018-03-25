@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+import vkbeautify as vkb
 import json
 import pandas as pd
 import numpy as np
@@ -12,7 +13,7 @@ def read_xml(path):
         record['filename'] = problem.attrib['filename']
         record['topic'] = problem.attrib['topic']
         record['year'] = problem.attrib['year']
-        record['category'] = problem.attrib['category']
+        record['category'] = int(problem.attrib['category'])
         for child in problem:
             if child.tag == "choices":
                 for choice in child:
@@ -34,7 +35,6 @@ def read_questions_json(path):
             choice_key = 'choice_' + chr(65 + i_choice)
             query[choice_key] = choice
     res = pd.DataFrame(queries)
-    res['question'] = res['question'].str.strip()
     return res
 
 def read_all_problems():
