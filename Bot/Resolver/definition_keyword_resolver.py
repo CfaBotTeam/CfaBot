@@ -1,5 +1,5 @@
-from random import randint
 import numpy as np
+from random import randint
 
 
 class DefinitionKeywordResolver:
@@ -30,18 +30,20 @@ class DefinitionKeywordResolver:
         choices_results = []
         for i_choice, choice_key in enumerate(['choice_A', 'choice_B', 'choice_C', 'choice_D']):
             choice = problem[choice_key]
+            if choice is np.NaN:
+                continue
             scores = {}
             choice_scores = {'choice': choice, 'scores': scores}
-            if choice is np.NaN or not self.glossary_.has_keyword(choice):
-                continue
+            choices_results.append(choice_scores)
             definitions = self.glossary_.get_definitions(choice)
+            if definitions is None:
+                continue
             for definition in definitions:
                 score = self.scorer_.score(definition, question)
                 scores[definition] = score
                 if score > max_score:
                     max_score = score
                     max_index = i_choice
-            choices_results.append(choice_scores)
 
         self.add_debug_info(problem, max_index, choices_results, debug)
 
@@ -53,5 +55,6 @@ class DefinitionKeywordResolver:
 
     def resolve(self, problems):
         debug = {}
-        problems['prediction'] = problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
+        if len(problems) > 0:
+            problems['prediction'] = problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
         return debug

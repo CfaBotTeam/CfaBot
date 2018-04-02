@@ -13,6 +13,7 @@ class ProblemsReader:
             record['filename'] = problem.attrib['filename']
             record['topic'] = problem.attrib['topic']
             record['year'] = problem.attrib['year']
+            record['category'] = int(problem.attrib['category'])
             for child in problem:
                 if child.tag == "choices":
                     for choice in child:

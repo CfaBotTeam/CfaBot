@@ -3,22 +3,24 @@ from Bot.Features import LengthFeaturesFactory
 from Bot.Features import GlossaryFeaturesFactory
 
 
+class CategoryFilterFactory:
+    def __init__(self, category):
+        self.category_ = category
+
+    def get_filters(self, df):
+        return df['category'] == self.category_
+
+
 class ProblemsClassifier:
     def __init__(self, glossary):
         self.glossary_ = glossary
         self.problems_ = None
         self.feature_factories_ = [LengthFeaturesFactory(), GlossaryFeaturesFactory(glossary)]
-        self.filters_ = {ProblemCategory.DEF_KEYWORD: self.get_def_keyword_filters}
+        self.filters_factories = {ProblemCategory.DEF_KEYWORD: CategoryFilterFactory(ProblemCategory.DEF_KEYWORD)}
 
     def add_features(self, df):
         for factory in self.feature_factories_:
             factory.add_features(df)
-
-    def get_default_filters(self, df):
-        filters = ~df['question'].str.contains(', CFA,')
-        filters &= df['question_choice_len_ratio'] < 12.0
-        filters &= df['any_choice_in_glossary'] == True
-        return filters
 
     def get_def_keyword_filters(self, df):
         filters = ~df['question'].str.contains(', CFA,')
@@ -29,19 +31,15 @@ class ProblemsClassifier:
         filters &= sub_filter
         return filters
 
-    def extract_category(self, df, filters_factory=None):
-        if filters_factory is None:
-            filters_factory = self.get_default_filters
-        return df[filters_factory(df)]
-
     def fit(self, df):
         self.problems_ = df
         self.add_features(df)
-        df['category'] = ProblemCategory.OTHER
+        df['predicted_category'] = ProblemCategory.OTHER
         categories = [ProblemCategory.DEF_KEYWORD]
         for category in categories:
-            filters = self.filters_[category]
-            df.loc[filters, 'category'] = category
+            filters_factory = self.filters_factories[category]
+            filters = filters_factory.get_filters(df)
+            df.loc[filters, 'predicted_category'] = category
 
     def get_category(self, category):
-        return self.problems_[self.problems_['category'] == category]
+        return self.problems_[self.problems_['predicted_category'] == category]
