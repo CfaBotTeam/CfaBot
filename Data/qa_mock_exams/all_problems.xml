@@ -17149,7 +17149,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>"Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 6.1 The observations, when ranked from smallest to largest, are: -11, -5, 8, 9, 18, 20, 20, 21, 25, and 35. The fourth quintile (80th percentile) is the eighth largest of these ordered numbers. The eighth largest number is 21.</comments>
     </problem>
-    <problem category="0" filename="2014_afternoon.xml" topic="Quantitative Methods" year="2014">
+    <problem category="6" filename="2014_afternoon.xml" topic="Quantitative Methods" year="2014">
         <question id="71">A fund manager would like to estimate the probability of a daily loss higher than 5% on the fund he manages. He decides to use a method that uses the relative frequency of occurrence based on historical data. The resulting probability is best described as a(n):</question>
         <choices>
             <choice id="A">subjective probability</choice>
