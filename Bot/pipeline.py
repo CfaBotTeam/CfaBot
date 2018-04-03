@@ -1,5 +1,6 @@
 import datetime
 import json
+import spacy
 from Bot.Load import ProblemsReader
 from Bot.Classification import ProblemsClassifier
 from Bot.Classification import ProblemCategory
@@ -10,10 +11,11 @@ from Bot.Utils import get_enum_name
 
 class Pipeline:
     def __init__(self):
+        self.nlp_ = spacy.load('en')
         self.glossary_ = GlossaryLoader().load()
         self.problems_reader_ = ProblemsReader()
-        self.classifier_ = ProblemsClassifier(self.glossary_)
-        self.resolver_factory_ = ResolverFactory(self.glossary_)
+        self.classifier_ = ProblemsClassifier(self.glossary_, self.nlp_)
+        self.resolver_factory_ = ResolverFactory(self.glossary_, self.nlp_)
 
     def resolve_category(self, category, results):
         category_name = get_enum_name(ProblemCategory, category)

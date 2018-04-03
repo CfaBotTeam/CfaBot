@@ -1,5 +1,7 @@
 import numpy as np
 from random import randint
+from Bot.Utils import get_enum_name
+from Bot.Classification import ProblemCategory
 
 
 class DefinitionKeywordResolver:
@@ -20,7 +22,8 @@ class DefinitionKeywordResolver:
             'question': problem['question'],
             'answer': problem['answer'],
             'max_index': max_index,
-            'choices_results': choices_results
+            'choices_results': choices_results,
+            'category': get_enum_name(ProblemCategory, problem['category'])
         }
 
     def find_prediction(self, problem, debug):

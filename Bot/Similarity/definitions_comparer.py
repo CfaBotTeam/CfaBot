@@ -2,8 +2,8 @@ from Bot.Similarity import SimilarityScorer
 
 
 class DefinitionsComparer:
-    def __init__(self):
-        self.scorer_ = SimilarityScorer()
+    def __init__(self, nlp):
+        self.scorer_ = SimilarityScorer(nlp)
 
     def compare(self, question, *defs_args):
         sim_max = 0

@@ -4,9 +4,9 @@ from Bot.Similarity import SimilarityScorer
 
 
 class ResolverFactory:
-    def __init__(self, glossary):
+    def __init__(self, glossary, nlp):
         self.glossary_ = glossary
-        self.sim_scorer_ = SimilarityScorer()
+        self.sim_scorer_ = SimilarityScorer(nlp)
 
     def get_resolver(self, category):
         if category == ProblemCategory.DEF_KEYWORD:

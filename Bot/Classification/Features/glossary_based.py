@@ -1,5 +1,6 @@
 import numpy as np
-from Bot.Features import FeaturesFactory
+
+from Bot.Classification.Features import FeaturesFactory
 
 
 class GlossaryFeatures:
@@ -17,6 +18,11 @@ class GlossaryFeatures:
 class GlossaryFeaturesFactory(FeaturesFactory):
     def __init__(self, glossary):
         self.glossary_ = glossary
+        self.features_ = [GlossaryFeatures.A_IN_GLOSS, GlossaryFeatures.A_GLOSS_TERM,
+                          GlossaryFeatures.B_IN_GLOSS, GlossaryFeatures.B_GLOSS_TERM,
+                          GlossaryFeatures.C_IN_GLOSS, GlossaryFeatures.C_GLOSS_TERM,
+                          GlossaryFeatures.D_IN_GLOSS, GlossaryFeatures.D_GLOSS_TERM,
+                          GlossaryFeatures.ANY_CH_IN_GLOSS]
 
     def get_glossary_term(self, sentence):
         if sentence is np.NaN:
@@ -38,11 +44,3 @@ class GlossaryFeaturesFactory(FeaturesFactory):
         any_in_gloss = a_in_gloss or b_in_gloss or c_in_gloss or d_in_gloss
         return a_in_gloss, a_term, b_in_gloss, b_term, c_in_gloss, c_term, \
                d_in_gloss, d_term, any_in_gloss
-
-    def add_features(self, df):
-        features = [GlossaryFeatures.A_IN_GLOSS, GlossaryFeatures.A_GLOSS_TERM,
-                    GlossaryFeatures.B_IN_GLOSS, GlossaryFeatures.B_GLOSS_TERM,
-                    GlossaryFeatures.C_IN_GLOSS, GlossaryFeatures.C_GLOSS_TERM,
-                    GlossaryFeatures.D_IN_GLOSS, GlossaryFeatures.D_GLOSS_TERM,
-                    GlossaryFeatures.ANY_CH_IN_GLOSS]
-        super().add_features(df, features)

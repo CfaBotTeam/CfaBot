@@ -1,5 +1,6 @@
 import numpy as np
-from Bot.Features import FeaturesFactory
+
+from Bot.Classification.Features import FeaturesFactory
 
 
 class LengthFeatures:
@@ -8,6 +9,9 @@ class LengthFeatures:
 
 
 class LengthFeaturesFactory(FeaturesFactory):
+    def __init__(self):
+        self.features_ = [LengthFeatures.AVG_Q_LEN, LengthFeatures.Q_CH_LEN_RATIO]
+
     def calc_average_q_len(self, problem):
         res = len(problem['choice_A']) + \
               len(problem['choice_B']) + \
@@ -21,7 +25,3 @@ class LengthFeaturesFactory(FeaturesFactory):
         avg_q_len = self.calc_average_q_len(problem)
         ratio = len(problem['question']) / avg_q_len
         return avg_q_len, ratio
-
-    def add_features(self, df):
-        features = [LengthFeatures.AVG_Q_LEN, LengthFeatures.Q_CH_LEN_RATIO]
-        super().add_features(df, features)
