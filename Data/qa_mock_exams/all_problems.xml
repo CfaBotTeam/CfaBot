@@ -19279,7 +19279,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>The sample mean is calculated as follows: X = EX;/n = (-31 – 14 + 3 – 18 + 34 + 20 – 6+9+7 - 16)/10 = -12.00/10=-1.20, where Xi is the value of the ith observation and n is the number of observations in the sample. The sample variance is: s2 = E? (X - X2(n - 1) The sample standard deviation is the (positive) square root of the sample variance: Value -31 -14 3 -18 34 Deviation from Mean -31 - (-1.2) = -29.8 -14 – (-1.2) = -12.8 3 – (-1.2) = 4.2 -18 – (-1.2) = -16.8 34 – (-1.2) = 35.2 20 - (-1.2) = 21.2 –6 - (-1.2) = -4.8 9- (-1.2) = 10.2 7- (-1.2) = 8.2 -16 – (-1.2) = -14.8 Squared Deviation 888.04 163.84 17.64 282.24 1,239.04 449.44 23.04 104.04 67.24 219.04 28 7 -16 Sum of squared deviations 3,453.60 Divided by n-1 (10 – 1) 3,453.60/9 = 383.73 Square root V383.73 = 19.59 CFA Level | "Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Sections 5.1.2, 7.4.</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
+    <problem category="0" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
         <question id="29">The minimum rate of return an investor must receive in order to accept an investment is best described as the:</question>
         <choices>
             <choice id="A">internal rate of return</choice>
@@ -19289,7 +19289,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>The required rate of return is the minimum rate of return an investor must receive in order to accept an investment. CFA Level I "The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
+    <problem category="0" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
         <question id="31">A descriptive measure of a population characteristic is best described as a:</question>
         <choices>
             <choice id="A">parameter</choice>
@@ -19709,7 +19709,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>A syndicated loan is a loan from a group of lenders, called the "syndicate," to a single borrower. Syndicated loans are primarily originated by banks, and the loans are extended to companies but also to governments and government-related entities. CFA Level 1 "Fixed-Income Markets: Issuance, Trading, and Funding," Moorad Choudhry, Steven V. Mann, and Lavone F. Whitmer Section 7</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Derivative Investments" year="2015">
+    <problem category="3" filename="2015_morning.xml" topic="Derivative Investments" year="2015">
         <question id="102">Convenience yield is best described as a nonmonetary benefit of holding a(n):</question>
         <choices>
             <choice id="A">forward contract</choice>
@@ -19939,7 +19939,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Forward premium = Forward rate - Spot rate = 1.3001 – 1.2952 = 0.0049. To convert to points, scale four decimal places—that is, multiply by 10,000 = 10,000 x 0.0049 = 49 points. Because the forward rate exceeds the spot rate for the base currency (euro), the euro is trading at a forward premium of 49 points. CFA Levell "Currency Exchange Rates," William A. Barker, Paul D. McNelis, and Jerry Nickelsburg Section 3.3</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Economics" year="2017">
+    <problem category="6" filename="2017_afternoon.xml" topic="Economics" year="2017">
         <question id="42">In the demand function f = 4.3 – 0.7P +.031 – .05Pwhere QË represents the quantity demanded of a good X, Px is the price per unit of good X, I is consumers' income, and Py is the price per unit of good Y, X, and Yare best described as:</question>
         <choices>
             <choice id="A">complements</choice>
@@ -20209,7 +20209,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>In the case of unsponsored DRs, the depository bank, not the investors in the DR, retains the voting rights. CFA Level I "Overview of Equity Securities," Ryan C. Fuhrmann, and Asjeet S. Lamba Section 5.2</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
+    <problem category="6" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
         <question id="81">A trader is able to obtain persistent abnormal returns by adopting an investment strategy that purchases stocks that have recently experienced high returns. This strategy exploits a market pricing anomaly best described as:</question>
         <choices>
             <choice id="A">the overreaction effect</choice>
