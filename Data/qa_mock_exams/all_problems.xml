@@ -9506,7 +9506,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Overview of Bond Sectors and Instruments,” Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 401-404 Study Session 15-63-e Describe the types and characteristics of mortgage-backed securities and explain the cash flow, prepayments, and prepayment risk for each type.  B is correct according to the table below showing the remaining principal balance after 3 monthly payments. Month Beginning Balance Mortgage Payment Interest Principal Repayment Ending Balance 1 220,000.00 1,856.49 1,100.00 756.49 219,243.51 2 219,243.51 1,856.49 1,096.22 760.27 218,483.24 3 218,483.24 1,856.49 1,092.42 764.07 217,719.17</comments>
     </problem>
-    <problem category="666" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
+    <problem category="100" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="108">The primary motivation for creating a collateralized mortgage obligation (CMO) is best described as the desire to redistribute which risk of investment in residential mortgages?</question>
         <choices>
             <choice id="A">Default risk</choice>
@@ -13196,7 +13196,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Portfolio Risk and Return: Part II", Vijay Singal, CFA 2013 Modular Level I, Vol. 4, Reading 44, Section 3.2.6 Study Session 12-44-g Calculate and interpret the expected return of an asset using the CAPM. B is correct. E(Rgbk) = Rf + P gb k x [e (rm kt) - Rf ] = 0.03 + 0.65 x (0.09 - 0.03) = 0.069.</comments>
     </problem>
-    <problem category="666" filename="2013_afternoon_answer.xml" topic="Portfolio Management" year="2013">
+    <problem category="0" filename="2013_afternoon_answer.xml" topic="Portfolio Management" year="2013">
         <question id="119">A return-generating model that provides an estimate of the expected return of a security based on factors such as earnings growth and cash flow generation is best described as a:</question>
         <choices>
             <choice id="A">market factor model</choice>
@@ -14306,7 +14306,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>"Introduction to Alternative Investments," Terri Duhon, George Spentzos, CFA, and Scott D. Stewart, CFA 2013 Modular Level I, Vol. 6, Reading 66, Sections 2.1 Study Session 18-66-b Describe categories of alternative investments. A is correct. Hedge funds invest in securities and may take long and short positions. They may also employ leverage.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Alternative Investments" year="2013">
+    <problem category="6" filename="2013_morning_answer.xml" topic="Alternative Investments" year="2013">
         <question id="110">If an investor uses derivatives to make a long investment in commodities, the return earned on margin is best described as:</question>
         <choices>
             <choice id="A">price return</choice>
@@ -18609,7 +18609,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Current Account Amounts with Signs and Grouped Appropriately: Transaction Amount Export of goods and services and income receipts Export of goods and services 10,000 Investment income received from foreigners 3,409 Totals 13,409 -16,735 Import of goods and services and income payments Import of goods and services Investment income payments made to foreigners —14,216 -2,519 -761 Net unilateral current transfers Unilateral current transfers received Unilateral current transfers paid 346 -1,107 Current account balance –4,087 CFA Level I "International Trade and Capital Flows,” Usha Nair-Reichert and Daniel Robert Witschi Sections 4.1, 4.2</comments>
     </problem>
-    <problem category="666" filename="2015_afternoon.xml" topic="Economics" year="2015">
+    <problem category="3" filename="2015_afternoon.xml" topic="Economics" year="2015">
         <question id="39">The unemployment rate is best described as the ratio of unemployed to:</question>
         <choices>
             <choice id="A">total population of people who are of working age</choice>
