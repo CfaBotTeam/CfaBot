@@ -1,5 +1,4 @@
 import numpy as np
-
 from Bot.Classification.Features import FeaturesFactory
 
 

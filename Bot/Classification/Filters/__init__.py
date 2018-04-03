@@ -1,2 +1,2 @@
 from .category_filter_factory import CategoryFilterFactory
-from .def_keyword_filter_factory import DefKeywordFilerFactory
+from .def_keyword_filter_factory import DefKeywordFilterFactory

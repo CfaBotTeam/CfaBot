@@ -6,3 +6,5 @@ from .glossary_based import GlossaryFeaturesFactory
 from .glossary_based import GlossaryFeatures
 from .nlp_based import NlpFeaturesFactory
 from .nlp_based import NlpFeatures
+from .verb_based import VerbFeatures
+from .verb_based import VerbFeaturesFactory

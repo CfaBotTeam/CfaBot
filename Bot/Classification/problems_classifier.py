@@ -3,7 +3,8 @@ from Bot.Classification.Features import NlpFeatures
 from Bot.Classification.Features import NlpFeaturesFactory
 from Bot.Classification.Features import GlossaryFeaturesFactory
 from Bot.Classification.Features import LengthFeaturesFactory
-from Bot.Classification.Filters import DefKeywordFilerFactory
+from Bot.Classification.Filters import DefKeywordFilterFactory
+from Bot.Classification.Features import VerbFeaturesFactory
 
 
 class ProblemsClassifier:
@@ -11,8 +12,11 @@ class ProblemsClassifier:
         self.nlp_ = nlp
         self.problems_ = None
         self.glossary_ = glossary
-        self.feature_factories_ = [LengthFeaturesFactory(), GlossaryFeaturesFactory(glossary), NlpFeaturesFactory()]
-        self.filters_factories_ = {ProblemCategory.DEF_KEYWORD: DefKeywordFilerFactory()}
+        self.feature_factories_ = [VerbFeaturesFactory(),
+                                   LengthFeaturesFactory(),
+                                   GlossaryFeaturesFactory(glossary),
+                                   NlpFeaturesFactory()]
+        self.filters_factories_ = {ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory()}
 
     def add_features(self):
         for factory in self.feature_factories_:
