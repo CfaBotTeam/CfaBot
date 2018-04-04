@@ -1,2 +1,3 @@
 from .category_filter_factory import CategoryFilterFactory
 from .def_keyword_filter_factory import DefKeywordFilterFactory
+from .scenario_filter_factory import ScenarioFilterFactory

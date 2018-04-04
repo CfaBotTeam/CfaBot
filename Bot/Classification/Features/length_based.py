@@ -15,7 +15,7 @@ class LengthFeaturesFactory(FeaturesFactory):
         res = len(problem['choice_A']) + \
               len(problem['choice_B']) + \
               len(problem['choice_C'])
-        if problem['choice_D'] is np.NaN:
+        if 'choice_D' not in problem or problem['choice_D'] is np.NaN:
             return res / 3
         res += len(problem['choice_D'])
         return res / 4

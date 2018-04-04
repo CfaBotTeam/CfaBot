@@ -11,7 +11,7 @@ from Bot.Utils import get_enum_name
 
 class Pipeline:
     def __init__(self):
-        self.nlp_ = spacy.load('en')
+        self.nlp_ = spacy.load('en', disable=['parser', 'tagger', 'textcat'])
         self.glossary_ = GlossaryLoader().load()
         self.problems_reader_ = ProblemsReader()
         self.classifier_ = ProblemsClassifier(self.glossary_, self.nlp_)

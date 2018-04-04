@@ -6,5 +6,8 @@ class FeaturesFactory:
 
     def add_features(self, df):
         feature_serie = df.apply(self.calc_features, axis=1)
-        for i, feature in enumerate(self.features_):
-            df[feature] = feature_serie.apply(lambda serie: serie[i])
+        if len(self.features_) == 1:
+            df[self.features_[0]] = feature_serie
+        else:
+            for i, feature in enumerate(self.features_):
+                df[feature] = feature_serie.apply(lambda serie: serie[i])

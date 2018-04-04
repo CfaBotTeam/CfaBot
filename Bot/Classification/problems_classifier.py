@@ -3,8 +3,9 @@ from Bot.Classification.Features import NlpFeatures
 from Bot.Classification.Features import NlpFeaturesFactory
 from Bot.Classification.Features import GlossaryFeaturesFactory
 from Bot.Classification.Features import LengthFeaturesFactory
-from Bot.Classification.Filters import DefKeywordFilterFactory
 from Bot.Classification.Features import VerbFeaturesFactory
+from Bot.Classification.Filters import DefKeywordFilterFactory
+from Bot.Classification.Filters import ScenarioFilterFactory
 
 
 class ProblemsClassifier:
@@ -16,7 +17,10 @@ class ProblemsClassifier:
                                    LengthFeaturesFactory(),
                                    GlossaryFeaturesFactory(glossary),
                                    NlpFeaturesFactory()]
-        self.filters_factories_ = {ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory()}
+        self.filters_factories_ = {
+            ProblemCategory.SCENARIO: ScenarioFilterFactory(),
+            ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory()
+        }
 
     def add_features(self):
         for factory in self.feature_factories_:
@@ -30,11 +34,15 @@ class ProblemsClassifier:
         self.add_nlp()
         self.add_features()
         df['predicted_category'] = ProblemCategory.OTHER
-        categories = [ProblemCategory.DEF_KEYWORD]
+        categories = self.filters_factories_.keys()
         for category in categories:
             filters_factory = self.filters_factories_[category]
             filters = filters_factory.get_filters(df)
             df.loc[filters, 'predicted_category'] = category
+            if category == ProblemCategory.DEF_KEYWORD:
+                with open('test.txt', 'w') as f:
+                    probs = self.get_category(category)
+                    f.write(str(probs.index))
 
     def get_category(self, category):
         return self.problems_[self.problems_['predicted_category'] == category]

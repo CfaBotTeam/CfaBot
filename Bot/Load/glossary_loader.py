@@ -18,13 +18,24 @@ class Glossary:
         words = [x.lower() for x in words if self.is_roman(x) or x.lower() not in STOP_WORDS]
         return ' '.join(words)
 
-    def get_definitions(self, sentence):
-        keyword = sentence
-        if keyword not in self.glossary_:
-            keyword = self.get_keyword(sentence)
-            if keyword not in self.glossary_:
-                return None
-        return [self.glossary_[keyword]]
+    def get_matching_keyword(self, term):
+        keys = self.glossary_.keys()
+        keyword = term
+        if keyword in keys:
+            return keyword
+        keyword = self.get_keyword(term)
+        if keyword in keys:
+            return keyword
+        return None
+
+    def has_matching_keyword(self, term):
+        return self.get_matching_keyword(term) is not None
+
+    def get_definitions(self, term):
+        keyword = self.get_matching_keyword(term)
+        if keyword is None:
+            return None
+        return self.glossary_[keyword]
 
 
 class GlossaryLoader:

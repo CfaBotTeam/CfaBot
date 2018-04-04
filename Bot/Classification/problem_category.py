@@ -19,6 +19,8 @@ class ProblemCategory(object):
     CALCULUS = 15
     REASONING = 16
 
+    SCENARIO = 20
+
     UNKNOWN = 100
 
     OTHER = 666

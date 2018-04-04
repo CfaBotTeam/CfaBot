@@ -6,14 +6,10 @@ from Bot.Classification.Features import VerbFeatures
 
 class DefKeywordFilterFactory:
     def get_filters(self, df):
-        return df['category'] == self.category_
-
-    def get_filters(self, df):
-        filters = ~df['question'].str.contains(', CFA,')
-        filters &= df[VerbFeatures.HAS_DEF_VERB]
+        filters = df[VerbFeatures.HAS_DEF_VERB]
         filters &= df[VerbFeatures.CENTRALITY] > 0.6
-        filters &= df[LengthFeatures.Q_CH_LEN_RATIO] < 12.0
+        filters &= df[LengthFeatures.Q_CH_LEN_RATIO] < 27.0
         filters &= df[GlossaryFeatures.ANY_CH_IN_GLOSS]
-        filters &= ~df[NlpFeatures.HAS_DIGIT]
-        filters &= ~df[NlpFeatures.HAS_PERSON]
+        filters &= ~df[NlpFeatures.HAS_NUMBER]
+        filters &= ~df[NlpFeatures.HAS_NER]
         return filters

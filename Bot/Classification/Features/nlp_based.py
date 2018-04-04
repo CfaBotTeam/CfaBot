@@ -1,19 +1,20 @@
+import re
 from Bot.Classification.Features import FeaturesFactory
 
 
 class NlpFeatures:
     QUESTION_NLP = 'question_nlp'
-    HAS_DIGIT = 'nlp_has_digit'
-    HAS_PERSON = 'nlp_has_person'
+    HAS_NUMBER = 'nlp_has_number'
+    HAS_NER = 'nlp_has_ner'
 
 
 class NlpFeaturesFactory(FeaturesFactory):
     def __init__(self):
-        self.features_ = [NlpFeatures.HAS_DIGIT, NlpFeatures.HAS_PERSON]
+        self.features_ = [NlpFeatures.HAS_NUMBER, NlpFeatures.HAS_NER]
 
     def has_numbers(self, problem):
         for token in problem[NlpFeatures.QUESTION_NLP]:
-            if token.is_digit:
+            if re.match("^[0-9]+[.,]?[0-9]*$", str(token)) is not None:
                 return True
         return False
 
@@ -28,12 +29,11 @@ class NlpFeaturesFactory(FeaturesFactory):
             return None
         return ent_types
 
-    def has_person(self, ent_types):
-        return ent_types is not None and 'PERSON' in ent_types
+    def has_ner(self, ent_types):
+        return ent_types is not None and ('PERSON' in ent_types or 'PERCENT' in ent_types)
 
     def calc_features(self, problem):
         has_numbers = self.has_numbers(problem)
         ent_types = self.get_entity_types(problem)
-        has_person = self.has_person(ent_types)
-
-        return has_numbers, has_person
+        has_ner = self.has_ner(ent_types)
+        return has_numbers, has_ner
