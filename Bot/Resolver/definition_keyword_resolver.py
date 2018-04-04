@@ -38,10 +38,7 @@ class DefinitionKeywordResolver:
             scores = {}
             choice_scores = {'choice': choice, 'scores': scores}
             choices_results.append(choice_scores)
-            try:
-                definitions = self.glossary_.get_definitions(choice)
-            except:
-                pass
+            definitions = self.glossary_.get_definitions(choice)
             if definitions is None:
                 continue
             for definition in definitions:
