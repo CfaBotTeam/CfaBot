@@ -56,8 +56,5 @@ class DefinitionKeywordResolver:
 
         return res
 
-    def resolve(self, problems):
-        debug = {}
-        if len(problems) > 0:
-            problems['prediction'] = problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
-        return debug
+    def resolve(self, problems, debug):
+        return problems.apply(lambda x: self.find_prediction(x, debug), axis=1)

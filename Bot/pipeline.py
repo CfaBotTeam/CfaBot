@@ -17,16 +17,20 @@ class Pipeline:
         self.classifier_ = ProblemsClassifier(self.glossary_, self.nlp_)
         self.resolver_factory_ = ResolverFactory(self.glossary_, self.nlp_)
 
-    def resolve_category(self, category, results):
+    def resolve_category(self, category, df, results):
         category_name = get_enum_name(ProblemCategory, category)
         print("Resolving category " + str(category_name))
-        problems = self.classifier_.get_category(category)
+        category_filter = self.classifier_.get_category_filter(category)
+        category_problems = df.loc[category_filter]
 
-        print("Found {} problems matching the category ".format(len(problems)))
+        print("Found {} problems matching the category ".format(len(category_problems)))
         resolver = self.resolver_factory_.get_resolver(category)
-        results[category_name] = resolver.resolve(problems)
-        correct_answers = problems[problems['prediction'] == problems['answer']]
-        print("Correct answers = " + str(len(correct_answers) / len(problems)))
+        category_results = {}
+        res = resolver.resolve(category_problems, category_results)
+        category_problems.loc[category_filter, 'prediction'] = res
+        results[category_name] = category_results
+        correct_answers = category_problems[category_problems['prediction'] == category_problems['answer']]
+        print("Correct answers = " + str(len(correct_answers) / len(category_problems)))
 
     def write_results(self, results):
         now = datetime.datetime.now().strftime("%m_%d_%H_%M")
@@ -41,6 +45,6 @@ class Pipeline:
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
 
-        self.resolve_category(ProblemCategory.DEF_KEYWORD, results)
+        self.resolve_category(ProblemCategory.DEF_KEYWORD_START_END, all_problems_df, results)
 
         self.write_results(results)

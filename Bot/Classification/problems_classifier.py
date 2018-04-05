@@ -4,7 +4,9 @@ from Bot.Classification.Features import NlpFeaturesFactory
 from Bot.Classification.Features import GlossaryFeaturesFactory
 from Bot.Classification.Features import LengthFeaturesFactory
 from Bot.Classification.Features import VerbFeaturesFactory
+from Bot.Classification.Features import SubjectFeaturesFactory
 from Bot.Classification.Filters import DefKeywordFilterFactory
+from Bot.Classification.Filters import DefKeywordStartEndFilterFactory
 from Bot.Classification.Filters import ScenarioFilterFactory
 
 
@@ -13,13 +15,16 @@ class ProblemsClassifier:
         self.nlp_ = nlp
         self.problems_ = None
         self.glossary_ = glossary
-        self.feature_factories_ = [VerbFeaturesFactory(),
-                                   LengthFeaturesFactory(),
-                                   GlossaryFeaturesFactory(glossary),
-                                   NlpFeaturesFactory()]
+        self.feature_factories_ = [
+            VerbFeaturesFactory(),
+            LengthFeaturesFactory(),
+            GlossaryFeaturesFactory(glossary),
+            NlpFeaturesFactory(),
+            SubjectFeaturesFactory(glossary)]
         self.filters_factories_ = {
             ProblemCategory.SCENARIO: ScenarioFilterFactory(),
-            ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory()
+            ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory(),
+            # ProblemCategory.DEF_KEYWORD_START_END: DefKeywordStartEndFilterFactory(),
         }
 
     def add_features(self):
@@ -33,16 +38,12 @@ class ProblemsClassifier:
         self.problems_ = df
         self.add_nlp()
         self.add_features()
-        df['predicted_category'] = ProblemCategory.OTHER
+        df['predicted_category'] = ProblemCategory.UNLABELED
         categories = self.filters_factories_.keys()
         for category in categories:
             filters_factory = self.filters_factories_[category]
             filters = filters_factory.get_filters(df)
             df.loc[filters, 'predicted_category'] = category
-            if category == ProblemCategory.DEF_KEYWORD:
-                with open('test.txt', 'w') as f:
-                    probs = self.get_category(category)
-                    f.write(str(probs.index))
 
-    def get_category(self, category):
-        return self.problems_[self.problems_['predicted_category'] == category]
+    def get_category_filter(self, category):
+        return self.problems_['predicted_category'] == category

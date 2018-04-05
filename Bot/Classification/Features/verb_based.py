@@ -11,21 +11,23 @@ class VerbFeaturesFactory(FeaturesFactory):
     def __init__(self):
         self.features_ = [VerbFeatures.HAS_DEF_VERB, VerbFeatures.CENTRALITY]
 
-    def has_def_verb(self, problem):
-        question = problem['question']
-        return 'defined' in question or 'described' in question
-
-    def get_verb_centrality(self, problem):
-        index = -1
-        for i, token in enumerate(problem[NlpFeatures.QUESTION_NLP]):
+    @staticmethod
+    def get_verb_token(problem):
+        tokens = problem[NlpFeatures.QUESTION_NLP]
+        for i, token in enumerate(reversed(tokens)):
             t = str(token)
             if t == 'defined' or t == 'described':
-                index = i
-                break
-        if index == -1:
-            return -1
+                return len(tokens) - 1 - i, token
+        return -1, None
+
+    def has_def_verb(self, problem):
+        _, token = self.get_verb_token(problem)
+        return token is not None
+
+    def get_verb_centrality(self, problem):
+        verb_index, _ = self.get_verb_token(problem)
         nb_tokens = len(problem['question_nlp'])
-        res = (index + 1) / nb_tokens
+        res = (verb_index + 1) / nb_tokens
         if nb_tokens % 2 == 1:
             res -= 1 / (2 * nb_tokens)
         return res
