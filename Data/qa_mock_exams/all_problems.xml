@@ -6796,7 +6796,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Capital Budgeting,” John D. Stowe, CFA and Jacques R. Gagne, CFA 2010 Modular Level I, Vol. 4 pp. 10-13 “Cost of Capital,” Yves Courtois, CFA, Gene C. Lai, and Pamela P. Peterson, CFA 2010 Modular Level I, Vol. 4, pp. 40-41 Study Session 11-44-d, 11-45-a Calculate and interpret the results using each of the following methods to evaluate a single capital project: net present value (NPV), internal rate of return (IRR), payback period, discounted payback period, and profitability index (PI). Calculate and interpret the weighted average cost of capital (WACC) of a company. The WACC of the company is calculated as 0.5(6%) + 0.1(10%) + 0.4(15%) = 10%. To have a positive NPV, a project must have an IRR greater than the WACC used to calculate the NPV. Only the warehouse project has a NPV greater than $0 (at the company’s WACC of 10%), therefore only the warehouse project has an IRR that exceeds 10%. </comments>
     </problem>
-    <problem category="666" filename="2010_morning_answer.xml" topic="Corporate Finance" year="2010">
+    <problem category="16" filename="2010_morning_answer.xml" topic="Corporate Finance" year="2010">
         <question id="72">An analyst is developing net present value (NPV) profiles for two investment projects. The only difference between the two projects is that Project 1 is expected to receive larger cash flows early in the life of the project, while Project 2 is expected to receive larger cash flows late in the life of the project. The sensitivities of the projects’ NPVs to changes in the discount rate is best described as:</question>
         <choices>
             <choice id="A">equal for the two projects</choice>
@@ -8736,16 +8736,6 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Hypothesis Testing,” Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA  2011 Modular Level I, Vol. 1, pp. 599-600 Study Session 3-11-e Explain and interpret the p-value as it relates to hypothesis testing. If the p-value is less than our specified level of significance, we reject the null hypothesis.</comments>
     </problem>
-    <problem category="666" filename="2011_morning_answer.xml" topic="Quantitative Methods" year="2011">
-        <question id="29">When an investigator wants to test whether a particular parameter is larger than a specific value, the null and alternative hypothesis are best defined as:</question>
-        <choices>
-            <choice id="A">H0: 9 = 90 versus Ha: 9 ^ 90</choice>
-            <choice id="B">H0: 9 &lt; 90 versus Ha: 9 &gt; 90</choice>
-            <choice id="C">H0: 9 &gt; 90 versus Ha: 9 &lt; 90</choice>
-        </choices>
-        <answer>B</answer>
-        <comments>“Hypothesis Testing,” Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2011 Modular Level I, Vol. 1, pp. 592-593 Study Session 3-11-a Define a hypothesis, describe the steps of hypothesis testing, interpret and discuss the choice of the null and alternative hypothesis, and distinguish between one-tailed and two¬ tailed tests of hypotheses. A positive “hoped for” condition means that we will only reject the null (and accept the alternative) if the evidence indicates that the population parameter is greater than 90. Thus, H0: 9 &lt; 90 versus Ha: 9 &gt; 90 is the correct statement of the null and alternative hypotheses.</comments>
-    </problem>
     <problem category="0" filename="2011_morning_answer.xml" topic="Quantitative Methods" year="2011">
         <question id="30">A hypothesis test fails to reject a false null hypothesis. This is best described as a:</question>
         <choices>
@@ -8776,7 +8766,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>“Elasticity,” Michael Parkin 2011 Modular Level I, Vol. 2, pp. 11-12 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. If demand is elastic, a 1 percent price cut increases the quantity sold by more than 1 percent and total revenue increases.</comments>
     </problem>
-    <problem category="666" filename="2011_morning_answer.xml" topic="Economics" year="2011">
+    <problem category="17" filename="2011_morning_answer.xml" topic="Economics" year="2011">
         <question id="34">Regarding a company’s production function, both labor costs and capital costs are best described as:</question>
         <choices>
             <choice id="A">fixed in the long run</choice>
@@ -8816,7 +8806,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Money, the Price Level, and Inflation,” Michael Parkin 2011 Modular Level I, Vol. 2, p. 371 Study Session 6-24-d Explain the goals of the U.S. Federal Reserve (Fed) in conducting monetary policy and how the Fed uses its policy tools to control the quantity of money, and describe the assets and liabilities on the Fed’s balance sheet. The Fed uses three main policy tools to achieve its objectives: required reserve ratios, discount rate, and open market operations.</comments>
     </problem>
-    <problem category="666" filename="2011_morning_answer.xml" topic="Economics" year="2011">
+    <problem category="6" filename="2011_morning_answer.xml" topic="Economics" year="2011">
         <question id="38">Suppose inflation increases due to increases in government spending and a reduction in taxes. Such inflation is best described as:</question>
         <choices>
             <choice id="A">cost-push inflation</choice>
@@ -9966,7 +9956,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast 2012 Modular Level I, Vol. 2, pp. 31-33 Study Session 4-13-l Calculate and interpret consumer surplus, producer surplus, and total surplus. B is correct. Consumer surplus arises when one pays less for a good than the maximum price that she or he was willing to pay for it. Consumer surplus is the value (or marginal benefit) of a good minus the price paid for it, summed over the quantity bought. Because no consumer will (willingly) pay a price greater than the marginal value or benefit, consumer surplus is always positive. .</comments>
     </problem>
-    <problem category="666" filename="2012_afternoon_answer.xml" topic="Economics" year="2012">
+    <problem category="16" filename="2012_afternoon_answer.xml" topic="Economics" year="2012">
         <question id="34">The diagram illustrates a consumer's allocation of her budget between items X and Y. With an initial budget (BC1) she consumes Qa units of item Y. When the price of Y drops, she consumes Qc units of item Y. Lines BC2 and BC3 are parallel to one another. The income effect arising from this change in the price of Y is best described as the distance between:</question>
         <choices>
             <choice id="A">Qb and Qa</choice>
@@ -12956,7 +12946,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Option Markets and Contracts," Don M. Chance, CFA 2013 Modular Level I, Vol. 6, Reading 63, Section 5.1 Study Session 17-63-i Define intrinsic value and time value and define their relationship. B is correct. The put option has no intrinsic value because the share price is above the strike price. Because the option has a remaining life of two months, it has positive time value.</comments>
     </problem>
-    <problem category="666" filename="2013_afternoon_answer.xml" topic="Derivative Investments" year="2013">
+    <problem category="2" filename="2013_afternoon_answer.xml" topic="Derivative Investments" year="2013">
         <question id="95">The tenor of a swap is best described as the:</question>
         <choices>
             <choice id="A">size of the contract</choice>
@@ -13406,7 +13396,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"The Time Value of Money," Richard A. DeFusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2013 Modular Level I, Vol. 1, Reading 5, Section 3.3 Study Session 2-5-c, d Calculate and interpret the effective annual rate, given the stated annual interest rate and the frequency of compounding. Solve time value of money problems for different frequencies of compounding: B is correct. Use the formula for effective annual rate: EAR = (1 + Periodic interest rate)m - 1. Iteratively substitute the possible frequency of compounding until the EAR is 10.47%. For weekly compounding, (1 + 0.10/52)52 - 1 = 0.10506 = 10.51% For monthly compounding, (1 + 0.10/12)12 - 1 = 0.10471 = 10.47% For quarterly compounding, (1 + 0.10/4)4 - 1 = 0.10381 = 10.38% Thus, the correct answer is monthly compounding.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
+    <problem category="2" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
         <question id="20">Equity return series are best described as, for the most part:</question>
         <choices>
             <choice id="A">platykurtotic (less peaked than a normal distribution)</choice>
@@ -13456,7 +13446,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>"Hypothesis Testing," Richard A. DeFusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2013 Modular Level I, Vol. 1, Reading 11, Section 2 Study Session 3- 11- a Define a hypothesis, describe the steps of hypothesis testing, describe and interpret the choice of the null and alternative hypotheses, and distinguish between one-tailed and two-tailed tests of hypotheses. A is correct. When the null and alternative hypotheses are of the form: H0: 0 = 00 versus Ha: 0 * 00, the correct approach is to use a two-tailed test.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
+    <problem category="0" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
         <question id="25">A stock is declining in price and reaches a price range wherein buying activity is sufficient to stop the decline. This is best described as a:</question>
         <choices>
             <choice id="A">support level</choice>
@@ -13496,7 +13486,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Sampling and Estimation," Richard A. DeFusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2013 Modular Level I, Vol. 1, Reading 10, Section 4.2 Study Session 3-10-j Calculate and interpret a confidence interval for a population mean, given a normal distribution with (1) a known population variance, (2) an unknown population variance, or (3) an unknown variance and a large sample size. B is correct. The reliability factor for a 95% confidence interval with unknown population variance and sample size greater than 30 is z0.0 2 5 = 1.9 6. The confidence interval estimate is X ± z0.0 2 5 0=). With sample variance of 0.0529, s = 0.2 3 .The estimated interval is 0.1 1 4 ± 1.96 02=) = 0.1 14 ± 1.9 6 (0.0 3 2 7) = 0.1 1 4 ± 0.0 6 3 7 = +0.05024 to +0.17775.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
+    <problem category="3" filename="2013_morning_answer.xml" topic="Quantitative Methods" year="2013">
         <question id="29">The liquidity premium can be best described as compensation to investors for the:</question>
         <choices>
             <choice id="A">risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly</choice>
