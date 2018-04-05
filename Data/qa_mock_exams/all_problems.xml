@@ -9496,7 +9496,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Overview of Bond Sectors and Instruments,” Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 401-404 Study Session 15-63-e Describe the types and characteristics of mortgage-backed securities and explain the cash flow, prepayments, and prepayment risk for each type.  B is correct according to the table below showing the remaining principal balance after 3 monthly payments. Month Beginning Balance Mortgage Payment Interest Principal Repayment Ending Balance 1 220,000.00 1,856.49 1,100.00 756.49 219,243.51 2 219,243.51 1,856.49 1,096.22 760.27 218,483.24 3 218,483.24 1,856.49 1,092.42 764.07 217,719.17</comments>
     </problem>
-    <problem category="100" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
+    <problem category="17" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="108">The primary motivation for creating a collateralized mortgage obligation (CMO) is best described as the desire to redistribute which risk of investment in residential mortgages?</question>
         <choices>
             <choice id="A">Default risk</choice>
@@ -12346,7 +12346,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Probability Concepts", Richard A. DeFusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2013 Modular Level I, Vol. 1, Reading 8, Section 2 Study Session 2-8-b State the two defining properties of probability and distinguish among empirical, subjective, and a priori probabilities. B is correct. An empirical probability is "a probability estimated from data as a relative frequency of occurrence." Questions 33 through 44 relate to Economics</comments>
     </problem>
-    <problem category="8" filename="2013_afternoon_answer.xml" topic="Economics" year="2013">
+    <problem category="20" filename="2013_afternoon_answer.xml" topic="Economics" year="2013">
         <question id="33">The market demand function for item X is a function of its price, household income, and the price of item Y. Own-price elasticity of demand for X -0.8 Income elasticity of demand for X 1.5 Cross-price elasticity of demand for X with respect to the price of Y 0.4 Given the above elasticity coefficients for the two items, which of the following statements is most accurate?</question>
         <choices>
             <choice id="A">X and Y are substitutes</choice>
@@ -16129,7 +16129,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>( millions) Accounting Purposes Tax Purposes Revaluation surplus (£10,000 – £6,800) = £3,200 No revaluation allowed 20 years 5 years remaining Depreciation, straight line Start of year balance after revaluation, 2013 £10,000 £5,000 Depreciation, 2013 (£10,000/20 years) = £500 £1,000 Net balance, end of 2013 £9,500 £4,000 Minus revaluation surplus - £ 3,200 Carrying value for purposes £6,300 £4,000 of deferred taxes Deferred tax liability = 0.30 X (£6,300 – £4,000) = £690 Only the portion of the difference between the tax base and the carrying amount that is not the result of the revaluation is recognized as giving rise to a deferred tax liability. The portion arising from the revaluation surplus is used to reduce the revaluation surplus in equity. CFA Level I “Income Taxes,” Elbie Antonites and Michael A. Broihahn Sections 2.2, 6.2</comments>
     </problem>
-    <problem category="8" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
+    <problem category="20" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
         <question id="68">Data for a firm are presented in the following table: As of 31 December £ thousands Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on 30 June. 600 The current ratio for the firm's industry is 3.2. Based on the current ratio, the firm's liquidity compared with the industry is best described as being:</question>
         <choices>
             <choice id="A">higher</choice>
@@ -16449,7 +16449,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>The historical standard deviations of annual return for venture capital are higher than that of common stocks. Investors should therefore require a higher return in exchange for accepting this higher risk, along with the illiquidity of venture capital investing. CFA Level I "Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 4.3</comments>
     </problem>
-    <problem category="8" filename="2016_afternoon_question.xml" topic="Portfolio Management" year="2016">
+    <problem category="17" filename="2016_afternoon_question.xml" topic="Portfolio Management" year="2016">
         <question id="111">You are preparing an investment policy statement for a client who manages her own successful marketing consultancy. Her annual income is approximately $500,000. She describes herself as a finance novice. Most of her savings are invested in bank term deposits and short-term government securities. In her responses to the standard risk assessment questionnaire, she strongly agrees with the statements that she "feels more comfortable putting money in a bank account than in the stock market." Also, she "thinks of the word 'risk' as being a 'loss". Based on this information, your client's ability and willingness to take risk can best be described as:</question>
         <choices>
             <choice id="A">high ability and willingness</choice>
