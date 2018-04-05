@@ -5386,7 +5386,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments> “Understanding the Income Statement,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 170-172 Study Session 8-32-g Describe the components of earnings per share and calculate a company’s earnings per share (both basic and diluted earnings per share) for both a simple and complex capital structure. Stock dividends and stock splits are treated in the same way for purposes of determining weighted average number of shares outstanding; the adjustment in the number of shares is made as if the stock split or dividend occurred at the beginning of the year.</comments>
     </problem>
-    <problem category="17" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
+    <problem category="10" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="50">Under International Financial Reporting Standards (IFRS) the preparation of a complete set of financial statements is best described as a(n):</question>
         <choices>
             <choice id="A">objective of financial reporting</choice>
@@ -5766,7 +5766,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Financial Analysis Techniques,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 342-344 “An Introduction to Security Valuation,” Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 158-159 Study Session 10-35-e, f; 14-56-f Demonstrate how ratios are related and how to evaluate a company using a combination of different ratios. Demonstrate the application of and interpret changes in the component parts of the DuPont analysis (the decomposition of return on equity). Estimate the dividend growth rate, given the components of the required rate of return incorporating the earnings retention rate and current stock price. ROE = Net income / Equity; Retention rate = 1 - (Dividends / Net income); g = Retention rate x Return on equity Equity = $200 million - $120 million = $80 million; ROE = $10 million / $80 million = 12.5%. Alternatively using the DuPont Model: ROE = Return on assets x Financial leverage or Profit margin x Total assets turnover x Financial leverage; Sales = NI / NPM = $10 million / 0.02 = $500 million; TAT = 500 / 200 = 2.5 Financial Leverage = 200 / 80 = 2.5  ROE = 2 x 2.5 x 2.5 = 12.5% Retention rate = 1 - ($2 million / $10 million) = 80%; Growth rate = 12.5% x 80% = 10%.</comments>
     </problem>
-    <problem category="15" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
+    <problem category="8" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
         <question id="88">A company’s $100 par perpetual preferred stock has a dividend rate of 7 percent and a required rate of return of 11 percent. The company’s earnings are expected to grow at a constant rate of 3 percent per year. If the market price per share for the preferred stock is $75, the preferred stock is most appropriately described as being:</question>
         <choices>
             <choice id="A">overvalued by $11.36</choice>
@@ -6796,7 +6796,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Capital Budgeting,” John D. Stowe, CFA and Jacques R. Gagne, CFA 2010 Modular Level I, Vol. 4 pp. 10-13 “Cost of Capital,” Yves Courtois, CFA, Gene C. Lai, and Pamela P. Peterson, CFA 2010 Modular Level I, Vol. 4, pp. 40-41 Study Session 11-44-d, 11-45-a Calculate and interpret the results using each of the following methods to evaluate a single capital project: net present value (NPV), internal rate of return (IRR), payback period, discounted payback period, and profitability index (PI). Calculate and interpret the weighted average cost of capital (WACC) of a company. The WACC of the company is calculated as 0.5(6%) + 0.1(10%) + 0.4(15%) = 10%. To have a positive NPV, a project must have an IRR greater than the WACC used to calculate the NPV. Only the warehouse project has a NPV greater than $0 (at the company’s WACC of 10%), therefore only the warehouse project has an IRR that exceeds 10%. </comments>
     </problem>
-    <problem category="16" filename="2010_morning_answer.xml" topic="Corporate Finance" year="2010">
+    <problem category="9" filename="2010_morning_answer.xml" topic="Corporate Finance" year="2010">
         <question id="72">An analyst is developing net present value (NPV) profiles for two investment projects. The only difference between the two projects is that Project 1 is expected to receive larger cash flows early in the life of the project, while Project 2 is expected to receive larger cash flows late in the life of the project. The sensitivities of the projects’ NPVs to changes in the discount rate is best described as:</question>
         <choices>
             <choice id="A">equal for the two projects</choice>
@@ -8766,7 +8766,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>“Elasticity,” Michael Parkin 2011 Modular Level I, Vol. 2, pp. 11-12 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. If demand is elastic, a 1 percent price cut increases the quantity sold by more than 1 percent and total revenue increases.</comments>
     </problem>
-    <problem category="17" filename="2011_morning_answer.xml" topic="Economics" year="2011">
+    <problem category="10" filename="2011_morning_answer.xml" topic="Economics" year="2011">
         <question id="34">Regarding a company’s production function, both labor costs and capital costs are best described as:</question>
         <choices>
             <choice id="A">fixed in the long run</choice>
@@ -9496,7 +9496,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Overview of Bond Sectors and Instruments,” Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 401-404 Study Session 15-63-e Describe the types and characteristics of mortgage-backed securities and explain the cash flow, prepayments, and prepayment risk for each type.  B is correct according to the table below showing the remaining principal balance after 3 monthly payments. Month Beginning Balance Mortgage Payment Interest Principal Repayment Ending Balance 1 220,000.00 1,856.49 1,100.00 756.49 219,243.51 2 219,243.51 1,856.49 1,096.22 760.27 218,483.24 3 218,483.24 1,856.49 1,092.42 764.07 217,719.17</comments>
     </problem>
-    <problem category="17" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
+    <problem category="10" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="108">The primary motivation for creating a collateralized mortgage obligation (CMO) is best described as the desire to redistribute which risk of investment in residential mortgages?</question>
         <choices>
             <choice id="A">Default risk</choice>
@@ -9856,7 +9856,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle 2012 Modular Level I, Vol. 1, pp. 396-399 Study Session 2-7-i Calculate and interpret the coefficient of variation and the Sharpe ratio. B is correct. The Sharpe ratio is defined as Sp = (Rp — RF )/sp. In this case, SA = (10 - 4)/20 = 0.30 SB = (18 - 4)/15 = 0.9333 SC = (6 - 4)/3 = 0.6667 Portfolio B has the highest Sharpe ratio.</comments>
     </problem>
-    <problem category="16" filename="2012_afternoon_answer.xml" topic="Quantitative Methods" year="2012">
+    <problem category="9" filename="2012_afternoon_answer.xml" topic="Quantitative Methods" year="2012">
         <question id="24">If two events, A and B, are independent and the probability of A does not equal the probability of B (i.e., P(A) * P(B)), then the probability of event A given that event B has occurred (i.e., P(A | B)) is best described as:</question>
         <choices>
             <choice id="A">P(A)</choice>
@@ -9956,7 +9956,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast 2012 Modular Level I, Vol. 2, pp. 31-33 Study Session 4-13-l Calculate and interpret consumer surplus, producer surplus, and total surplus. B is correct. Consumer surplus arises when one pays less for a good than the maximum price that she or he was willing to pay for it. Consumer surplus is the value (or marginal benefit) of a good minus the price paid for it, summed over the quantity bought. Because no consumer will (willingly) pay a price greater than the marginal value or benefit, consumer surplus is always positive. .</comments>
     </problem>
-    <problem category="16" filename="2012_afternoon_answer.xml" topic="Economics" year="2012">
+    <problem category="9" filename="2012_afternoon_answer.xml" topic="Economics" year="2012">
         <question id="34">The diagram illustrates a consumer's allocation of her budget between items X and Y. With an initial budget (BC1) she consumes Qa units of item Y. When the price of Y drops, she consumes Qc units of item Y. Lines BC2 and BC3 are parallel to one another. The income effect arising from this change in the price of Y is best described as the distance between:</question>
         <choices>
             <choice id="A">Qb and Qa</choice>
@@ -10626,7 +10626,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>"Understanding Yield Spreads," Frank J. Fabozzi 2012 Modular Level I, Vol. 5, pp. 464-465 Study Session 15-56-i Calculate the after-tax yield of a taxable security and the tax-equivalent yield of a tax-exempt security. C is correct because the Tax-equivalent yield = Tax-exempt yield/(1 - Marginal tax rate) = 5.20%/(1 - 0.335) = 7.82%.</comments>
     </problem>
-    <problem category="15" filename="2012_afternoon_answer.xml" topic="Fixed Income Investments" year="2012">
+    <problem category="8" filename="2012_afternoon_answer.xml" topic="Fixed Income Investments" year="2012">
         <question id="101">If the yield on a 5-year U.S. corporate bond is 7.39% and the yield on a 5-year U.S. Treasury note is 4.26%, the relative yield spread of the bond is closest to:</question>
         <choices>
             <choice id="A">3.13%</choice>
@@ -11016,7 +11016,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>"The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle 2012 Modular Level I, Vol. 1, pp. 266-267 Study Session 2-5-c Calculate and interpret the effective annual rate, given the stated annual interest rate and the frequency of compounding. C is correct. The effective annual rate (EAR) is (1 + Periodic interest rate)" - 1. In this case, the periodic interest rate is 0.20/12 = 0.01667 and the EAR is (1.01667)12 - 1 = 0.21939 = 22%.</comments>
     </problem>
-    <problem category="13" filename="2012_morning_answer.xml" topic="Quantitative Methods" year="2012">
+    <problem category="7" filename="2012_morning_answer.xml" topic="Quantitative Methods" year="2012">
         <question id="20">For a positively skewed unimodal distribution, which of the following measures is most accurately described as the largest?</question>
         <choices>
             <choice id="A">Mode</choice>
@@ -13646,7 +13646,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Understanding Business Cycles," Michele Gambera, CFA, Milton Ezrati, and Bolong Cao, CFA 2013 Modular Level I, Vol. 2, Reading 18, Section 3.3.1 Study Session 5-18-c Describe theories of the business cycle. B is correct. As suggested particularly by the earliest RBC models, a person is unemployed because he or she is asking for wages that are too high, or in other words, this person's utility function is maximized by having more leisure (e.g., free time to visit museums, watch games on TV, and enjoy time with friends) and less consumption (which could be increased by giving up some leisure and finding a job). Questions 45 through 68 relate to Financial Statement Analysis</comments>
     </problem>
-    <problem category="16" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
+    <problem category="9" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
         <question id="45">The current ratio for an industry is 3.2. Data for a firm in the industry is presented below: As at December 31 £ '000s Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on June 30. 600 Using the current ratio, when compared with the industry, the firm is best described as being:</question>
         <choices>
             <choice id="A">as liquid</choice>
@@ -13786,7 +13786,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Financial Reporting Mechanics," Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O'Connor Rubsam, CFA, Elaine Henry, CFA, and Michael A. Broihahn, CFA 2013 Modular Level 1, Vol.3, Reading 23, Sections 3.2, 4.2 Study Session: 7-23-b, e Explain the accounting equation in its basic and expanded forms. Explain the relationships among the income statement, balance sheet, statement of cash flows, and statement of owners' equity. B is correct. Given Assets = Liabilities + Equity. First calculate ending equity ($318,000, see calculation below) $800,000 = liabilities + $318,000, Total liabilities = $ 482,000 Contributed capital $ 50,000 Initial retained earnings 225,000 Sales revenues 450,000 Investment income 5,000 Total expenses (402,000) Net income for the year 53,000 Dividends paid (10,000) Increase in retained earnings 43,000 43,000 Ending owners' equity $318,000</comments>
     </problem>
-    <problem category="17" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
+    <problem category="10" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
         <question id="59">According to the International Accounting Standards Board's Conceptual Framework for Financial Reporting, the two fundamental qualitative characteristics that make financial information useful are best described as:</question>
         <choices>
             <choice id="A">timeliness and accrual accounting</choice>
@@ -15949,7 +15949,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Income tax expense equals income tax payable (the tax rate multiplied by the taxable income) plus the increase in the deferred tax liabilities. (0.30 x $215,000) + ($90,650 – $82,400) = $64,500 + $8,250 = $72,750. CFA Level I “Income Taxes,” Elbie Antonites and Michael A. Broihahn Section 2</comments>
     </problem>
-    <problem category="17" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
+    <problem category="10" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
         <question id="50">The SEC's approach to addressing the significant differences in financial reporting under International Financial Reporting Standards (IFRS) and US GAAP is best described as:</question>
         <choices>
             <choice id="A">publicly advocating for global accounting standards and convergence</choice>
@@ -16449,7 +16449,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>The historical standard deviations of annual return for venture capital are higher than that of common stocks. Investors should therefore require a higher return in exchange for accepting this higher risk, along with the illiquidity of venture capital investing. CFA Level I "Introduction to Alternative Investments," Terri Duhon, George Spentzos, and Scott D. Stewart Section 4.3</comments>
     </problem>
-    <problem category="17" filename="2016_afternoon_question.xml" topic="Portfolio Management" year="2016">
+    <problem category="10" filename="2016_afternoon_question.xml" topic="Portfolio Management" year="2016">
         <question id="111">You are preparing an investment policy statement for a client who manages her own successful marketing consultancy. Her annual income is approximately $500,000. She describes herself as a finance novice. Most of her savings are invested in bank term deposits and short-term government securities. In her responses to the standard risk assessment questionnaire, she strongly agrees with the statements that she "feels more comfortable putting money in a bank account than in the stock market." Also, she "thinks of the word 'risk' as being a 'loss". Based on this information, your client's ability and willingness to take risk can best be described as:</question>
         <choices>
             <choice id="A">high ability and willingness</choice>
@@ -19479,7 +19479,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Buying $5,000 of candies will decrease cash by $5,000 and increase inventory by $5,000. Selling $2,000 of candies for $3,000 will decrease inventory by $2,000 and increase either cash (if cash is collected in the same accounting period) or accounts receivable (if sold on credit) by $3,000. The combined effect is an increase of $1,000 in assets. CFA Level | "Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 3.2</comments>
     </problem>
-    <problem category="17" filename="2015_morning.xml" topic="Financial Statement Analysis" year="2015">
+    <problem category="10" filename="2015_morning.xml" topic="Financial Statement Analysis" year="2015">
         <question id="62">The use of estimates in financial reporting is best described as:</question>
         <choices>
             <choice id="A">acceptable despite the risk of manipulation by management</choice>
@@ -19989,7 +19989,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Significant differences still exist between IFRS and US GAAP, and in most cases, analysts will lack the information necessary to makes specific adjustments to address these differences. As such, comparisons must be interpreted cautiously. CFA Level I "Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 7</comments>
     </problem>
-    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="10" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="53">Under IFRS it is most appropriate to include which of the following pension costs of a defined benefit plan in other comprehensive income?</question>
         <choices>
             <choice id="A">Actuarial gains or losses</choice>
@@ -20079,7 +20079,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Classified statements of financial position distinguish between current and non-current assets and liabilities. Classified statements are required under International Financial Reporting Standards unless a liquidity-based presentation provides more relevant and reliable information. CFA Level "Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.5.3 "Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Section 2.2</comments>
     </problem>
-    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="10" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="63">The objective of general purpose financial reporting is best described as:</question>
         <choices>
             <choice id="A">facilitating resource allocation decisions by current and potential investors and creditors</choice>
@@ -20109,7 +20109,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Common -sized analysis of the income statements shows that Company A has a lower percentage cost of goods sold and thus a higher gross margin than the industry and Company B. Company Company A B Company A Company B Industry Sales $10,500 $8,250 100.0% Cost of goods sold 6,353 5,239 62.8% Gross margin 37.2% Company A earns a higher gross margin than both Company B and the industry. 100% 60.5% 39.5% 100% 63.5% 36.5% Pretax earnings $683 $454 Taxes 205 145 Tax rate = Taxes/Pretax earnings The tax rates for the companies are not higher than the industry. 5.4% 1.7% 32% 6.5% 2.0% 30% 5.5% 1.8% 32% The tax rates for the companies are not higher than the industry. The interest rate is not a function of sales and cannot be analyzed on a common-size income statement. Tax rates are determined based on Taxes/Pretax earnings, not as a percentage of sales (as shown in common-size analysis). CFA Level I "Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 7 "Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Sections 3.1, 3.2.2</comments>
     </problem>
-    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="10" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="66">The role of the International Organization of Securities Commissions (IOSCO) is best described as:</question>
         <choices>
             <choice id="A">promoting the use of International Financial Reporting Standards and the convergence of national accounting standards</choice>
