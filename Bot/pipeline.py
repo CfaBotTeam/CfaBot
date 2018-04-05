@@ -42,10 +42,12 @@ class Pipeline:
     def process(self):
         results = {}
         all_problems_df = self.problems_reader_.read_all_problems()
-        all_problems_df = all_problems_df[all_problems_df['category'] == ProblemCategory.DEF_KEYWORD_START_END].copy()
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
 
-        self.resolve_category(ProblemCategory.DEF_KEYWORD_START_END, all_problems_df, results)
+        categories = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END]
+        for category in categories:
+            self.resolve_category(category, all_problems_df, results)
+            print()
 
         self.write_results(results)

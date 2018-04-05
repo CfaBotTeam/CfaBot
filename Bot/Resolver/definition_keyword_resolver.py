@@ -1,3 +1,4 @@
+import numpy as np
 from Bot.Resolver import DefinitionKeywordResolverBase
 
 
@@ -8,4 +9,4 @@ class DefinitionKeywordResolver(DefinitionKeywordResolverBase):
 
     def get_choices(self, problem):
         keys = ['choice_A', 'choice_B', 'choice_C', 'choice_D']
-        return [problem[key] for key in keys if key in problem]
+        return [problem[key] for key in keys if key in problem and problem[key] is not np.NaN]
