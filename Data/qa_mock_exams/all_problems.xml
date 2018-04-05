@@ -18029,7 +18029,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>"Sampling and Estimation," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 4.2 With a sample size of 10, there are 9 degrees of freedom. The confidence interval concept is based on a two-tailed approach. For a 95% confidence interval, 2.5% of the distribution will be in each tail. Thus, the correct t-statistic to use is 2.262. The confidence interval is calculated as: X + t 0.025 S/\n where X is the sample mean, s is the sample standard deviation, and n is the sample size. In this case: 6.25 + 2.262 x 12/V10 = 6.254 8.58369 or –2.33 to 14.83.</comments>
     </problem>
-    <problem category="666" filename="2014_morning.xml" topic="Quantitative Methods" year="2014">
+    <problem category="0" filename="2014_morning.xml" topic="Quantitative Methods" year="2014">
         <question id="73">A stock is declining in price and reaches a price range wherein buying activity is sufficient to stop the decline. This range is best described as the:</question>
         <choices>
             <choice id="A">change in polarity point</choice>
@@ -18499,7 +18499,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>Events are exhaustive when they cover all possible outcomes. Mutually exclusive means that only one event can occur at a time. Two events are dependent if the occurrence of one event does affect the probability of occurrence of the other event. In this situation, Event A and B are both mutually exclusive (because they cannot occur at the same time) and dependent (because if one event occurs, the probability of the other becomes zero). However, the two events are not exhaustive because they do not cover the event that the fund will earn a return above 5%. CFA Level | "Probability Concepts," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
-    <problem category="666" filename="2015_afternoon.xml" topic="Quantitative Methods" year="2015">
+    <problem category="20" filename="2015_afternoon.xml" topic="Quantitative Methods" year="2015">
         <question id="23">The following chart is best described as an example of which type of technical analysis chart? 180 175 170 165 Price ($) E g a a 150 145 140 135 13) TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTIN 1 4 7 10 13 16 19 22 25 28 31 34 37 40 43 46 49 52 Week</question>
         <choices>
             <choice id="A">A candlestick chart</choice>
@@ -18529,7 +18529,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Data on some characteristics of companies at a single point in time are cross-sectional data. CFA Level | "Sampling and Estimation," Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2.3</comments>
     </problem>
-    <problem category="666" filename="2015_afternoon.xml" topic="Quantitative Methods" year="2015">
+    <problem category="1" filename="2015_afternoon.xml" topic="Quantitative Methods" year="2015">
         <question id="28">If a stock's continuously compounded return is normally distributed, then the distribution of the future stock price is best described as being:</question>
         <choices>
             <choice id="A">a Student's t</choice>
@@ -19209,7 +19209,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>According to Standard IV(B) and Standard VI(A), members should disclose all potential conflicts of interest, should disclose the substantial time involved in managing family accounts and, when engaging in independent practice for compensation, should not render services until receiving written consent from all parties. CFA Level | "Guidance for Standards I-VII," CFA Institute Standard IV(B), Standard VI(A)</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
+    <problem category="2" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
         <question id="19">Monte Carlo simulation is best described as:</question>
         <choices>
             <choice id="A">a restrictive form of scenario analysis</choice>
@@ -19319,7 +19319,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Economic profit = Accounting profit - Total implicit opportunity costs where Accounting profit = Total revenue - Total variable costs – Total fixed costs and Total opportunity costs = opportunity cost of capital + opportunity cost of labor Total revenue 3,550 x $1,110 $3,940,500 # units x average revenue Less Total variable costs 3,550 x $750 $2,662,500 # units x average var cost Less Total fixed costs $300,000 given Accounting profit $978,000 $ 1,550,000 x 0.125 Opportunity cost of capital Opportunity cost of owner's labor Total opportunity costs Economic profit $193,750 $125,000 $318,750 $659,250 Investment x Required return Given CFA Level I "Demand and Supply Analysis: The Firm," Gary L. Arbogast, and Richard V. Eastin Sections 2.1.2, 3</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Economics" year="2015">
+    <problem category="20" filename="2015_morning.xml" topic="Economics" year="2015">
         <question id="39">The diagram to the below illustrates a consumer's allocation of her budget between items X and Y. With an initial budget (BC1) she consumes Qa units of item Y. When the price of Y drops, she consumes Qunits of item Y. Lines BC2 and BC3 are parallel to one another. Quantity of X nuypa /.. -- -- - --BC3 BC2 Qa QQ6 Quantity of Y The income effect arising from this change in the price of Y is best described as the distance between:</question>
         <choices>
             <choice id="A">Qp and Qa</choice>
@@ -19479,7 +19479,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Buying $5,000 of candies will decrease cash by $5,000 and increase inventory by $5,000. Selling $2,000 of candies for $3,000 will decrease inventory by $2,000 and increase either cash (if cash is collected in the same accounting period) or accounts receivable (if sold on credit) by $3,000. The combined effect is an increase of $1,000 in assets. CFA Level | "Financial Reporting Mechanics," Thomas R. Robinson, Jan Hendrik van Greuning, Karen O'Connor Rubsam, Elaine Henry, and Michael A. Broihahn Section 3.2</comments>
     </problem>
-    <problem category="666" filename="2015_morning.xml" topic="Financial Statement Analysis" year="2015">
+    <problem category="17" filename="2015_morning.xml" topic="Financial Statement Analysis" year="2015">
         <question id="62">The use of estimates in financial reporting is best described as:</question>
         <choices>
             <choice id="A">acceptable despite the risk of manipulation by management</choice>
@@ -19809,7 +19809,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>The t-statistic for the given information (normally distributed populations, population variances assumed equal) is calculated as: Institute _ (– ,) – (us – 42) t In this case, we have: s?, = 2678.05. t = (200– 185)-(0) G = 0.93768 - 0.94 (2678.05, 2678.05,0.5 25 18 678.05+ CFA Level I "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3.2</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Quantitative Methods" year="2017">
+    <problem category="3" filename="2017_afternoon.xml" topic="Quantitative Methods" year="2017">
         <question id="23">The central limit theorem is best described as stating that the sampling distribution of the sample mean will be approximately normal for large-size samples:</question>
         <choices>
             <choice id="A">if the population distribution is symmetrical</choice>
@@ -19989,7 +19989,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Significant differences still exist between IFRS and US GAAP, and in most cases, analysts will lack the information necessary to makes specific adjustments to address these differences. As such, comparisons must be interpreted cautiously. CFA Level I "Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 7</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="53">Under IFRS it is most appropriate to include which of the following pension costs of a defined benefit plan in other comprehensive income?</question>
         <choices>
             <choice id="A">Actuarial gains or losses</choice>
