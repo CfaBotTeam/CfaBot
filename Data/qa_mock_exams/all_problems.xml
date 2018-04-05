@@ -13576,7 +13576,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Understanding Business Cycles," Michele Gambera, CFA, Milton Ezrati, and Bolong Cao, CFA 2013 Modular Level I, Vol. 2, Reading 18, Section 5.1, Exhibit 7 Study Session 5-18-i, j Describe economic indicators, including their uses and limitations. Identify the past, current, or expected future business cycle phase of an economy based on economic indicators. B is correct. Average weekly initial claims for unemployment insurance is a leading indicator of economic activity and a decrease in it is an indicator of rehiring at the start of a recovery.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Economics" year="2013">
+    <problem category="20" filename="2013_morning_answer.xml" topic="Economics" year="2013">
         <question id="38">The diagram to the right shows the domestic demand and supply curves for a country that imports a commodity, where PW is its world price and PT is its domestic price after the imposition of a tariff. The reduction in the net national welfare of this country as a result of the tariff is best described by the area(s):</question>
         <choices>
             <choice id="A">E</choice>
@@ -13646,7 +13646,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Understanding Business Cycles," Michele Gambera, CFA, Milton Ezrati, and Bolong Cao, CFA 2013 Modular Level I, Vol. 2, Reading 18, Section 3.3.1 Study Session 5-18-c Describe theories of the business cycle. B is correct. As suggested particularly by the earliest RBC models, a person is unemployed because he or she is asking for wages that are too high, or in other words, this person's utility function is maximized by having more leisure (e.g., free time to visit museums, watch games on TV, and enjoy time with friends) and less consumption (which could be increased by giving up some leisure and finding a job). Questions 45 through 68 relate to Financial Statement Analysis</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
+    <problem category="16" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
         <question id="45">The current ratio for an industry is 3.2. Data for a firm in the industry is presented below: As at December 31 £ '000s Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on June 30. 600 Using the current ratio, when compared with the industry, the firm is best described as being:</question>
         <choices>
             <choice id="A">as liquid</choice>
@@ -13786,7 +13786,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Financial Reporting Mechanics," Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O'Connor Rubsam, CFA, Elaine Henry, CFA, and Michael A. Broihahn, CFA 2013 Modular Level 1, Vol.3, Reading 23, Sections 3.2, 4.2 Study Session: 7-23-b, e Explain the accounting equation in its basic and expanded forms. Explain the relationships among the income statement, balance sheet, statement of cash flows, and statement of owners' equity. B is correct. Given Assets = Liabilities + Equity. First calculate ending equity ($318,000, see calculation below) $800,000 = liabilities + $318,000, Total liabilities = $ 482,000 Contributed capital $ 50,000 Initial retained earnings 225,000 Sales revenues 450,000 Investment income 5,000 Total expenses (402,000) Net income for the year 53,000 Dividends paid (10,000) Increase in retained earnings 43,000 43,000 Ending owners' equity $318,000</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
+    <problem category="17" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
         <question id="59">According to the International Accounting Standards Board's Conceptual Framework for Financial Reporting, the two fundamental qualitative characteristics that make financial information useful are best described as:</question>
         <choices>
             <choice id="A">timeliness and accrual accounting</choice>
@@ -14106,7 +14106,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>"Equity Valuation: Concepts and Basic Tools," John J. Nagorniak, CFA, and Stephen E. Wilcox, CFA 2013 Modular Level I, Vol. 5, Reading 51, Section 5.1, Example 11 Study Session 14-51-h Calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value. B is correct. Justified forward P/E: P0/Ei = p / (r - g) p = payout ratio = 40% (given); r = required rate of return = 12% (given) g = (1 - Dividend payout ratio) x ROE = (1- 0.40) x 15 = 9% P0/E1 = p / (r - g) = 0.40 / (0.12 - 0.09) = 13.3x Alternatively: Justified forward P/E: P0/E1 = (D1 / E1) / (r - g) g = (1 - Dividend payout ratio) x ROE = (1- 0.40) x 15 = 9% D1 = $1.47 x 1.09 = 1.60; E1 = $4.00 (given); r = required rate of return = 12% (given) P0/E1 = (D1 / E1) / (r - g) = (1.60 / 4.00) / (0.12 - 0.09) = 13.3x Questions 91 through 96 relate to Derivative Investments.</comments>
     </problem>
-    <problem category="666" filename="2013_morning_answer.xml" topic="Derivative Investments" year="2013">
+    <problem category="6" filename="2013_morning_answer.xml" topic="Derivative Investments" year="2013">
         <question id="91">A corporation issues 5-year fixed-rate bonds. Its treasurer expects interest rates to decline for all maturities for at least the next year. She enters into a 1-year agreement with a bank to receive quarterly fixed-rate payments and to make payments based on floating rates benchmarked on 3- month LIBOR. This agreement is best described as a:</question>
         <choices>
             <choice id="A">swap</choice>
@@ -14646,7 +14646,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>The Sharp ration for a portfolio p, based on historical returns, is defined as S, = Rp – R. S, — Where Rp is the mean return to the portfolio, Rf is the mean return to a risk-free asset, and S, is the standard deviation of return on the portfolio. In this instance, 2 = (20% – 4%) /S, Solving for S, : S, = (20% – 4%) / 2 = 8%. CFA Level I "Statistical Concepts and Market Returns," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 7.8</comments>
     </problem>
-    <problem category="666" filename="2016_morning_question.xml" topic="Quantitative Methods" year="2016">
+    <problem category="2" filename="2016_morning_question.xml" topic="Quantitative Methods" year="2016">
         <question id="25">A Type I error is best described as the probability of:</question>
         <choices>
             <choice id="A">failing to reject a false null hypothesis</choice>
@@ -14666,7 +14666,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>Using a financial calculator: N = 60; the discount rate, I/Y = (6.5%/12) = 0.54166667; PMT = €1,200; Future value = €0; Mode = Begin; Calculate present value (PV): PV = €61,662.62. Alternatively: Treat the stream as an ordinary annuity of 59 periods and add the current value of €1,200 to the derived answer. Using a financial calculator: N = 59; the discount rate, /Y = (6.5%/12) = 0.54166667; PMT = €1,200; Future value = €0; Mode = End; Calculate PV: PV = €60,462.62; Total PV = €1,200 + €60,462.62 = €61,662.62. CFA Level I "The Time Value of Money," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 6.1</comments>
     </problem>
-    <problem category="666" filename="2016_morning_question.xml" topic="Quantitative Methods" year="2016">
+    <problem category="20" filename="2016_morning_question.xml" topic="Quantitative Methods" year="2016">
         <question id="27">When an investigator wants to test whether a particular parameter is greater than a specific value, the null and alternative hypothesis are best defined as:</question>
         <choices>
             <choice id="A">Ha: 60% versus Ha: 6&lt; 0%</choice>
@@ -14726,7 +14726,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>The two defining properties of a probability are as follows: 1. The probability of any Event E is a number between zero and one. 2. The sum of the probabilities of any set of mutually exclusive and exhaustive events equals one. CFA Level I "Probability Concepts," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
-    <problem category="666" filename="2016_morning_question.xml" topic="Economics" year="2016">
+    <problem category="20" filename="2016_morning_question.xml" topic="Economics" year="2016">
         <question id="33">The diagram to the right shows the Price Domestic Supply domestic demand and supply curves for a country which imports PI FI TH II G.-.-.-.--+- I-II a commodity, where Pw is its world Domestic Demand price and PT is its domestic price ----- after the imposition of a tariff. 0 Qi Q. Q. Q. Quantity The reduction in the net national welfare of this country as a result of the tariff is best described by the area(s):</question>
         <choices>
             <choice id="A">E</choice>
@@ -15798,7 +15798,7 @@ CFA Level I "Introduction to Alternative Investments," Terri Duhon, George Spent
         <answer>A</answer>
         <comments>Cost -push inflation arises due to increases in costs associated with production: wages and raw materials prices. CFA Level I “Understanding Business Cycles,” Michele Gambera, Milton Ezrati, and Bolong Cao Section 4.2.4.1</comments>
     </problem>
-    <problem category="666" filename="2016_afternoon_question.xml" topic="Economics" year="2016">
+    <problem category="20" filename="2016_afternoon_question.xml" topic="Economics" year="2016">
         <question id="36">The following diagram illustrates a market that had been in equilibrium at (PE, QE) prior to the imposition of a price ceiling, Pc. The deadweight loss that arises because of this market intervention is best described by the area defined by:</question>
         <choices>
             <choice id="A">d+b</choice>
@@ -15949,7 +15949,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>Income tax expense equals income tax payable (the tax rate multiplied by the taxable income) plus the increase in the deferred tax liabilities. (0.30 x $215,000) + ($90,650 – $82,400) = $64,500 + $8,250 = $72,750. CFA Level I “Income Taxes,” Elbie Antonites and Michael A. Broihahn Section 2</comments>
     </problem>
-    <problem category="666" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
+    <problem category="17" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
         <question id="50">The SEC's approach to addressing the significant differences in financial reporting under International Financial Reporting Standards (IFRS) and US GAAP is best described as:</question>
         <choices>
             <choice id="A">publicly advocating for global accounting standards and convergence</choice>
@@ -16859,7 +16859,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>“The Firm and Market Structures," Richard G. Fritz and Michele Gambera Section 7.2 If there are M firms in the industry with equal market shares, the HHI equals 1/M. With 20 firms having equal shares, the HHI = 1/20 = 0.05.</comments>
     </problem>
-    <problem category="666" filename="2014_afternoon.xml" topic="Economics" year="2014">
+    <problem category="20" filename="2014_afternoon.xml" topic="Economics" year="2014">
         <question id="39">The following diagram illustrates a market that had been in equilibrium at (PE, QE) prior to the imposition of a price ceiling, Pc. The deadweight loss that arises because of this market intervention is best described by the area defined by: . | CT ga! - bic Pc a | Qc Qe å om i o dd + + + Q D E</question>
         <choices>
             <choice id="A">d + b</choice>
@@ -16909,7 +16909,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>“Income Taxes," Elbie Antonites and Michael A. Broihahn Sections 2.2, 7 The different treatment for tax purposes and financial reporting purposes is a temporary difference and would create a deferred tax liability. Deferred tax liabilities should be classified as debt if they are expected to reverse with subsequent tax payments. The long history of profitability implies the company will likely be paying taxes in the following years, and hence an analyst could reasonably expect the temporary difference to reverse. Under IFRS, all deferred tax liabilities are non-current.</comments>
     </problem>
-    <problem category="666" filename="2014_afternoon.xml" topic="Financial Statement Analysis" year="2014">
+    <problem category="20" filename="2014_afternoon.xml" topic="Financial Statement Analysis" year="2014">
         <question id="44">The following information is available from a company's current financial data, prepared according to US GAAP: $ Thousands Defined Contribution Plan: Contributions to defined contribution plan 1,000 Defined Benefit Plan: | Contributions to defined benefit plan 1,500 Employees' service cost for the period 1,400 Interest expense accrued on the beginning pension obligation 200 Expected return on plan assets 400 Actuarial gains for the period 100 The pension expense (in $ thousands) reported in the current year is closest to:</question>
         <choices>
             <choice id="A">2,200</choice>
@@ -17229,7 +17229,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>"Forward Markets and Contracts," Don M. Chance Section 3.2.2 $1,000,000 x (0.028 – 0.022) x (1/4)/(1 + (0.028/4)) = $1,489.57.</comments>
     </problem>
-    <problem category="666" filename="2014_afternoon.xml" topic="Derivative Investments" year="2014">
+    <problem category="6" filename="2014_afternoon.xml" topic="Derivative Investments" year="2014">
         <question id="84">A corporation issues five-year fixed-rate bonds. Its treasurer expects interest rates to decline for all maturities for at least the next year. She enters into a one-year agreement with a bank to receive quarterly fixed-rate payments and to make payments based on floating rates benchmarked on three month LIBOR. This agreement is best described as a:</question>
         <choices>
             <choice id="A">futures contract</choice>
