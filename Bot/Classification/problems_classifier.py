@@ -24,7 +24,7 @@ class ProblemsClassifier:
         self.filters_factories_ = {
             ProblemCategory.SCENARIO: ScenarioFilterFactory(),
             ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory(),
-            # ProblemCategory.DEF_KEYWORD_START_END: DefKeywordStartEndFilterFactory(),
+            ProblemCategory.DEF_KEYWORD_START_END: DefKeywordStartEndFilterFactory(),
         }
 
     def add_features(self):

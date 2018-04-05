@@ -15,8 +15,7 @@ class VerbFeaturesFactory(FeaturesFactory):
     def get_verb_token(problem):
         tokens = problem[NlpFeatures.QUESTION_NLP]
         for i, token in enumerate(reversed(tokens)):
-            t = str(token)
-            if t == 'defined' or t == 'described':
+            if token.text == 'defined' or token.text == 'described':
                 return len(tokens) - 1 - i, token
         return -1, None
 

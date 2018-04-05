@@ -5,13 +5,14 @@ from Bot.Classification.Features import VerbFeaturesFactory
 
 
 class SubjectFeatures:
+    CHOICE_Q_TERMS = 'choice_q_terms'
     CHOICE_Q_SUB_IN_GLOSS = 'choice_q_sub_in_gloss'
 
 
 class SubjectFeaturesFactory(FeaturesFactory):
     def __init__(self, glossary):
         self.glossary_ = glossary
-        self.features_ = [SubjectFeatures.CHOICE_Q_SUB_IN_GLOSS]
+        self.features_ = [SubjectFeatures.CHOICE_Q_TERMS, SubjectFeatures.CHOICE_Q_SUB_IN_GLOSS]
 
     def get_definition_subject(self, problem):
         _, verb_token = VerbFeaturesFactory.get_verb_token(problem)
@@ -38,12 +39,13 @@ class SubjectFeaturesFactory(FeaturesFactory):
         choice_d = (problem['choice_D'] + ' ' + subject).strip()
         return choice_a, choice_b, choice_c, choice_d
 
-    def choice_with_q_subject_in_glossary(self, problem):
-        keywords = self.extract_choice_query_keywords(problem)
+    def any_keyword_in_glossary(self, keywords):
         for keyword in keywords:
             if self.glossary_.has_matching_keyword(keyword):
                 return True
         return False
 
     def calc_features(self, problem):
-        return self.choice_with_q_subject_in_glossary(problem)
+        keywords = self.extract_choice_query_keywords(problem)
+        any_keyword_in_gloss = self.any_keyword_in_glossary(keywords)
+        return keywords, any_keyword_in_gloss

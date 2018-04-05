@@ -11,7 +11,7 @@ from Bot.Utils import get_enum_name
 
 class Pipeline:
     def __init__(self):
-        self.nlp_ = spacy.load('en', disable=['parser', 'tagger', 'textcat'])
+        self.nlp_ = spacy.load('en', disable=['tagger', 'textcat'])
         self.glossary_ = GlossaryLoader().load()
         self.problems_reader_ = ProblemsReader()
         self.classifier_ = ProblemsClassifier(self.glossary_, self.nlp_)
@@ -42,6 +42,7 @@ class Pipeline:
     def process(self):
         results = {}
         all_problems_df = self.problems_reader_.read_all_problems()
+        all_problems_df = all_problems_df[all_problems_df['category'] == ProblemCategory.DEF_KEYWORD_START_END].copy()
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
 
