@@ -5386,7 +5386,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments> “Understanding the Income Statement,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 170-172 Study Session 8-32-g Describe the components of earnings per share and calculate a company’s earnings per share (both basic and diluted earnings per share) for both a simple and complex capital structure. Stock dividends and stock splits are treated in the same way for purposes of determining weighted average number of shares outstanding; the adjustment in the number of shares is made as if the stock split or dividend occurred at the beginning of the year.</comments>
     </problem>
-    <problem category="666" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
+    <problem category="17" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="50">Under International Financial Reporting Standards (IFRS) the preparation of a complete set of financial statements is best described as a(n):</question>
         <choices>
             <choice id="A">objective of financial reporting</choice>
@@ -5426,7 +5426,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Accounting Shenanigans on the Cash Flow Statement,” Marc A. Siegel 2010 Modular Level I, Vol. 3, pp. 592-595 Study Session 10-41 The candidate should be able to analyze and discuss the following ways to manipulate the cash flow statement: • stretching out payables • financing of payables • securitization of receivables • using stock buybacks to offset dilution of earnings. Using short-term debt to pay down payables will have no effect on the cash from operations. Payables will decrease which decreases cash from operations, but short-term debt will increase, which is an offsetting increase in cash from operations, resulting in no net effect on cash from operations.</comments>
     </problem>
-    <problem category="666" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
+    <problem category="2" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="54">The settlement value for a liability is best described as:</question>
         <choices>
             <choice id="A">the amount of proceeds received in exchange for the obligation</choice>
@@ -5766,7 +5766,7 @@ D CD2 $ 83. 287</question>
         <answer>B</answer>
         <comments>“Financial Analysis Techniques,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 342-344 “An Introduction to Security Valuation,” Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 158-159 Study Session 10-35-e, f; 14-56-f Demonstrate how ratios are related and how to evaluate a company using a combination of different ratios. Demonstrate the application of and interpret changes in the component parts of the DuPont analysis (the decomposition of return on equity). Estimate the dividend growth rate, given the components of the required rate of return incorporating the earnings retention rate and current stock price. ROE = Net income / Equity; Retention rate = 1 - (Dividends / Net income); g = Retention rate x Return on equity Equity = $200 million - $120 million = $80 million; ROE = $10 million / $80 million = 12.5%. Alternatively using the DuPont Model: ROE = Return on assets x Financial leverage or Profit margin x Total assets turnover x Financial leverage; Sales = NI / NPM = $10 million / 0.02 = $500 million; TAT = 500 / 200 = 2.5 Financial Leverage = 200 / 80 = 2.5  ROE = 2 x 2.5 x 2.5 = 12.5% Retention rate = 1 - ($2 million / $10 million) = 80%; Growth rate = 12.5% x 80% = 10%.</comments>
     </problem>
-    <problem category="666" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
+    <problem category="15" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
         <question id="88">A company’s $100 par perpetual preferred stock has a dividend rate of 7 percent and a required rate of return of 11 percent. The company’s earnings are expected to grow at a constant rate of 3 percent per year. If the market price per share for the preferred stock is $75, the preferred stock is most appropriately described as being:</question>
         <choices>
             <choice id="A">overvalued by $11.36</choice>
@@ -5806,7 +5806,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Option Markets and Contracts”, Don M. Chance 2010 Modular Level I, Vol. 6, pp. 98-101 Study Session 17-70-g Define intrinsic value and time value and explain their relationship. The intrinsic value of a call option is the stock price less the strike price if that difference is positive, and zero otherwise. The stock trading at $96 can be purchased for $95, so the intrinsic value is $1.</comments>
     </problem>
-    <problem category="666" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
+    <problem category="2" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
         <question id="92">Margin in the futures market is most accurately described as a:</question>
         <choices>
             <choice id="A">loan to the futures trader</choice>
@@ -5816,7 +5816,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Futures Markets and Contracts,” Don M. Chance 2010 Modular Level I, Vol. 6, pp. 55-58 Study Session 17-69-c Differentiate between margin in the securities markets and margin in the futures markets and explain the role of initial margin, maintenance margin, variation margin, and settlement in futures trading. It is the amount of money that must be deposited into an account by a party opening a futures position; the money helps ensure that the party fulfills his/her obligation. </comments>
     </problem>
-    <problem category="666" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
+    <problem category="3" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
         <question id="93">A derivative is most accurately defined as a financial instrument that provides:</question>
         <choices>
             <choice id="A">a return based on the return of another asset</choice>
