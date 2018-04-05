@@ -20079,7 +20079,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Classified statements of financial position distinguish between current and non-current assets and liabilities. Classified statements are required under International Financial Reporting Standards unless a liquidity-based presentation provides more relevant and reliable information. CFA Level "Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.5.3 "Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Section 2.2</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="63">The objective of general purpose financial reporting is best described as:</question>
         <choices>
             <choice id="A">facilitating resource allocation decisions by current and potential investors and creditors</choice>
@@ -20109,7 +20109,7 @@ Section 5.1</comments>
         <answer>A</answer>
         <comments>Common -sized analysis of the income statements shows that Company A has a lower percentage cost of goods sold and thus a higher gross margin than the industry and Company B. Company Company A B Company A Company B Industry Sales $10,500 $8,250 100.0% Cost of goods sold 6,353 5,239 62.8% Gross margin 37.2% Company A earns a higher gross margin than both Company B and the industry. 100% 60.5% 39.5% 100% 63.5% 36.5% Pretax earnings $683 $454 Taxes 205 145 Tax rate = Taxes/Pretax earnings The tax rates for the companies are not higher than the industry. 5.4% 1.7% 32% 6.5% 2.0% 30% 5.5% 1.8% 32% The tax rates for the companies are not higher than the industry. The interest rate is not a function of sales and cannot be analyzed on a common-size income statement. Tax rates are determined based on Taxes/Pretax earnings, not as a percentage of sales (as shown in common-size analysis). CFA Level I "Understanding Income Statements," Elaine Henry and Thomas R. Robinson Section 7 "Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Sections 3.1, 3.2.2</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
+    <problem category="17" filename="2017_afternoon.xml" topic="Financial Statement Analysis" year="2017">
         <question id="66">The role of the International Organization of Securities Commissions (IOSCO) is best described as:</question>
         <choices>
             <choice id="A">promoting the use of International Financial Reporting Standards and the convergence of national accounting standards</choice>
@@ -20209,7 +20209,7 @@ Section 5.1</comments>
         <answer>C</answer>
         <comments>A momentum anomaly occurs when securities that have experienced high short-term returns continue to generate higher returns in subsequent periods. Therefore, if a trader can obtain persistent abnormal returns by adopting an investment strategy that purchases stocks that have recently experienced high returns, then he or she is exploiting a momentum anomaly. CFA Level I "Market Efficiency," W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 4.1</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
+    <problem category="2" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
         <question id="82">Security market indices can be used to calculate alphas, which are best described as:</question>
         <choices>
             <choice id="A">the systematic risk of a security, using the index as a proxy for the entire market</choice>
@@ -20219,7 +20219,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>Security market indices serve as market proxies when measuring risk-adjusted performance. Alpha, the difference between the return of the actively managed portfolio and the return of the passive portfolio, is a measure of risk-adjusted return. CFA Level I "Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 4.2</comments>
     </problem>
-    <problem category="666" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
+    <problem category="1" filename="2017_afternoon.xml" topic="Equity Investments" year="2017">
         <question id="83">If a test rejects the hypothesis that market prices reflect private information but does not reject the hypothesis that they reflect past market data and public information, then the form of market efficiency is best described as:</question>
         <choices>
             <choice id="A">strong</choice>
@@ -20589,7 +20589,7 @@ Section 5.1</comments>
         <answer>B</answer>
         <comments>Sampling errors will result in statistical error. A statistically significant result might not be economically meaningful after an analyst accounts for the risk, transaction costs, and applicable taxes. CFA Level I "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
-    <problem category="666" filename="2017_morning.xml" topic="Quantitative Methods" year="2017">
+    <problem category="2" filename="2017_morning.xml" topic="Quantitative Methods" year="2017">
         <question id="21">When testing a hypothesis, the power of a test is best described as the:</question>
         <choices>
             <choice id="A">probability of rejecting a true null hypothesis</choice>
