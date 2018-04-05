@@ -45,7 +45,8 @@ class Pipeline:
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
 
-        categories = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END]
+        categories = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END,
+                      ProblemCategory.KEYWORD_DEF, ProblemCategory.KEYWORD_DEF_START_END]
         for category in categories:
             self.resolve_category(category, all_problems_df, results)
             print()

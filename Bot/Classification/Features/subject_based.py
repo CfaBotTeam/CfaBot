@@ -5,6 +5,8 @@ from Bot.Classification.Features import VerbFeaturesFactory
 
 
 class SubjectFeatures:
+    Q_SUBJECT = 'q_subject'
+    Q_SUB_IN_GLOSS = 'q_subject_in_gloss'
     CHOICE_Q_TERMS = 'choice_q_terms'
     CHOICE_Q_SUB_IN_GLOSS = 'choice_q_sub_in_gloss'
 
@@ -12,7 +14,10 @@ class SubjectFeatures:
 class SubjectFeaturesFactory(FeaturesFactory):
     def __init__(self, glossary):
         self.glossary_ = glossary
-        self.features_ = [SubjectFeatures.CHOICE_Q_TERMS, SubjectFeatures.CHOICE_Q_SUB_IN_GLOSS]
+        self.features_ = [SubjectFeatures.Q_SUBJECT,
+                          SubjectFeatures.Q_SUB_IN_GLOSS,
+                          SubjectFeatures.CHOICE_Q_TERMS,
+                          SubjectFeatures.CHOICE_Q_SUB_IN_GLOSS]
 
     def get_definition_subject(self, problem):
         _, verb_token = VerbFeaturesFactory.get_verb_token(problem)
@@ -29,8 +34,7 @@ class SubjectFeaturesFactory(FeaturesFactory):
             return ''.join(map(lambda x: x.text_with_ws, subtree))
         return ''
 
-    def extract_choice_query_keywords(self, problem):
-        subject = self.get_definition_subject(problem)
+    def extract_choice_query_keywords(self, problem, subject):
         choice_a = (problem['choice_A'] + ' ' + subject).strip()
         choice_b = (problem['choice_B'] + ' ' + subject).strip()
         choice_c = (problem['choice_C'] + ' ' + subject).strip()
@@ -46,6 +50,8 @@ class SubjectFeaturesFactory(FeaturesFactory):
         return False
 
     def calc_features(self, problem):
-        keywords = self.extract_choice_query_keywords(problem)
+        subject = self.get_definition_subject(problem)
+        q_sub_in_gloss = self.glossary_.has_loosly_matching_keyword(subject)
+        keywords = self.extract_choice_query_keywords(problem, subject)
         any_keyword_in_gloss = self.any_keyword_in_glossary(keywords)
-        return keywords, any_keyword_in_gloss
+        return subject, q_sub_in_gloss, keywords, any_keyword_in_gloss

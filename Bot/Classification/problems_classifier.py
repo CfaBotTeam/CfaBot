@@ -8,6 +8,8 @@ from Bot.Classification.Features import SubjectFeaturesFactory
 from Bot.Classification.Filters import DefKeywordFilterFactory
 from Bot.Classification.Filters import DefKeywordStartEndFilterFactory
 from Bot.Classification.Filters import ScenarioFilterFactory
+from Bot.Classification.Filters import KeywordDefFilterFactory
+from Bot.Classification.Filters import KeywordDefStartEndFilterFactory
 
 
 class ProblemsClassifier:
@@ -20,11 +22,14 @@ class ProblemsClassifier:
             LengthFeaturesFactory(),
             GlossaryFeaturesFactory(glossary),
             NlpFeaturesFactory(),
-            SubjectFeaturesFactory(glossary)]
+            SubjectFeaturesFactory(glossary)
+        ]
         self.filters_factories_ = {
             ProblemCategory.SCENARIO: ScenarioFilterFactory(),
             ProblemCategory.DEF_KEYWORD: DefKeywordFilterFactory(),
             ProblemCategory.DEF_KEYWORD_START_END: DefKeywordStartEndFilterFactory(),
+            ProblemCategory.KEYWORD_DEF: KeywordDefFilterFactory(),
+            ProblemCategory.KEYWORD_DEF_START_END: KeywordDefStartEndFilterFactory(),
         }
 
     def add_features(self):

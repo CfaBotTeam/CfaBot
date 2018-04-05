@@ -3,3 +3,5 @@ from .category_filter_factory import CategoryFilterFactory
 from .def_keyword_filter_factory import DefKeywordFilterFactory
 from .def_keyword_filter_factory import DefKeywordStartEndFilterFactory
 from .scenario_filter_factory import ScenarioFilterFactory
+from .keyword_def_filter_factory import KeywordDefFilterFactory
+from .keyword_def_filter_factory import KeywordDefStartEndFilterFactory

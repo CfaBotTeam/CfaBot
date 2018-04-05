@@ -1,12 +1,19 @@
 import numpy as np
-from Bot.Resolver import DefinitionKeywordResolverBase
+from Bot.Classification.Features import SubjectFeatures
+from Bot.Resolver import DefinitionResolverBase
+
+
+class DefinitionKeywordResolverBase(DefinitionResolverBase):
+    def get_definitions(self, problem, choices):
+        return [self.glossary_.get_definitions(choice) for choice in choices]
 
 
 class DefinitionKeywordResolver(DefinitionKeywordResolverBase):
-    def __init__(self, glossary, scorer):
-        self.glossary_ = glossary
-        self.scorer_ = scorer
-
     def get_choices(self, problem):
         keys = ['choice_A', 'choice_B', 'choice_C', 'choice_D']
         return [problem[key] for key in keys if key in problem and problem[key] is not np.NaN]
+
+
+class DefinitionKeywordStartEndResolver(DefinitionKeywordResolverBase):
+    def get_choices(self, problem):
+        return problem[SubjectFeatures.CHOICE_Q_TERMS]

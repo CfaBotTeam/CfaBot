@@ -31,6 +31,13 @@ class Glossary:
     def has_matching_keyword(self, term):
         return self.get_matching_keyword(term) is not None
 
+    def has_loosly_matching_keyword(self, term):
+        keys = self.get_keys()
+        for key in keys:
+            if key in term:
+                return True
+        return False
+
     def get_definitions(self, term):
         keyword = self.get_matching_keyword(term)
         if keyword is None:

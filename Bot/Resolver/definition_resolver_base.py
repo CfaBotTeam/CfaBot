@@ -1,10 +1,9 @@
-import numpy as np
 from random import randint
 from Bot.Utils import get_enum_name
 from Bot.Classification import ProblemCategory
 
 
-class DefinitionKeywordResolverBase:
+class DefinitionResolverBase:
     def __init__(self, glossary, scorer):
         self.glossary_ = glossary
         self.scorer_ = scorer
@@ -29,20 +28,26 @@ class DefinitionKeywordResolverBase:
     def get_choices(self, problem):
         raise NotImplementedError("This method need to be overloaded")
 
+    def get_definitions(self, problem, choices):
+        raise NotImplementedError("This method need to be overloaded")
+
+    def get_result_from_index(self, problem, max_index):
+        if max_index == -1:
+            max_index = self.random_choice(problem)
+        return chr(max_index + 65)
+
     def find_prediction(self, problem, debug):
         max_score = 0
         max_index = -1
         question = problem['question']
         choices_results = []
         choices = self.get_choices(problem)
+        choices_definitions = self.get_definitions(problem, choices)
         for i_choice, choice in enumerate(choices):
             scores = {}
             choice_scores = {'choice': choice, 'scores': scores}
             choices_results.append(choice_scores)
-            try:
-                definitions = self.glossary_.get_definitions(choice)
-            except:
-                continue
+            definitions = choices_definitions[i_choice]
             if definitions is None:
                 continue
             for definition in definitions:
@@ -51,14 +56,8 @@ class DefinitionKeywordResolverBase:
                 if score > max_score:
                     max_score = score
                     max_index = i_choice
-
         self.add_debug_info(problem, max_index, choices_results, debug)
-
-        if max_index == -1:
-            max_index = self.random_choice(problem)
-        res = chr(max_index + 65)
-
-        return res
+        return self.get_result_from_index(problem, max_index)
 
     def resolve(self, problems, debug):
         return problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
