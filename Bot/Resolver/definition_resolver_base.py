@@ -28,7 +28,10 @@ class DefinitionResolverBase:
     def get_choices(self, problem):
         raise NotImplementedError("This method need to be overloaded")
 
-    def get_definitions(self, problem, choices):
+    def get_choices_definitions(self, problem, choices):
+        raise NotImplementedError("This method need to be overloaded")
+
+    def get_question_to_compare(self, problem):
         raise NotImplementedError("This method need to be overloaded")
 
     def get_result_from_index(self, problem, max_index):
@@ -39,10 +42,10 @@ class DefinitionResolverBase:
     def find_prediction(self, problem, debug):
         max_score = 0
         max_index = -1
-        question = problem['question']
         choices_results = []
+        question_to_compare = self.get_question_to_compare(problem)
         choices = self.get_choices(problem)
-        choices_definitions = self.get_definitions(problem, choices)
+        choices_definitions = self.get_choices_definitions(problem, choices)
         for i_choice, choice in enumerate(choices):
             scores = {}
             choice_scores = {'choice': choice, 'scores': scores}
@@ -51,7 +54,7 @@ class DefinitionResolverBase:
             if definitions is None:
                 continue
             for definition in definitions:
-                score = self.scorer_.score(definition, question)
+                score = self.scorer_.score(definition, question_to_compare)
                 scores[definition] = score
                 if score > max_score:
                     max_score = score

@@ -4,8 +4,11 @@ from Bot.Resolver import DefinitionResolverBase
 
 
 class DefinitionKeywordResolverBase(DefinitionResolverBase):
-    def get_definitions(self, problem, choices):
+    def get_choices_definitions(self, problem, choices):
         return [self.glossary_.get_definitions(choice) for choice in choices]
+
+    def get_question_to_compare(self, problem):
+        return problem['question']
 
 
 class DefinitionKeywordResolver(DefinitionKeywordResolverBase):

@@ -32,17 +32,27 @@ class Glossary:
         return self.get_matching_keyword(term) is not None
 
     def has_loosly_matching_keyword(self, term):
+        key = self.get_loosly_matching_keyword(term)
+        return key is not None
+
+    def get_loosly_matching_keyword(self, term):
         keys = self.get_keys()
         for key in keys:
             if key in term:
-                return True
-        return False
+                return key
+        return None
 
     def get_definitions(self, term):
         keyword = self.get_matching_keyword(term)
         if keyword is None:
             return None
         return [self.glossary_[keyword]]
+
+    def get_loose_definition(self, term):
+        keyword = self.get_loosly_matching_keyword(term)
+        if keyword is None:
+            return None
+        return self.glossary_[keyword]
 
 
 class GlossaryLoader:
