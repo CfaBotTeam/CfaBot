@@ -9456,7 +9456,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Risks Associated with Investing in Bonds,” Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 363-364 Study Session 15-62-h Explain the disadvantages of a callable or prepayable security to an investor. C is correct because when interest rates decline, more borrowers will prepay, limiting the potential for the bond price to increase. </comments>
     </problem>
-    <problem category="1" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
+    <problem category="6" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="104">An investor fears that economic conditions will worsen and the market prices of her portfolio of investment-grade corporate bonds will decrease more than her portfolio of government bonds. The investor’s fear is best described as a fear of:</question>
         <choices>
             <choice id="A">default risk</choice>
@@ -11406,7 +11406,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>"Financial Statement Analysis: An Introduction," Elaine Henry and Thomas R. Robinson 2012 Modular Level I, Vol. 3, pp. 21-22 Study Session 7-22-b Describe the roles of the key financial statements (statement of financial position, statement of comprehensive income, statement of changes in equity, and statement of cash flows) in evaluating a company's performance and position. A is correct. The statement of changes in equity reports the changes in the components of shareholders' equity over the year, which would include the retained earnings account.</comments>
     </problem>
-    <problem category="4" filename="2012_morning_answer.xml" topic="Financial Statement Analysis" year="2012">
+    <problem category="6" filename="2012_morning_answer.xml" topic="Financial Statement Analysis" year="2012">
         <question id="59">Under the IASB Conceptual Framework, one of the qualitative characteristics of useful financial information is that different knowledgeable users would agree that the information is a faithful representation of the economic events that it is intended to represent. This characteristic is best described as:</question>
         <choices>
             <choice id="A">verifiability</choice>
