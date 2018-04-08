@@ -6366,7 +6366,7 @@ D CD2 $ 83. 287</question>
         <answer>C</answer>
         <comments>“Discounted Cash Flow Applications,” Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 253-257 Study Session 2-6-d, e Calculate and interpret the bank discount yield, holding period yield, effective annual yield, and money market yield for a U.S. Treasury bill. Convert among holding period yields, money market yields, effective annual yields, and bond equivalent yields. The holding period yield is: (100 - 98.5) / 98.5 = 0.015228. This is less than the bank discount yield: ((100-98.5) / 100) x (360 / 182) = 0.02967. It is also less than the money market yield: (360 x 0.02967) / (360 - 182 x 0.02967) = 0.030122.</comments>
     </problem>
-    <problem category="5" filename="2010_morning_answer.xml" topic="Quantitative Methods" year="2010">
+    <problem category="4" filename="2010_morning_answer.xml" topic="Quantitative Methods" year="2010">
         <question id="29">If a probability distribution is very similar to a normal distribution, then the kurtosis is best described as:</question>
         <choices>
             <choice id="A">leptokurtic</choice>
@@ -7116,7 +7116,7 @@ D CD2 $ 83. 287</question>
         <answer>A</answer>
         <comments>“Understanding Yield Spreads,” Frank J. Fabozzi 2010 Modular Level I, Vol. 5, pp. 375-377 Study Session 15-63-i Compute the after-tax yield of a taxable security and the tax-equivalent yield of a tax-exempt security. The indifference point would be the tax rate that satisfies the equation: 6.0%*(1 - T) = 4.5%. Solving for T, the marginal tax rate = 25%.</comments>
     </problem>
-    <problem category="4" filename="2010_morning_answer.xml" topic="Fixed Income Investments" year="2010">
+    <problem category="6" filename="2010_morning_answer.xml" topic="Fixed Income Investments" year="2010">
         <question id="104">An investor is evaluating a diverse set of bonds from which he will select two issues. The investor’s objective is to find bonds with cash flows that will precisely match a known stream of future cash outflows. The pair of bonds most likely to meet the investor’s objective is a:</question>
         <choices>
             <choice id="A">putable bond and a callable bond</choice>
