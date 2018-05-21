@@ -7,7 +7,7 @@ class DefinitionKeywordResolverBase(DefinitionResolverBase):
     def get_choices_definitions(self, problem, choices):
         return [self.glossary_.get_definitions(choice) for choice in choices]
 
-    def get_question_to_compare(self, problem):
+    def get_question_definition(self, problem):
         return problem['question']
 
 

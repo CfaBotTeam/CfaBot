@@ -23,14 +23,16 @@ class ProblemCategory(object):
     # the proposed choices are the potential characteristics associated with this characteristic
     KEYWORD_CHAR = 5
 
+    CONTEXT_KEYWORD_CHAR = 6
+
     # The question is quite complex. The subject of the description refers to a previous sentence in the question
-    SITUATION_KEYWORD = 6
+    SITUATION_KEYWORD = 7
 
     # Very hard
-    KEYWORD_COMPARISON = 7
-    CALCULUS = 8
-    REASONING = 9
-    BEST_ASSOCIATION = 10
+    KEYWORD_COMPARISON = 8
+    CALCULUS = 9
+    REASONING = 10
+    BEST_ASSOCIATION = 11
 
     # Will probably never care
     OCR_PROBLEM = 20

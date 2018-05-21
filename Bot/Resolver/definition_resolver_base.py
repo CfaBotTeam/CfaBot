@@ -31,7 +31,7 @@ class DefinitionResolverBase:
     def get_choices_definitions(self, problem, choices):
         raise NotImplementedError("This method need to be overloaded")
 
-    def get_question_to_compare(self, problem):
+    def get_question_definition(self, problem):
         raise NotImplementedError("This method need to be overloaded")
 
     def get_result_from_index(self, problem, max_index):
@@ -43,7 +43,7 @@ class DefinitionResolverBase:
         max_score = 0
         max_index = -1
         choices_results = []
-        question_to_compare = self.get_question_to_compare(problem)
+        question_to_compare = self.get_question_definition(problem)
         choices = self.get_choices(problem)
         choices_definitions = self.get_choices_definitions(problem, choices)
         for i_choice, choice in enumerate(choices):
