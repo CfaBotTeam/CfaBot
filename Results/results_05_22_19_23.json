@@ -1,8 +1,9 @@
 {
+    "model": "en_core_web_lg",
     "overall": {
         "DEF_KEYWORD": {
-            "percentage": 52.77777777777778,
-            "nb_correct": 19,
+            "percentage": 50.0,
+            "nb_correct": 18,
             "nb_total": 36
         },
         "DEF_KEYWORD_START_END": {
@@ -11,13 +12,13 @@
             "nb_total": 2
         },
         "KEYWORD_DEF": {
-            "percentage": 25.0,
-            "nb_correct": 3,
-            "nb_total": 12
+            "percentage": 38.46153846153847,
+            "nb_correct": 5,
+            "nb_total": 13
         },
         "KEYWORD_DEF_START_END": {
-            "percentage": 60.0,
-            "nb_correct": 3,
+            "percentage": 40.0,
+            "nb_correct": 2,
             "nb_total": 5
         }
     },
@@ -31,7 +32,7 @@
                 {
                     "choice": "Price stability",
                     "scores": {
-                        "In economics, refers to an inflation rate that is low on average and not subject to wide fluctuation.": 0.8271887659024808
+                        "In economics, refers to an inflation rate that is low on average and not subject to wide fluctuation.": 0.865569642903865
                     }
                 },
                 {
@@ -54,19 +55,19 @@
                 {
                     "choice": "escalation bias",
                     "scores": {
-                        "A bias that an investor chooses to increase the amount invested in a poorly performing investment (rather than admit that the investment was a bad decision and cut the loss)": 0.8674407801548735
+                        "A bias that an investor chooses to increase the amount invested in a poorly performing investment (rather than admit that the investment was a bad decision and cut the loss)": 0.9503336531514949
                     }
                 },
                 {
                     "choice": "confirmation bias",
                     "scores": {
-                        "A psychological phenomenon that explains why people tend to seek out information that confirms their existing opinions and overlook or ignore information that refutes their beliefs": 0.827817417551569
+                        "A psychological phenomenon that explains why people tend to seek out information that confirms their existing opinions and overlook or ignore information that refutes their beliefs": 0.903885143974347
                     }
                 },
                 {
                     "choice": "overconfidence bias",
                     "scores": {
-                        "Believing that you have superior knowledge, abilities, and access to information (aka. Illusion of knowledge)": 0.7732847347450716
+                        "Believing that you have superior knowledge, abilities, and access to information (aka. Illusion of knowledge)": 0.883786729680596
                     }
                 }
             ],
@@ -81,19 +82,19 @@
                 {
                     "choice": "interest rate cap",
                     "scores": {
-                        "a series of European interest call options (called caplets), with a particular interest rate, each of which expire on the date the floating loan rate will be reset": 0.9052002184495184
+                        "a series of European interest call options (called caplets), with a particular interest rate, each of which expire on the date the floating loan rate will be reset": 0.9637392796934713
                     }
                 },
                 {
                     "choice": "interest rate floor",
                     "scores": {
-                        "a series of European interest put options (called caplets) with a particular interest rate, each of which expire on the date the floating loan rate will be reset": 0.9155539903345452
+                        "a series of European interest put options (called caplets) with a particular interest rate, each of which expire on the date the floating loan rate will be reset": 0.9661909499044605
                     }
                 },
                 {
                     "choice": "interest rate collar",
                     "scores": {
-                        "an investment strategy that uses derivatives to hedge an investor's exposure to interest rate fluctuations": 0.838602555338829
+                        "an investment strategy that uses derivatives to hedge an investor's exposure to interest rate fluctuations": 0.8067842411934779
                     }
                 }
             ],
@@ -108,19 +109,19 @@
                 {
                     "choice": "elastic",
                     "scores": {
-                        "Said of a good or service when the magnitude of elasticity is greater than one": 0.7374662043289376
+                        "Said of a good or service when the magnitude of elasticity is greater than one": 0.9040887078300649
                     }
                 },
                 {
                     "choice": "inelastic",
                     "scores": {
-                        "Said of a good or service when the magnitude of elasticity is less than one. Insensitive to price changes.": 0.7571621276015885
+                        "Said of a good or service when the magnitude of elasticity is less than one. Insensitive to price changes.": 0.9202396412772776
                     }
                 },
                 {
                     "choice": "unit elastic",
                     "scores": {
-                        "An elasticity with a magnitude of negative one.": 0.6303901324965814
+                        "An elasticity with a magnitude of negative one.": 0.8525819267060323
                     }
                 }
             ],
@@ -130,24 +131,24 @@
             "question": "A random variable with a finite number of equally likely outcomes is best described by a:",
             "real_answer": "B",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "binomial distribution",
                     "scores": {
-                        "a probability distribution that summarizes the likelihood that a value will take one of two independent values under a given set of parameters or assumptions": 0.8281953645102628
+                        "a probability distribution that summarizes the likelihood that a value will take one of two independent values under a given set of parameters or assumptions": 0.9264849335567507
                     }
                 },
                 {
                     "choice": "discrete uniform distribution",
                     "scores": {
-                        "a symmetric probability distribution whereby a finite number of values are equally likely to be observed": 0.8921075697435977
+                        "a symmetric probability distribution whereby a finite number of values are equally likely to be observed": 0.9197851443815298
                     }
                 },
                 {
                     "choice": "continuous uniform distribution",
                     "scores": {
-                        "a family of symmetric probability distributions such that for each member of the family, all intervals of the same length on the distribution's support are equally probable": 0.8559587510390945
+                        "a family of symmetric probability distributions such that for each member of the family, all intervals of the same length on the distribution's support are equally probable": 0.9011665451081313
                     }
                 }
             ],
@@ -157,24 +158,24 @@
             "question": "If a probability distribution is very similar to a normal distribution, then the kurtosis is best described as:",
             "real_answer": "B",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "leptokurtic",
                     "scores": {
-                        "Describes a distribution that is more peaked than a normal distribution.": 0.8403278289851686
+                        "Describes a distribution that is more peaked than a normal distribution.": 0.942159382698803
                     }
                 },
                 {
                     "choice": "mesokurtic",
                     "scores": {
-                        "Describes a distribution with kurtosis identical to that of the normal distribution.": 0.7956206879902725
+                        "Describes a distribution with kurtosis identical to that of the normal distribution.": 0.9402586489875926
                     }
                 },
                 {
                     "choice": "platykurtic",
                     "scores": {
-                        "Describes a distribution that is less peaked than the normal distribution.": 0.8429946754940179
+                        "Describes a distribution that is less peaked than the normal distribution.": 0.9407699236816403
                     }
                 }
             ],
@@ -184,24 +185,24 @@
             "question": "A security market in which all the bids and asks for a stock are gathered to arrive at a single price that satisfies most of the orders is best described as a:",
             "real_answer": "A",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "call market",
                     "scores": {
-                        "A market in which trades occur only at a particular time and place (i.e., when the market is called).": 0.8698329730455128
+                        "A market in which trades occur only at a particular time and place (i.e., when the market is called).": 0.9373368707323819
                     }
                 },
                 {
                     "choice": "dealer market",
                     "scores": {
-                        "A financial market mechanism wherein multiple dealers post prices at which they will buy or sell a specific security of instrument.": 0.8816355792686618
+                        "A financial market mechanism wherein multiple dealers post prices at which they will buy or sell a specific security of instrument.": 0.9251535230120024
                     }
                 },
                 {
                     "choice": "primary market",
                     "scores": {
-                        "The market where securities are first sold and the issuers receive the proceeds.": 0.8319213988635524
+                        "The market where securities are first sold and the issuers receive the proceeds.": 0.8893980214368938
                     }
                 }
             ],
@@ -211,24 +212,24 @@
             "question": "Corporate debt securities that are offered continuously to investors by an agent of the issuer are best described as:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "A",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "range notes",
                     "scores": {
-                        "An note in which the coupon rate is linked to a reference rate. As long as the reference rate is within a pre-specified range, the coupon will be equal to the reference rate plus a quoted margin. However, if the reference rate is outside the range, coupon paid will be zero.": 0.8676052061168661
+                        "An note in which the coupon rate is linked to a reference rate. As long as the reference rate is within a pre-specified range, the coupon will be equal to the reference rate plus a quoted margin. However, if the reference rate is outside the range, coupon paid will be zero.": 0.8654544232334276
                     }
                 },
                 {
                     "choice": "structured notes",
                     "scores": {
-                        "Hybrid securities that integrate the features of a debt instruments and a derivative": 0.7868006943174596
+                        "Hybrid securities that integrate the features of a debt instruments and a derivative": 0.8748082344060689
                     }
                 },
                 {
                     "choice": "medium-term notes",
                     "scores": {
-                        "A note that usually matures in five to 10 years. A corporate MTN can be continuously offered by a company to investors through a dealer with investors being able to choose from differing maturities, ranging from nine months to 30 years, though most MTNs range in maturity from one to 10 years": 0.8139640256382925
+                        "A note that usually matures in five to 10 years. A corporate MTN can be continuously offered by a company to investors through a dealer with investors being able to choose from differing maturities, ranging from nine months to 30 years, though most MTNs range in maturity from one to 10 years": 0.892260460042691
                     }
                 }
             ],
@@ -238,24 +239,24 @@
             "question": "A hypothesis test fails to reject a false null hypothesis. This is best described as a:",
             "real_answer": "B",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "Type I error",
                     "scores": {
-                        "the incorrect rejection of a true null hypothesis": 0.7777347518879227
+                        "the incorrect rejection of a true null hypothesis": 0.9082198946376256
                     }
                 },
                 {
                     "choice": "Type II error",
                     "scores": {
-                        "incorrectly retaining a false null hypothesis": 0.8425817566295872
+                        "incorrectly retaining a false null hypothesis": 0.822478571226457
                     }
                 },
                 {
                     "choice": "test with little power",
                     "scores": {
-                        "test with little probability of correctly rejecting the null hypothesis when it is false": 0.82801748035982
+                        "test with little probability of correctly rejecting the null hypothesis when it is false": 0.9309565775440053
                     }
                 }
             ],
@@ -270,13 +271,13 @@
                 {
                     "choice": "default risk",
                     "scores": {
-                        "The probability that a borrower defaults or fails to meet its obligation to make full and timely payments of principal and interest, according to the terms of the debt security. Also called default probability.": 0.8740606885368947
+                        "The probability that a borrower defaults or fails to meet its obligation to make full and timely payments of principal and interest, according to the terms of the debt security. Also called default probability.": 0.9189220332396102
                     }
                 },
                 {
                     "choice": "downgrade risk",
                     "scores": {
-                        "The risk that a bond issuer's creditworthiness deteriorates, or migrates lower, leading investors to believe the risk of default is higher. Also called credit migration risk.": 0.8925086848440036
+                        "The risk that a bond issuer's creditworthiness deteriorates, or migrates lower, leading investors to believe the risk of default is higher. Also called credit migration risk.": 0.9257023171613704
                     }
                 },
                 {
@@ -295,19 +296,19 @@
                 {
                     "choice": "support",
                     "scores": {
-                        "In technical analysis, a price range in which buying activity is sufficient to stop the decline in the price of a security.": 0.9081773943068725
+                        "In technical analysis, a price range in which buying activity is sufficient to stop the decline in the price of a security.": 0.9630032254826876
                     }
                 },
                 {
                     "choice": "resistance",
                     "scores": {
-                        "In technical analysis, a price range in which selling activity is sufficient to stop the rise in the price of a security.": 0.9069646669758571
+                        "In technical analysis, a price range in which selling activity is sufficient to stop the rise in the price of a security.": 0.9601258589845894
                     }
                 },
                 {
                     "choice": "change in polarity",
                     "scores": {
-                        "a belief that breached resistance levels become support levels and that breached support levels become resistance levels": 0.8358694200833248
+                        "a belief that breached resistance levels become support levels and that breached support levels become resistance levels": 0.8010999264320273
                     }
                 }
             ],
@@ -317,24 +318,24 @@
             "question": "A technical analyst has detected a price chart pattern with three segments. The left segment shows a decline followed by a reversal to the starting price level. The middle segment shows a more pronounced decline than in the first segment and again a reversal to near the starting price level. The third segment is roughly a mirror image of the first segment. This chart pattern is most accurately described as:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "a triple bottom",
                     "scores": {
-                        "a bullish chart pattern used in technical analysis that's characterized by three equal lows followed by a breakout above resistance": 0.9034502067436224
+                        "a bullish chart pattern used in technical analysis that's characterized by three equal lows followed by a breakout above resistance": 0.9241509618056442
                     }
                 },
                 {
                     "choice": "a head and shoulders",
                     "scores": {
-                        "describes a specific chart formation that predicts a bullish-to-bearish trend reversal": 0.8229408970859667
+                        "describes a specific chart formation that predicts a bullish-to-bearish trend reversal": 0.8239953182143517
                     }
                 },
                 {
                     "choice": "an inverse head and shoulders",
                     "scores": {
-                        "a chart pattern, used in technical analysis to predict the reversal of a current downtrend": 0.9157870779985642
+                        "a chart pattern, used in technical analysis to predict the reversal of a current downtrend": 0.9112749367101802
                     }
                 }
             ],
@@ -349,19 +350,19 @@
                 {
                     "choice": "an oligopoly",
                     "scores": {
-                        "a market structure with a small number of firms, none of which can keep the others from having significant influence": 0.8920669066875168
+                        "a market structure with a small number of firms, none of which can keep the others from having significant influence": 0.9485975619893326
                     }
                 },
                 {
                     "choice": "perfect competition",
                     "scores": {
-                        "A market structure in which the individual firm has virtually no impact on market price, because it is assumed to be a very small seller among a very large number of firms selling essentially identical products.": 0.9128335348908972
+                        "A market structure in which the individual firm has virtually no impact on market price, because it is assumed to be a very small seller among a very large number of firms selling essentially identical products.": 0.9497569183730484
                     }
                 },
                 {
                     "choice": "monopolistic competition",
                     "scores": {
-                        "Highly competitive form of imperfect competition; the competitive characteristic is a notably large number of firms, while the monopoly aspect is the result of product differentiation.": 0.908330019115488
+                        "Highly competitive form of imperfect competition; the competitive characteristic is a notably large number of firms, while the monopoly aspect is the result of product differentiation.": 0.9373026780191216
                     }
                 }
             ],
@@ -376,19 +377,19 @@
                 {
                     "choice": "equal weighting",
                     "scores": {
-                        "An index weighting method in which an equal weight is assigned to each constituent security at inception.": 0.859502568078659
+                        "An index weighting method in which an equal weight is assigned to each constituent security at inception.": 0.9050416815372945
                     }
                 },
                 {
                     "choice": "fundamental weighting",
                     "scores": {
-                        "An index weighting method in which the weight assigned to each constituent security is based on its underlying company's size. It attempts to address the disadvantages of market-capitalization weighting by using measures that are independent of the constituent security's price.": 0.8848991242420695
+                        "An index weighting method in which the weight assigned to each constituent security is based on its underlying company's size. It attempts to address the disadvantages of market-capitalization weighting by using measures that are independent of the constituent security's price.": 0.9390862250751232
                     }
                 },
                 {
                     "choice": "float-adjusted market-capitalization weighting",
                     "scores": {
-                        "An index weighting method in which the weight assigned to each constituent security is determined by adjusting its market capitalization for its market float.": 0.8786590159538518
+                        "An index weighting method in which the weight assigned to each constituent security is determined by adjusting its market capitalization for its market float.": 0.9338198056959379
                     }
                 }
             ],
@@ -403,7 +404,7 @@
                 {
                     "choice": "Mode",
                     "scores": {
-                        "The most frequently occurring value in a set of observations.": 0.8348001024874467
+                        "The most frequently occurring value in a set of observations.": 0.9137206738180256
                     }
                 },
                 {
@@ -413,7 +414,7 @@
                 {
                     "choice": "Median",
                     "scores": {
-                        "The value of the middle item of a set of items that has been sorted into ascending or descending order; the 50th percentile.": 0.8312732309664717
+                        "The value of the middle item of a set of items that has been sorted into ascending or descending order; the 50th percentile.": 0.8784107473226105
                     }
                 }
             ],
@@ -423,24 +424,24 @@
             "question": "A subset of a population is best described as a:",
             "real_answer": "A",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "sample",
                     "scores": {
-                        "A subset of a population.": 0.7826855048355765
+                        "A subset of a population.": 0.9360663688993381
                     }
                 },
                 {
                     "choice": "statistic",
                     "scores": {
-                        "A quantity computed from or used to describe a sample of data.": 0.7973524173262395
+                        "A quantity computed from or used to describe a sample of data.": 0.8660237240240607
                     }
                 },
                 {
                     "choice": "conditional distribution",
                     "scores": {
-                        "a probability distribution for a sub-population": 0.7336100005021241
+                        "a probability distribution for a sub-population": 0.8573695152157156
                     }
                 }
             ],
@@ -455,19 +456,19 @@
                 {
                     "choice": "lepto-kurtosis",
                     "scores": {
-                        "a statistical distribution where the points along the X-axis are clustered, resulting in a higher peak, or higher kurtosis, than the curvature found in a normal distribution": 0.8739411249295517
+                        "a statistical distribution where the points along the X-axis are clustered, resulting in a higher peak, or higher kurtosis, than the curvature found in a normal distribution": 0.894743904903261
                     }
                 },
                 {
                     "choice": "positive skewness",
                     "scores": {
-                        "has a long right tail": 0.7141106974095814
+                        "has a long right tail": 0.8937338876391616
                     }
                 },
                 {
                     "choice": "negative skewness",
                     "scores": {
-                        "has a long left tail": 0.723886345869052
+                        "has a long left tail": 0.8660273112341313
                     }
                 }
             ],
@@ -477,24 +478,24 @@
             "question": "Providing information about the performance of a company, its financial position, and changes in financial position that is useful to a wide range of users is most accurately described as the role of:",
             "real_answer": "A",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "financial reporting",
                     "scores": {
-                        "the process of producing statements that disclose an organization's financial status to management, investors and the government.": 0.8772822304707547
+                        "the process of producing statements that disclose an organization's financial status to management, investors and the government.": 0.9318000897474829
                     }
                 },
                 {
                     "choice": "the auditor's report",
                     "scores": {
-                        "The auditor's report, published in the annual report in conjunction with the financial statements, opines on whether a company's financial statements comply with generally accepted accounting principles (GAAP)": 0.9034705206463588
+                        "The auditor's report, published in the annual report in conjunction with the financial statements, opines on whether a company's financial statements comply with generally accepted accounting principles (GAAP)": 0.8896352946177287
                     }
                 },
                 {
                     "choice": "financial statement analysis",
                     "scores": {
-                        "the process of reviewing and evaluating a company's financial statements (such as the balance sheet or profit and loss statement), thereby gaining an understanding of the financial health of the company and enabling more effective decision making": 0.8911372799116581
+                        "the process of reviewing and evaluating a company's financial statements (such as the balance sheet or profit and loss statement), thereby gaining an understanding of the financial health of the company and enabling more effective decision making": 0.956500246476942
                     }
                 }
             ],
@@ -504,12 +505,12 @@
             "question": "The type of voting in board elections that is most beneficial to shareholders with a small number of shares is best described as:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "statutory voting",
                     "scores": {
-                        "A common method of voting where each share represents one vote.": 0.7937899693868038
+                        "A common method of voting where each share represents one vote.": 0.9362070815490963
                     }
                 },
                 {
@@ -519,7 +520,7 @@
                 {
                     "choice": "cumulative voting",
                     "scores": {
-                        "A voting process whereby each shareholder can accumulate and vote all his or her shares for a single candidate in an election, as opposed to having to allocate their voting rights evenly among all candidates.": 0.8665995121152507
+                        "A voting process whereby each shareholder can accumulate and vote all his or her shares for a single candidate in an election, as opposed to having to allocate their voting rights evenly among all candidates.": 0.9304304770041497
                     }
                 }
             ],
@@ -534,19 +535,19 @@
                 {
                     "choice": "arbitrage transaction",
                     "scores": {
-                        "making a profit from the difference in prices for commodities in different markets": 0.7542895608263975
+                        "making a profit from the difference in prices for commodities in different markets": 0.8091510718987605
                     }
                 },
                 {
                     "choice": "balance sheet transaction",
                     "scores": {
-                        "a statement of the assets, liabilities, and capital of a business or other organization at a particular point in time, detailing the balance of income and expenditure over the preceding period": 0.778905682467616
+                        "a statement of the assets, liabilities, and capital of a business or other organization at a particular point in time, detailing the balance of income and expenditure over the preceding period": 0.8944244912015512
                     }
                 },
                 {
                     "choice": "capital infusion transaction",
                     "scores": {
-                        "means in one or more related Transactions which, directly or indirectly, results in the purchase or sale of debt or equity securities of the Company or a third party that does not result in the sale of 51% or more of the outstanding voting securities of the Company or a third party, a subsidiary or a related affiliate or a firm commitment, that resulted from a request by the Company for BPC to pursue such a commitment, from BPC, its affiliates, or a third party to purchase or sell newly issued debt or equity securities of the Company, a subsidiary or a related affiliate, including, but not limited to, committed but undrawn credit facilities.": 0.8263242729010848
+                        "means in one or more related Transactions which, directly or indirectly, results in the purchase or sale of debt or equity securities of the Company or a third party that does not result in the sale of 51% or more of the outstanding voting securities of the Company or a third party, a subsidiary or a related affiliate or a firm commitment, that resulted from a request by the Company for BPC to pursue such a commitment, from BPC, its affiliates, or a third party to purchase or sell newly issued debt or equity securities of the Company, a subsidiary or a related affiliate, including, but not limited to, committed but undrawn credit facilities.": 0.9318913678054009
                     }
                 }
             ],
@@ -561,19 +562,19 @@
                 {
                     "choice": "market risk",
                     "scores": {
-                        "The risk that arises from movements in interest rates, stock prices, exchange rates, and commodity prices.": 0.7556001742415568
+                        "The risk that arises from movements in interest rates, stock prices, exchange rates, and commodity prices.": 0.8155731274148215
                     }
                 },
                 {
                     "choice": "systematic risk",
                     "scores": {
-                        "Risk that affects the entire market or econ omy; it cannot be avoided and is inherent in the overall market. Systematic risk is also known as non-diversifiable or market risk.": 0.8749849895169333
+                        "Risk that affects the entire market or econ omy; it cannot be avoided and is inherent in the overall market. Systematic risk is also known as non-diversifiable or market risk.": 0.9433923617873176
                     }
                 },
                 {
                     "choice": "unsystematic risk",
                     "scores": {
-                        "the uncertainty inherent in a company or industry investment": 0.7145705495377027
+                        "the uncertainty inherent in a company or industry investment": 0.8756491975536247
                     }
                 }
             ],
@@ -588,19 +589,19 @@
                 {
                     "choice": "adverse opinion",
                     "scores": {
-                        "a professional opinion made by an auditor indicating that a company's financial statements are misrepresented, misstated and do not accurately reflect its financial performance and health": 0.8828628462514784
+                        "a professional opinion made by an auditor indicating that a company's financial statements are misrepresented, misstated and do not accurately reflect its financial performance and health": 0.8933617963207588
                     }
                 },
                 {
                     "choice": "qualified opinion",
                     "scores": {
-                        "a statement issued after an audit is done by a professional auditor that suggests the information provided was limited in scope and/or the company being audited has not maintained GAAP accounting principles": 0.8827036071974965
+                        "a statement issued after an audit is done by a professional auditor that suggests the information provided was limited in scope and/or the company being audited has not maintained GAAP accounting principles": 0.9237226689249731
                     }
                 },
                 {
                     "choice": "disclaimer of opinion",
                     "scores": {
-                        "an auditor is unable to complete an accurate audit report, it may issue a disclaimer of opinion": 0.9000196993424749
+                        "an auditor is unable to complete an accurate audit report, it may issue a disclaimer of opinion": 0.9367771804646614
                     }
                 }
             ],
@@ -610,24 +611,24 @@
             "question": "An accounting document that records transactions in the order in which they occur is best described as a:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "A",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "trial balance",
                     "scores": {
-                        "a bookkeeping worksheet in which the balances of all ledgers are compiled into debit and credit columns": 0.8698242494367976
+                        "a bookkeeping worksheet in which the balances of all ledgers are compiled into debit and credit columns": 0.8651196300983655
                     }
                 },
                 {
                     "choice": "general ledger",
                     "scores": {
-                        "a company's set of numbered accounts for its accounting records": 0.7627407533402835
+                        "a company's set of numbered accounts for its accounting records": 0.8916501245091072
                     }
                 },
                 {
                     "choice": "general journal",
                     "scores": {
-                        "Common type of journal used in keeping a chronological record of financial transactions of a firm not belonging to other (special) journals, or where no special journal exists": 0.7941672033449796
+                        "Common type of journal used in keeping a chronological record of financial transactions of a firm not belonging to other (special) journals, or where no special journal exists": 0.9320340628410877
                     }
                 }
             ],
@@ -642,19 +643,19 @@
                 {
                     "choice": "sales risk",
                     "scores": {
-                        "Uncertainty with respect to the quantity of goods and services that a company is able to sell and the price it is able to achieve; the risk related to the uncertainty of revenues.": 0.9074733812716809
+                        "Uncertainty with respect to the quantity of goods and services that a company is able to sell and the price it is able to achieve; the risk related to the uncertainty of revenues.": 0.9677414930517583
                     }
                 },
                 {
                     "choice": "business risk",
                     "scores": {
-                        "The risk associated with operating earnings.": 0.7675706220100595
+                        "The risk associated with operating earnings.": 0.848652982945188
                     }
                 },
                 {
                     "choice": "operating risk",
                     "scores": {
-                        "The risk attributed to the operating cost structure, in particular the use of fixed costs in operations; the risk arising from the mix of fixed and variable costs; the risk that a company's operations may be severely affected by environmental, social, and governance risk factors.": 0.8869898460053562
+                        "The risk attributed to the operating cost structure, in particular the use of fixed costs in operations; the risk arising from the mix of fixed and variable costs; the risk that a company's operations may be severely affected by environmental, social, and governance risk factors.": 0.9332735797932331
                     }
                 }
             ],
@@ -673,13 +674,13 @@
                 {
                     "choice": "fundamental factor model",
                     "scores": {
-                        "A multifactor model in which the factors are attributes of stocks or companies that are important in explaining cross-sectional differences in stock prices.": 0.8866780005776982
+                        "A multifactor model in which the factors are attributes of stocks or companies that are important in explaining cross-sectional differences in stock prices.": 0.9160719955276363
                     }
                 },
                 {
                     "choice": "macroeconomic factor model",
                     "scores": {
-                        "A multifactor model in which the factors are surprises in macroeconomic variables that significantly explain equity returns.": 0.864957393577111
+                        "A multifactor model in which the factors are surprises in macroeconomic variables that significantly explain equity returns.": 0.8981840637608016
                     }
                 }
             ],
@@ -694,7 +695,7 @@
                 {
                     "choice": "price return",
                     "scores": {
-                        "Measures only the price appreciation or percent age change in price of the securities in an index or portfolio.": 0.7493722534842908
+                        "Measures only the price appreciation or percent age change in price of the securities in an index or portfolio.": 0.9083638183813567
                     }
                 },
                 {
@@ -704,7 +705,7 @@
                 {
                     "choice": "convenience yield",
                     "scores": {
-                        "A non-monetary advantage of holding an asset.": 0.6240381796224126
+                        "A non-monetary advantage of holding an asset.": 0.8842138434795147
                     }
                 }
             ],
@@ -719,19 +720,19 @@
                 {
                     "choice": "fundamental weighting",
                     "scores": {
-                        "An index weighting method in which the weight assigned to each constituent security is based on its underlying company's size. It attempts to address the disadvantages of market-capitalization weighting by using measures that are independent of the constituent security's price.": 0.8765379484786084
+                        "An index weighting method in which the weight assigned to each constituent security is based on its underlying company's size. It attempts to address the disadvantages of market-capitalization weighting by using measures that are independent of the constituent security's price.": 0.9368757622895831
                     }
                 },
                 {
                     "choice": "float-adjusted market-capitalization weighting",
                     "scores": {
-                        "An index weighting method in which the weight assigned to each constituent security is determined by adjusting its market capitalization for its market float.": 0.8844665880187738
+                        "An index weighting method in which the weight assigned to each constituent security is determined by adjusting its market capitalization for its market float.": 0.9405657366342084
                     }
                 },
                 {
                     "choice": "equal weighting",
                     "scores": {
-                        "An index weighting method in which an equal weight is assigned to each constituent security at inception.": 0.8726524194860672
+                        "An index weighting method in which an equal weight is assigned to each constituent security at inception.": 0.908568863554845
                     }
                 }
             ],
@@ -746,19 +747,19 @@
                 {
                     "choice": "mental accounting",
                     "scores": {
-                        "an economic concept established by economist Richard Thaler, which contends that individuals divide their current and future assets into separate, non-transferable portions": 0.7823587890851639
+                        "an economic concept established by economist Richard Thaler, which contends that individuals divide their current and future assets into separate, non-transferable portions": 0.8814142849697978
                     }
                 },
                 {
                     "choice": "the disposition effect",
                     "scores": {
-                        "the tendency for investors to sell shares in a security whose price has increased while keeping securities that have dropped in value": 0.8881481776313079
+                        "the tendency for investors to sell shares in a security whose price has increased while keeping securities that have dropped in value": 0.9137466479410874
                     }
                 },
                 {
                     "choice": "the gambler's fallacy",
                     "scores": {
-                        "occurs when an individual erroneously believes that a certain random event is less likely or more likely, given a previous event or a series of events": 0.7960289116767844
+                        "occurs when an individual erroneously believes that a certain random event is less likely or more likely, given a previous event or a series of events": 0.8911489824854361
                     }
                 }
             ],
@@ -773,13 +774,13 @@
                 {
                     "choice": "fundamental factor model",
                     "scores": {
-                        "A multifactor model in which the factors are attributes of stocks or companies that are important in explaining cross-sectional differences in stock prices.": 0.8839280393019967
+                        "A multifactor model in which the factors are attributes of stocks or companies that are important in explaining cross-sectional differences in stock prices.": 0.9160719952096911
                     }
                 },
                 {
                     "choice": "macroeconomic factor model",
                     "scores": {
-                        "A multifactor model in which the factors are surprises in macroeconomic variables that significantly explain equity returns.": 0.862383426184011
+                        "A multifactor model in which the factors are surprises in macroeconomic variables that significantly explain equity returns.": 0.8981840634490649
                     }
                 },
                 {
@@ -793,24 +794,24 @@
             "question": "A hypothesis test fails to reject a false null hypothesis. This result is best described as a:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "test with little power",
                     "scores": {
-                        "test with little probability of correctly rejecting the null hypothesis when it is false": 0.818389619884767
+                        "test with little probability of correctly rejecting the null hypothesis when it is false": 0.9362041581238347
                     }
                 },
                 {
                     "choice": "Type I error",
                     "scores": {
-                        "the incorrect rejection of a true null hypothesis": 0.7799591439883532
+                        "the incorrect rejection of a true null hypothesis": 0.9128711279987972
                     }
                 },
                 {
                     "choice": "Type II error",
                     "scores": {
-                        "incorrectly retaining a false null hypothesis": 0.8356052882756188
+                        "incorrectly retaining a false null hypothesis": 0.8268709829024485
                     }
                 }
             ],
@@ -825,19 +826,19 @@
                 {
                     "choice": "change in polarity",
                     "scores": {
-                        "a belief that breached resistance levels become support levels and that breached support levels become resistance levels": 0.8082933203915215
+                        "a belief that breached resistance levels become support levels and that breached support levels become resistance levels": 0.7820074254165533
                     }
                 },
                 {
                     "choice": "support",
                     "scores": {
-                        "In technical analysis, a price range in which buying activity is sufficient to stop the decline in the price of a security.": 0.9128933287273143
+                        "In technical analysis, a price range in which buying activity is sufficient to stop the decline in the price of a security.": 0.9649020250086588
                     }
                 },
                 {
                     "choice": "resistance",
                     "scores": {
-                        "In technical analysis, a price range in which selling activity is sufficient to stop the rise in the price of a security.": 0.918372909972636
+                        "In technical analysis, a price range in which selling activity is sufficient to stop the rise in the price of a security.": 0.9695815245640361
                     }
                 }
             ],
@@ -852,19 +853,19 @@
                 {
                     "choice": "opportunity cost",
                     "scores": {
-                        "The value that investors forgo by choosing a particular course of action; the value of something in its best alternative use.": 0.8921518382487462
+                        "The value that investors forgo by choosing a particular course of action; the value of something in its best alternative use.": 0.956652942616534
                     }
                 },
                 {
                     "choice": "required return",
                     "scores": {
-                        "a minimum level of rate of return that investors would agree to accept for a particular investment as compensation for delaying consumption and taking risk": 0.8524124464252791
+                        "a minimum level of rate of return that investors would agree to accept for a particular investment as compensation for delaying consumption and taking risk": 0.9120000244287687
                     }
                 },
                 {
                     "choice": "sunk cost",
                     "scores": {
-                        "A cost that has already been incurred.": 0.7056549286965248
+                        "A cost that has already been incurred.": 0.8481338603203277
                     }
                 }
             ],
@@ -879,19 +880,19 @@
                 {
                     "choice": "oligopoly",
                     "scores": {
-                        "Market structure with a relatively small number of firms supplying the market.": 0.8528700071349149
+                        "Market structure with a relatively small number of firms supplying the market.": 0.9249133008048723
                     }
                 },
                 {
                     "choice": "perfect competition",
                     "scores": {
-                        "A market structure in which the individual firm has virtually no impact on market price, because it is assumed to be a very small seller among a very large number of firms selling essentially identical products.": 0.9090015222872947
+                        "A market structure in which the individual firm has virtually no impact on market price, because it is assumed to be a very small seller among a very large number of firms selling essentially identical products.": 0.9560462028105814
                     }
                 },
                 {
                     "choice": "monopolistic competition",
                     "scores": {
-                        "Highly competitive form of imperfect competition; the competitive characteristic is a notably large number of firms, while the monopoly aspect is the result of product differentiation.": 0.8596659320036485
+                        "Highly competitive form of imperfect competition; the competitive characteristic is a notably large number of firms, while the monopoly aspect is the result of product differentiation.": 0.9288391528280044
                     }
                 }
             ],
@@ -906,13 +907,13 @@
                 {
                     "choice": "internal rate of return",
                     "scores": {
-                        "(IRR) The discount rate that makes net present value equal O; the discount rate that makes the present value of an investment's costs (outflows) equal to the present value of the investment's benefits (inflows).": 0.8025193105829913
+                        "(IRR) The discount rate that makes net present value equal O; the discount rate that makes the present value of an investment's costs (outflows) equal to the present value of the investment's benefits (inflows).": 0.9131440489740836
                     }
                 },
                 {
                     "choice": "required rate of return",
                     "scores": {
-                        "See market discount rate.": 0.600066432927333
+                        "See market discount rate.": 0.7599185735836465
                     }
                 },
                 {
@@ -931,19 +932,19 @@
                 {
                     "choice": "parameter",
                     "scores": {
-                        "A descriptive measure computed from or used to describe a population of data, conventionally represented by Greek letters.": 0.8668540510812068
+                        "A descriptive measure computed from or used to describe a population of data, conventionally represented by Greek letters.": 0.8983415906581079
                     }
                 },
                 {
                     "choice": "frequency distribution",
                     "scores": {
-                        "A tabular display of data summarized into a relatively small number of intervals.": 0.8300518949898182
+                        "A tabular display of data summarized into a relatively small number of intervals.": 0.8775511065315872
                     }
                 },
                 {
                     "choice": "sample statistic",
                     "scores": {
-                        "A quantity computed from or used to describe a sample.": 0.7811365848987225
+                        "A quantity computed from or used to describe a sample.": 0.8757244745725465
                     }
                 }
             ],
@@ -962,7 +963,7 @@
                 {
                     "choice": "data mining",
                     "scores": {
-                        "The practice of determining a model by extensive searching through a dataset for statistically significant patterns. Also called data snooping.": 0.8606697333563716
+                        "The practice of determining a model by extensive searching through a dataset for statistically significant patterns. Also called data snooping.": 0.8848283967125329
                     }
                 },
                 {
@@ -983,7 +984,7 @@
                 {
                     "choice": "a priori probability",
                     "scores": {
-                        "A probability based on logical analysis rather than on observation or personal judgment.": 0.7251819259179331
+                        "A probability based on logical analysis rather than on observation or personal judgment.": 0.8836630719862577
                     }
                 },
                 {
@@ -993,13 +994,13 @@
                 {
                     "choice": "empirical probability",
                     "scores": {
-                        "The probability of an event estimated as a relative frequency of occurrence.": 0.8405926217512392
+                        "The probability of an event estimated as a relative frequency of occurrence.": 0.9129935536677439
                     }
                 },
                 {
                     "choice": "subjective probability",
                     "scores": {
-                        "A probability drawing on personal or subjective judgment.": 0.7072962517426445
+                        "A probability drawing on personal or subjective judgment.": 0.8300509833484038
                     }
                 }
             ],
@@ -1014,19 +1015,19 @@
                 {
                     "choice": "a priori probability",
                     "scores": {
-                        "A probability based on logical analysis rather than on observation or personal judgment.": 0.7225312538098829
+                        "A probability based on logical analysis rather than on observation or personal judgment.": 0.8836635980600706
                     }
                 },
                 {
                     "choice": "empirical probability",
                     "scores": {
-                        "The probability of an event estimated as a relative frequency of occurrence.": 0.8342146025059884
+                        "The probability of an event estimated as a relative frequency of occurrence.": 0.9129936522869246
                     }
                 },
                 {
                     "choice": "subjective probability",
                     "scores": {
-                        "A probability drawing on personal or subjective judgment.": 0.7017861429210105
+                        "A probability drawing on personal or subjective judgment.": 0.8300506262142522
                     }
                 }
             ],
@@ -1043,25 +1044,25 @@
                 {
                     "choice": "Z-spread minus the option cost",
                     "scores": {
-                        "Z-spread minus the option cost": 0.7044855195141071
+                        "Z-spread minus the option cost": 0.7936575496464133
                     }
                 },
                 {
                     "choice": "Z-spread plus the cost of the option",
                     "scores": {
-                        "Z-spread plus the cost of the option": 0.7382016253254078
+                        "Z-spread plus the cost of the option": 0.8469619047507759
                     }
                 },
                 {
                     "choice": "value of the security's embedded option",
                     "scores": {
-                        "value of the security's embedded option": 0.7234299296301531
+                        "value of the security's embedded option": 0.8205733654059105
                     }
                 },
                 {
                     "choice": "effect of changes in interest rates on the value of the security",
                     "scores": {
-                        "effect of changes in interest rates on the value of the security": 0.8041665109921844
+                        "effect of changes in interest rates on the value of the security": 0.9000277907713716
                     }
                 }
             ],
@@ -1076,19 +1077,19 @@
                 {
                     "choice": "only interest payments to debt holders",
                     "scores": {
-                        "only interest payments to debt holders": 0.7631063870404288
+                        "only interest payments to debt holders": 0.8415986882296603
                     }
                 },
                 {
                     "choice": "payments to both debt holders (interest and principal) and preferred stockholders",
                     "scores": {
-                        "payments to both debt holders (interest and principal) and preferred stockholders": 0.8444798905842301
+                        "payments to both debt holders (interest and principal) and preferred stockholders": 0.8884457778236877
                     }
                 },
                 {
                     "choice": "both interest and principal payments to debt holders, but not payments to preferred stockholders",
                     "scores": {
-                        "both interest and principal payments to debt holders, but not payments to preferred stockholders": 0.8529297552837445
+                        "both interest and principal payments to debt holders, but not payments to preferred stockholders": 0.9094959572528809
                     }
                 }
             ],
@@ -1103,19 +1104,19 @@
                 {
                     "choice": "the amount of proceeds received in exchange for the obligation",
                     "scores": {
-                        "the amount of proceeds received in exchange for the obligation": 0.7808708388442129
+                        "the amount of proceeds received in exchange for the obligation": 0.8903927623443354
                     }
                 },
                 {
                     "choice": "the discounted value of the future cash flows that are required to satisfy the obligation",
                     "scores": {
-                        "the discounted value of the future cash flows that are required to satisfy the obligation": 0.8597748421110215
+                        "the discounted value of the future cash flows that are required to satisfy the obligation": 0.8959644673503525
                     }
                 },
                 {
                     "choice": "the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the obligation",
                     "scores": {
-                        "the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the obligation": 0.8232039268378853
+                        "the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the obligation": 0.829041198430638
                     }
                 }
             ],
@@ -1125,24 +1126,24 @@
             "question": "Margin in the futures market is most accurately described as a:",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "B",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "loan to the futures trader",
                     "scores": {
-                        "loan to the futures trader": 0.7006637703738428
+                        "loan to the futures trader": 0.7261735336374445
                     }
                 },
                 {
                     "choice": "requirement set by federal regulators",
                     "scores": {
-                        "requirement set by federal regulators": 0.7412556508113456
+                        "requirement set by federal regulators": 0.6123730242787961
                     }
                 },
                 {
                     "choice": "down payment from the futures trader",
                     "scores": {
-                        "down payment from the futures trader": 0.691076102670805
+                        "down payment from the futures trader": 0.7729569718415654
                     }
                 }
             ],
@@ -1157,19 +1158,19 @@
                 {
                     "choice": "size of the contract",
                     "scores": {
-                        "size of the contract": 0.5754469398256743
+                        "size of the contract": 0.7726008333836911
                     }
                 },
                 {
                     "choice": "original time to maturity",
                     "scores": {
-                        "original time to maturity": 0.6624956565601867
+                        "original time to maturity": 0.8216927231722452
                     }
                 },
                 {
                     "choice": "net amount owed by one party to the other",
                     "scores": {
-                        "net amount owed by one party to the other": 0.6299483403065995
+                        "net amount owed by one party to the other": 0.7916960958175863
                     }
                 }
             ],
@@ -1184,19 +1185,19 @@
                 {
                     "choice": "risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly",
                     "scores": {
-                        "risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly": 0.8804457568952895
+                        "risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly": 0.9574633009237974
                     }
                 },
                 {
                     "choice": "increased sensitivity of the market value of debt to a change in market interest rates as maturity is extended",
                     "scores": {
-                        "increased sensitivity of the market value of debt to a change in market interest rates as maturity is extended": 0.8486666996286346
+                        "increased sensitivity of the market value of debt to a change in market interest rates as maturity is extended": 0.9109530997116917
                     }
                 },
                 {
                     "choice": "possibility that the borrower will fail to make a promised payment at the contracted time and in the contracted amount",
                     "scores": {
-                        "possibility that the borrower will fail to make a promised payment at the contracted time and in the contracted amount": 0.8721997181574873
+                        "possibility that the borrower will fail to make a promised payment at the contracted time and in the contracted amount": 0.9279208778542425
                     }
                 }
             ],
@@ -1206,24 +1207,24 @@
             "question": "The value at risk of an alternative investment is best described as the:",
             "real_answer": "A",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "B",
             "choices_results": [
                 {
                     "choice": "minimum amount of loss expected over a given time period at a given probability level",
                     "scores": {
-                        "minimum amount of loss expected over a given time period at a given probability level": 0.7320707577233243
+                        "minimum amount of loss expected over a given time period at a given probability level": 0.8834817007919943
                     }
                 },
                 {
                     "choice": "time period during which a fixed amount is lost at a given probability level",
                     "scores": {
-                        "time period during which a fixed amount is lost at a given probability level": 0.7250251322827495
+                        "time period during which a fixed amount is lost at a given probability level": 0.8851903297463267
                     }
                 },
                 {
                     "choice": "probability of losing a fixed amount of money over a given time period",
                     "scores": {
-                        "probability of losing a fixed amount of money over a given time period": 0.7574200093155389
+                        "probability of losing a fixed amount of money over a given time period": 0.877058626358576
                     }
                 }
             ],
@@ -1238,23 +1239,50 @@
                 {
                     "choice": "amount needed to finance the purchase of the underlying asset",
                     "scores": {
-                        "amount needed to finance the purchase of the underlying asset": 0.7195936957425219
+                        "amount needed to finance the purchase of the underlying asset": 0.8920208810261416
                     }
                 },
                 {
                     "choice": "minimum account balance required as prices change",
                     "scores": {
-                        "minimum account balance required as prices change": 0.6539891168776389
+                        "minimum account balance required as prices change": 0.833523089315451
                     }
                 },
                 {
                     "choice": "performance bond ensuring fulfillment of the obligation",
                     "scores": {
-                        "performance bond ensuring fulfillment of the obligation": 0.6751962202145226
+                        "performance bond ensuring fulfillment of the obligation": 0.7903810282680268
                     }
                 }
             ],
             "category": "KEYWORD_DEF_START_END"
+        },
+        "2015_morning.xml_19": {
+            "question": "Monte Carlo simulation is best described as:",
+            "real_answer": "B",
+            "random_answer": false,
+            "predicted_answer": "A",
+            "choices_results": [
+                {
+                    "choice": "a restrictive form of scenario analysis",
+                    "scores": {
+                        "a restrictive form of scenario analysis": 0.8322716579685876
+                    }
+                },
+                {
+                    "choice": "providing a distribution of possible solutions to complex functions",
+                    "scores": {
+                        "providing a distribution of possible solutions to complex functions": 0.8278688078209384
+                    }
+                },
+                {
+                    "choice": "an approach to backtest data",
+                    "scores": {
+                        "an approach to backtest data": 0.7316972978942324
+                    }
+                }
+            ],
+            "category": "KEYWORD_DEF"
         },
         "2015_morning.xml_62": {
             "question": "The use of estimates in financial reporting is best described as:",
@@ -1265,19 +1293,19 @@
                 {
                     "choice": "acceptable despite the risk of manipulation by management",
                     "scores": {
-                        "acceptable despite the risk of manipulation by management": 0.7408120349803173
+                        "acceptable despite the risk of manipulation by management": 0.767040407396653
                     }
                 },
                 {
                     "choice": "a factor that reduces the understandability of financial statements",
                     "scores": {
-                        "a factor that reduces the understandability of financial statements": 0.8217458929138984
+                        "a factor that reduces the understandability of financial statements": 0.7778510398823679
                     }
                 },
                 {
                     "choice": "avoidable through sophisticated accounting and auditing techniques",
                     "scores": {
-                        "avoidable through sophisticated accounting and auditing techniques": 0.753184546221146
+                        "avoidable through sophisticated accounting and auditing techniques": 0.6291874540068019
                     }
                 }
             ],
@@ -1287,24 +1315,24 @@
             "question": "The objective of general purpose financial reporting is best described as:",
             "real_answer": "A",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "B",
             "choices_results": [
                 {
                     "choice": "facilitating resource allocation decisions by current and potential investors and creditors",
                     "scores": {
-                        "facilitating resource allocation decisions by current and potential investors and creditors": 0.7908703068656914
+                        "facilitating resource allocation decisions by current and potential investors and creditors": 0.7944844391519555
                     }
                 },
                 {
                     "choice": "reporting an entity's economic resources and claims, and changes therein, to shareholders",
                     "scores": {
-                        "reporting an entity's economic resources and claims, and changes therein, to shareholders": 0.8222824274440222
+                        "reporting an entity's economic resources and claims, and changes therein, to shareholders": 0.8624593910784725
                     }
                 },
                 {
                     "choice": "providing information about financial performance to a wide range of users",
                     "scores": {
-                        "providing information about financial performance to a wide range of users": 0.8414775522908633
+                        "providing information about financial performance to a wide range of users": 0.8366369236051193
                     }
                 }
             ],
@@ -1314,24 +1342,24 @@
             "question": "Security market indices can be used to calculate alphas, which are best described as:",
             "real_answer": "B",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "B",
             "choices_results": [
                 {
                     "choice": "the systematic risk of a security, using the index as a proxy for the entire market",
                     "scores": {
-                        "the systematic risk of a security, using the index as a proxy for the entire market": 0.6898629353667844
+                        "the systematic risk of a security, using the index as a proxy for the entire market": 0.8399540697076295
                     }
                 },
                 {
                     "choice": "the difference between the return of the actively managed portfolio and the return of the passive portfolio",
                     "scores": {
-                        "the difference between the return of the actively managed portfolio and the return of the passive portfolio": 0.6477848352294446
+                        "the difference between the return of the actively managed portfolio and the return of the passive portfolio": 0.8436784244599635
                     }
                 },
                 {
                     "choice": "a measure of market sentiment",
                     "scores": {
-                        "a measure of market sentiment": 0.783547799923597
+                        "a measure of market sentiment": 0.7668212749187574
                     }
                 }
             ],
@@ -1346,19 +1374,19 @@
                 {
                     "choice": "probability of rejecting a true null hypothesis",
                     "scores": {
-                        "probability of rejecting a true null hypothesis": 0.8073854577249121
+                        "probability of rejecting a true null hypothesis": 0.8987120388151218
                     }
                 },
                 {
                     "choice": "probability of correctly rejecting the null hypothesis",
                     "scores": {
-                        "probability of correctly rejecting the null hypothesis": 0.8529742622047651
+                        "probability of correctly rejecting the null hypothesis": 0.9098592668239832
                     }
                 },
                 {
                     "choice": "same as the level of significance of the test",
                     "scores": {
-                        "same as the level of significance of the test": 0.670293582815282
+                        "same as the level of significance of the test": 0.8201695397528448
                     }
                 }
             ],
@@ -1375,19 +1403,19 @@
                 {
                     "choice": "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is equal",
                     "scores": {
-                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is equal": 0.7424213028881772
+                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is equal": 0.880232564913683
                     }
                 },
                 {
                     "choice": "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is lower",
                     "scores": {
-                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is lower": 0.7333286802227315
+                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is lower": 0.8759078373433535
                     }
                 },
                 {
                     "choice": "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is higher",
                     "scores": {
-                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is higher": 0.7325140125507195
+                        "as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is higher": 0.8759373512339167
                     }
                 }
             ],
@@ -1397,24 +1425,24 @@
             "question": "A test statistic is best defined as the difference between the sample statistic and the value of the population parameter under H0 divided by the:",
             "real_answer": "B",
             "random_answer": false,
-            "predicted_answer": "A",
+            "predicted_answer": "C",
             "choices_results": [
                 {
                     "choice": "as the difference between the sample statistic and the value of the population parameter under H0 divided by the sample standard deviation",
                     "scores": {
-                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the sample standard deviation": 0.7894051088563985
+                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the sample standard deviation": 0.884570003018644
                     }
                 },
                 {
                     "choice": "as the difference between the sample statistic and the value of the population parameter under H0 divided by the standard error of the sample statistic",
                     "scores": {
-                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the standard error of the sample statistic": 0.7838246716450367
+                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the standard error of the sample statistic": 0.8873233518801349
                     }
                 },
                 {
                     "choice": "as the difference between the sample statistic and the value of the population parameter under H0 divided by the appropriate value from the t-distribution ",
                     "scores": {
-                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the appropriate value from the t-distribution ": 0.7886420010830777
+                        "as the difference between the sample statistic and the value of the population parameter under H0 divided by the appropriate value from the t-distribution ": 0.8906160308969339
                     }
                 }
             ],
@@ -1424,24 +1452,24 @@
             "question": "The primary motivation for creating a collateralized mortgage obligation (CMO) is best described as the desire to redistribute which risk of investment in residential mortgages?",
             "real_answer": "C",
             "random_answer": false,
-            "predicted_answer": "C",
+            "predicted_answer": "A",
             "choices_results": [
                 {
                     "choice": "as the desire to redistribute which risk of investment in residential mortgages? Default risk",
                     "scores": {
-                        "as the desire to redistribute which risk of investment in residential mortgages? Default risk": 0.7881069830059574
+                        "as the desire to redistribute which risk of investment in residential mortgages? Default risk": 0.8787861178553217
                     }
                 },
                 {
                     "choice": "as the desire to redistribute which risk of investment in residential mortgages? Liquidity risk",
                     "scores": {
-                        "as the desire to redistribute which risk of investment in residential mortgages? Liquidity risk": 0.7994257381231998
+                        "as the desire to redistribute which risk of investment in residential mortgages? Liquidity risk": 0.8743069322865104
                     }
                 },
                 {
                     "choice": "as the desire to redistribute which risk of investment in residential mortgages? Prepayment risk",
                     "scores": {
-                        "as the desire to redistribute which risk of investment in residential mortgages? Prepayment risk": 0.8006197112276144
+                        "as the desire to redistribute which risk of investment in residential mortgages? Prepayment risk": 0.8773239848398726
                     }
                 }
             ],
@@ -1456,19 +1484,19 @@
                 {
                     "choice": "as the ratio of unemployed to total population of people who are of working age",
                     "scores": {
-                        "as the ratio of unemployed to total population of people who are of working age": 0.8335471955859174
+                        "as the ratio of unemployed to total population of people who are of working age": 0.8999992481827431
                     }
                 },
                 {
                     "choice": "as the ratio of unemployed to labor force",
                     "scores": {
-                        "as the ratio of unemployed to labor force": 0.9247979302742246
+                        "as the ratio of unemployed to labor force": 0.9849647316478028
                     }
                 },
                 {
                     "choice": "as the ratio of unemployed to labor force minus frictionally unemployed",
                     "scores": {
-                        "as the ratio of unemployed to labor force minus frictionally unemployed": 0.8867786337288575
+                        "as the ratio of unemployed to labor force minus frictionally unemployed": 0.9590755441160107
                     }
                 }
             ],
@@ -1483,19 +1511,19 @@
                 {
                     "choice": "as a nonmonetary benefit of holding a(n) forward contract",
                     "scores": {
-                        "as a nonmonetary benefit of holding a(n) forward contract": 0.7321499745394879
+                        "as a nonmonetary benefit of holding a(n) forward contract": 0.8267622124810069
                     }
                 },
                 {
                     "choice": "as a nonmonetary benefit of holding a(n) option contract",
                     "scores": {
-                        "as a nonmonetary benefit of holding a(n) option contract": 0.7150837042073267
+                        "as a nonmonetary benefit of holding a(n) option contract": 0.814278447668461
                     }
                 },
                 {
                     "choice": "as a nonmonetary benefit of holding a(n) asset",
                     "scores": {
-                        "as a nonmonetary benefit of holding a(n) asset": 0.7248603273895186
+                        "as a nonmonetary benefit of holding a(n) asset": 0.8015635319857412
                     }
                 }
             ],

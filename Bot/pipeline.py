@@ -11,11 +11,24 @@ from Bot.Utils import get_enum_name
 
 class Pipeline:
     def __init__(self):
-        self.nlp_ = spacy.load('en', disable=['tagger', 'textcat'])
+        self.model_name_ = 'en_core_web_lg'
+        self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
         self.glossary_ = GlossaryLoader().load()
         self.problems_reader_ = ProblemsReader()
         self.classifier_ = ProblemsClassifier(self.glossary_, self.nlp_)
         self.resolver_factory_ = ResolverFactory(self.glossary_, self.nlp_)
+
+    def add_category_results(self, category_name, results, category_problems):
+        correct_answers = category_problems[category_problems['prediction'] == category_problems['answer']]
+        nb_correct = len(correct_answers)
+        nb_total = len(category_problems)
+        percentage = (nb_correct / nb_total) * 100
+        results['overall'][category_name] = {
+            'percentage': percentage,
+            'nb_correct': nb_correct,
+            'nb_total': nb_total
+        }
+        print("Correct answers = %0.3f%%, (%d out of %d)" % (percentage, nb_correct, nb_total))
 
     def resolve_category(self, category, df, results):
         category_name = get_enum_name(ProblemCategory, category)
@@ -29,18 +42,17 @@ class Pipeline:
         res = resolver.resolve(category_problems, category_results)
         category_problems.loc[category_filter, 'prediction'] = res
         results[category_name] = category_results
-        correct_answers = category_problems[category_problems['prediction'] == category_problems['answer']]
-        print("Correct answers = " + str(len(correct_answers) / len(category_problems)))
+        self.add_category_results(category_name, results, category_problems)
 
     def write_results(self, results):
         now = datetime.datetime.now().strftime("%m_%d_%H_%M")
-        result_path = 'results_{}.json'.format(now)
+        result_path = 'Results/results_{}.json'.format(now)
         print('Writing results to {}'.format(result_path))
         with open(result_path, 'w') as f:
             f.write(json.dumps(results, indent=4))
 
     def process(self):
-        results = {}
+        results = {'model': self.model_name_, 'overall': {}}
         all_problems_df = self.problems_reader_.read_all_problems()
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
