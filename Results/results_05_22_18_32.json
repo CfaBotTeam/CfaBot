@@ -1,4 +1,26 @@
 {
+    "overall": {
+        "DEF_KEYWORD": {
+            "percentage": 52.77777777777778,
+            "nb_correct": 19,
+            "nb_total": 36
+        },
+        "DEF_KEYWORD_START_END": {
+            "percentage": 0.0,
+            "nb_correct": 0,
+            "nb_total": 2
+        },
+        "KEYWORD_DEF": {
+            "percentage": 25.0,
+            "nb_correct": 3,
+            "nb_total": 12
+        },
+        "KEYWORD_DEF_START_END": {
+            "percentage": 60.0,
+            "nb_correct": 3,
+            "nb_total": 5
+        }
+    },
     "DEF_KEYWORD": {
         "2009_morning_answers.xml_43": {
             "question": "Which of the following goals of monetary policy is best described to be the key goal?",
