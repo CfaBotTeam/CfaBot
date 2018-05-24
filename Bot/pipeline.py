@@ -7,11 +7,13 @@ from Bot.Classification import ProblemCategory
 from Bot.Load import GlossaryLoader
 from Bot.Resolver import ResolverFactory
 from Bot.Utils import get_enum_name
+from Bot.Utils import MissingWordsFinder
 
 
 class Pipeline:
     def __init__(self):
-        self.model_name_ = 'en_core_web_lg'
+        self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_only'
+        # self.model_name_ = 'en_core_web_lg'
         self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
         self.glossary_ = GlossaryLoader().load()
         self.problems_reader_ = ProblemsReader()
@@ -54,6 +56,11 @@ class Pipeline:
     def process(self):
         results = {'model': self.model_name_, 'overall': {}}
         all_problems_df = self.problems_reader_.read_all_problems()
+
+        # finder = MissingWordsFinder(self.nlp_)
+        # missing_words = finder.get_missing_words(all_problems_df)
+        # print(len(missing_words))
+
         print("Total number of problems = " + str(len(all_problems_df)))
         self.classifier_.fit(all_problems_df)
 

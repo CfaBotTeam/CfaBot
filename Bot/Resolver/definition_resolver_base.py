@@ -14,13 +14,14 @@ class DefinitionResolverBase:
             max = 3
         return randint(0, max)
 
-    def add_debug_info(self, problem, max_index, choices_results, debug):
+    def add_result_info(self, problem, max_index, choices_results, predicted_answer, debug):
         filename = problem['filename']
         nb = problem['question_nb']
         debug[filename + '_' + nb] = {
             'question': problem['question'],
-            'answer': problem['answer'],
-            'max_index': max_index,
+            'real_answer': problem['answer'],
+            'random_answer': max_index == -1,
+            'predicted_answer': predicted_answer,
             'choices_results': choices_results,
             'category': get_enum_name(ProblemCategory, problem['category'])
         }
@@ -37,9 +38,9 @@ class DefinitionResolverBase:
     def get_result_from_index(self, problem, max_index):
         if max_index == -1:
             max_index = self.random_choice(problem)
-        return chr(max_index + 65)
+        return chr(max_index + ord('A'))
 
-    def find_prediction(self, problem, debug):
+    def find_prediction(self, problem, results):
         max_score = 0
         max_index = -1
         choices_results = []
@@ -59,8 +60,9 @@ class DefinitionResolverBase:
                 if score > max_score:
                     max_score = score
                     max_index = i_choice
-        self.add_debug_info(problem, max_index, choices_results, debug)
-        return self.get_result_from_index(problem, max_index)
+        predicted_answer = self.get_result_from_index(problem, max_index)
+        self.add_result_info(problem, max_index, choices_results, predicted_answer, results)
+        return predicted_answer
 
     def resolve(self, problems, debug):
         return problems.apply(lambda x: self.find_prediction(x, debug), axis=1)
