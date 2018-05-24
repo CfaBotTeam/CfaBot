@@ -12,7 +12,7 @@ from Bot.Utils import MissingWordsFinder
 
 class Pipeline:
     def __init__(self):
-        self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_only'
+        self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
         # self.model_name_ = 'en_core_web_lg'
         self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
         self.glossary_ = GlossaryLoader().load()

@@ -23,7 +23,7 @@ class ModelDumper:
             for w_idx, word in enumerate(opts.vocab_words):
                 vector = embeddings[w_idx, :]
                 nlp.vocab.set_vector(word.decode('utf-8'), vector)
-        nlp.to_disk('models/cfa_spacy_mdl-investopedia_only')
+        nlp.to_disk('models/cfa_spacy_mdl-investopedia_plus_cfa')
 
     def dump_metadata_viz_tsv(self):
         with tf.Graph().as_default(), tf.Session() as session, \
@@ -37,6 +37,6 @@ class ModelDumper:
 
 
 if __name__ == "__main__":
-    dumper = ModelDumper("models/model.ckpt-1572328", "words_idx.tsv")
+    dumper = ModelDumper("models/model.ckpt-2052219", "words_idx.tsv")
     # dumper.dump()
     dumper.dump()
