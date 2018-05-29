@@ -1,13 +1,15 @@
-<div>
-    {% for token in comparison.get_sentence1_tokens() %}
-        <span class="token">{{ token }}</span>
+<div class="sentence1_container">
+    {% for token in comparison.sentence1_tokens_ %}
+        <span class="token" data-scores="{{ token.scores_ }}">{{ token.token_ }}</span>
     {% endfor %}
 </div>
-<div class="similarity_bloc">
-
-</div>
 <div>
-    {% for token in comparison.get_sentence2_tokens() %}
-         <span class="token">{{ token }}</span>
+    <svg width="100%" class="similarity_drawer">
+
+    </svg>
+</div>
+<div class="sentence2_container">
+    {% for token in comparison.sentence2_tokens_ %}
+         <span class="token" data-scores="{{ token.scores_ }}">{{ token.token_ }}</span>
     {% endfor %}
 </div>

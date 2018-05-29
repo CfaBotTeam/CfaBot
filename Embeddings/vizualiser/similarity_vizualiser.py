@@ -8,7 +8,6 @@ import json
 import spacy
 from os import listdir
 from os.path import isfile, join, dirname, basename
-import numpy as np
 import Embeddings.models
 
 
@@ -24,14 +23,8 @@ class ComparedToken:
 
 class Comparison:
     def __init__(self, sentence1_compared_tokens, sentence2_compared_tokens):
-        self.sentence1_ = sentence1_compared_tokens
-        self.sentence2_ = sentence2_compared_tokens
-
-    def get_sentence1_tokens(self):
-        return list(map(lambda x: x.token_, self.sentence1_))
-
-    def get_sentence2_tokens(self):
-        return list(map(lambda x: x.token_, self.sentence2_))
+        self.sentence1_tokens_ = sentence1_compared_tokens
+        self.sentence2_tokens_ = sentence2_compared_tokens
 
 
 class Problem:
@@ -82,7 +75,8 @@ class SimiliarityVizualiser:
         categories = self.load_all_problems()
         for category in categories:
             self.all_categories_.append(category)
-        self.all_categories_ = np.sort(self.all_categories_)
+        self.all_models_.sort(key=len)
+        self.all_categories_.sort()
         return self.all_models_, self.all_categories_
 
     def select_problems(self, model, category):
@@ -99,7 +93,7 @@ class SimiliarityVizualiser:
         return None
 
     def get_nlp(self, model_name):
-        if model_name != 'en':
+        if model_name != 'en' and model_name != 'en_core_web_lg':
             model_name = join(dirname(Embeddings.models.__file__), basename(model_name))
         if model_name not in self.nlp_models_:
             self.nlp_models_[model_name] = spacy.load(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])

@@ -59,17 +59,13 @@ body {
     font-weight: bold;
 }
 
-.questions_container {
+#questions_container ul {
     max-height: 250px;
     overflow-y: auto;
 }
 
 .question {
     cursor: pointer;
-}
-
-.similarity_bloc {
-    height: 200px;
 }
 
 .token {
