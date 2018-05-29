@@ -1,0 +1,5 @@
+<ul class="questions_container">
+    {% for p in problems %}
+        <li class="question" onclick="refreshProblem('{{ p.id_ }}')">{{ p.question_ }}</li>
+    {% endfor %}
+</ul>

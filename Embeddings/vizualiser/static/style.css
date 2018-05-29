@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    margin: auto;
+    width: 500px;
+}
+
+.filter_bar {
+    width: 100%;
+}
+
+.filter_bar table {
+    width: 100%;
+    background: lightgray;
+    border: solid 1px gray;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#problem_container {
+    width: 100%;
+}
+
+#problem_container table {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+    border-bottom: solid 1px gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+#problem_container tr:nth-child(even) {
+    background: #f1f1f1!important;
+}
+
+#problem_container td {
+    padding: 10px;
+}
+
+.filter_bar li {
+    color: navy;
+    margin-bottom: 5px;
+    list-style-type: decimal;
+}
+
+.filter_bar li:hover {
+    font-weight: bold;
+}
+
+.questions_container {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.similarity_bloc {
+    height: 200px;
+}
+
+.token {
+    padding: 2px;
+    border: solid 1px lightgray;
+}
+
+.label {
+    position: relative;
+    width: 100px;
+    height: 100%;
+    font-weight: bold;
+}
+
+.choice div {
+    text-align: center;
+}
+
+.option_selector {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: auto;
+}

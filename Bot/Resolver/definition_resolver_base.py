@@ -4,6 +4,8 @@ from Bot.Classification import ProblemCategory
 
 
 class DefinitionResolverBase:
+    WITH_COMPARISON = False
+
     def __init__(self, glossary, scorer):
         self.glossary_ = glossary
         self.scorer_ = scorer
@@ -23,7 +25,7 @@ class DefinitionResolverBase:
             'random_answer': max_index == -1,
             'predicted_answer': predicted_answer,
             'choices_results': choices_results,
-            'category': get_enum_name(ProblemCategory, problem['category'])
+            'category': get_enum_name(ProblemCategory, problem['category']),
         }
 
     def get_choices(self, problem):
@@ -49,13 +51,17 @@ class DefinitionResolverBase:
         choices_definitions = self.get_choices_definitions(problem, choices)
         for i_choice, choice in enumerate(choices):
             scores = {}
+            comparisons = []
             choice_scores = {'choice': choice, 'scores': scores}
+            if self.WITH_COMPARISON:
+                choice_scores['comparisons'] = comparisons
             choices_results.append(choice_scores)
             definitions = choices_definitions[i_choice]
             if definitions is None:
                 continue
             for definition in definitions:
                 score = self.scorer_.score(definition, question_to_compare)
+                comparisons.append((definition, question_to_compare))
                 scores[definition] = score
                 if score > max_score:
                     max_score = score

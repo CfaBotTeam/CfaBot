@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <title>Similarity vizualiser!</title>
+        <script src="/static/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript">
+            function submitForm() {
+                data = {
+                    'model': $('#model')[0].selectedOptions[0].value,
+                    'category': $('#category')[0].selectedOptions[0].value
+                };
+                $.post("/refresh-questions", data).done(function (reply) {
+                      $('#questions_container').html(reply);
+                });
+            }
+
+            function loadComparison(problem_id, choice_index) {
+                data = {
+                    'problem_id': problem_id,
+                    'choice_index': choice_index,
+                    'comparison_index': $('#choice' + choice_index)[0].selectedOptions[0].value
+                };
+                $.post("/refresh-comparison", data).done(function (reply) {
+                      $('#choice' + choice_index + '_comparison_container').html(reply);
+                });
+            }
+
+            function refreshProblem(problemId) {
+                data = {'problem_id': problemId};
+                $.post("/refresh-problem", data).done(function (reply) {
+                      $('#problem_container').html(reply);
+                      loadComparison(problemId, 0);
+                      loadComparison(problemId, 1);
+                      loadComparison(problemId, 2);
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>Similarity Vizualiser</h1>
+        </div>
+        <div class="filter_bar">
+            <table>
+                <tr>
+                    <td class="label">Model</td>
+                    <td>
+                        <select id="model" onchange="submitForm()">
+                            {% for model in models %}
+                                <option value="{{ model }}">{{ model }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Category</td>
+                    <td>
+                        <select id="category" onchange="submitForm()">
+                            {% for category in categories %}
+                                <option value="{{ category }}">{{ category }}</option>
+                            {% endfor %}
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">Question</td>
+                    <td id="questions_container">
+                        {% include 'questions.html' %}
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="problem_container">
+        </div>
+    </body>
+</html>

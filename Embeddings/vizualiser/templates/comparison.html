@@ -1,0 +1,13 @@
+<div>
+    {% for token in comparison.get_sentence1_tokens() %}
+        <span class="token">{{ token }}</span>
+    {% endfor %}
+</div>
+<div class="similarity_bloc">
+
+</div>
+<div>
+    {% for token in comparison.get_sentence2_tokens() %}
+         <span class="token">{{ token }}</span>
+    {% endfor %}
+</div>
