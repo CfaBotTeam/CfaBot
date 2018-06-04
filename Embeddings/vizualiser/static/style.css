@@ -17,21 +17,18 @@ body {
     background: lightgray;
     border: solid 1px gray;
     padding: 10px;
-    margin-left: 10px;
     margin-right: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 #problem_container {
-    width: 100%;
+    width: 1818px;
 }
 
 #problem_container table {
     width: 100%;
     padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
     border-left: solid 1px gray;
     border-right: solid 1px gray;
     border-bottom: solid 1px gray;
@@ -39,6 +36,7 @@ body {
     border-bottom-right-radius: 5px;
     border-spacing: 0px;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 #problem_container tr:nth-child(even) {
@@ -71,6 +69,7 @@ body {
 .token {
     padding: 2px;
     border: solid 1px lightgray;
+    cursor: pointer;
 }
 
 .label {
@@ -78,6 +77,10 @@ body {
     width: 100px;
     height: 100%;
     font-weight: bold;
+}
+
+.label div {
+    min-width: 120px;
 }
 
 .choice div {
@@ -89,4 +92,13 @@ body {
     bottom: 10px;
     width: 100%;
     margin: auto;
+}
+
+.choice_comparison_container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

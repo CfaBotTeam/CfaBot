@@ -1,60 +1,23 @@
 <table>
-    <tr>
-        <td class="label choice">
-            <div>A</div>
-            <div class="option_selector">
-                <select id="choice0" onchange="loadComparison({{ problem.id_ }}, 0)">
-                    {% for comp_index in problem.get_comparison_options(0) %}
-                        <option value="{{ comp_index }}">Option {{ comp_index }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </td>
-        <td id="choice0_comparison_container">
-        </td>
-    </tr>
-    <tr>
-        <td class="label choice">
-            <div>B</div>
-            <div class="option_selector">
-                <select id="choice1" onchange="loadComparison({{ problem.id_ }}, 1)">
-                    {% for comp_index in problem.get_comparison_options(1) %}
-                        <option value="{{ comp_index }}">Option {{ comp_index }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </td>
-        <td id="choice1_comparison_container">
-        </td>
-    </tr>
-    <tr>
-        <td class="label choice">
-            <div>C</div>
-            <div class="option_selector">
-                <select id="choice2" onchange="loadComparison({{ problem.id_ }}, 2)">
-                    {% for comp_index in problem.get_comparison_options(2) %}
-                        <option value="{{ comp_index }}">Option {{ comp_index }}</option>
-                    {% endfor %}
-                </select>
-            </div>
-        </td>
-        <td id="choice2_comparison_container">
-        </td>
-    </tr>
-    {% if problem.has_choice_D() %}
-        <tr>
-            <td class="label choice">
-                <div>A</div>
-                <div class="option_selector">
-                    <select id="choice3" onchange="loadComparison({{ problem.id_ }}, 3)">
-                        {% for comp_index in problem.get_comparison_options(3) %}
-                            <option value="{{ comp_index }}">Option {{ comp_index }}</option>
-                        {% endfor %}
-                    </select>
-                </div>
-            </td>
-            <td id="choice3_comparison_container">
-            </td>
-        </tr>
-    {% endif %}
+    {% for choice_index, choice in problem.get_choices() %}
+        {% for mode_index in range(2) %}
+            <tr>
+                <td class="label choice">
+                    <div>{{ choice }}</div>
+                    <div class="option_selector">
+                        <select id="choice{{ mode_index }}_{{ choice_index }}" onchange="loadComparison({{ problem.id_ }}, 0)">
+                            {% for comp_index in problem.get_comparison_options(0) %}
+                                <option value="{{ comp_index }}">Option {{ comp_index }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </td>
+                <td>
+                    <div id="choice{{ mode_index }}_{{ choice_index }}_comparison_container" class="choice_comparison_container">
+
+                    </div>
+                </td>
+            </tr>
+        {% endfor %}
+    {% endfor %}
 </table>

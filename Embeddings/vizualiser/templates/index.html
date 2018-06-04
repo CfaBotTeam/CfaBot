@@ -9,40 +9,51 @@
         <script type="text/javascript" src="/static/js/vizualiser.js" ></script>
     </head>
     <body>
-        <div class="title">
-            <h1>Similarity Vizualiser</h1>
-        </div>
-        <div class="filter_bar">
-            <table>
-                <tr>
-                    <td class="label">Model</td>
-                    <td>
-                        <select id="model" onchange="filterQuestions()">
-                            {% for model in models %}
-                                <option value="{{ model }}">{{ model }}</option>
-                            {% endfor %}
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">Category</td>
-                    <td>
-                        <select id="category" onchange="filterQuestions()">
-                            {% for category in categories %}
-                                <option value="{{ category }}">{{ category }}</option>
-                            {% endfor %}
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">Question</td>
-                    <td id="questions_container">
-                        {% include 'questions.html' %}
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div id="problem_container">
+        <div style="padding:10px">
+            <div class="title">
+                <h1>Similarity Vizualiser</h1>
+            </div>
+            <div class="filter_bar">
+                <table>
+                    <tr>
+                        <td class="label">Model 1</td>
+                        <td>
+                            <select id="model1" onchange="filterQuestions()">
+                                {% for model in models %}
+                                    <option value="{{ model }}">{{ model }}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                        <td class="label">Model 2</td>
+                        <td>
+                            <select id="model2" onchange="filterQuestions()">
+                                {% for model in models %}
+                                    <option value="{{ model }}">{{ model }}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td class="label">Category</td>
+                        <td colspan="3">
+                            <select id="category" onchange="filterQuestions()">
+                                {% for category in categories %}
+                                    <option value="{{ category }}">{{ category }}</option>
+                                {% endfor %}
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="label">Question</td>
+                        <td id="questions_container" colspan="3">
+                            {% include 'questions.html' %}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="problem_container">
+            </div>
         </div>
     </body>
 </html>

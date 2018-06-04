@@ -1,15 +1,17 @@
 <div class="sentence1_container">
     {% for token in comparison.sentence1_tokens_ %}
-        <span class="token" data-scores="{{ token.scores_ }}">{{ token.token_ }}</span>
+        <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}"
+              onclick="selectToken(this)" onmouseover="selectToken(this)">{{ token.token_ }}</span>
     {% endfor %}
 </div>
 <div>
-    <svg width="100%" class="similarity_drawer">
+    <svg height="300px">
 
     </svg>
 </div>
 <div class="sentence2_container">
     {% for token in comparison.sentence2_tokens_ %}
-         <span class="token" data-scores="{{ token.scores_ }}">{{ token.token_ }}</span>
+         <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}"
+               onclick="selectToken(this)" onmouseover="selectToken(this)">{{ token.token_ }}</span>
     {% endfor %}
 </div>
