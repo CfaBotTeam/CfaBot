@@ -70,6 +70,8 @@ function refreshProblem(selected_question) {
         loadComparison(problemId, 1, selectedModel2, 1);
         loadComparison(problemId, 0, selectedModel1, 2);
         loadComparison(problemId, 1, selectedModel2, 2);
+        loadComparison(problemId, 0, selectedModel1, 3);
+        loadComparison(problemId, 1, selectedModel2, 3);
     });
 }
 
