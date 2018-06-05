@@ -1,5 +1,9 @@
-<ul>
-    {% for p in problems %}
-        <li class="question" onclick="refreshProblem(this)" data-problem-id="{{ p.id_ }}">{{ p.question_ }}</li>
-    {% endfor %}
-</ul>
+<div>
+    <ul id="questions_list">
+        {% for p in problems %}
+            <li class="question" onclick="refreshProblem(this)" data-problem-id="{{ p.id_ }}">{{ p.question_ }}</li>
+        {% endfor %}
+    </ul>
+    <div id="problem_details">
+    </div>
+</div>

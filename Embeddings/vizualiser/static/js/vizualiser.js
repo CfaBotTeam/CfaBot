@@ -13,8 +13,7 @@ function filterQuestions() {
     $.post("/refresh-questions", data).done(function (reply) {
         let container = $('#questions_container');
         container.html(reply);
-        let ul = container.children().first();
-        let first_question = ul.children().first().get()[0];
+        let first_question = container.find('#questions_list li').first().get()[0]
         refreshProblem(first_question);
     });
 }
@@ -60,14 +59,17 @@ function refreshProblem(selected_question) {
         'model1': selectedModel1,
         'model2': selectedModel2,
     };
+    $.post("/refresh-problem-details", data).done(function (reply) {
+        $('#problem_details').html(reply);
+    });
     $.post("/refresh-problem", data).done(function (reply) {
-          $('#problem_container').html(reply);
-          loadComparison(problemId, 0, selectedModel1, 0);
-          loadComparison(problemId, 1, selectedModel2, 0);
-          loadComparison(problemId, 0, selectedModel1, 1);
-          loadComparison(problemId, 1, selectedModel2, 1);
-          loadComparison(problemId, 0, selectedModel1, 2);
-          loadComparison(problemId, 1, selectedModel2, 2);
+        $('#problem_container').html(reply);
+        loadComparison(problemId, 0, selectedModel1, 0);
+        loadComparison(problemId, 1, selectedModel2, 0);
+        loadComparison(problemId, 0, selectedModel1, 1);
+        loadComparison(problemId, 1, selectedModel2, 1);
+        loadComparison(problemId, 0, selectedModel1, 2);
+        loadComparison(problemId, 1, selectedModel2, 2);
     });
 }
 

@@ -15,11 +15,8 @@ body {
 .filter_bar table {
     width: 100%;
     background: lightgray;
-    border: solid 1px gray;
     padding: 10px;
     margin-right: 10px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 #problem_container {
@@ -29,11 +26,6 @@ body {
 #problem_container table {
     width: 100%;
     padding: 10px;
-    border-left: solid 1px gray;
-    border-right: solid 1px gray;
-    border-bottom: solid 1px gray;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     border-spacing: 0px;
     border-collapse: collapse;
     table-layout: fixed;
@@ -60,6 +52,16 @@ body {
 #questions_container ul {
     max-height: 250px;
     overflow-y: auto;
+}
+
+#problem_details {
+    color: navy;
+    font-weight: bold;
+}
+
+#problem_details span {
+    padding: 2px;
+    margin-right: 100px;
 }
 
 .question {
