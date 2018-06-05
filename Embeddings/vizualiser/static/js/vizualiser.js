@@ -70,8 +70,8 @@ function refreshProblem(selected_question) {
 function loadSvg(model_index, choice_index) {
     let container_name = 'choice' + model_index + '_' + choice_index + '_comparison_container';
     $("#" + container_name).css('table-layout', 'auto');
-    let sentence1_container = $('#' + container_name + ' .sentence1_container');
-    let sentence2_container = $('#' + container_name + ' .sentence2_container');
+    let sentence1_container = $('#' + container_name + ' #sentence1_container');
+    let sentence2_container = $('#' + container_name + ' #sentence2_container');
     let d3_svg = d3.select('#' + container_name + ' svg');
     max_width = sentence1_container.get()[0].scrollWidth;
     if (sentence2_container.get()[0].scrollWidth > max_width) {
@@ -84,6 +84,7 @@ function loadSvg(model_index, choice_index) {
         let scores = child1.data("scores");
         let child1_position = child1.position();
         let child1_lines = [];
+        let child1_children = [];
         sentence2_container.children("span").each(function(i) {
             let child2 = $(this);
             let child2_position = child2.position();
@@ -97,21 +98,32 @@ function loadSvg(model_index, choice_index) {
                              .attr("x1", child1_position.left)
                              .attr("y1", child1_position.top)
                              .attr("x2", child2_position.left)
-                             .attr("y2", child2_position.top);
+                             .attr("y2", child2_position.top - 40);
             child1_lines.push(id);
             child2.data("lines").push(id);
+            if (score > 0) {
+                child2.data("children").push(child2);
+                child1_children.push(child2);
+            }
         });
         child1.data("lines", child1_lines);
+        child1.data("children", child1_children);
     });
     $("#" + container_name).css('table-layout', 'fixed');
 }
 
-function selectToken(token) {
+function getSvg(token) {
     let comparison_container = $(token).parents('.choice_comparison_container');
-    let d3_svg = d3.select(comparison_container.find('svg').get()[0]);
+    return d3.select(comparison_container.find('svg').get()[0]);
+}
+
+function selectToken(token) {
+    let d3_svg = getSvg(token);
     lines = d3_svg.selectAll("line");
     lines.attr("stroke", 'lightgray');
     token_lines = $(token).data('lines');
+    unStyleSelectedTokens(token);
+    $(token).attr('class', 'selected_token');
     $(token_lines).each(function(i) {
         id = this;
         d3_svg.select("#" + id).each(function(i) {
@@ -128,4 +140,43 @@ function selectToken(token) {
             this.remove();
         });
     });
+    children_tokens = $(token).data('children');
+    $(children_tokens).each(function(i) {
+        $(this).attr('class', 'selected_child_token');
+    });
+    unlock_svg();
+}
+
+function selectAndLockToken(token) {
+    selectToken(token);
+    lock_svg(token);
+}
+
+function unselectToken(token) {
+    let d3_svg = getSvg(token);
+    if (is_svg_locked(token)) return;
+    unStyleSelectedTokens(token);
+    lines = d3_svg.selectAll("line");
+    lines.attr("stroke", 'navy');
+}
+
+function unStyleSelectedTokens(token) {
+    tokens = $(token).parents('.choice_comparison_container').find("span");
+    tokens.attr('class', 'token');
+}
+
+function lock_svg(token) {
+    container = $(token).parents('.choice_comparison_container');
+    locked_contained_id = container.attr('id');
+    $(document.body).data("locked-container-id", locked_contained_id);
+}
+
+function unlock_svg() {
+    $(document.body).data("locked-container-id", '');
+}
+
+function is_svg_locked(token) {
+    container = $(token).parents('.choice_comparison_container');
+    locked_contained_id = container.attr('id');
+    return $(document.body).data("locked-container-id") == locked_contained_id;
 }

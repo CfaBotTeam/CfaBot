@@ -1,7 +1,8 @@
-<div class="sentence1_container">
+<div id="sentence1_container">
     {% for token in comparison.sentence1_tokens_ %}
-        <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}"
-              onclick="selectToken(this)" onmouseover="selectToken(this)">{{ token.token_ }}</span>
+        <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}" data-children="{{ [] }}"
+              onclick="selectAndLockToken(this)" onmouseover="selectToken(this)"
+              onmouseout="unselectToken(this)">{{ token.token_ }}</span>
     {% endfor %}
 </div>
 <div>
@@ -9,9 +10,10 @@
 
     </svg>
 </div>
-<div class="sentence2_container">
+<div id="sentence2_container">
     {% for token in comparison.sentence2_tokens_ %}
-         <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}"
-               onclick="selectToken(this)" onmouseover="selectToken(this)">{{ token.token_ }}</span>
+         <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}" data-children="{{ [] }}"
+               onclick="selectAndLockToken(this)" onmouseover="selectToken(this)"
+               onmouseout="unselectToken(this)">{{ token.token_ }}</span>
     {% endfor %}
 </div>

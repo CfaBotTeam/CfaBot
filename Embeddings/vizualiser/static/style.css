@@ -72,6 +72,23 @@ body {
     cursor: pointer;
 }
 
+.selected_token {
+    padding: 4px;
+    background: navy;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.selected_child_token {
+    padding: 4px;
+    background: navy;
+    opacity: 0.75;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .label {
     position: relative;
     width: 100px;
