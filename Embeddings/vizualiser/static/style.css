@@ -81,7 +81,7 @@ body {
 }
 
 .selected_child_token {
-    padding: 4px;
+    padding: 2px;
     background: navy;
     opacity: 0.75;
     color: white;

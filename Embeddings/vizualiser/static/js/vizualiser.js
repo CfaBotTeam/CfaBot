@@ -102,7 +102,7 @@ function loadSvg(model_index, choice_index) {
             child1_lines.push(id);
             child2.data("lines").push(id);
             if (score > 0) {
-                child2.data("children").push(child2);
+                child2.data("children").push(child1);
                 child1_children.push(child2);
             }
         });
