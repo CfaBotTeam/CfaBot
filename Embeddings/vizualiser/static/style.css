@@ -96,6 +96,11 @@ body {
     font-weight: bold;
 }
 
+.sub_label {
+    padding-top: 10px;
+    font-weight: normal;
+}
+
 .label div {
     min-width: 120px;
 }

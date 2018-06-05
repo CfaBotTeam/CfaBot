@@ -53,9 +53,13 @@ function refresh_questions_style(selected_question) {
 function refreshProblem(selected_question) {
     problemId = $(selected_question).data('problem-id');
     refresh_questions_style(selected_question);
-    data = {'problem_id': problemId};
     selectedModel1 = $('#model1')[0].selectedOptions[0].value;
     selectedModel2 = $('#model2')[0].selectedOptions[0].value;
+    data = {
+        'problem_id': problemId,
+        'model1': selectedModel1,
+        'model2': selectedModel2,
+    };
     $.post("/refresh-problem", data).done(function (reply) {
           $('#problem_container').html(reply);
           loadComparison(problemId, 0, selectedModel1, 0);
@@ -120,7 +124,7 @@ function getSvg(token) {
 function selectToken(token) {
     let d3_svg = getSvg(token);
     lines = d3_svg.selectAll("line");
-    lines.attr("stroke", 'lightgray');
+    lines.attr("stroke", 'gainsboro');
     token_lines = $(token).data('lines');
     unStyleSelectedTokens(token);
     $(token).attr('class', 'selected_token');

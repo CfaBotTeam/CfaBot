@@ -1,11 +1,17 @@
 <table>
     {% for choice_index, choice in problem.get_choices() %}
-        {% for mode_index in range(2) %}
+        {% for model_index, model in models %}
             <tr>
                 <td class="label choice">
-                    <div>{{ choice }}</div>
+                    <div>
+                        {{ choice }}<br/>
+                        <div class="sub_label">
+                            Model {{ model_index + 1 }}<br/>
+                            Score: {{ problem.get_choice_score(model, choice_index, 0) }}
+                        </div>
+                    </div>
                     <div class="option_selector">
-                        <select id="choice{{ mode_index }}_{{ choice_index }}"
+                        <select id="choice{{ model_index }}_{{ choice_index }}"
                                 onchange="loadComparison({{ problem.id_ }}, 0)">
                             {% for comp_index in problem.get_comparison_options(0) %}
                                 <option value="{{ comp_index }}">Option {{ comp_index }}</option>
@@ -14,9 +20,9 @@
                     </div>
                 </td>
                 <td>
-                    <div id="choice{{ mode_index }}_{{ choice_index }}_comparison_container"
+                    <div id="choice{{ model_index }}_{{ choice_index }}_comparison_container"
                          class="choice_comparison_container">
-
+                        <div ></div>
                     </div>
                 </td>
             </tr>

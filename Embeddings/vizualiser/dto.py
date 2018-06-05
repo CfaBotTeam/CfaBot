@@ -17,10 +17,12 @@ class Problem:
         self.category_ = category
         self.question_ = problem['question']
         self.choices_comparisons_ = {}
+        self.choices_scores_ = {}
         self.add_comparison(model, problem)
 
     def add_comparison(self, model, problem):
         self.choices_comparisons_[model] = list(map(lambda x: x['comparisons'], problem['choices_results']))
+        self.choices_scores_[model] = list(map(lambda x: x['scores'], problem['choices_results']))
 
     def get_comparisons(self, model):
         return self.choices_comparisons_[model]
@@ -43,9 +45,10 @@ class Problem:
         self.models_.add(model)
         self.add_comparison(model, problem)
 
-
-class CombinedProblem(Problem):
-    def __init__(self, model1, model2, category, problem1, problem2):
-        super().__init__(model1, category, problem1)
-        self.model2_ = model2
-        self.choices_comparisons2_ = list(map(lambda x: x['comparisons'], problem2['choices_results']))
+    def get_choice_score(self, model, choice_index, option_index):
+        choice_comparisons = self.choices_comparisons_[model][choice_index]
+        if len(choice_comparisons) == 0:
+            return "0.0"
+        choice = choice_comparisons[option_index][0]
+        score = self.choices_scores_[model][choice_index][choice]
+        return "%0.5f" % score

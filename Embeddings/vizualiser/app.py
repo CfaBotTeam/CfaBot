@@ -29,7 +29,10 @@ def refresh_questions():
 @app.route('/refresh-problem', methods=['POST'])
 def refresh_problem():
     problem = vizualiser.get_problem_by_id(request.form['problem_id'])
-    return render_template('problem.html', problem=problem)
+    model1 = request.form['model1']
+    model2 = request.form['model2']
+    models = list(enumerate([model1, model2]))
+    return render_template('problem.html', problem=problem, models=models)
 
 
 @app.route('/refresh-comparison', methods=['POST'])
