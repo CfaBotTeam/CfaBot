@@ -11,7 +11,7 @@ class KeywordDefResolverBase(DefinitionResolverBase):
 
     def get_question_definition(self, problem):
         subject = problem[SubjectFeatures.Q_SUBJECT]
-        return self.glossary_.get_loose_definition(subject)
+        return self.def_provider_.get_definitions(subject, loosly=True)
 
 
 class KeywordDefResolver(KeywordDefResolverBase):

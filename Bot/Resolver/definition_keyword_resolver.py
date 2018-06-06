@@ -5,7 +5,7 @@ from Bot.Resolver import DefinitionResolverBase
 
 class DefinitionKeywordResolverBase(DefinitionResolverBase):
     def get_choices_definitions(self, problem, choices):
-        return [self.glossary_.get_definitions(choice) for choice in choices]
+        return [self.def_provider_.get_definitions(choice, loosly=False) for choice in choices]
 
     def get_question_definition(self, problem):
         return problem['question']

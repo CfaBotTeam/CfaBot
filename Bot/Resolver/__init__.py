@@ -4,3 +4,5 @@ from .definition_keyword_resolver import DefinitionKeywordStartEndResolver
 from .keyword_definition_resolver import KeywordDefResolver
 from .keyword_definition_resolver import KeywordDefStartEndResolver
 from .resolver_factory import ResolverFactory
+from .definitions_provider import DefinitionsProvider
+

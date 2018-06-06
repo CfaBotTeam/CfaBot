@@ -6,8 +6,8 @@ from Bot.Classification import ProblemCategory
 class DefinitionResolverBase:
     WITH_COMPARISON = False
 
-    def __init__(self, glossary, scorer):
-        self.glossary_ = glossary
+    def __init__(self, def_provider, scorer):
+        self.def_provider_ = def_provider
         self.scorer_ = scorer
 
     def random_choice(self, problem):
