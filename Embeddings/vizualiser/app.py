@@ -45,6 +45,13 @@ def refresh_problem_details():
     return render_template('details.html', problem=problem, model1_result=model1_result, model2_result=model2_result)
 
 
+@app.route('/refresh-problem-choices', methods=['POST'])
+def refresh_problem_choices():
+    problem = vizualiser.get_problem_by_id(request.form['problem_id'])
+    choices = problem.get_choices()
+    return render_template('choices.html', choices=choices)
+
+
 @app.route('/refresh-comparison', methods=['POST'])
 def refresh_comparison():
     problem_id = request.form['problem_id']

@@ -42,7 +42,6 @@ body {
 .filter_bar li {
     color: navy;
     margin-bottom: 5px;
-    list-style-type: decimal;
 }
 
 .filter_bar li:hover {
@@ -66,6 +65,12 @@ body {
 
 .question {
     cursor: pointer;
+    list-style-type: decimal;
+}
+
+.choice {
+
+    list-style-type: upper-alpha;
 }
 
 .token {
@@ -107,7 +112,7 @@ body {
     min-width: 120px;
 }
 
-.choice div {
+.choice_ordinal div {
     text-align: center;
 }
 

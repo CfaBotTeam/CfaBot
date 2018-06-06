@@ -14,6 +14,7 @@ class ModelResult:
     def __init__(self, problem):
         self.choices_comparisons_ = list(map(lambda x: x['comparisons'], problem['choices_results']))
         self.choices_scores_ = list(map(lambda x: x['scores'], problem['choices_results']))
+        self.choices_ = list(map(lambda x: x['choice'], problem['choices_results']))
         self.predicted_answer_ = problem['predicted_answer']
         self.randomly_answered_ = problem['random_answer']
         self.random_label_ = "randomly" if self.randomly_answered_ else ''
@@ -38,10 +39,14 @@ class Problem:
         # return list(range(len(self.choices_comparisons_[choice_index])))
         return [0]
 
+    def get_choices_ordinals(self):
+        first_model = list(self.model_results_.keys())[0]
+        choices = self.model_results_[first_model].choices_
+        return [(i, chr(i + ord('A'))) for i in range(len(choices))]
+
     def get_choices(self):
         first_model = list(self.model_results_.keys())[0]
-        choices_comparisons = self.model_results_[first_model].choices_comparisons_
-        return [(i, chr(i + ord('A'))) for i in range(len(choices_comparisons))]
+        return self.model_results_[first_model].choices_
 
     def has_model(self, model):
         return model in self.model_results_

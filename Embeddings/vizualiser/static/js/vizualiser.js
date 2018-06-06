@@ -62,6 +62,9 @@ function refreshProblem(selected_question) {
     $.post("/refresh-problem-details", data).done(function (reply) {
         $('#problem_details').html(reply);
     });
+    $.post("/refresh-problem-choices", data).done(function (reply) {
+        $('#choices_container').html(reply);
+    });
     $.post("/refresh-problem", data).done(function (reply) {
         $('#problem_container').html(reply);
         loadComparison(problemId, 0, selectedModel1, 0);
@@ -188,3 +191,4 @@ function is_svg_locked(token) {
     locked_contained_id = container.attr('id');
     return $(document.body).data("locked-container-id") == locked_contained_id;
 }
+

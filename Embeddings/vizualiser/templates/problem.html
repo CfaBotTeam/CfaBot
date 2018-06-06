@@ -1,10 +1,10 @@
 <table>
-    {% for choice_index, choice in problem.get_choices() %}
+    {% for choice_index, choice_ordinal in problem.get_choices_ordinals() %}
         {% for model_index, model in models %}
             <tr>
-                <td class="label choice">
+                <td class="label choice_ordinal">
                     <div>
-                        {{ choice }}<br/>
+                        {{ choice_ordinal }}<br/>
                         <div class="sub_label">
                             Model {{ model_index + 1 }}<br/>
                             Score: {{ problem.get_choice_score(model, choice_index, 0) }}
