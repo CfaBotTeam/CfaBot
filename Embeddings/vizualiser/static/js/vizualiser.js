@@ -1,13 +1,12 @@
 $('.filter_bar').ready(function() {
-    $('#model1 option').eq(1).prop('selected', true);
-    $('#model2 option').eq(2).prop('selected', true);
+    $('#file1 option').eq(2).prop('selected', true);
+    $('#file2 option').eq(3).prop('selected', true);
     filterQuestions();
 });
 
 function filterQuestions() {
     data = {
-        'model1': $('#model1')[0].selectedOptions[0].value,
-        'model2': $('#model2')[0].selectedOptions[0].value,
+        'file1': $('#file1')[0].selectedOptions[0].value,
         'category': $('#category')[0].selectedOptions[0].value
     };
     $.post("/refresh-questions", data).done(function (reply) {
@@ -18,23 +17,38 @@ function filterQuestions() {
     });
 }
 
-function loadComparison(problem_id, model_index, model, choice_index) {
-    choice_id = 'choice' + model_index + '_' + choice_index;
+function loadComparison(problem_id, file_index, filename, model, choice_index, question_index) {
+    choice_id = 'choice' + file_index + '_' + choice_index;
     select = $('#' + choice_id)[0];
     if (!select) return;
     options = select.selectedOptions;
     if (!options || options.length == 0) return;
     data = {
         'problem_id': problem_id,
+        'filename': filename,
         'model': model,
+        'question_index': question_index,
         'choice_index': choice_index,
         'comparison_index': select.selectedOptions[0].value
     };
     $.post("/refresh-comparison", data).done(function (reply) {
-        var choice_container = $('#choice' + model_index + '_' + choice_index + '_comparison_container');
-        choice_container.html(reply);
-        loadSvg(model_index, choice_index);
+        var choice_container_id = '#choice' + file_index + '_' + choice_index + '_comparison_container';
+        var choice_left_id = '#choice' + file_index + '_' + choice_index + '_comparison_left';
+        var choice_container = $(choice_container_id);
+        choice_container.html(reply['html']);
+        $(choice_left_id + ' .q_source_container').html(reply['q_source']);
+        $(choice_left_id + ' .c_source_container').html(reply['c_source']);
+        loadSvg(file_index, choice_index);
     });
+}
+
+function changeComparison(problem_id, file_index, filename, choice_index, question_index) {
+    if (file_index == 0) {
+        model = $('#model1_container').get()[0].innerText;
+    } else {
+        model = $('#model2_container').get()[0].innerText;
+    }
+    loadComparison(problem_id, file_index, filename, model, choice_index, question_index);
 }
 
 function refresh_questions_style(selected_question) {
@@ -52,12 +66,12 @@ function refresh_questions_style(selected_question) {
 function refreshProblem(selected_question) {
     problemId = $(selected_question).data('problem-id');
     refresh_questions_style(selected_question);
-    selectedModel1 = $('#model1')[0].selectedOptions[0].value;
-    selectedModel2 = $('#model2')[0].selectedOptions[0].value;
+    selectedFile1 = $('#file1')[0].selectedOptions[0].value;
+    selectedFile2 = $('#file2')[0].selectedOptions[0].value;
     data = {
         'problem_id': problemId,
-        'model1': selectedModel1,
-        'model2': selectedModel2,
+        'file1': selectedFile1,
+        'file2': selectedFile2,
     };
     $.post("/refresh-problem-details", data).done(function (reply) {
         $('#problem_details').html(reply);
@@ -66,20 +80,24 @@ function refreshProblem(selected_question) {
         $('#choices_container').html(reply);
     });
     $.post("/refresh-problem", data).done(function (reply) {
-        $('#problem_container').html(reply);
-        loadComparison(problemId, 0, selectedModel1, 0);
-        loadComparison(problemId, 1, selectedModel2, 0);
-        loadComparison(problemId, 0, selectedModel1, 1);
-        loadComparison(problemId, 1, selectedModel2, 1);
-        loadComparison(problemId, 0, selectedModel1, 2);
-        loadComparison(problemId, 1, selectedModel2, 2);
-        loadComparison(problemId, 0, selectedModel1, 3);
-        loadComparison(problemId, 1, selectedModel2, 3);
+        $('#problem_container').html(reply['html']);
+        let model1 = reply['model1'];
+        let model2 = reply['model2'];
+        $('#model1_container').html(model1);
+        $('#model2_container').html(model2);
+        loadComparison(problemId, 0, selectedFile1, model1, 0, 0);
+        loadComparison(problemId, 1, selectedFile2, model2, 0, 0);
+        loadComparison(problemId, 0, selectedFile1, model1, 1, 0);
+        loadComparison(problemId, 1, selectedFile2, model2, 1, 0);
+        loadComparison(problemId, 0, selectedFile1, model1, 2, 0);
+        loadComparison(problemId, 1, selectedFile2, model2, 2, 0);
+        loadComparison(problemId, 0, selectedFile1, model1, 3, 0);
+        loadComparison(problemId, 1, selectedFile2, model2, 3, 0);
     });
 }
 
-function loadSvg(model_index, choice_index) {
-    let container_name = 'choice' + model_index + '_' + choice_index + '_comparison_container';
+function loadSvg(file_index, choice_index) {
+    let container_name = 'choice' + file_index + '_' + choice_index + '_comparison_container';
     $("#" + container_name).css('table-layout', 'auto');
     let sentence1_container = $('#' + container_name + ' #sentence1_container');
     let sentence2_container = $('#' + container_name + ' #sentence2_container');
@@ -191,4 +209,3 @@ function is_svg_locked(token) {
     locked_contained_id = container.attr('id');
     return $(document.body).data("locked-container-id") == locked_contained_id;
 }
-

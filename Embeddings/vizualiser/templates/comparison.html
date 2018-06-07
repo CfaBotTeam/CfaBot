@@ -1,5 +1,5 @@
 <div id="sentence1_container">
-    {% for token in comparison.sentence1_tokens_ %}
+    {% for token in nlp_comparison.sentence1_tokens_ %}
         <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}" data-children="{{ [] }}"
               onclick="selectAndLockToken(this)" onmouseover="selectToken(this)"
               onmouseout="unselectToken(this)">{{ token.token_ }}</span>
@@ -11,7 +11,7 @@
     </svg>
 </div>
 <div id="sentence2_container">
-    {% for token in comparison.sentence2_tokens_ %}
+    {% for token in nlp_comparison.sentence2_tokens_ %}
          <span class="token" data-scores="{{ token.scores_ }}" data-lines="{{ [] }}" data-children="{{ [] }}"
                onclick="selectAndLockToken(this)" onmouseover="selectToken(this)"
                onmouseout="unselectToken(this)">{{ token.token_ }}</span>

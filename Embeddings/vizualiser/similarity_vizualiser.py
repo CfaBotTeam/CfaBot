@@ -1,11 +1,11 @@
 import json
 import spacy
-from os import listdir
-from os.path import isfile, join, dirname, basename
+import os
+import os.path
 import Embeddings.models
 from Embeddings.vizualiser.dto import Problem
 from Embeddings.vizualiser.dto import ComparedToken
-from Embeddings.vizualiser.dto import Comparison
+from Embeddings.vizualiser.dto import NlpComparison
 
 
 class SimiliarityVizualiser:
@@ -13,45 +13,48 @@ class SimiliarityVizualiser:
         self.nlp_models_ = {}
         self.results_directory_ = results_directory
 
-    def load_category(self, model, category, result):
+    def load_category(self, fullname, model, category, result):
         for question_id, problem in result[category].items():
             if not question_id in self.all_problems_:
-                self.all_problems_[question_id] = Problem(question_id, model, category, problem)
+                self.all_problems_[question_id] = Problem(question_id, fullname, model, category, problem)
             else:
-                self.all_problems_[question_id].add_model(model, problem)
+                self.all_problems_[question_id].add_file(fullname, model, problem)
 
     def load_all_problems(self):
         categories = set()
-        for f in listdir(self.results_directory_):
-            full_path = join(self.results_directory_, f)
-            if not isfile(full_path):
+        for filename in os.listdir(self.results_directory_):
+            full_path = os.path.join(self.results_directory_, filename)
+            if not os.path.isfile(full_path) or not full_path.endswith('.json'):
                 continue
             result = json.load(open(full_path, 'r'))
-            model = result['model']
-            self.all_models_.append(model)
+            model = os.path.basename(result['model'])
+            provider_mode = result['provider_mode']
+            file_without_ext = os.path.splitext(filename)[0]
+            fullname = "%s-%s-%s" % (file_without_ext, model, provider_mode)
+            self.all_files_.append(fullname)
             for key in result:
-                if key == 'overall' or key == 'model':
+                if key == 'overall' or key == 'model' or key == 'provider_mode' or key == 'success_rate':
                     continue
                 if not key in categories:
                     categories.add(key)
-                self.load_category(model, key, result)
+                self.load_category(fullname, model, key, result)
         return categories
 
     def load(self):
         self.all_problems_ = {}
-        self.all_models_ = []
+        self.all_files_ = []
         self.all_categories_ = []
         categories = self.load_all_problems()
         for category in categories:
             self.all_categories_.append(category)
-        self.all_models_.sort(key=len)
+        self.all_files_.sort(key=len)
         self.all_categories_.sort()
-        return self.all_models_, self.all_categories_
+        return self.all_files_, self.all_categories_
 
-    def select_problems(self, model, category):
+    def select_problems(self, filename, category):
         selected_problems = []
         for problem in self.all_problems_.values():
-            if problem.has_model(model) and problem.category_ == category:
+            if problem.has_file(filename) and problem.category_ == category:
                 selected_problems.append(problem)
         return selected_problems
 
@@ -62,7 +65,7 @@ class SimiliarityVizualiser:
 
     def get_nlp(self, model_name):
         if model_name != 'en' and model_name != 'en_core_web_lg':
-            model_name = join(dirname(Embeddings.models.__file__), basename(model_name))
+            model_name = os.path.join(os.path.dirname(Embeddings.models.__file__), os.path.basename(model_name))
         if model_name not in self.nlp_models_:
             self.nlp_models_[model_name] = spacy.load(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])
         return self.nlp_models_[model_name]
@@ -82,15 +85,21 @@ class SimiliarityVizualiser:
             sentence_compared_tokens.append(ComparedToken(token1, token1_scores))
         return sentence_compared_tokens
 
-    def get_comparison(self, problem_id, choice_index, comparison_index, model):
+    def get_comparison(self, problem_id, question_index, choice_index, comparison_index, filename):
         problem = self.get_problem_by_id(problem_id)
+        comparisons = problem.get_comparisons(filename)
+        if question_index > len(comparisons) - 1 or \
+           choice_index > len(comparisons[question_index]) - 1 or \
+           comparison_index > len(comparisons[question_index][choice_index]) - 1:
+            return None
+        return comparisons[question_index][choice_index][comparison_index]
+
+    def get_nlp_comparison(self, comparison, model):
         nlp = self.get_nlp(model)
-        comparisons = problem.get_comparisons(model)
-        if choice_index > len(comparisons) - 1 or comparison_index > len(comparisons[choice_index]) - 1:
-            return Comparison([], [])
-        sentences = comparisons[choice_index][comparison_index]
-        sentence1_nlp = nlp(sentences[0])
-        sentence2_nlp = nlp(sentences[1])
-        sentence1_compared_tokens = self.get_sentence_compared_tokens(sentence1_nlp, sentence2_nlp)
-        sentence2_compared_tokens = self.get_sentence_compared_tokens(sentence2_nlp, sentence1_nlp)
-        return Comparison(sentence1_compared_tokens, sentence2_compared_tokens)
+        if comparison is None:
+            return NlpComparison([], [])
+        q_sentence_nlp = nlp(comparison.q_definition_)
+        c_sentence_nlp = nlp(comparison.c_definition_)
+        q_sentence_compared_tokens = self.get_sentence_compared_tokens(q_sentence_nlp, c_sentence_nlp)
+        c_sentence_compared_tokens = self.get_sentence_compared_tokens(c_sentence_nlp, q_sentence_nlp)
+        return NlpComparison(q_sentence_compared_tokens, c_sentence_compared_tokens)

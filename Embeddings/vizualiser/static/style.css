@@ -116,10 +116,10 @@ body {
 }
 
 .option_selector {
-    position: absolute;
-    bottom: 10px;
+    margin-top: 10px;
     width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .choice_comparison_container {
@@ -129,4 +129,12 @@ body {
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.question_def_label {
+    margin-top: 10px;
+}
+
+.chocie_def_label {
+    position: absolute;bottom: 10px;
 }
