@@ -4,6 +4,9 @@ import pandas as pd
 
 
 class ProblemsReader:
+    def __init__(self, dataset_path):
+        self.dataset_path_ = dataset_path
+
     def read_xml(self, path):
         xml_data = open(path, encoding="utf8").read()
         problems = ET.XML(xml_data)
@@ -41,5 +44,4 @@ class ProblemsReader:
 
     def read_all_problems(self):
         # read all problems XML file and return a dataframe
-        file_path = 'Data/qa_mock_exams/all_problems.xml'
-        return self.read_xml(file_path)
+        return self.read_xml(self.dataset_path_)

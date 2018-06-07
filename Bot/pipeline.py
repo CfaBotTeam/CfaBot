@@ -12,13 +12,14 @@ from stanford.drqa.link import DrqaDefinitionFinder
 
 
 class Pipeline:
-    def __init__(self):
+    def __init__(self, args):
+        self.args_ = args
         self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
         self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
         glossary = GlossaryLoader().load()
         def_finder = DrqaDefinitionFinder()
-        def_provider = DefinitionsProvider(glossary, def_finder)
-        self.problems_reader_ = ProblemsReader()
+        def_provider = DefinitionsProvider(glossary, def_finder, args.provider_mode)
+        self.problems_reader_ = ProblemsReader(args.dataset)
         self.classifier_ = ProblemsClassifier(glossary, self.nlp_)
         self.resolver_factory_ = ResolverFactory(def_provider, self.nlp_)
 
@@ -27,6 +28,8 @@ class Pipeline:
         nb_correct = len(correct_answers)
         nb_total = len(category_problems)
         percentage = (nb_correct / nb_total) * 100
+        results['overall']['nb_total'] += nb_total
+        results['overall']['nb_correct'] += nb_correct
         results['overall'][category_name] = {
             'percentage': percentage,
             'nb_correct': nb_correct,
@@ -48,7 +51,8 @@ class Pipeline:
         results[category_name] = category_results
         self.add_category_results(category_name, results, category_problems)
 
-    def write_results(self, results):
+    def write_results(self, results, success_rate):
+        results['overall']['success_rate'] = success_rate
         now = datetime.datetime.now().strftime("%m_%d_%H_%M")
         result_path = 'Results/results_{}.json'.format(now)
         print('Writing results to {}'.format(result_path))
@@ -56,10 +60,16 @@ class Pipeline:
             f.write(json.dumps(results, indent=4))
 
     def process(self):
-        results = {'model': self.model_name_, 'overall': {}}
+        print("Definitions provider mode => %s" % self.args_.provider_mode)
+        results = {
+            'model': self.model_name_,
+            'provider_mode': self.args_.provider_mode,
+            'overall': {'nb_total': 0, 'nb_correct': 0},
+        }
         all_problems_df = self.problems_reader_.read_all_problems()
 
-        print("Total number of problems = " + str(len(all_problems_df)))
+        total_nb_questions = len(all_problems_df)
+        print("Total number of questions = %d" % total_nb_questions)
         self.classifier_.fit(all_problems_df)
 
         categories = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END,
@@ -68,4 +78,9 @@ class Pipeline:
             self.resolve_category(category, all_problems_df, results)
             print()
 
-        self.write_results(results)
+        nb_questions_answered = results['overall']['nb_total']
+        nb_correct_answers = results['overall']['nb_correct']
+        success_rate = (nb_correct_answers / nb_questions_answered) * 100
+        print("%d questions answered out of %d" % (nb_questions_answered, total_nb_questions))
+        print("%d correctly answered (success rate: %f)" % (nb_correct_answers, success_rate))
+        self.write_results(results, success_rate)

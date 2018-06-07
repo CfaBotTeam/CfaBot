@@ -34,7 +34,6 @@ class DrqaDefinitionFinder:
             db_config=self.db_config_,
             num_workers=self.num_workers_,
         )
-        print('DrQA loaded')
         self.debug_file_ = open('../../../missing_keywords.csv', 'w')
         self.debug_file_.write("keyword, question\r\n")
 

@@ -52,7 +52,7 @@ class Glossary:
         keyword = self.get_loosly_matching_keyword(term)
         if keyword is None:
             return None
-        return self.glossary_[keyword]
+        return [self.glossary_[keyword]]
 
 
 class GlossaryLoader:
