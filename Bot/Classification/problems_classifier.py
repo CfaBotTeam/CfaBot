@@ -41,7 +41,9 @@ class ProblemsClassifier:
 
     def fit(self, df):
         self.problems_ = df
+        print("Analysing questions with spacy")
         self.add_nlp()
+        print("Adding features")
         self.add_features()
         df['predicted_category'] = ProblemCategory.UNLABELED
         categories = self.filters_factories_.keys()
