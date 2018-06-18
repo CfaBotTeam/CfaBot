@@ -1,7 +1,10 @@
 import argparse
+import pandas as pd
 from Bot.pipeline import Pipeline
 from Bot.Resolver import DefinitionsProvider
 
+
+pd.options.mode.chained_assignment = None
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

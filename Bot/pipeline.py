@@ -24,10 +24,12 @@ class Pipeline:
         self.resolver_factory_ = ResolverFactory(def_provider, self.nlp_)
 
     def add_category_results(self, category_name, results, category_problems):
-        correct_answers = category_problems[category_problems['prediction'] == category_problems['answer']]
-        nb_correct = len(correct_answers)
+        nb_correct = 0
         nb_total = len(category_problems)
-        percentage = (nb_correct / nb_total) * 100
+        percentage = 0
+        if len(category_problems) > 0:
+            nb_correct = len(category_problems[category_problems['prediction'] == category_problems['answer']])
+            percentage = (nb_correct / nb_total) * 100
         results['overall']['nb_total'] += nb_total
         results['overall']['nb_correct'] += nb_correct
         results['overall'][category_name] = {
@@ -37,6 +39,11 @@ class Pipeline:
         }
         print("Correct answers = %0.3f%%, (%d out of %d)" % (percentage, nb_correct, nb_total))
 
+    def resolve_category_internal(self, category, category_problems, category_filter, category_results):
+        resolver = self.resolver_factory_.get_resolver(category)
+        res = resolver.resolve(category_problems, category_results)
+        category_problems.loc[category_filter, 'prediction'] = res
+
     def resolve_category(self, category, df, results):
         category_name = get_enum_name(ProblemCategory, category)
         print("Resolving category " + str(category_name))
@@ -44,10 +51,10 @@ class Pipeline:
         category_problems = df.loc[category_filter]
 
         print("Found {} problems matching the category ".format(len(category_problems)))
-        resolver = self.resolver_factory_.get_resolver(category)
         category_results = {}
-        res = resolver.resolve(category_problems, category_results)
-        category_problems.loc[category_filter, 'prediction'] = res
+        if len(category_problems) > 0:
+            self.resolve_category_internal(category, category_problems, category_filter, category_results)
+
         results[category_name] = category_results
         self.add_category_results(category_name, results, category_problems)
 

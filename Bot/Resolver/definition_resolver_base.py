@@ -20,6 +20,8 @@ class DefinitionResolverBase:
         nb = problem['question_nb']
         debug[filename + '_' + nb] = {
             'question': problem['question'],
+            'q_keyword': problem['q_subject'],
+            'choice_q_keywords': problem['choice_q_terms'],
             'real_answer': problem['answer'],
             'random_answer': max_index == -1,
             'predicted_answer': predicted_answer,
