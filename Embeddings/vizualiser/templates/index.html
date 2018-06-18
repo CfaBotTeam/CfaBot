@@ -27,6 +27,7 @@
                         <td class="label">File 2</td>
                         <td>
                             <select id="file2" onchange="filterQuestions()">
+                                <option value="None" selected="selected">No comparison</option>
                                 {% for file in files %}
                                     <option value="{{ file }}">{{ file }}</option>
                                 {% endfor %}

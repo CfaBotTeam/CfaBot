@@ -1,6 +1,5 @@
 $('.filter_bar').ready(function() {
     $('#file1 option').eq(2).prop('selected', true);
-    $('#file2 option').eq(3).prop('selected', true);
     filterQuestions();
 });
 
@@ -66,13 +65,15 @@ function refresh_questions_style(selected_question) {
 function refreshProblem(selected_question) {
     problemId = $(selected_question).data('problem-id');
     refresh_questions_style(selected_question);
-    selectedFile1 = $('#file1')[0].selectedOptions[0].value;
-    selectedFile2 = $('#file2')[0].selectedOptions[0].value;
+    selectedFile1 = $('#file1').val();
     data = {
         'problem_id': problemId,
         'file1': selectedFile1,
-        'file2': selectedFile2,
     };
+    if ($('#file2').val() != 'None') {
+        selectedFile2 = $('#file2').val();
+        data['file2'] = selectedFile2;
+    }
     $.post("/refresh-problem-details", data).done(function (reply) {
         $('#problem_details').html(reply);
     });
@@ -82,17 +83,20 @@ function refreshProblem(selected_question) {
     $.post("/refresh-problem", data).done(function (reply) {
         $('#problem_container').html(reply['html']);
         let model1 = reply['model1'];
-        let model2 = reply['model2'];
         $('#model1_container').html(model1);
-        $('#model2_container').html(model2);
         loadComparison(problemId, 0, selectedFile1, model1, 0, 0);
-        loadComparison(problemId, 1, selectedFile2, model2, 0, 0);
         loadComparison(problemId, 0, selectedFile1, model1, 1, 0);
-        loadComparison(problemId, 1, selectedFile2, model2, 1, 0);
         loadComparison(problemId, 0, selectedFile1, model1, 2, 0);
-        loadComparison(problemId, 1, selectedFile2, model2, 2, 0);
         loadComparison(problemId, 0, selectedFile1, model1, 3, 0);
-        loadComparison(problemId, 1, selectedFile2, model2, 3, 0);
+
+        let model2 = reply['model2'];
+        if (model2) {
+            $('#model2_container').html(model2);
+            loadComparison(problemId, 1, selectedFile2, model2, 0, 0);
+            loadComparison(problemId, 1, selectedFile2, model2, 1, 0);
+            loadComparison(problemId, 1, selectedFile2, model2, 2, 0);
+            loadComparison(problemId, 1, selectedFile2, model2, 3, 0);
+        }
     });
 }
 

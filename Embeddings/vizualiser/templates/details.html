@@ -1,5 +1,7 @@
 <p>
     <span>Correct answer: {{ problem.correct_answer_ }}</span>
     <span>Model 1 predicted {{ file1_result.predicted_answer_ }}{{ problem.random_label_ }}</span>
-    <span>Model 2 predicted {{ file2_result.predicted_answer_ }}{{ problem.random_label_ }}</span>
+    {% if file2_result %}
+        <span>Model 2 predicted {{ file2_result.predicted_answer_ }}{{ problem.random_label_ }}</span>
+    {% endif %}
 </p>

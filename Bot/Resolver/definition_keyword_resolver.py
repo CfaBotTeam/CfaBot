@@ -5,7 +5,7 @@ from Bot.Resolver import DefinitionSource
 
 class DefinitionKeywordResolverBase(DefinitionResolverBase):
     def get_question_definitions(self, problem):
-        return [[problem['question'], DefinitionSource.QUESTION]]
+        return [[problem['q_subject'], DefinitionSource.QUESTION]]
 
 
 class DefinitionKeywordResolver(DefinitionKeywordResolverBase):

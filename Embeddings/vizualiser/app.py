@@ -32,24 +32,28 @@ def refresh_questions():
 def refresh_problem():
     problem = vizualiser.get_problem_by_id(request.form['problem_id'])
     file1 = request.form['file1']
-    file2 = request.form['file2']
-    files = list(enumerate([file1, file2]))
     file1_result = problem.get_file_result(file1)
-    file2_result = problem.get_file_result(file2)
-    return jsonify({
-        'html': render_template('problem.html', problem=problem, files=files),
-        'model1': file1_result.model_,
-        'model2': file2_result.model_
-    })
+    files = [file1]
+    result = {'model1': file1_result.model_}
+    if 'file2' in request.form:
+        file2 = request.form['file2']
+        files.append(file2)
+        file2_result = problem.get_file_result(file2)
+        result['model2'] = file2_result.model_
+    result['html'] = render_template('problem.html', problem=problem, files=list(enumerate(files)))
+    return jsonify(result)
 
 
 @app.route('/refresh-problem-details', methods=['POST'])
 def refresh_problem_details():
     problem = vizualiser.get_problem_by_id(request.form['problem_id'])
     file1 = request.form['file1']
-    file2 = request.form['file2']
     file1_result = problem.get_file_result(file1)
-    file2_result = problem.get_file_result(file2)
+
+    file2_result = None
+    if 'file2' in request.form:
+        file2 = request.form['file2']
+        file2_result = problem.get_file_result(file2)
     return render_template('details.html', problem=problem, file1_result=file1_result, file2_result=file2_result)
 
 
