@@ -1,11 +1,17 @@
 from Bot.Classification.Features import SubjectFeatures
 from Bot.Resolver import DefinitionResolverBase
 from Bot.Resolver import DefinitionSource
+from Bot.Resolver import DefinitionsComparison
 
 
 class DefinitionKeywordResolverBase(DefinitionResolverBase):
-    def get_question_definitions(self, problem):
-        return [[problem['q_subject'], DefinitionSource.QUESTION]]
+    def get_comparison(self, problem, choices):
+        q_defs = [[problem['question'], DefinitionSource.QUESTION]]
+        choices_definitions = self.get_choices_definitions(problem, choices)
+        return DefinitionsComparison(q_defs, choices, choices_definitions)
+
+    def get_choices_definitions(self, problem, choices):
+        raise NotImplementedError("This method need to be overloaded")
 
 
 class DefinitionKeywordResolver(DefinitionKeywordResolverBase):

@@ -1,6 +1,7 @@
 from .definitions_provider import DefinitionSource
 from .definitions_provider import DefinitionsProvider
 from .definition_resolver_base import DefinitionResolverBase
+from .definition_resolver_base import DefinitionsComparison
 from .definition_keyword_resolver import DefinitionKeywordResolver
 from .definition_keyword_resolver import DefinitionKeywordStartEndResolver
 from .keyword_definition_resolver import KeywordDefResolver

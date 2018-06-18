@@ -3,12 +3,18 @@ from Bot.Classification.Features import NlpFeatures
 from Bot.Classification.Features import SubjectFeatures
 from Bot.Classification.Features import VerbFeaturesFactory
 from Bot.Resolver import DefinitionSource
+from Bot.Resolver import DefinitionsComparison
 
 
 class KeywordDefResolverBase(DefinitionResolverBase):
-    def get_question_definitions(self, problem):
+    def get_comparison(self, problem, choices):
         subject = problem[SubjectFeatures.Q_SUBJECT]
-        return self.def_provider_.get_definitions(subject, loosly=True)
+        q_defs = self.def_provider_.get_definitions(subject, loosly=True)
+        choices_definitions = self.get_choices_definitions(problem, choices)
+        return DefinitionsComparison(q_defs, choices, choices_definitions)
+
+    def get_choices_definitions(self, problem, choices):
+        raise NotImplementedError("This method need to be overloaded")
 
 
 class KeywordDefResolver(KeywordDefResolverBase):
