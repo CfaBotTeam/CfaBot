@@ -47,7 +47,7 @@ class Glossary:
         if keyword is None:
             return None
         defs = self.glossary_[keyword]
-        if defs is str:
+        if isinstance(defs, str):
             return [defs]
         return defs
 
@@ -56,13 +56,13 @@ class Glossary:
         if keyword is None:
             return None
         defs = self.glossary_[keyword]
-        if defs is str:
+        if isinstance(defs, str):
             return [defs]
         return defs
 
 
 class GlossaryLoader:
-    FILEPATH = 'Data/material_handbook/glossary_merged.json'
+    FILEPATH = 'Data/material_handbook/glossary_manual.json'
 
     def load(self):
         return Glossary(json.load(open(self.FILEPATH, 'r')))
