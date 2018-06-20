@@ -5,9 +5,11 @@ from Bot.Classification import ProblemCategory
 
 
 class DefinitionsComparison:
-    def __init__(self, question_definitions, choices, choices_definitions):
+    def __init__(self, question_keyword, question_definitions, choices, choices_keywords, choices_definitions):
+        self.question_keyword_ = question_keyword
         self.question_definitions_ = question_definitions
         self.choices_ = choices
+        self.choices_keywords_ = choices_keywords
         self.choices_definitions_ = choices_definitions
 
     def has_question_definitions(self):
@@ -30,8 +32,6 @@ class DefinitionResolverBase:
         nb = problem['question_nb']
         debug[filename + '_' + nb] = {
             'question': problem['question'],
-            'q_keyword': problem['q_subject'],
-            'choice_q_keywords': problem['choice_q_terms'],
             'real_answer': problem['answer'],
             'random_answer': max_index == -1,
             'predicted_answer': predicted_answer,
@@ -57,9 +57,10 @@ class DefinitionResolverBase:
         max_index = -1
         c_comparisons = []
         for q_def, q_source in comparison.question_definitions_:
-            q_comparisons = {'q_def': q_def, 'source': q_source, 'c_comparisons': c_comparisons}
+            q_comparisons = {'q_keyword': comparison.question_keyword_, 'q_def': q_def, 'source': q_source, 'c_comparisons': c_comparisons}
             comparisons.append(q_comparisons)
             for i_choice, choice in enumerate(comparison.choices_):
+                c_keyword = comparison.choices_keywords_[i_choice]
                 definitions = comparison.choices_definitions_[i_choice]
                 if definitions is None:
                     continue
@@ -67,7 +68,7 @@ class DefinitionResolverBase:
                 c_comparisons.append(c_def_comparisons)
                 for c_def, c_source in definitions:
                     score = self.scorer_.score(c_def, q_def)
-                    c_def_comparisons.append({'c_def': c_def, 'source': c_source, 'score': score})
+                    c_def_comparisons.append({'c_keyword': c_keyword, 'c_def': c_def, 'source': c_source, 'score': score})
                     if score > max_score:
                         max_score = score
                         max_index = i_choice

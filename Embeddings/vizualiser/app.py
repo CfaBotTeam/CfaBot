@@ -32,15 +32,16 @@ def refresh_questions():
 def refresh_problem():
     problem = vizualiser.get_problem_by_id(request.form['problem_id'])
     file1 = request.form['file1']
-    file1_result = problem.get_file_result(file1)
     files = [file1]
+    file1_result = problem.get_file_result(file1)
     result = {'model1': file1_result.model_}
     if 'file2' in request.form:
         file2 = request.form['file2']
-        files.append(file2)
         file2_result = problem.get_file_result(file2)
         result['model2'] = file2_result.model_
-    result['html'] = render_template('problem.html', problem=problem, files=list(enumerate(files)))
+        files.append(file2)
+    comparisons = problem.get_comparison_results(files)
+    result['html'] = render_template('problem.html', problem=problem, comparisons=comparisons)
     return jsonify(result)
 
 
