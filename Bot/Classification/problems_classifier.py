@@ -13,6 +13,9 @@ from Bot.Classification.Filters import KeywordDefStartEndFilterFactory
 
 
 class ProblemsClassifier:
+    HANDLED_CATEGORIES = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END,
+                          ProblemCategory.KEYWORD_DEF, ProblemCategory.KEYWORD_DEF_START_END]
+
     def __init__(self, glossary, nlp):
         self.nlp_ = nlp
         self.problems_ = None

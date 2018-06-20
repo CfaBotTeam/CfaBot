@@ -70,6 +70,8 @@ class Pipeline:
         print("Definitions provider mode => %s" % self.args_.provider_mode)
         results = {
             'model': self.model_name_,
+            'dataset': self.args_.dataset,
+            'glossary': GlossaryLoader.FILEPATH,
             'provider_mode': self.args_.provider_mode,
             'overall': {'nb_total': 0, 'nb_correct': 0},
         }
@@ -79,10 +81,7 @@ class Pipeline:
         print("Total number of questions = %d" % total_nb_questions)
         self.classifier_.fit(all_problems_df)
 
-        categories = [ProblemCategory.DEF_KEYWORD, ProblemCategory.DEF_KEYWORD_START_END,
-                      ProblemCategory.KEYWORD_DEF, ProblemCategory.KEYWORD_DEF_START_END]
-        # categories = [ProblemCategory.DEF_KEYWORD]
-        for category in categories:
+        for category in ProblemsClassifier.HANDLED_CATEGORIES:
             self.resolve_category(category, all_problems_df, results)
             print()
 

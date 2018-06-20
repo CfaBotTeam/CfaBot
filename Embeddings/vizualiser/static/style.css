@@ -39,18 +39,24 @@ body {
     padding: 10px;
 }
 
-.filter_bar li {
+#questions_list {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#questions_list img {
+    width: 15px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+
+#questions_list .question {
     color: navy;
     margin-bottom: 5px;
 }
 
-.filter_bar li:hover {
+#questions_list .question:hover {
     font-weight: bold;
-}
-
-#questions_container ul {
-    max-height: 250px;
-    overflow-y: auto;
 }
 
 #problem_details {

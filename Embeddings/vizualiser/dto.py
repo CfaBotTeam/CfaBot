@@ -55,6 +55,7 @@ class Problem:
         self.category_ = category
         self.question_ = problem['question']
         self.correct_answer_ = problem['real_answer']
+        self.success_ = problem['real_answer'] == problem['predicted_answer']
         self.file_results_ = {}
         self.add_file_result(fullname, model, problem)
 

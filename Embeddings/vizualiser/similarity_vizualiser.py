@@ -6,6 +6,9 @@ import Embeddings.models
 from Embeddings.vizualiser.dto import Problem
 from Embeddings.vizualiser.dto import ComparedToken
 from Embeddings.vizualiser.dto import NlpComparison
+from Bot.Classification import ProblemsClassifier
+from Bot.Classification import ProblemCategory
+from Bot.Utils import get_enum_name
 
 
 class SimiliarityVizualiser:
@@ -21,7 +24,7 @@ class SimiliarityVizualiser:
                 self.all_problems_[question_id].add_file(fullname, model, problem)
 
     def load_all_problems(self):
-        categories = set()
+        file_categories = set()
         for filename in os.listdir(self.results_directory_):
             full_path = os.path.join(self.results_directory_, filename)
             if not os.path.isfile(full_path) or not full_path.endswith('.json'):
@@ -32,13 +35,14 @@ class SimiliarityVizualiser:
             file_without_ext = os.path.splitext(filename)[0]
             fullname = "%s-%s-%s" % (file_without_ext, model, provider_mode)
             self.all_files_.append(fullname)
+            categories = set(map(lambda x: get_enum_name(ProblemCategory, x), ProblemsClassifier.HANDLED_CATEGORIES))
             for key in result:
-                if key == 'overall' or key == 'model' or key == 'provider_mode' or key == 'success_rate':
-                    continue
                 if not key in categories:
-                    categories.add(key)
+                    continue
+                if not key in file_categories:
+                    file_categories.add(key)
                 self.load_category(fullname, model, key, result)
-        return categories
+        return file_categories
 
     def load(self):
         self.all_problems_ = {}

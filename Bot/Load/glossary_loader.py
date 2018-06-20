@@ -46,16 +46,23 @@ class Glossary:
         keyword = self.get_matching_keyword(term)
         if keyword is None:
             return None
-        return [self.glossary_[keyword]]
+        defs = self.glossary_[keyword]
+        if defs is str:
+            return [defs]
+        return defs
 
     def get_loose_definition(self, term):
         keyword = self.get_loosly_matching_keyword(term)
         if keyword is None:
             return None
-        return [self.glossary_[keyword]]
+        defs = self.glossary_[keyword]
+        if defs is str:
+            return [defs]
+        return defs
 
 
 class GlossaryLoader:
+    FILEPATH = 'Data/material_handbook/glossary_merged.json'
+
     def load(self):
-        path = 'Data/material_handbook/glossary_manual.json'
-        return Glossary(json.load(open(path)))
+        return Glossary(json.load(open(self.FILEPATH, 'r')))

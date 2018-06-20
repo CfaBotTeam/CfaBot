@@ -25,7 +25,7 @@
 </problem> 
 
 <problem category="666" filename="2008-vol1-3.xml" topic="" year="2008">
-	<question id="68">Eatan Inc. has a take-or-pay contract with SeaTac Inc. for $ 1,000,000 per year for five years. Eatan also recently sold receivables of $500,000. The present value (PV) of Eatan&amp; amp; #8217;s take-or-pay contract is $4,000,000 and the buyer of the receivables has recourse to Eatan. Once an analyst has adjusted Eatan&amp; amp; #8217;s debt to equity ratio, earnings before interest and taxes (EBIT), and assets for these two off-balance-sheet financing arrangements, the changes are best described by: Debt-to-equitv	EBIT	Assets</question>
+	<question id="68">Eatan Inc. has a take-or-pay contract with SeaTac Inc. for $ 1,000,000 per year for five years. Eatan also recently sold receivables of $500,000. The present value (PV) of Eatan&amp; #8217;s take-or-pay contract is $4,000,000 and the buyer of the receivables has recourse to Eatan. Once an analyst has adjusted Eatan&amp; #8217;s debt to equity ratio, earnings before interest and taxes (EBIT), and assets for these two off-balance-sheet financing arrangements, the changes are best described by: Debt-to-equitv	EBIT	Assets</question>
 	<choices>
 		<choice id="A">Increase	Decrease	Increase by $4,000,000</choice>
 		<choice id="B">Increase	Increase	Increase by $5,000,000</choice>
@@ -53,7 +53,7 @@
 <problem category="666" filename="2008-vol1-6.xml" topic="" year="2008">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond&amp; #8217;s value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01 %</choice>
 		<choice id="C">the change in the price of the bond when its duration changes by one basis point</choice>
 		<choice id="D">an estimate of the curvature of the price-yield relationship for a small change in yield</choice>
@@ -77,7 +77,7 @@
 <problem category="666" filename="2010-vol2-2.xml" topic="" year="2010">
 	<question id="115">The time value of an option is most accurately described as:</question>
 	<choices>
-		<choice id="A">being greatest at the option&amp; amp; #8217;s expiration date</choice>
+		<choice id="A">being greatest at the option&amp; #8217;s expiration date</choice>
 		<choice id="B">the entire premium for an out-of-the-money option</choice>
 		<choice id="C">the amount by which the intrinsic value exceeds the option premium</choice>
 	</choices>
@@ -99,7 +99,7 @@
 <problem category="666" filename="2010-vol2-3.xml" topic="" year="2010">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond&amp; #8217;s value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield. The following 6 questions relate to Derivatives. (9 minutes)</choice>
 	</choices>
@@ -119,10 +119,10 @@
 </problem> 
 
 <problem category="666" filename="2010-vol2-5.xml" topic="" year="2010">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The &amp; #8220;up-move factor&amp; #8221; in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the &amp; #8220;down-move factor&amp; #8221; for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -174,7 +174,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-1.xml" topic="" year="2011">
-	<question id="60">In accounting for a defined benefit pension plan, the amount reported as &amp; amp; #8220;prior service cost&amp; amp; #8221; most likely refers to the:</question>
+	<question id="60">In accounting for a defined benefit pension plan, the amount reported as &amp; #8220;prior service cost&amp; #8221; most likely refers to the:</question>
 	<choices>
 		<choice id="A">total value of benefits already paid to retirees who are still receiving pension payments</choice>
 		<choice id="B">present value of the pension benefits due to employees based on their employment up to the date of the statement</choice>
@@ -185,7 +185,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-3.xml" topic="" year="2011">
-	<question id="50">A company has a defined benefit pension plan for its employees. Which of the following changes in assumptions would most likely decrease a company&amp; amp; #8217;s reported pension expense? An increase in the expected:</question>
+	<question id="50">A company has a defined benefit pension plan for its employees. Which of the following changes in assumptions would most likely decrease a company&amp; #8217;s reported pension expense? An increase in the expected:</question>
 	<choices>
 		<choice id="A">retirement age</choice>
 		<choice id="B">return on plan assets</choice>
@@ -209,7 +209,7 @@
 <problem category="666" filename="2011-vol1-3.xml" topic="" year="2011">
 	<question id="115">The time value of an option is most accurately described as:</question>
 	<choices>
-		<choice id="A">being greatest at the option&amp; amp; #8217;s expiration date</choice>
+		<choice id="A">being greatest at the option&amp; #8217;s expiration date</choice>
 		<choice id="B">the entire premium for an out-of-the-money option</choice>
 		<choice id="C">the amount by which the intrinsic value exceeds the option premium</choice>
 	</choices>
@@ -229,7 +229,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-4.xml" topic="" year="2011">
-	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; amp; #8217;s:</question>
+	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">financial risk and sales risk</choice>
 		<choice id="B">sales risk and operating risk</choice>
@@ -242,7 +242,7 @@
 <problem category="666" filename="2011-vol1-4.xml" topic="" year="2011">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond&amp; #8217;s value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield. Questions 111 through 116 relate to Derivatives. (9 minutes)</choice>
 	</choices>
@@ -262,7 +262,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-5.xml" topic="" year="2011">
-	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; amp; #8217;s securities regulators. This transaction is best described as being:</question>
+	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; #8217;s securities regulators. This transaction is best described as being:</question>
 	<choices>
 		<choice id="A">illegal</choice>
 		<choice id="B">in the primary market</choice>
@@ -273,10 +273,10 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-6.xml" topic="" year="2011">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The &amp; #8220;up-move factor&amp; #8221; in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the &amp; #8220;down-move factor&amp; #8221; for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -284,7 +284,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-6.xml" topic="" year="2011">
-	<question id="91">Over the past few years, the companies in an industry have experienced declining profitability and slowing growth, though profitability and growth remain positive. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; amp; #8217;s life-cycle stage is most accurately described as:</question>
+	<question id="91">Over the past few years, the companies in an industry have experienced declining profitability and slowing growth, though profitability and growth remain positive. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; #8217;s life-cycle stage is most accurately described as:</question>
 	<choices>
 		<choice id="A">decline</choice>
 		<choice id="B">maturity</choice>
@@ -295,7 +295,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
-	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao&amp; amp; #8217;s ranking system is best described as a(n):</question>
+	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao&amp; #8217;s ranking system is best described as a(n):</question>
 	<choices>
 		<choice id="A">ratio scale</choice>
 		<choice id="B">nominal scale</choice>
@@ -308,8 +308,8 @@
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
 	<question id="33">The short run, as an economic decision-making time frame, is best described as:</question>
 	<choices>
-		<choice id="A">one year or the length of the firm&amp; amp; #8217;s production cycle</choice>
-		<choice id="B">the period during which the firm&amp; amp; #8217;s plant size and production methods are fixed</choice>
+		<choice id="A">one year or the length of the firm&amp; #8217;s production cycle</choice>
+		<choice id="B">the period during which the firm&amp; #8217;s plant size and production methods are fixed</choice>
 		<choice id="C">the period in which the firm cannot change its input quantities of labor and materials</choice>
 	</choices>
 	<answer>B</answer>
@@ -317,7 +317,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
-	<question id="34">After working in a grocery store for two years, earning $20,000 per year, Mike Hoffman joined a professional sports team. Hoffman excels as an athlete and will earn $5 million this year. The large difference between Hoffman&amp; amp; #8217;s salary as an athlete and the wages he earned at the grocery store is best described as:</question>
+	<question id="34">After working in a grocery store for two years, earning $20,000 per year, Mike Hoffman joined a professional sports team. Hoffman excels as an athlete and will earn $5 million this year. The large difference between Hoffman&amp; #8217;s salary as an athlete and the wages he earned at the grocery store is best described as:</question>
 	<choices>
 		<choice id="A">economic rent</choice>
 		<choice id="B">marginal revenue product</choice>
@@ -352,8 +352,8 @@
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
 	<question id="110">Inflation risk in bond investing is best described as the risk that the:</question>
 	<choices>
-		<choice id="A">value of a bond&amp; amp; #8217;s payments will decline in terms of real goods and services</choice>
-		<choice id="B">realized yield will be less than the bond&amp; amp; #8217;s yield to maturity as of the purchase date</choice>
+		<choice id="A">value of a bond&amp; #8217;s payments will decline in terms of real goods and services</choice>
+		<choice id="B">realized yield will be less than the bond&amp; #8217;s yield to maturity as of the purchase date</choice>
 		<choice id="C">price of a bond will respond more to an increase in interest rates than to an equal-sized decrease in interest rates. Questions 111 through 116 relate to Derivatives. (9 minutes)</choice>
 	</choices>
 	<answer>A</answer>
@@ -365,7 +365,7 @@
 	<choices>
 		<choice id="A">a common requirement for companies that are listed on public exchanges</choice>
 		<choice id="B">the reports and presentations a company uses to show its financial performance to investors, creditors, and other interested parties</choice>
-		<choice id="C">the use of information from a company&amp; amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
+		<choice id="C">the use of information from a company&amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -385,8 +385,8 @@
 <problem category="666" filename="2011-vol2-2.xml" topic="" year="2011">
 	<question id="90">Participating preference shares are most accurately described as preferred stock that:</question>
 	<choices>
-		<choice id="A">may be exchanged for the firm&amp; amp; #8217;s common shares at a predetermined ratio</choice>
-		<choice id="B">receives extra dividends if the firm&amp; amp; #8217;s profits are greater than a predetermined level</choice>
+		<choice id="A">may be exchanged for the firm&amp; #8217;s common shares at a predetermined ratio</choice>
+		<choice id="B">receives extra dividends if the firm&amp; #8217;s profits are greater than a predetermined level</choice>
 		<choice id="C">must be paid any omitted dividends from prior periods before the firm may pay dividends to common shareholders</choice>
 	</choices>
 	<answer>B</answer>
@@ -394,7 +394,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-2.xml" topic="" year="2011">
-	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; amp; #8217;s competitive strategy is most accurately described as a(n):</question>
+	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; #8217;s competitive strategy is most accurately described as a(n):</question>
 	<choices>
 		<choice id="A">offensive differentiation strategy</choice>
 		<choice id="B">offensive cost leadership strategy</choice>
@@ -463,7 +463,7 @@
 	<question id="83">When performing strategic asset allocation, properly defined and specified asset classes should:</question>
 	<choices>
 		<choice id="A">have high returns correlations with other asset classes</choice>
-		<choice id="B">approximate the investor&amp; amp; #8217;s total investable universe as a group</choice>
+		<choice id="B">approximate the investor&amp; #8217;s total investable universe as a group</choice>
 		<choice id="C">each contain assets that have a broad range of risk and expected return</choice>
 	</choices>
 	<answer>B</answer>
@@ -482,7 +482,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; amp; #8217;s shortfall risk is closest to:</question>
+	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; #8217;s shortfall risk is closest to:</question>
 	<choices>
 		<choice id="A">2.5%</choice>
 		<choice id="B">5.0%</choice>
@@ -493,7 +493,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; amp; #8217;s screening process is best described as:</question>
+	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; #8217;s screening process is best described as:</question>
 	<choices>
 		<choice id="A">simple random sampling</choice>
 		<choice id="B">systematic random sampling</choice>
@@ -515,7 +515,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; amp; #8226;	Structural unemployment results from a mismatch between workers&amp; amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
+	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; #8226;	Structural unemployment results from a mismatch between workers&amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
 	<choices>
 		<choice id="A">Both of these statements are accurate</choice>
 		<choice id="B">Neither of these statements is accurate</choice>
@@ -548,7 +548,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; amp; #8217;s:</question>
+	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">characteristic line</choice>
 		<choice id="B">net present value profile</choice>
@@ -651,7 +651,7 @@
 	<choices>
 		<choice id="A">Energy</choice>
 		<choice id="B">Technology</choice>
-		<choice id="C">Consumer staples. 93 . Which of the following scenarios is inconsistent with efficient financial markets? A.	An analyst&amp; amp; #8217;s buy recommendations have returned 2% more than the broad market index, on average. B.	Johnson, Inc. reports an increase of 8% in its earnings from a year earlier, and its stock price declines 5% on the news. C.	Earl Baker, an investor, earns consistently superior risk-adjusted returns by buying stocks when most investment advisors are pessimistic and selling stocks when most investment advisors are optimistic</choice>
+		<choice id="C">Consumer staples. 93 . Which of the following scenarios is inconsistent with efficient financial markets? A.	An analyst&amp; #8217;s buy recommendations have returned 2% more than the broad market index, on average. B.	Johnson, Inc. reports an increase of 8% in its earnings from a year earlier, and its stock price declines 5% on the news. C.	Earl Baker, an investor, earns consistently superior risk-adjusted returns by buying stocks when most investment advisors are pessimistic and selling stocks when most investment advisors are optimistic</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -680,7 +680,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-2.xml" topic="" year="2014">
-	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; amp; #8217;s:</question>
+	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">financial risk and sales risk</choice>
 		<choice id="B">sales risk and operating risk</choice>
@@ -693,7 +693,7 @@
 <problem category="666" filename="2014-vol1-2.xml" topic="" year="2014">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond&amp; #8217;s value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield. Questions 111 through 116 relate to Derivatives. (9 minutes)</choice>
 	</choices>
@@ -713,10 +713,10 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The &amp; #8220;up-move factor&amp; #8221; in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the &amp; #8220;down-move factor&amp; #8221; for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -735,7 +735,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="91">Over the past few years, the companies in an industry have experienced positive but decreasing profitability and growth rates. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; amp; #8217;s life-cycle stage is most accurately described as:</question>
+	<question id="91">Over the past few years, the companies in an industry have experienced positive but decreasing profitability and growth rates. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; #8217;s life-cycle stage is most accurately described as:</question>
 	<choices>
 		<choice id="A">growth</choice>
 		<choice id="B">maturity</choice>
@@ -746,7 +746,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="108">A single yield used to discount all of a bond&amp; amp; #8217;s cash flows when calculating its price is most accurately described as the bond&amp; amp; #8217;s:</question>
+	<question id="108">A single yield used to discount all of a bond&amp; #8217;s cash flows when calculating its price is most accurately described as the bond&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">simple yield</choice>
 		<choice id="B">current yield</choice>
@@ -833,7 +833,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-5.xml" topic="" year="2014">
-	<question id="57">In accounting for a defined benefit pension plan, the amount reported as &amp; amp; #8220;prior service cost&amp; amp; #8221; refers to the:</question>
+	<question id="57">In accounting for a defined benefit pension plan, the amount reported as &amp; #8220;prior service cost&amp; #8221; refers to the:</question>
 	<choices>
 		<choice id="A">total value of benefits already paid to retirees who are still receiving pension payments</choice>
 		<choice id="B">present value of the pension benefits due to employees based on their employment up to the date of the statement</choice>
@@ -855,7 +855,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-5.xml" topic="" year="2014">
-	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; amp; #8217;s securities regulators. This transaction is best described as being:</question>
+	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; #8217;s securities regulators. This transaction is best described as being:</question>
 	<choices>
 		<choice id="A">illegal</choice>
 		<choice id="B">in the primary market</choice>
@@ -888,7 +888,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="102">The credit rating agency practice of &amp; amp; #8220;notching&amp; amp; #8221; is best described as:</question>
+	<question id="102">The credit rating agency practice of &amp; #8220;notching&amp; #8221; is best described as:</question>
 	<choices>
 		<choice id="A">assigning different ratings to different debt issues from the same issuer</choice>
 		<choice id="B">downgrading or upgrading the rating of a debt issue or issuer by one increment</choice>
@@ -910,10 +910,10 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="110">A duration gap is most accurately described as a difference between a bond&amp; amp; #8217;s:</question>
+	<question id="110">A duration gap is most accurately described as a difference between a bond&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">Macaulay duration and effective duration</choice>
-		<choice id="B">duration and the bondholder&amp; amp; #8217;s investment horizon</choice>
+		<choice id="B">duration and the bondholder&amp; #8217;s investment horizon</choice>
 		<choice id="C">actual change in value and the change estimated using duration and convexity. Questions 111 through 116 relate to Derivatives. (9 minutes)</choice>
 	</choices>
 	<answer>B</answer>
@@ -921,7 +921,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="119">A private equity firm that provides equity capital to a publicly traded company to finance the company&amp; amp; #8217;s restructuring, but does not take the company private, is best described as engaging in:</question>
+	<question id="119">A private equity firm that provides equity capital to a publicly traded company to finance the company&amp; #8217;s restructuring, but does not take the company private, is best described as engaging in:</question>
 	<choices>
 		<choice id="A">angel investing</choice>
 		<choice id="B">mezzanine financing</choice>
@@ -980,7 +980,7 @@
 	<choices>
 		<choice id="A">a common requirement for companies that are listed on public exchanges</choice>
 		<choice id="B">the reports and presentations a company uses to show its financial performance to investors, creditors, and other interested parties</choice>
-		<choice id="C">the use of information from a company&amp; amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
+		<choice id="C">the use of information from a company&amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -1009,7 +1009,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-3.xml" topic="" year="2014">
-	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; amp; #8217;s competitive strategy is most accurately described as a(n):</question>
+	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; #8217;s competitive strategy is most accurately described as a(n):</question>
 	<choices>
 		<choice id="A">offensive differentiation strategy</choice>
 		<choice id="B">offensive cost leadership strategy</choice>
@@ -1042,7 +1042,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; amp; #8217;s shortfall risk is closest to:</question>
+	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; #8217;s shortfall risk is closest to:</question>
 	<choices>
 		<choice id="A">2.5%</choice>
 		<choice id="B">5.0%</choice>
@@ -1053,7 +1053,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; amp; #8217;s screening process is best described as:</question>
+	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; #8217;s screening process is best described as:</question>
 	<choices>
 		<choice id="A">simple random sampling</choice>
 		<choice id="B">systematic random sampling</choice>
@@ -1064,7 +1064,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; amp; #8226;	Structural unemployment results from a mismatch between workers&amp; amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
+	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; #8226;	Structural unemployment results from a mismatch between workers&amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
 	<choices>
 		<choice id="A">Both of these statements are accurate</choice>
 		<choice id="B">Neither of these statements is accurate</choice>
@@ -1075,7 +1075,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; amp; #8217;s:</question>
+	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; #8217;s:</question>
 	<choices>
 		<choice id="A">characteristic line</choice>
 		<choice id="B">net present value profile</choice>
@@ -1130,7 +1130,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
-	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao&amp; amp; #8217;s ranking system is best described as a(n):</question>
+	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao&amp; #8217;s ranking system is best described as a(n):</question>
 	<choices>
 		<choice id="A">ratio scale</choice>
 		<choice id="B">nominal scale</choice>
@@ -1143,8 +1143,8 @@
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
 	<question id="33">The short run, as an economic decision-making time frame, is best described as:</question>
 	<choices>
-		<choice id="A">one year or the length of the firm&amp; amp; #8217;s production cycle</choice>
-		<choice id="B">the period during which the firm&amp; amp; #8217;s plant size and production methods are fixed</choice>
+		<choice id="A">one year or the length of the firm&amp; #8217;s production cycle</choice>
+		<choice id="B">the period during which the firm&amp; #8217;s plant size and production methods are fixed</choice>
 		<choice id="C">the period in which the firm cannot change its input quantities of labor and materials</choice>
 	</choices>
 	<answer>B</answer>
@@ -1176,8 +1176,8 @@
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
 	<question id="89">Participating preference shares are most accurately described as preferred stock that:</question>
 	<choices>
-		<choice id="A">may be exchanged for the firm&amp; amp; #8217;s common shares at a predetermined ratio</choice>
-		<choice id="B">receives extra dividends if the firm&amp; amp; #8217;s profits are greater than a predetermined level</choice>
+		<choice id="A">may be exchanged for the firm&amp; #8217;s common shares at a predetermined ratio</choice>
+		<choice id="B">receives extra dividends if the firm&amp; #8217;s profits are greater than a predetermined level</choice>
 		<choice id="C">must be paid any omitted dividends from prior periods before the firm may pay dividends to common shareholders</choice>
 	</choices>
 	<answer>B</answer>
@@ -1221,7 +1221,7 @@
 	<question id="83">When performing strategic asset allocation, properly defined and specified asset classes should:</question>
 	<choices>
 		<choice id="A">have high returns correlations with other asset classes</choice>
-		<choice id="B">approximate the investor&amp; amp; #8217;s total investable universe as a group</choice>
+		<choice id="B">approximate the investor&amp; #8217;s total investable universe as a group</choice>
 		<choice id="C">each contain assets that have a broad range of risk and expected return</choice>
 	</choices>
 	<answer>B</answer>

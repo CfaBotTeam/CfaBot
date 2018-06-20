@@ -11,7 +11,7 @@ function filterQuestions() {
     $.post("/refresh-questions", data).done(function (reply) {
         let container = $('#questions_container');
         container.html(reply);
-        let first_question = container.find('#questions_list li').first().get()[0]
+        let first_question = container.find('#questions_list .question').first().get()[0]
         refreshProblem(first_question);
     });
 }
