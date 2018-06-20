@@ -93,6 +93,7 @@ function getNumberValue(values, key) {
 }
 
 function refreshModelValues(number, values) {
+    $('#model' + number + '_container').html(getNumberValue(values, 'model' + number));
     $('#dataset' + number + '_container').html(getNumberValue(values, 'dataset' + number));
     $('#provider' + number + '_container').html(getNumberValue(values, 'provider' + number));
     $('#glossary' + number + '_container').html(getNumberValue(values, 'glossary' + number));
