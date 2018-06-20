@@ -2,7 +2,7 @@
     <div id="questions_list">
         {% for p in problems %}
             <div class="question" onclick="refreshProblem(this)" data-problem-id="{{ p.id_ }}">
-                <img src="{{ 'static/img/success.png' if p.success_ else 'static/img/failure.png' }}" />
+                <img src="{{ 'static/img/success.png' if p.is_success(file) else 'static/img/failure.png' }}" />
                 <span>{{ loop.index }}. </span>
                 <span>{{ p.question_ }}</span>
             </div>

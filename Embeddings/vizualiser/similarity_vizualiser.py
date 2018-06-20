@@ -16,12 +16,12 @@ class SimiliarityVizualiser:
         self.nlp_models_ = {}
         self.results_directory_ = results_directory
 
-    def load_category(self, fullname, model, category, result):
+    def load_category(self, fullname, model, category, result, dataset, provider, glossary):
         for question_id, problem in result[category].items():
             if not question_id in self.all_problems_:
-                self.all_problems_[question_id] = Problem(question_id, fullname, model, category, problem)
+                self.all_problems_[question_id] = Problem(question_id, fullname, model, category, problem, dataset, provider, glossary)
             else:
-                self.all_problems_[question_id].add_file(fullname, model, problem)
+                self.all_problems_[question_id].add_file(fullname, model, problem, dataset, provider, glossary)
 
     def load_all_problems(self):
         file_categories = set()
@@ -31,17 +31,19 @@ class SimiliarityVizualiser:
                 continue
             result = json.load(open(full_path, 'r'))
             model = os.path.basename(result['model'])
+            dataset = result['dataset']
+            glossary = os.path.basename(result['glossary'])
             provider_mode = result['provider_mode']
             file_without_ext = os.path.splitext(filename)[0]
-            fullname = "%s-%s-%s" % (file_without_ext, model, provider_mode)
-            self.all_files_.append(fullname)
+            # fullname = "%s-%s-%s" % (file_without_ext, model, provider_mode)
+            self.all_files_.append(file_without_ext)
             categories = set(map(lambda x: get_enum_name(ProblemCategory, x), ProblemsClassifier.HANDLED_CATEGORIES))
             for key in result:
                 if not key in categories:
                     continue
                 if not key in file_categories:
                     file_categories.add(key)
-                self.load_category(fullname, model, key, result)
+                self.load_category(file_without_ext, model, key, result, dataset, provider_mode, glossary)
         return file_categories
 
     def load(self):

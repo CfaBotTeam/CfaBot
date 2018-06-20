@@ -83,6 +83,9 @@ function refreshProblem(selected_question) {
         $('#problem_container').html(reply['html']);
         let model1 = reply['model1'];
         $('#model1_container').html(model1);
+        $('#dataset_container').html(reply['dataset']);
+        $('#provider_container').html(reply['provider']);
+        $('#glossary_container').html(reply['glossary']);
         loadComparison(problemId, 0, selectedFile1, model1, 0, 0);
         loadComparison(problemId, 0, selectedFile1, model1, 1, 0);
         loadComparison(problemId, 0, selectedFile1, model1, 2, 0);

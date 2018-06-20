@@ -39,10 +39,14 @@ class ComparisonResult:
 
 
 class FileResult:
-    def __init__(self, problem, model):
+    def __init__(self, problem, model, dataset, provider, glossary):
         self.model_ = model
+        self.dataset_ = dataset
+        self.provider_ = provider
+        self.glossary_ = glossary
         self.choices_ = problem['choices']
         self.predicted_answer_ = problem['predicted_answer']
+        self.success_ = problem['real_answer'] == problem['predicted_answer']
         self.randomly_answered_ = problem['random_answer']
         self.random_label_ = "randomly" if self.randomly_answered_ else ''
         self.comparisons_ = self.parse_comparisons(problem)
@@ -71,17 +75,16 @@ class FileResult:
 
 
 class Problem:
-    def __init__(self, id, fullname, model, category, problem):
+    def __init__(self, id, fullname, model, category, problem, dataset, provider, glossary):
         self.id_ = id
         self.category_ = category
         self.question_ = problem['question']
         self.correct_answer_ = problem['real_answer']
-        self.success_ = problem['real_answer'] == problem['predicted_answer']
         self.file_results_ = {}
-        self.add_file_result(fullname, model, problem)
+        self.add_file_result(fullname, model, problem, dataset, provider, glossary)
 
-    def add_file_result(self, fullname, model, problem):
-        self.file_results_[fullname] = FileResult(problem, model)
+    def add_file_result(self, fullname, model, problem, dataset, provider, glossary):
+        self.file_results_[fullname] = FileResult(problem, model, dataset, provider, glossary)
 
     def get_file_result(self, filename):
         return self.file_results_[filename]
@@ -112,8 +115,12 @@ class Problem:
     def has_file(self, filename):
         return filename in self.file_results_
 
-    def add_file(self, filename, model, problem):
+    def add_file(self, filename, model, problem, dataset, provider, glossary):
         if self.has_file(filename):
             print("Warning when loading data => Found the question '%s' twice for the same filename %s" % (self.id_, filename))
             return
-        self.add_file_result(filename, model, problem)
+        self.add_file_result(filename, model, problem, dataset, provider, glossary)
+
+    def is_success(self, file):
+        file_result = self.get_file_result(file)
+        return file_result.success_

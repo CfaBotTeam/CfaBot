@@ -150,7 +150,6 @@ body {
 }
 
 .choice_comparison_container {
-    height: 300px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;

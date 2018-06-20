@@ -25,7 +25,7 @@
                             </select>
                         </td>
                         <td class="label">File 2</td>
-                        <td>
+                        <td style="min-width: 500px">
                             <select id="file2" onchange="filterQuestions()">
                                 <option value="None" selected="selected">No comparison</option>
                                 {% for file in files %}
@@ -41,6 +41,18 @@
                         <td id="model2_container"></td>
                     </tr>
                     <tr>
+                        <td class="label">Dataset</td>
+                        <td colspan="3" id="dataset_container"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Provider</td>
+                        <td colspan="3" id="provider_container"></td>
+                    </tr>
+                    <tr>
+                        <td class="label">Glossary</td>
+                        <td colspan="3" id="glossary_container"></td>
+                    </tr>
+                    <tr>
                         <td class="label">Category</td>
                         <td colspan="3">
                             <select id="category" onchange="filterQuestions()">
@@ -53,7 +65,6 @@
                     <tr>
                         <td class="label">Question</td>
                         <td id="questions_container">
-                            {% include 'questions.html' %}
                         </td>
                         <td class="label">Label</td>
                         <td id="choices_container">

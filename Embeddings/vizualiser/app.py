@@ -16,7 +16,9 @@ app.secret_key = str(uuid.uuid4())
 @app.route('/', methods=['GET'])
 def render_index():
     files, categories = vizualiser.load()
-    selected_problems = vizualiser.select_problems(files[0], categories[0])
+    selected_problems = []
+    if len(files) > 0:
+        selected_problems = vizualiser.select_problems(files[0], categories[0])
     return render_template('index.html', files=files, categories=categories, problems=selected_problems)
 
 
@@ -25,7 +27,7 @@ def refresh_questions():
     file1 = request.form['file1']
     category = request.form['category']
     selected_problems = vizualiser.select_problems(file1, category)
-    return render_template('questions.html', problems=selected_problems)
+    return render_template('questions.html', problems=selected_problems, file=file1)
 
 
 @app.route('/refresh-problem', methods=['POST'])
@@ -34,7 +36,12 @@ def refresh_problem():
     file1 = request.form['file1']
     files = [file1]
     file1_result = problem.get_file_result(file1)
-    result = {'model1': file1_result.model_}
+    result = {
+        'model1': file1_result.model_,
+        'dataset': file1_result.dataset_,
+        'provider': file1_result.provider_,
+        'glossary': file1_result.glossary_
+    }
     if 'file2' in request.form:
         file2 = request.form['file2']
         file2_result = problem.get_file_result(file2)
