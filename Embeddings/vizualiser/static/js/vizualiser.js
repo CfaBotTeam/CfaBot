@@ -29,6 +29,7 @@ function filterQuestions() {
         data['file2'] = selectedFile2;
     } else {
         hideOrShowModel2Labels(false);
+        refreshModelValues(2, {});
     }
     $.post("/refresh-questions", data).done(function (reply) {
         let container = $('#questions_container');
@@ -84,14 +85,24 @@ function refresh_questions_style(selected_question) {
     });
 }
 
+function getNumberValue(values, key) {
+    if (values[key]) {
+        return values[key];
+    }
+    return '';
+}
+
+function refreshModelValues(number, values) {
+    $('#dataset' + number + '_container').html(getNumberValue(values, 'dataset' + number));
+    $('#provider' + number + '_container').html(getNumberValue(values, 'provider' + number));
+    $('#glossary' + number + '_container').html(getNumberValue(values, 'glossary' + number));
+}
+
 function displayProblemResult(reply, baseIndex, selectedFile) {
     let number = baseIndex + 1;
-    let model = reply['model' + number];
+    model = reply['model' + number];
     if (!model) return;
-    $('#model' + number + '_container').html(model);
-    $('#dataset' + number + '_container').html(reply['dataset' + number]);
-    $('#provider' + number + '_container').html(reply['provider' + number]);
-    $('#glossary' + number + '_container').html(reply['glossary' + number]);
+    refreshModelValues(number, reply);
     loadComparison(problemId, baseIndex, selectedFile, model, 0, 0);
     loadComparison(problemId, baseIndex, selectedFile, model, 1, 0);
     loadComparison(problemId, baseIndex, selectedFile, model, 2, 0);
