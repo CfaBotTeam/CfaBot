@@ -31,13 +31,12 @@ function loadComparison(problem_id, file_index, filename, model, choice_index, q
         'comparison_index': select.selectedOptions[0].value
     };
     $.post("/refresh-comparison", data).done(function (reply) {
-        var choice_container_id = '#choice' + file_index + '_' + choice_index + '_comparison_container';
-        var choice_left_id = '#choice' + file_index + '_' + choice_index + '_comparison_left';
-        var choice_container = $(choice_container_id);
-        choice_container.html(reply['html']);
+        var choice_left_id = '.choice' + file_index + '_' + choice_index + '_comparison_left';
+        var container = $(choice_left_id + ' .choice_comparison_container');
+        container.html(reply['html']);
         $(choice_left_id + ' .q_source_container').html(reply['q_source']);
         $(choice_left_id + ' .c_source_container').html(reply['c_source']);
-        loadSvg(file_index, choice_index);
+        loadSvg(container);
     });
 }
 
@@ -100,12 +99,12 @@ function refreshProblem(selected_question) {
     });
 }
 
-function loadSvg(file_index, choice_index) {
-    let container_name = 'choice' + file_index + '_' + choice_index + '_comparison_container';
-    $("#" + container_name).css('table-layout', 'auto');
-    let sentence1_container = $('#' + container_name + ' #sentence1_container');
-    let sentence2_container = $('#' + container_name + ' #sentence2_container');
-    let d3_svg = d3.select('#' + container_name + ' svg');
+function loadSvg(container) {
+    container.css('table-layout', 'auto');
+    let sentence1_container = container.find('#sentence1_container');
+    let sentence2_container = container.find('#sentence2_container');
+    let svg = container.find('svg');
+    let d3_svg = d3.select(svg.get()[0]);
     max_width = sentence1_container.get()[0].scrollWidth;
     if (sentence2_container.get()[0].scrollWidth > max_width) {
         max_width = sentence2_container.get()[0].scrollWidth;
@@ -142,7 +141,7 @@ function loadSvg(file_index, choice_index) {
         child1.data("lines", child1_lines);
         child1.data("children", child1_children);
     });
-    $("#" + container_name).css('table-layout', 'fixed');
+    container.css('table-layout', 'fixed');
 }
 
 function getSvg(token) {

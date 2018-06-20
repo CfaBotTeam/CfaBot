@@ -31,13 +31,8 @@ body {
     table-layout: fixed;
 }
 
-#problem_container tr:nth-child(even) {
-    background: #f1f1f1!important;
-}
-
 #problem_container td {
     padding: 10px;
-    height: 300px;
 }
 
 #questions_list {
@@ -103,18 +98,34 @@ body {
 }
 
 .label {
-    position: relative;
     width: 100px;
     height: 100%;
     font-weight: bold;
 }
 
 .comparison-info {
-    position: relative;
     width: 300px;
-    height: 100%;
-    font-weight: bold;
     border-right: solid 1px #00008052;
+}
+
+.comparison-info .comp-title {
+    font-weight: bold;
+}
+
+#problem_container .top {
+    vertical-align: top;
+}
+
+#problem_container .center {
+    text-align: center;
+}
+
+#problem_container .bottom {
+    vertical-align: bottom;
+}
+
+#problem_container tr.even {
+    background: #f1f1f1!important;
 }
 
 .sub_label {
@@ -126,8 +137,9 @@ body {
     min-width: 120px;
 }
 
-.choice_ordinal div {
+.choice_ordinal {
     text-align: center;
+    font-weight: bold;
 }
 
 .option_selector {
@@ -138,6 +150,7 @@ body {
 }
 
 .choice_comparison_container {
+    height: 300px;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
