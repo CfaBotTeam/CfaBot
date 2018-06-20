@@ -25,9 +25,13 @@ def render_index():
 @app.route('/refresh-questions', methods=['POST'])
 def refresh_questions():
     file1 = request.form['file1']
+    files = [file1]
+    if 'file2' in request.form:
+        file2 = request.form['file2']
+        files = [file1, file2]
     category = request.form['category']
     selected_problems = vizualiser.select_problems(file1, category)
-    return render_template('questions.html', problems=selected_problems, file=file1)
+    return render_template('questions.html', problems=selected_problems, files=files)
 
 
 @app.route('/refresh-problem', methods=['POST'])
@@ -38,14 +42,17 @@ def refresh_problem():
     file1_result = problem.get_file_result(file1)
     result = {
         'model1': file1_result.model_,
-        'dataset': file1_result.dataset_,
-        'provider': file1_result.provider_,
-        'glossary': file1_result.glossary_
+        'dataset1': file1_result.dataset_,
+        'provider1': file1_result.provider_,
+        'glossary1': file1_result.glossary_
     }
     if 'file2' in request.form:
         file2 = request.form['file2']
         file2_result = problem.get_file_result(file2)
         result['model2'] = file2_result.model_
+        result['dataset2'] = file2_result.dataset_
+        result['provider2'] = file2_result.provider_
+        result['glossary2'] = file2_result.glossary_
         files.append(file2)
     comparisons = problem.get_comparison_results(files)
     result['html'] = render_template('problem.html', problem=problem, comparisons=comparisons)
@@ -85,7 +92,8 @@ def refresh_comparison():
     return jsonify({
         'html': render_template('comparison.html', nlp_comparison=nlp_comparison),
         'q_source': comparison.q_source_,
-        'c_source': comparison.c_source_
+        'c_source': comparison.c_source_,
+        'score': comparison.score_
     })
 
 

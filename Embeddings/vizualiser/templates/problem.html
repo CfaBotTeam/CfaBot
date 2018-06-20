@@ -1,7 +1,8 @@
 <table>
     {% for comp in comparisons %}
-        {% set even = 'even' if loop.index % 2 == 0 else '' %}
-        <tr class="{{ even }} choice{{ comp.f_index_ }}_{{ comp.c_index_ }}_comparison_left">
+        {% set c_left_container_id = 'choice%d_%d_comparison_left' % (comp.f_index_, comp.c_index_) %}
+        {% set row_class = c_left_container_id + (' even' if loop.index % 2 == 0 else '') %}
+        <tr class="{{ row_class }}">
             <td class="comparison-info top">
                 <div class="comp-title">Question</div>
                 <div>
@@ -20,12 +21,15 @@
                 </div>
             </td>
         </tr>
-        <tr class="{{ even }}">
+        <tr class="{{ row_class }}">
             <td class="comparison-info center">
                 <div class="comp-title">{{ comp.c_ordinal_ }}</div>
                 <div class="sub_label">
-                    File {{ comp.f_index_ + 1 }}<br/>
-                    Score: {{ comp.score_ }}
+                    <div>File {{ comp.f_index_ + 1 }}</div>
+                    <div>
+                        <span>Score: </span>
+                        <span class="score_container"></span>
+                    </div>
                 </div>
                 <div class="option_selector">
                     <select id="choice{{ comp.f_index_ }}_{{ comp.c_index_ }}"
@@ -37,7 +41,7 @@
                 </div>
             </td>
         </tr>
-        <tr class="{{ even }} choice{{ comp.f_index_ }}_{{ comp.c_index_ }}_comparison_left">
+        <tr class="{{ row_class }}">
             <td class="comparison-info bottom">
                 <div class="comp-title">Choice</div>
                 <div>

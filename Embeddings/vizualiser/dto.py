@@ -121,6 +121,14 @@ class Problem:
             return
         self.add_file_result(filename, model, problem, dataset, provider, glossary)
 
-    def is_success(self, file):
-        file_result = self.get_file_result(file)
-        return file_result.success_
+    def get_success_indicator(self, files):
+        file1_result = self.get_file_result(files[0])
+        if len(files) > 1:
+            file2_result = self.get_file_result(files[1])
+            if file1_result.success_ != file2_result.success_:
+                if file1_result.success_:
+                    return 'static/img/left_ok_right_ko.png'
+                return 'static/img/left_ko_right_ok.png'
+        if file1_result.success_:
+            return 'static/img/success.png'
+        return 'static/img/failure.png'

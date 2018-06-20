@@ -3,11 +3,33 @@ $('.filter_bar').ready(function() {
     filterQuestions();
 });
 
+function show(jelt, hideOrShow) {
+    if (hideOrShow) {
+        jelt.show();
+    } else {
+        jelt.hide();
+    }
+}
+
+function hideOrShowModel2Labels(hideOrShow) {
+    show($('#model2_label'), hideOrShow);
+    show($('#dataset2_label'), hideOrShow);
+    show($('#provider2_label'), hideOrShow);
+    show($('#glossary2_label'), hideOrShow);
+}
+
 function filterQuestions() {
+    selectedFile1 = $('#file1').val();
+    selectedFile2 = $('#file2').val();
     data = {
-        'file1': $('#file1')[0].selectedOptions[0].value,
-        'category': $('#category')[0].selectedOptions[0].value
+        'file1': selectedFile1,
+        'category': $('#category').val()
     };
+    if (selectedFile2 != 'None') {
+        data['file2'] = selectedFile2;
+    } else {
+        hideOrShowModel2Labels(false);
+    }
     $.post("/refresh-questions", data).done(function (reply) {
         let container = $('#questions_container');
         container.html(reply);
@@ -36,6 +58,7 @@ function loadComparison(problem_id, file_index, filename, model, choice_index, q
         container.html(reply['html']);
         $(choice_left_id + ' .q_source_container').html(reply['q_source']);
         $(choice_left_id + ' .c_source_container').html(reply['c_source']);
+        $(choice_left_id + ' .score_container').html(reply['score']);
         loadSvg(container);
     });
 }
@@ -61,16 +84,30 @@ function refresh_questions_style(selected_question) {
     });
 }
 
+function displayProblemResult(reply, baseIndex, selectedFile) {
+    let number = baseIndex + 1;
+    let model = reply['model' + number];
+    if (!model) return;
+    $('#model' + number + '_container').html(model);
+    $('#dataset' + number + '_container').html(reply['dataset' + number]);
+    $('#provider' + number + '_container').html(reply['provider' + number]);
+    $('#glossary' + number + '_container').html(reply['glossary' + number]);
+    loadComparison(problemId, baseIndex, selectedFile, model, 0, 0);
+    loadComparison(problemId, baseIndex, selectedFile, model, 1, 0);
+    loadComparison(problemId, baseIndex, selectedFile, model, 2, 0);
+    loadComparison(problemId, baseIndex, selectedFile, model, 3, 0);
+}
+
 function refreshProblem(selected_question) {
     problemId = $(selected_question).data('problem-id');
     refresh_questions_style(selected_question);
     selectedFile1 = $('#file1').val();
+    selectedFile2 = $('#file2').val();
     data = {
         'problem_id': problemId,
         'file1': selectedFile1,
     };
-    if ($('#file2').val() != 'None') {
-        selectedFile2 = $('#file2').val();
+    if (selectedFile2 != 'None') {
         data['file2'] = selectedFile2;
     }
     $.post("/refresh-problem-details", data).done(function (reply) {
@@ -81,24 +118,11 @@ function refreshProblem(selected_question) {
     });
     $.post("/refresh-problem", data).done(function (reply) {
         $('#problem_container').html(reply['html']);
-        let model1 = reply['model1'];
-        $('#model1_container').html(model1);
-        $('#dataset_container').html(reply['dataset']);
-        $('#provider_container').html(reply['provider']);
-        $('#glossary_container').html(reply['glossary']);
-        loadComparison(problemId, 0, selectedFile1, model1, 0, 0);
-        loadComparison(problemId, 0, selectedFile1, model1, 1, 0);
-        loadComparison(problemId, 0, selectedFile1, model1, 2, 0);
-        loadComparison(problemId, 0, selectedFile1, model1, 3, 0);
-
-        let model2 = reply['model2'];
-        if (model2) {
-            $('#model2_container').html(model2);
-            loadComparison(problemId, 1, selectedFile2, model2, 0, 0);
-            loadComparison(problemId, 1, selectedFile2, model2, 1, 0);
-            loadComparison(problemId, 1, selectedFile2, model2, 2, 0);
-            loadComparison(problemId, 1, selectedFile2, model2, 3, 0);
+        displayProblemResult(reply, 0, selectedFile1);
+        if (reply['model2']) {
+            hideOrShowModel2Labels(true);
         }
+        displayProblemResult(reply, 1, selectedFile2);
     });
 }
 
