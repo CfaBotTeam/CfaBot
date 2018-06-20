@@ -73,7 +73,7 @@ function changeComparison(problem_id, file_index, filename, choice_index, questi
 }
 
 function refresh_questions_style(selected_question) {
-    let lis = $('#questions_container ul>li');
+    let lis = $('#questions_list .question');
     lis.each(function(i) {
         let li = $(this);
         let fontWeight = 'normal';

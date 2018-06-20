@@ -62,7 +62,5 @@ class Glossary:
 
 
 class GlossaryLoader:
-    FILEPATH = 'Data/material_handbook/glossary_manual.json'
-
-    def load(self):
-        return Glossary(json.load(open(self.FILEPATH, 'r')))
+    def load(self, filepath):
+        return Glossary(json.load(open(filepath, 'r')))

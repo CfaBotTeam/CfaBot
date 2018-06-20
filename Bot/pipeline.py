@@ -16,7 +16,7 @@ class Pipeline:
         self.args_ = args
         self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
         self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
-        glossary = GlossaryLoader().load()
+        glossary = GlossaryLoader().load(args.glossary)
         def_finder = DrqaDefinitionFinder()
         def_provider = DefinitionsProvider(glossary, def_finder, args.provider_mode)
         self.problems_reader_ = ProblemsReader(args.dataset)
@@ -71,7 +71,7 @@ class Pipeline:
         results = {
             'model': self.model_name_,
             'dataset': self.args_.dataset,
-            'glossary': GlossaryLoader.FILEPATH,
+            'glossary': self.args_.glossary,
             'provider_mode': self.args_.provider_mode,
             'overall': {'nb_total': 0, 'nb_correct': 0},
         }

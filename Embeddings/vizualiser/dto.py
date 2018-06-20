@@ -87,6 +87,8 @@ class Problem:
         self.file_results_[fullname] = FileResult(problem, model, dataset, provider, glossary)
 
     def get_file_result(self, filename):
+        if filename not in self.file_results_:
+            return None
         return self.file_results_[filename]
 
     def get_comparisons(self, filename):
@@ -125,6 +127,8 @@ class Problem:
         file1_result = self.get_file_result(files[0])
         if len(files) > 1:
             file2_result = self.get_file_result(files[1])
+            if file2_result is None:
+                return 'static/img/left_ok_right_ko.png'
             if file1_result.success_ != file2_result.success_:
                 if file1_result.success_:
                     return 'static/img/left_ok_right_ko.png'

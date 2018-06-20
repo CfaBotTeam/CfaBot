@@ -8,8 +8,10 @@ pd.options.mode.chained_assignment = None
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--dataset', type=str, default='Data/qa_practice_exams_new/def_new_problems.xml')
-    parser.add_argument('--dataset', type=str, default='Data/qa_mock_exams/all_problems.xml')
+    parser.add_argument('--dataset', type=str, default='Data/qa_practice_exams_new/def_new_problems.xml')
+    # parser.add_argument('--dataset', type=str, default='Data/qa_mock_exams/all_problems.xml')
+    parser.add_argument('--glossary', type=str, default='Data/material_handbook/glossary_manual.json')
+    # parser.add_argument('--glossary', type=str, default='Data/material_handbook/glossary_merged.json')
     parser.add_argument('--provider-mode', type=str, default=DefinitionsProvider.GLOSS_ONLY,
                         help=("Enable to defined the behavior when fetching definitions."
                               "Either look only glossary ('gloss-only'), "
