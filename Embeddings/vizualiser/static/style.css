@@ -142,13 +142,6 @@ body {
     font-weight: bold;
 }
 
-.option_selector {
-    margin-top: 10px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .choice_comparison_container {
     overflow-x: auto;
     overflow-y: hidden;

@@ -91,14 +91,14 @@ class SimiliarityVizualiser:
             sentence_compared_tokens.append(ComparedToken(token1, token1_scores))
         return sentence_compared_tokens
 
-    def get_comparison(self, problem_id, question_index, choice_index, comparison_index, filename):
+    def get_comparison(self, problem_id, filename, choice_index, q_option_index, c_option_index):
         problem = self.get_problem_by_id(problem_id)
         comparisons = problem.get_comparisons(filename)
-        if question_index > len(comparisons) - 1 or \
-           choice_index > len(comparisons[question_index]) - 1 or \
-           comparison_index > len(comparisons[question_index][choice_index]) - 1:
+        if q_option_index > len(comparisons) - 1 or \
+           choice_index > len(comparisons[q_option_index]) - 1 or \
+           c_option_index > len(comparisons[q_option_index][choice_index]) - 1:
             return None
-        return comparisons[question_index][choice_index][comparison_index]
+        return comparisons[q_option_index][choice_index][c_option_index]
 
     def get_nlp_comparison(self, comparison, model):
         nlp = self.get_nlp(model)

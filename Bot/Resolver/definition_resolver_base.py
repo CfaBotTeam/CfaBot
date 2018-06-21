@@ -5,12 +5,11 @@ from Bot.Classification import ProblemCategory
 
 
 class DefinitionsComparison:
-    def __init__(self, question_keyword, question_definitions, choices, choices_keywords, choices_definitions):
+    def __init__(self, question_keyword, question_definitions, choices, choices_keywords_defs):
         self.question_keyword_ = question_keyword
         self.question_definitions_ = question_definitions
         self.choices_ = choices
-        self.choices_keywords_ = choices_keywords
-        self.choices_definitions_ = choices_definitions
+        self.choices_keywords_defs_ = choices_keywords_defs
 
     def has_question_definitions(self):
         return self.question_definitions_ is not None
@@ -55,18 +54,18 @@ class DefinitionResolverBase:
     def perform_comparison(self, comparison, comparisons):
         max_score = 0
         max_index = -1
-        c_comparisons = []
         for q_def, q_source in comparison.question_definitions_:
+            c_comparisons = []
             q_comparisons = {'q_keyword': comparison.question_keyword_, 'q_def': q_def, 'source': q_source, 'c_comparisons': c_comparisons}
             comparisons.append(q_comparisons)
             for i_choice, choice in enumerate(comparison.choices_):
-                c_keyword = comparison.choices_keywords_[i_choice]
-                definitions = comparison.choices_definitions_[i_choice]
-                if definitions is None:
+                keyword_definitions = comparison.choices_keywords_defs_[i_choice]
+                if keyword_definitions is None:
                     continue
+                c_keyword, c_defs = keyword_definitions
                 c_def_comparisons = []
                 c_comparisons.append(c_def_comparisons)
-                for c_def, c_source in definitions:
+                for c_def, c_source in c_defs:
                     score = self.scorer_.score(c_def, q_def)
                     c_def_comparisons.append({'c_keyword': c_keyword, 'c_def': c_def, 'source': c_source, 'score': score})
                     if score > max_score:

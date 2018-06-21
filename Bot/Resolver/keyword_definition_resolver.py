@@ -9,10 +9,9 @@ from Bot.Resolver import DefinitionsComparison
 class KeywordDefResolverBase(DefinitionResolverBase):
     def get_comparison(self, problem, choices):
         subject = problem[SubjectFeatures.Q_SUBJECT]
-        q_defs = self.def_provider_.get_definitions(subject, loosly=True)
-        choices_keywords = [''] * len(choices)
-        choices_definitions = self.get_choices_definitions(problem, choices)
-        return DefinitionsComparison(subject, q_defs, choices, choices_keywords, choices_definitions)
+        q_keyword, q_defs = self.def_provider_.get_definitions(subject, loosly=True)
+        choices_keywords_defs = self.get_choices_definitions(problem, choices)
+        return DefinitionsComparison(q_keyword, q_defs, choices, choices_keywords_defs)
 
     def get_choices_definitions(self, problem, choices):
         raise NotImplementedError("This method need to be overloaded")
@@ -20,7 +19,7 @@ class KeywordDefResolverBase(DefinitionResolverBase):
 
 class KeywordDefResolver(KeywordDefResolverBase):
     def get_choices_definitions(self, problem, choices):
-        return [[[choice, DefinitionSource.CHOICE]] for choice in choices]
+        return [['', [[choice, DefinitionSource.CHOICE]]] for choice in choices]
 
 
 class KeywordDefStartEndResolver(KeywordDefResolverBase):
@@ -34,4 +33,4 @@ class KeywordDefStartEndResolver(KeywordDefResolverBase):
 
     def get_choices_definitions(self, problem, choices):
         def_start = self.get_right_of_verb(problem)
-        return [[['%s %s' % (def_start, choice), DefinitionSource.CHOICE]] for choice in choices]
+        return [['', [['%s %s' % (def_start, choice), DefinitionSource.CHOICE]]] for choice in choices]

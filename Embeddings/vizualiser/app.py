@@ -84,10 +84,10 @@ def refresh_comparison():
     problem_id = request.form['problem_id']
     model = request.form['model']
     filename = request.form['filename']
-    question_index = int(request.form['question_index'])
     choice_index = int(request.form['choice_index'])
-    comparison_index = int(request.form['comparison_index'])
-    comparison = vizualiser.get_comparison(problem_id, question_index, choice_index, comparison_index, filename)
+    q_option_index = int(request.form['q_option_index'])
+    c_option_index = int(request.form['c_option_index'])
+    comparison = vizualiser.get_comparison(problem_id, filename, choice_index, q_option_index, c_option_index)
     nlp_comparison = vizualiser.get_nlp_comparison(comparison, model)
     return jsonify({
         'html': render_template('comparison.html', nlp_comparison=nlp_comparison),

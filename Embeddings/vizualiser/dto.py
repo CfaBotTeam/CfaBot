@@ -22,7 +22,7 @@ class Comparison:
 
 
 class ComparisonResult:
-    def __init__(self, comp, options, c_ordinal, f_index, o_index, c_index, file):
+    def __init__(self, comp, c_options, c_ordinal, f_index, c_index, q_options, file):
         self.q_keyword_ = comp.q_keyword_
         self.q_def_ = comp.q_definition_
         self.q_source_ = comp.q_source_
@@ -30,10 +30,10 @@ class ComparisonResult:
         self.c_keyword_ = comp.c_keyword_
         self.c_source_ = comp.c_source_
         self.c_def_ = comp.c_definition_
-        self.options_ = options
+        self.c_options_ = c_options
         self.c_ordinal_ = c_ordinal
+        self.q_options_ = q_options
         self.f_index_ = f_index
-        self.o_index_ = o_index
         self.c_index_ = c_index
         self.file_ = file
 
@@ -102,11 +102,12 @@ class Problem:
             c_ordinal = chr(i_choice + ord('A'))
             for i_file, file in enumerate(files):
                 file_result = self.get_file_result(file)
-                comparisons_options = file_result.comparisons_[0][i_choice]
-                options = list(range(len(comparisons_options)))
-                o_index = 0
-                o_comp = comparisons_options[o_index]
-                res = ComparisonResult(o_comp, options, c_ordinal, i_file, o_index, i_choice, file)
+                q_options = list(range(len(file_result.comparisons_)))
+                q_comparisons = file_result.comparisons_[0] # we select the first question definition for the init
+                c_comparisons = q_comparisons[i_choice]
+                c_options = list(range(len(c_comparisons)))
+                o_comp = c_comparisons[0] # we select the first choice definition for the init
+                res = ComparisonResult(o_comp, c_options, c_ordinal, i_file, i_choice, q_options, file)
                 comp_results.append(res)
         return comp_results
 
@@ -123,16 +124,19 @@ class Problem:
             return
         self.add_file_result(filename, model, problem, dataset, provider, glossary)
 
+    def get_file_result_success(self, file_result):
+        if file_result.success_:
+            return 'static/img/success.png'
+        return 'static/img/failure.png'
+
     def get_success_indicator(self, files):
         file1_result = self.get_file_result(files[0])
         if len(files) > 1:
             file2_result = self.get_file_result(files[1])
             if file2_result is None:
-                return 'static/img/left_ok_right_ko.png'
+                return self.get_file_result_success(file1_result)
             if file1_result.success_ != file2_result.success_:
                 if file1_result.success_:
                     return 'static/img/left_ok_right_ko.png'
                 return 'static/img/left_ko_right_ok.png'
-        if file1_result.success_:
-            return 'static/img/success.png'
-        return 'static/img/failure.png'
+        return self.get_file_result_success(file1_result)

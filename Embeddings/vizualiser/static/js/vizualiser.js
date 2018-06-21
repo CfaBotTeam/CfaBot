@@ -39,19 +39,17 @@ function filterQuestions() {
     });
 }
 
-function loadComparison(problem_id, file_index, filename, model, choice_index, question_index) {
-    choice_id = 'choice' + file_index + '_' + choice_index;
-    select = $('#' + choice_id)[0];
-    if (!select) return;
-    options = select.selectedOptions;
-    if (!options || options.length == 0) return;
+function loadComparison(problem_id, file_index, filename, model, choice_index) {
+    c_select = $('#c_choice' + file_index + '_' + choice_index);
+    q_select = $('#q_choice' + file_index + '_' + choice_index);
+    if (c_select.length == 0 || q_select.length == 0) return;
     data = {
-        'problem_id': problem_id,
-        'filename': filename,
         'model': model,
-        'question_index': question_index,
+        'filename': filename,
+        'problem_id': problem_id,
         'choice_index': choice_index,
-        'comparison_index': select.selectedOptions[0].value
+        'q_option_index': q_select.val(),
+        'c_option_index': c_select.val()
     };
     $.post("/refresh-comparison", data).done(function (reply) {
         var choice_left_id = '.choice' + file_index + '_' + choice_index + '_comparison_left';
@@ -104,10 +102,10 @@ function displayProblemResult(reply, baseIndex, selectedFile) {
     model = reply['model' + number];
     if (!model) return;
     refreshModelValues(number, reply);
-    loadComparison(problemId, baseIndex, selectedFile, model, 0, 0);
-    loadComparison(problemId, baseIndex, selectedFile, model, 1, 0);
-    loadComparison(problemId, baseIndex, selectedFile, model, 2, 0);
-    loadComparison(problemId, baseIndex, selectedFile, model, 3, 0);
+    loadComparison(problemId, baseIndex, selectedFile, model, 0);
+    loadComparison(problemId, baseIndex, selectedFile, model, 1);
+    loadComparison(problemId, baseIndex, selectedFile, model, 2);
+    loadComparison(problemId, baseIndex, selectedFile, model, 3);
 }
 
 function refreshProblem(selected_question) {

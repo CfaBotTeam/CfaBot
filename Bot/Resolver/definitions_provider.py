@@ -34,22 +34,23 @@ class DefinitionsProvider:
 
     def get_definitions(self, keyword, loosly=False):
         if self.mode_ == self.GLOSS_ONLY:
-            defs = self.get_glossary_definitions(loosly, keyword)
-            return self.wrap_with_source(defs, DefinitionSource.GLOSS)
+            glosskey, defs = self.get_glossary_definitions(loosly, keyword)
+            return glosskey, self.wrap_with_source(defs, DefinitionSource.GLOSS)
         if self.mode_ == self.DRQA_ONLY:
-            defs = self.drqa_def_finder_.find_definitions(keyword)
-            return self.wrap_with_source(defs, DefinitionSource.DRQA)
+            glosskey, defs = self.drqa_def_finder_.find_definitions(keyword)
+            return glosskey, self.wrap_with_source(defs, DefinitionSource.DRQA)
         if self.mode_ == self.DRQA_FALLBACK:
             if self.is_in_glossary(loosly, keyword):
-                defs = self.get_glossary_definitions(loosly, keyword)
-                return self.wrap_with_source(defs, DefinitionSource.GLOSS)
+                glosskey, defs = self.get_glossary_definitions(loosly, keyword)
+                return glosskey, self.wrap_with_source(defs, DefinitionSource.GLOSS)
             defs = self.drqa_def_finder_.find_definitions(keyword)
-            return self.wrap_with_source(defs, DefinitionSource.DRQA)
+            return keyword, self.wrap_with_source(defs, DefinitionSource.DRQA)
         # Otherwise both mode
-        gloss_defs = self.get_glossary_definitions(loosly, keyword)
+        glosskey, gloss_defs = self.get_glossary_definitions(loosly, keyword)
         drqa_defs = self.drqa_def_finder_.find_definitions(keyword)
         drqa_defs = self.wrap_with_source(drqa_defs, DefinitionSource.DRQA)
         if gloss_defs is None:
-            return drqa_defs
+            return keyword, drqa_defs
         gloss_defs = self.wrap_with_source(gloss_defs, DefinitionSource.GLOSS)
+        drqa_defs = list(zip([keyword] * len(drqa_defs), drqa_defs))
         return gloss_defs + drqa_defs

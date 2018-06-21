@@ -48,8 +48,8 @@ class Glossary:
             return None
         defs = self.glossary_[keyword]
         if isinstance(defs, str):
-            return [defs]
-        return defs
+            return keyword, [defs]
+        return keyword, defs
 
     def get_loose_definition(self, term):
         keyword = self.get_loosly_matching_keyword(term)
@@ -57,8 +57,8 @@ class Glossary:
             return None
         defs = self.glossary_[keyword]
         if isinstance(defs, str):
-            return [defs]
-        return defs
+            return keyword, [defs]
+        return keyword, defs
 
 
 class GlossaryLoader:
