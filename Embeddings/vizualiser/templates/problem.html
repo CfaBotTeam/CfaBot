@@ -26,7 +26,8 @@
                     <select id="q_choice{{ comp.f_index_ }}_{{ comp.c_index_ }}"
                             onchange="changeComparison('{{ problem.id_ }}', {{ comp.f_index_ }}, '{{ comp.file_ }}', {{ comp.c_index_ }})">
                         {% for opt in comp.q_options_ %}
-                            <option value="{{ opt }}">Option {{ opt }}</option>
+                            {% set selected = 'selected' if (loop.index - 1) == comp.max_score_q_index_ else '' %}
+                            <option value="{{ opt }}" {{ selected }}>Option {{ opt }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -72,7 +73,8 @@
                     <select id="c_choice{{ comp.f_index_ }}_{{ comp.c_index_ }}"
                             onchange="changeComparison('{{ problem.id_ }}', {{ comp.f_index_ }}, '{{ comp.file_ }}', {{ comp.c_index_ }})">
                         {% for opt in comp.c_options_ %}
-                            <option value="{{ opt }}">Option {{ opt }}</option>
+                            {% set selected = 'selected' if (loop.index - 1) == comp.max_score_c_index_ else '' %}
+                            <option value="{{ opt }}" {{ selected }}>Option {{ opt }}</option>
                         {% endfor %}
                     </select>
                 </div>

@@ -25,7 +25,7 @@ class Comparison:
 
 
 class ComparisonResult:
-    def __init__(self, comp, c_options, c_ordinal, f_index, c_index, q_options, file):
+    def __init__(self, comp, c_options, c_ordinal, f_index, c_index, q_options, file, max_score_q_index, max_score_c_index):
         self.q_keyword_ = comp.q_keyword_
         self.q_gloss_keyword_ = comp.q_gloss_keyword_
         self.q_def_ = comp.q_definition_
@@ -41,6 +41,8 @@ class ComparisonResult:
         self.f_index_ = f_index
         self.c_index_ = c_index
         self.file_ = file
+        self.max_score_q_index_ = max_score_q_index
+        self.max_score_c_index_ = max_score_c_index
 
 
 class FileResult:
@@ -102,6 +104,20 @@ class Problem:
     def get_comparisons(self, filename):
         return self.file_results_[filename].comparisons_
 
+    def get_choice_max_score_indexes(self, comparisons, i_choice):
+        max_score = 0
+        max_q_index = 0
+        max_c_index = 0
+        for i_q_comp, q_comparison in enumerate(comparisons):
+            c_comparisons = q_comparison[i_choice]
+            for i_c_comp, c_comparison in enumerate(c_comparisons):
+                cur_score = float(c_comparison.score_)
+                if cur_score > max_score:
+                    max_score = cur_score
+                    max_q_index = i_q_comp
+                    max_c_index = i_c_comp
+        return max_q_index, max_c_index
+
     def get_comparison_results(self, files):
         first_file = list(self.file_results_.keys())[0]
         choices = self.file_results_[first_file].choices_
@@ -111,11 +127,12 @@ class Problem:
             for i_file, file in enumerate(files):
                 file_result = self.get_file_result(file)
                 q_options = list(range(len(file_result.comparisons_)))
-                q_comparisons = file_result.comparisons_[0] # we select the first question definition for the init
+                max_score_q_index, max_score_c_index = self.get_choice_max_score_indexes(file_result.comparisons_, i_choice)
+                q_comparisons = file_result.comparisons_[max_score_q_index]
                 c_comparisons = q_comparisons[i_choice]
                 c_options = list(range(len(c_comparisons)))
-                o_comp = c_comparisons[0] # we select the first choice definition for the init
-                res = ComparisonResult(o_comp, c_options, c_ordinal, i_file, i_choice, q_options, file)
+                o_comp = c_comparisons[max_score_c_index]
+                res = ComparisonResult(o_comp, c_options, c_ordinal, i_file, i_choice, q_options, file, max_score_q_index, max_score_c_index)
                 comp_results.append(res)
         return comp_results
 
