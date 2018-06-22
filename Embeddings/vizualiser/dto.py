@@ -11,23 +11,28 @@ class NlpComparison:
 
 
 class Comparison:
-    def __init__(self, q_definition, q_source, q_keyword, c_definition, c_source, c_keyword, score):
+    def __init__(self, q_definition, q_source, q_keyword, q_gloss_keyword,
+                 c_definition, c_source, c_keyword, c_gloss_keyword, score):
         self.q_definition_ = q_definition
         self.q_source_ = q_source
         self.q_keyword_ = q_keyword
+        self.q_gloss_keyword_ = q_gloss_keyword
         self.c_definition_ = c_definition
         self.c_source_ = c_source
         self.c_keyword_ = c_keyword
+        self.c_gloss_keyword_ = c_gloss_keyword
         self.score_ = score
 
 
 class ComparisonResult:
     def __init__(self, comp, c_options, c_ordinal, f_index, c_index, q_options, file):
         self.q_keyword_ = comp.q_keyword_
+        self.q_gloss_keyword_ = comp.q_gloss_keyword_
         self.q_def_ = comp.q_definition_
         self.q_source_ = comp.q_source_
         self.score_ = comp.score_
         self.c_keyword_ = comp.c_keyword_
+        self.c_gloss_keyword_ = comp.c_gloss_keyword_
         self.c_source_ = comp.c_source_
         self.c_def_ = comp.c_definition_
         self.c_options_ = c_options
@@ -55,17 +60,20 @@ class FileResult:
         result = []
         for comparison in problem['comparisons']:
             q_def = comparison['q_def']
-            q_keyword = comparison['q_keyword'] if 'q_keyword' in comparison else ''
+            q_keyword = comparison['q_keyword']
+            q_gloss_keyword = comparison['q_gloss_keyword']
             q_source = comparison['source']
             choice_comparisons = []
             for c_comp in comparison['c_comparisons']:
                 c_comp_options = []
                 for c_comp_option in c_comp:
                     c_def = c_comp_option['c_def']
-                    c_keyword = c_comp_option['c_keyword'] if 'c_keyword' in c_comp_option else ''
+                    c_keyword = c_comp_option['c_keyword']
+                    c_gloss_keyword = c_comp_option['c_gloss_keyword']
                     c_source = c_comp_option['source']
                     score = self.format_score(c_comp_option['score'])
-                    c_comp_options.append(Comparison(q_def, q_source, q_keyword, c_def, c_source, c_keyword, score))
+                    c_comp_options.append(Comparison(q_def, q_source, q_keyword, q_gloss_keyword, c_def,
+                                                     c_source, c_keyword, c_gloss_keyword, score))
                 choice_comparisons.append(c_comp_options)
             result.append(choice_comparisons)
         return result

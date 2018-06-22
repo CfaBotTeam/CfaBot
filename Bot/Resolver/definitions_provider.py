@@ -46,11 +46,13 @@ class DefinitionsProvider:
             defs = self.drqa_def_finder_.find_definitions(keyword)
             return keyword, self.wrap_with_source(defs, DefinitionSource.DRQA)
         # Otherwise both mode
-        glosskey, gloss_defs = self.get_glossary_definitions(loosly, keyword)
+        try:
+            glosskey, gloss_defs = self.get_glossary_definitions(loosly, keyword)
+        except Exception as e:
+            pass
         drqa_defs = self.drqa_def_finder_.find_definitions(keyword)
         drqa_defs = self.wrap_with_source(drqa_defs, DefinitionSource.DRQA)
         if gloss_defs is None:
             return keyword, drqa_defs
         gloss_defs = self.wrap_with_source(gloss_defs, DefinitionSource.GLOSS)
-        drqa_defs = list(zip([keyword] * len(drqa_defs), drqa_defs))
-        return gloss_defs + drqa_defs
+        return glosskey, gloss_defs + drqa_defs

@@ -5,14 +5,22 @@ from Bot.Classification import ProblemCategory
 
 
 class DefinitionsComparison:
-    def __init__(self, question_keyword, question_definitions, choices, choices_keywords_defs):
+    def __init__(self, question_keyword, question_gloss_keyword, question_definitions, choices, choices_keywords_defs):
         self.question_keyword_ = question_keyword
+        self.question_gloss_keyword_ = question_gloss_keyword
         self.question_definitions_ = question_definitions
         self.choices_ = choices
         self.choices_keywords_defs_ = choices_keywords_defs
 
     def has_question_definitions(self):
         return self.question_definitions_ is not None
+
+
+class ChoiceDefinitions:
+    def __init__(self, choice_keyword, choice_gloss_keyword, choice_definitions):
+        self.keyword_ = choice_keyword
+        self.gloss_keyword_ = choice_gloss_keyword
+        self.definitions_ = choice_definitions
 
 
 class DefinitionResolverBase:
@@ -56,18 +64,25 @@ class DefinitionResolverBase:
         max_index = -1
         for q_def, q_source in comparison.question_definitions_:
             c_comparisons = []
-            q_comparisons = {'q_keyword': comparison.question_keyword_, 'q_def': q_def, 'source': q_source, 'c_comparisons': c_comparisons}
+            q_comparisons = {'q_keyword': comparison.question_keyword_,
+                             'q_gloss_keyword': comparison.question_gloss_keyword_,
+                             'q_def': q_def,
+                             'source': q_source,
+                             'c_comparisons': c_comparisons}
             comparisons.append(q_comparisons)
             for i_choice, choice in enumerate(comparison.choices_):
-                keyword_definitions = comparison.choices_keywords_defs_[i_choice]
-                if keyword_definitions is None:
+                choice_definitions = comparison.choices_keywords_defs_[i_choice]
+                if choice_definitions is None:
                     continue
-                c_keyword, c_defs = keyword_definitions
                 c_def_comparisons = []
                 c_comparisons.append(c_def_comparisons)
-                for c_def, c_source in c_defs:
+                for c_def, c_source in choice_definitions.definitions_:
                     score = self.scorer_.score(c_def, q_def)
-                    c_def_comparisons.append({'c_keyword': c_keyword, 'c_def': c_def, 'source': c_source, 'score': score})
+                    c_def_comparisons.append({'c_keyword': choice_definitions.keyword_,
+                                              'c_gloss_keyword': choice_definitions.gloss_keyword_,
+                                              'c_def': c_def,
+                                              'source': c_source,
+                                              'score': score})
                     if score > max_score:
                         max_score = score
                         max_index = i_choice

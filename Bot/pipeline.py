@@ -4,8 +4,8 @@ import spacy
 from Bot.Load import ProblemsReader
 from Bot.Classification import ProblemsClassifier
 from Bot.Classification import ProblemCategory
-from Bot.Load import GlossaryLoader
 from Bot.Resolver import ResolverFactory
+from Bot.Glossary import Glossary
 from Bot.Utils import get_enum_name
 from Bot.Resolver import DefinitionsProvider
 from stanford.drqa.link import DrqaDefinitionFinder
@@ -16,12 +16,15 @@ class Pipeline:
         self.args_ = args
         self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
         self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
-        glossary = GlossaryLoader().load(args.glossary)
+        glossary = self.load_glossary(args.glossary)
         def_finder = DrqaDefinitionFinder()
         def_provider = DefinitionsProvider(glossary, def_finder, args.provider_mode)
         self.problems_reader_ = ProblemsReader(args.dataset)
         self.classifier_ = ProblemsClassifier(glossary, self.nlp_)
         self.resolver_factory_ = ResolverFactory(def_provider, self.nlp_)
+
+    def load_glossary(self, filepath):
+        return Glossary(json.load(open(filepath, 'r')), self.nlp_)
 
     def add_category_results(self, category_name, results, category_problems):
         nb_correct = 0

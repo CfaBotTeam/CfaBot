@@ -6,13 +6,19 @@
             <td class="comparison-info top">
                 <div class="comp-title">Question</div>
                 <div>
-                    <span class="comp-title">Source:</span>
+                    <span class="comp-title">Source: </span>
                     <span class="q_source_container"></span>
                 </div>
                 {% if comp.q_keyword_ != "" %}
                     <div>
-                        <span class="comp-title">Keyword: </span>
+                        <span class="comp-title">Subject: </span>
                         <span>{{ comp.q_keyword_ }}</span>
+                    </div>
+                {% endif %}
+                {% if comp.q_gloss_keyword_ != "" %}
+                    <div>
+                        <span class="comp-title">Glossary keyword: </span>
+                        <span>{{ comp.q_gloss_keyword_ }}</span>
                     </div>
                 {% endif %}
                 <div>
@@ -46,13 +52,19 @@
             <td class="comparison-info bottom">
                 <div class="comp-title">Choice</div>
                 <div>
-                    <span class="comp-title">Source:</span>
+                    <span class="comp-title">Source: </span>
                     <span class="c_source_container"></span>
                 </div>
                 {% if comp.c_keyword_ != "" %}
                     <div>
-                        <span class="comp-title">Keyword: </span>
+                        <span class="comp-title">Subject: </span>
                         <span>{{ comp.c_keyword_ }}</span>
+                    </div>
+                {% endif %}
+                {% if comp.c_gloss_keyword_ != "" %}
+                    <div>
+                        <span class="comp-title">Glossary keyword: </span>
+                        <span>{{ comp.c_gloss_keyword_ }}</span>
                     </div>
                 {% endif %}
                 <div>

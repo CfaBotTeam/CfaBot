@@ -4,6 +4,7 @@ from Bot.Classification.Features import SubjectFeatures
 from Bot.Classification.Features import VerbFeaturesFactory
 from Bot.Resolver import DefinitionSource
 from Bot.Resolver import DefinitionsComparison
+from Bot.Resolver import ChoiceDefinitions
 
 
 class KeywordDefResolverBase(DefinitionResolverBase):
@@ -11,7 +12,7 @@ class KeywordDefResolverBase(DefinitionResolverBase):
         subject = problem[SubjectFeatures.Q_SUBJECT]
         q_keyword, q_defs = self.def_provider_.get_definitions(subject, loosly=True)
         choices_keywords_defs = self.get_choices_definitions(problem, choices)
-        return DefinitionsComparison(q_keyword, q_defs, choices, choices_keywords_defs)
+        return DefinitionsComparison(subject, q_keyword, q_defs, choices, choices_keywords_defs)
 
     def get_choices_definitions(self, problem, choices):
         raise NotImplementedError("This method need to be overloaded")
@@ -19,7 +20,11 @@ class KeywordDefResolverBase(DefinitionResolverBase):
 
 class KeywordDefResolver(KeywordDefResolverBase):
     def get_choices_definitions(self, problem, choices):
-        return [['', [[choice, DefinitionSource.CHOICE]]] for choice in choices]
+        result = []
+        for choice in choices:
+            defs = [[choice, DefinitionSource.CHOICE]]
+            result.append(ChoiceDefinitions('', '', defs))
+        return result
 
 
 class KeywordDefStartEndResolver(KeywordDefResolverBase):
@@ -33,4 +38,8 @@ class KeywordDefStartEndResolver(KeywordDefResolverBase):
 
     def get_choices_definitions(self, problem, choices):
         def_start = self.get_right_of_verb(problem)
-        return [['', [['%s %s' % (def_start, choice), DefinitionSource.CHOICE]]] for choice in choices]
+        result = []
+        for choice in choices:
+            defs = [['%s %s' % (def_start, choice), DefinitionSource.CHOICE]]
+            result.append(ChoiceDefinitions('', '', defs))
+        return result
