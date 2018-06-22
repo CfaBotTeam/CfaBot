@@ -29,7 +29,7 @@
             <choice id="D">nominal</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Statistical Concepts and Market Returns,&amp; #8221; RichardA. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkel  2008 Modular Level I, Vol. 1, pp. 242-243  Study Session 2-7-a  differentiate between descriptive statistics and inferential statistics, between a population and a sample, and among the types of  measurement scales  The analyst is using an ordinal scale which involves sorting data into categories based on some characteristic, such as the  firms&amp; #8217; P/E ratios.   </comments>
+        <comments>"Statistical Concepts and Market Returns," RichardA. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkel  2008 Modular Level I, Vol. 1, pp. 242-243  Study Session 2-7-a  differentiate between descriptive statistics and inferential statistics, between a population and a sample, and among the types of  measurement scales  The analyst is using an ordinal scale which involves sorting data into categories based on some characteristic, such as the  firms' P/E ratios.   </comments>
     </problem>
     <problem category="7" filename="2008_part_2.xml" topic="Corporate Finance" year="2008">
         <question id="70">Howard Quarries has recently opened a limestone quarry at a location outside their traditional service area. Because  limestone is a major ingredient in concrete, if the quarry is successful Howard plans to build a ready-mix concrete plant at  the same location. The investment in the concrete plant is best described as:</question>
@@ -40,7 +40,7 @@
             <choice id="D">an example of investment synergy</choice>
         </choices>
         <answer>D</answer>
-        <comments>&amp; #8220;Capital Budgeting,&amp; #8221; JohnD. Stowe and Jacques R. Gagn&amp; #233;  2008 Modular Level I, Vol. 4, pp. 10-12  Study Session 11-44-c  explain how the following project interactions affect the evaluation of a capital project: (1) independent versus mutually  exclusive projects, (2) project sequencing, and (3) unlimited funds versus capital rationing  Project sequencing occurs when the investment in one project creates the option to invest in future projects.   </comments>
+        <comments>"Capital Budgeting," JohnD. Stowe and Jacques R. Gagne  2008 Modular Level I, Vol. 4, pp. 10-12  Study Session 11-44-c  explain how the following project interactions affect the evaluation of a capital project: (1) independent versus mutually  exclusive projects, (2) project sequencing, and (3) unlimited funds versus capital rationing  Project sequencing occurs when the investment in one project creates the option to invest in future projects.   </comments>
     </problem>
     <problem category="3" filename="2008_part_2.xml" topic="Corporate Finance" year="2008">
         <question id="73">A company's optimal capital budget is best described as the amount of new capital required to undertake all projects with an  internal rate of return greater than the:</question>
@@ -51,7 +51,7 @@
             <choice id="D">weighted average cost of capital</choice>
         </choices>
         <answer>D</answer>
-        <comments>&amp; #8220;Cost of Capital,&amp; #8221; Yves Courtois, GeneC. Lai, and Pamela p. Peterson  2008 Modular Level I, Vol. 4, pp. 43-45  Study Session 11-45-d  explain how the marginal cost of capital and the investment opportunity schedule are used to determine the optimal capital  budget  The optimal capital budget is the amount of new capital required to undertake all investment projects with an IRR greater than  the marginal cost of capital.   </comments>
+        <comments>"Cost of Capital," Yves Courtois, GeneC. Lai, and Pamela p. Peterson  2008 Modular Level I, Vol. 4, pp. 43-45  Study Session 11-45-d  explain how the marginal cost of capital and the investment opportunity schedule are used to determine the optimal capital  budget  The optimal capital budget is the amount of new capital required to undertake all investment projects with an IRR greater than  the marginal cost of capital.   </comments>
     </problem>
     <problem category="3" filename="2009_afternoon_answers.xml" topic="Equity Investments" year="2009">
         <question id="86">Free cash flow to equity is most accurately described as operating free cash flow adjusted for:</question>
@@ -61,7 +61,7 @@
             <choice id="C">both interest and principal payments to debt holders, but not payments to preferred stockholders</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Understanding the Cash Flow Statement,&amp; #8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2009 Modular Level I, Volume 3, pp. 279-280 &amp; #8220;An Introduction to Security Valuation,&amp; #8221; Frank K. Reilly, CFA, and Keith C. Brown, CFA 2009 Modular Level I, Volume 5, p. 135 Study Session 8-34-i, 14-56-g Explain and calculate free cash flow to the firm, free cash flow to equity, and other cash flow ratios. Describe a process for developing estimated inputs to be used in the DDM, including the required rate of return and expected growth rate of dividends. Free cash flow to equity is derived after adjusting the operating free cash flow for payments to debt holders (interest and principal) as well as preferred stockholders.</comments>
+        <comments>"Understanding the Cash Flow Statement," Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, R. Elaine Henry, CFA and Michael A. Broihahn, CFA 2009 Modular Level I, Volume 3, pp. 279-280 "An Introduction to Security Valuation," Frank K. Reilly, CFA, and Keith C. Brown, CFA 2009 Modular Level I, Volume 5, p. 135 Study Session 8-34-i, 14-56-g Explain and calculate free cash flow to the firm, free cash flow to equity, and other cash flow ratios. Describe a process for developing estimated inputs to be used in the DDM, including the required rate of return and expected growth rate of dividends. Free cash flow to equity is derived after adjusting the operating free cash flow for payments to debt holders (interest and principal) as well as preferred stockholders.</comments>
     </problem>
     <problem category="1" filename="2009_morning_answers.xml" topic="Quantitative Methods" year="2009">
         <question id="26">If an analyst estimates the probability of an event for which there is no historical record, this probability is best described as:</question>
@@ -71,7 +71,7 @@
             <choice id="C">subjective</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Probability Concepts,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2009 Modular Level I, Volume 1, pp. 321-322 Study Session 2-8-b Explain the two defining properties of probability, and distinguish among empirical, subjective, and a priori probabilities. An empirical probability cannot be calculated for an event not in the historical record. In this case, the analyst can make a personal assessment of the probability of the event without reference to any particular data. This is a subjective probability. </comments>
+        <comments>"Probability Concepts," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2009 Modular Level I, Volume 1, pp. 321-322 Study Session 2-8-b Explain the two defining properties of probability, and distinguish among empirical, subjective, and a priori probabilities. An empirical probability cannot be calculated for an event not in the historical record. In this case, the analyst can make a personal assessment of the probability of the event without reference to any particular data. This is a subjective probability. </comments>
     </problem>
     <problem category="4" filename="2009_morning_answers.xml" topic="Economics" year="2009">
         <question id="43">Which of the following goals of monetary policy is best described to be the key goal?</question>
@@ -81,7 +81,7 @@
             <choice id="C">Moderating long-term interest rates</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Monetary Policy,&amp; #8221; Michael Parkin 2009 Modular Level I, Volume 2, pp. 446-448 Study Session 6-27-a Discuss the goals of U.S. monetary policy and the Federal Reserve&amp; #8217;s (Fed&amp; #8217;s) means for achieving the goals, including how the Fed operationalizes those goals. Price stability is considered to be the key goal of monetary policy in that it is the source for the other two monetary policy goals. </comments>
+        <comments>"Monetary Policy," Michael Parkin 2009 Modular Level I, Volume 2, pp. 446-448 Study Session 6-27-a Discuss the goals of U.S. monetary policy and the Federal Reserve's (Fed's) means for achieving the goals, including how the Fed operationalizes those goals. Price stability is considered to be the key goal of monetary policy in that it is the source for the other two monetary policy goals. </comments>
     </problem>
     <problem category="0" filename="2009_morning_answers.xml" topic="Equity Investments" year="2009">
         <question id="84">The behavior of investors who put more money into a failure that they feel responsible for, rather than into a success, is most accurately described as:</question>
@@ -91,7 +91,7 @@
             <choice id="C">overconfidence bias</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Efficient Capital Markets,&amp; #8221; Frank K. Reilly, CFA, and Keith C. Brown, CFA 2009 Modular Level I, Volume 5, pp. 83-84 Study Session 13-54-d Define behavioral finance and describe overconfidence bias, confirmation bias, and escalation bias. Escalation bias refers to the investor behavior of putting more money into a failure that they feel responsible for rather than into a success. This leads to the practice of &amp; #8220;averaging down&amp; #8221; by viewing the additional purchase as a &amp; #8220;bargain&amp; #8221; rather than considering the initial purchase as a mistake and selling the stock. </comments>
+        <comments>"Efficient Capital Markets," Frank K. Reilly, CFA, and Keith C. Brown, CFA 2009 Modular Level I, Volume 5, pp. 83-84 Study Session 13-54-d Define behavioral finance and describe overconfidence bias, confirmation bias, and escalation bias. Escalation bias refers to the investor behavior of putting more money into a failure that they feel responsible for rather than into a success. This leads to the practice of "averaging down" by viewing the additional purchase as a "bargain" rather than considering the initial purchase as a mistake and selling the stock. </comments>
     </problem>
     <problem category="0" filename="2009_morning_answers.xml" topic="Derivative Investments" year="2009">
         <question id="91">A series of interest rate put options that expire on different dates but have the same exercise rate is best defined as a (n):</question>
@@ -101,7 +101,7 @@
             <choice id="C">interest rate collar</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Option Markets and Contracts,&amp; #8221; Don M. Chance 2009 Modular Level I, Volume 6, pp. 90-93 Study Session 17-70-d Define interest rate caps, and floors, and collars. An interest rate floor is a series of put options on an interest rate, with each option expiring at the date on which the floating loan rate will be reset, and with each option having the same exercise rate.</comments>
+        <comments>"Option Markets and Contracts," Don M. Chance 2009 Modular Level I, Volume 6, pp. 90-93 Study Session 17-70-d Define interest rate caps, and floors, and collars. An interest rate floor is a series of put options on an interest rate, with each option expiring at the date on which the floating loan rate will be reset, and with each option having the same exercise rate.</comments>
     </problem>
     <problem category="7" filename="2010_afternoon_answer.xml" topic="Quantitative Methods" year="2010">
         <question id="28">On 7 January 2008, an investor purchases 100 shares of stock for $32.50 a share. On 7 January 2009, the investor purchases 100 more shares of the same stock for $36.70 a share. On 7 January 2010, the investor sells all 200 shares of the stock for $42.00 a share. The internal rate of return for this investment is best described as an example of a:</question>
@@ -111,7 +111,7 @@
             <choice id="C">money-weighted rate of return</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Discounted Cash Flow Applications,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 246-247 Study Session 2-6-c Calculate, interpret, and distinguish between the money-weighted and time- weighted rates of return of a portfolio and appraise the performance of portfolios based on these measures. The money-weighted return is the internal rate of return for the portfolio.</comments>
+        <comments>"Discounted Cash Flow Applications," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 246-247 Study Session 2-6-c Calculate, interpret, and distinguish between the money-weighted and time- weighted rates of return of a portfolio and appraise the performance of portfolios based on these measures. The money-weighted return is the internal rate of return for the portfolio.</comments>
     </problem>
     <problem category="4" filename="2010_afternoon_answer.xml" topic="Economics" year="2010">
         <question id="34">If a price cut of a product increases total revenue, demand is best described as:</question>
@@ -121,17 +121,17 @@
             <choice id="C">unit elastic</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Elasticity,&amp; #8221; Michael Parkin 2010 Modular Level I, Vol. 2, p.14 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. A product&amp; #8217;s demand is elastic if demand increases by a greater percentage than the percentage price cut when prices are cut. For example, if a 1 percent price cut increases the quantity sold by more than 1 percent, total revenue increases and demand is said to be elastic. </comments>
+        <comments>"Elasticity," Michael Parkin 2010 Modular Level I, Vol. 2, p.14 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. A product's demand is elastic if demand increases by a greater percentage than the percentage price cut when prices are cut. For example, if a 1 percent price cut increases the quantity sold by more than 1 percent, total revenue increases and demand is said to be elastic. </comments>
     </problem>
     <problem category="7" filename="2010_afternoon_answer.xml" topic="Economics" year="2010">
-        <question id="39">A company determines that the quantity demanded of a product increases by 5% when price is reduced by 10%. The product&amp; #8217;s price elasticity of demand is best described as:</question>
+        <question id="39">A company determines that the quantity demanded of a product increases by 5% when price is reduced by 10%. The product's price elasticity of demand is best described as:</question>
         <choices>
             <choice id="A">elastic</choice>
             <choice id="B">inelastic</choice>
             <choice id="C">perfectly elastic</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Elasticity,&amp; #8221; Michael Parkin 2010 Modular Level I, Vol. 2, pp. 12-16 Study Session 4-13-a Calculate and interpret the elasticities of demand (price elasticity, cross elasticity, income elasticity) and the elasticity of supply and discuss the factors that influence each measure.  When the price elasticity of demand is between 0 and 1, the good is said to have an inelastic demand. In this case, the price elasticity of demand is calculated as 5% / 10% = 0.5.</comments>
+        <comments>"Elasticity," Michael Parkin 2010 Modular Level I, Vol. 2, pp. 12-16 Study Session 4-13-a Calculate and interpret the elasticities of demand (price elasticity, cross elasticity, income elasticity) and the elasticity of supply and discuss the factors that influence each measure.  When the price elasticity of demand is between 0 and 1, the good is said to have an inelastic demand. In this case, the price elasticity of demand is calculated as 5% / 10% = 0.5.</comments>
     </problem>
     <problem category="3" filename="2010_afternoon_answer.xml" topic="Economics" year="2010">
         <question id="44">The quantity theory of money is best described as the proposition that, in the long run, an increase in the quantity of money brings a percentage increase in the price level that is:</question>
@@ -141,7 +141,7 @@
             <choice id="C">higher</choice>
         </choices>
         <answer>A</answer>
-        <comments>"Money, the Price Level, and Inflation&amp; #8221; Michael Parkin 2010 Modular Level I, Vol. 2, p. 385-387 Study Session 6-24-i Discuss the quantity theory of money and its relation to aggregate supply and aggregate demand. The quantity theory of money is the proposition that in the long run, an increase in the quantity of money brings an equal percentage increase in the price level.</comments>
+        <comments>"Money, the Price Level, and Inflation" Michael Parkin 2010 Modular Level I, Vol. 2, p. 385-387 Study Session 6-24-i Discuss the quantity theory of money and its relation to aggregate supply and aggregate demand. The quantity theory of money is the proposition that in the long run, an increase in the quantity of money brings an equal percentage increase in the price level.</comments>
     </problem>
     <problem category="11" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="50">Under International Financial Reporting Standards (IFRS) the preparation of a complete set of financial statements is best described as a(n):</question>
@@ -151,7 +151,7 @@
             <choice id="C">qualitative characteristic of the IFRS Framework</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Financial Reporting Standards,&amp; #8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O&amp; #8217;Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 111-112 Study Session 7-31-e Explain the general requirements for financial statements. The preparation of a complete set of financial statements is a general requirement for financial statements.</comments>
+        <comments>"Financial Reporting Standards," Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O'Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp. 111-112 Study Session 7-31-e Explain the general requirements for financial statements. The preparation of a complete set of financial statements is a general requirement for financial statements.</comments>
     </problem>
     <problem category="2" filename="2010_afternoon_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="54">The settlement value for a liability is best described as:</question>
@@ -161,27 +161,27 @@
             <choice id="C">the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the obligation</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Financial Reporting Standards&amp; #8221;, Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O&amp; #8217;Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp.111 Study Session: 7-31-d Describe the International Financial Reporting Standards (IFRS) framework, including the qualitative characteristics of financial statements, the required  reporting elements, and the constraints and assumptions in preparing financial statements. The settlement value for a liability is the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the liabilities in the normal course of business.</comments>
+        <comments>"Financial Reporting Standards", Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O'Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level I, Vol. 3, pp.111 Study Session: 7-31-d Describe the International Financial Reporting Standards (IFRS) framework, including the qualitative characteristics of financial statements, the required  reporting elements, and the constraints and assumptions in preparing financial statements. The settlement value for a liability is the undiscounted amount of cash or cash equivalents expected to be paid to satisfy the liabilities in the normal course of business.</comments>
     </problem>
     <problem category="7" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
-        <question id="84">A company has furnished the following information: Return on equity 20% Earnings retention rate 50% Current dividend per share (Do) paid on the company&amp; #8217;s common stock &amp; #8364;2.00 Required rate of return on the company&amp; #8217;s common stock 15% Current stock price &amp; #8364;50 Company&amp; #8217;s P/E ratio 30x Industry average P/E ratio 20x Stock&amp; #8217;s beta 0.7 According to the dividend discount model and the other data given, the company&amp; #8217;s stock is best described as a:</question>
+        <question id="84">A company has furnished the following information: Return on equity 20% Earnings retention rate 50% Current dividend per share (Do) paid on the company's common stock €2.00 Required rate of return on the company's common stock 15% Current stock price €50 Company's P/E ratio 30x Industry average P/E ratio 20x Stock's beta 0.7 According to the dividend discount model and the other data given, the company's stock is best described as a:</question>
         <choices>
             <choice id="A">growth stock</choice>
             <choice id="B">cyclical stock</choice>
             <choice id="C">speculative stock</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;An Introduction to Security Valuation,&amp; #8221; Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 142, 158 &amp; #8220;Company Analysis and Stock Valuation,&amp; #8221; Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 176-178 Study Session 14-56-c, f; 14-58-a Calculate and interpret the value of both a preferred stock and a common stock using the dividend discount model (DDM). Estimate the dividend growth rate, given the components of the required rate of return incorporating the earnings retention rate and current stock price. Differentiate between 1) a growth company and a growth stock, 2) a defensive company and a defensive stock, 3) a cyclical company and a cyclical stock, 4) a speculative company and a speculative stock, and 5) a value stock and a growth stock. A speculative stock is (i) substantially overvalued and (ii) it sells at an extremely high P/E ratio. The computations for intrinsic value are: Implied dividend growth  rate = ROE x RR = 20% x 0.5 = 10%; Intrinsic value of the stock = &amp; #8364;2.20 / (15% - 10%) = &amp; #8364;44.00 compared to the market price of &amp; #8364;50. The stock's P/E is 30x versus the industry average of 20x.</comments>
+        <comments>"An Introduction to Security Valuation," Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 142, 158 "Company Analysis and Stock Valuation," Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 176-178 Study Session 14-56-c, f; 14-58-a Calculate and interpret the value of both a preferred stock and a common stock using the dividend discount model (DDM). Estimate the dividend growth rate, given the components of the required rate of return incorporating the earnings retention rate and current stock price. Differentiate between 1) a growth company and a growth stock, 2) a defensive company and a defensive stock, 3) a cyclical company and a cyclical stock, 4) a speculative company and a speculative stock, and 5) a value stock and a growth stock. A speculative stock is (i) substantially overvalued and (ii) it sells at an extremely high P/E ratio. The computations for intrinsic value are: Implied dividend growth  rate = ROE x RR = 20% x 0.5 = 10%; Intrinsic value of the stock = €2.20 / (15% - 10%) = €44.00 compared to the market price of €50. The stock's P/E is 30x versus the industry average of 20x.</comments>
     </problem>
     <problem category="9" filename="2010_afternoon_answer.xml" topic="Equity Investments" year="2010">
-        <question id="88">A company&amp; #8217;s $100 par perpetual preferred stock has a dividend rate of 7 percent and a required rate of return of 11 percent. The company&amp; #8217;s earnings are expected to grow at a constant rate of 3 percent per year. If the market price per share for the preferred stock is $75, the preferred stock is most appropriately described as being:</question>
+        <question id="88">A company's $100 par perpetual preferred stock has a dividend rate of 7 percent and a required rate of return of 11 percent. The company's earnings are expected to grow at a constant rate of 3 percent per year. If the market price per share for the preferred stock is $75, the preferred stock is most appropriately described as being:</question>
         <choices>
             <choice id="A">overvalued by $11.36</choice>
             <choice id="B">undervalued by $15.13</choice>
             <choice id="C">undervalued by $36.36</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;An Introduction to Security Valuation,&amp; #8221; Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 134-135 Study Session 14-56-c Calculate and interpret the value of both a preferred stock and a common stock using the dividend discount model (DDM). Value of perpetual preferred stock = Dividend / Investor&amp; #8217;s required rate of return $7/ 0.11 = $63.64. The stock is overvalued by $75.00 - 63.64 = $11.36.</comments>
+        <comments>"An Introduction to Security Valuation," Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 134-135 Study Session 14-56-c Calculate and interpret the value of both a preferred stock and a common stock using the dividend discount model (DDM). Value of perpetual preferred stock = Dividend / Investor's required rate of return $7/ 0.11 = $63.64. The stock is overvalued by $75.00 - 63.64 = $11.36.</comments>
     </problem>
     <problem category="2" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
         <question id="92">Margin in the futures market is most accurately described as a:</question>
@@ -191,17 +191,17 @@
             <choice id="C">down payment from the futures trader</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Futures Markets and Contracts,&amp; #8221; Don M. Chance 2010 Modular Level I, Vol. 6, pp. 55-58 Study Session 17-69-c Differentiate between margin in the securities markets and margin in the futures markets and explain the role of initial margin, maintenance margin, variation margin, and settlement in futures trading. It is the amount of money that must be deposited into an account by a party opening a futures position; the money helps ensure that the party fulfills his/her obligation. </comments>
+        <comments>"Futures Markets and Contracts," Don M. Chance 2010 Modular Level I, Vol. 6, pp. 55-58 Study Session 17-69-c Differentiate between margin in the securities markets and margin in the futures markets and explain the role of initial margin, maintenance margin, variation margin, and settlement in futures trading. It is the amount of money that must be deposited into an account by a party opening a futures position; the money helps ensure that the party fulfills his/her obligation. </comments>
     </problem>
     <problem category="3" filename="2010_afternoon_answer.xml" topic="Derivative Investments" year="2010">
         <question id="93">A derivative is most accurately defined as a financial instrument that provides:</question>
         <choices>
             <choice id="A">a return based on the return of another asset</choice>
-            <choice id="B">an adjustment to another asset&amp; #8217;s level of risk</choice>
+            <choice id="B">an adjustment to another asset's level of risk</choice>
             <choice id="C">an agreement between two parties to provide something for each other</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Derivative Markets and Instruments,&amp; #8221; Don M. Chance 2010 Modular Level I, Vol. 6, pp. 5-6 Study Session 17-67-a Define a derivative and differentiate between exchange-traded and over-the- counter derivatives. This is the definition directly out of the readings. Its return is derived from another underlying asset.</comments>
+        <comments>"Derivative Markets and Instruments," Don M. Chance 2010 Modular Level I, Vol. 6, pp. 5-6 Study Session 17-67-a Define a derivative and differentiate between exchange-traded and over-the- counter derivatives. This is the definition directly out of the readings. Its return is derived from another underlying asset.</comments>
     </problem>
     <problem category="0" filename="2010_morning_answer.xml" topic="Quantitative Methods" year="2010">
         <question id="19">A random variable with a finite number of equally likely outcomes is best described by a:</question>
@@ -211,7 +211,7 @@
             <choice id="C">continuous uniform distribution</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Common Probability Distributions,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 423-424 Study Session 3-9-e Define a discrete uniform random variable and a binomial random variable. A random variable has a discrete uniform distribution when there are a finite number of equally likely specified outcomes.</comments>
+        <comments>"Common Probability Distributions," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 423-424 Study Session 3-9-e Define a discrete uniform random variable and a binomial random variable. A random variable has a discrete uniform distribution when there are a finite number of equally likely specified outcomes.</comments>
     </problem>
     <problem category="4" filename="2010_morning_answer.xml" topic="Quantitative Methods" year="2010">
         <question id="24">For an investment portfolio, the coefficient of variation of the returns on the portfolio is best described as measuring:</question>
@@ -221,7 +221,7 @@
             <choice id="C">mean excess return per unit of risk</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Statistical Concepts and Market Returns,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 319-320 Study Session 2-7-i Define, calculate, and interpret the coefficient of variation and the Sharpe ratio. The coefficient of variation is defined as the standard deviation of the portfolio (a measure of risk) divided by the mean return on the portfolio (i.e., risk per unit of mean return).</comments>
+        <comments>"Statistical Concepts and Market Returns," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, pp. 319-320 Study Session 2-7-i Define, calculate, and interpret the coefficient of variation and the Sharpe ratio. The coefficient of variation is defined as the standard deviation of the portfolio (a measure of risk) divided by the mean return on the portfolio (i.e., risk per unit of mean return).</comments>
     </problem>
     <problem category="6" filename="2010_morning_answer.xml" topic="Quantitative Methods" year="2010">
         <question id="29">If a probability distribution is very similar to a normal distribution, then the kurtosis is best described as:</question>
@@ -231,7 +231,7 @@
             <choice id="C">platykurtic</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Statistical Concepts and Market Returns,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, page 330 Study Session 2-7-k Define and interpret measures of sample skewness and kurtosis. Normal distributions are mesokurtic. Leptokurtic distributions are more peaked than normal distributions while platykurtic distributions are less peaked than normal distributions.</comments>
+        <comments>"Statistical Concepts and Market Returns," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2010 Modular Level I, Vol. 1, page 330 Study Session 2-7-k Define and interpret measures of sample skewness and kurtosis. Normal distributions are mesokurtic. Leptokurtic distributions are more peaked than normal distributions while platykurtic distributions are less peaked than normal distributions.</comments>
     </problem>
     <problem category="4" filename="2010_morning_answer.xml" topic="Financial Statement Analysis" year="2010">
         <question id="50">Which of the following is a constraint as defined in the International Financial Reporting Standards (IFRS) Framework for the Preparation and Presentation of Financial Statements?</question>
@@ -241,17 +241,17 @@
             <choice id="C">Going concern</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Financial Reporting Standards,&amp; #8221; Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O&amp; #8217;Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level 1, Vol. 3, pp. 106-108 Study Session 7-31-d Describe the International Financial Reporting Standards (IFRS) framework, including the qualitative characteristics of financial statements, the required reporting elements, and the constraints and assumptions in preparing financial statements. Timeliness is a constraint in the IFRS Framework. Neutrality is a factor that contributes to reliability and going concern is an assumption of the Framework.</comments>
+        <comments>"Financial Reporting Standards," Thomas R. Robinson, CFA, Jan Hendrik van Greuning, CFA, Karen O'Connor Rubsam, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn, CFA 2010 Modular Level 1, Vol. 3, pp. 106-108 Study Session 7-31-d Describe the International Financial Reporting Standards (IFRS) framework, including the qualitative characteristics of financial statements, the required reporting elements, and the constraints and assumptions in preparing financial statements. Timeliness is a constraint in the IFRS Framework. Neutrality is a factor that contributes to reliability and going concern is an assumption of the Framework.</comments>
     </problem>
     <problem category="10" filename="2010_morning_answer.xml" topic="Corporate Finance" year="2010">
-        <question id="72">An analyst is developing net present value (NPV) profiles for two investment projects. The only difference between the two projects is that Project 1 is expected to receive larger cash flows early in the life of the project, while Project 2 is expected to receive larger cash flows late in the life of the project. The sensitivities of the projects&amp; #8217; NPVs to changes in the discount rate is best described as:</question>
+        <question id="72">An analyst is developing net present value (NPV) profiles for two investment projects. The only difference between the two projects is that Project 1 is expected to receive larger cash flows early in the life of the project, while Project 2 is expected to receive larger cash flows late in the life of the project. The sensitivities of the projects' NPVs to changes in the discount rate is best described as:</question>
         <choices>
             <choice id="A">equal for the two projects</choice>
             <choice id="B">lower for Project 1 than for Project 2</choice>
             <choice id="C">greater for Project 1 than for Project 2</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Capital Budgeting,&amp; #8221; John D. Stowe, CFA and Jacques R. Gagne, CFA 2010 Modular Level I, Vol. 4, pp. 19-21 Study Session 11-44- e Explain the NPV profile, compare and contrast the NPV and IRR methods when evaluating independent and mutually-exclusive projects, and describe the problems associated with each of the evaluation methods. A delay in the receipt of cash flows (as in Project 2) will make a project&amp; #8217;s net present value more sensitive to changes in the discount rate.</comments>
+        <comments>"Capital Budgeting," John D. Stowe, CFA and Jacques R. Gagne, CFA 2010 Modular Level I, Vol. 4, pp. 19-21 Study Session 11-44- e Explain the NPV profile, compare and contrast the NPV and IRR methods when evaluating independent and mutually-exclusive projects, and describe the problems associated with each of the evaluation methods. A delay in the receipt of cash flows (as in Project 2) will make a project's net present value more sensitive to changes in the discount rate.</comments>
     </problem>
     <problem category="0" filename="2010_morning_answer.xml" topic="Equity Investments" year="2010">
         <question id="86">A security market in which all the bids and asks for a stock are gathered to arrive at a single price that satisfies most of the orders is best described as a:</question>
@@ -261,7 +261,7 @@
             <choice id="C">primary market</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Organization and Functioning of Securities Markets,&amp; #8221; Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 13-15 Study Session 13-52-c Distinguish between call and continuous markets.  A call market is a market in which all the bids and asks for a stock are gathered to arrive at a single price where the quantity demanded is as close as possible to the quantity supplied.</comments>
+        <comments>"Organization and Functioning of Securities Markets," Frank K. Reilly, CFA and Keith C. Brown, CFA 2010 Modular Level I, Vol. 5, pp. 13-15 Study Session 13-52-c Distinguish between call and continuous markets.  A call market is a market in which all the bids and asks for a stock are gathered to arrive at a single price where the quantity demanded is as close as possible to the quantity supplied.</comments>
     </problem>
     <problem category="0" filename="2010_morning_answer.xml" topic="Fixed Income Investments" year="2010">
         <question id="108">Corporate debt securities that are offered continuously to investors by an agent of the issuer are best described as:</question>
@@ -271,7 +271,7 @@
             <choice id="C">medium-term notes</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Overview of Bond Sectors and Instruments,&amp; #8221; Frank J. Fabozzi 2010 Modular Level I, Vol. 5, pp. 330-332 Study Session 15-62-h Describe the characteristics and motivation for the various types of debt issued by corporations (including corporate bonds, medium-term notes, structured notes, commercial paper, negotiable CDs, and bankers acceptances.)  The unique features of medium-term notes are that they can be offered continuously over a period of time to investors at maturities desired by the investors.</comments>
+        <comments>"Overview of Bond Sectors and Instruments," Frank J. Fabozzi 2010 Modular Level I, Vol. 5, pp. 330-332 Study Session 15-62-h Describe the characteristics and motivation for the various types of debt issued by corporations (including corporate bonds, medium-term notes, structured notes, commercial paper, negotiable CDs, and bankers acceptances.)  The unique features of medium-term notes are that they can be offered continuously over a period of time to investors at maturities desired by the investors.</comments>
     </problem>
     <problem category="3" filename="2011_afternoon_answer.xml" topic="Quantitative Methods" year="2011">
         <question id="22">The Central Limit Theorem is best described as stating that the sampling distribution of the sample mean will be approximately normal for large-size samples:</question>
@@ -321,7 +321,7 @@
             <choice id="C">test with little power</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Hypothesis Testing,&amp; #8221; Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2011 Modular Level I, Vol. 1, pp. 594-595 Study Session 3-11-b Define and interpret a test statistic, a Type I and a Type II error, and a significance level, and explain how significance levels are used in hypothesis testing.  When we do not reject a false null hypothesis we have a Type II error.</comments>
+        <comments>"Hypothesis Testing," Richard A. Defusco, CFA, Dennis W. McLeavey, CFA, Jerald E. Pinto, CFA, and David E. Runkle, CFA 2011 Modular Level I, Vol. 1, pp. 594-595 Study Session 3-11-b Define and interpret a test statistic, a Type I and a Type II error, and a significance level, and explain how significance levels are used in hypothesis testing.  When we do not reject a false null hypothesis we have a Type II error.</comments>
     </problem>
     <problem category="7" filename="2011_morning_answer.xml" topic="Economics" year="2011">
         <question id="33">Over a given period, the price of a commodity falls by 5.0% and the quantity demanded rises by 7.5%. The price elasticity of demand for the commodity is best described as:</question>
@@ -331,17 +331,17 @@
             <choice id="C">perfectly elastic</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Elasticity,&amp; #8221; Michael Parkin 2011 Modular Level I, Vol. 2, pp. 11-12 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. If demand is elastic, a 1 percent price cut increases the quantity sold by more than 1 percent and total revenue increases.</comments>
+        <comments>"Elasticity," Michael Parkin 2011 Modular Level I, Vol. 2, pp. 11-12 Study Session 4-13-b Calculate elasticities on a straight-line demand curve, differentiate among elastic, inelastic, and unit elastic demand, and describe the relation between price elasticity of demand and total revenue. If demand is elastic, a 1 percent price cut increases the quantity sold by more than 1 percent and total revenue increases.</comments>
     </problem>
     <problem category="11" filename="2011_morning_answer.xml" topic="Economics" year="2011">
-        <question id="34">Regarding a company&amp; #8217;s production function, both labor costs and capital costs are best described as:</question>
+        <question id="34">Regarding a company's production function, both labor costs and capital costs are best described as:</question>
         <choices>
             <choice id="A">fixed in the long run</choice>
             <choice id="B">variable in the long run</choice>
             <choice id="C">variable in the short run</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Output and Costs,&amp; #8221; Michael Parkin 2011 Modular Level I, Vol. 2, p. 146 Study Session 4-17-d Explain the company&amp; #8217;s production function, its properties of diminishing returns and diminishing marginal product of capital, the relation between short-run and long-run costs, and how economies and diseconomies of scale affect long-run costs. In the short run, a company can vary the quantity of labor but the quantity of capital is fixed. In the long run, a firm can vary both the quantity of labor and the quantity of capital. </comments>
+        <comments>"Output and Costs," Michael Parkin 2011 Modular Level I, Vol. 2, p. 146 Study Session 4-17-d Explain the company's production function, its properties of diminishing returns and diminishing marginal product of capital, the relation between short-run and long-run costs, and how economies and diseconomies of scale affect long-run costs. In the short run, a company can vary the quantity of labor but the quantity of capital is fixed. In the long run, a firm can vary both the quantity of labor and the quantity of capital. </comments>
     </problem>
     <problem category="7" filename="2011_morning_answer.xml" topic="Economics" year="2011">
         <question id="38">Suppose inflation increases due to increases in government spending and a reduction in taxes. Such inflation is best described as:</question>
@@ -351,7 +351,7 @@
             <choice id="C">monetarist cycle theory</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;U.S. Inflation, Unemployment, and Business Cycles,&amp; #8221; Michael Parkin 2011 Modular Level I, Vol. 2, p. 399 Study Session 6-25-b Describe and distinguish among the factors resulting in demand-pull and cost-push inflation and describe the evolution of demand-pull and cost-push inflationary processes. Page 399 of the reading: &amp; #8220;Demand-pull inflation can be kicked off by ... an increase in government spending, a tax cut, ...&amp; #8221; </comments>
+        <comments>"U.S. Inflation, Unemployment, and Business Cycles," Michael Parkin 2011 Modular Level I, Vol. 2, p. 399 Study Session 6-25-b Describe and distinguish among the factors resulting in demand-pull and cost-push inflation and describe the evolution of demand-pull and cost-push inflationary processes. Page 399 of the reading: "Demand-pull inflation can be kicked off by ... an increase in government spending, a tax cut, ..." </comments>
     </problem>
     <problem category="4" filename="2011_morning_answer.xml" topic="Equity Investments" year="2011">
         <question id="79">The type of efficiency that exists in an economy that uses resources in such a way that they are most valuable is best described as:</question>
@@ -361,7 +361,7 @@
             <choice id="C">informational</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Market Organization and Structure,&amp; #8221; Larry E. Harris 2011 Modular Level I, Vol. 5, pp. 62-63 Study Session 13-55-k Describe the characteristics of a well-functioning financial system. Economies that use resources in such a way that they are most valuable are allocationally efficient. </comments>
+        <comments>"Market Organization and Structure," Larry E. Harris 2011 Modular Level I, Vol. 5, pp. 62-63 Study Session 13-55-k Describe the characteristics of a well-functioning financial system. Economies that use resources in such a way that they are most valuable are allocationally efficient. </comments>
     </problem>
     <problem category="7" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="97">A 10-year bond is issued on January 1, 2010. Its contract requires that its coupon rate change over time as shown in the following table: Coupon Payment Date Range Coupon Rate 01/01/2010-12/31/2011 2.0% 01/01/2012-12/31/2013 5.0% 01/01/2014-12/31/2015 7.5% 01/01/2016-12/31/2019 9.0% This security is best described as an example of a:</question>
@@ -371,17 +371,17 @@
             <choice id="C">deferred coupon bond</choice>
         </choices>
         <answer>A</answer>
-        <comments>&amp; #8220;Features of Debt Securities,&amp; #8221; Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, p. 326 Study Session 15-61-b Describe the basic features of a bond, the various coupon rate structures, and the structure of floating-rate securities. A is correct because a step-up note has contractually mandated changes in its coupon rate. </comments>
+        <comments>"Features of Debt Securities," Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, p. 326 Study Session 15-61-b Describe the basic features of a bond, the various coupon rate structures, and the structure of floating-rate securities. A is correct because a step-up note has contractually mandated changes in its coupon rate. </comments>
     </problem>
     <problem category="7" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
-        <question id="104">An investor fears that economic conditions will worsen and the market prices of her portfolio of investment-grade corporate bonds will decrease more than her portfolio of government bonds. The investor&amp; #8217;s fear is best described as a fear of:</question>
+        <question id="104">An investor fears that economic conditions will worsen and the market prices of her portfolio of investment-grade corporate bonds will decrease more than her portfolio of government bonds. The investor's fear is best described as a fear of:</question>
         <choices>
             <choice id="A">default risk</choice>
             <choice id="B">downgrade risk</choice>
             <choice id="C">credit spread risk</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Risks Associated with Investing in Bonds,&amp; #8221; Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 365-366 Study Session 15-62-j Describe the various forms of credit risk and describe the meaning and role of credit ratings. C is correct because the when the market is willing to pay less for investing in risky bonds, the spreads on those bonds widens relative to default-free bonds. Thus the investor is concerned about credit spread risk.</comments>
+        <comments>"Risks Associated with Investing in Bonds," Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 365-366 Study Session 15-62-j Describe the various forms of credit risk and describe the meaning and role of credit ratings. C is correct because the when the market is willing to pay less for investing in risky bonds, the spreads on those bonds widens relative to default-free bonds. Thus the investor is concerned about credit spread risk.</comments>
     </problem>
     <problem category="11" filename="2011_morning_answer.xml" topic="Fixed Income Investments" year="2011">
         <question id="108">The primary motivation for creating a collateralized mortgage obligation (CMO) is best described as the desire to redistribute which risk of investment in residential mortgages?</question>
@@ -391,7 +391,7 @@
             <choice id="C">Prepayment risk</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Overview of Bond Sectors and Instruments,&amp; #8221; Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 406-408 Study Session 15-63-f State the motivation for creating a collateralized mortgage obligation. C is correct because the motivation for creating a CMO is to distribute prepayment risk among different classes of bonds.</comments>
+        <comments>"Overview of Bond Sectors and Instruments," Frank J. Fabozzi, CFA 2011 Modular Level I, Vol. 5, pp. 406-408 Study Session 15-63-f State the motivation for creating a collateralized mortgage obligation. C is correct because the motivation for creating a CMO is to distribute prepayment risk among different classes of bonds.</comments>
     </problem>
     <problem category="10" filename="2012_afternoon_answer.xml" topic="Quantitative Methods" year="2012">
         <question id="24">If two events, A and B, are independent and the probability of A does not equal the probability of B (i.e., P(A) * P(B)), then the probability of event A given that event B has occurred (i.e., P(A | B)) is best described as:</question>
@@ -654,14 +654,14 @@
         <comments>"Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast, CFA 2013 Modular Level I, Vol. 2, Reading 13, Sections 3.9, 3.10 "International Trade and Capital Flows," Usha Nair-Reichert, PhD and Daniel Robert Witschi, PhD, CFA 2013 Modular Level I, Vol. 2, Reading 20, Sections 3.1, Exhibit 12 Study Session 4-13-i, j, 6-20-e Calculate and interpret consumer surplus, producer surplus, and total surplus. Analyze the effects of government regulation and intervention on demand and supply. Compare types of trade and capital restrictions and their economic implications. C is correct. The loss in consumer surplus because of higher prices is represented by area E+F+G+H. This exceeds the gains from producer surplus (E) and government revenues on imports (G). Hence, the net welfare effect to the country is a deadweight loss of [E + F + G + H] - [E] - [G] = F+H.</comments>
     </problem>
     <problem category="10" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
-        <question id="45">The current ratio for an industry is 3.2. Data for a firm in the industry is presented below: As at December 31 &amp; #163; '000s Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on June 30. 600 Using the current ratio, when compared with the industry, the firm is best described as being:</question>
+        <question id="45">The current ratio for an industry is 3.2. Data for a firm in the industry is presented below: As at December 31 £ '000s Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on June 30. 600 Using the current ratio, when compared with the industry, the firm is best described as being:</question>
         <choices>
             <choice id="A">as liquid</choice>
             <choice id="B">less liquid</choice>
             <choice id="C">more liquid</choice>
         </choices>
         <answer>B</answer>
-        <comments>"Understanding Balance Sheets," Elaine Henry, CFA and Thomas R. Robinson, CFA 2013 Modular Level I, Vol. 3, Section 7.2, Exhibit 19, Example 8 "Working Capital Management," Edgar A. Norton, Jr., CFA, Kenneth L. Parkinson, and Pamela Peterson Drake, CFA 2013 Modular Level I, Vol. 4, Reading 40, Sections 2.2. Study Session 8-26-i, 11-40-b Calculate and interpret liquidity and solvency ratios. Compare a company's liquidity measures with those of peer companies. B is correct. Current ratio = Current assets 4 Current liabilities Current assets: &amp; #163; '000s Current liabilities: &amp; #163; '000s Cash 200 Accounts payable 300 Accounts receivable 350 Taxes payable 200 Inventory 1,250 Loan payable, first installment 200 Total 1,800 Total 700 The higher the current ratio the more liquid the company. Thus, with a current ratio of 2.6 (1,800 4 700), the company is less liquid than the industry, with a current ratio of 3.2.</comments>
+        <comments>"Understanding Balance Sheets," Elaine Henry, CFA and Thomas R. Robinson, CFA 2013 Modular Level I, Vol. 3, Section 7.2, Exhibit 19, Example 8 "Working Capital Management," Edgar A. Norton, Jr., CFA, Kenneth L. Parkinson, and Pamela Peterson Drake, CFA 2013 Modular Level I, Vol. 4, Reading 40, Sections 2.2. Study Session 8-26-i, 11-40-b Calculate and interpret liquidity and solvency ratios. Compare a company's liquidity measures with those of peer companies. B is correct. Current ratio = Current assets 4 Current liabilities Current assets: £ '000s Current liabilities: £ '000s Cash 200 Accounts payable 300 Accounts receivable 350 Taxes payable 200 Inventory 1,250 Loan payable, first installment 200 Total 1,800 Total 700 The higher the current ratio the more liquid the company. Thus, with a current ratio of 2.6 (1,800 4 700), the company is less liquid than the industry, with a current ratio of 3.2.</comments>
     </problem>
     <problem category="11" filename="2013_morning_answer.xml" topic="Financial Statement Analysis" year="2013">
         <question id="59">According to the International Accounting Standards Board's Conceptual Framework for Financial Reporting, the two fundamental qualitative characteristics that make financial information useful are best described as:</question>
@@ -706,12 +706,12 @@
     <problem category="20" filename="2016_morning_question.xml" topic="Quantitative Methods" year="2016">
         <question id="27">When an investigator wants to test whether a particular parameter is greater than a specific value, the null and alternative hypothesis are best defined as:</question>
         <choices>
-            <choice id="A">Ha: 60% versus Ha: 6&amp; amp; lt; 0%</choice>
-            <choice id="B">Ho: 0&amp; amp; lt; 0, versus H;: 0 &amp; amp; gt; 00</choice>
-            <choice id="C">H&amp; #243;: 0 = 0, versus H,: 0 # 00</choice>
+            <choice id="A">Ha: 60% versus Ha: 6&lt; 0%</choice>
+            <choice id="B">Ho: 0&lt; 0, versus H;: 0 &gt; 00</choice>
+            <choice id="C">H0: 0 = 0, versus H,: 0 # 00</choice>
         </choices>
         <answer>B</answer>
-        <comments>A positive "hoped for" condition means that the null will be rejected (and the alternative accepted) only if the evidence indicates that the population parameter is greater than 80. Thus, HO: 0 &amp; amp; lt; 00 versus Ha: 0 &amp; amp; gt; 00 is the correct statement of the null and alternative hypotheses, respectively. CFA Level I "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
+        <comments>A positive "hoped for" condition means that the null will be rejected (and the alternative accepted) only if the evidence indicates that the population parameter is greater than 80. Thus, HO: 0 &lt; 00 versus Ha: 0 &gt; 00 is the correct statement of the null and alternative hypotheses, respectively. CFA Level I "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
     <problem category="20" filename="2016_morning_question.xml" topic="Economics" year="2016">
         <question id="33">The diagram to the right shows the Price Domestic Supply domestic demand and supply curves for a country which imports PI FI TH II G.-.-.-.--+- I-II a commodity, where Pw is its world Domestic Demand price and PT is its domestic price ----- after the imposition of a tariff. 0 Qi Q. Q. Q. Quantity The reduction in the net national welfare of this country as a result of the tariff is best described by the area(s):</question>
@@ -721,7 +721,7 @@
             <choice id="C">G</choice>
         </choices>
         <answer>B</answer>
-        <comments>The loss in consumer surplus because of higher prices is represented by area E+F+G+H. This exceeds the gains from producer surplus (E) and government revenues on imports (G). Hence the net welfare effect to the country is a deadweight loss of [E+F+G+H] - [E] - [G]=F+H. CFA Level 1 &amp; #8220;Demand and Supply Analysis: Introduction,&amp; #8221; Richard V. Eastin and Gary L. Arbogast, CFA Sections 3.9, 3.10, 3.13 &amp; #8220;International Trade and Capital Flows,&amp; #8221; Usha Nair-Reichert, PhD, and Daniel Robert Witschi, PhD, CFA Section 3.1</comments>
+        <comments>The loss in consumer surplus because of higher prices is represented by area E+F+G+H. This exceeds the gains from producer surplus (E) and government revenues on imports (G). Hence the net welfare effect to the country is a deadweight loss of [E+F+G+H] - [E] - [G]=F+H. CFA Level 1 "Demand and Supply Analysis: Introduction," Richard V. Eastin and Gary L. Arbogast, CFA Sections 3.9, 3.10, 3.13 "International Trade and Capital Flows," Usha Nair-Reichert, PhD, and Daniel Robert Witschi, PhD, CFA Section 3.1</comments>
     </problem>
     <problem category="7" filename="2016_morning_question.xml" topic="Economics" year="2016">
         <question id="41">Over a given period, the price of a commodity falls by 5.0%, and the quantity demanded rises by 7.5%. The price elasticity of demand for the commodity is best described as:</question>
@@ -771,7 +771,7 @@
             <choice id="C">equal weighting</choice>
         </choices>
         <answer>A</answer>
-        <comments>Fundamentally weighted indices generally will have a contrarian &amp; #8220;effect" in that the portfolio weights will shift away from securities that have increased in relative value and toward securities that have fallen in relative value whenever the portfolio is rebalanced. CFA Level I "Security Market Indices,&amp; #8221; Paul D. Kaplan and Dorothy C. Kelly Section 3.2.4</comments>
+        <comments>Fundamentally weighted indices generally will have a contrarian "effect" in that the portfolio weights will shift away from securities that have increased in relative value and toward securities that have fallen in relative value whenever the portfolio is rebalanced. CFA Level I "Security Market Indices," Paul D. Kaplan and Dorothy C. Kelly Section 3.2.4</comments>
     </problem>
     <problem category="0" filename="2016_morning_question.xml" topic="Equity Investments" year="2016">
         <question id="80">The behavioral bias in which investors tend to avoid realizing losses but rather seek to realize gains is best described as:</question>
@@ -781,7 +781,7 @@
             <choice id="C">the gambler's fallacy</choice>
         </choices>
         <answer>B</answer>
-        <comments>Behavioral biases in which investors tend to avoid realizing losses but, rather, seek to realize gains is the disposition effect. CFA Level I &amp; #8220;Market Efficiency,&amp; #8221; by W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 5.3</comments>
+        <comments>Behavioral biases in which investors tend to avoid realizing losses but, rather, seek to realize gains is the disposition effect. CFA Level I "Market Efficiency," by W. Sean Cleary, Howard J. Atkinson, and Pamela Peterson Drake Section 5.3</comments>
     </problem>
     <problem category="0" filename="2016_morning_question.xml" topic="Portfolio Management" year="2016">
         <question id="118">A return-generating model that provides an estimate of the expected return of a security based on such factors as earnings growth and cash flow generation is best described as a:</question>
@@ -851,7 +851,7 @@
             <choice id="C">monopolistic competition</choice>
         </choices>
         <answer>B</answer>
-        <comments>In a perfectly competitive market, sellers have no pricing power and thus sell their product at the price established by demand and supply in the market &amp; #8211; the market equilibrium price. CFA Level I "The Firm and Market Structures, " Richard G. Fritz and Michele Gambera Section 3.3</comments>
+        <comments>In a perfectly competitive market, sellers have no pricing power and thus sell their product at the price established by demand and supply in the the market equilibrium price. CFA Level I "The Firm and Market Structures, " Richard G. Fritz and Michele Gambera Section 3.3</comments>
     </problem>
     <problem category="11" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
         <question id="50">The SEC's approach to addressing the significant differences in financial reporting under International Financial Reporting Standards (IFRS) and US GAAP is best described as:</question>
@@ -864,14 +864,14 @@
         <comments>The SEC now advocates for global accounting standards through public announcements, such as its "Statement in Support of Convergence and Global Accounting Standards" (2010). In the past, the SEC had required reconciliations between IFRS and US GAAP, but these requirements were withdrawn in 2008. The SEC now imposes no requirements on its issuers. CFA Level I "Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 4</comments>
     </problem>
     <problem category="20" filename="2016_afternoon_question.xml" topic="Financial Statement Analysis" year="2016">
-        <question id="68">Data for a firm are presented in the following table: As of 31 December &amp; #163; thousands Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on 30 June. 600 The current ratio for the firm's industry is 3.2. Based on the current ratio, the firm's liquidity compared with the industry is best described as being:</question>
+        <question id="68">Data for a firm are presented in the following table: As of 31 December £ thousands Cash 200 Accounts receivable 350 Inventory 1,250 Accounts payable 300 Taxes payable 200 Installment loan payable, due in three equal annual payments on 30 June. 600 The current ratio for the firm's industry is 3.2. Based on the current ratio, the firm's liquidity compared with the industry is best described as being:</question>
         <choices>
             <choice id="A">higher</choice>
             <choice id="B">equivalent</choice>
             <choice id="C">lower</choice>
         </choices>
         <answer>C</answer>
-        <comments>The higher the current ratio, the more liquid the company. Thus, with a current ratio of 2.6 (1,800/700), the company is less liquid than the industry, which has a current ratio of 3.2. Current ratio = Current assets/Current liabilities. Current Assets &amp; #163; thousands Current Liabilities &amp; #163; thousands Cash 200 Accounts payable B00 Accounts receivable 350 Taxes payable 200 Inventory 1,250 Loan payable, first installment 200 Total 1,800 Total 700 CFA Level I &amp; #8220;Understanding Balance Sheets,&amp; #8221; Elaine Henry and Thomas R. Robinson Section 7.2 &amp; #8220;Financial Analysis Techniques,&amp; #8221; Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4.3 &amp; #8220;Working Capital Management,&amp; #8221; Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Sections 2.2</comments>
+        <comments>The higher the current ratio, the more liquid the company. Thus, with a current ratio of 2.6 (1,800/700), the company is less liquid than the industry, which has a current ratio of 3.2. Current ratio = Current assets/Current liabilities. Current Assets £ thousands Current Liabilities £ thousands Cash 200 Accounts payable B00 Accounts receivable 350 Taxes payable 200 Inventory 1,250 Loan payable, first installment 200 Total 1,800 Total 700 CFA Level I "Understanding Balance Sheets," Elaine Henry and Thomas R. Robinson Section 7.2 "Financial Analysis Techniques," Elaine Henry, Thomas R. Robinson, and Jan Hendrik van Greuning Section 4.3 "Working Capital Management," Edgar A. Norton, Jr., Kenneth L. Parkinson, and Pamela Peterson Drake Sections 2.2</comments>
     </problem>
     <problem category="7" filename="2016_afternoon_question.xml" topic="Derivative Investments" year="2016">
         <question id="91">A corporation issues five-year fixed-rate bonds. Its treasurer expects interest rates to decline for all maturities for at least the next year. She enters into a one-year agreement with a bank to receive quarterly fixed-rate payments and to make payments based on floating rates benchmarked on three-month LIBOR. This agreement is best described as a:</question>
@@ -881,7 +881,7 @@
             <choice id="C">futures contract</choice>
         </choices>
         <answer>B</answer>
-        <comments>A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three-month LIBOR, at least four payments will be made during the year. CFA Level I &amp; #8220;Derivative Markets and Instruments,&amp; #8221; Don M. Chance Section 4.1</comments>
+        <comments>A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three-month LIBOR, at least four payments will be made during the year. CFA Level I "Derivative Markets and Instruments," Don M. Chance Section 4.1</comments>
     </problem>
     <problem category="11" filename="2016_afternoon_question.xml" topic="Portfolio Management" year="2016">
         <question id="111">You are preparing an investment policy statement for a client who manages her own successful marketing consultancy. Her annual income is approximately $500,000. She describes herself as a finance novice. Most of her savings are invested in bank term deposits and short-term government securities. In her responses to the standard risk assessment questionnaire, she strongly agrees with the statements that she "feels more comfortable putting money in a bank account than in the stock market." Also, she "thinks of the word 'risk' as being a 'loss". Based on this information, your client's ability and willingness to take risk can best be described as:</question>
@@ -894,7 +894,7 @@
         <comments>Although the client owns a successful business and has a high income, she exhibits above-average risk aversion, indicating that her ability to take risk is high but her willingness to take risk is low. CFA Level I "Basics of Portfolio Planning and Construction," Alistair Byrne and Frank E. Smuddle Section 2.2</comments>
     </problem>
     <problem category="20" filename="2014_afternoon.xml" topic="Economics" year="2014">
-        <question id="39">The following diagram illustrates a market that had been in equilibrium at (PE, QE) prior to the imposition of a price ceiling, Pc. The deadweight loss that arises because of this market intervention is best described by the area defined by: . | CT ga! - bic Pc a | Qc Qe &amp; #229; om i o dd + + + Q D E</question>
+        <question id="39">The following diagram illustrates a market that had been in equilibrium at (PE, QE) prior to the imposition of a price ceiling, Pc. The deadweight loss that arises because of this market intervention is best described by the area defined by: . | CT ga! - bic Pc a | Qc Qe a om i o dd + + + Q D E</question>
         <choices>
             <choice id="A">d + b</choice>
             <choice id="B">d + e</choice>
@@ -951,7 +951,7 @@
             <choice id="C">swap</choice>
         </choices>
         <answer>C</answer>
-        <comments>&amp; #8220;Derivative Markets and Instruments," Don M. Chance Section 4.1 A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three-month LIBOR, at least four payments will be made during the year.</comments>
+        <comments>"Derivative Markets and Instruments," Don M. Chance Section 4.1 A swap is a series of forward payments. Specifically, a swap is an agreement between two parties to exchange a series of future cash flows. The corporation receives fixed interest rate payments and makes variable interest rate payments. Given that the contract is for one year and the floating rate is based on three-month LIBOR, at least four payments will be made during the year.</comments>
     </problem>
     <problem category="3" filename="2014_afternoon.xml" topic="Derivative Investments" year="2014">
         <question id="85">When purchasing a futures contract, the initial margin requirement is best described as the:</question>
@@ -971,7 +971,7 @@
             <choice id="C">understandability</choice>
         </choices>
         <answer>B</answer>
-        <comments>&amp; #8220;Financial Reporting Standards,&amp; #8221; Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.2 Under the IASB's Conceptual Framework, verifiability means that different knowledgeable and independent users would agree that the information presented faithfully represents the economic events that it is intended to represent</comments>
+        <comments>"Financial Reporting Standards," Elaine Henry, Jan Hendrik van Greuning, and Thomas R. Robinson Section 5.2 Under the IASB's Conceptual Framework, verifiability means that different knowledgeable and independent users would agree that the information presented faithfully represents the economic events that it is intended to represent</comments>
     </problem>
     <problem category="0" filename="2014_morning.xml" topic="Quantitative Methods" year="2014">
         <question id="73">A stock is declining in price and reaches a price range wherein buying activity is sufficient to stop the decline. This range is best described as the:</question>
@@ -1011,7 +1011,7 @@
             <choice id="C">labor force minus frictionally unemployed</choice>
         </choices>
         <answer>B</answer>
-        <comments>The unemployment rate is the ratio of unemployed to labor force. CFA Level | &amp; #8220;Understanding Business cycles," by Michele Gambera, Milton Ezrati, and Bolong Cao Section 4.1</comments>
+        <comments>The unemployment rate is the ratio of unemployed to labor force. CFA Level | "Understanding Business cycles," by Michele Gambera, Milton Ezrati, and Bolong Cao Section 4.1</comments>
     </problem>
     <problem category="2" filename="2015_morning.xml" topic="Quantitative Methods" year="2015">
         <question id="19">Monte Carlo simulation is best described as:</question>
@@ -1084,7 +1084,7 @@
         <comments>The central limit theorem holds without regard for the distribution of the underlying population. CFA Level I "Sampling and Estimation," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 3.1</comments>
     </problem>
     <problem category="7" filename="2017_afternoon.xml" topic="Economics" year="2017">
-        <question id="42">In the demand function f = 4.3 &amp; #8211; 0.7P +.031 &amp; #8211; .05Pwhere Q&amp; #203; represents the quantity demanded of a good X, Px is the price per unit of good X, I is consumers' income, and Py is the price per unit of good Y, X, and Yare best described as:</question>
+        <question id="42">In the demand function f = 4.3 - 0.7P +.031 - .05Pwhere QE represents the quantity demanded of a good X, Px is the price per unit of good X, I is consumers' income, and Py is the price per unit of good Y, X, and Yare best described as:</question>
         <choices>
             <choice id="A">complements</choice>
             <choice id="B">substitutes</choice>
@@ -1161,7 +1161,7 @@
             <choice id="C">same as the level of significance of the test</choice>
         </choices>
         <answer>B</answer>
-        <comments>The power of a test is the probability of correctly rejecting the null hypothesis&amp; #8212;that is, the probability of rejecting the null when it is false. CFA Level I. "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
+        <comments>The power of a test is the probability of correctly rejecting the null hypothesis that is, the probability of rejecting the null when it is false. CFA Level I. "Hypothesis Testing," Richard A. DeFusco, Dennis W. McLeavey, Jerald E. Pinto, and David E. Runkle Section 2</comments>
     </problem>
     <problem category="666" filename="2008-vol1-2.xml" topic="" year="2008">
 	<question id="31">A test statistic is best defined as:</question>
@@ -1190,7 +1190,7 @@
 </problem> 
 
 <problem category="666" filename="2008-vol1-3.xml" topic="" year="2008">
-	<question id="68">Eatan Inc. has a take-or-pay contract with SeaTac Inc. for $ 1,000,000 per year for five years. Eatan also recently sold receivables of $500,000. The present value (PV) of Eatan&amp; amp; #8217;s take-or-pay contract is $4,000,000 and the buyer of the receivables has recourse to Eatan. Once an analyst has adjusted Eatan&amp; amp; #8217;s debt to equity ratio, earnings before interest and taxes (EBIT), and assets for these two off-balance-sheet financing arrangements, the changes are best described by: Debt-to-equitv	EBIT	Assets</question>
+	<question id="68">Eatan Inc. has a take-or-pay contract with SeaTac Inc. for $ 1,000,000 per year for five years. Eatan also recently sold receivables of $500,000. The present value (PV) of Eatan's take-or-pay contract is $4,000,000 and the buyer of the receivables has recourse to Eatan. Once an analyst has adjusted Eatan's debt to equity ratio, earnings before interest and taxes (EBIT), and assets for these two off-balance-sheet financing arrangements, the changes are best described by: Debt-to-equitv	EBIT	Assets</question>
 	<choices>
 		<choice id="A">Increase	Decrease	Increase by $4,000,000</choice>
 		<choice id="B">Increase	Increase	Increase by $5,000,000</choice>
@@ -1218,7 +1218,7 @@
 <problem category="666" filename="2008-vol1-6.xml" topic="" year="2008">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond's value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01 %</choice>
 		<choice id="C">the change in the price of the bond when its duration changes by one basis point</choice>
 		<choice id="D">an estimate of the curvature of the price-yield relationship for a small change in yield</choice>
@@ -1242,7 +1242,7 @@
 <problem category="666" filename="2010-vol2-2.xml" topic="" year="2010">
 	<question id="115">The time value of an option is most accurately described as:</question>
 	<choices>
-		<choice id="A">being greatest at the option&amp; amp; #8217;s expiration date</choice>
+		<choice id="A">being greatest at the option's expiration date</choice>
 		<choice id="B">the entire premium for an out-of-the-money option</choice>
 		<choice id="C">the amount by which the intrinsic value exceeds the option premium</choice>
 	</choices>
@@ -1264,7 +1264,7 @@
 <problem category="666" filename="2010-vol2-3.xml" topic="" year="2010">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond's value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield. The following 6 questions relate to Derivatives. (9 minutes)</choice>
 	</choices>
@@ -1284,10 +1284,10 @@
 </problem> 
 
 <problem category="666" filename="2010-vol2-5.xml" topic="" year="2010">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The "up-move factor" in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the "down-move factor" for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -1339,7 +1339,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-1.xml" topic="" year="2011">
-	<question id="60">In accounting for a defined benefit pension plan, the amount reported as &amp; amp; #8220;prior service cost&amp; amp; #8221; most likely refers to the:</question>
+	<question id="60">In accounting for a defined benefit pension plan, the amount reported as "prior service cost" most likely refers to the:</question>
 	<choices>
 		<choice id="A">total value of benefits already paid to retirees who are still receiving pension payments</choice>
 		<choice id="B">present value of the pension benefits due to employees based on their employment up to the date of the statement</choice>
@@ -1350,7 +1350,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-3.xml" topic="" year="2011">
-	<question id="50">A company has a defined benefit pension plan for its employees. Which of the following changes in assumptions would most likely decrease a company&amp; amp; #8217;s reported pension expense? An increase in the expected:</question>
+	<question id="50">A company has a defined benefit pension plan for its employees. Which of the following changes in assumptions would most likely decrease a company's reported pension expense? An increase in the expected:</question>
 	<choices>
 		<choice id="A">retirement age</choice>
 		<choice id="B">return on plan assets</choice>
@@ -1374,7 +1374,7 @@
 <problem category="666" filename="2011-vol1-3.xml" topic="" year="2011">
 	<question id="115">The time value of an option is most accurately described as:</question>
 	<choices>
-		<choice id="A">being greatest at the option&amp; amp; #8217;s expiration date</choice>
+		<choice id="A">being greatest at the option's expiration date</choice>
 		<choice id="B">the entire premium for an out-of-the-money option</choice>
 		<choice id="C">the amount by which the intrinsic value exceeds the option premium</choice>
 	</choices>
@@ -1394,7 +1394,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-4.xml" topic="" year="2011">
-	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; amp; #8217;s:</question>
+	<question id="69">Business risk is best described as resulting from the combined effects of a firm's:</question>
 	<choices>
 		<choice id="A">financial risk and sales risk</choice>
 		<choice id="B">sales risk and operating risk</choice>
@@ -1407,7 +1407,7 @@
 <problem category="666" filename="2011-vol1-4.xml" topic="" year="2011">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond's value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield.</choice>
 	</choices>
@@ -1427,7 +1427,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-5.xml" topic="" year="2011">
-	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; amp; #8217;s securities regulators. This transaction is best described as being:</question>
+	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country's securities regulators. This transaction is best described as being:</question>
 	<choices>
 		<choice id="A">illegal</choice>
 		<choice id="B">in the primary market</choice>
@@ -1438,10 +1438,10 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-6.xml" topic="" year="2011">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The "up-move factor" in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the "down-move factor" for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -1449,7 +1449,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol1-6.xml" topic="" year="2011">
-	<question id="91">Over the past few years, the companies in an industry have experienced declining profitability and slowing growth, though profitability and growth remain positive. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; amp; #8217;s life-cycle stage is most accurately described as:</question>
+	<question id="91">Over the past few years, the companies in an industry have experienced declining profitability and slowing growth, though profitability and growth remain positive. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry's life-cycle stage is most accurately described as:</question>
 	<choices>
 		<choice id="A">decline</choice>
 		<choice id="B">maturity</choice>
@@ -1482,7 +1482,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
-	<question id="34">After working in a grocery store for two years, earning $20,000 per year, Mike Hoffman joined a professional sports team. Hoffman excels as an athlete and will earn $5 million this year. The large difference between Hoffman&amp; amp; #8217;s salary as an athlete and the wages he earned at the grocery store is best described as:</question>
+	<question id="34">After working in a grocery store for two years, earning $20,000 per year, Mike Hoffman joined a professional sports team. Hoffman excels as an athlete and will earn $5 million this year. The large difference between Hoffman's salary as an athlete and the wages he earned at the grocery store is best described as:</question>
 	<choices>
 		<choice id="A">economic rent</choice>
 		<choice id="B">marginal revenue product</choice>
@@ -1517,8 +1517,8 @@
 <problem category="666" filename="2011-vol2-1.xml" topic="" year="2011">
 	<question id="110">Inflation risk in bond investing is best described as the risk that the:</question>
 	<choices>
-		<choice id="A">value of a bond&amp; amp; #8217;s payments will decline in terms of real goods and services</choice>
-		<choice id="B">realized yield will be less than the bond&amp; amp; #8217;s yield to maturity as of the purchase date</choice>
+		<choice id="A">value of a bond's payments will decline in terms of real goods and services</choice>
+		<choice id="B">realized yield will be less than the bond's yield to maturity as of the purchase date</choice>
 		<choice id="C">price of a bond will respond more to an increase in interest rates than to an equal-sized decrease in interest rates.</choice>
 	</choices>
 	<answer>A</answer>
@@ -1530,7 +1530,7 @@
 	<choices>
 		<choice id="A">a common requirement for companies that are listed on public exchanges</choice>
 		<choice id="B">the reports and presentations a company uses to show its financial performance to investors, creditors, and other interested parties</choice>
-		<choice id="C">the use of information from a company&amp; amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
+		<choice id="C">the use of information from a company's financial statements along with other information to make economic decisions regarding that company</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -1550,8 +1550,8 @@
 <problem category="666" filename="2011-vol2-2.xml" topic="" year="2011">
 	<question id="90">Participating preference shares are most accurately described as preferred stock that:</question>
 	<choices>
-		<choice id="A">may be exchanged for the firm&amp; amp; #8217;s common shares at a predetermined ratio</choice>
-		<choice id="B">receives extra dividends if the firm&amp; amp; #8217;s profits are greater than a predetermined level</choice>
+		<choice id="A">may be exchanged for the firm's common shares at a predetermined ratio</choice>
+		<choice id="B">receives extra dividends if the firm's profits are greater than a predetermined level</choice>
 		<choice id="C">must be paid any omitted dividends from prior periods before the firm may pay dividends to common shareholders</choice>
 	</choices>
 	<answer>B</answer>
@@ -1559,7 +1559,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-2.xml" topic="" year="2011">
-	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; amp; #8217;s competitive strategy is most accurately described as a(n):</question>
+	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm's competitive strategy is most accurately described as a(n):</question>
 	<choices>
 		<choice id="A">offensive differentiation strategy</choice>
 		<choice id="B">offensive cost leadership strategy</choice>
@@ -1628,7 +1628,7 @@
 	<question id="83">When performing strategic asset allocation, properly defined and specified asset classes should:</question>
 	<choices>
 		<choice id="A">have high returns correlations with other asset classes</choice>
-		<choice id="B">approximate the investor&amp; amp; #8217;s total investable universe as a group</choice>
+		<choice id="B">approximate the investor's total investable universe as a group</choice>
 		<choice id="C">each contain assets that have a broad range of risk and expected return</choice>
 	</choices>
 	<answer>B</answer>
@@ -1647,7 +1647,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; amp; #8217;s shortfall risk is closest to:</question>
+	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson's pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund's shortfall risk is closest to:</question>
 	<choices>
 		<choice id="A">2.5%</choice>
 		<choice id="B">5.0%</choice>
@@ -1658,7 +1658,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; amp; #8217;s screening process is best described as:</question>
+	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold's screening process is best described as:</question>
 	<choices>
 		<choice id="A">simple random sampling</choice>
 		<choice id="B">systematic random sampling</choice>
@@ -1680,7 +1680,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; amp; #8226;	Structural unemployment results from a mismatch between workers&amp; amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
+	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. Structural unemployment results from a mismatch between workers' skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
 	<choices>
 		<choice id="A">Both of these statements are accurate</choice>
 		<choice id="B">Neither of these statements is accurate</choice>
@@ -1713,7 +1713,7 @@
 </problem> 
 
 <problem category="666" filename="2011-vol2-5.xml" topic="" year="2011">
-	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; amp; #8217;s:</question>
+	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project's:</question>
 	<choices>
 		<choice id="A">characteristic line</choice>
 		<choice id="B">net present value profile</choice>
@@ -1816,7 +1816,7 @@
 	<choices>
 		<choice id="A">Energy</choice>
 		<choice id="B">Technology</choice>
-		<choice id="C">Consumer staples. 93 . Which of the following scenarios is inconsistent with efficient financial markets? A.	An analyst&amp; amp; #8217;s buy recommendations have returned 2% more than the broad market index, on average. B.	Johnson, Inc. reports an increase of 8% in its earnings from a year earlier, and its stock price declines 5% on the news. C.	Earl Baker, an investor, earns consistently superior risk-adjusted returns by buying stocks when most investment advisors are pessimistic and selling stocks when most investment advisors are optimistic</choice>
+		<choice id="C">Consumer staples. 93 . Which of the following scenarios is inconsistent with efficient financial markets? A.	An analyst's buy recommendations have returned 2% more than the broad market index, on average. B.	Johnson, Inc. reports an increase of 8% in its earnings from a year earlier, and its stock price declines 5% on the news. C.	Earl Baker, an investor, earns consistently superior risk-adjusted returns by buying stocks when most investment advisors are pessimistic and selling stocks when most investment advisors are optimistic</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -1845,7 +1845,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-2.xml" topic="" year="2014">
-	<question id="69">Business risk is best described as resulting from the combined effects of a firm&amp; amp; #8217;s:</question>
+	<question id="69">Business risk is best described as resulting from the combined effects of a firm's:</question>
 	<choices>
 		<choice id="A">financial risk and sales risk</choice>
 		<choice id="B">sales risk and operating risk</choice>
@@ -1858,7 +1858,7 @@
 <problem category="666" filename="2014-vol1-2.xml" topic="" year="2014">
 	<question id="110">The price value of a basis point (PVBP) for a bond is most accurately described as:</question>
 	<choices>
-		<choice id="A">the product of a bond&amp; amp; #8217;s value and its duration</choice>
+		<choice id="A">the product of a bond's value and its duration</choice>
 		<choice id="B">the change in the price of the bond when its yield changes by 0.01%</choice>
 		<choice id="C">an estimate of the curvature of the price-yield relationship for a small change in yield.</choice>
 	</choices>
@@ -1878,10 +1878,10 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="25">The &amp; amp; #8220;up-move factor&amp; amp; #8221; in a binomial tree is best described as:</question>
+	<question id="25">The "up-move factor" in a binomial tree is best described as:</question>
 	<choices>
 		<choice id="A">the probability that the variable increases in any period</choice>
-		<choice id="B">one minus the &amp; amp; #8220;down-move factor&amp; amp; #8221; for the binomial tree</choice>
+		<choice id="B">one minus the "down-move factor" for the binomial tree</choice>
 		<choice id="C">one plus the percentage change in the variable when it increases</choice>
 	</choices>
 	<answer>C</answer>
@@ -1900,7 +1900,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="91">Over the past few years, the companies in an industry have experienced positive but decreasing profitability and growth rates. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry&amp; amp; #8217;s life-cycle stage is most accurately described as:</question>
+	<question id="91">Over the past few years, the companies in an industry have experienced positive but decreasing profitability and growth rates. The companies have begun to compete intensely with each other and customers switch frequently among brands. This industry's life-cycle stage is most accurately described as:</question>
 	<choices>
 		<choice id="A">growth</choice>
 		<choice id="B">maturity</choice>
@@ -1911,7 +1911,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-3.xml" topic="" year="2014">
-	<question id="108">A single yield used to discount all of a bond&amp; amp; #8217;s cash flows when calculating its price is most accurately described as the bond&amp; amp; #8217;s:</question>
+	<question id="108">A single yield used to discount all of a bond's cash flows when calculating its price is most accurately described as the bond's:</question>
 	<choices>
 		<choice id="A">simple yield</choice>
 		<choice id="B">current yield</choice>
@@ -1998,7 +1998,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-5.xml" topic="" year="2014">
-	<question id="57">In accounting for a defined benefit pension plan, the amount reported as &amp; amp; #8220;prior service cost&amp; amp; #8221; refers to the:</question>
+	<question id="57">In accounting for a defined benefit pension plan, the amount reported as "prior service cost" refers to the:</question>
 	<choices>
 		<choice id="A">total value of benefits already paid to retirees who are still receiving pension payments</choice>
 		<choice id="B">present value of the pension benefits due to employees based on their employment up to the date of the statement</choice>
@@ -2020,7 +2020,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-5.xml" topic="" year="2014">
-	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country&amp; amp; #8217;s securities regulators. This transaction is best described as being:</question>
+	<question id="92">Porter, Inc. sells 200,000 newly issued shares to two institutions without registering the shares with its country's securities regulators. This transaction is best described as being:</question>
 	<choices>
 		<choice id="A">illegal</choice>
 		<choice id="B">in the primary market</choice>
@@ -2053,7 +2053,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="102">The credit rating agency practice of &amp; amp; #8220;notching&amp; amp; #8221; is best described as:</question>
+	<question id="102">The credit rating agency practice of "notching" is best described as:</question>
 	<choices>
 		<choice id="A">assigning different ratings to different debt issues from the same issuer</choice>
 		<choice id="B">downgrading or upgrading the rating of a debt issue or issuer by one increment</choice>
@@ -2075,10 +2075,10 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="110">A duration gap is most accurately described as a difference between a bond&amp; amp; #8217;s:</question>
+	<question id="110">A duration gap is most accurately described as a difference between a bond's:</question>
 	<choices>
 		<choice id="A">Macaulay duration and effective duration</choice>
-		<choice id="B">duration and the bondholder&amp; amp; #8217;s investment horizon</choice>
+		<choice id="B">duration and the bondholder's investment horizon</choice>
 		<choice id="C">actual change in value and the change estimated using duration and convexity.</choice>
 	</choices>
 	<answer>B</answer>
@@ -2086,7 +2086,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol1-6.xml" topic="" year="2014">
-	<question id="119">A private equity firm that provides equity capital to a publicly traded company to finance the company&amp; amp; #8217;s restructuring, but does not take the company private, is best described as engaging in:</question>
+	<question id="119">A private equity firm that provides equity capital to a publicly traded company to finance the company's restructuring, but does not take the company private, is best described as engaging in:</question>
 	<choices>
 		<choice id="A">angel investing</choice>
 		<choice id="B">mezzanine financing</choice>
@@ -2145,7 +2145,7 @@
 	<choices>
 		<choice id="A">a common requirement for companies that are listed on public exchanges</choice>
 		<choice id="B">the reports and presentations a company uses to show its financial performance to investors, creditors, and other interested parties</choice>
-		<choice id="C">the use of information from a company&amp; amp; #8217;s financial statements along with other information to make economic decisions regarding that company</choice>
+		<choice id="C">the use of information from a company's financial statements along with other information to make economic decisions regarding that company</choice>
 	</choices>
 	<answer>C</answer>
 	<comments />
@@ -2174,7 +2174,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-3.xml" topic="" year="2014">
-	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm&amp; amp; #8217;s competitive strategy is most accurately described as a(n):</question>
+	<question id="94">A firm attempts to gain market share from its competitors by improving its manufacturing efficiency so that it can increase output and reduce the price of its product. This firm's competitive strategy is most accurately described as a(n):</question>
 	<choices>
 		<choice id="A">offensive differentiation strategy</choice>
 		<choice id="B">offensive cost leadership strategy</choice>
@@ -2207,7 +2207,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson&amp; amp; #8217;s pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund&amp; amp; #8217;s shortfall risk is closest to:</question>
+	<question id="26">Jackson Aerospace offers a defined benefit pension to its retirees. To maintain its fully funded status, Jackson determines that the pension portfolio must earn at least 7% per year. The expected return and standard deviation for Jackson's pension portfolio returns are 15% and 4%, respectively. Assuming the portfolio returns are normally distributed, the pension fund's shortfall risk is closest to:</question>
 	<choices>
 		<choice id="A">2.5%</choice>
 		<choice id="B">5.0%</choice>
@@ -2218,7 +2218,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold&amp; amp; #8217;s screening process is best described as:</question>
+	<question id="30">Lou Gold, CFA, is screening all stocks on an exchange and grouping them by the industry in which they operate. Gold then selects stocks at random from each industry and combines the selected stocks to form an index to represent the performance of all stocks on the exchange. Gold's screening process is best described as:</question>
 	<choices>
 		<choice id="A">simple random sampling</choice>
 		<choice id="B">systematic random sampling</choice>
@@ -2229,7 +2229,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: &amp; amp; #8226;	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. &amp; amp; #8226;	Structural unemployment results from a mismatch between workers&amp; amp; #8217; skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
+	<question id="37">Jasmir Singh, CFA, is discussing unemployment and makes the following statements: 	Frictional unemployment describes unemployment resulting from economic cycles. When the economy goes into a recession, frictional unemployment increases. 	Structural unemployment results from a mismatch between workers' skills and the jobs available as economic changes eliminate some jobs and create new ones. Has Singh accurately described these two types of unemployment?</question>
 	<choices>
 		<choice id="A">Both of these statements are accurate</choice>
 		<choice id="B">Neither of these statements is accurate</choice>
@@ -2240,7 +2240,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-4.xml" topic="" year="2014">
-	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project&amp; amp; #8217;s:</question>
+	<question id="73">A graph that shows the relation between the cost of capital and the value that a project adds to the firm is best described as a project's:</question>
 	<choices>
 		<choice id="A">characteristic line</choice>
 		<choice id="B">net present value profile</choice>
@@ -2295,7 +2295,7 @@
 </problem> 
 
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
-	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao&amp; amp; #8217;s ranking system is best described as a(n):</question>
+	<question id="32">Kidra Rao ranks and classifies firms into ten groups based on their interest coverage ratios, lowest to highest. Rao's ranking system is best described as a(n):</question>
 	<choices>
 		<choice id="A">ratio scale</choice>
 		<choice id="B">nominal scale</choice>
@@ -2308,8 +2308,8 @@
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
 	<question id="33">The short run, as an economic decision-making time frame, is best described as:</question>
 	<choices>
-		<choice id="A">one year or the length of the firm&amp; amp; #8217;s production cycle</choice>
-		<choice id="B">the period during which the firm&amp; amp; #8217;s plant size and production methods are fixed</choice>
+		<choice id="A">one year or the length of the firm's production cycle</choice>
+		<choice id="B">the period during which the firm's plant size and production methods are fixed</choice>
 		<choice id="C">the period in which the firm cannot change its input quantities of labor and materials</choice>
 	</choices>
 	<answer>B</answer>
@@ -2341,8 +2341,8 @@
 <problem category="666" filename="2014-vol2-5.xml" topic="" year="2014">
 	<question id="89">Participating preference shares are most accurately described as preferred stock that:</question>
 	<choices>
-		<choice id="A">may be exchanged for the firm&amp; amp; #8217;s common shares at a predetermined ratio</choice>
-		<choice id="B">receives extra dividends if the firm&amp; amp; #8217;s profits are greater than a predetermined level</choice>
+		<choice id="A">may be exchanged for the firm's common shares at a predetermined ratio</choice>
+		<choice id="B">receives extra dividends if the firm's profits are greater than a predetermined level</choice>
 		<choice id="C">must be paid any omitted dividends from prior periods before the firm may pay dividends to common shareholders</choice>
 	</choices>
 	<answer>B</answer>
@@ -2386,7 +2386,7 @@
 	<question id="83">When performing strategic asset allocation, properly defined and specified asset classes should:</question>
 	<choices>
 		<choice id="A">have high returns correlations with other asset classes</choice>
-		<choice id="B">approximate the investor&amp; amp; #8217;s total investable universe as a group</choice>
+		<choice id="B">approximate the investor's total investable universe as a group</choice>
 		<choice id="C">each contain assets that have a broad range of risk and expected return</choice>
 	</choices>
 	<answer>B</answer>
