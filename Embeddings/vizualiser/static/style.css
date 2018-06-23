@@ -103,6 +103,10 @@ body {
     font-weight: bold;
 }
 
+.label2 {
+    padding-left: 10px;
+}
+
 .comparison-info {
     width: 300px;
     border-right: solid 1px #00008052;

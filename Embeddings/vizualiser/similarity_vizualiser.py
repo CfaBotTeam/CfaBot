@@ -9,6 +9,7 @@ from Embeddings.vizualiser.dto import NlpComparison
 from Bot.Classification import ProblemsClassifier
 from Bot.Classification import ProblemCategory
 from Bot.Utils import get_enum_name
+from Bot.Load import SpacyLoader
 
 
 class SimiliarityVizualiser:
@@ -73,7 +74,7 @@ class SimiliarityVizualiser:
         if model_name != 'en' and model_name != 'en_core_web_lg':
             model_name = os.path.join(os.path.dirname(Embeddings.models.__file__), os.path.basename(model_name))
         if model_name not in self.nlp_models_:
-            self.nlp_models_[model_name] = spacy.load(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])
+            self.nlp_models_[model_name] = SpacyLoader().load_nlp(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])
         return self.nlp_models_[model_name]
 
     def get_similarity(self, token1, token2):

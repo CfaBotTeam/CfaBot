@@ -1,6 +1,6 @@
 import datetime
 import json
-import spacy
+from Bot.Load import SpacyLoader
 from Bot.Load import ProblemsReader
 from Bot.Classification import ProblemsClassifier
 from Bot.Classification import ProblemCategory
@@ -15,7 +15,7 @@ class Pipeline:
     def __init__(self, args):
         self.args_ = args
         self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
-        self.nlp_ = spacy.load(self.model_name_, disable=['tagger', 'textcat'])
+        self.nlp_ = SpacyLoader().load_nlp(self.model_name_)
         glossary = self.load_glossary(args.glossary)
         def_finder = DrqaDefinitionFinder()
         def_provider = DefinitionsProvider(glossary, def_finder, args.provider_mode)
