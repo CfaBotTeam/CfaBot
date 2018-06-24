@@ -7,9 +7,9 @@ from Bot.Resolver import DefinitionKeywordStartEndResolver
 
 
 class ResolverFactory:
-    def __init__(self, def_provider, nlp):
+    def __init__(self, def_provider, nlp, similarity_mode):
         self.def_provider_ = def_provider
-        self.sim_scorer_ = SimilarityScorer(nlp)
+        self.sim_scorer_ = SimilarityScorer(nlp, similarity_mode)
 
     def get_resolver(self, category):
         if category == ProblemCategory.DEF_KEYWORD:

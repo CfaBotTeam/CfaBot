@@ -21,7 +21,7 @@ class Pipeline:
         def_provider = DefinitionsProvider(glossary, def_finder, args.provider_mode)
         self.problems_reader_ = ProblemsReader(args.dataset)
         self.classifier_ = ProblemsClassifier(glossary, self.nlp_)
-        self.resolver_factory_ = ResolverFactory(def_provider, self.nlp_)
+        self.resolver_factory_ = ResolverFactory(def_provider, self.nlp_, args.similarity_mode)
 
     def load_glossary(self, filepath):
         return Glossary(json.load(open(filepath, 'r')), self.nlp_)
@@ -76,6 +76,7 @@ class Pipeline:
             'dataset': self.args_.dataset,
             'glossary': self.args_.glossary,
             'provider_mode': self.args_.provider_mode,
+            'similarity_mode': self.args_.similarity_mode,
             'overall': {'nb_total': 0, 'nb_correct': 0},
         }
         all_problems_df = self.problems_reader_.read_all_problems()

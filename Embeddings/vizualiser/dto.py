@@ -46,10 +46,11 @@ class ComparisonResult:
 
 
 class FileResult:
-    def __init__(self, problem, model, dataset, provider, glossary):
+    def __init__(self, problem, model, dataset, provider, similarity_mode, glossary):
         self.model_ = model
         self.dataset_ = dataset
         self.provider_ = provider
+        self.similarity_mode_ = similarity_mode
         self.glossary_ = glossary
         self.choices_ = problem['choices']
         self.predicted_answer_ = problem['predicted_answer']
@@ -85,16 +86,16 @@ class FileResult:
 
 
 class Problem:
-    def __init__(self, id, fullname, model, category, problem, dataset, provider, glossary):
+    def __init__(self, id, fullname, model, category, problem, dataset, provider, similarity_mode, glossary):
         self.id_ = id
         self.category_ = category
         self.question_ = problem['question']
         self.correct_answer_ = problem['real_answer']
         self.file_results_ = {}
-        self.add_file_result(fullname, model, problem, dataset, provider, glossary)
+        self.add_file_result(fullname, model, problem, dataset, provider, similarity_mode, glossary)
 
-    def add_file_result(self, fullname, model, problem, dataset, provider, glossary):
-        self.file_results_[fullname] = FileResult(problem, model, dataset, provider, glossary)
+    def add_file_result(self, fullname, model, problem, dataset, provider, similarity_mode, glossary):
+        self.file_results_[fullname] = FileResult(problem, model, dataset, provider, similarity_mode, glossary)
 
     def get_file_result(self, filename):
         if filename not in self.file_results_:
@@ -143,11 +144,11 @@ class Problem:
     def has_file(self, filename):
         return filename in self.file_results_
 
-    def add_file(self, filename, model, problem, dataset, provider, glossary):
+    def add_file(self, filename, model, problem, dataset, provider, similarity_mode, glossary):
         if self.has_file(filename):
             print("Warning when loading data => Found the question '%s' twice for the same filename %s" % (self.id_, filename))
             return
-        self.add_file_result(filename, model, problem, dataset, provider, glossary)
+        self.add_file_result(filename, model, problem, dataset, provider, similarity_mode, glossary)
 
     def get_file_result_success(self, file_result):
         if file_result.success_:

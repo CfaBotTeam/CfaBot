@@ -7,6 +7,7 @@ import uuid
 from Embeddings.vizualiser import SimiliarityVizualiser
 import Results
 import os.path
+from Bot.Similarity import SimilarityMode
 
 
 app = Flask(__name__)
@@ -84,11 +85,17 @@ def refresh_comparison():
     problem_id = request.form['problem_id']
     model = request.form['model']
     filename = request.form['filename']
+
+    if filename == 'results_06_23_18_24':
+        similarity_mode = SimilarityMode.WEIGHTED
+    else:
+        similarity_mode = SimilarityMode.NORMAL
+
     choice_index = int(request.form['choice_index'])
     q_option_index = int(request.form['q_option_index'])
     c_option_index = int(request.form['c_option_index'])
     comparison = vizualiser.get_comparison(problem_id, filename, choice_index, q_option_index, c_option_index)
-    nlp_comparison = vizualiser.get_nlp_comparison(comparison, model)
+    nlp_comparison = vizualiser.get_nlp_comparison(comparison, model, similarity_mode)
     return jsonify({
         'html': render_template('comparison.html', nlp_comparison=nlp_comparison),
         'q_source': comparison.q_source_,

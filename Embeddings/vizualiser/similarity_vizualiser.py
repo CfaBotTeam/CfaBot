@@ -1,5 +1,4 @@
 import json
-import spacy
 import os
 import os.path
 import Embeddings.models
@@ -10,19 +9,21 @@ from Bot.Classification import ProblemsClassifier
 from Bot.Classification import ProblemCategory
 from Bot.Utils import get_enum_name
 from Bot.Load import SpacyLoader
+from Bot.Similarity import SimilarityScorer
 
 
 class SimiliarityVizualiser:
     def __init__(self, results_directory):
         self.nlp_models_ = {}
         self.results_directory_ = results_directory
+        self.spacy_loader_ = SpacyLoader()
 
-    def load_category(self, fullname, model, category, result, dataset, provider, glossary):
+    def load_category(self, fullname, model, category, result, dataset, provider, similarity_mode, glossary):
         for question_id, problem in result[category].items():
             if not question_id in self.all_problems_:
-                self.all_problems_[question_id] = Problem(question_id, fullname, model, category, problem, dataset, provider, glossary)
+                self.all_problems_[question_id] = Problem(question_id, fullname, model, category, problem, dataset, provider, similarity_mode, glossary)
             else:
-                self.all_problems_[question_id].add_file(fullname, model, problem, dataset, provider, glossary)
+                self.all_problems_[question_id].add_file(fullname, model, problem, dataset, provider, similarity_mode, glossary)
 
     def load_all_problems(self):
         file_categories = set()
@@ -35,6 +36,7 @@ class SimiliarityVizualiser:
             dataset = result['dataset']
             glossary = os.path.basename(result['glossary'])
             provider_mode = result['provider_mode']
+            similarity_mode = result['similarity_mode']
             file_without_ext = os.path.splitext(filename)[0]
             # fullname = "%s-%s-%s" % (file_without_ext, model, provider_mode)
             self.all_files_.append(file_without_ext)
@@ -44,7 +46,7 @@ class SimiliarityVizualiser:
                     continue
                 if not key in file_categories:
                     file_categories.add(key)
-                self.load_category(file_without_ext, model, key, result, dataset, provider_mode, glossary)
+                self.load_category(file_without_ext, model, key, result, dataset, provider_mode, similarity_mode, glossary)
         return file_categories
 
     def load(self):
@@ -70,25 +72,26 @@ class SimiliarityVizualiser:
             return self.all_problems_[id]
         return None
 
-    def get_nlp(self, model_name):
+    def get_nlp(self, model_name, similarity_mode):
         if model_name != 'en' and model_name != 'en_core_web_lg':
             model_name = os.path.join(os.path.dirname(Embeddings.models.__file__), os.path.basename(model_name))
         if model_name not in self.nlp_models_:
-            self.nlp_models_[model_name] = SpacyLoader().load_nlp(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])
+            nlp = self.spacy_loader_.load_nlp(model_name, disable=['tagger', 'parser', 'ner', 'textcat'])
+            self.nlp_models_[model_name] = [nlp, SimilarityScorer(nlp, similarity_mode)]
         return self.nlp_models_[model_name]
 
-    def get_similarity(self, token1, token2):
+    def get_similarity(self, token1, token2, scorer):
         try:
-            return token1.similarity(token2)
-        except:
+            return scorer.score_tokens(token1, token2)
+        except Exception as e:
             return 0.0
 
-    def get_sentence_compared_tokens(self, sentence1_nlp, sentence2_nlp):
+    def get_sentence_compared_tokens(self, sentence1_nlp, sentence2_nlp, scorer):
         sentence_compared_tokens = []
         for token1 in sentence1_nlp:
             token1_scores = []
             for token2 in sentence2_nlp:
-                token1_scores.append(self.get_similarity(token1, token2))
+                token1_scores.append(self.get_similarity(token1, token2, scorer))
             sentence_compared_tokens.append(ComparedToken(token1, token1_scores))
         return sentence_compared_tokens
 
@@ -101,12 +104,12 @@ class SimiliarityVizualiser:
             return None
         return comparisons[q_option_index][choice_index][c_option_index]
 
-    def get_nlp_comparison(self, comparison, model):
-        nlp = self.get_nlp(model)
+    def get_nlp_comparison(self, comparison, model, similarity_mode):
+        nlp, scorer = self.get_nlp(model, similarity_mode)
         if comparison is None:
             return NlpComparison([], [])
         q_sentence_nlp = nlp(comparison.q_definition_)
         c_sentence_nlp = nlp(comparison.c_definition_)
-        q_sentence_compared_tokens = self.get_sentence_compared_tokens(q_sentence_nlp, c_sentence_nlp)
-        c_sentence_compared_tokens = self.get_sentence_compared_tokens(c_sentence_nlp, q_sentence_nlp)
+        q_sentence_compared_tokens = self.get_sentence_compared_tokens(q_sentence_nlp, c_sentence_nlp, scorer)
+        c_sentence_compared_tokens = self.get_sentence_compared_tokens(c_sentence_nlp, q_sentence_nlp, scorer)
         return NlpComparison(q_sentence_compared_tokens, c_sentence_compared_tokens)
