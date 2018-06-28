@@ -22,20 +22,18 @@ class DrqaDefinitionFinder:
         self.top_n_ = 5
         self.n_docs_ = 5
         print('Loading DrQA')
-        self.drqa_ = DrQA(
-            reader_model=self.reader_model_,
-            fixed_candidates=self.candidates_,
-            embedding_file=self.embedding_file_,
-            tokenizer=self.tokenizer_,
-            batch_size=self.batch_size_,
-            cuda=self.cuda_,
-            data_parallel=self.parallel_,
-            ranker_config=self.ranker_config_,
-            db_config=self.db_config_,
-            num_workers=self.num_workers_,
-        )
-        self.debug_file_ = open('../../../missing_keywords.csv', 'w')
-        self.debug_file_.write("keyword, question\r\n")
+        # self.drqa_ = DrQA(
+        #     reader_model=self.reader_model_,
+        #     fixed_candidates=self.candidates_,
+        #     embedding_file=self.embedding_file_,
+        #     tokenizer=self.tokenizer_,
+        #     batch_size=self.batch_size_,
+        #     cuda=self.cuda_,
+        #     data_parallel=self.parallel_,
+        #     ranker_config=self.ranker_config_,
+        #     db_config=self.db_config_,
+        #     num_workers=self.num_workers_,
+        # )
 
     def find_definitions(self, keyword):
         question = "What is a %s?" % keyword
@@ -45,5 +43,4 @@ class DrqaDefinitionFinder:
             top_n=self.top_n_,
             return_context=True
         )
-        self.debug_file_.write("%s, %s\r\n" % (keyword, question))
         return [x['span'] for x in predictions[0]]

@@ -13,7 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--dataset', type=str, default='Data/qa_mock_exams/all_def_problems_cleaned.xml')
     parser.add_argument('--glossary', type=str, default='Data/material_handbook/glossary_manual.json')
     parser.add_argument('--similarity-mode', type=str, default=SimilarityMode.NORMAL)
-    parser.add_argument('--provider-mode', type=str, default=DefinitionsProvider.DRQA_FALLBACK,
+    parser.add_argument('--provider-mode', type=str, default=DefinitionsProvider.GLOSS_ONLY,
                         help=("Enable to defined the behavior when fetching definitions."
                               "Either look only glossary ('gloss-only'), "
                               "only use DrQA ('drqa-only') "
