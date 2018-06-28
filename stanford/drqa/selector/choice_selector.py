@@ -4,7 +4,7 @@ import torch
 import torch.autograd as autograd
 import torch.nn.functional as F
 import numpy as np
-from drqa.pipeline import tokenize_text
+from stanford.drqa.pipeline import tokenize_text
 from multiprocessing import Pool
 
 
