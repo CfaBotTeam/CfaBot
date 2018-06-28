@@ -14,7 +14,7 @@ from stanford.drqa.link import DrqaDefinitionFinder
 class Pipeline:
     def __init__(self, args):
         self.args_ = args
-        self.model_name_ = 'Embeddings/models/cfa_spacy_mdl-investopedia_plus_cfa'
+        self.model_name_ = args.model
         self.nlp_ = SpacyLoader().load_nlp(self.model_name_)
         glossary = self.load_glossary(args.glossary)
         def_finder = DrqaDefinitionFinder()

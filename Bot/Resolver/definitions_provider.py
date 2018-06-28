@@ -37,8 +37,8 @@ class DefinitionsProvider:
             glosskey, defs = self.get_glossary_definitions(loosly, keyword)
             return glosskey, self.wrap_with_source(defs, DefinitionSource.GLOSS)
         if self.mode_ == self.DRQA_ONLY:
-            glosskey, defs = self.drqa_def_finder_.find_definitions(keyword)
-            return glosskey, self.wrap_with_source(defs, DefinitionSource.DRQA)
+            defs = self.drqa_def_finder_.find_definitions(keyword)
+            return keyword, self.wrap_with_source(defs, DefinitionSource.DRQA)
         if self.mode_ == self.DRQA_FALLBACK:
             if self.is_in_glossary(loosly, keyword):
                 glosskey, defs = self.get_glossary_definitions(loosly, keyword)

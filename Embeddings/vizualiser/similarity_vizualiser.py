@@ -82,7 +82,8 @@ class SimiliarityVizualiser:
 
     def get_similarity(self, token1, token2, scorer):
         try:
-            return scorer.score_tokens(token1, token2)
+            return token1.similarity(token2)
+            # return scorer.score_tokens(token1, token2)
         except Exception as e:
             return 0.0
 

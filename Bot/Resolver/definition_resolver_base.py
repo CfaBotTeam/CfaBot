@@ -76,6 +76,8 @@ class DefinitionResolverBase:
                     continue
                 c_def_comparisons = []
                 c_comparisons.append(c_def_comparisons)
+                if choice_definitions.definitions_ is None:
+                    continue
                 for c_def, c_source in choice_definitions.definitions_:
                     score = self.scorer_.score(c_def, q_def)
                     c_def_comparisons.append({'c_keyword': choice_definitions.keyword_,
